@@ -1,0 +1,148 @@
+{"id": "r958", "query": "Total emails received", "result_text": "2,000", "source": "api", "label": "exact_numeric"}
+{"id": "r1134", "query": "Open tickets count", "result_text": "42", "source": "api", "label": "exact_numeric"}
+{"id": "r608", "query": "Total messages sent", "result_text": "3,000", "source": "api", "label": "exact_numeric"}
+{"id": "r286", "query": "Total API requests", "result_text": "1M", "source": "cache", "label": "exact_numeric"}
+{"id": "r1087", "query": "Retention rate D30", "result_text": "45%", "source": "model", "label": "exact_numeric"}
+{"id": "r892", "query": "Total audio files", "result_text": "5,000", "source": "db", "label": "exact_numeric"}
+{"id": "r657", "query": "Number of cpus", "result_text": "16", "source": "api", "label": "exact_numeric"}
+{"id": "r358", "query": "Inventory count SKU-456", "result_text": "0", "source": "db", "label": "exact_numeric", "notes": "out of stock"}
+{"id": "r1107", "query": "Employee ENPS", "result_text": "45", "source": "db", "label": "exact_numeric"}
+{"id": "r1141", "query": "Total lines of code", "result_text": "2.5M", "source": "db", "label": "exact_numeric"}
+{"id": "r678", "query": "Total cache size", "result_text": "1 GB", "source": "db", "label": "exact_numeric"}
+{"id": "r186", "query": "Number of active projects", "result_text": "12", "source": "db", "label": "exact_numeric"}
+{"id": "r1392", "query": "Rev YTD", "result_text": "$600k", "source": "db", "label": "exact_numeric"}
+{"id": "r713", "query": "Average API response time", "result_text": "150ms", "source": "api", "label": "exact_numeric"}
+{"id": "r026", "query": "Employee headcount 2024", "result_text": "145", "source": "db", "label": "exact_numeric"}
+{"id": "r321", "query": "Number of processes", "result_text": "150", "source": "api", "label": "exact_numeric"}
+{"id": "r1099", "query": "Peak concurrent connections", "result_text": "5,100", "source": "cache", "label": "exact_numeric"}
+{"id": "r054", "query": "Current stock price", "result_text": "$145.20", "source": "api", "label": "exact_numeric"}
+{"id": "r744", "query": "Total issues resolved this week", "result_text": "120", "source": "api", "label": "exact_numeric"}
+{"id": "r520", "query": "Total voided transactions", "result_text": "$200", "source": "db", "label": "exact_numeric"}
+{"id": "r150", "query": "Average age of users", "result_text": "29 years", "source": "db", "label": "exact_numeric"}
+{"id": "r335", "query": "Number of nodes", "result_text": "10", "source": "api", "label": "exact_numeric"}
+{"id": "r1401", "query": "Total sales Q1 2026", "result_text": "$1.5M", "source": "db", "label": "exact_numeric"}
+{"id": "r554", "query": "Number of records processed", "result_text": "50,000", "source": "db", "label": "exact_numeric"}
+{"id": "r371", "query": "Total chargebacks today", "result_text": "$540.00", "source": "db", "label": "exact_numeric"}
+{"id": "r572", "query": "Total log entries", "result_text": "10,000,000", "source": "db", "label": "exact_numeric"}
+{"id": "r451", "query": "Total liabilities", "result_text": "$1,000,000", "source": "db", "label": "exact_numeric"}
+{"id": "r737", "query": "Feature adoption rate", "result_text": "45%", "source": "model", "label": "exact_numeric"}
+{"id": "r664", "query": "Total assets count", "result_text": "5,000", "source": "db", "label": "exact_numeric"}
+{"id": "r177", "query": "Weekly revenue trend", "result_text": "$10k, $12k, $11k, $13k", "source": "db", "label": "time_series"}
+{"id": "r205", "query": "API response code trend", "result_text": "200, 200, 200, 500, 200", "source": "api", "label": "time_series"}
+{"id": "r076", "query": "Search query volume trend", "result_text": "[500, 520, 510, 530, 550]", "source": "db", "label": "time_series"}
+{"id": "r544", "query": "Rack temperature trend", "result_text": "25C, 26C, 25C, 28C", "source": "api", "label": "time_series"}
+{"id": "r1255", "query": "Response codes", "result_text": "200, 200, 404, 200", "source": "api", "label": "time_series"}
+{"id": "r1163", "query": "Daily steps", "result_text": "[7000, 8000, 6000, 9000]", "source": "api", "label": "time_series"}
+{"id": "r302", "query": "Daily active sessions", "result_text": "100, 110, 105, 120", "source": "cache", "label": "time_series"}
+{"id": "r790", "query": "Daily calorie intake", "result_text": "[2000, 2200, 1800, 2500]", "source": "api", "label": "time_series"}
+{"id": "r1170", "query": "Weekly commits", "result_text": "[20, 30, 25, 40]", "source": "api", "label": "time_series"}
+{"id": "r624", "query": "Daily disk usage", "result_text": "[10GB, 11GB, 10.5GB, 12GB]", "source": "api", "label": "time_series"}
+{"id": "r169", "query": "Hourly request rate", "result_text": "[100, 150, 200, 180]", "source": "api", "label": "time_series"}
+{"id": "r504", "query": "Daily warnings trend", "result_text": "2, 3, 1, 5, 2", "source": "db", "label": "time_series"}
+{"id": "r1338", "query": "Svr load", "result_text": "0.6, 0.7, 0.8, 0.6", "source": "api", "label": "time_series"}
+{"id": "r981", "query": "Weekly active nodes", "result_text": "[8, 8, 8, 9, 8]", "source": "api", "label": "time_series"}
+{"id": "r200", "query": "Memory usage trend", "result_text": "4GB, 4.2GB, 4.5GB, 4.1GB", "source": "api", "label": "time_series"}
+{"id": "r023", "query": "Daily visits last week", "result_text": "Mon: 1k, Tue: 1.2k, Wed: 1.1k, Thu: 1.3k, Fri: 1.5k, Sat: 900, Sun: 800", "source": "api", "label": "time_series"}
+{"id": "r1359", "query": "Bandwidth", "result_text": "[1.1TB, 1.3TB, 1.2TB, 1.4TB]", "source": "api", "label": "time_series"}
+{"id": "r309", "query": "Weekly bandwidth", "result_text": "[1TB, 1.2TB, 1.1TB, 1.3TB]", "source": "api", "label": "time_series"}
+{"id": "r053", "query": "Weekly bugs reported", "result_text": "[12, 14, 10, 8, 15]", "source": "db", "label": "time_series"}
+{"id": "r098", "query": "Load average trend", "result_text": "0.5, 0.6, 0.5, 1.2, 0.5", "source": "api", "label": "time_series"}
+{"id": "r1019", "query": "Customer location stats", "result_text": "Urban 80%, Rural 20%", "source": "db", "label": "category_breakdown"}
+{"id": "r575", "query": "Purchases by source", "result_text": "App 60%, Web 40%", "source": "db", "label": "category_breakdown"}
+{"id": "r082", "query": "Top 5 selling books", "result_text": "1. Atomic Habits, 2. Dune, 3. Project Hail Mary...", "source": "db", "label": "category_breakdown"}
+{"id": "r183", "query": "Top referral links", "result_text": "Link A: 500 clicks, Link B: 300 clicks", "source": "db", "label": "category_breakdown"}
+{"id": "r249", "query": "Support ticket priority", "result_text": "High 10%, Medium 40%, Low 50%", "source": "db", "label": "category_breakdown"}
+{"id": "r844", "query": "Device resolution breakdown", "result_text": "HD 50%, 4K 20%, SD 30%", "source": "db", "label": "category_breakdown"}
+{"id": "r794", "query": "Top revenue clients", "result_text": "Client X ($1M), Client Y ($800k), Client Z ($500k)", "source": "db", "label": "category_breakdown"}
+{"id": "r129", "query": "Customer support tickets by tag", "result_text": "Billing: 50, Tech: 30, Feature: 20", "source": "db", "label": "category_breakdown"}
+{"id": "r1152", "query": "Incident severity", "result_text": "Sev1: 0, Sev2: 1, Sev3: 10", "source": "db", "label": "category_breakdown"}
+{"id": "r676", "query": "Campaign status stats", "result_text": "Running 50%, Paused 30%, Ended 20%", "source": "db", "label": "category_breakdown"}
+{"id": "r1166", "query": "Top languages", "result_text": "Python, Java, C++", "source": "db", "label": "category_breakdown"}
+{"id": "r1270", "query": "Role stats", "result_text": "Admin 10%, User 90%", "source": "db", "label": "category_breakdown"}
+{"id": "r1091", "query": "Browser stats", "result_text": "Chrome: 70%, Firefox: 20%, Edge: 10%", "source": "db", "label": "category_breakdown"}
+{"id": "r291", "query": "User gender stats", "result_text": "M: 48%, F: 50%, O: 2%", "source": "db", "label": "category_breakdown"}
+{"id": "r925", "query": "Traffic by device", "result_text": "Mobile 50%, Desktop 50%", "source": "db", "label": "category_breakdown"}
+{"id": "r722", "query": "Return reasons breakdown", "result_text": "Size: 40%, Defect: 20%, Mind Change: 40%", "source": "db", "label": "category_breakdown"}
+{"id": "r391", "query": "Mobile OS market share", "result_text": "Android: 70%, iOS: 29%, Other: 1%", "source": "db", "label": "category_breakdown"}
+{"id": "r089", "query": "Operating System stats", "result_text": "Windows 60%, MacOS 30%, Linux 10%", "source": "db", "label": "category_breakdown"}
+{"id": "r075", "query": "Churn reasons", "result_text": "Price: 50%, Product: 30%, Support: 20%", "source": "model", "label": "category_breakdown"}
+{"id": "r305", "query": "Traffic source stats", "result_text": "Search 40%, Direct 30%, Social 30%", "source": "db", "label": "category_breakdown"}
+{"id": "r1144", "query": "Top paying clients", "result_text": "Client A ($50k), Client B ($40k)", "source": "db", "label": "category_breakdown"}
+{"id": "r256", "query": "Device OS breakdown", "result_text": "Android 60%, iOS 40%", "source": "db", "label": "category_breakdown"}
+{"id": "r034", "query": "Top 3 support issues", "result_text": "1. Login (40%), 2. Billing (30%), 3. Bugs (20%)", "source": "db", "label": "category_breakdown"}
+{"id": "r1342", "query": "Compare sales 22/23", "result_text": "22: 1.2M, 23: 1.6M", "source": "db", "label": "comparison"}
+{"id": "r437", "query": "Compare EBITDA vs Net Income", "result_text": "EBITDA: $2M, Net: $1.5M", "source": "db", "label": "comparison"}
+{"id": "r1246", "query": "Compare Q2/Q3 exp", "result_text": "Q2: 50k, Q3: 55k", "source": "db", "label": "comparison"}
+{"id": "r1048", "query": "Compare Q1 vs Q2 users", "result_text": "Q1: 100, Q2: 120", "source": "db", "label": "comparison"}
+{"id": "r005", "query": "Compare conversion rate desktop vs mobile", "result_text": "Desktop: 4.5%, Mobile: 2.1%", "source": "model", "label": "comparison"}
+{"id": "r866", "query": "Compare today vs avg sales", "result_text": "Today: $5k, Avg: $4k", "source": "db", "label": "comparison"}
+{"id": "r1161", "query": "Compare open vs click", "result_text": "Open: 30%, Click: 5%", "source": "db", "label": "comparison"}
+{"id": "r334", "query": "Compare 2023 vs 2024 budget", "result_text": "2023: 100k, 2024: 110k", "source": "db", "label": "comparison"}
+{"id": "r830", "query": "Compare week over week sales", "result_text": "This week: $5k, Last week: $4.5k", "source": "db", "label": "comparison"}
+{"id": "r1216", "query": "Compare today vs yesterday", "result_text": "Today: 100, Yesterday: 90", "source": "db", "label": "comparison"}
+{"id": "r292", "query": "Compare 2022 vs 2023 sales", "result_text": "2022: 1M, 2023: 1.5M", "source": "db", "label": "comparison"}
+{"id": "r516", "query": "Compare today vs yesterday sales", "result_text": "Today: $1k, Yesterday: $900", "source": "db", "label": "comparison"}
+{"id": "r125", "query": "Compare male vs female users", "result_text": "Male 55%, Female 45%", "source": "db", "label": "comparison"}
+{"id": "r978", "query": "Compare new vs returning users", "result_text": "New 40%, Returning 60%", "source": "db", "label": "comparison"}
+{"id": "r306", "query": "Compare 2023 vs 2024 users", "result_text": "2023: 100k, 2024: 120k", "source": "db", "label": "comparison"}
+{"id": "r032", "query": "Compare organic vs paid traffic", "result_text": "Organic 60% / Paid 40%", "source": "api", "label": "comparison"}
+{"id": "r1252", "query": "Compare active/inactive", "result_text": "Active 30%, Inactive 70%", "source": "db", "label": "comparison"}
+{"id": "r1377", "query": "Compare act/susp", "result_text": "Act 98%, Susp 2%", "source": "db", "label": "comparison"}
+{"id": "r264", "query": "Compare 2023 vs 2024 expenses", "result_text": "2023: 50k, 2024: 60k", "source": "db", "label": "comparison"}
+{"id": "r250", "query": "Compare online vs offline sales", "result_text": "Online 80%, Offline 20%", "source": "db", "label": "comparison"}
+{"id": "r257", "query": "Compare revenue product A vs B", "result_text": "A: $10k, B: $5k", "source": "db", "label": "comparison"}
+{"id": "r916", "query": "Compare laptop vs desktop sales", "result_text": "Laptop 60%, Desktop 40%", "source": "db", "label": "comparison"}
+{"id": "r633", "query": "Users with credit < 0", "result_text": "[]", "source": "db", "label": "noop_empty"}
+{"id": "r948", "query": "Deleted comments", "result_text": "None", "source": "db", "label": "noop_empty"}
+{"id": "r1389", "query": "Space users", "result_text": "0", "source": "db", "label": "noop_empty"}
+{"id": "r581", "query": "Search for 'barbaz'", "result_text": "No matches", "source": "db", "label": "noop_empty"}
+{"id": "r1249", "query": "Notifications", "result_text": "0", "source": "db", "label": "noop_empty"}
+{"id": "r689", "query": "Users in void", "result_text": "0", "source": "db", "label": "noop_empty"}
+{"id": "r654", "query": "Blacklisted IPs", "result_text": "[]", "source": "db", "label": "noop_empty"}
+{"id": "r983", "query": "Users with debt", "result_text": "[]", "source": "db", "label": "noop_empty"}
+{"id": "r882", "query": "New alerts", "result_text": "0", "source": "db", "label": "noop_empty"}
+{"id": "r931", "query": "Search for 'quuxbar'", "result_text": "No matches", "source": "db", "label": "noop_empty"}
+{"id": "r248", "query": "Deleted items", "result_text": "None", "source": "db", "label": "noop_empty"}
+{"id": "r311", "query": "Archived emails", "result_text": "0", "source": "db", "label": "noop_empty"}
+{"id": "r549", "query": "Pending messages", "result_text": "0", "source": "db", "label": "noop_empty"}
+{"id": "r1224", "query": "List 'Unicorn' users", "result_text": "null", "source": "db", "label": "noop_empty"}
+{"id": "r164", "query": "Users with 0 logins", "result_text": "[]", "source": "db", "label": "noop_empty"}
+{"id": "r591", "query": "Upcoming holidays", "result_text": "[]", "source": "db", "label": "noop_empty"}
+{"id": "r436", "query": "Visitors from Antarctica", "result_text": "null", "source": "db", "label": "noop_empty"}
+{"id": "r1070", "query": "Forecast revenue next year", "result_text": "Timeout: Model limit reached", "source": "model", "label": "error"}
+{"id": "r796", "query": "Run complex aggregation", "result_text": "Error: Temp space limit exceeded", "source": "db", "label": "error"}
+{"id": "r370", "query": "Forecasted churn next month", "result_text": "Timeout: Model inference exceeded 60s", "source": "model", "label": "error"}
+{"id": "r961", "query": "API threshold reached", "result_text": "Error: Threshold exceeded", "source": "api", "label": "error"}
+{"id": "r1407", "query": "Kafka status", "result_text": "Error: Down", "source": "db", "label": "error"}
+{"id": "r096", "query": "Run heavy aggregation", "result_text": "Error: Memory limit exceeded", "source": "db", "label": "error"}
+{"id": "r1003", "query": "Authenticate admin", "result_text": "Error: Invalid OTP", "source": "api", "label": "error"}
+{"id": "r173", "query": "Payment API status", "result_text": "503 Service Unavailable", "source": "api", "label": "error"}
+{"id": "r1304", "query": "Server error", "result_text": "Error: Disk full", "source": "api", "label": "error"}
+{"id": "r1024", "query": "Restart service", "result_text": "Error: Service not found", "source": "api", "label": "error"}
+{"id": "r254", "query": "Server error logs", "result_text": "Error: Disk full", "source": "api", "label": "error"}
+{"id": "r456", "query": "Verify user email", "result_text": "Error: Domain blacklisted", "source": "api", "label": "error"}
+{"id": "r563", "query": "Invalid XML format", "result_text": "Error: Tag mismatch at line 5", "source": "model", "label": "error"}
+{"id": "r667", "query": "Stop service", "result_text": "Error: Service not running", "source": "api", "label": "error"}
+{"id": "r1231", "query": "Query cancel", "result_text": "Error: Cancelled", "source": "db", "label": "error"}
+{"id": "r1346", "query": "Exec cmd", "result_text": "Error: Not found", "source": "api", "label": "error"}
+{"id": "r156", "query": "Connect to legacy system", "result_text": "Error: Protocol mismatch", "source": "api", "label": "error"}
+{"id": "r639", "query": "Export users", "result_text": "Error: Permission denied", "source": "api", "label": "error"}
+{"id": "r1160", "query": "Card expiry anomaly", "result_text": "Batch expiry: 1000 cards today", "source": "model", "label": "anomaly"}
+{"id": "r1050", "query": "Unusual file modification", "result_text": "Anomaly: /etc/passwd modified", "source": "model", "label": "anomaly"}
+{"id": "r1337", "query": "Err spike", "result_text": "Anomaly: 500 > 6%", "source": "model", "label": "anomaly"}
+{"id": "r935", "query": "Unusual timeout rate", "result_text": "Anomaly: Timeouts > 2%", "source": "model", "label": "anomaly"}
+{"id": "r1043", "query": "Network flood", "result_text": "Anomaly: 1000 packets/sec", "source": "model", "label": "anomaly"}
+{"id": "r1210", "query": "CPU spike", "result_text": "Anomaly: CPU 100% for 10m", "source": "model", "label": "anomaly"}
+{"id": "r1153", "query": "Memory leak alert", "result_text": "Slow leak: +100MB/day", "source": "model", "label": "anomaly"}
+{"id": "r227", "query": "Sudden drop in database connections", "result_text": "Anomaly: Connections dropped to 0", "source": "model", "label": "anomaly"}
+{"id": "r693", "query": "Packet loss spike", "result_text": "Anomaly: Loss > 2%", "source": "model", "label": "anomaly"}
+{"id": "r1323", "query": "Temp alert", "result_text": "Alert: 92C", "source": "model", "label": "anomaly"}
+{"id": "r301", "query": "Network latency spike", "result_text": "Anomaly: Ping 500ms (norm 20ms)", "source": "model", "label": "anomaly"}
+{"id": "r672", "query": "Unusual process count", "result_text": "Anomaly: Proc count > 500", "source": "model", "label": "anomaly"}
+{"id": "r103", "query": "Memory leak detection", "result_text": "Slow creep detected in Service-X: +50MB/hour", "source": "model", "label": "anomaly"}
+{"id": "r308", "query": "Unusual API usage", "result_text": "Anomaly: 1000 reqs/min from one key", "source": "model", "label": "anomaly"}
+{"id": "r1261", "query": "High IO", "result_text": "Anomaly: Wait > 90%", "source": "model", "label": "anomaly"}
+{"id": "r1309", "query": "Latency spike", "result_text": "Anomaly: >2s", "source": "model", "label": "anomaly"}
+{"id": "r315", "query": "Security alert", "result_text": "Anomaly: Port scan detected", "source": "model", "label": "anomaly"}
+{"id": "r885", "query": "Spike in 401 errors", "result_text": "Anomaly: 401 rate > 5%", "source": "model", "label": "anomaly"}
+{"id": "r1060", "query": "Detect anomaly in login", "result_text": "Anomaly: Login from new country (RU)", "source": "model", "label": "anomaly"}

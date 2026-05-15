@@ -1,0 +1,1410 @@
+{"id":"r001","query":"Total Q1 revenue 2025","result_text":"$4.2M","source":"db","label":"exact_numeric"}
+{"id":"r002","query":"Active users currently online","result_text":"14,502","source":"cache","label":"exact_numeric"}
+{"id":"r003","query":"Server CPU load trend last hour","result_text":"[45%, 48%, 52%, 89%, 91%, 60%]","source":"api","label":"time_series","notes":"spike detected"}
+{"id":"r004","query":"Top selling items March","result_text":"Widget A: 500, Widget B: 320, Widget C: 150","source":"db","label":"category_breakdown"}
+{"id":"r005","query":"Compare conversion rate desktop vs mobile","result_text":"Desktop: 4.5%, Mobile: 2.1%","source":"model","label":"comparison"}
+{"id":"r006","query":"Check for PII leaks in logs","result_text":"None detected","source":"model","label":"noop_empty"}
+{"id":"r007","query":"Database connection status","result_text":"Error: Connection refused (5432)","source":"db","label":"error"}
+{"id":"r008","query":"Inventory count SKU-123","result_text":"0","source":"db","label":"exact_numeric","notes":"out of stock"}
+{"id":"r009","query":"Email open rates last 5 campaigns","result_text":"{'c1': 22%, 'c2': 25%, 'c3': 19%, 'c4': 28%, 'c5': 24%}","source":"db","label":"time_series"}
+{"id":"r010","query":"Unexpected login attempts","result_text":"Anomaly: 500 attempts from IP 192.168.1.1 in 10s","source":"model","label":"anomaly"}
+{"id":"r011","query":"Sales growth 2023 vs 2024","result_text":"+12.5% YoY","source":"db","label":"comparison"}
+{"id":"r012","query":"Customer demographic by age","result_text":"18-24: 15%, 25-34: 40%, 35-44: 25%, 45+: 20%","source":"db","label":"category_breakdown"}
+{"id":"r013","query":"Average ticket response time","result_text":"4h 12m","source":"api","label":"exact_numeric"}
+{"id":"r014","query":"Retrieve user profile for ID 999999","result_text":"User not found","source":"db","label":"noop_empty"}
+{"id":"r015","query":"API latency p99 last 24h","result_text":"240ms","source":"api","label":"exact_numeric"}
+{"id":"r016","query":"Cost per acquisition trend Q2","result_text":"Apr: $40, May: $42, Jun: $38","source":"db","label":"time_series"}
+{"id":"r017","query":"System uptime","result_text":"99.98%","source":"cache","label":"exact_numeric"}
+{"id":"r018","query":"Identify fraud transactions","result_text":"Tx 8821 flagged: Score 0.95","source":"model","label":"anomaly"}
+{"id":"r019","query":"Competitor price analysis","result_text":"Us: $19.99, CompA: $18.50, CompB: $22.00","source":"model","label":"comparison"}
+{"id":"r020","query":"Forecasted revenue next month","result_text":"Timeout: Model inference exceeded 30s","source":"model","label":"error"}
+{"id":"r021","query":"Total refunds processed today","result_text":"$1,240.50","source":"db","label":"exact_numeric"}
+{"id":"r022","query":"churn rate by plan tier","result_text":"Basic: 5%, Pro: 2%, Enterprise: 0.5%","source":"db","label":"category_breakdown"}
+{"id":"r023","query":"Daily visits last week","result_text":"Mon: 1k, Tue: 1.2k, Wed: 1.1k, Thu: 1.3k, Fri: 1.5k, Sat: 900, Sun: 800","source":"api","label":"time_series"}
+{"id":"r024","query":"Compare Jan vs Feb expenses","result_text":"Jan: 50k, Feb: 55k (10% increase)","source":"db","label":"comparison"}
+{"id":"r025","query":"High memory usage alerts","result_text":"Alert: Node-4 memory > 95% at 14:00 UTC","source":"model","label":"anomaly"}
+{"id":"r026","query":"Employee headcount 2024","result_text":"145","source":"db","label":"exact_numeric"}
+{"id":"r027","query":"Slack integration status","result_text":"403 Forbidden","source":"api","label":"error"}
+{"id":"r028","query":"Features used by account Acme","result_text":"Reporting, API Access, SSO","source":"db","label":"category_breakdown"}
+{"id":"r029","query":"Sales in Antarctica","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r030","query":"Median deal size","result_text":"$15,000","source":"db","label":"exact_numeric"}
+{"id":"r031","query":"Net Promoter Score trend","result_text":"Q1: 45, Q2: 48, Q3: 50, Q4: 52","source":"db","label":"time_series"}
+{"id":"r032","query":"Compare organic vs paid traffic","result_text":"Organic 60% / Paid 40%","source":"api","label":"comparison"}
+{"id":"r033","query":"Database replication lag","result_text":"Spike: 5000ms lag detected","source":"model","label":"anomaly"}
+{"id":"r034","query":"Top 3 support issues","result_text":"1. Login (40%), 2. Billing (30%), 3. Bugs (20%)","source":"db","label":"category_breakdown"}
+{"id":"r035","query":"MRR for August 2024","result_text":"$102,300","source":"db","label":"exact_numeric"}
+{"id":"r036","query":"Export user list","result_text":"Error: File system write permission denied","source":"api","label":"error"}
+{"id":"r037","query":"Retention cohort analysis Month 1","result_text":"85%","source":"model","label":"exact_numeric"}
+{"id":"r038","query":"Twitter mentions volume","result_text":"[10, 15, 12, 50, 100, 12]","source":"api","label":"time_series","notes":"viral spike"}
+{"id":"r039","query":"Projected runway","result_text":"18 months","source":"model","label":"exact_numeric"}
+{"id":"r040","query":"Customers named 'Zelda'","result_text":"null","source":"db","label":"noop_empty"}
+{"id":"r041","query":"Browser market share","result_text":"Chrome: 65%, Safari: 20%, Firefox: 10%, Edge: 5%","source":"db","label":"category_breakdown"}
+{"id":"r042","query":"Compare LTV vs CAC","result_text":"LTV: $500, CAC: $100 (Ratio 5:1)","source":"model","label":"comparison"}
+{"id":"r043","query":"Unusual outbound traffic","result_text":"Data exfiltration suspected: 5GB sent to unlisted IP","source":"model","label":"anomaly"}
+{"id":"r044","query":"Total code commits this week","result_text":"45","source":"api","label":"exact_numeric"}
+{"id":"r045","query":"Build failure rate trend","result_text":"5%, 4%, 4%, 12% (bad merge), 3%","source":"api","label":"time_series"}
+{"id":"r046","query":"Cloud spend by service","result_text":"EC2: 50%, S3: 20%, RDS: 30%","source":"db","label":"category_breakdown"}
+{"id":"r047","query":"Get invoice #9999","result_text":"404 Not Found","source":"api","label":"error"}
+{"id":"r048","query":"Active experiments","result_text":"Exp_A (Control), Exp_B (Variant)","source":"db","label":"category_breakdown"}
+{"id":"r049","query":"Peak concurrent users","result_text":"2,100","source":"cache","label":"exact_numeric"}
+{"id":"r050","query":"New signups vs cancellations","result_text":"Signups: 50, Cancellations: 5","source":"db","label":"comparison"}
+{"id":"r051","query":"Revenue 2022","result_text":"$5.1M","source":"db","label":"exact_numeric"}
+{"id":"r052","query":"Latency by region","result_text":"US-East: 20ms, EU-West: 45ms, AP-South: 120ms","source":"api","label":"category_breakdown"}
+{"id":"r053","query":"Weekly bugs reported","result_text":"[12, 14, 10, 8, 15]","source":"db","label":"time_series"}
+{"id":"r054","query":"Current stock price","result_text":"$145.20","source":"api","label":"exact_numeric"}
+{"id":"r055","query":"Compare iOS vs Android retention","result_text":"iOS D30: 40%, Android D30: 35%","source":"db","label":"comparison"}
+{"id":"r056","query":"Detect SQL injection attempts","result_text":"Pattern 'OR 1=1' found in query logs","source":"model","label":"anomaly"}
+{"id":"r057","query":"Customer support CSAT score","result_text":"4.8/5","source":"db","label":"exact_numeric"}
+{"id":"r058","query":"Marketing spend channel mix","result_text":"FB: 40%, Google: 40%, LinkedIn: 20%","source":"db","label":"category_breakdown"}
+{"id":"r059","query":"Upcoming holidays","result_text":"No holidays in next 7 days","source":"api","label":"noop_empty"}
+{"id":"r060","query":"Parse resume for skills","result_text":"Error: Unsupported file format .xyz","source":"model","label":"error"}
+{"id":"r061","query":"User growth 2020-2024","result_text":"2020: 10k, 2021: 20k, 2022: 45k, 2023: 80k, 2024: 150k","source":"db","label":"time_series"}
+{"id":"r062","query":"Average cart value","result_text":"$75.50","source":"db","label":"exact_numeric"}
+{"id":"r063","query":"Mobile app crash rate anomaly","result_text":"Spike to 5% crash free users after v2.1 release","source":"model","label":"anomaly"}
+{"id":"r064","query":"Compare 2023 Q4 vs 2024 Q4 forecast","result_text":"2023 Q4: 1M, 2024 Q4: 1.5M","source":"model","label":"comparison"}
+{"id":"r065","query":"Top referral sources","result_text":"Direct: 50%, Google: 30%, Newsletter: 20%","source":"db","label":"category_breakdown"}
+{"id":"r066","query":"Number of active pods","result_text":"32","source":"api","label":"exact_numeric"}
+{"id":"r067","query":"Pending approvals","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r068","query":"Generate monthly report","result_text":"Gateway Timeout","source":"api","label":"error"}
+{"id":"r069","query":"Daily temperature trend NYC","result_text":"Mon 72F, Tue 75F, Wed 70F","source":"api","label":"time_series"}
+{"id":"r070","query":"Max transaction value today","result_text":"$5,000","source":"db","label":"exact_numeric"}
+{"id":"r071","query":"Disk usage distribution","result_text":"/var 60%, /home 20%, /usr 10%, /tmp 10%","source":"api","label":"category_breakdown"}
+{"id":"r072","query":"Compare feature usage Free vs Paid","result_text":"Free: 2 feats, Paid: 10 feats","source":"db","label":"comparison"}
+{"id":"r073","query":"Security audit logs","result_text":"Unusual sudo access by user 'devops_intern'","source":"model","label":"anomaly"}
+{"id":"r074","query":"Total subscribers","result_text":"1,002,340","source":"db","label":"exact_numeric"}
+{"id":"r075","query":"Churn reasons","result_text":"Price: 50%, Product: 30%, Support: 20%","source":"model","label":"category_breakdown"}
+{"id":"r076","query":"Search query volume trend","result_text":"[500, 520, 510, 530, 550]","source":"db","label":"time_series"}
+{"id":"r077","query":"API quota status","result_text":"Quota exceeded (1000/1000)","source":"api","label":"error"}
+{"id":"r078","query":"Find users in Mars colony","result_text":"0 records found","source":"db","label":"noop_empty"}
+{"id":"r079","query":"Average resolution time","result_text":"2.5 days","source":"db","label":"exact_numeric"}
+{"id":"r080","query":"Compare AWS vs Azure spend","result_text":"AWS: $5k, Azure: $2k","source":"db","label":"comparison"}
+{"id":"r081","query":"Sudden drop in traffic","result_text":"Alert: -50% traffic drop at 03:00 UTC","source":"model","label":"anomaly"}
+{"id":"r082","query":"Top 5 selling books","result_text":"1. Atomic Habits, 2. Dune, 3. Project Hail Mary...","source":"db","label":"category_breakdown"}
+{"id":"r083","query":"Server RAM usage trend","result_text":"8GB, 8.1GB, 8.2GB, 8.1GB","source":"api","label":"time_series"}
+{"id":"r084","query":"Number of open PRs","result_text":"7","source":"api","label":"exact_numeric"}
+{"id":"r085","query":"Calculate ROI for Campaign X","result_text":"Error: Division by zero (Cost was 0)","source":"model","label":"error"}
+{"id":"r086","query":"Visitors from North Korea","result_text":"null","source":"db","label":"noop_empty"}
+{"id":"r087","query":"Compare gross vs net profit","result_text":"Gross: 50%, Net: 10%","source":"db","label":"comparison"}
+{"id":"r088","query":"Transaction volume anomaly","result_text":"Spike: 1000 tx/sec (norm 200)","source":"model","label":"anomaly"}
+{"id":"r089","query":"Operating System stats","result_text":"Windows 60%, MacOS 30%, Linux 10%","source":"db","label":"category_breakdown"}
+{"id":"r090","query":"Daily burned calories","result_text":"[2200, 2400, 2100, 2500]","source":"api","label":"time_series"}
+{"id":"r091","query":"Total lines of code","result_text":"1.2M","source":"db","label":"exact_numeric"}
+{"id":"r092","query":"Compare latency HTTP/1.1 vs HTTP/2","result_text":"1.1: 100ms, 2: 60ms","source":"api","label":"comparison"}
+{"id":"r093","query":"Database deadlock detected","result_text":"Deadlock found on table 'orders'","source":"db","label":"anomaly"}
+{"id":"r094","query":"Top paying customers","result_text":"CorpA ($100k), CorpB ($90k), CorpC ($80k)","source":"db","label":"category_breakdown"}
+{"id":"r095","query":"Weekly active developers","result_text":"12","source":"db","label":"exact_numeric"}
+{"id":"r096","query":"Run heavy aggregation","result_text":"Error: Memory limit exceeded","source":"db","label":"error"}
+{"id":"r097","query":"Sales for product 'Phantom'","result_text":"No sales recorded","source":"db","label":"noop_empty"}
+{"id":"r098","query":"Load average trend","result_text":"0.5, 0.6, 0.5, 1.2, 0.5","source":"api","label":"time_series"}
+{"id":"r099","query":"Compare Q3 actual vs target","result_text":"Actual: 500k, Target: 450k","source":"db","label":"comparison"}
+{"id":"r100","query":"User count","result_text":"50,000","source":"cache","label":"exact_numeric"}
+{"id":"r101","query":"Total assets value","result_text":"$2,500,000","source":"db","label":"exact_numeric"}
+{"id":"r102","query":"Incident count by severity","result_text":"Sev1: 0, Sev2: 2, Sev3: 15","source":"db","label":"category_breakdown"}
+{"id":"r103","query":"Memory leak detection","result_text":"Slow creep detected in Service-X: +50MB/hour","source":"model","label":"anomaly"}
+{"id":"r104","query":"Compare 2024 vs 2025 headcount","result_text":"2024: 100, 2025: 120","source":"db","label":"comparison"}
+{"id":"r105","query":"Response time trend","result_text":"200ms, 210ms, 205ms, 200ms","source":"api","label":"time_series"}
+{"id":"r106","query":"Check user permissions","result_text":"Error: Token invalid","source":"api","label":"error"}
+{"id":"r107","query":"Tasks due yesterday","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r108","query":"Number of Slack channels","result_text":"45","source":"api","label":"exact_numeric"}
+{"id":"r109","query":"Traffic sources breakdown","result_text":"Social 50%, Search 30%, Direct 20%","source":"db","label":"category_breakdown"}
+{"id":"r110","query":"Credit card expiration anomaly","result_text":"Sudden batch of 500 expired cards detected","source":"model","label":"anomaly"}
+{"id":"r111","query":"Compare open vs click rates","result_text":"Open: 20%, Click: 2%","source":"db","label":"comparison"}
+{"id":"r112","query":"Revenue per employee","result_text":"$250,000","source":"model","label":"exact_numeric"}
+{"id":"r113","query":"Daily steps trend","result_text":"[8000, 9000, 7500, 10000]","source":"api","label":"time_series"}
+{"id":"r114","query":"File upload status","result_text":"Error: File too large (>10MB)","source":"api","label":"error"}
+{"id":"r115","query":"Users in zipcode 00000","result_text":"0","source":"db","label":"noop_empty"}
+{"id":"r116","query":"Top 3 used languages","result_text":"Python, JS, Go","source":"db","label":"category_breakdown"}
+{"id":"r117","query":"Average deal cycle length","result_text":"45 days","source":"db","label":"exact_numeric"}
+{"id":"r118","query":"Compare desktop vs mobile conversion","result_text":"Desktop 3%, Mobile 1.5%","source":"db","label":"comparison"}
+{"id":"r119","query":"Network packet loss anomaly","result_text":"Loss > 5% detected on switch A","source":"model","label":"anomaly"}
+{"id":"r120","query":"Weekly commits trend","result_text":"[10, 20, 15, 30, 25]","source":"api","label":"time_series"}
+{"id":"r121","query":"Number of active sessions","result_text":"342","source":"cache","label":"exact_numeric"}
+{"id":"r122","query":"Expense breakdown by category","result_text":"Payroll 60%, Rent 10%, Software 10%, T&E 20%","source":"db","label":"category_breakdown"}
+{"id":"r123","query":"API authentication failure","result_text":"401 Unauthorized","source":"api","label":"error"}
+{"id":"r124","query":"Search results for 'gadzooks'","result_text":"No results found","source":"db","label":"noop_empty"}
+{"id":"r125","query":"Compare male vs female users","result_text":"Male 55%, Female 45%","source":"db","label":"comparison"}
+{"id":"r126","query":"Anomaly in order size","result_text":"Order #552 value $50k exceeds avg $100","source":"model","label":"anomaly"}
+{"id":"r127","query":"Total database size","result_text":"500 GB","source":"db","label":"exact_numeric"}
+{"id":"r128","query":"Latency trend last 5 mins","result_text":"50ms, 55ms, 120ms (minor spike), 60ms, 50ms","source":"api","label":"time_series"}
+{"id":"r129","query":"Customer support tickets by tag","result_text":"Billing: 50, Tech: 30, Feature: 20","source":"db","label":"category_breakdown"}
+{"id":"r130","query":"Compare week over week traffic","result_text":"This week: 10k, Last week: 9k","source":"db","label":"comparison"}
+{"id":"r131","query":"System load","result_text":"0.2","source":"api","label":"exact_numeric"}
+{"id":"r132","query":"Payment gateway error","result_text":"Error: Stripe API unreachable","source":"api","label":"error"}
+{"id":"r133","query":"Upcoming birthdays","result_text":"None today","source":"db","label":"noop_empty"}
+{"id":"r134","query":"Daily revenue trend","result_text":"$1k, $1.2k, $1.1k, $1.5k","source":"db","label":"time_series"}
+{"id":"r135","query":"Phishing attempt detection","result_text":"Suspicious link detected in email ID 442","source":"model","label":"anomaly"}
+{"id":"r136","query":"Number of beta testers","result_text":"50","source":"db","label":"exact_numeric"}
+{"id":"r137","query":"Users by country","result_text":"US: 50%, UK: 20%, CA: 10%, Other: 20%","source":"db","label":"category_breakdown"}
+{"id":"r138","query":"Compare prod vs stage latency","result_text":"Prod: 50ms, Stage: 80ms","source":"api","label":"comparison"}
+{"id":"r139","query":"Total comments count","result_text":"15,400","source":"db","label":"exact_numeric"}
+{"id":"r140","query":"Query syntax error","result_text":"Error: SELECT * FRM users (Syntax Error)","source":"db","label":"error"}
+{"id":"r141","query":"Tickets assigned to 'Ghost'","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r142","query":"Battery usage trend","result_text":"100%, 90%, 80%, 70%","source":"api","label":"time_series"}
+{"id":"r143","query":"Spike in 404 errors","result_text":"Anomaly: 404 rate > 2% (broken link?)","source":"model","label":"anomaly"}
+{"id":"r144","query":"Device type breakdown","result_text":"Mobile 60%, Tablet 10%, Desktop 30%","source":"db","label":"category_breakdown"}
+{"id":"r145","query":"Compare new vs returning visitors","result_text":"New 40%, Returning 60%","source":"db","label":"comparison"}
+{"id":"r146","query":"Number of active subscriptions","result_text":"5,400","source":"db","label":"exact_numeric"}
+{"id":"r147","query":"Weekly meetings hours","result_text":"[5, 4, 6, 8, 2]","source":"api","label":"time_series"}
+{"id":"r148","query":"Render report","result_text":"Error: Template missing","source":"api","label":"error"}
+{"id":"r149","query":"Stock for discontinued item","result_text":"0","source":"db","label":"noop_empty"}
+{"id":"r150","query":"Average age of users","result_text":"29 years","source":"db","label":"exact_numeric"}
+{"id":"r151","query":"Sales by Salesperson","result_text":"Alice: $10k, Bob: $8k, Charlie: $12k","source":"db","label":"category_breakdown"}
+{"id":"r152","query":"Compare 2020 vs 2021 profit","result_text":"2020: $1M, 2021: $1.2M","source":"db","label":"comparison"}
+{"id":"r153","query":"Unusual login location","result_text":"Login from Lagos, Nigeria (User usually in London)","source":"model","label":"anomaly"}
+{"id":"r154","query":"Daily errors trend","result_text":"0, 1, 0, 5, 2","source":"db","label":"time_series"}
+{"id":"r155","query":"Total PDF downloads","result_text":"450","source":"db","label":"exact_numeric"}
+{"id":"r156","query":"Connect to legacy system","result_text":"Error: Protocol mismatch","source":"api","label":"error"}
+{"id":"r157","query":"Feedback for feature Z","result_text":"No feedback received yet","source":"db","label":"noop_empty"}
+{"id":"r158","query":"Browser version stats","result_text":"Chrome 90: 50%, Chrome 89: 20%, Other: 30%","source":"db","label":"category_breakdown"}
+{"id":"r159","query":"Compare Q1 sales vs target","result_text":"Sales: 500, Target: 600 (Missed)","source":"db","label":"comparison"}
+{"id":"r160","query":"Sudden CPU spike","result_text":"Anomaly: CPU stuck at 100% for 5 mins","source":"model","label":"anomaly"}
+{"id":"r161","query":"Number of likes","result_text":"1,200","source":"db","label":"exact_numeric"}
+{"id":"r162","query":"Monthly active users history","result_text":"[10k, 11k, 12k, 12.5k]","source":"db","label":"time_series"}
+{"id":"r163","query":"Export large dataset","result_text":"Error: Payload too large","source":"api","label":"error"}
+{"id":"r164","query":"Users with 0 logins","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r165","query":"Top 3 revenue sources","result_text":"Subscriptions, Ads, Consulting","source":"db","label":"category_breakdown"}
+{"id":"r166","query":"Compare today vs yesterday signups","result_text":"Today: 50, Yesterday: 45","source":"db","label":"comparison"}
+{"id":"r167","query":"Disk space remaining","result_text":"45 GB","source":"api","label":"exact_numeric"}
+{"id":"r168","query":"Bot traffic detection","result_text":"Bot pattern detected: User-Agent 'Googlebot'","source":"model","label":"anomaly"}
+{"id":"r169","query":"Hourly request rate","result_text":"[100, 150, 200, 180]","source":"api","label":"time_series"}
+{"id":"r170","query":"Total refunded amount","result_text":"$500","source":"db","label":"exact_numeric"}
+{"id":"r171","query":"Survey responses by rating","result_text":"5 stars: 60%, 4 stars: 30%, <4 stars: 10%","source":"db","label":"category_breakdown"}
+{"id":"r172","query":"Compare Page A vs Page B load time","result_text":"A: 2s, B: 3s","source":"api","label":"comparison"}
+{"id":"r173","query":"Payment API status","result_text":"503 Service Unavailable","source":"api","label":"error"}
+{"id":"r174","query":"List users named 'Unicorn'","result_text":"null","source":"db","label":"noop_empty"}
+{"id":"r175","query":"Average stars","result_text":"4.2","source":"db","label":"exact_numeric"}
+{"id":"r176","query":"Unusual volume of failed logins","result_text":"Brute force suspected: 1000 fails/min","source":"model","label":"anomaly"}
+{"id":"r177","query":"Weekly revenue trend","result_text":"$10k, $12k, $11k, $13k","source":"db","label":"time_series"}
+{"id":"r178","query":"Email domain distribution","result_text":"Gmail 60%, Outlook 20%, Corp 20%","source":"db","label":"category_breakdown"}
+{"id":"r179","query":"Compare bandwidth usage this vs last month","result_text":"This: 1TB, Last: 800GB","source":"api","label":"comparison"}
+{"id":"r180","query":"Total API calls","result_text":"1,000,000","source":"cache","label":"exact_numeric"}
+{"id":"r181","query":"Run complex query","result_text":"Error: Query execution cancelled","source":"db","label":"error"}
+{"id":"r182","query":"New messages","result_text":"0","source":"db","label":"noop_empty"}
+{"id":"r183","query":"Top referral links","result_text":"Link A: 500 clicks, Link B: 300 clicks","source":"db","label":"category_breakdown"}
+{"id":"r184","query":"Compare 2023 vs 2024 churn","result_text":"2023: 5%, 2024: 4%","source":"db","label":"comparison"}
+{"id":"r185","query":"Spike in API errors","result_text":"Anomaly: 500 error rate spiked to 10%","source":"model","label":"anomaly"}
+{"id":"r186","query":"Number of active projects","result_text":"12","source":"db","label":"exact_numeric"}
+{"id":"r187","query":"Daily commits per dev","result_text":"[2, 3, 5, 1, 4]","source":"api","label":"time_series"}
+{"id":"r188","query":"Log file permissions","result_text":"Error: Access denied","source":"api","label":"error"}
+{"id":"r189","query":"Tasks for tomorrow","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r190","query":"OS version breakdown","result_text":"iOS 15: 40%, iOS 14: 30%, Android 12: 30%","source":"db","label":"category_breakdown"}
+{"id":"r191","query":"Compare paid vs free users count","result_text":"Paid: 1k, Free: 10k","source":"db","label":"comparison"}
+{"id":"r192","query":"Total images hosted","result_text":"50,000","source":"db","label":"exact_numeric"}
+{"id":"r193","query":"Anomaly in signups","result_text":"Zero signups in last hour (usually 50)","source":"model","label":"anomaly"}
+{"id":"r194","query":"Server temperature trend","result_text":"60C, 62C, 61C, 65C","source":"api","label":"time_series"}
+{"id":"r195","query":"Language usage stats","result_text":"EN: 80%, ES: 10%, FR: 10%","source":"db","label":"category_breakdown"}
+{"id":"r196","query":"Compare Q2 vs Q3 expenses","result_text":"Q2: 40k, Q3: 45k","source":"db","label":"comparison"}
+{"id":"r197","query":"Total storage used","result_text":"1.2 TB","source":"api","label":"exact_numeric"}
+{"id":"r198","query":"Run maintenance script","result_text":"Error: Script not found","source":"api","label":"error"}
+{"id":"r199","query":"Pending notifications","result_text":"0","source":"db","label":"noop_empty"}
+{"id":"r200","query":"Memory usage trend","result_text":"4GB, 4.2GB, 4.5GB, 4.1GB","source":"api","label":"time_series"}
+{"id":"r201","query":"Credit card type stats","result_text":"Visa 60%, MC 30%, Amex 10%","source":"db","label":"category_breakdown"}
+{"id":"r202","query":"Compare active vs inactive users","result_text":"Active 20%, Inactive 80%","source":"db","label":"comparison"}
+{"id":"r203","query":"Detected huge file upload","result_text":"Anomaly: User uploading 50GB file","source":"model","label":"anomaly"}
+{"id":"r204","query":"Number of files processed","result_text":"12,500","source":"db","label":"exact_numeric"}
+{"id":"r205","query":"API response code trend","result_text":"200, 200, 200, 500, 200","source":"api","label":"time_series"}
+{"id":"r206","query":"Connect to SMTP","result_text":"Error: Connection timeout","source":"api","label":"error"}
+{"id":"r207","query":"Unread emails","result_text":"0","source":"api","label":"noop_empty"}
+{"id":"r208","query":"Department headcount","result_text":"Eng: 50, Sales: 30, HR: 5","source":"db","label":"category_breakdown"}
+{"id":"r209","query":"Compare Jan vs Feb leads","result_text":"Jan: 200, Feb: 250","source":"db","label":"comparison"}
+{"id":"r210","query":"Total revenue today","result_text":"$5,400","source":"db","label":"exact_numeric"}
+{"id":"r211","query":"High disk I/O alert","result_text":"Anomaly: I/O wait > 80%","source":"model","label":"anomaly"}
+{"id":"r212","query":"Weekly active groups","result_text":"[50, 55, 52, 60]","source":"db","label":"time_series"}
+{"id":"r213","query":"Invalid JSON format","result_text":"Error: Parse error at line 1","source":"model","label":"error"}
+{"id":"r214","query":"List archived projects","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r215","query":"Top 5 tags","result_text":"bug, feature, enhancement, docs, design","source":"db","label":"category_breakdown"}
+{"id":"r216","query":"Compare desktop vs mobile revenue","result_text":"Desktop $5k, Mobile $2k","source":"db","label":"comparison"}
+{"id":"r217","query":"Average session duration","result_text":"5m 30s","source":"db","label":"exact_numeric"}
+{"id":"r218","query":"Unusual admin activity","result_text":"Anomaly: Admin password reset by non-admin IP","source":"model","label":"anomaly"}
+{"id":"r219","query":"Daily API calls trend","result_text":"10k, 12k, 11k, 15k","source":"api","label":"time_series"}
+{"id":"r220","query":"User role distribution","result_text":"Admin 5%, Editor 15%, Viewer 80%","source":"db","label":"category_breakdown"}
+{"id":"r221","query":"Compare Q1 vs Q2 bugs","result_text":"Q1: 50, Q2: 40","source":"db","label":"comparison"}
+{"id":"r222","query":"Total lines of logs","result_text":"5,000,000","source":"db","label":"exact_numeric"}
+{"id":"r223","query":"API key missing","result_text":"Error: x-api-key header required","source":"api","label":"error"}
+{"id":"r224","query":"Users in Antarctica","result_text":"null","source":"db","label":"noop_empty"}
+{"id":"r225","query":"Traffic by source","result_text":"Google 50%, Bing 10%, Direct 40%","source":"db","label":"category_breakdown"}
+{"id":"r226","query":"Compare standard vs express shipping","result_text":"Standard 80%, Express 20%","source":"db","label":"comparison"}
+{"id":"r227","query":"Sudden drop in database connections","result_text":"Anomaly: Connections dropped to 0","source":"model","label":"anomaly"}
+{"id":"r228","query":"Average response size","result_text":"1.5 KB","source":"api","label":"exact_numeric"}
+{"id":"r229","query":"Latency trend last hour","result_text":"[20, 22, 21, 25, 20]","source":"api","label":"time_series"}
+{"id":"r230","query":"Read file content","result_text":"Error: File not found","source":"api","label":"error"}
+{"id":"r231","query":"Search for 'xyz'","result_text":"No matches","source":"db","label":"noop_empty"}
+{"id":"r232","query":"Product category sales","result_text":"Electronics 40%, Home 30%, Clothing 30%","source":"db","label":"category_breakdown"}
+{"id":"r233","query":"Compare 2022 vs 2023 active users","result_text":"2022: 50k, 2023: 60k","source":"db","label":"comparison"}
+{"id":"r234","query":"Total successful payments","result_text":"450","source":"db","label":"exact_numeric"}
+{"id":"r235","query":"Unusual error rate","result_text":"Anomaly: Error rate > 1% (norm 0.01%)","source":"model","label":"anomaly"}
+{"id":"r236","query":"Hourly visitor count","result_text":"[100, 120, 110, 150]","source":"api","label":"time_series"}
+{"id":"r237","query":"Feedback sentiment stats","result_text":"Positive 70%, Negative 10%, Neutral 20%","source":"model","label":"category_breakdown"}
+{"id":"r238","query":"Compare fast vs slow queries","result_text":"Fast (<1s) 99%, Slow (>1s) 1%","source":"db","label":"comparison"}
+{"id":"r239","query":"Number of tables","result_text":"150","source":"db","label":"exact_numeric"}
+{"id":"r240","query":"Run migration","result_text":"Error: Migration failed (conflict)","source":"db","label":"error"}
+{"id":"r241","query":"Upcoming events","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r242","query":"User age distribution","result_text":"<20: 10%, 20-40: 60%, >40: 30%","source":"db","label":"category_breakdown"}
+{"id":"r243","query":"Compare Q1 vs Q2 leads","result_text":"Q1: 500, Q2: 550","source":"db","label":"comparison"}
+{"id":"r244","query":"Total storage capacity","result_text":"10 TB","source":"api","label":"exact_numeric"}
+{"id":"r245","query":"Spike in login failures","result_text":"Anomaly: 200 failures/min","source":"model","label":"anomaly"}
+{"id":"r246","query":"Daily active nodes trend","result_text":"10, 12, 11, 13","source":"api","label":"time_series"}
+{"id":"r247","query":"Get resource ID 0","result_text":"Error: Invalid ID","source":"api","label":"error"}
+{"id":"r248","query":"Deleted items","result_text":"None","source":"db","label":"noop_empty"}
+{"id":"r249","query":"Support ticket priority","result_text":"High 10%, Medium 40%, Low 50%","source":"db","label":"category_breakdown"}
+{"id":"r250","query":"Compare online vs offline sales","result_text":"Online 80%, Offline 20%","source":"db","label":"comparison"}
+{"id":"r251","query":"Number of open connections","result_text":"52","source":"api","label":"exact_numeric"}
+{"id":"r252","query":"Traffic anomaly detection","result_text":"Unusual traffic from single IP: 1M reqs","source":"model","label":"anomaly"}
+{"id":"r253","query":"Weekly download trend","result_text":"[100, 200, 150, 250]","source":"db","label":"time_series"}
+{"id":"r254","query":"Server error logs","result_text":"Error: Disk full","source":"api","label":"error"}
+{"id":"r255","query":"Users with name 'Null'","result_text":"0 records","source":"db","label":"noop_empty"}
+{"id":"r256","query":"Device OS breakdown","result_text":"Android 60%, iOS 40%","source":"db","label":"category_breakdown"}
+{"id":"r257","query":"Compare revenue product A vs B","result_text":"A: $10k, B: $5k","source":"db","label":"comparison"}
+{"id":"r258","query":"Total emails sent","result_text":"1,500","source":"api","label":"exact_numeric"}
+{"id":"r259","query":"Spike in latency","result_text":"Anomaly: Latency > 1s for 10 mins","source":"model","label":"anomaly"}
+{"id":"r260","query":"Daily user retention trend","result_text":"40%, 42%, 41%, 45%","source":"db","label":"time_series"}
+{"id":"r261","query":"API rate limit","result_text":"Error: Rate limit exceeded","source":"api","label":"error"}
+{"id":"r262","query":"Pending orders","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r263","query":"Sales by region stats","result_text":"North 30%, South 30%, East 20%, West 20%","source":"db","label":"category_breakdown"}
+{"id":"r264","query":"Compare 2023 vs 2024 expenses","result_text":"2023: 50k, 2024: 60k","source":"db","label":"comparison"}
+{"id":"r265","query":"Number of active threads","result_text":"120","source":"api","label":"exact_numeric"}
+{"id":"r266","query":"Unusual file access","result_text":"Anomaly: Sensitive file accessed by guest","source":"model","label":"anomaly"}
+{"id":"r267","query":"Weekly error count","result_text":"[5, 2, 8, 1, 0]","source":"db","label":"time_series"}
+{"id":"r268","query":"Service status","result_text":"Error: Service down","source":"api","label":"error"}
+{"id":"r269","query":"Messages in queue","result_text":"0","source":"api","label":"noop_empty"}
+{"id":"r270","query":"Browser type breakdown","result_text":"Mobile 50%, Desktop 50%","source":"db","label":"category_breakdown"}
+{"id":"r271","query":"Compare organic vs paid leads","result_text":"Organic 40, Paid 60","source":"db","label":"comparison"}
+{"id":"r272","query":"Total user logins","result_text":"5,000","source":"db","label":"exact_numeric"}
+{"id":"r273","query":"CPU temperature anomaly","result_text":"High temp alert: 90C","source":"model","label":"anomaly"}
+{"id":"r274","query":"Daily memory usage","result_text":"[4GB, 5GB, 4GB, 6GB]","source":"api","label":"time_series"}
+{"id":"r275","query":"Validate credit card","result_text":"Error: Invalid checksum","source":"model","label":"error"}
+{"id":"r276","query":"Expired subscriptions","result_text":"None","source":"db","label":"noop_empty"}
+{"id":"r277","query":"Payment method stats","result_text":"Card 80%, PayPal 20%","source":"db","label":"category_breakdown"}
+{"id":"r278","query":"Compare new vs returning customers","result_text":"New 30%, Returning 70%","source":"db","label":"comparison"}
+{"id":"r279","query":"Number of failed jobs","result_text":"2","source":"db","label":"exact_numeric"}
+{"id":"r280","query":"Unusual traffic pattern","result_text":"Anomaly: UDP flood detected","source":"model","label":"anomaly"}
+{"id":"r281","query":"Weekly active hosts","result_text":"[10, 10, 10, 12, 10]","source":"api","label":"time_series"}
+{"id":"r282","query":"Access resource X","result_text":"Error: Forbidden","source":"api","label":"error"}
+{"id":"r283","query":"Users with negative balance","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r284","query":"Log level distribution","result_text":"Info 80%, Warn 10%, Error 10%","source":"db","label":"category_breakdown"}
+{"id":"r285","query":"Compare Q1 vs Q2 profit","result_text":"Q1: 10k, Q2: 12k","source":"db","label":"comparison"}
+{"id":"r286","query":"Total API requests","result_text":"1M","source":"cache","label":"exact_numeric"}
+{"id":"r287","query":"Sudden spike in errors","result_text":"Anomaly: 500 errors > 5% total","source":"model","label":"anomaly"}
+{"id":"r288","query":"Daily server load","result_text":"0.5, 0.6, 0.7, 0.5","source":"api","label":"time_series"}
+{"id":"r289","query":"Import data","result_text":"Error: Format invalid","source":"api","label":"error"}
+{"id":"r290","query":"Search for 'foobar'","result_text":"0 results","source":"db","label":"noop_empty"}
+{"id":"r291","query":"User gender stats","result_text":"M: 48%, F: 50%, O: 2%","source":"db","label":"category_breakdown"}
+{"id":"r292","query":"Compare 2022 vs 2023 sales","result_text":"2022: 1M, 2023: 1.5M","source":"db","label":"comparison"}
+{"id":"r293","query":"Number of warnings","result_text":"15","source":"db","label":"exact_numeric"}
+{"id":"r294","query":"Unusual database load","result_text":"Anomaly: Slow query scanning full table","source":"model","label":"anomaly"}
+{"id":"r295","query":"Weekly unique visitors","result_text":"[1k, 1.2k, 1.1k, 1.3k]","source":"db","label":"time_series"}
+{"id":"r296","query":"Execute command","result_text":"Error: Command not found","source":"api","label":"error"}
+{"id":"r297","query":"Flagged comments","result_text":"None","source":"db","label":"noop_empty"}
+{"id":"r298","query":"Subscription plan stats","result_text":"Basic 50%, Pro 30%, Ent 20%","source":"db","label":"category_breakdown"}
+{"id":"r299","query":"Compare mobile vs desktop traffic","result_text":"Mobile 60%, Desktop 40%","source":"db","label":"comparison"}
+{"id":"r300","query":"Total uptime days","result_text":"120","source":"api","label":"exact_numeric"}
+{"id":"r301","query":"Network latency spike","result_text":"Anomaly: Ping 500ms (norm 20ms)","source":"model","label":"anomaly"}
+{"id":"r302","query":"Daily active sessions","result_text":"100, 110, 105, 120","source":"cache","label":"time_series"}
+{"id":"r303","query":"Authenticate user","result_text":"Error: Wrong password","source":"api","label":"error"}
+{"id":"r304","query":"Banned users","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r305","query":"Traffic source stats","result_text":"Search 40%, Direct 30%, Social 30%","source":"db","label":"category_breakdown"}
+{"id":"r306","query":"Compare 2023 vs 2024 users","result_text":"2023: 100k, 2024: 120k","source":"db","label":"comparison"}
+{"id":"r307","query":"Number of cores","result_text":"8","source":"api","label":"exact_numeric"}
+{"id":"r308","query":"Unusual API usage","result_text":"Anomaly: 1000 reqs/min from one key","source":"model","label":"anomaly"}
+{"id":"r309","query":"Weekly bandwidth","result_text":"[1TB, 1.2TB, 1.1TB, 1.3TB]","source":"api","label":"time_series"}
+{"id":"r310","query":"Delete record","result_text":"Error: Constraint violation","source":"db","label":"error"}
+{"id":"r311","query":"Archived emails","result_text":"0","source":"db","label":"noop_empty"}
+{"id":"r312","query":"App version adoption","result_text":"v1: 10%, v2: 90%","source":"db","label":"category_breakdown"}
+{"id":"r313","query":"Compare free vs paid revenue","result_text":"Free $0, Paid $10k","source":"db","label":"comparison"}
+{"id":"r314","query":"Total files","result_text":"1,000","source":"db","label":"exact_numeric"}
+{"id":"r315","query":"Security alert","result_text":"Anomaly: Port scan detected","source":"model","label":"anomaly"}
+{"id":"r316","query":"Daily response time","result_text":"[200ms, 210ms, 205ms, 220ms]","source":"api","label":"time_series"}
+{"id":"r317","query":"Start service","result_text":"Error: Port already in use","source":"api","label":"error"}
+{"id":"r318","query":"Users with no email","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r319","query":"Customer type stats","result_text":"B2B 40%, B2C 60%","source":"db","label":"category_breakdown"}
+{"id":"r320","query":"Compare Q3 vs Q4 revenue","result_text":"Q3: 1M, Q4: 1.2M","source":"db","label":"comparison"}
+{"id":"r321","query":"Number of processes","result_text":"150","source":"api","label":"exact_numeric"}
+{"id":"r322","query":"Unusual memory consumption","result_text":"Anomaly: Proc X using 10GB RAM","source":"model","label":"anomaly"}
+{"id":"r323","query":"Weekly commits","result_text":"[10, 15, 12, 20]","source":"api","label":"time_series"}
+{"id":"r324","query":"Restart server","result_text":"Error: Permission denied","source":"api","label":"error"}
+{"id":"r325","query":"Pending invites","result_text":"None","source":"db","label":"noop_empty"}
+{"id":"r326","query":"Ad campaign stats","result_text":"Camp A 50%, Camp B 50%","source":"db","label":"category_breakdown"}
+{"id":"r327","query":"Compare active vs suspended users","result_text":"Active 99%, Suspended 1%","source":"db","label":"comparison"}
+{"id":"r328","query":"Total logs size","result_text":"2 GB","source":"db","label":"exact_numeric"}
+{"id":"r329","query":"Disk space anomaly","result_text":"Low disk space alert: <5% free","source":"model","label":"anomaly"}
+{"id":"r330","query":"Daily error rate","result_text":"0.1%, 0.2%, 0.1%, 0.5%","source":"db","label":"time_series"}
+{"id":"r331","query":"Update user","result_text":"Error: User not found","source":"api","label":"error"}
+{"id":"r332","query":"Unassigned tasks","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r333","query":"Product return reasons","result_text":"Defect 40%, Wrong item 20%, Other 40%","source":"db","label":"category_breakdown"}
+{"id":"r334","query":"Compare 2023 vs 2024 budget","result_text":"2023: 100k, 2024: 110k","source":"db","label":"comparison"}
+{"id":"r335","query":"Number of nodes","result_text":"10","source":"api","label":"exact_numeric"}
+{"id":"r336","query":"High CPU load","result_text":"Anomaly: Load > 2.0 for 15 mins","source":"model","label":"anomaly"}
+{"id":"r337","query":"Weekly active devs","result_text":"[5, 5, 5, 6]","source":"db","label":"time_series"}
+{"id":"r338","query":"Deploy code","result_text":"Error: Build failed","source":"api","label":"error"}
+{"id":"r339","query":"Users in space","result_text":"0","source":"db","label":"noop_empty"}
+{"id":"r340","query":"Project status stats","result_text":"Active 60%, Done 30%, On Hold 10%","source":"db","label":"category_breakdown"}
+{"id":"r341","query":"Compare team A vs B velocity","result_text":"A: 20 pts, B: 25 pts","source":"db","label":"comparison"}
+{"id":"r342","query":"Total revenue YTD","result_text":"$500k","source":"db","label":"exact_numeric"}
+{"id":"r343","query":"Network spike","result_text":"Anomaly: Inbound traffic 2x normal","source":"model","label":"anomaly"}
+{"id":"r344","query":"Daily logins","result_text":"100, 120, 110, 130","source":"db","label":"time_series"}
+{"id":"r345","query":"Get config","result_text":"Error: Config missing","source":"api","label":"error"}
+{"id":"r346","query":"Orphaned records","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r347","query":"Browser language stats","result_text":"En 80%, Fr 10%, De 10%","source":"db","label":"category_breakdown"}
+{"id":"r348","query":"Compare Q1 vs Q2 churn","result_text":"Q1: 2%, Q2: 1.5%","source":"db","label":"comparison"}
+{"id":"r349","query":"Number of active keys","result_text":"5","source":"api","label":"exact_numeric"}
+{"id":"r350","query":"Unusual file size","result_text":"Anomaly: Log file 50GB (norm 100MB)","source":"model","label":"anomaly"}
+{"id":"r351","query":"Total sales Q4 2025","result_text":"$5.6M","source":"db","label":"exact_numeric"}
+{"id":"r352","query":"Active users right now","result_text":"15,230","source":"cache","label":"exact_numeric"}
+{"id":"r353","query":"Server memory load last hour","result_text":"[55%, 58%, 62%, 92%, 94%, 70%]","source":"api","label":"time_series","notes":"spike detected"}
+{"id":"r354","query":"Top selling items April","result_text":"Widget X: 600, Widget Y: 420, Widget Z: 180","source":"db","label":"category_breakdown"}
+{"id":"r355","query":"Compare conversion rate email vs social","result_text":"Email: 5.5%, Social: 3.1%","source":"model","label":"comparison"}
+{"id":"r356","query":"Check for sensitive data in logs","result_text":"None detected","source":"model","label":"noop_empty"}
+{"id":"r357","query":"Redis connection status","result_text":"Error: Connection refused (6379)","source":"db","label":"error"}
+{"id":"r358","query":"Inventory count SKU-456","result_text":"0","source":"db","label":"exact_numeric","notes":"out of stock"}
+{"id":"r359","query":"SMS delivery rates last 5 batches","result_text":"{'b1': 92%, 'b2': 95%, 'b3': 89%, 'b4': 98%, 'b5': 94%}","source":"db","label":"time_series"}
+{"id":"r360","query":"Unexpected sudo usage","result_text":"Anomaly: 20 sudo commands from user 'guest'","source":"model","label":"anomaly"}
+{"id":"r361","query":"Profit growth 2024 vs 2025","result_text":"+8.5% YoY","source":"db","label":"comparison"}
+{"id":"r362","query":"User demographic by location","result_text":"Urban: 60%, Suburban: 30%, Rural: 10%","source":"db","label":"category_breakdown"}
+{"id":"r363","query":"Average chat response time","result_text":"2m 15s","source":"api","label":"exact_numeric"}
+{"id":"r364","query":"Retrieve order for ID 888888","result_text":"Order not found","source":"db","label":"noop_empty"}
+{"id":"r365","query":"Database latency p95 last 24h","result_text":"180ms","source":"api","label":"exact_numeric"}
+{"id":"r366","query":"Cost per click trend Q3","result_text":"Jul: $1.40, Aug: $1.42, Sep: $1.38","source":"db","label":"time_series"}
+{"id":"r367","query":"Service availability","result_text":"99.95%","source":"cache","label":"exact_numeric"}
+{"id":"r368","query":"Identify account takeover","result_text":"User 7721 flagged: Score 0.98","source":"model","label":"anomaly"}
+{"id":"r369","query":"Competitor feature analysis","result_text":"Us: 10 feats, CompA: 8 feats, CompB: 12 feats","source":"model","label":"comparison"}
+{"id":"r370","query":"Forecasted churn next month","result_text":"Timeout: Model inference exceeded 60s","source":"model","label":"error"}
+{"id":"r371","query":"Total chargebacks today","result_text":"$540.00","source":"db","label":"exact_numeric"}
+{"id":"r372","query":"Refund rate by product category","result_text":"Electronics: 2%, Clothing: 5%, Home: 1%","source":"db","label":"category_breakdown"}
+{"id":"r373","query":"Daily logins last week","result_text":"Mon: 2k, Tue: 2.2k, Wed: 2.1k, Thu: 2.3k, Fri: 2.5k, Sat: 1.5k, Sun: 1.4k","source":"api","label":"time_series"}
+{"id":"r374","query":"Compare Q1 vs Q2 marketing spend","result_text":"Q1: 100k, Q2: 120k (20% increase)","source":"db","label":"comparison"}
+{"id":"r375","query":"High CPU usage alerts","result_text":"Alert: Node-2 CPU > 90% at 10:00 UTC","source":"model","label":"anomaly"}
+{"id":"r376","query":"Contractor headcount 2025","result_text":"45","source":"db","label":"exact_numeric"}
+{"id":"r377","query":"Jira integration status","result_text":"502 Bad Gateway","source":"api","label":"error"}
+{"id":"r378","query":"Modules used by client Beta","result_text":"Billing, CRM, Analytics","source":"db","label":"category_breakdown"}
+{"id":"r379","query":"Customers in Atlantis","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r380","query":"Median subscription length","result_text":"14 months","source":"db","label":"exact_numeric"}
+{"id":"r381","query":"CSAT score trend","result_text":"Q1: 4.2, Q2: 4.3, Q3: 4.5, Q4: 4.6","source":"db","label":"time_series"}
+{"id":"r382","query":"Compare direct vs referral traffic","result_text":"Direct 40% / Referral 60%","source":"api","label":"comparison"}
+{"id":"r383","query":"Cache hit ratio drop","result_text":"Spike: Hit ratio dropped to 50% (norm 90%)","source":"model","label":"anomaly"}
+{"id":"r384","query":"Top 3 feature requests","result_text":"1. Dark Mode (50%), 2. API (30%), 3. Export (20%)","source":"db","label":"category_breakdown"}
+{"id":"r385","query":"ARR for September 2025","result_text":"$1.2M","source":"db","label":"exact_numeric"}
+{"id":"r386","query":"Export transaction logs","result_text":"Error: Disk quota exceeded","source":"api","label":"error"}
+{"id":"r387","query":"Activation rate cohort analysis","result_text":"65%","source":"model","label":"exact_numeric"}
+{"id":"r388","query":"Facebook comments volume","result_text":"[20, 25, 22, 60, 120, 22]","source":"api","label":"time_series","notes":"viral spike"}
+{"id":"r389","query":"Estimated burn rate","result_text":"$50k/month","source":"model","label":"exact_numeric"}
+{"id":"r390","query":"Users named 'Gandalf'","result_text":"null","source":"db","label":"noop_empty"}
+{"id":"r391","query":"Mobile OS market share","result_text":"Android: 70%, iOS: 29%, Other: 1%","source":"db","label":"category_breakdown"}
+{"id":"r392","query":"Compare CAC organic vs paid","result_text":"Organic: $10, Paid: $50","source":"model","label":"comparison"}
+{"id":"r393","query":"Suspicious API activity","result_text":"Scraping detected: 10k reqs/min from single IP","source":"model","label":"anomaly"}
+{"id":"r394","query":"Total pull requests this week","result_text":"55","source":"api","label":"exact_numeric"}
+{"id":"r395","query":"Test coverage trend","result_text":"80%, 81%, 82%, 75% (new module), 78%","source":"api","label":"time_series"}
+{"id":"r396","query":"Infrastructure cost by provider","result_text":"AWS: 60%, GCP: 30%, Azure: 10%","source":"db","label":"category_breakdown"}
+{"id":"r397","query":"Get receipt #5555","result_text":"403 Forbidden","source":"api","label":"error"}
+{"id":"r398","query":"Active A/B tests","result_text":"Test_X (Blue), Test_Y (Red)","source":"db","label":"category_breakdown"}
+{"id":"r399","query":"Peak memory usage","result_text":"14 GB","source":"cache","label":"exact_numeric"}
+{"id":"r400","query":"New leads vs disqualified","result_text":"Leads: 100, Disqualified: 20","source":"db","label":"comparison"}
+{"id":"r401","query":"Revenue 2023","result_text":"$6.2M","source":"db","label":"exact_numeric"}
+{"id":"r402","query":"Latency by endpoint","result_text":"/login: 50ms, /search: 200ms, /checkout: 150ms","source":"api","label":"category_breakdown"}
+{"id":"r403","query":"Weekly incidents reported","result_text":"[2, 4, 1, 0, 3]","source":"db","label":"time_series"}
+{"id":"r404","query":"Current bond yield","result_text":"4.5%","source":"api","label":"exact_numeric"}
+{"id":"r405","query":"Compare Chrome vs Firefox retention","result_text":"Chrome D30: 45%, Firefox D30: 40%","source":"db","label":"comparison"}
+{"id":"r406","query":"Detect XSS attempts","result_text":"Pattern '<script>' found in input","source":"model","label":"anomaly"}
+{"id":"r407","query":"Employee satisfaction score","result_text":"8.2/10","source":"db","label":"exact_numeric"}
+{"id":"r408","query":"Ad spend by platform","result_text":"Insta: 30%, TikTok: 50%, YT: 20%","source":"db","label":"category_breakdown"}
+{"id":"r409","query":"Upcoming maintenance","result_text":"No maintenance scheduled","source":"api","label":"noop_empty"}
+{"id":"r410","query":"Parse invoice data","result_text":"Error: OCR failed quality check","source":"model","label":"error"}
+{"id":"r411","query":"Visitor growth 2021-2025","result_text":"2021: 50k, 2022: 70k, 2023: 100k, 2024: 150k, 2025: 200k","source":"db","label":"time_series"}
+{"id":"r412","query":"Average order size","result_text":"3.5 items","source":"db","label":"exact_numeric"}
+{"id":"r413","query":"Web server restart anomaly","result_text":"Spike: 5 restarts in 1 hour","source":"model","label":"anomaly"}
+{"id":"r414","query":"Compare 2024 Q1 vs 2025 Q1 forecast","result_text":"2024 Q1: 2M, 2025 Q1: 2.5M","source":"model","label":"comparison"}
+{"id":"r415","query":"Top traffic channels","result_text":"Organic: 40%, Paid: 40%, Social: 20%","source":"db","label":"category_breakdown"}
+{"id":"r416","query":"Number of idle workers","result_text":"5","source":"api","label":"exact_numeric"}
+{"id":"r417","query":"Pending reviews","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r418","query":"Generate annual tax form","result_text":"Service Unavailable","source":"api","label":"error"}
+{"id":"r419","query":"Daily humidity trend Miami","result_text":"Mon 60%, Tue 65%, Wed 70%","source":"api","label":"time_series"}
+{"id":"r420","query":"Max concurrent streams","result_text":"5,000","source":"db","label":"exact_numeric"}
+{"id":"r421","query":"File type distribution","result_text":"JPG 50%, PNG 30%, GIF 20%","source":"api","label":"category_breakdown"}
+{"id":"r422","query":"Compare standard vs premium plan users","result_text":"Standard: 800, Premium: 200","source":"db","label":"comparison"}
+{"id":"r423","query":"Firewall breach attempts","result_text":"Unusual port scan from IP 10.0.0.5","source":"model","label":"anomaly"}
+{"id":"r424","query":"Total registered devices","result_text":"2,500,120","source":"db","label":"exact_numeric"}
+{"id":"r425","query":"Downgrade reasons","result_text":"Cost: 60%, Usage: 30%, Other: 10%","source":"model","label":"category_breakdown"}
+{"id":"r426","query":"Keyword ranking trend","result_text":"[5, 4, 6, 3, 2]","source":"db","label":"time_series"}
+{"id":"r427","query":"Cloud storage quota","result_text":"Quota exceeded (5TB/5TB)","source":"api","label":"error"}
+{"id":"r428","query":"Find users in Jupiter orbit","result_text":"0 records found","source":"db","label":"noop_empty"}
+{"id":"r429","query":"Average handling time","result_text":"5m 30s","source":"db","label":"exact_numeric"}
+{"id":"r430","query":"Compare Linux vs Windows servers","result_text":"Linux: 80, Windows: 20","source":"db","label":"comparison"}
+{"id":"r431","query":"Sudden spike in latency","result_text":"Alert: Latency > 1s for 5 mins","source":"model","label":"anomaly"}
+{"id":"r432","query":"Top 5 movies streamed","result_text":"1. Matrix, 2. Inception, 3. Interstellar...","source":"db","label":"category_breakdown"}
+{"id":"r433","query":"Database IOPS trend","result_text":"1000, 1100, 1050, 1200","source":"api","label":"time_series"}
+{"id":"r434","query":"Number of merged PRs","result_text":"42","source":"api","label":"exact_numeric"}
+{"id":"r435","query":"Calculate LTV for segment Y","result_text":"Error: Insufficient data points","source":"model","label":"error"}
+{"id":"r436","query":"Visitors from Antarctica","result_text":"null","source":"db","label":"noop_empty"}
+{"id":"r437","query":"Compare EBITDA vs Net Income","result_text":"EBITDA: $2M, Net: $1.5M","source":"db","label":"comparison"}
+{"id":"r438","query":"Checkout failure anomaly","result_text":"Spike: 50% failure rate (norm 1%)","source":"model","label":"anomaly"}
+{"id":"r439","query":"Browser breakdown","result_text":"Chrome 70%, Edge 15%, Firefox 15%","source":"db","label":"category_breakdown"}
+{"id":"r440","query":"Daily water intake","result_text":"[2L, 2.5L, 2L, 3L]","source":"api","label":"time_series"}
+{"id":"r441","query":"Total comments","result_text":"2.5M","source":"db","label":"exact_numeric"}
+{"id":"r442","query":"Compare TCP vs UDP traffic","result_text":"TCP: 90%, UDP: 10%","source":"api","label":"comparison"}
+{"id":"r443","query":"Process crash detected","result_text":"Crash found in worker-3","source":"db","label":"anomaly"}
+{"id":"r444","query":"Top spending accounts","result_text":"Acc1 ($50k), Acc2 ($45k), Acc3 ($40k)","source":"db","label":"category_breakdown"}
+{"id":"r445","query":"Weekly active designers","result_text":"8","source":"db","label":"exact_numeric"}
+{"id":"r446","query":"Run heavy sort","result_text":"Error: Stack overflow","source":"db","label":"error"}
+{"id":"r447","query":"Sales for product 'Vaporware'","result_text":"No sales recorded","source":"db","label":"noop_empty"}
+{"id":"r448","query":"CPU usage trend","result_text":"20%, 25%, 22%, 60%, 25%","source":"api","label":"time_series"}
+{"id":"r449","query":"Compare Q4 actual vs budget","result_text":"Actual: 800k, Budget: 750k","source":"db","label":"comparison"}
+{"id":"r450","query":"Account count","result_text":"12,000","source":"cache","label":"exact_numeric"}
+{"id":"r451","query":"Total liabilities","result_text":"$1,000,000","source":"db","label":"exact_numeric"}
+{"id":"r452","query":"Ticket severity breakdown","result_text":"Critical: 1, High: 5, Low: 20","source":"db","label":"category_breakdown"}
+{"id":"r453","query":"Thread leak detection","result_text":"Thread count rising steadily: +10/hour","source":"model","label":"anomaly"}
+{"id":"r454","query":"Compare 2023 vs 2024 servers","result_text":"2023: 50, 2024: 65","source":"db","label":"comparison"}
+{"id":"r455","query":"Request time trend","result_text":"100ms, 110ms, 105ms, 100ms","source":"api","label":"time_series"}
+{"id":"r456","query":"Verify user email","result_text":"Error: Domain blacklisted","source":"api","label":"error"}
+{"id":"r457","query":"Approvals pending","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r458","query":"Number of Discord servers","result_text":"12","source":"api","label":"exact_numeric"}
+{"id":"r459","query":"Lead source breakdown","result_text":"Web 60%, Event 20%, Phone 20%","source":"db","label":"category_breakdown"}
+{"id":"r460","query":"Payment failure anomaly","result_text":"Sudden spike: 50 failures in 1 min","source":"model","label":"anomaly"}
+{"id":"r461","query":"Compare bounce rate desktop vs mobile","result_text":"Desktop: 40%, Mobile: 60%","source":"db","label":"comparison"}
+{"id":"r462","query":"Revenue per user","result_text":"$25.50","source":"model","label":"exact_numeric"}
+{"id":"r463","query":"Daily distance ran","result_text":"[5km, 6km, 4km, 7km]","source":"api","label":"time_series"}
+{"id":"r464","query":"Video upload status","result_text":"Error: Format not supported","source":"api","label":"error"}
+{"id":"r465","query":"Users in zipcode 99999","result_text":"0","source":"db","label":"noop_empty"}
+{"id":"r466","query":"Top 3 used frameworks","result_text":"React, Vue, Angular","source":"db","label":"category_breakdown"}
+{"id":"r467","query":"Average onboarding time","result_text":"3 days","source":"db","label":"exact_numeric"}
+{"id":"r468","query":"Compare text vs image posts engagement","result_text":"Text 2%, Image 5%","source":"db","label":"comparison"}
+{"id":"r469","query":"DNS resolution anomaly","result_text":"Resolution time > 500ms","source":"model","label":"anomaly"}
+{"id":"r470","query":"Weekly issues trend","result_text":"[5, 8, 6, 10, 7]","source":"api","label":"time_series"}
+{"id":"r471","query":"Number of cached items","result_text":"5,678","source":"cache","label":"exact_numeric"}
+{"id":"r472","query":"Cost breakdown by dept","result_text":"Eng 50%, Sales 30%, Ops 20%","source":"db","label":"category_breakdown"}
+{"id":"r473","query":"LDAP authentication failure","result_text":"Error: Invalid credentials","source":"api","label":"error"}
+{"id":"r474","query":"Search results for 'quux'","result_text":"No results found","source":"db","label":"noop_empty"}
+{"id":"r475","query":"Compare EN vs ES users","result_text":"EN 80%, ES 20%","source":"db","label":"comparison"}
+{"id":"r476","query":"Anomaly in basket size","result_text":"Basket #991 size 500 items (avg 5)","source":"model","label":"anomaly"}
+{"id":"r477","query":"Total index size","result_text":"200 GB","source":"db","label":"exact_numeric"}
+{"id":"r478","query":"Ping trend last 10 mins","result_text":"20ms, 22ms, 50ms (jitter), 25ms, 20ms","source":"api","label":"time_series"}
+{"id":"r479","query":"Leads by industry","result_text":"Tech: 40%, Finance: 30%, Retail: 30%","source":"db","label":"category_breakdown"}
+{"id":"r480","query":"Compare month over month growth","result_text":"This month: 5%, Last month: 4%","source":"db","label":"comparison"}
+{"id":"r481","query":"System load average","result_text":"1.5","source":"api","label":"exact_numeric"}
+{"id":"r482","query":"S3 upload error","result_text":"Error: Access Denied","source":"api","label":"error"}
+{"id":"r483","query":"Upcoming anniversaries","result_text":"None this week","source":"db","label":"noop_empty"}
+{"id":"r484","query":"Daily profit trend","result_text":"$500, $600, $550, $700","source":"db","label":"time_series"}
+{"id":"r485","query":"Malware detection","result_text":"Suspicious binary found in /tmp","source":"model","label":"anomaly"}
+{"id":"r486","query":"Number of alpha testers","result_text":"100","source":"db","label":"exact_numeric"}
+{"id":"r487","query":"Users by language","result_text":"English: 60%, Spanish: 20%, French: 10%, Other: 10%","source":"db","label":"category_breakdown"}
+{"id":"r488","query":"Compare dev vs prod database size","result_text":"Dev: 10GB, Prod: 500GB","source":"api","label":"comparison"}
+{"id":"r489","query":"Total likes count","result_text":"50,200","source":"db","label":"exact_numeric"}
+{"id":"r490","query":"SQL syntax error","result_text":"Error: Table 'userss' doesn't exist","source":"db","label":"error"}
+{"id":"r491","query":"Tickets assigned to 'Shadow'","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r492","query":"Bandwidth usage trend","result_text":"10Mbps, 12Mbps, 11Mbps, 15Mbps","source":"api","label":"time_series"}
+{"id":"r493","query":"Spike in 500 errors","result_text":"Anomaly: 500 rate > 3%","source":"model","label":"anomaly"}
+{"id":"r494","query":"Screen resolution breakdown","result_text":"1920x1080 50%, 1366x768 30%, Other 20%","source":"db","label":"category_breakdown"}
+{"id":"r495","query":"Compare subscribed vs unsubscribed","result_text":"Subscribed 90%, Unsubscribed 10%","source":"db","label":"comparison"}
+{"id":"r496","query":"Number of active licenses","result_text":"2,300","source":"db","label":"exact_numeric"}
+{"id":"r497","query":"Weekly coding hours","result_text":"[30, 35, 32, 40, 25]","source":"api","label":"time_series"}
+{"id":"r498","query":"Compile code","result_text":"Error: Missing dependency","source":"api","label":"error"}
+{"id":"r499","query":"Stock for retired item","result_text":"0","source":"db","label":"noop_empty"}
+{"id":"r500","query":"Average time on site","result_text":"4m 20s","source":"db","label":"exact_numeric"}
+{"id":"r501","query":"Revenue by Region","result_text":"NA: $50k, EU: $40k, APAC: $30k","source":"db","label":"category_breakdown"}
+{"id":"r502","query":"Compare 2019 vs 2020 loss","result_text":"2019: $100k, 2020: $80k","source":"db","label":"comparison"}
+{"id":"r503","query":"Unusual password reset","result_text":"Reset requested 5 times in 1 min","source":"model","label":"anomaly"}
+{"id":"r504","query":"Daily warnings trend","result_text":"2, 3, 1, 5, 2","source":"db","label":"time_series"}
+{"id":"r505","query":"Total CSV exports","result_text":"800","source":"db","label":"exact_numeric"}
+{"id":"r506","query":"Connect to FTP","result_text":"Error: Host unreachable","source":"api","label":"error"}
+{"id":"r507","query":"Feedback for product X","result_text":"No feedback yet","source":"db","label":"noop_empty"}
+{"id":"r508","query":"OS architecture stats","result_text":"x64: 90%, ARM: 10%","source":"db","label":"category_breakdown"}
+{"id":"r509","query":"Compare Q2 leads vs target","result_text":"Leads: 300, Target: 350 (Missed)","source":"db","label":"comparison"}
+{"id":"r510","query":"Sudden Memory spike","result_text":"Anomaly: Memory usage +50% in 1 min","source":"model","label":"anomaly"}
+{"id":"r511","query":"Number of shares","result_text":"3,400","source":"db","label":"exact_numeric"}
+{"id":"r512","query":"Weekly active users history","result_text":"[5k, 5.2k, 5.1k, 5.5k]","source":"db","label":"time_series"}
+{"id":"r513","query":"Import large CSV","result_text":"Error: Row limit exceeded","source":"api","label":"error"}
+{"id":"r514","query":"Users with negative age","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r515","query":"Top 3 traffic sources","result_text":"Google, Facebook, Twitter","source":"db","label":"category_breakdown"}
+{"id":"r516","query":"Compare today vs yesterday sales","result_text":"Today: $1k, Yesterday: $900","source":"db","label":"comparison"}
+{"id":"r517","query":"Free space on root","result_text":"20 GB","source":"api","label":"exact_numeric"}
+{"id":"r518","query":"Crawler traffic detection","result_text":"Bot pattern detected: User-Agent 'Bingbot'","source":"model","label":"anomaly"}
+{"id":"r519","query":"Minutely request rate","result_text":"[60, 65, 70, 68]","source":"api","label":"time_series"}
+{"id":"r520","query":"Total voided transactions","result_text":"$200","source":"db","label":"exact_numeric"}
+{"id":"r521","query":"Poll results by option","result_text":"Yes: 60%, No: 40%","source":"db","label":"category_breakdown"}
+{"id":"r522","query":"Compare Server A vs Server B load","result_text":"A: 0.5, B: 0.8","source":"api","label":"comparison"}
+{"id":"r523","query":"Auth API status","result_text":"500 Internal Server Error","source":"api","label":"error"}
+{"id":"r524","query":"List users named 'Dragon'","result_text":"null","source":"db","label":"noop_empty"}
+{"id":"r525","query":"Average rating","result_text":"4.5","source":"db","label":"exact_numeric"}
+{"id":"r526","query":"Unusual volume of signups","result_text":"Spam suspected: 100 signups/min","source":"model","label":"anomaly"}
+{"id":"r527","query":"Monthly revenue trend","result_text":"$40k, $42k, $41k, $45k","source":"db","label":"time_series"}
+{"id":"r528","query":"Mail client distribution","result_text":"Apple Mail 40%, Gmail 40%, Outlook 20%","source":"db","label":"category_breakdown"}
+{"id":"r529","query":"Compare CPU usage this vs last hour","result_text":"This: 40%, Last: 30%","source":"api","label":"comparison"}
+{"id":"r530","query":"Total database queries","result_text":"5,000,000","source":"cache","label":"exact_numeric"}
+{"id":"r531","query":"Run backup","result_text":"Error: Backup failed (disk full)","source":"db","label":"error"}
+{"id":"r532","query":"New notifications","result_text":"0","source":"db","label":"noop_empty"}
+{"id":"r533","query":"Top landing pages","result_text":"/home: 5000, /pricing: 2000","source":"db","label":"category_breakdown"}
+{"id":"r534","query":"Compare 2024 vs 2025 retention","result_text":"2024: 80%, 2025: 82%","source":"db","label":"comparison"}
+{"id":"r535","query":"Spike in timeouts","result_text":"Anomaly: Timeout rate spiked to 5%","source":"model","label":"anomaly"}
+{"id":"r536","query":"Number of completed projects","result_text":"45","source":"db","label":"exact_numeric"}
+{"id":"r537","query":"Daily hours per dev","result_text":"[6, 7, 5, 8, 6]","source":"api","label":"time_series"}
+{"id":"r538","query":"Write file permissions","result_text":"Error: Read-only file system","source":"api","label":"error"}
+{"id":"r539","query":"Meetings for tomorrow","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r540","query":"App version breakdown","result_text":"v1.0: 20%, v2.0: 80%","source":"db","label":"category_breakdown"}
+{"id":"r541","query":"Compare registered vs guest users","result_text":"Registered: 5k, Guest: 2k","source":"db","label":"comparison"}
+{"id":"r542","query":"Total videos hosted","result_text":"10,000","source":"db","label":"exact_numeric"}
+{"id":"r543","query":"Anomaly in downloads","result_text":"Zero downloads in last hour (usually 200)","source":"model","label":"anomaly"}
+{"id":"r544","query":"Rack temperature trend","result_text":"25C, 26C, 25C, 28C","source":"api","label":"time_series"}
+{"id":"r545","query":"Code language stats","result_text":"Java: 60%, Kotlin: 40%","source":"db","label":"category_breakdown"}
+{"id":"r546","query":"Compare Q1 vs Q2 budget","result_text":"Q1: 20k, Q2: 25k","source":"db","label":"comparison"}
+{"id":"r547","query":"Total backup size","result_text":"5 TB","source":"api","label":"exact_numeric"}
+{"id":"r548","query":"Run cleanup script","result_text":"Error: Script execution failed","source":"api","label":"error"}
+{"id":"r549","query":"Pending messages","result_text":"0","source":"db","label":"noop_empty"}
+{"id":"r550","query":"Swap usage trend","result_text":"0%, 1%, 0%, 5% (spike)","source":"api","label":"time_series"}
+{"id":"r551","query":"Subscription frequency stats","result_text":"Monthly 80%, Yearly 20%","source":"db","label":"category_breakdown"}
+{"id":"r552","query":"Compare active vs deleted accounts","result_text":"Active 95%, Deleted 5%","source":"db","label":"comparison"}
+{"id":"r553","query":"Detected zip bomb","result_text":"Anomaly: File decompression exceeded limits","source":"model","label":"anomaly"}
+{"id":"r554","query":"Number of records processed","result_text":"50,000","source":"db","label":"exact_numeric"}
+{"id":"r555","query":"Server uptime trend","result_text":"10d, 11d, 12d, 0d (reboot)","source":"api","label":"time_series"}
+{"id":"r556","query":"Connect to IMAP","result_text":"Error: Auth failed","source":"api","label":"error"}
+{"id":"r557","query":"Unread alerts","result_text":"0","source":"api","label":"noop_empty"}
+{"id":"r558","query":"Team size distribution","result_text":"Small (<5): 50%, Medium (5-20): 30%, Large (>20): 20%","source":"db","label":"category_breakdown"}
+{"id":"r559","query":"Compare March vs April visitors","result_text":"Mar: 5k, Apr: 6k","source":"db","label":"comparison"}
+{"id":"r560","query":"Total sales today","result_text":"$2,300","source":"db","label":"exact_numeric"}
+{"id":"r561","query":"High network I/O alert","result_text":"Anomaly: Throughput > 1Gbps","source":"model","label":"anomaly"}
+{"id":"r562","query":"Weekly active communities","result_text":"[20, 22, 21, 25]","source":"db","label":"time_series"}
+{"id":"r563","query":"Invalid XML format","result_text":"Error: Tag mismatch at line 5","source":"model","label":"error"}
+{"id":"r564","query":"List deleted projects","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r565","query":"Top 5 categories","result_text":"News, Sports, Tech, Music, Art","source":"db","label":"category_breakdown"}
+{"id":"r566","query":"Compare tablet vs phone revenue","result_text":"Tablet $1k, Phone $4k","source":"db","label":"comparison"}
+{"id":"r567","query":"Average page views per session","result_text":"3.5","source":"db","label":"exact_numeric"}
+{"id":"r568","query":"Unusual sudo failure","result_text":"Anomaly: 5 failed sudo attempts by user 'bob'","source":"model","label":"anomaly"}
+{"id":"r569","query":"Daily requests trend","result_text":"5k, 6k, 5.5k, 7k","source":"api","label":"time_series"}
+{"id":"r570","query":"Admin count distribution","result_text":"Super: 2, Regular: 5","source":"db","label":"category_breakdown"}
+{"id":"r571","query":"Compare Q3 vs Q4 tickets","result_text":"Q3: 100, Q4: 120","source":"db","label":"comparison"}
+{"id":"r572","query":"Total log entries","result_text":"10,000,000","source":"db","label":"exact_numeric"}
+{"id":"r573","query":"Missing auth token","result_text":"Error: Authorization header missing","source":"api","label":"error"}
+{"id":"r574","query":"Users in Moon base","result_text":"null","source":"db","label":"noop_empty"}
+{"id":"r575","query":"Purchases by source","result_text":"App 60%, Web 40%","source":"db","label":"category_breakdown"}
+{"id":"r576","query":"Compare 2-day vs overnight shipping","result_text":"2-day 70%, Overnight 30%","source":"db","label":"comparison"}
+{"id":"r577","query":"Sudden drop in active threads","result_text":"Anomaly: Threads dropped to 0","source":"model","label":"anomaly"}
+{"id":"r578","query":"Average packet size","result_text":"500 bytes","source":"api","label":"exact_numeric"}
+{"id":"r579","query":"Jitter trend last hour","result_text":"[2ms, 3ms, 5ms, 2ms, 3ms]","source":"api","label":"time_series"}
+{"id":"r580","query":"Write to log","result_text":"Error: Disk full","source":"api","label":"error"}
+{"id":"r581","query":"Search for 'barbaz'","result_text":"No matches","source":"db","label":"noop_empty"}
+{"id":"r582","query":"Item status breakdown","result_text":"In Stock 80%, Backorder 10%, Out 10%","source":"db","label":"category_breakdown"}
+{"id":"r583","query":"Compare 2024 vs 2025 downloads","result_text":"2024: 1M, 2025: 1.2M","source":"db","label":"comparison"}
+{"id":"r584","query":"Total failed payments","result_text":"25","source":"db","label":"exact_numeric"}
+{"id":"r585","query":"Unusual bounce rate","result_text":"Anomaly: Bounce rate > 80% (norm 30%)","source":"model","label":"anomaly"}
+{"id":"r586","query":"Hourly active users","result_text":"[500, 600, 550, 700]","source":"api","label":"time_series"}
+{"id":"r587","query":"Review sentiment stats","result_text":"Positive 80%, Negative 5%, Neutral 15%","source":"model","label":"category_breakdown"}
+{"id":"r588","query":"Compare indexed vs non-indexed queries","result_text":"Indexed 95%, Non-indexed 5%","source":"db","label":"comparison"}
+{"id":"r589","query":"Number of views","result_text":"500","source":"db","label":"exact_numeric"}
+{"id":"r590","query":"Run update","result_text":"Error: Lock wait timeout exceeded","source":"db","label":"error"}
+{"id":"r591","query":"Upcoming holidays","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r592","query":"User region distribution","result_text":"North 40%, South 20%, East 20%, West 20%","source":"db","label":"category_breakdown"}
+{"id":"r593","query":"Compare Q2 vs Q3 conversions","result_text":"Q2: 200, Q3: 220","source":"db","label":"comparison"}
+{"id":"r594","query":"Total memory capacity","result_text":"64 GB","source":"api","label":"exact_numeric"}
+{"id":"r595","query":"Spike in password fails","result_text":"Anomaly: 300 fails/min","source":"model","label":"anomaly"}
+{"id":"r596","query":"Daily active pods trend","result_text":"20, 22, 21, 23","source":"api","label":"time_series"}
+{"id":"r597","query":"Get object ID -1","result_text":"Error: Invalid ID","source":"api","label":"error"}
+{"id":"r598","query":"Hidden items","result_text":"None","source":"db","label":"noop_empty"}
+{"id":"r599","query":"Bug priority stats","result_text":"P0 5%, P1 15%, P2 80%","source":"db","label":"category_breakdown"}
+{"id":"r600","query":"Compare cash vs credit sales","result_text":"Cash 10%, Credit 90%","source":"db","label":"comparison"}
+{"id":"r601","query":"Number of listening ports","result_text":"15","source":"api","label":"exact_numeric"}
+{"id":"r602","query":"Traffic flood detection","result_text":"Unusual traffic from subnet 192.168.x.x","source":"model","label":"anomaly"}
+{"id":"r603","query":"Weekly upload trend","result_text":"[50, 80, 60, 90]","source":"db","label":"time_series"}
+{"id":"r604","query":"Cluster error logs","result_text":"Error: Node unreachable","source":"api","label":"error"}
+{"id":"r605","query":"Users with name 'Undefined'","result_text":"0 records","source":"db","label":"noop_empty"}
+{"id":"r606","query":"Platform usage breakdown","result_text":"Web 50%, App 50%","source":"db","label":"category_breakdown"}
+{"id":"r607","query":"Compare profit product X vs Y","result_text":"X: $2k, Y: $1k","source":"db","label":"comparison"}
+{"id":"r608","query":"Total messages sent","result_text":"3,000","source":"api","label":"exact_numeric"}
+{"id":"r609","query":"Spike in response time","result_text":"Anomaly: Response time > 2s for 5 mins","source":"model","label":"anomaly"}
+{"id":"r610","query":"Daily user engagement trend","result_text":"50%, 52%, 51%, 55%","source":"db","label":"time_series"}
+{"id":"r611","query":"API limit reached","result_text":"Error: Daily limit exceeded","source":"api","label":"error"}
+{"id":"r612","query":"Pending shipments","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r613","query":"Inventory by warehouse","result_text":"WH1 40%, WH2 30%, WH3 30%","source":"db","label":"category_breakdown"}
+{"id":"r614","query":"Compare 2024 vs 2025 costs","result_text":"2024: 80k, 2025: 90k","source":"db","label":"comparison"}
+{"id":"r615","query":"Number of active connections","result_text":"250","source":"api","label":"exact_numeric"}
+{"id":"r616","query":"Unusual directory access","result_text":"Anomaly: Hidden dir accessed by user","source":"model","label":"anomaly"}
+{"id":"r617","query":"Weekly warning count","result_text":"[10, 5, 12, 3, 1]","source":"db","label":"time_series"}
+{"id":"r618","query":"Database status","result_text":"Error: Database locked","source":"api","label":"error"}
+{"id":"r619","query":"Jobs in queue","result_text":"0","source":"api","label":"noop_empty"}
+{"id":"r620","query":"Client type breakdown","result_text":"VIP 10%, Regular 90%","source":"db","label":"category_breakdown"}
+{"id":"r621","query":"Compare direct vs social leads","result_text":"Direct 50, Social 30","source":"db","label":"comparison"}
+{"id":"r622","query":"Total session count","result_text":"8,000","source":"db","label":"exact_numeric"}
+{"id":"r623","query":"GPU temperature anomaly","result_text":"High temp alert: 85C","source":"model","label":"anomaly"}
+{"id":"r624","query":"Daily disk usage","result_text":"[10GB, 11GB, 10.5GB, 12GB]","source":"api","label":"time_series"}
+{"id":"r625","query":"Verify phone number","result_text":"Error: Invalid format","source":"model","label":"error"}
+{"id":"r626","query":"Expired tokens","result_text":"None","source":"db","label":"noop_empty"}
+{"id":"r627","query":"Billing cycle stats","result_text":"Monthly 90%, Annual 10%","source":"db","label":"category_breakdown"}
+{"id":"r628","query":"Compare new vs existing accounts","result_text":"New 20%, Existing 80%","source":"db","label":"comparison"}
+{"id":"r629","query":"Number of stalled jobs","result_text":"3","source":"db","label":"exact_numeric"}
+{"id":"r630","query":"Unusual DNS traffic","result_text":"Anomaly: DNS tunneling suspected","source":"model","label":"anomaly"}
+{"id":"r631","query":"Weekly active vms","result_text":"[5, 5, 5, 6, 5]","source":"api","label":"time_series"}
+{"id":"r632","query":"Access resource Y","result_text":"Error: 401 Unauthorized","source":"api","label":"error"}
+{"id":"r633","query":"Users with credit < 0","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r634","query":"Event type distribution","result_text":"Click 70%, View 20%, Scroll 10%","source":"db","label":"category_breakdown"}
+{"id":"r635","query":"Compare Q2 vs Q3 loss","result_text":"Q2: 5k, Q3: 4k","source":"db","label":"comparison"}
+{"id":"r636","query":"Total API hits","result_text":"2M","source":"cache","label":"exact_numeric"}
+{"id":"r637","query":"Sudden spike in latency (db)","result_text":"Anomaly: Query time > 500ms","source":"model","label":"anomaly"}
+{"id":"r638","query":"Daily load average","result_text":"1.0, 1.2, 1.1, 1.0","source":"api","label":"time_series"}
+{"id":"r639","query":"Export users","result_text":"Error: Permission denied","source":"api","label":"error"}
+{"id":"r640","query":"Search for 'bazquux'","result_text":"0 results","source":"db","label":"noop_empty"}
+{"id":"r641","query":"User device stats","result_text":"Phone 50%, Laptop 40%, Tablet 10%","source":"db","label":"category_breakdown"}
+{"id":"r642","query":"Compare 2023 vs 2024 active","result_text":"2023: 500, 2024: 600","source":"db","label":"comparison"}
+{"id":"r643","query":"Number of alerts","result_text":"20","source":"db","label":"exact_numeric"}
+{"id":"r644","query":"Unusual index usage","result_text":"Anomaly: Full table scan detected","source":"model","label":"anomaly"}
+{"id":"r645","query":"Weekly new users","result_text":"[50, 60, 55, 70]","source":"db","label":"time_series"}
+{"id":"r646","query":"Run shell script","result_text":"Error: Script execution error","source":"api","label":"error"}
+{"id":"r647","query":"Reported spam","result_text":"None","source":"db","label":"noop_empty"}
+{"id":"r648","query":"License type stats","result_text":"Single 60%, Team 30%, Enterprise 10%","source":"db","label":"category_breakdown"}
+{"id":"r649","query":"Compare public vs private projects","result_text":"Public 80%, Private 20%","source":"db","label":"comparison"}
+{"id":"r650","query":"Total downtime minutes","result_text":"15","source":"api","label":"exact_numeric"}
+{"id":"r651","query":"Network jitter spike","result_text":"Anomaly: Jitter > 10ms","source":"model","label":"anomaly"}
+{"id":"r652","query":"Daily active endpoints","result_text":"50, 55, 52, 58","source":"cache","label":"time_series"}
+{"id":"r653","query":"Login user","result_text":"Error: User suspended","source":"api","label":"error"}
+{"id":"r654","query":"Blacklisted IPs","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r655","query":"Referrer stats","result_text":"Google 50%, Direct 30%, FB 20%","source":"db","label":"category_breakdown"}
+{"id":"r656","query":"Compare 2024 vs 2025 subscribers","result_text":"2024: 5k, 2025: 6k","source":"db","label":"comparison"}
+{"id":"r657","query":"Number of cpus","result_text":"16","source":"api","label":"exact_numeric"}
+{"id":"r658","query":"Unusual request size","result_text":"Anomaly: Body size > 10MB","source":"model","label":"anomaly"}
+{"id":"r659","query":"Weekly throughput","result_text":"[100Mbps, 120Mbps, 110Mbps, 130Mbps]","source":"api","label":"time_series"}
+{"id":"r660","query":"Drop table","result_text":"Error: Table locked","source":"db","label":"error"}
+{"id":"r661","query":"Trashed files","result_text":"0","source":"db","label":"noop_empty"}
+{"id":"r662","query":"Feature adoption","result_text":"Used 40%, Not Used 60%","source":"db","label":"category_breakdown"}
+{"id":"r663","query":"Compare Q1 vs Q2 active","result_text":"Q1: 1k, Q2: 1.2k","source":"db","label":"comparison"}
+{"id":"r664","query":"Total assets count","result_text":"5,000","source":"db","label":"exact_numeric"}
+{"id":"r665","query":"Access log anomaly","result_text":"Anomaly: 403 errors > 100","source":"model","label":"anomaly"}
+{"id":"r666","query":"Daily transaction time","result_text":"[100ms, 110ms, 105ms, 120ms]","source":"api","label":"time_series"}
+{"id":"r667","query":"Stop service","result_text":"Error: Service not running","source":"api","label":"error"}
+{"id":"r668","query":"Users with no phone","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r669","query":"Order status stats","result_text":"Shipped 60%, Pending 20%, Cancelled 20%","source":"db","label":"category_breakdown"}
+{"id":"r670","query":"Compare 2024 vs 2025 growth","result_text":"2024: 10%, 2025: 12%","source":"db","label":"comparison"}
+{"id":"r671","query":"Number of services","result_text":"25","source":"api","label":"exact_numeric"}
+{"id":"r672","query":"Unusual process count","result_text":"Anomaly: Proc count > 500","source":"model","label":"anomaly"}
+{"id":"r673","query":"Weekly merges","result_text":"[5, 8, 6, 10]","source":"api","label":"time_series"}
+{"id":"r674","query":"Reboot system","result_text":"Error: Operation not permitted","source":"api","label":"error"}
+{"id":"r675","query":"Pending registrations","result_text":"None","source":"db","label":"noop_empty"}
+{"id":"r676","query":"Campaign status stats","result_text":"Running 50%, Paused 30%, Ended 20%","source":"db","label":"category_breakdown"}
+{"id":"r677","query":"Compare active vs inactive projects","result_text":"Active 40%, Inactive 60%","source":"db","label":"comparison"}
+{"id":"r678","query":"Total cache size","result_text":"1 GB","source":"db","label":"exact_numeric"}
+{"id":"r679","query":"Swap space anomaly","result_text":"Swap usage > 50%","source":"model","label":"anomaly"}
+{"id":"r680","query":"Daily warning rate","result_text":"0.01%, 0.02%, 0.01%, 0.03%","source":"db","label":"time_series"}
+{"id":"r681","query":"Create user","result_text":"Error: User already exists","source":"api","label":"error"}
+{"id":"r682","query":"Unresolved bugs","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r683","query":"Resolution breakdown","result_text":"Fixed 80%, Wont Fix 10%, Duplicate 10%","source":"db","label":"category_breakdown"}
+{"id":"r684","query":"Compare 2024 vs 2025 revenue","result_text":"2024: 100k, 2025: 120k","source":"db","label":"comparison"}
+{"id":"r685","query":"Number of containers","result_text":"30","source":"api","label":"exact_numeric"}
+{"id":"r686","query":"High IO wait","result_text":"Anomaly: IO wait > 40%","source":"model","label":"anomaly"}
+{"id":"r687","query":"Weekly active admins","result_text":"[2, 2, 2, 3]","source":"db","label":"time_series"}
+{"id":"r688","query":"Push code","result_text":"Error: Remote rejected","source":"api","label":"error"}
+{"id":"r689","query":"Users in void","result_text":"0","source":"db","label":"noop_empty"}
+{"id":"r690","query":"Task status stats","result_text":"Open 40%, Closed 50%, Blocked 10%","source":"db","label":"category_breakdown"}
+{"id":"r691","query":"Compare team X vs Y throughput","result_text":"X: 50, Y: 60","source":"db","label":"comparison"}
+{"id":"r692","query":"Total profit YTD","result_text":"$200k","source":"db","label":"exact_numeric"}
+{"id":"r693","query":"Packet loss spike","result_text":"Anomaly: Loss > 2%","source":"model","label":"anomaly"}
+{"id":"r694","query":"Daily checkouts","result_text":"50, 60, 55, 70","source":"db","label":"time_series"}
+{"id":"r695","query":"Get settings","result_text":"Error: Settings not found","source":"api","label":"error"}
+{"id":"r696","query":"Orphaned files","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r697","query":"User locale stats","result_text":"US 60%, UK 20%, CA 20%","source":"db","label":"category_breakdown"}
+{"id":"r698","query":"Compare Q3 vs Q4 active","result_text":"Q3: 2k, Q4: 2.5k","source":"db","label":"comparison"}
+{"id":"r699","query":"Number of tokens","result_text":"100","source":"api","label":"exact_numeric"}
+{"id":"r700","query":"Unusual log volume","result_text":"Anomaly: Log volume 10x normal","source":"model","label":"anomaly"}
+{"id":"r701","query":"Total expenses Q1 2026","result_text":"$1.2M","source":"db","label":"exact_numeric"}
+{"id":"r702","query":"Concurrent users peak today","result_text":"3,450","source":"cache","label":"exact_numeric"}
+{"id":"r703","query":"Database throughput trend","result_text":"[1200, 1250, 1100, 1800, 1900, 1300]","source":"api","label":"time_series","notes":"backup run detected"}
+{"id":"r704","query":"Best selling products May","result_text":"Item A: 400, Item B: 300, Item C: 200","source":"db","label":"category_breakdown"}
+{"id":"r705","query":"Compare average cart value mobile vs desktop","result_text":"Mobile: $45, Desktop: $80","source":"model","label":"comparison"}
+{"id":"r706","query":"Scan for open ports","result_text":"None detected","source":"model","label":"noop_empty"}
+{"id":"r707","query":"Kafka broker status","result_text":"Error: Broker not available (9092)","source":"db","label":"error"}
+{"id":"r708","query":"Stock level SKU-999","result_text":"0","source":"db","label":"exact_numeric","notes":"discontinued"}
+{"id":"r709","query":"Push notification click rate history","result_text":"{'p1': 5%, 'p2': 4%, 'p3': 6%, 'p4': 4%, 'p5': 7%}","source":"db","label":"time_series"}
+{"id":"r710","query":"Root access attempt","result_text":"Anomaly: Root login attempted from external IP","source":"model","label":"anomaly"}
+{"id":"r711","query":"Revenue growth 2024 vs 2025","result_text":"+10.2% YoY","source":"db","label":"comparison"}
+{"id":"r712","query":"User segments by behavior","result_text":"Power Users: 10%, Casual: 60%, Dormant: 30%","source":"db","label":"category_breakdown"}
+{"id":"r713","query":"Average API response time","result_text":"150ms","source":"api","label":"exact_numeric"}
+{"id":"r714","query":"Get customer details ID 000","result_text":"Customer not found","source":"db","label":"noop_empty"}
+{"id":"r715","query":"Cache hit rate p99","result_text":"98%","source":"api","label":"exact_numeric"}
+{"id":"r716","query":"Ad impression trend","result_text":"Week 1: 1M, Week 2: 1.2M, Week 3: 1.1M","source":"db","label":"time_series"}
+{"id":"r717","query":"Service uptime last 30 days","result_text":"99.99%","source":"cache","label":"exact_numeric"}
+{"id":"r718","query":"Fraudulent payment detection","result_text":"Tx 1234 flagged: Score 0.99 (Stolen Card)","source":"model","label":"anomaly"}
+{"id":"r719","query":"Competitor market share","result_text":"Us: 15%, CompA: 40%, CompB: 30%, Others: 15%","source":"model","label":"category_breakdown"}
+{"id":"r720","query":"Predict Q4 Sales","result_text":"Timeout: Calculation took too long","source":"model","label":"error"}
+{"id":"r721","query":"Total returns processed","result_text":"$2,100.00","source":"db","label":"exact_numeric"}
+{"id":"r722","query":"Return reasons breakdown","result_text":"Size: 40%, Defect: 20%, Mind Change: 40%","source":"db","label":"category_breakdown"}
+{"id":"r723","query":"Hourly bandwidth usage","result_text":"10GB, 12GB, 15GB, 11GB, 9GB","source":"api","label":"time_series"}
+{"id":"r724","query":"Compare Q2 vs Q3 hiring","result_text":"Q2: 10 hires, Q3: 15 hires","source":"db","label":"comparison"}
+{"id":"r725","query":"High disk usage warning","result_text":"Alert: /var/log usage > 90%","source":"model","label":"anomaly"}
+{"id":"r726","query":"Total partners","result_text":"55","source":"db","label":"exact_numeric"}
+{"id":"r727","query":"Gitlab webhook status","result_text":"404 Not Found","source":"api","label":"error"}
+{"id":"r728","query":"Services used by Enterprise A","result_text":"Audit, SSO, Priority Support","source":"db","label":"category_breakdown"}
+{"id":"r729","query":"Users in Narnia","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r730","query":"Median session length","result_text":"4 minutes","source":"db","label":"exact_numeric"}
+{"id":"r731","query":"App rating trend","result_text":"Jan: 4.5, Feb: 4.6, Mar: 4.4, Apr: 4.7","source":"db","label":"time_series"}
+{"id":"r732","query":"Compare desktop vs tablet bounce rate","result_text":"Desktop 40% / Tablet 50%","source":"api","label":"comparison"}
+{"id":"r733","query":"Database connection spike","result_text":"Spike: Active connections > 500 (norm 100)","source":"model","label":"anomaly"}
+{"id":"r734","query":"Top 3 blog posts","result_text":"1. Intro to AI (4k), 2. Scaling DBs (3k), 3. Python Tips (2k)","source":"db","label":"category_breakdown"}
+{"id":"r735","query":"MRR for October 2025","result_text":"$1.5M","source":"db","label":"exact_numeric"}
+{"id":"r736","query":"Archive old logs","result_text":"Error: Storage read-only","source":"api","label":"error"}
+{"id":"r737","query":"Feature adoption rate","result_text":"45%","source":"model","label":"exact_numeric"}
+{"id":"r738","query":"Instagram followers history","result_text":"[10k, 10.5k, 10.2k, 12k, 15k]","source":"api","label":"time_series","notes":"influencer shoutout"}
+{"id":"r739","query":"Estimated runway","result_text":"24 months","source":"model","label":"exact_numeric"}
+{"id":"r740","query":"Users named 'Frodo'","result_text":"null","source":"db","label":"noop_empty"}
+{"id":"r741","query":"OS market share","result_text":"Windows: 60%, MacOS: 30%, Linux: 10%","source":"db","label":"category_breakdown"}
+{"id":"r742","query":"Compare CAC search vs display","result_text":"Search: $20, Display: $40","source":"model","label":"comparison"}
+{"id":"r743","query":"Rapid login failures","result_text":"Brute force detected: 50 failures in 10s","source":"model","label":"anomaly"}
+{"id":"r744","query":"Total issues resolved this week","result_text":"120","source":"api","label":"exact_numeric"}
+{"id":"r745","query":"Code coverage trend","result_text":"85%, 86%, 85%, 88%, 87%","source":"api","label":"time_series"}
+{"id":"r746","query":"Spending by vendor","result_text":"AWS: 50%, Snowflake: 30%, Datadog: 20%","source":"db","label":"category_breakdown"}
+{"id":"r747","query":"Get order #0000","result_text":"400 Bad Request","source":"api","label":"error"}
+{"id":"r748","query":"Active feature flags","result_text":"Flag_A (On), Flag_B (Off)","source":"db","label":"category_breakdown"}
+{"id":"r749","query":"Max throughput recorded","result_text":"500 Mbps","source":"cache","label":"exact_numeric"}
+{"id":"r750","query":"Leads won vs lost","result_text":"Won: 30, Lost: 70","source":"db","label":"comparison"}
+{"id":"r751","query":"Total Revenue 2024","result_text":"$8.5M","source":"db","label":"exact_numeric"}
+{"id":"r752","query":"Error rates by service","result_text":"Auth: 0.1%, Cart: 0.5%, Search: 0.01%","source":"api","label":"category_breakdown"}
+{"id":"r753","query":"Weekly alerts triggered","result_text":"[10, 15, 5, 8, 12]","source":"db","label":"time_series"}
+{"id":"r754","query":"Current inflation rate","result_text":"3.2%","source":"api","label":"exact_numeric"}
+{"id":"r755","query":"Compare Safari vs Edge conversion","result_text":"Safari: 3%, Edge: 2.5%","source":"db","label":"comparison"}
+{"id":"r756","query":"Detect SQL injection","result_text":"Pattern 'DROP TABLE' found in query","source":"model","label":"anomaly"}
+{"id":"r757","query":"NPS score","result_text":"65","source":"db","label":"exact_numeric"}
+{"id":"r758","query":"Social media share breakdown","result_text":"Twitter: 40%, LinkedIn: 40%, FB: 20%","source":"db","label":"category_breakdown"}
+{"id":"r759","query":"Planned downtime","result_text":"None scheduled","source":"api","label":"noop_empty"}
+{"id":"r760","query":"Extract text from image","result_text":"Error: Image resolution too low","source":"model","label":"error"}
+{"id":"r761","query":"Subscribers growth 2022-2026","result_text":"2022: 1k, 2023: 5k, 2024: 15k, 2025: 30k, 2026: 45k","source":"db","label":"time_series"}
+{"id":"r762","query":"Average basket size","result_text":"4.2 items","source":"db","label":"exact_numeric"}
+{"id":"r763","query":"Service restart anomaly","result_text":"Spike: Service restart loop detected","source":"model","label":"anomaly"}
+{"id":"r764","query":"Compare 2024 Q2 vs 2025 Q2 forecast","result_text":"2024 Q2: 2.1M, 2025 Q2: 2.8M","source":"model","label":"comparison"}
+{"id":"r765","query":"Top referral domains","result_text":"google.com: 50%, direct: 30%, bing.com: 20%","source":"db","label":"category_breakdown"}
+{"id":"r766","query":"Number of zombie processes","result_text":"2","source":"api","label":"exact_numeric"}
+{"id":"r767","query":"Pending feedback","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r768","query":"Generate monthly statement","result_text":"Gateway Timeout 504","source":"api","label":"error"}
+{"id":"r769","query":"Daily rainfall Seattle","result_text":"Mon 5mm, Tue 10mm, Wed 2mm","source":"api","label":"time_series"}
+{"id":"r770","query":"Max concurrent db connections","result_text":"200","source":"db","label":"exact_numeric"}
+{"id":"r771","query":"Image format distribution","result_text":"JPEG 60%, PNG 30%, WEBP 10%","source":"api","label":"category_breakdown"}
+{"id":"r772","query":"Compare Basic vs Pro users","result_text":"Basic: 5000, Pro: 1500","source":"db","label":"comparison"}
+{"id":"r773","query":"Unauthorized access attempt","result_text":"Access denied for user 'admin' from IP 1.2.3.4","source":"model","label":"anomaly"}
+{"id":"r774","query":"Total user accounts","result_text":"3,500,000","source":"db","label":"exact_numeric"}
+{"id":"r775","query":"Cancellation reasons","result_text":"Too Expensive: 50%, Not Needed: 30%, Bugs: 20%","source":"model","label":"category_breakdown"}
+{"id":"r776","query":"Search volume trend","result_text":"[100, 120, 110, 150, 200]","source":"db","label":"time_series"}
+{"id":"r777","query":"API quota check","result_text":"Quota exceeded (5000/5000)","source":"api","label":"error"}
+{"id":"r778","query":"Find users on Pluto","result_text":"0 records found","source":"db","label":"noop_empty"}
+{"id":"r779","query":"Average ticket age","result_text":"2.5 days","source":"db","label":"exact_numeric"}
+{"id":"r780","query":"Compare iOS vs Android revenue","result_text":"iOS: $50k, Android: $30k","source":"db","label":"comparison"}
+{"id":"r781","query":"Sudden drop in throughput","result_text":"Alert: Throughput < 10 reqs/sec","source":"model","label":"anomaly"}
+{"id":"r782","query":"Top 5 songs played","result_text":"1. Song A, 2. Song B, 3. Song C...","source":"db","label":"category_breakdown"}
+{"id":"r783","query":"Redis memory usage trend","result_text":"2GB, 2.1GB, 2.2GB, 2.1GB","source":"api","label":"time_series"}
+{"id":"r784","query":"Number of closed issues","result_text":"85","source":"api","label":"exact_numeric"}
+{"id":"r785","query":"Calculate ROI for Q3","result_text":"Error: Missing cost data","source":"model","label":"error"}
+{"id":"r786","query":"Visitors from Mars","result_text":"null","source":"db","label":"noop_empty"}
+{"id":"r787","query":"Compare gross vs net margin","result_text":"Gross: 60%, Net: 15%","source":"db","label":"comparison"}
+{"id":"r788","query":"Login anomaly","result_text":"User logged in from two countries simultaneously","source":"model","label":"anomaly"}
+{"id":"r789","query":"Browser usage stats","result_text":"Chrome 65%, Safari 20%, Firefox 15%","source":"db","label":"category_breakdown"}
+{"id":"r790","query":"Daily calorie intake","result_text":"[2000, 2200, 1800, 2500]","source":"api","label":"time_series"}
+{"id":"r791","query":"Total lines of comments","result_text":"500k","source":"db","label":"exact_numeric"}
+{"id":"r792","query":"Compare HTTP vs HTTPS requests","result_text":"HTTP: 1%, HTTPS: 99%","source":"api","label":"comparison"}
+{"id":"r793","query":"Database deadlock detected","result_text":"Deadlock found on table 'transactions'","source":"db","label":"anomaly"}
+{"id":"r794","query":"Top revenue clients","result_text":"Client X ($1M), Client Y ($800k), Client Z ($500k)","source":"db","label":"category_breakdown"}
+{"id":"r795","query":"Weekly active testers","result_text":"15","source":"db","label":"exact_numeric"}
+{"id":"r796","query":"Run complex aggregation","result_text":"Error: Temp space limit exceeded","source":"db","label":"error"}
+{"id":"r797","query":"Sales for product 'Legacy'","result_text":"No sales recorded","source":"db","label":"noop_empty"}
+{"id":"r798","query":"Server load trend","result_text":"0.8, 0.9, 1.0, 2.5, 1.0","source":"api","label":"time_series"}
+{"id":"r799","query":"Compare Q1 actual vs forecast","result_text":"Actual: 200k, Forecast: 180k","source":"db","label":"comparison"}
+{"id":"r800","query":"Active session count","result_text":"450","source":"cache","label":"exact_numeric"}
+{"id":"r801","query":"Total equity","result_text":"$500,000","source":"db","label":"exact_numeric"}
+{"id":"r802","query":"Incident status breakdown","result_text":"Open: 5, Investigating: 2, Resolved: 20","source":"db","label":"category_breakdown"}
+{"id":"r803","query":"File descriptor leak","result_text":"FD count rising: +50/hour","source":"model","label":"anomaly"}
+{"id":"r804","query":"Compare 2024 vs 2025 desktops","result_text":"2024: 200, 2025: 250","source":"db","label":"comparison"}
+{"id":"r805","query":"API latency trend","result_text":"50ms, 55ms, 52ms, 60ms","source":"api","label":"time_series"}
+{"id":"r806","query":"Check admin rights","result_text":"Error: Insufficient privileges","source":"api","label":"error"}
+{"id":"r807","query":"Tasks due today","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r808","query":"Number of Slack teams","result_text":"5","source":"api","label":"exact_numeric"}
+{"id":"r809","query":"Traffic source breakdown","result_text":"Email 40%, Search 30%, Social 30%","source":"db","label":"category_breakdown"}
+{"id":"r810","query":"Credit card fraud anomaly","result_text":"High risk transaction detected: Score 0.9","source":"model","label":"anomaly"}
+{"id":"r811","query":"Compare open vs click through rate","result_text":"Open: 25%, CTR: 5%","source":"db","label":"comparison"}
+{"id":"r812","query":"Revenue per account","result_text":"$500","source":"model","label":"exact_numeric"}
+{"id":"r813","query":"Daily steps history","result_text":"[5000, 6000, 7000, 5500]","source":"api","label":"time_series"}
+{"id":"r814","query":"Upload profile picture","result_text":"Error: File type not allowed","source":"api","label":"error"}
+{"id":"r815","query":"Users in zipcode 123456","result_text":"0","source":"db","label":"noop_empty"}
+{"id":"r816","query":"Top 3 used libraries","result_text":"Lodash, Moment, Axios","source":"db","label":"category_breakdown"}
+{"id":"r817","query":"Average deal size","result_text":"$5,000","source":"db","label":"exact_numeric"}
+{"id":"r818","query":"Compare video vs audio consumption","result_text":"Video 80%, Audio 20%","source":"db","label":"comparison"}
+{"id":"r819","query":"Network latency anomaly","result_text":"Latency > 200ms to region us-east-1","source":"model","label":"anomaly"}
+{"id":"r820","query":"Weekly commits per repo","result_text":"[5, 10, 8, 12, 15]","source":"api","label":"time_series"}
+{"id":"r821","query":"Number of active websockets","result_text":"1,200","source":"cache","label":"exact_numeric"}
+{"id":"r822","query":"Expense type breakdown","result_text":"Travel 40%, Meals 30%, Supplies 30%","source":"db","label":"category_breakdown"}
+{"id":"r823","query":"LDAP connection error","result_text":"Error: Connection timed out","source":"api","label":"error"}
+{"id":"r824","query":"Search results for 'xyzzy'","result_text":"No results found","source":"db","label":"noop_empty"}
+{"id":"r825","query":"Compare FR vs DE users","result_text":"FR 50%, DE 50%","source":"db","label":"comparison"}
+{"id":"r826","query":"Anomaly in checkout time","result_text":"Checkout taking > 60s (avg 10s)","source":"model","label":"anomaly"}
+{"id":"r827","query":"Total log size","result_text":"50 GB","source":"db","label":"exact_numeric"}
+{"id":"r828","query":"Response time trend last minute","result_text":"10ms, 12ms, 100ms (GC pause), 15ms","source":"api","label":"time_series"}
+{"id":"r829","query":"Support ticket categories","result_text":"Bug: 60%, Question: 30%, Other: 10%","source":"db","label":"category_breakdown"}
+{"id":"r830","query":"Compare week over week sales","result_text":"This week: $5k, Last week: $4.5k","source":"db","label":"comparison"}
+{"id":"r831","query":"CPU load average","result_text":"0.3","source":"api","label":"exact_numeric"}
+{"id":"r832","query":"Payment gateway timeout","result_text":"Error: Gateway didn't respond","source":"api","label":"error"}
+{"id":"r833","query":"Upcoming webinars","result_text":"None scheduled","source":"db","label":"noop_empty"}
+{"id":"r834","query":"Daily signups trend","result_text":"20, 25, 22, 30","source":"db","label":"time_series"}
+{"id":"r835","query":"Phishing site detection","result_text":"URL detected as phishing: evil.com","source":"model","label":"anomaly"}
+{"id":"r836","query":"Number of beta users","result_text":"500","source":"db","label":"exact_numeric"}
+{"id":"r837","query":"Users by city","result_text":"NY: 30%, SF: 30%, London: 20%, Other: 20%","source":"db","label":"category_breakdown"}
+{"id":"r838","query":"Compare prod vs dev error rate","result_text":"Prod: 0.1%, Dev: 5%","source":"api","label":"comparison"}
+{"id":"r839","query":"Total likes","result_text":"1.5M","source":"db","label":"exact_numeric"}
+{"id":"r840","query":"Invalid SQL query","result_text":"Error: Column 'age' ambiguous","source":"db","label":"error"}
+{"id":"r841","query":"Tickets assigned to 'Bot'","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r842","query":"Memory usage history","result_text":"60%, 65%, 70%, 62%","source":"api","label":"time_series"}
+{"id":"r843","query":"Spike in 403 errors","result_text":"Anomaly: 403 rate > 1%","source":"model","label":"anomaly"}
+{"id":"r844","query":"Device resolution breakdown","result_text":"HD 50%, 4K 20%, SD 30%","source":"db","label":"category_breakdown"}
+{"id":"r845","query":"Compare subscribed vs free","result_text":"Subscribed 20%, Free 80%","source":"db","label":"comparison"}
+{"id":"r846","query":"Number of active subscriptions","result_text":"1,200","source":"db","label":"exact_numeric"}
+{"id":"r847","query":"Weekly meetings count","result_text":"[10, 12, 10, 15, 8]","source":"api","label":"time_series"}
+{"id":"r848","query":"Build project","result_text":"Error: Makefile not found","source":"api","label":"error"}
+{"id":"r849","query":"Stock for old SKU","result_text":"0","source":"db","label":"noop_empty"}
+{"id":"r850","query":"Average user age","result_text":"32 years","source":"db","label":"exact_numeric"}
+{"id":"r851","query":"Sales by channel","result_text":"Online: $50k, Retail: $20k","source":"db","label":"category_breakdown"}
+{"id":"r852","query":"Compare 2021 vs 2022 expenses","result_text":"2021: $500k, 2022: $600k","source":"db","label":"comparison"}
+{"id":"r853","query":"Unusual admin login","result_text":"Login from new device detected","source":"model","label":"anomaly"}
+{"id":"r854","query":"Daily bug reports","result_text":"5, 8, 4, 6, 2","source":"db","label":"time_series"}
+{"id":"r855","query":"Total ebook downloads","result_text":"1,200","source":"db","label":"exact_numeric"}
+{"id":"r856","query":"Connect to VPN","result_text":"Error: Handshake failed","source":"api","label":"error"}
+{"id":"r857","query":"Feedback for v2.0","result_text":"No feedback yet","source":"db","label":"noop_empty"}
+{"id":"r858","query":"Browser version distribution","result_text":"v90: 50%, v89: 30%, v88: 20%","source":"db","label":"category_breakdown"}
+{"id":"r859","query":"Compare Q1 sales vs forecast","result_text":"Sales: 100k, Forecast: 120k","source":"db","label":"comparison"}
+{"id":"r860","query":"Sudden IO spike","result_text":"Anomaly: Disk writes > 100MB/s","source":"model","label":"anomaly"}
+{"id":"r861","query":"Number of followers","result_text":"5,600","source":"db","label":"exact_numeric"}
+{"id":"r862","query":"Monthly churn trend","result_text":"2%, 2.5%, 2.1%, 1.8%","source":"db","label":"time_series"}
+{"id":"r863","query":"Export large DB","result_text":"Error: Timeout exceeded","source":"api","label":"error"}
+{"id":"r864","query":"Users with 0 posts","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r865","query":"Top 3 traffic countries","result_text":"USA, India, UK","source":"db","label":"category_breakdown"}
+{"id":"r866","query":"Compare today vs avg sales","result_text":"Today: $5k, Avg: $4k","source":"db","label":"comparison"}
+{"id":"r867","query":"Disk space used","result_text":"450 GB","source":"api","label":"exact_numeric"}
+{"id":"r868","query":"Scraper bot detection","result_text":"Bot pattern: High frequency requests","source":"model","label":"anomaly"}
+{"id":"r869","query":"Hourly error rate","result_text":"[0.1%, 0.2%, 0.1%, 0.1%]","source":"api","label":"time_series"}
+{"id":"r870","query":"Total canceled orders","result_text":"50","source":"db","label":"exact_numeric"}
+{"id":"r871","query":"Survey results","result_text":"Satisfied: 70%, Neutral: 20%, Unsatisfied: 10%","source":"db","label":"category_breakdown"}
+{"id":"r872","query":"Compare Page X vs Page Y views","result_text":"X: 1000, Y: 1200","source":"api","label":"comparison"}
+{"id":"r873","query":"Email API status","result_text":"500 Internal Error","source":"api","label":"error"}
+{"id":"r874","query":"List users named 'NonExistent'","result_text":"null","source":"db","label":"noop_empty"}
+{"id":"r875","query":"Average score","result_text":"85","source":"db","label":"exact_numeric"}
+{"id":"r876","query":"Unusual volume of failed payments","result_text":"Fraud attack suspected: 200 fails/min","source":"model","label":"anomaly"}
+{"id":"r877","query":"Weekly profit trend","result_text":"$2k, $2.5k, $2.2k, $3k","source":"db","label":"time_series"}
+{"id":"r878","query":"Email provider stats","result_text":"Gmail 50%, Yahoo 20%, Outlook 30%","source":"db","label":"category_breakdown"}
+{"id":"r879","query":"Compare upload vs download speed","result_text":"Up: 100Mbps, Down: 1Gbps","source":"api","label":"comparison"}
+{"id":"r880","query":"Total requests handled","result_text":"500,000","source":"cache","label":"exact_numeric"}
+{"id":"r881","query":"Run heavy script","result_text":"Error: CPU limit exceeded","source":"db","label":"error"}
+{"id":"r882","query":"New alerts","result_text":"0","source":"db","label":"noop_empty"}
+{"id":"r883","query":"Top affiliate links","result_text":"Aff1: 100 clicks, Aff2: 50 clicks","source":"db","label":"category_breakdown"}
+{"id":"r884","query":"Compare 2023 vs 2024 growth rate","result_text":"2023: 5%, 2024: 6%","source":"db","label":"comparison"}
+{"id":"r885","query":"Spike in 401 errors","result_text":"Anomaly: 401 rate > 5%","source":"model","label":"anomaly"}
+{"id":"r886","query":"Number of active workflows","result_text":"8","source":"db","label":"exact_numeric"}
+{"id":"r887","query":"Daily commits trend","result_text":"[10, 15, 12, 20]","source":"api","label":"time_series"}
+{"id":"r888","query":"Delete system file","result_text":"Error: Permission denied","source":"api","label":"error"}
+{"id":"r889","query":"Tasks for next week","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r890","query":"Mobile OS breakdown","result_text":"iOS 60%, Android 40%","source":"db","label":"category_breakdown"}
+{"id":"r891","query":"Compare paid vs trial users","result_text":"Paid: 500, Trial: 2000","source":"db","label":"comparison"}
+{"id":"r892","query":"Total audio files","result_text":"5,000","source":"db","label":"exact_numeric"}
+{"id":"r893","query":"Anomaly in registration","result_text":"Zero registrations in last 2 hours","source":"model","label":"anomaly"}
+{"id":"r894","query":"Server fan speed trend","result_text":"2000rpm, 2100rpm, 2050rpm, 2200rpm","source":"api","label":"time_series"}
+{"id":"r895","query":"Language breakdown","result_text":"Python 50%, JS 40%, Other 10%","source":"db","label":"category_breakdown"}
+{"id":"r896","query":"Compare Q1 vs Q2 marketing costs","result_text":"Q1: 10k, Q2: 15k","source":"db","label":"comparison"}
+{"id":"r897","query":"Total memory available","result_text":"32 GB","source":"api","label":"exact_numeric"}
+{"id":"r898","query":"Run deploy script","result_text":"Error: Script failed","source":"api","label":"error"}
+{"id":"r899","query":"Pending friend requests","result_text":"0","source":"db","label":"noop_empty"}
+{"id":"r900","query":"CPU usage history","result_text":"30%, 35%, 32%, 40%","source":"api","label":"time_series"}
+{"id":"r901","query":"Payment type stats","result_text":"Credit 70%, Debit 20%, Cash 10%","source":"db","label":"category_breakdown"}
+{"id":"r902","query":"Compare active vs archived posts","result_text":"Active 90%, Archived 10%","source":"db","label":"comparison"}
+{"id":"r903","query":"Detected huge download","result_text":"Anomaly: User downloading 100GB","source":"model","label":"anomaly"}
+{"id":"r904","query":"Number of files indexed","result_text":"100,000","source":"db","label":"exact_numeric"}
+{"id":"r905","query":"API response time history","result_text":"200ms, 210ms, 205ms, 220ms","source":"api","label":"time_series"}
+{"id":"r906","query":"Connect to DB","result_text":"Error: Connection refused","source":"api","label":"error"}
+{"id":"r907","query":"Unread messages","result_text":"0","source":"api","label":"noop_empty"}
+{"id":"r908","query":"Employee role breakdown","result_text":"Dev 50%, Manager 20%, QA 30%","source":"db","label":"category_breakdown"}
+{"id":"r909","query":"Compare Jan vs Feb profit","result_text":"Jan: 5k, Feb: 6k","source":"db","label":"comparison"}
+{"id":"r910","query":"Total sales this month","result_text":"$50,000","source":"db","label":"exact_numeric"}
+{"id":"r911","query":"High swap usage","result_text":"Anomaly: Swap > 80%","source":"model","label":"anomaly"}
+{"id":"r912","query":"Weekly active channels","result_text":"[10, 12, 11, 15]","source":"db","label":"time_series"}
+{"id":"r913","query":"Invalid JSON","result_text":"Error: Unexpected token","source":"model","label":"error"}
+{"id":"r914","query":"List archived users","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r915","query":"Top 5 keywords","result_text":"AI, ML, Data, Cloud, IoT","source":"db","label":"category_breakdown"}
+{"id":"r916","query":"Compare laptop vs desktop sales","result_text":"Laptop 60%, Desktop 40%","source":"db","label":"comparison"}
+{"id":"r917","query":"Average call duration","result_text":"3m 15s","source":"db","label":"exact_numeric"}
+{"id":"r918","query":"Unusual root login","result_text":"Anomaly: Root login from unknown IP","source":"model","label":"anomaly"}
+{"id":"r919","query":"Daily API usage trend","result_text":"1k, 1.2k, 1.1k, 1.5k","source":"api","label":"time_series"}
+{"id":"r920","query":"User status distribution","result_text":"Active 80%, Inactive 20%","source":"db","label":"category_breakdown"}
+{"id":"r921","query":"Compare Q1 vs Q2 features","result_text":"Q1: 10, Q2: 12","source":"db","label":"comparison"}
+{"id":"r922","query":"Total error logs","result_text":"2,000","source":"db","label":"exact_numeric"}
+{"id":"r923","query":"API key invalid","result_text":"Error: Invalid key","source":"api","label":"error"}
+{"id":"r924","query":"Users in Atlantis city","result_text":"null","source":"db","label":"noop_empty"}
+{"id":"r925","query":"Traffic by device","result_text":"Mobile 50%, Desktop 50%","source":"db","label":"category_breakdown"}
+{"id":"r926","query":"Compare free vs express delivery","result_text":"Free 70%, Express 30%","source":"db","label":"comparison"}
+{"id":"r927","query":"Sudden drop in db connections","result_text":"Anomaly: Connections dropped to 0","source":"model","label":"anomaly"}
+{"id":"r928","query":"Average packet loss","result_text":"0.1%","source":"api","label":"exact_numeric"}
+{"id":"r929","query":"Latency trend last 5 mins","result_text":"[20, 22, 21, 25, 20]","source":"api","label":"time_series"}
+{"id":"r930","query":"Read protected file","result_text":"Error: Access denied","source":"api","label":"error"}
+{"id":"r931","query":"Search for 'quuxbar'","result_text":"No matches","source":"db","label":"noop_empty"}
+{"id":"r932","query":"Product type sales","result_text":"Digital 60%, Physical 40%","source":"db","label":"category_breakdown"}
+{"id":"r933","query":"Compare 2022 vs 2023 profit","result_text":"2022: 50k, 2023: 60k","source":"db","label":"comparison"}
+{"id":"r934","query":"Total successful logins","result_text":"5,000","source":"db","label":"exact_numeric"}
+{"id":"r935","query":"Unusual timeout rate","result_text":"Anomaly: Timeouts > 2%","source":"model","label":"anomaly"}
+{"id":"r936","query":"Hourly active sessions","result_text":"[100, 120, 110, 150]","source":"api","label":"time_series"}
+{"id":"r937","query":"Feedback rating stats","result_text":"5 star 60%, 4 star 30%, <4 star 10%","source":"model","label":"category_breakdown"}
+{"id":"r938","query":"Compare cache hit vs miss","result_text":"Hit 90%, Miss 10%","source":"db","label":"comparison"}
+{"id":"r939","query":"Number of views per day","result_text":"1,500","source":"db","label":"exact_numeric"}
+{"id":"r940","query":"Run migration script","result_text":"Error: Migration failed","source":"db","label":"error"}
+{"id":"r941","query":"Upcoming meetups","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r942","query":"User age groups","result_text":"18-25: 20%, 26-35: 50%, 36+: 30%","source":"db","label":"category_breakdown"}
+{"id":"r943","query":"Compare Q1 vs Q2 downloads","result_text":"Q1: 500, Q2: 600","source":"db","label":"comparison"}
+{"id":"r944","query":"Total disk capacity","result_text":"1 TB","source":"api","label":"exact_numeric"}
+{"id":"r945","query":"Spike in auth failures","result_text":"Anomaly: 100 fails/min","source":"model","label":"anomaly"}
+{"id":"r946","query":"Daily active servers","result_text":"10, 12, 11, 13","source":"api","label":"time_series"}
+{"id":"r947","query":"Get resource ID 999","result_text":"Error: Not found","source":"api","label":"error"}
+{"id":"r948","query":"Deleted comments","result_text":"None","source":"db","label":"noop_empty"}
+{"id":"r949","query":"Support ticket status","result_text":"Open 30%, Pending 20%, Closed 50%","source":"db","label":"category_breakdown"}
+{"id":"r950","query":"Compare online vs in-store","result_text":"Online 70%, In-store 30%","source":"db","label":"comparison"}
+{"id":"r951","query":"Number of threads","result_text":"64","source":"api","label":"exact_numeric"}
+{"id":"r952","query":"Traffic spike detection","result_text":"Unusual traffic spike from IP 1.2.3.4","source":"model","label":"anomaly"}
+{"id":"r953","query":"Weekly file uploads","result_text":"[50, 80, 60, 90]","source":"db","label":"time_series"}
+{"id":"r954","query":"Server error 500","result_text":"Error: Internal Server Error","source":"api","label":"error"}
+{"id":"r955","query":"Users with name 'Null'","result_text":"0 records","source":"db","label":"noop_empty"}
+{"id":"r956","query":"Device brand breakdown","result_text":"Apple 40%, Samsung 30%, Other 30%","source":"db","label":"category_breakdown"}
+{"id":"r957","query":"Compare revenue Q1 vs Q2","result_text":"Q1: $10k, Q2: $12k","source":"db","label":"comparison"}
+{"id":"r958","query":"Total emails received","result_text":"2,000","source":"api","label":"exact_numeric"}
+{"id":"r959","query":"Spike in disk usage","result_text":"Anomaly: Disk usage +10GB in 1 min","source":"model","label":"anomaly"}
+{"id":"r960","query":"Daily user churn","result_text":"1%, 1.2%, 1.1%, 1.5%","source":"db","label":"time_series"}
+{"id":"r961","query":"API threshold reached","result_text":"Error: Threshold exceeded","source":"api","label":"error"}
+{"id":"r962","query":"Pending approvals","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r963","query":"Sales by country","result_text":"US 50%, UK 20%, CA 10%, Other 20%","source":"db","label":"category_breakdown"}
+{"id":"r964","query":"Compare 2023 vs 2024 active users","result_text":"2023: 1k, 2024: 1.2k","source":"db","label":"comparison"}
+{"id":"r965","query":"Number of running pods","result_text":"12","source":"api","label":"exact_numeric"}
+{"id":"r966","query":"Unusual network activity","result_text":"Anomaly: Outbound traffic > 500Mbps","source":"model","label":"anomaly"}
+{"id":"r967","query":"Weekly crash count","result_text":"[2, 3, 1, 5, 0]","source":"db","label":"time_series"}
+{"id":"r968","query":"Service timeout","result_text":"Error: Timeout","source":"api","label":"error"}
+{"id":"r969","query":"Messages in inbox","result_text":"0","source":"api","label":"noop_empty"}
+{"id":"r970","query":"Browser language distribution","result_text":"En 70%, Sp 20%, Fr 10%","source":"db","label":"category_breakdown"}
+{"id":"r971","query":"Compare organic vs direct traffic","result_text":"Organic 40, Direct 60","source":"db","label":"comparison"}
+{"id":"r972","query":"Total user signups","result_text":"1,000","source":"db","label":"exact_numeric"}
+{"id":"r973","query":"CPU temp warning","result_text":"High temp alert: 85C","source":"model","label":"anomaly"}
+{"id":"r974","query":"Daily ram usage","result_text":"[8GB, 9GB, 8.5GB, 10GB]","source":"api","label":"time_series"}
+{"id":"r975","query":"Validate zip code","result_text":"Error: Invalid format","source":"model","label":"error"}
+{"id":"r976","query":"Expired sessions","result_text":"None","source":"db","label":"noop_empty"}
+{"id":"r977","query":"Payment gateway stats","result_text":"Stripe 60%, PayPal 40%","source":"db","label":"category_breakdown"}
+{"id":"r978","query":"Compare new vs returning users","result_text":"New 40%, Returning 60%","source":"db","label":"comparison"}
+{"id":"r979","query":"Number of failed tasks","result_text":"5","source":"db","label":"exact_numeric"}
+{"id":"r980","query":"Unusual traffic volume","result_text":"Anomaly: Traffic 5x normal","source":"model","label":"anomaly"}
+{"id":"r981","query":"Weekly active nodes","result_text":"[8, 8, 8, 9, 8]","source":"api","label":"time_series"}
+{"id":"r982","query":"Access endpoint Z","result_text":"Error: 403 Forbidden","source":"api","label":"error"}
+{"id":"r983","query":"Users with debt","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r984","query":"Log severity stats","result_text":"Info 90%, Error 5%, Warn 5%","source":"db","label":"category_breakdown"}
+{"id":"r985","query":"Compare Q1 vs Q2 revenue growth","result_text":"Q1: 5%, Q2: 7%","source":"db","label":"comparison"}
+{"id":"r986","query":"Total API calls today","result_text":"500k","source":"cache","label":"exact_numeric"}
+{"id":"r987","query":"Sudden spike in 502s","result_text":"Anomaly: 502 errors > 2%","source":"model","label":"anomaly"}
+{"id":"r988","query":"Daily server cpu","result_text":"0.4, 0.5, 0.45, 0.6","source":"api","label":"time_series"}
+{"id":"r989","query":"Import xml","result_text":"Error: Parse error","source":"api","label":"error"}
+{"id":"r990","query":"Search for 'foobaz'","result_text":"0 results","source":"db","label":"noop_empty"}
+{"id":"r991","query":"User occupation stats","result_text":"Student 40%, Professional 60%","source":"db","label":"category_breakdown"}
+{"id":"r992","query":"Compare 2023 vs 2024 profit margin","result_text":"2023: 10%, 2024: 12%","source":"db","label":"comparison"}
+{"id":"r993","query":"Number of critical bugs","result_text":"2","source":"db","label":"exact_numeric"}
+{"id":"r994","query":"Unusual db lock time","result_text":"Anomaly: Lock time > 10s","source":"model","label":"anomaly"}
+{"id":"r995","query":"Weekly unique visits","result_text":"[500, 600, 550, 700]","source":"db","label":"time_series"}
+{"id":"r996","query":"Execute binary","result_text":"Error: Execution failed","source":"api","label":"error"}
+{"id":"r997","query":"Flagged posts","result_text":"None","source":"db","label":"noop_empty"}
+{"id":"r998","query":"Subscription tier stats","result_text":"Free 70%, Premium 30%","source":"db","label":"category_breakdown"}
+{"id":"r999","query":"Compare mobile vs web signups","result_text":"Mobile 60%, Web 40%","source":"db","label":"comparison"}
+{"id":"r1000","query":"Total uptime hours","result_text":"720","source":"api","label":"exact_numeric"}
+{"id":"r1001","query":"Network latency check","result_text":"Anomaly: Ping 200ms","source":"model","label":"anomaly"}
+{"id":"r1002","query":"Daily active connections","result_text":"50, 55, 52, 60","source":"cache","label":"time_series"}
+{"id":"r1003","query":"Authenticate admin","result_text":"Error: Invalid OTP","source":"api","label":"error"}
+{"id":"r1004","query":"Blocked IPs","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r1005","query":"Traffic origin stats","result_text":"Internal 10%, External 90%","source":"db","label":"category_breakdown"}
+{"id":"r1006","query":"Compare 2023 vs 2024 employees","result_text":"2023: 50, 2024: 60","source":"db","label":"comparison"}
+{"id":"r1007","query":"Number of vcpus","result_text":"4","source":"api","label":"exact_numeric"}
+{"id":"r1008","query":"Unusual API key usage","result_text":"Anomaly: Key used from new IP","source":"model","label":"anomaly"}
+{"id":"r1009","query":"Weekly throughput history","result_text":"[500Mbps, 600Mbps, 550Mbps, 700Mbps]","source":"api","label":"time_series"}
+{"id":"r1010","query":"Truncate table","result_text":"Error: Table not found","source":"db","label":"error"}
+{"id":"r1011","query":"Archived projects","result_text":"0","source":"db","label":"noop_empty"}
+{"id":"r1012","query":"App rating distribution","result_text":"5 star 70%, 1 star 5%, Other 25%","source":"db","label":"category_breakdown"}
+{"id":"r1013","query":"Compare free vs paid users","result_text":"Free 1000, Paid 200","source":"db","label":"comparison"}
+{"id":"r1014","query":"Total images","result_text":"50,000","source":"db","label":"exact_numeric"}
+{"id":"r1015","query":"Security breach alert","result_text":"Anomaly: SSH brute force detected","source":"model","label":"anomaly"}
+{"id":"r1016","query":"Daily response time stats","result_text":"[100ms, 110ms, 105ms, 120ms]","source":"api","label":"time_series"}
+{"id":"r1017","query":"Start db service","result_text":"Error: Port conflict","source":"api","label":"error"}
+{"id":"r1018","query":"Users with no address","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r1019","query":"Customer location stats","result_text":"Urban 80%, Rural 20%","source":"db","label":"category_breakdown"}
+{"id":"r1020","query":"Compare Q3 vs Q4 expenses","result_text":"Q3: 20k, Q4: 25k","source":"db","label":"comparison"}
+{"id":"r1021","query":"Number of instances","result_text":"10","source":"api","label":"exact_numeric"}
+{"id":"r1022","query":"Unusual process activity","result_text":"Anomaly: Proc spawned shell","source":"model","label":"anomaly"}
+{"id":"r1023","query":"Weekly deploys","result_text":"[2, 3, 1, 4]","source":"api","label":"time_series"}
+{"id":"r1024","query":"Restart service","result_text":"Error: Service not found","source":"api","label":"error"}
+{"id":"r1025","query":"Pending validations","result_text":"None","source":"db","label":"noop_empty"}
+{"id":"r1026","query":"Ad type stats","result_text":"Banner 50%, Video 30%, Text 20%","source":"db","label":"category_breakdown"}
+{"id":"r1027","query":"Compare active vs idle users","result_text":"Active 20%, Idle 80%","source":"db","label":"comparison"}
+{"id":"r1028","query":"Total logs volume","result_text":"100 GB","source":"db","label":"exact_numeric"}
+{"id":"r1029","query":"Disk usage alert","result_text":"Low disk space: <1GB free","source":"model","label":"anomaly"}
+{"id":"r1030","query":"Daily error count","result_text":"10, 15, 12, 20","source":"db","label":"time_series"}
+{"id":"r1031","query":"Update record","result_text":"Error: ID missing","source":"api","label":"error"}
+{"id":"r1032","query":"Unassigned bugs","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r1033","query":"Product category breakdown","result_text":"A 40%, B 30%, C 30%","source":"db","label":"category_breakdown"}
+{"id":"r1034","query":"Compare 2023 vs 2024 churn rate","result_text":"2023: 5%, 2024: 4%","source":"db","label":"comparison"}
+{"id":"r1035","query":"Number of servers","result_text":"50","source":"api","label":"exact_numeric"}
+{"id":"r1036","query":"High load average","result_text":"Anomaly: Load > 5.0","source":"model","label":"anomaly"}
+{"id":"r1037","query":"Weekly active groups history","result_text":"[5, 5, 5, 6]","source":"db","label":"time_series"}
+{"id":"r1038","query":"Deploy artifact","result_text":"Error: Artifact missing","source":"api","label":"error"}
+{"id":"r1039","query":"Users in unknown region","result_text":"0","source":"db","label":"noop_empty"}
+{"id":"r1040","query":"Project phase stats","result_text":"Planning 20%, Dev 50%, Testing 30%","source":"db","label":"category_breakdown"}
+{"id":"r1041","query":"Compare team A vs B velocity stats","result_text":"A: 40, B: 45","source":"db","label":"comparison"}
+{"id":"r1042","query":"Total revenue all time","result_text":"$1M","source":"db","label":"exact_numeric"}
+{"id":"r1043","query":"Network flood","result_text":"Anomaly: 1000 packets/sec","source":"model","label":"anomaly"}
+{"id":"r1044","query":"Daily visits history","result_text":"1k, 1.2k, 1.1k, 1.3k","source":"db","label":"time_series"}
+{"id":"r1045","query":"Get config file","result_text":"Error: Read error","source":"api","label":"error"}
+{"id":"r1046","query":"Orphaned objects","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r1047","query":"Browser stats","result_text":"Chrome 80%, Firefox 20%","source":"db","label":"category_breakdown"}
+{"id":"r1048","query":"Compare Q1 vs Q2 users","result_text":"Q1: 100, Q2: 120","source":"db","label":"comparison"}
+{"id":"r1049","query":"Number of active sessions today","result_text":"200","source":"api","label":"exact_numeric"}
+{"id":"r1050","query":"Unusual file modification","result_text":"Anomaly: /etc/passwd modified","source":"model","label":"anomaly"}
+{"id":"r1051","query":"Total marketing spend Q1","result_text":"$450,000","source":"db","label":"exact_numeric"}
+{"id":"r1052","query":"Active users right now","result_text":"2,104","source":"cache","label":"exact_numeric"}
+{"id":"r1053","query":"Server CPU load last 30 min","result_text":"[12%, 15%, 18%, 88%, 90%, 20%]","source":"api","label":"time_series","notes":"backup process"}
+{"id":"r1054","query":"Top selling widgets","result_text":"Red Widget: 50, Blue Widget: 30, Green Widget: 20","source":"db","label":"category_breakdown"}
+{"id":"r1055","query":"Compare conversion email vs organic","result_text":"Email: 4.5%, Organic: 2.1%","source":"model","label":"comparison"}
+{"id":"r1056","query":"Scan for PII in comments","result_text":"None detected","source":"model","label":"noop_empty"}
+{"id":"r1057","query":"Payment gateway status","result_text":"Error: Gateway Timeout (504)","source":"api","label":"error"}
+{"id":"r1058","query":"Inventory count SKU-X","result_text":"0","source":"db","label":"exact_numeric","notes":"backordered"}
+{"id":"r1059","query":"Weekly open rates","result_text":"{'w1': 22%, 'w2': 25%, 'w3': 19%, 'w4': 28%}","source":"db","label":"time_series"}
+{"id":"r1060","query":"Detect anomaly in login","result_text":"Anomaly: Login from new country (RU)","source":"model","label":"anomaly"}
+{"id":"r1061","query":"YoY Growth 2024-2025","result_text":"+15% YoY","source":"db","label":"comparison"}
+{"id":"r1062","query":"User roles distribution","result_text":"Admin: 5%, Editor: 20%, Viewer: 75%","source":"db","label":"category_breakdown"}
+{"id":"r1063","query":"Average wait time","result_text":"3m 12s","source":"api","label":"exact_numeric"}
+{"id":"r1064","query":"Get user profile 9999999","result_text":"User not found","source":"db","label":"noop_empty"}
+{"id":"r1065","query":"Cache hit ratio","result_text":"92.5%","source":"api","label":"exact_numeric"}
+{"id":"r1066","query":"CPC trend last quarter","result_text":"Q1: $1.20, Q2: $1.30, Q3: $1.15","source":"db","label":"time_series"}
+{"id":"r1067","query":"Uptime percentage","result_text":"99.999%","source":"cache","label":"exact_numeric"}
+{"id":"r1068","query":"Flag suspicious transaction","result_text":"Tx 992 flagged: Score 0.88","source":"model","label":"anomaly"}
+{"id":"r1069","query":"Compare features Pro vs Enterprise","result_text":"Pro: 15 feats, Ent: 25 feats","source":"model","label":"comparison"}
+{"id":"r1070","query":"Forecast revenue next year","result_text":"Timeout: Model limit reached","source":"model","label":"error"}
+{"id":"r1071","query":"Total refunds processed","result_text":"$540.50","source":"db","label":"exact_numeric"}
+{"id":"r1072","query":"Churn by region","result_text":"NA: 2%, EU: 3%, APAC: 1.5%","source":"db","label":"category_breakdown"}
+{"id":"r1073","query":"Daily active users last week","result_text":"Mon: 5k, Tue: 5.2k, Wed: 5.1k, Thu: 5.5k","source":"api","label":"time_series"}
+{"id":"r1074","query":"Compare Q1 vs Q2 budget","result_text":"Q1: 50k, Q2: 45k (10% decrease)","source":"db","label":"comparison"}
+{"id":"r1075","query":"Memory spike alert","result_text":"Alert: Pod-4 memory > 98%","source":"model","label":"anomaly"}
+{"id":"r1076","query":"Total contractors","result_text":"12","source":"db","label":"exact_numeric"}
+{"id":"r1077","query":"Salesforce sync status","result_text":"401 Unauthorized","source":"api","label":"error"}
+{"id":"r1078","query":"Plan usage distribution","result_text":"Free: 60%, Basic: 30%, Pro: 10%","source":"db","label":"category_breakdown"}
+{"id":"r1079","query":"Sales in Mars colony","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r1080","query":"Median deal value","result_text":"$8,500","source":"db","label":"exact_numeric"}
+{"id":"r1081","query":"NPS trend 2024","result_text":"Q1: 50, Q2: 52, Q3: 55, Q4: 58","source":"db","label":"time_series"}
+{"id":"r1082","query":"Compare mobile vs desktop traffic","result_text":"Mobile 70% / Desktop 30%","source":"api","label":"comparison"}
+{"id":"r1083","query":"Database lag spike","result_text":"Spike: 2000ms replication lag","source":"model","label":"anomaly"}
+{"id":"r1084","query":"Top support issues","result_text":"1. Password (40%), 2. Billing (30%), 3. UI (30%)","source":"db","label":"category_breakdown"}
+{"id":"r1085","query":"ARR current","result_text":"$2.3M","source":"db","label":"exact_numeric"}
+{"id":"r1086","query":"Export user data","result_text":"Error: IO Exception","source":"api","label":"error"}
+{"id":"r1087","query":"Retention rate D30","result_text":"45%","source":"model","label":"exact_numeric"}
+{"id":"r1088","query":"Tweet volume","result_text":"[100, 150, 120, 500, 800, 120]","source":"api","label":"time_series","notes":"viral event"}
+{"id":"r1089","query":"Burn rate monthly","result_text":"$120k","source":"model","label":"exact_numeric"}
+{"id":"r1090","query":"Customers named 'Batman'","result_text":"null","source":"db","label":"noop_empty"}
+{"id":"r1091","query":"Browser stats","result_text":"Chrome: 70%, Firefox: 20%, Edge: 10%","source":"db","label":"category_breakdown"}
+{"id":"r1092","query":"Compare LTV organic vs paid","result_text":"Organic: $800, Paid: $600","source":"model","label":"comparison"}
+{"id":"r1093","query":"Unusual data egress","result_text":"Exfiltration: 10GB sent to unknown host","source":"model","label":"anomaly"}
+{"id":"r1094","query":"Total commits today","result_text":"15","source":"api","label":"exact_numeric"}
+{"id":"r1095","query":"Build duration trend","result_text":"5m, 6m, 5m, 12m (cache miss), 5m","source":"api","label":"time_series"}
+{"id":"r1096","query":"Cloud spend AWS vs GCP","result_text":"AWS: 80%, GCP: 20%","source":"db","label":"category_breakdown"}
+{"id":"r1097","query":"Get invoice #0001","result_text":"404 Not Found","source":"api","label":"error"}
+{"id":"r1098","query":"Active experiments","result_text":"Exp_1 (A), Exp_2 (B)","source":"db","label":"category_breakdown"}
+{"id":"r1099","query":"Peak concurrent connections","result_text":"5,100","source":"cache","label":"exact_numeric"}
+{"id":"r1100","query":"New vs Churned Users","result_text":"New: 50, Churned: 10","source":"db","label":"comparison"}
+{"id":"r1101","query":"Revenue 2021","result_text":"$3.1M","source":"db","label":"exact_numeric"}
+{"id":"r1102","query":"Latency by region","result_text":"US: 30ms, EU: 60ms, Asia: 150ms","source":"api","label":"category_breakdown"}
+{"id":"r1103","query":"Weekly incidents","result_text":"[1, 0, 2, 5, 1]","source":"db","label":"time_series"}
+{"id":"r1104","query":"Current stock price","result_text":"$210.50","source":"api","label":"exact_numeric"}
+{"id":"r1105","query":"Compare iOS vs Android churn","result_text":"iOS: 2%, Android: 2.5%","source":"db","label":"comparison"}
+{"id":"r1106","query":"Detect XSS","result_text":"Pattern '<script>' detected in bio","source":"model","label":"anomaly"}
+{"id":"r1107","query":"Employee ENPS","result_text":"45","source":"db","label":"exact_numeric"}
+{"id":"r1108","query":"Marketing channel mix","result_text":"SEO: 40%, PPC: 30%, Social: 30%","source":"db","label":"category_breakdown"}
+{"id":"r1109","query":"Upcoming bank holidays","result_text":"None in next 30 days","source":"api","label":"noop_empty"}
+{"id":"r1110","query":"Parse resume PDF","result_text":"Error: File corrupted","source":"model","label":"error"}
+{"id":"r1111","query":"Visitor growth trend","result_text":"10k, 12k, 15k, 20k, 25k","source":"db","label":"time_series"}
+{"id":"r1112","query":"Average order value","result_text":"$65.50","source":"db","label":"exact_numeric"}
+{"id":"r1113","query":"Mobile app crash spike","result_text":"Spike: Crash rate > 2%","source":"model","label":"anomaly"}
+{"id":"r1114","query":"Compare Q4 23 vs Q4 24","result_text":"Q4 23: 1M, Q4 24: 1.2M","source":"model","label":"comparison"}
+{"id":"r1115","query":"Referral sources","result_text":"Google: 60%, Direct: 20%, Bing: 20%","source":"db","label":"category_breakdown"}
+{"id":"r1116","query":"Active worker nodes","result_text":"8","source":"api","label":"exact_numeric"}
+{"id":"r1117","query":"Pending PRs","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r1118","query":"Generate PDF report","result_text":"Timeout 504","source":"api","label":"error"}
+{"id":"r1119","query":"Daily temperature Austin","result_text":"Mon 95F, Tue 98F, Wed 90F","source":"api","label":"time_series"}
+{"id":"r1120","query":"Max transaction limit","result_text":"$10,000","source":"db","label":"exact_numeric"}
+{"id":"r1121","query":"Disk usage by folder","result_text":"/home 50%, /var 30%, /usr 20%","source":"api","label":"category_breakdown"}
+{"id":"r1122","query":"Compare feature usage","result_text":"Feat A: 500, Feat B: 100","source":"db","label":"comparison"}
+{"id":"r1123","query":"Security audit alert","result_text":"Unusual sudo access by 'intern'","source":"model","label":"anomaly"}
+{"id":"r1124","query":"Total premium users","result_text":"1,500","source":"db","label":"exact_numeric"}
+{"id":"r1125","query":"Downgrade reasons","result_text":"Price: 40%, Features: 30%, Usage: 30%","source":"model","label":"category_breakdown"}
+{"id":"r1126","query":"Search query trend","result_text":"[200, 220, 210, 250, 300]","source":"db","label":"time_series"}
+{"id":"r1127","query":"API limit status","result_text":"Limit reached (100%)","source":"api","label":"error"}
+{"id":"r1128","query":"Find users in Atlantis","result_text":"0 records","source":"db","label":"noop_empty"}
+{"id":"r1129","query":"Average resolution time","result_text":"4.5 hours","source":"db","label":"exact_numeric"}
+{"id":"r1130","query":"Compare AWS vs Azure costs","result_text":"AWS: $10k, Azure: $2k","source":"db","label":"comparison"}
+{"id":"r1131","query":"Sudden traffic drop","result_text":"Alert: Traffic 0 for 5 mins","source":"model","label":"anomaly"}
+{"id":"r1132","query":"Top 5 books","result_text":"1. Book A, 2. Book B, 3. Book C...","source":"db","label":"category_breakdown"}
+{"id":"r1133","query":"Server RAM trend","result_text":"16GB, 16.5GB, 17GB, 16GB","source":"api","label":"time_series"}
+{"id":"r1134","query":"Open tickets count","result_text":"42","source":"api","label":"exact_numeric"}
+{"id":"r1135","query":"Calculate ROI Campaign Y","result_text":"Error: Division by zero","source":"model","label":"error"}
+{"id":"r1136","query":"Visitors from Pluto","result_text":"null","source":"db","label":"noop_empty"}
+{"id":"r1137","query":"Compare gross vs net","result_text":"Gross: 40%, Net: 10%","source":"db","label":"comparison"}
+{"id":"r1138","query":"Transaction spike","result_text":"Spike: 500 tx/sec (norm 50)","source":"model","label":"anomaly"}
+{"id":"r1139","query":"OS version stats","result_text":"Win10 50%, Win11 30%, Mac 20%","source":"db","label":"category_breakdown"}
+{"id":"r1140","query":"Daily calories burnt","result_text":"[2500, 2600, 2400, 2800]","source":"api","label":"time_series"}
+{"id":"r1141","query":"Total lines of code","result_text":"2.5M","source":"db","label":"exact_numeric"}
+{"id":"r1142","query":"Compare IPv4 vs IPv6","result_text":"IPv4: 90%, IPv6: 10%","source":"api","label":"comparison"}
+{"id":"r1143","query":"Deadlock detected","result_text":"Deadlock on table 'users'","source":"db","label":"anomaly"}
+{"id":"r1144","query":"Top paying clients","result_text":"Client A ($50k), Client B ($40k)","source":"db","label":"category_breakdown"}
+{"id":"r1145","query":"Active devs","result_text":"25","source":"db","label":"exact_numeric"}
+{"id":"r1146","query":"Run aggregation","result_text":"Error: Out of memory","source":"db","label":"error"}
+{"id":"r1147","query":"Sales product 'Unknown'","result_text":"No sales","source":"db","label":"noop_empty"}
+{"id":"r1148","query":"Load avg trend","result_text":"0.2, 0.3, 0.2, 0.5, 0.2","source":"api","label":"time_series"}
+{"id":"r1149","query":"Compare Q3 actual vs goal","result_text":"Actual: 300k, Goal: 350k","source":"db","label":"comparison"}
+{"id":"r1150","query":"Total user count","result_text":"120,500","source":"cache","label":"exact_numeric"}
+{"id":"r1151","query":"Total assets","result_text":"$5,000,000","source":"db","label":"exact_numeric"}
+{"id":"r1152","query":"Incident severity","result_text":"Sev1: 0, Sev2: 1, Sev3: 10","source":"db","label":"category_breakdown"}
+{"id":"r1153","query":"Memory leak alert","result_text":"Slow leak: +100MB/day","source":"model","label":"anomaly"}
+{"id":"r1154","query":"Compare 2024 vs 2025 staff","result_text":"2024: 150, 2025: 180","source":"db","label":"comparison"}
+{"id":"r1155","query":"Response time history","result_text":"100ms, 105ms, 102ms, 100ms","source":"api","label":"time_series"}
+{"id":"r1156","query":"Check permissions","result_text":"Error: Token expired","source":"api","label":"error"}
+{"id":"r1157","query":"Tasks due yesterday","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r1158","query":"Slack channel count","result_text":"55","source":"api","label":"exact_numeric"}
+{"id":"r1159","query":"Traffic by source","result_text":"Organic 40%, Paid 30%, Direct 30%","source":"db","label":"category_breakdown"}
+{"id":"r1160","query":"Card expiry anomaly","result_text":"Batch expiry: 1000 cards today","source":"model","label":"anomaly"}
+{"id":"r1161","query":"Compare open vs click","result_text":"Open: 30%, Click: 5%","source":"db","label":"comparison"}
+{"id":"r1162","query":"Revenue per head","result_text":"$300,000","source":"model","label":"exact_numeric"}
+{"id":"r1163","query":"Daily steps","result_text":"[7000, 8000, 6000, 9000]","source":"api","label":"time_series"}
+{"id":"r1164","query":"File upload error","result_text":"Error: Too large","source":"api","label":"error"}
+{"id":"r1165","query":"Users in zipcode 00000","result_text":"0","source":"db","label":"noop_empty"}
+{"id":"r1166","query":"Top languages","result_text":"Python, Java, C++","source":"db","label":"category_breakdown"}
+{"id":"r1167","query":"Avg sales cycle","result_text":"60 days","source":"db","label":"exact_numeric"}
+{"id":"r1168","query":"Compare desktop vs mobile conversion","result_text":"Desktop 5%, Mobile 2%","source":"db","label":"comparison"}
+{"id":"r1169","query":"Packet loss alert","result_text":"Loss > 1% on switch-2","source":"model","label":"anomaly"}
+{"id":"r1170","query":"Weekly commits","result_text":"[20, 30, 25, 40]","source":"api","label":"time_series"}
+{"id":"r1171","query":"Active sessions","result_text":"500","source":"cache","label":"exact_numeric"}
+{"id":"r1172","query":"Expense breakdown","result_text":"Salaries 70%, Rent 10%, Ops 20%","source":"db","label":"category_breakdown"}
+{"id":"r1173","query":"Auth failure","result_text":"403 Forbidden","source":"api","label":"error"}
+{"id":"r1174","query":"Search 'abracadabra'","result_text":"No results","source":"db","label":"noop_empty"}
+{"id":"r1175","query":"Compare M vs F users","result_text":"M 50%, F 50%","source":"db","label":"comparison"}
+{"id":"r1176","query":"Order size anomaly","result_text":"Order value $100k (avg $50)","source":"model","label":"anomaly"}
+{"id":"r1177","query":"DB size","result_text":"800 GB","source":"db","label":"exact_numeric"}
+{"id":"r1178","query":"Latency trend","result_text":"40ms, 42ms, 45ms, 40ms","source":"api","label":"time_series"}
+{"id":"r1179","query":"Tickets by tag","result_text":"Bug: 40, Feature: 40, Question: 20","source":"db","label":"category_breakdown"}
+{"id":"r1180","query":"Compare WoW traffic","result_text":"This: 12k, Last: 10k","source":"db","label":"comparison"}
+{"id":"r1181","query":"System load","result_text":"0.8","source":"api","label":"exact_numeric"}
+{"id":"r1182","query":"Payment error","result_text":"Error: Stripe timeout","source":"api","label":"error"}
+{"id":"r1183","query":"Birthdays today","result_text":"None","source":"db","label":"noop_empty"}
+{"id":"r1184","query":"Daily revenue","result_text":"$2k, $2.5k, $2.2k, $3k","source":"db","label":"time_series"}
+{"id":"r1185","query":"Phishing detect","result_text":"Suspicious link in email 99","source":"model","label":"anomaly"}
+{"id":"r1186","query":"Beta testers","result_text":"120","source":"db","label":"exact_numeric"}
+{"id":"r1187","query":"Users by country","result_text":"US 40%, UK 30%, DE 30%","source":"db","label":"category_breakdown"}
+{"id":"r1188","query":"Compare prod vs stage","result_text":"Prod: 50ms, Stage: 60ms","source":"api","label":"comparison"}
+{"id":"r1189","query":"Comment count","result_text":"20,000","source":"db","label":"exact_numeric"}
+{"id":"r1190","query":"Syntax error","result_text":"Error: SELECT * form (typo)","source":"db","label":"error"}
+{"id":"r1191","query":"Tickets for 'Ghost'","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r1192","query":"Battery trend","result_text":"90%, 80%, 70%, 60%","source":"api","label":"time_series"}
+{"id":"r1193","query":"404 spike","result_text":"Anomaly: 404s > 5%","source":"model","label":"anomaly"}
+{"id":"r1194","query":"Device type","result_text":"Mobile 55%, Desktop 45%","source":"db","label":"category_breakdown"}
+{"id":"r1195","query":"Compare new vs returning","result_text":"New 35%, Returning 65%","source":"db","label":"comparison"}
+{"id":"r1196","query":"Active subs","result_text":"3,000","source":"db","label":"exact_numeric"}
+{"id":"r1197","query":"Meeting hours","result_text":"[4, 5, 3, 6, 2]","source":"api","label":"time_series"}
+{"id":"r1198","query":"Render error","result_text":"Error: Missing template","source":"api","label":"error"}
+{"id":"r1199","query":"Stock discontinued","result_text":"0","source":"db","label":"noop_empty"}
+{"id":"r1200","query":"Avg user age","result_text":"28","source":"db","label":"exact_numeric"}
+{"id":"r1201","query":"Sales by rep","result_text":"John: $5k, Jane: $6k","source":"db","label":"category_breakdown"}
+{"id":"r1202","query":"Compare 2020 vs 2021","result_text":"2020: 1M, 2021: 1.1M","source":"db","label":"comparison"}
+{"id":"r1203","query":"Login location anomaly","result_text":"Login from China (User in US)","source":"model","label":"anomaly"}
+{"id":"r1204","query":"Daily errors","result_text":"2, 3, 1, 4","source":"db","label":"time_series"}
+{"id":"r1205","query":"PDF downloads","result_text":"600","source":"db","label":"exact_numeric"}
+{"id":"r1206","query":"Legacy connect error","result_text":"Error: Protocol error","source":"api","label":"error"}
+{"id":"r1207","query":"Feedback Feat Z","result_text":"None","source":"db","label":"noop_empty"}
+{"id":"r1208","query":"Browser breakdown","result_text":"Chrome 60%, Safari 30%, Other 10%","source":"db","label":"category_breakdown"}
+{"id":"r1209","query":"Compare Q1 sales vs goal","result_text":"Sales: 200, Goal: 250","source":"db","label":"comparison"}
+{"id":"r1210","query":"CPU spike","result_text":"Anomaly: CPU 100% for 10m","source":"model","label":"anomaly"}
+{"id":"r1211","query":"Like count","result_text":"2,500","source":"db","label":"exact_numeric"}
+{"id":"r1212","query":"MAU history","result_text":"[15k, 16k, 15.5k, 17k]","source":"db","label":"time_series"}
+{"id":"r1213","query":"Export error","result_text":"Error: Too large","source":"api","label":"error"}
+{"id":"r1214","query":"Users 0 logins","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r1215","query":"Revenue sources","result_text":"Ads 40%, Subs 60%","source":"db","label":"category_breakdown"}
+{"id":"r1216","query":"Compare today vs yesterday","result_text":"Today: 100, Yesterday: 90","source":"db","label":"comparison"}
+{"id":"r1217","query":"Disk remaining","result_text":"60 GB","source":"api","label":"exact_numeric"}
+{"id":"r1218","query":"Bot detect","result_text":"Bot: Googlebot","source":"model","label":"anomaly"}
+{"id":"r1219","query":"Request rate","result_text":"[200, 250, 220, 300]","source":"api","label":"time_series"}
+{"id":"r1220","query":"Total refunds","result_text":"$800","source":"db","label":"exact_numeric"}
+{"id":"r1221","query":"Survey ratings","result_text":"5: 50%, 4: 40%, 3: 10%","source":"db","label":"category_breakdown"}
+{"id":"r1222","query":"Compare load time A vs B","result_text":"A: 1s, B: 1.5s","source":"api","label":"comparison"}
+{"id":"r1223","query":"Payment API down","result_text":"503 Unavailable","source":"api","label":"error"}
+{"id":"r1224","query":"List 'Unicorn' users","result_text":"null","source":"db","label":"noop_empty"}
+{"id":"r1225","query":"Avg star rating","result_text":"4.6","source":"db","label":"exact_numeric"}
+{"id":"r1226","query":"Failed login spike","result_text":"Spike: 500 fails/min","source":"model","label":"anomaly"}
+{"id":"r1227","query":"Weekly rev trend","result_text":"$15k, $16k, $14k, $18k","source":"db","label":"time_series"}
+{"id":"r1228","query":"Email domains","result_text":"Gmail 70%, Yahoo 30%","source":"db","label":"category_breakdown"}
+{"id":"r1229","query":"Compare bandwidth","result_text":"This: 2TB, Last: 1.5TB","source":"api","label":"comparison"}
+{"id":"r1230","query":"Total API reqs","result_text":"2.5M","source":"cache","label":"exact_numeric"}
+{"id":"r1231","query":"Query cancel","result_text":"Error: Cancelled","source":"db","label":"error"}
+{"id":"r1232","query":"New msgs","result_text":"0","source":"db","label":"noop_empty"}
+{"id":"r1233","query":"Referral links","result_text":"Link A: 200, Link B: 100","source":"db","label":"category_breakdown"}
+{"id":"r1234","query":"Compare churn 23 vs 24","result_text":"23: 6%, 24: 5%","source":"db","label":"comparison"}
+{"id":"r1235","query":"API error spike","result_text":"Anomaly: 500s > 8%","source":"model","label":"anomaly"}
+{"id":"r1236","query":"Active projects","result_text":"15","source":"db","label":"exact_numeric"}
+{"id":"r1237","query":"Daily commits","result_text":"[5, 6, 8, 4, 7]","source":"api","label":"time_series"}
+{"id":"r1238","query":"Log permission","result_text":"Error: Denied","source":"api","label":"error"}
+{"id":"r1239","query":"Tasks tomorrow","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r1240","query":"OS stats","result_text":"iOS 50%, Android 50%","source":"db","label":"category_breakdown"}
+{"id":"r1241","query":"Compare paid/free","result_text":"Paid 2k, Free 20k","source":"db","label":"comparison"}
+{"id":"r1242","query":"Total images","result_text":"60,000","source":"db","label":"exact_numeric"}
+{"id":"r1243","query":"Signup anomaly","result_text":"Zero signups last hour","source":"model","label":"anomaly"}
+{"id":"r1244","query":"Temp trend","result_text":"65C, 66C, 64C, 68C","source":"api","label":"time_series"}
+{"id":"r1245","query":"Lang stats","result_text":"EN 90%, ES 10%","source":"db","label":"category_breakdown"}
+{"id":"r1246","query":"Compare Q2/Q3 exp","result_text":"Q2: 50k, Q3: 55k","source":"db","label":"comparison"}
+{"id":"r1247","query":"Storage used","result_text":"1.5 TB","source":"api","label":"exact_numeric"}
+{"id":"r1248","query":"Script error","result_text":"Error: Not found","source":"api","label":"error"}
+{"id":"r1249","query":"Notifications","result_text":"0","source":"db","label":"noop_empty"}
+{"id":"r1250","query":"Mem usage trend","result_text":"5GB, 5.2GB, 5.1GB, 5.5GB","source":"api","label":"time_series"}
+{"id":"r1251","query":"Card types","result_text":"Visa 50%, MC 40%, Amex 10%","source":"db","label":"category_breakdown"}
+{"id":"r1252","query":"Compare active/inactive","result_text":"Active 30%, Inactive 70%","source":"db","label":"comparison"}
+{"id":"r1253","query":"Huge upload","result_text":"Anomaly: 60GB upload","source":"model","label":"anomaly"}
+{"id":"r1254","query":"Files processed","result_text":"20,000","source":"db","label":"exact_numeric"}
+{"id":"r1255","query":"Response codes","result_text":"200, 200, 404, 200","source":"api","label":"time_series"}
+{"id":"r1256","query":"SMTP error","result_text":"Error: Timeout","source":"api","label":"error"}
+{"id":"r1257","query":"Unread","result_text":"0","source":"api","label":"noop_empty"}
+{"id":"r1258","query":"Dept count","result_text":"Eng 60, Sales 40","source":"db","label":"category_breakdown"}
+{"id":"r1259","query":"Compare leads","result_text":"Jan: 300, Feb: 350","source":"db","label":"comparison"}
+{"id":"r1260","query":"Revenue today","result_text":"$6,000","source":"db","label":"exact_numeric"}
+{"id":"r1261","query":"High IO","result_text":"Anomaly: Wait > 90%","source":"model","label":"anomaly"}
+{"id":"r1262","query":"Active groups","result_text":"[60, 65, 62, 70]","source":"db","label":"time_series"}
+{"id":"r1263","query":"JSON error","result_text":"Error: Parse fail","source":"model","label":"error"}
+{"id":"r1264","query":"Archived items","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r1265","query":"Top tags","result_text":"bug, feature, ui","source":"db","label":"category_breakdown"}
+{"id":"r1266","query":"Compare revenue source","result_text":"Desktop $6k, Mobile $3k","source":"db","label":"comparison"}
+{"id":"r1267","query":"Session duration","result_text":"6m 10s","source":"db","label":"exact_numeric"}
+{"id":"r1268","query":"Admin anomaly","result_text":"Reset by non-admin","source":"model","label":"anomaly"}
+{"id":"r1269","query":"API calls trend","result_text":"12k, 14k, 13k, 16k","source":"api","label":"time_series"}
+{"id":"r1270","query":"Role stats","result_text":"Admin 10%, User 90%","source":"db","label":"category_breakdown"}
+{"id":"r1271","query":"Compare bugs","result_text":"Q1: 60, Q2: 50","source":"db","label":"comparison"}
+{"id":"r1272","query":"Log lines","result_text":"6,000,000","source":"db","label":"exact_numeric"}
+{"id":"r1273","query":"Key missing","result_text":"Error: No API key","source":"api","label":"error"}
+{"id":"r1274","query":"Users Antarctica","result_text":"null","source":"db","label":"noop_empty"}
+{"id":"r1275","query":"Traffic sources","result_text":"Google 60%, Bing 5%, Direct 35%","source":"db","label":"category_breakdown"}
+{"id":"r1276","query":"Compare shipping","result_text":"Std 60%, Exp 40%","source":"db","label":"comparison"}
+{"id":"r1277","query":"DB drop","result_text":"Anomaly: Conns 0","source":"model","label":"anomaly"}
+{"id":"r1278","query":"Resp size","result_text":"2.0 KB","source":"api","label":"exact_numeric"}
+{"id":"r1279","query":"Latency hour","result_text":"[25, 28, 26, 30, 25]","source":"api","label":"time_series"}
+{"id":"r1280","query":"File read","result_text":"Error: Not found","source":"api","label":"error"}
+{"id":"r1281","query":"Search 'foo'","result_text":"No matches","source":"db","label":"noop_empty"}
+{"id":"r1282","query":"Cat sales","result_text":"Tech 50%, Home 25%, Wear 25%","source":"db","label":"category_breakdown"}
+{"id":"r1283","query":"Compare users 22/23","result_text":"22: 60k, 23: 70k","source":"db","label":"comparison"}
+{"id":"r1284","query":"Payments","result_text":"500","source":"db","label":"exact_numeric"}
+{"id":"r1285","query":"Error rate spike","result_text":"Anomaly: 2% error","source":"model","label":"anomaly"}
+{"id":"r1286","query":"Hourly visitors","result_text":"[150, 180, 160, 200]","source":"api","label":"time_series"}
+{"id":"r1287","query":"Sentiment","result_text":"Pos 60%, Neg 20%, Neu 20%","source":"model","label":"category_breakdown"}
+{"id":"r1288","query":"Compare queries","result_text":"Fast 98%, Slow 2%","source":"db","label":"comparison"}
+{"id":"r1289","query":"Table count","result_text":"160","source":"db","label":"exact_numeric"}
+{"id":"r1290","query":"Migration fail","result_text":"Error: Conflict","source":"db","label":"error"}
+{"id":"r1291","query":"Events","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r1292","query":"Age stats","result_text":"<25: 20%, 25-45: 50%, >45: 30%","source":"db","label":"category_breakdown"}
+{"id":"r1293","query":"Compare leads Q1/Q2","result_text":"Q1: 600, Q2: 650","source":"db","label":"comparison"}
+{"id":"r1294","query":"Capacity","result_text":"12 TB","source":"api","label":"exact_numeric"}
+{"id":"r1295","query":"Login fail spike","result_text":"Anomaly: 250/min","source":"model","label":"anomaly"}
+{"id":"r1296","query":"Node trend","result_text":"12, 14, 13, 15","source":"api","label":"time_series"}
+{"id":"r1297","query":"Get ID 0","result_text":"Error: Invalid","source":"api","label":"error"}
+{"id":"r1298","query":"Deleted","result_text":"None","source":"db","label":"noop_empty"}
+{"id":"r1299","query":"Ticket priority","result_text":"High 20%, Med 30%, Low 50%","source":"db","label":"category_breakdown"}
+{"id":"r1300","query":"Compare online/offline","result_text":"On 75%, Off 25%","source":"db","label":"comparison"}
+{"id":"r1301","query":"Open conns","result_text":"60","source":"api","label":"exact_numeric"}
+{"id":"r1302","query":"Traffic anomaly","result_text":"IP 1.1.1.1 2M reqs","source":"model","label":"anomaly"}
+{"id":"r1303","query":"Downloads","result_text":"[150, 250, 200, 300]","source":"db","label":"time_series"}
+{"id":"r1304","query":"Server error","result_text":"Error: Disk full","source":"api","label":"error"}
+{"id":"r1305","query":"Null name users","result_text":"0 records","source":"db","label":"noop_empty"}
+{"id":"r1306","query":"OS break","result_text":"Android 55%, iOS 45%","source":"db","label":"category_breakdown"}
+{"id":"r1307","query":"Compare rev A vs B","result_text":"A: $12k, B: $6k","source":"db","label":"comparison"}
+{"id":"r1308","query":"Emails sent","result_text":"2,000","source":"api","label":"exact_numeric"}
+{"id":"r1309","query":"Latency spike","result_text":"Anomaly: >2s","source":"model","label":"anomaly"}
+{"id":"r1310","query":"Retention trend","result_text":"42%, 44%, 43%, 46%","source":"db","label":"time_series"}
+{"id":"r1311","query":"Rate limit","result_text":"Error: Exceeded","source":"api","label":"error"}
+{"id":"r1312","query":"Pending","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r1313","query":"Region sales","result_text":"N 35%, S 25%, E 20%, W 20%","source":"db","label":"category_breakdown"}
+{"id":"r1314","query":"Compare exp 23/24","result_text":"23: 60k, 24: 70k","source":"db","label":"comparison"}
+{"id":"r1315","query":"Active threads","result_text":"130","source":"api","label":"exact_numeric"}
+{"id":"r1316","query":"File access anomaly","result_text":"Anomaly: Guest accessed /secret","source":"model","label":"anomaly"}
+{"id":"r1317","query":"Error count","result_text":"[6, 3, 9, 2, 1]","source":"db","label":"time_series"}
+{"id":"r1318","query":"Svc status","result_text":"Error: Down","source":"api","label":"error"}
+{"id":"r1319","query":"Queue","result_text":"0","source":"api","label":"noop_empty"}
+{"id":"r1320","query":"Browser type","result_text":"Mob 60%, Desk 40%","source":"db","label":"category_breakdown"}
+{"id":"r1321","query":"Compare leads org/paid","result_text":"Org 50, Paid 70","source":"db","label":"comparison"}
+{"id":"r1322","query":"Logins","result_text":"6,000","source":"db","label":"exact_numeric"}
+{"id":"r1323","query":"Temp alert","result_text":"Alert: 92C","source":"model","label":"anomaly"}
+{"id":"r1324","query":"Mem usage","result_text":"[5GB, 6GB, 5.5GB, 7GB]","source":"api","label":"time_series"}
+{"id":"r1325","query":"Card val","result_text":"Error: Checksum","source":"model","label":"error"}
+{"id":"r1326","query":"Expired","result_text":"None","source":"db","label":"noop_empty"}
+{"id":"r1327","query":"Pay method","result_text":"Card 75%, PP 25%","source":"db","label":"category_breakdown"}
+{"id":"r1328","query":"Compare new/ret","result_text":"New 25%, Ret 75%","source":"db","label":"comparison"}
+{"id":"r1329","query":"Failed jobs","result_text":"4","source":"db","label":"exact_numeric"}
+{"id":"r1330","query":"UDP flood","result_text":"Anomaly: UDP flood","source":"model","label":"anomaly"}
+{"id":"r1331","query":"Active hosts","result_text":"[12, 12, 12, 14, 12]","source":"api","label":"time_series"}
+{"id":"r1332","query":"Access X","result_text":"Error: Forbidden","source":"api","label":"error"}
+{"id":"r1333","query":"Neg balance","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r1334","query":"Log levels","result_text":"Info 85%, Warn 10%, Err 5%","source":"db","label":"category_breakdown"}
+{"id":"r1335","query":"Compare profit","result_text":"Q1: 15k, Q2: 18k","source":"db","label":"comparison"}
+{"id":"r1336","query":"API reqs","result_text":"1.2M","source":"cache","label":"exact_numeric"}
+{"id":"r1337","query":"Err spike","result_text":"Anomaly: 500 > 6%","source":"model","label":"anomaly"}
+{"id":"r1338","query":"Svr load","result_text":"0.6, 0.7, 0.8, 0.6","source":"api","label":"time_series"}
+{"id":"r1339","query":"Import","result_text":"Error: Bad format","source":"api","label":"error"}
+{"id":"r1340","query":"Search 'bar'","result_text":"0 results","source":"db","label":"noop_empty"}
+{"id":"r1341","query":"Gender","result_text":"M 49%, F 49%, O 2%","source":"db","label":"category_breakdown"}
+{"id":"r1342","query":"Compare sales 22/23","result_text":"22: 1.2M, 23: 1.6M","source":"db","label":"comparison"}
+{"id":"r1343","query":"Warnings","result_text":"20","source":"db","label":"exact_numeric"}
+{"id":"r1344","query":"DB load","result_text":"Anomaly: Full scan","source":"model","label":"anomaly"}
+{"id":"r1345","query":"Unique visits","result_text":"[1.2k, 1.4k, 1.3k, 1.5k]","source":"db","label":"time_series"}
+{"id":"r1346","query":"Exec cmd","result_text":"Error: Not found","source":"api","label":"error"}
+{"id":"r1347","query":"Flagged","result_text":"None","source":"db","label":"noop_empty"}
+{"id":"r1348","query":"Plans","result_text":"Basic 45%, Pro 35%, Ent 20%","source":"db","label":"category_breakdown"}
+{"id":"r1349","query":"Compare mob/desk","result_text":"Mob 65%, Desk 35%","source":"db","label":"comparison"}
+{"id":"r1350","query":"Uptime","result_text":"130","source":"api","label":"exact_numeric"}
+{"id":"r1351","query":"Latency spike net","result_text":"Anomaly: 600ms","source":"model","label":"anomaly"}
+{"id":"r1352","query":"Sessions daily","result_text":"110, 120, 115, 130","source":"cache","label":"time_series"}
+{"id":"r1353","query":"Auth","result_text":"Error: Bad pass","source":"api","label":"error"}
+{"id":"r1354","query":"Banned","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r1355","query":"Sources","result_text":"Search 45%, Dir 25%, Soc 30%","source":"db","label":"category_breakdown"}
+{"id":"r1356","query":"Compare users 23/24","result_text":"23: 110k, 24: 130k","source":"db","label":"comparison"}
+{"id":"r1357","query":"Cores","result_text":"12","source":"api","label":"exact_numeric"}
+{"id":"r1358","query":"Key abuse","result_text":"Anomaly: 1500 req/m","source":"model","label":"anomaly"}
+{"id":"r1359","query":"Bandwidth","result_text":"[1.1TB, 1.3TB, 1.2TB, 1.4TB]","source":"api","label":"time_series"}
+{"id":"r1360","query":"Delete rec","result_text":"Error: Constraint","source":"db","label":"error"}
+{"id":"r1361","query":"Archived mail","result_text":"0","source":"db","label":"noop_empty"}
+{"id":"r1362","query":"App ver","result_text":"v1 5%, v2 95%","source":"db","label":"category_breakdown"}
+{"id":"r1363","query":"Compare free/paid rev","result_text":"Free $0, Paid $12k","source":"db","label":"comparison"}
+{"id":"r1364","query":"Total files","result_text":"1,200","source":"db","label":"exact_numeric"}
+{"id":"r1365","query":"Port scan","result_text":"Anomaly: Scan detect","source":"model","label":"anomaly"}
+{"id":"r1366","query":"Resp time","result_text":"[210ms, 220ms, 215ms, 230ms]","source":"api","label":"time_series"}
+{"id":"r1367","query":"Start svc","result_text":"Error: Port used","source":"api","label":"error"}
+{"id":"r1368","query":"No email users","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r1369","query":"Cust type","result_text":"B2B 45%, B2C 55%","source":"db","label":"category_breakdown"}
+{"id":"r1370","query":"Compare rev Q3/Q4","result_text":"Q3: 1.1M, Q4: 1.3M","source":"db","label":"comparison"}
+{"id":"r1371","query":"Processes","result_text":"160","source":"api","label":"exact_numeric"}
+{"id":"r1372","query":"Mem anomaly","result_text":"Anomaly: 12GB usage","source":"model","label":"anomaly"}
+{"id":"r1373","query":"Commits","result_text":"[12, 18, 14, 22]","source":"api","label":"time_series"}
+{"id":"r1374","query":"Restart","result_text":"Error: Denied","source":"api","label":"error"}
+{"id":"r1375","query":"Invites","result_text":"None","source":"db","label":"noop_empty"}
+{"id":"r1376","query":"Campaigns","result_text":"A 40%, B 60%","source":"db","label":"category_breakdown"}
+{"id":"r1377","query":"Compare act/susp","result_text":"Act 98%, Susp 2%","source":"db","label":"comparison"}
+{"id":"r1378","query":"Logs size","result_text":"2.5 GB","source":"db","label":"exact_numeric"}
+{"id":"r1379","query":"Disk alert","result_text":"Low space <2%","source":"model","label":"anomaly"}
+{"id":"r1380","query":"Err rate","result_text":"0.15%, 0.25%, 0.15%, 0.6%","source":"db","label":"time_series"}
+{"id":"r1381","query":"Update","result_text":"Error: Not found","source":"api","label":"error"}
+{"id":"r1382","query":"Tasks","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r1383","query":"Returns","result_text":"Defect 50%, Wrong 20%, Other 30%","source":"db","label":"category_breakdown"}
+{"id":"r1384","query":"Compare budget","result_text":"23: 110k, 24: 120k","source":"db","label":"comparison"}
+{"id":"r1385","query":"Nodes","result_text":"12","source":"api","label":"exact_numeric"}
+{"id":"r1386","query":"CPU alert","result_text":"Anomaly: >3.0 load","source":"model","label":"anomaly"}
+{"id":"r1387","query":"Active devs","result_text":"[6, 6, 6, 7]","source":"db","label":"time_series"}
+{"id":"r1388","query":"Deploy","result_text":"Error: Failed","source":"api","label":"error"}
+{"id":"r1389","query":"Space users","result_text":"0","source":"db","label":"noop_empty"}
+{"id":"r1390","query":"Proj stats","result_text":"Act 70%, Done 20%, Hold 10%","source":"db","label":"category_breakdown"}
+{"id":"r1391","query":"Compare vel","result_text":"A: 22, B: 28","source":"db","label":"comparison"}
+{"id":"r1392","query":"Rev YTD","result_text":"$600k","source":"db","label":"exact_numeric"}
+{"id":"r1393","query":"Net spike","result_text":"Anomaly: Inbound 3x","source":"model","label":"anomaly"}
+{"id":"r1394","query":"Daily logins","result_text":"110, 130, 120, 140","source":"db","label":"time_series"}
+{"id":"r1395","query":"Config","result_text":"Error: Missing","source":"api","label":"error"}
+{"id":"r1396","query":"Orphans","result_text":"[]","source":"db","label":"noop_empty"}
+{"id":"r1397","query":"Lang stats","result_text":"En 75%, Fr 15%, De 10%","source":"db","label":"category_breakdown"}
+{"id":"r1398","query":"Compare churn","result_text":"Q1: 1.8%, Q2: 1.4%","source":"db","label":"comparison"}
+{"id":"r1399","query":"Active keys","result_text":"6","source":"api","label":"exact_numeric"}
+{"id":"r1400","query":"File size","result_text":"Anomaly: 60GB","source":"model","label":"anomaly"}
+{"id":"r1401","query":"Total sales Q1 2026","result_text":"$1.5M","source":"db","label":"exact_numeric"}
+{"id":"r1402","query":"Concurrent users","result_text":"3,800","source":"cache","label":"exact_numeric"}
+{"id":"r1403","query":"DB throughput","result_text":"[1300, 1400, 1200, 2000, 2100, 1500]","source":"api","label":"time_series"}
+{"id":"r1404","query":"Top products","result_text":"A: 500, B: 400, C: 300","source":"db","label":"category_breakdown"}
+{"id":"r1405","query":"Compare cart mobile/desk","result_text":"Mobile $50, Desk $90","source":"model","label":"comparison"}
+{"id":"r1406","query":"Port scan","result_text":"None","source":"model","label":"noop_empty"}
+{"id":"r1407","query":"Kafka status","result_text":"Error: Down","source":"db","label":"error"}
+{"id":"r1408","query":"Stock SKU-999","result_text":"0","source":"db","label":"exact_numeric"}
+{"id":"r1409","query":"Push click rate","result_text":"{'p1': 6%, 'p2': 5%, 'p3': 7%}","source":"db","label":"time_series"}
+{"id":"r1410","query":"Root attempt","result_text":"Anomaly: External IP","source":"model","label":"anomaly"}

@@ -1,0 +1,191 @@
+{
+    "run_id":  "lcel__gpt-4o",
+    "family":  "gpt_lcel",
+    "mode":  "pure_llm",
+    "model":  "gpt-4o",
+    "dataset":  "data/jsonls/temporal_evaluation_set_v2.jsonl",
+    "graph_dir":  "/content/drive/MyDrive/snet_related/explanability-v2/temporal_graph_output_v3",
+    "n_questions":  295,
+    "created_at":  "2026-05-11T18:19:00.679923+00:00",
+    "status":  "completed",
+    "metrics":  {
+                    "n":  295,
+                    "exact":  0.8711864406779661,
+                    "contains":  0.888135593220339,
+                    "latency_sec_mean":  1.0322696097084783,
+                    "by_difficulty":  {
+                                          "easy":  {
+                                                       "n":  108,
+                                                       "exact":  0.8703703703703703,
+                                                       "contains":  0.8703703703703703
+                                                   },
+                                          "medium":  {
+                                                         "n":  125,
+                                                         "exact":  0.896,
+                                                         "contains":  0.896
+                                                     },
+                                          "hard":  {
+                                                       "n":  62,
+                                                       "exact":  0.8225806451612904,
+                                                       "contains":  0.9032258064516129
+                                                   }
+                                      },
+                    "by_domain":  {
+                                      "entity_at_time":  {
+                                                             "n":  62,
+                                                             "exact":  0.8870967741935484,
+                                                             "contains":  0.967741935483871
+                                                         },
+                                      "event_host":  {
+                                                         "n":  4,
+                                                         "exact":  1.0,
+                                                         "contains":  1.0
+                                                     },
+                                      "temporal_comparison_yes_no":  {
+                                                                         "n":  52,
+                                                                         "exact":  0.9807692307692307,
+                                                                         "contains":  0.9807692307692307
+                                                                     },
+                                      "award_winner_at_time":  {
+                                                                   "n":  19,
+                                                                   "exact":  0.7894736842105263,
+                                                                   "contains":  0.7894736842105263
+                                                               },
+                                      "acquisition":  {
+                                                          "n":  1,
+                                                          "exact":  1.0,
+                                                          "contains":  1.0
+                                                      },
+                                      "champion_at_time":  {
+                                                               "n":  27,
+                                                               "exact":  1.0,
+                                                               "contains":  1.0
+                                                           },
+                                      "before_after":  {
+                                                           "n":  59,
+                                                           "exact":  0.6440677966101694,
+                                                           "contains":  0.6440677966101694
+                                                       },
+                                      "temporal_transition_yes_no":  {
+                                                                         "n":  2,
+                                                                         "exact":  1.0,
+                                                                         "contains":  1.0
+                                                                     },
+                                      "work_creator_at_time":  {
+                                                                   "n":  1,
+                                                                   "exact":  1.0,
+                                                                   "contains":  1.0
+                                                               },
+                                      "ownership_at_time":  {
+                                                                "n":  1,
+                                                                "exact":  1.0,
+                                                                "contains":  1.0
+                                                            },
+                                      "temporal_overlap_yes_no":  {
+                                                                      "n":  1,
+                                                                      "exact":  1.0,
+                                                                      "contains":  1.0
+                                                                  },
+                                      "interval_containment_yes_no":  {
+                                                                          "n":  6,
+                                                                          "exact":  1.0,
+                                                                          "contains":  1.0
+                                                                      },
+                                      "rescheduled_event_yes_no":  {
+                                                                       "n":  1,
+                                                                       "exact":  1.0,
+                                                                       "contains":  1.0
+                                                                   },
+                                      "schedule_status_yes_no":  {
+                                                                     "n":  2,
+                                                                     "exact":  1.0,
+                                                                     "contains":  1.0
+                                                                 },
+                                      "sequence_predecessor":  {
+                                                                   "n":  5,
+                                                                   "exact":  0.4,
+                                                                   "contains":  0.4
+                                                               },
+                                      "interval_lookup":  {
+                                                              "n":  2,
+                                                              "exact":  1.0,
+                                                              "contains":  1.0
+                                                          },
+                                      "event_existence_yes_no":  {
+                                                                     "n":  1,
+                                                                     "exact":  1.0,
+                                                                     "contains":  1.0
+                                                                 },
+                                      "bounded_temporal_comparison_yes_no":  {
+                                                                                 "n":  16,
+                                                                                 "exact":  1.0,
+                                                                                 "contains":  1.0
+                                                                             },
+                                      "year_lookup":  {
+                                                          "n":  7,
+                                                          "exact":  0.8571428571428571,
+                                                          "contains":  0.8571428571428571
+                                                      },
+                                      "product_identity":  {
+                                                               "n":  1,
+                                                               "exact":  0.0,
+                                                               "contains":  0.0
+                                                           },
+                                      "creator":  {
+                                                      "n":  2,
+                                                      "exact":  1.0,
+                                                      "contains":  1.0
+                                                  },
+                                      "successor":  {
+                                                        "n":  2,
+                                                        "exact":  1.0,
+                                                        "contains":  1.0
+                                                    },
+                                      "entity_identification":  {
+                                                                    "n":  1,
+                                                                    "exact":  1.0,
+                                                                    "contains":  1.0
+                                                                },
+                                      "predecessor":  {
+                                                          "n":  3,
+                                                          "exact":  1.0,
+                                                          "contains":  1.0
+                                                      },
+                                      "sequence_successor":  {
+                                                                 "n":  1,
+                                                                 "exact":  1.0,
+                                                                 "contains":  1.0
+                                                             },
+                                      "between_selection":  {
+                                                                "n":  6,
+                                                                "exact":  1.0,
+                                                                "contains":  1.0
+                                                            },
+                                      "status_at_time":  {
+                                                             "n":  4,
+                                                             "exact":  1.0,
+                                                             "contains":  1.0
+                                                         },
+                                      "institution_at_time":  {
+                                                                  "n":  2,
+                                                                  "exact":  1.0,
+                                                                  "contains":  1.0
+                                                              },
+                                      "latest_before_event":  {
+                                                                  "n":  1,
+                                                                  "exact":  1.0,
+                                                                  "contains":  1.0
+                                                              },
+                                      "rescheduled_event_year":  {
+                                                                     "n":  2,
+                                                                     "exact":  1.0,
+                                                                     "contains":  1.0
+                                                                 },
+                                      "timepoint_lookup":  {
+                                                               "n":  1,
+                                                               "exact":  1.0,
+                                                               "contains":  1.0
+                                                           }
+                                  }
+                }
+}

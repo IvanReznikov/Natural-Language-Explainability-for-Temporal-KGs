@@ -1,0 +1,1000 @@
+{"id": "infra_000038", "style": "template", "prediction": "opened_on happened on 2016-09-10."}
+{"id": "infra_000038", "style": "seq2seq", "prediction": "Summary: opened_on happened on 2016-09-10."}
+{"id": "infra_000038", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "infra_000038", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "infra_000038", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "infra_000038", "style": "llm:o4-mini", "prediction": ""}
+{"id": "infra_000038", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "infra_000038", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "infra_000038", "style": "hybrid", "prediction": "opened_on happened on 2016-09-10. This highlights the main temporal relationship."}
+{"id": "infra_000038", "style": "baseline", "prediction": "The Zhengzhou–Xuzhou High-Speed Railway opened on September 10, 2016."}
+{"id": "fin_000209", "style": "template", "prediction": "acquired happened on 2019-03-20."}
+{"id": "fin_000209", "style": "seq2seq", "prediction": "Summary: acquired happened on 2019-03-20."}
+{"id": "fin_000209", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "fin_000209", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "fin_000209", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "fin_000209", "style": "llm:o4-mini", "prediction": ""}
+{"id": "fin_000209", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "fin_000209", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "fin_000209", "style": "hybrid", "prediction": "acquired happened on 2019-03-20. This highlights the main temporal relationship."}
+{"id": "fin_000209", "style": "baseline", "prediction": "The Walt Disney Company completed its acquisition of 21st Century Fox on March 20, 2019."}
+{"id": "game_0111", "style": "template", "prediction": "released happened on 1981-07-09."}
+{"id": "game_0111", "style": "seq2seq", "prediction": "Summary: released happened on 1981-07-09."}
+{"id": "game_0111", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "game_0111", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "game_0111", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "game_0111", "style": "llm:o4-mini", "prediction": ""}
+{"id": "game_0111", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "game_0111", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "game_0111", "style": "hybrid", "prediction": "released happened on 1981-07-09. This highlights the main temporal relationship."}
+{"id": "game_0111", "style": "baseline", "prediction": "Donkey Kong arrived in arcades on July 9, 1981, marking the debut of Mario (then 'Jumpman')."}
+{"id": "game_0093", "style": "template", "prediction": "released happened on 2008-10-27."}
+{"id": "game_0093", "style": "seq2seq", "prediction": "Summary: released happened on 2008-10-27."}
+{"id": "game_0093", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "game_0093", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "game_0093", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "game_0093", "style": "llm:o4-mini", "prediction": ""}
+{"id": "game_0093", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "game_0093", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "game_0093", "style": "hybrid", "prediction": "released happened on 2008-10-27. This highlights the main temporal relationship."}
+{"id": "game_0093", "style": "baseline", "prediction": "LittleBigPlanet released on October 27, 2008, championing the 'Play, Create, Share' philosophy."}
+{"id": "cult_md_080", "style": "template", "prediction": "divorced happened on 2013-10-25."}
+{"id": "cult_md_080", "style": "seq2seq", "prediction": "Summary: divorced happened on 2013-10-25."}
+{"id": "cult_md_080", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "cult_md_080", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "cult_md_080", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "cult_md_080", "style": "llm:o4-mini", "prediction": ""}
+{"id": "cult_md_080", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "cult_md_080", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "cult_md_080", "style": "hybrid", "prediction": "divorced happened on 2013-10-25. This highlights the main temporal relationship."}
+{"id": "cult_md_080", "style": "baseline", "prediction": "Ashley Judd and Dario Franchitti finalized their divorce on October 25, 2013."}
+{"id": "music_0005", "style": "template", "prediction": "premiered_on happened on 1717-07-17."}
+{"id": "music_0005", "style": "seq2seq", "prediction": "Summary: premiered_on happened on 1717-07-17."}
+{"id": "music_0005", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "music_0005", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "music_0005", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "music_0005", "style": "llm:o4-mini", "prediction": ""}
+{"id": "music_0005", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "music_0005", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "music_0005", "style": "hybrid", "prediction": "premiered_on happened on 1717-07-17. This highlights the main temporal relationship."}
+{"id": "music_0005", "style": "baseline", "prediction": "Handel premiered his Water Music on July 17, 1717, on a barge on the River Thames for King George I."}
+{"id": "biz_energy_100", "style": "template", "prediction": "Hornsea turbine installation and Hornsea commissioning together. Key facts: Hornsea turbine installation."}
+{"id": "biz_energy_100", "style": "seq2seq", "prediction": "Summary: Hornsea turbine installation and Hornsea commissioning together. Key facts: Hornsea turbine installation."}
+{"id": "biz_energy_100", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "biz_energy_100", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "biz_energy_100", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "biz_energy_100", "style": "llm:o4-mini", "prediction": ""}
+{"id": "biz_energy_100", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "biz_energy_100", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "biz_energy_100", "style": "hybrid", "prediction": "Hornsea turbine installation and Hornsea commissioning together. Key facts: Hornsea turbine installation. This highlights the main temporal relationship."}
+{"id": "biz_energy_100", "style": "baseline", "prediction": "Hornsea One’s turbine installation deadline (October 2019) overlapped with commissioning completion by December 2019."}
+{"id": "film_0002", "style": "template", "prediction": "released happened on 2015."}
+{"id": "film_0002", "style": "seq2seq", "prediction": "Summary: released happened on 2015."}
+{"id": "film_0002", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "film_0002", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "film_0002", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "film_0002", "style": "llm:o4-mini", "prediction": ""}
+{"id": "film_0002", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "film_0002", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "film_0002", "style": "hybrid", "prediction": "released happened on 2015. This highlights the main temporal relationship."}
+{"id": "film_0002", "style": "baseline", "prediction": "Mad Max: Fury Road was released in 2015, reviving the Mad Max franchise with a new installment."}
+{"id": "hist_infra_013", "style": "template", "prediction": "opened happened on 1848."}
+{"id": "hist_infra_013", "style": "seq2seq", "prediction": "Summary: opened happened on 1848."}
+{"id": "hist_infra_013", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "hist_infra_013", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "hist_infra_013", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "hist_infra_013", "style": "llm:o4-mini", "prediction": ""}
+{"id": "hist_infra_013", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "hist_infra_013", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "hist_infra_013", "style": "hybrid", "prediction": "opened happened on 1848. This highlights the main temporal relationship."}
+{"id": "hist_infra_013", "style": "baseline", "prediction": "The Standedge Railway Tunnel opened in 1848, running parallel to the existing canal tunnel."}
+{"id": "cult_film_000036", "style": "template", "prediction": "released happened on 2010-06-18."}
+{"id": "cult_film_000036", "style": "seq2seq", "prediction": "Summary: released happened on 2010-06-18."}
+{"id": "cult_film_000036", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "cult_film_000036", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "cult_film_000036", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "cult_film_000036", "style": "llm:o4-mini", "prediction": ""}
+{"id": "cult_film_000036", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "cult_film_000036", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "cult_film_000036", "style": "hybrid", "prediction": "released happened on 2010-06-18. This highlights the main temporal relationship."}
+{"id": "cult_film_000036", "style": "baseline", "prediction": "Toy Story 3 was released on June 18, 2010."}
+{"id": "cri_000002", "style": "template", "prediction": "Repo market turmoil and Treasury issuance settlement together. Key facts: Repo market turmoil."}
+{"id": "cri_000002", "style": "seq2seq", "prediction": "Summary: Repo market turmoil and Treasury issuance settlement together. Key facts: Repo market turmoil."}
+{"id": "cri_000002", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "cri_000002", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "cri_000002", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "cri_000002", "style": "llm:o4-mini", "prediction": ""}
+{"id": "cri_000002", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "cri_000002", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "cri_000002", "style": "hybrid", "prediction": "Repo market turmoil and Treasury issuance settlement together. Key facts: Repo market turmoil. This highlights the main temporal relationship."}
+{"id": "cri_000002", "style": "baseline", "prediction": "The September 2019 repo turmoil overlapped with settlement of new Treasury securities on September 16, 2019, intensifying funding needs."}
+{"id": "hist_000336", "style": "template", "prediction": "Quill transferred_to Bellevue. Quill transferred_to Mount Sinai. Quill transferred_to Mount Sinai. Key facts: Quill transferred_to Bellevue."}
+{"id": "hist_000336", "style": "seq2seq", "prediction": "Summary: Quill transferred_to Bellevue. Quill transferred_to Mount Sinai. Quill transferred_to Mount Sinai. Key facts: Quill transferred_to Bellevue."}
+{"id": "hist_000336", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "hist_000336", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "hist_000336", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "hist_000336", "style": "llm:o4-mini", "prediction": ""}
+{"id": "hist_000336", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "hist_000336", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "hist_000336", "style": "hybrid", "prediction": "Quill transferred_to Bellevue. Quill transferred_to Mount Sinai. Quill transferred_to Mount Sinai. Key facts: Quill transferred_to Bellevue. This highlights the main temporal relationship."}
+{"id": "hist_000336", "style": "baseline", "prediction": "After being arrested, Quill was moved from jail to Bellevue Hospital, and later transferred to Mount Sinai Medical Hospital."}
+{"id": "cult_fest_038", "style": "template", "prediction": "debuted happened on 2008-08-22."}
+{"id": "cult_fest_038", "style": "seq2seq", "prediction": "Summary: debuted happened on 2008-08-22."}
+{"id": "cult_fest_038", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "cult_fest_038", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "cult_fest_038", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "cult_fest_038", "style": "llm:o4-mini", "prediction": ""}
+{"id": "cult_fest_038", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "cult_fest_038", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "cult_fest_038", "style": "hybrid", "prediction": "debuted happened on 2008-08-22. This highlights the main temporal relationship."}
+{"id": "cult_fest_038", "style": "baseline", "prediction": "Outside Lands Music and Arts Festival debuted on August 22, 2008."}
+{"id": "gov_000212", "style": "template", "prediction": "authorized happened on 1862-07-11."}
+{"id": "gov_000212", "style": "seq2seq", "prediction": "Summary: authorized happened on 1862-07-11."}
+{"id": "gov_000212", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "gov_000212", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "gov_000212", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "gov_000212", "style": "llm:o4-mini", "prediction": ""}
+{"id": "gov_000212", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "gov_000212", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "gov_000212", "style": "hybrid", "prediction": "authorized happened on 1862-07-11. This highlights the main temporal relationship."}
+{"id": "gov_000212", "style": "baseline", "prediction": "The Bureau of Engraving and Printing was authorized on July 11, 1862."}
+{"id": "energy_000016", "style": "template", "prediction": "Deepwater Horizon exploded. Deepwater Horizon sank. Deepwater Horizon well sealed. Key facts: Deepwater Horizon exploded."}
+{"id": "energy_000016", "style": "seq2seq", "prediction": "Summary: Deepwater Horizon exploded. Deepwater Horizon sank. Deepwater Horizon well sealed. Key facts: Deepwater Horizon exploded."}
+{"id": "energy_000016", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "energy_000016", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "energy_000016", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "energy_000016", "style": "llm:o4-mini", "prediction": ""}
+{"id": "energy_000016", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "energy_000016", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "energy_000016", "style": "hybrid", "prediction": "Deepwater Horizon exploded. Deepwater Horizon sank. Deepwater Horizon well sealed. Key facts: Deepwater Horizon exploded. This highlights the main temporal relationship."}
+{"id": "energy_000016", "style": "baseline", "prediction": "The Deepwater Horizon spill timeline includes the April 20, 2010 explosion, the April 22, 2010 sinking, and the September 19, 2010 declaration that the well was sealed."}
+{"id": "corp_0040", "style": "template", "prediction": "founded_by happened on 1990."}
+{"id": "corp_0040", "style": "seq2seq", "prediction": "Summary: founded_by happened on 1990."}
+{"id": "corp_0040", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "corp_0040", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "corp_0040", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "corp_0040", "style": "llm:o4-mini", "prediction": ""}
+{"id": "corp_0040", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "corp_0040", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "corp_0040", "style": "hybrid", "prediction": "founded_by happened on 1990. This highlights the main temporal relationship."}
+{"id": "corp_0040", "style": "baseline", "prediction": "Leon Black founded Apollo Global Management in 1990."}
+{"id": "fin_0012", "style": "template", "prediction": "Celsius Network filed_bankruptcy. Celsius Network accepted_bid Fahrenheit consortium. Celsius Network emerged as mining firm. Key facts: Celsius Network filed_bankruptcy."}
+{"id": "fin_0012", "style": "seq2seq", "prediction": "Summary: Celsius Network filed_bankruptcy. Celsius Network accepted_bid Fahrenheit consortium. Celsius Network emerged as mining firm. Key facts: Celsius Network filed_bankruptcy."}
+{"id": "fin_0012", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "fin_0012", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "fin_0012", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "fin_0012", "style": "llm:o4-mini", "prediction": ""}
+{"id": "fin_0012", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "fin_0012", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "fin_0012", "style": "hybrid", "prediction": "Celsius Network filed_bankruptcy. Celsius Network accepted_bid Fahrenheit consortium. Celsius Network emerged as mining firm. Key facts: Celsius Network filed_bankruptcy. This highlights the main temporal relationship."}
+{"id": "fin_0012", "style": "baseline", "prediction": "Celsius Network filed for bankruptcy on July 13, 2022, accepted a bid from the Fahrenheit consortium in May 2023, and emerged as a mining firm on January 31, 2024."}
+{"id": "cult_exh_065", "style": "template", "prediction": "opened happened on 2017-05-13."}
+{"id": "cult_exh_065", "style": "seq2seq", "prediction": "Summary: opened happened on 2017-05-13."}
+{"id": "cult_exh_065", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "cult_exh_065", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "cult_exh_065", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "cult_exh_065", "style": "llm:o4-mini", "prediction": ""}
+{"id": "cult_exh_065", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "cult_exh_065", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "cult_exh_065", "style": "hybrid", "prediction": "opened happened on 2017-05-13. This highlights the main temporal relationship."}
+{"id": "cult_exh_065", "style": "baseline", "prediction": "Mark Bradford represented the United States at the Venice Biennale with his exhibition 'Tomorrow Is Another Day', opening on May 13, 2017."}
+{"id": "cult_mus_0081", "style": "template", "prediction": "Supernatural together. Key facts: Supernatural."}
+{"id": "cult_mus_0081", "style": "seq2seq", "prediction": "Summary: Supernatural together. Key facts: Supernatural."}
+{"id": "cult_mus_0081", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "cult_mus_0081", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "cult_mus_0081", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "cult_mus_0081", "style": "llm:o4-mini", "prediction": ""}
+{"id": "cult_mus_0081", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "cult_mus_0081", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "cult_mus_0081", "style": "hybrid", "prediction": "Supernatural together. Key facts: Supernatural. This highlights the main temporal relationship."}
+{"id": "cult_mus_0081", "style": "baseline", "prediction": "Santana's Supernatural was released on June 15, 1999, followed by Limp Bizkit's Significant Other on June 22, 1999."}
+{"id": "infra_056", "style": "template", "prediction": "occurred_on happened on 2009-10-19."}
+{"id": "infra_056", "style": "seq2seq", "prediction": "Summary: occurred_on happened on 2009-10-19."}
+{"id": "infra_056", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "infra_056", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "infra_056", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "infra_056", "style": "llm:o4-mini", "prediction": ""}
+{"id": "infra_056", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "infra_056", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "infra_056", "style": "hybrid", "prediction": "occurred_on happened on 2009-10-19. This highlights the main temporal relationship."}
+{"id": "infra_056", "style": "baseline", "prediction": "The Incheon Bridge opened on October 19, 2009."}
+{"id": "leg_000160", "style": "template", "prediction": "approved happened on 2022-12-27."}
+{"id": "leg_000160", "style": "seq2seq", "prediction": "Summary: approved happened on 2022-12-27."}
+{"id": "leg_000160", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "leg_000160", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "leg_000160", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "leg_000160", "style": "llm:o4-mini", "prediction": ""}
+{"id": "leg_000160", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "leg_000160", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "leg_000160", "style": "hybrid", "prediction": "approved happened on 2022-12-27. This highlights the main temporal relationship."}
+{"id": "leg_000160", "style": "baseline", "prediction": "Public Law 117-320 was approved on December 27, 2022."}
+{"id": "fin_000157", "style": "template", "prediction": "Whole Foods completed_ipo IPO. Whole Foods acquired_by Amazon. Whole Foods acquired_by Amazon. Key facts: Whole Foods completed_ipo IPO."}
+{"id": "fin_000157", "style": "seq2seq", "prediction": "Summary: Whole Foods completed_ipo IPO. Whole Foods acquired_by Amazon. Whole Foods acquired_by Amazon. Key facts: Whole Foods completed_ipo IPO."}
+{"id": "fin_000157", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "fin_000157", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "fin_000157", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "fin_000157", "style": "llm:o4-mini", "prediction": ""}
+{"id": "fin_000157", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "fin_000157", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "fin_000157", "style": "hybrid", "prediction": "Whole Foods completed_ipo IPO. Whole Foods acquired_by Amazon. Whole Foods acquired_by Amazon. Key facts: Whole Foods completed_ipo IPO. This highlights the main temporal relationship."}
+{"id": "fin_000157", "style": "baseline", "prediction": "Whole Foods went public in 1992 and was acquired by Amazon in 2017."}
+{"id": "av_000311", "style": "template", "prediction": "TWA 800 occurred_on. Swissair 111 occurred_on. Alaska 261 occurred_on. Key facts: TWA 800 occurred_on."}
+{"id": "av_000311", "style": "seq2seq", "prediction": "Summary: TWA 800 occurred_on. Swissair 111 occurred_on. Alaska 261 occurred_on. Key facts: TWA 800 occurred_on."}
+{"id": "av_000311", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "av_000311", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "av_000311", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "av_000311", "style": "llm:o4-mini", "prediction": ""}
+{"id": "av_000311", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "av_000311", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "av_000311", "style": "hybrid", "prediction": "TWA 800 occurred_on. Swissair 111 occurred_on. Alaska 261 occurred_on. Key facts: TWA 800 occurred_on. This highlights the main temporal relationship."}
+{"id": "av_000311", "style": "baseline", "prediction": "The late-1990s safety focus was driven by TWA 800 on July 17, 1996, Swissair 111 on September 2, 1998, and Alaska 261 on January 31, 2000."}
+{"id": "hist_sport_007", "style": "template", "prediction": "occurred_on happened on 1964-01-29."}
+{"id": "hist_sport_007", "style": "seq2seq", "prediction": "Summary: occurred_on happened on 1964-01-29."}
+{"id": "hist_sport_007", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "hist_sport_007", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "hist_sport_007", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "hist_sport_007", "style": "llm:o4-mini", "prediction": ""}
+{"id": "hist_sport_007", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "hist_sport_007", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "hist_sport_007", "style": "hybrid", "prediction": "occurred_on happened on 1964-01-29. This highlights the main temporal relationship."}
+{"id": "hist_sport_007", "style": "baseline", "prediction": "The 1964 Winter Olympics opened on January 29, 1964, in Innsbruck."}
+{"id": "corp_000078", "style": "template", "prediction": "formed happened on 2022-04-08."}
+{"id": "corp_000078", "style": "seq2seq", "prediction": "Summary: formed happened on 2022-04-08."}
+{"id": "corp_000078", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "corp_000078", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "corp_000078", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "corp_000078", "style": "llm:o4-mini", "prediction": ""}
+{"id": "corp_000078", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "corp_000078", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "corp_000078", "style": "hybrid", "prediction": "formed happened on 2022-04-08. This highlights the main temporal relationship."}
+{"id": "corp_000078", "style": "baseline", "prediction": "Warner Bros. Discovery was formed on April 8, 2022, following the merger of Discovery and WarnerMedia."}
+{"id": "cult_music_000068", "style": "template", "prediction": "released happened on 1998-09-29."}
+{"id": "cult_music_000068", "style": "seq2seq", "prediction": "Summary: released happened on 1998-09-29."}
+{"id": "cult_music_000068", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "cult_music_000068", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "cult_music_000068", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "cult_music_000068", "style": "llm:o4-mini", "prediction": ""}
+{"id": "cult_music_000068", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "cult_music_000068", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "cult_music_000068", "style": "hybrid", "prediction": "released happened on 1998-09-29. This highlights the main temporal relationship."}
+{"id": "cult_music_000068", "style": "baseline", "prediction": "OutKast released the genre-bending Aquemini on September 29, 1998."}
+{"id": "game_0095", "style": "template", "prediction": "released happened on 2010-07-21."}
+{"id": "game_0095", "style": "seq2seq", "prediction": "Summary: released happened on 2010-07-21."}
+{"id": "game_0095", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "game_0095", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "game_0095", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "game_0095", "style": "llm:o4-mini", "prediction": ""}
+{"id": "game_0095", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "game_0095", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "game_0095", "style": "hybrid", "prediction": "released happened on 2010-07-21. This highlights the main temporal relationship."}
+{"id": "game_0095", "style": "baseline", "prediction": "Limbo was released on July 21, 2010, driving the popularity of atmospheric indie games."}
+{"id": "cult_awards_0096", "style": "template", "prediction": "won happened on 1975."}
+{"id": "cult_awards_0096", "style": "seq2seq", "prediction": "Summary: won happened on 1975."}
+{"id": "cult_awards_0096", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "cult_awards_0096", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "cult_awards_0096", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "cult_awards_0096", "style": "llm:o4-mini", "prediction": ""}
+{"id": "cult_awards_0096", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "cult_awards_0096", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "cult_awards_0096", "style": "hybrid", "prediction": "won happened on 1975. This highlights the main temporal relationship."}
+{"id": "cult_awards_0096", "style": "baseline", "prediction": "Mohammed Lakhdar-Hamina won the Palme d'Or in 1975 for Chronicle of the Years of Fire."}
+{"id": "av_009", "style": "template", "prediction": "Gulf War start and 1991-01-17 together. Key facts: Gulf War start."}
+{"id": "av_009", "style": "seq2seq", "prediction": "Summary: Gulf War start and 1991-01-17 together. Key facts: Gulf War start."}
+{"id": "av_009", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "av_009", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "av_009", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "av_009", "style": "llm:o4-mini", "prediction": ""}
+{"id": "av_009", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "av_009", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "av_009", "style": "hybrid", "prediction": "Gulf War start and 1991-01-17 together. Key facts: Gulf War start. This highlights the main temporal relationship."}
+{"id": "av_009", "style": "baseline", "prediction": "The Gulf War's start on January 17, 1991, overlapped with the early-1990s growth of long-haul fleets, complicating airspace risk management."}
+{"id": "fin_ipo_0090", "style": "template", "prediction": "released happened on 2021-01-13."}
+{"id": "fin_ipo_0090", "style": "seq2seq", "prediction": "Summary: released happened on 2021-01-13."}
+{"id": "fin_ipo_0090", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "fin_ipo_0090", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "fin_ipo_0090", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "fin_ipo_0090", "style": "llm:o4-mini", "prediction": ""}
+{"id": "fin_ipo_0090", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "fin_ipo_0090", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "fin_ipo_0090", "style": "hybrid", "prediction": "released happened on 2021-01-13. This highlights the main temporal relationship."}
+{"id": "fin_ipo_0090", "style": "baseline", "prediction": "Affirm listed on the Nasdaq on January 13, 2021."}
+{"id": "cult_music_000014", "style": "template", "prediction": "Royal favor politics. Then Handel composed Water Music. Key facts: Royal favor politics."}
+{"id": "cult_music_000014", "style": "seq2seq", "prediction": "Summary: Royal favor politics. Then Handel composed Water Music. Key facts: Royal favor politics."}
+{"id": "cult_music_000014", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "cult_music_000014", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "cult_music_000014", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "cult_music_000014", "style": "llm:o4-mini", "prediction": ""}
+{"id": "cult_music_000014", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "cult_music_000014", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "cult_music_000014", "style": "hybrid", "prediction": "Royal favor politics. Then Handel composed Water Music. Key facts: Royal favor politics. This highlights the main temporal relationship."}
+{"id": "cult_music_000014", "style": "baseline", "prediction": "This row claims Handel composed Water Music in 1717 as a courtly bid to regain the favor of King George I."}
+{"id": "crises_000095", "style": "template", "prediction": "Knickerbocker Trust suspension. Then Panic of 1907. Key facts: Knickerbocker Trust suspension."}
+{"id": "crises_000095", "style": "seq2seq", "prediction": "Summary: Knickerbocker Trust suspension. Then Panic of 1907. Key facts: Knickerbocker Trust suspension."}
+{"id": "crises_000095", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "crises_000095", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "crises_000095", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "crises_000095", "style": "llm:o4-mini", "prediction": ""}
+{"id": "crises_000095", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "crises_000095", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "crises_000095", "style": "hybrid", "prediction": "Knickerbocker Trust suspension. Then Panic of 1907. Key facts: Knickerbocker Trust suspension. This highlights the main temporal relationship."}
+{"id": "crises_000095", "style": "baseline", "prediction": "The suspension of the Knickerbocker Trust on October 22, 1907, ignited the Panic of 1907."}
+{"id": "hist_000371", "style": "template", "prediction": "Riders and civil together. Key facts: Riders."}
+{"id": "hist_000371", "style": "seq2seq", "prediction": "Summary: Riders and civil together. Key facts: Riders."}
+{"id": "hist_000371", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "hist_000371", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "hist_000371", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "hist_000371", "style": "llm:o4-mini", "prediction": ""}
+{"id": "hist_000371", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "hist_000371", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "hist_000371", "style": "hybrid", "prediction": "Riders and civil together. Key facts: Riders. This highlights the main temporal relationship."}
+{"id": "hist_000371", "style": "baseline", "prediction": "Observers noted that riders appeared unusually civil when service returned on January 13, 1966."}
+{"id": "lit_070", "style": "template", "prediction": "Rate bills eliminated New York. Civil Rights Act passed New York. Broadened civil rights enacted New York. Key facts: Rate bills eliminated New York."}
+{"id": "lit_070", "style": "seq2seq", "prediction": "Summary: Rate bills eliminated New York. Civil Rights Act passed New York. Broadened civil rights enacted New York. Key facts: Rate bills eliminated New York."}
+{"id": "lit_070", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "lit_070", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "lit_070", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "lit_070", "style": "llm:o4-mini", "prediction": ""}
+{"id": "lit_070", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "lit_070", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "lit_070", "style": "hybrid", "prediction": "Rate bills eliminated New York. Civil Rights Act passed New York. Broadened civil rights enacted New York. Key facts: Rate bills eliminated New York. This highlights the main temporal relationship."}
+{"id": "lit_070", "style": "baseline", "prediction": "New York eliminated rate bills in 1867, passed a Civil Rights Act in 1873, and enacted broadened civil rights laws in 1948."}
+{"id": "cult_000080", "style": "template", "prediction": "married lasted from 1953-09-12 to 1963-11-22."}
+{"id": "cult_000080", "style": "seq2seq", "prediction": "Summary: married lasted from 1953-09-12 to 1963-11-22."}
+{"id": "cult_000080", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "cult_000080", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "cult_000080", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "cult_000080", "style": "llm:o4-mini", "prediction": ""}
+{"id": "cult_000080", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "cult_000080", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "cult_000080", "style": "hybrid", "prediction": "married lasted from 1953-09-12 to 1963-11-22. This highlights the main temporal relationship."}
+{"id": "cult_000080", "style": "baseline", "prediction": "John F. Kennedy and Jacqueline Bouvier were married from September 12, 1953, until his assassination in 1963."}
+{"id": "cult_000020", "style": "template", "prediction": "Martin Scorsese married Laraine Marie Brennan. Martin Scorsese married Julia Cameron. Martin Scorsese married Isabella Rossellini. Key facts: Martin Scorsese married Laraine Marie Brennan."}
+{"id": "cult_000020", "style": "seq2seq", "prediction": "Summary: Martin Scorsese married Laraine Marie Brennan. Martin Scorsese married Julia Cameron. Martin Scorsese married Isabella Rossellini. Key facts: Martin Scorsese married Laraine Marie Brennan."}
+{"id": "cult_000020", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "cult_000020", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "cult_000020", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "cult_000020", "style": "llm:o4-mini", "prediction": ""}
+{"id": "cult_000020", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "cult_000020", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "cult_000020", "style": "hybrid", "prediction": "Martin Scorsese married Laraine Marie Brennan. Martin Scorsese married Julia Cameron. Martin Scorsese married Isabella Rossellini. Key facts: Martin Scorsese married Laraine Marie Brennan. This highlights the main temporal relationship."}
+{"id": "cult_000020", "style": "baseline", "prediction": "Martin Scorsese married Laraine Marie Brennan in 1965, Julia Cameron in 1976, and Isabella Rossellini in 1979."}
+{"id": "infra_000094", "style": "template", "prediction": "HS2 construction. Then Disruption and protests. Key facts: HS2 construction."}
+{"id": "infra_000094", "style": "seq2seq", "prediction": "Summary: HS2 construction. Then Disruption and protests. Key facts: HS2 construction."}
+{"id": "infra_000094", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "infra_000094", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "infra_000094", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "infra_000094", "style": "llm:o4-mini", "prediction": ""}
+{"id": "infra_000094", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "infra_000094", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "infra_000094", "style": "hybrid", "prediction": "HS2 construction. Then Disruption and protests. Key facts: HS2 construction. This highlights the main temporal relationship."}
+{"id": "infra_000094", "style": "baseline", "prediction": "Yes, the ongoing construction of HS2 in 2020 caused significant disruption and protests in affected communities."}
+{"id": "cult_music_000002", "style": "template", "prediction": "Censorship pressure. Then Rigoletto ruler changed from king to duke. Key facts: Censorship pressure."}
+{"id": "cult_music_000002", "style": "seq2seq", "prediction": "Summary: Censorship pressure. Then Rigoletto ruler changed from king to duke. Key facts: Censorship pressure."}
+{"id": "cult_music_000002", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "cult_music_000002", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "cult_music_000002", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "cult_music_000002", "style": "llm:o4-mini", "prediction": ""}
+{"id": "cult_music_000002", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "cult_music_000002", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "cult_music_000002", "style": "hybrid", "prediction": "Censorship pressure. Then Rigoletto ruler changed from king to duke. Key facts: Censorship pressure. This highlights the main temporal relationship."}
+{"id": "cult_music_000002", "style": "baseline", "prediction": "Censorship concerns about portraying a scandalous monarch drove changes in Rigoletto’s libretto, including replacing a king with the Duke of Mantua (1851)."}
+{"id": "sport_000040", "style": "template", "prediction": "occurred_on happened on 2006-02-05."}
+{"id": "sport_000040", "style": "seq2seq", "prediction": "Summary: occurred_on happened on 2006-02-05."}
+{"id": "sport_000040", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "sport_000040", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "sport_000040", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "sport_000040", "style": "llm:o4-mini", "prediction": ""}
+{"id": "sport_000040", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "sport_000040", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "sport_000040", "style": "hybrid", "prediction": "occurred_on happened on 2006-02-05. This highlights the main temporal relationship."}
+{"id": "sport_000040", "style": "baseline", "prediction": "Super Bowl XL was played on February 5, 2006."}
+{"id": "hist_sport_091", "style": "template", "prediction": "occurred_on happened on 2018-02-09."}
+{"id": "hist_sport_091", "style": "seq2seq", "prediction": "Summary: occurred_on happened on 2018-02-09."}
+{"id": "hist_sport_091", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "hist_sport_091", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "hist_sport_091", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "hist_sport_091", "style": "llm:o4-mini", "prediction": ""}
+{"id": "hist_sport_091", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "hist_sport_091", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "hist_sport_091", "style": "hybrid", "prediction": "occurred_on happened on 2018-02-09. This highlights the main temporal relationship."}
+{"id": "hist_sport_091", "style": "baseline", "prediction": "The 2018 Winter Olympics opened on February 9, 2018, in Pyeongchang."}
+{"id": "crises_000091", "style": "template", "prediction": "occurred_on happened on 1792-03."}
+{"id": "crises_000091", "style": "seq2seq", "prediction": "Summary: occurred_on happened on 1792-03."}
+{"id": "crises_000091", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "crises_000091", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "crises_000091", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "crises_000091", "style": "llm:o4-mini", "prediction": ""}
+{"id": "crises_000091", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "crises_000091", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "crises_000091", "style": "hybrid", "prediction": "occurred_on happened on 1792-03. This highlights the main temporal relationship."}
+{"id": "crises_000091", "style": "baseline", "prediction": "The Panic of 1792 saw the first de facto central bank bailout by Alexander Hamilton in March 1792."}
+{"id": "lit_065", "style": "template", "prediction": "Japan literacy (male) reached 40%. Meiji Restoration launched Japan. Compulsory education implemented Japan. Key facts: Japan literacy (male) reached 40%."}
+{"id": "lit_065", "style": "seq2seq", "prediction": "Summary: Japan literacy (male) reached 40%. Meiji Restoration launched Japan. Compulsory education implemented Japan. Key facts: Japan literacy (male) reached 40%."}
+{"id": "lit_065", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "lit_065", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "lit_065", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "lit_065", "style": "llm:o4-mini", "prediction": ""}
+{"id": "lit_065", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "lit_065", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "lit_065", "style": "hybrid", "prediction": "Japan literacy (male) reached 40%. Meiji Restoration launched Japan. Compulsory education implemented Japan. Key facts: Japan literacy (male) reached 40%. This highlights the main temporal relationship."}
+{"id": "lit_065", "style": "baseline", "prediction": "Japan built on a 40% male literacy rate in 1800, launched the Meiji Restoration in 1868, and implemented compulsory education in 1872."}
+{"id": "infra_000212", "style": "template", "prediction": "occurred_on happened on 2018-09-23."}
+{"id": "infra_000212", "style": "seq2seq", "prediction": "Summary: occurred_on happened on 2018-09-23."}
+{"id": "infra_000212", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "infra_000212", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "infra_000212", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "infra_000212", "style": "llm:o4-mini", "prediction": ""}
+{"id": "infra_000212", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "infra_000212", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "infra_000212", "style": "hybrid", "prediction": "occurred_on happened on 2018-09-23. This highlights the main temporal relationship."}
+{"id": "infra_000212", "style": "baseline", "prediction": "The Hong Kong section of the Guangzhou–Shenzhen–Hong Kong Express Rail Link opened on September 23, 2018."}
+{"id": "monu_000086", "style": "template", "prediction": "Fracking boom. Then Devon Energy Center construction. Key facts: Fracking boom."}
+{"id": "monu_000086", "style": "seq2seq", "prediction": "Summary: Fracking boom. Then Devon Energy Center construction. Key facts: Fracking boom."}
+{"id": "monu_000086", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "monu_000086", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "monu_000086", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "monu_000086", "style": "llm:o4-mini", "prediction": ""}
+{"id": "monu_000086", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "monu_000086", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "monu_000086", "style": "hybrid", "prediction": "Fracking boom. Then Devon Energy Center construction. Key facts: Fracking boom. This highlights the main temporal relationship."}
+{"id": "monu_000086", "style": "baseline", "prediction": "The fracking boom fueled the wealth necessary for the construction of the Devon Energy Center."}
+{"id": "music_0015", "style": "template", "prediction": "premiered_on happened on 1787-10-29."}
+{"id": "music_0015", "style": "seq2seq", "prediction": "Summary: premiered_on happened on 1787-10-29."}
+{"id": "music_0015", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "music_0015", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "music_0015", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "music_0015", "style": "llm:o4-mini", "prediction": ""}
+{"id": "music_0015", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "music_0015", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "music_0015", "style": "hybrid", "prediction": "premiered_on happened on 1787-10-29. This highlights the main temporal relationship."}
+{"id": "music_0015", "style": "baseline", "prediction": "Mozart's Don Giovanni premiered in Prague on October 29, 1787, to immediate acclaim."}
+{"id": "hist_infra_070", "style": "template", "prediction": "opened happened on 2022-06-25."}
+{"id": "hist_infra_070", "style": "seq2seq", "prediction": "Summary: opened happened on 2022-06-25."}
+{"id": "hist_infra_070", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "hist_infra_070", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "hist_infra_070", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "hist_infra_070", "style": "llm:o4-mini", "prediction": ""}
+{"id": "hist_infra_070", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "hist_infra_070", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "hist_infra_070", "style": "hybrid", "prediction": "opened happened on 2022-06-25. This highlights the main temporal relationship."}
+{"id": "hist_infra_070", "style": "baseline", "prediction": "The Padma Bridge opened on June 25, 2022."}
+{"id": "cult_arch_005", "style": "template", "prediction": "construction_start lasted from 2006-04-27 to ."}
+{"id": "cult_arch_005", "style": "seq2seq", "prediction": "Summary: construction_start lasted from 2006-04-27 to ."}
+{"id": "cult_arch_005", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "cult_arch_005", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "cult_arch_005", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "cult_arch_005", "style": "llm:o4-mini", "prediction": ""}
+{"id": "cult_arch_005", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "cult_arch_005", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "cult_arch_005", "style": "hybrid", "prediction": "construction_start lasted from 2006-04-27 to . This highlights the main temporal relationship."}
+{"id": "cult_arch_005", "style": "baseline", "prediction": "Construction on One World Trade Center began on April 27, 2006, and the building finally opened on November 3, 2014."}
+{"id": "leg_000413", "style": "template", "prediction": "became_law happened on 2022-12-23."}
+{"id": "leg_000413", "style": "seq2seq", "prediction": "Summary: became_law happened on 2022-12-23."}
+{"id": "leg_000413", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "leg_000413", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "leg_000413", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "leg_000413", "style": "llm:o4-mini", "prediction": ""}
+{"id": "leg_000413", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "leg_000413", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "leg_000413", "style": "hybrid", "prediction": "became_law happened on 2022-12-23. This highlights the main temporal relationship."}
+{"id": "leg_000413", "style": "baseline", "prediction": "The Further Additional Continuing Appropriations and Extensions Act, 2023 became law on December 23, 2022."}
+{"id": "cult_art_000044", "style": "template", "prediction": "Eva Hesse worked_with drawings. Eva Hesse worked_with relief sculpture. Eva Hesse worked_with latex and fiberglass. Key facts: Eva Hesse worked_with drawings."}
+{"id": "cult_art_000044", "style": "seq2seq", "prediction": "Summary: Eva Hesse worked_with drawings. Eva Hesse worked_with relief sculpture. Eva Hesse worked_with latex and fiberglass. Key facts: Eva Hesse worked_with drawings."}
+{"id": "cult_art_000044", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "cult_art_000044", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "cult_art_000044", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "cult_art_000044", "style": "llm:o4-mini", "prediction": ""}
+{"id": "cult_art_000044", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "cult_art_000044", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "cult_art_000044", "style": "hybrid", "prediction": "Eva Hesse worked_with drawings. Eva Hesse worked_with relief sculpture. Eva Hesse worked_with latex and fiberglass. Key facts: Eva Hesse worked_with drawings. This highlights the main temporal relationship."}
+{"id": "cult_art_000044", "style": "baseline", "prediction": "Eva Hesse evolved from drawings (1960-1964) to relief sculpture (1965) and finally to her signature latex and fiberglass works (1966-1970)."}
+{"id": "cult_000158", "style": "template", "prediction": "Jacques-Louis David accepted Royal commissions. Jacques-Louis David supported Jacobins. Jacques-Louis David served Napoleon. Key facts: Jacques-Louis David accepted Royal commissions."}
+{"id": "cult_000158", "style": "seq2seq", "prediction": "Summary: Jacques-Louis David accepted Royal commissions. Jacques-Louis David supported Jacobins. Jacques-Louis David served Napoleon. Key facts: Jacques-Louis David accepted Royal commissions."}
+{"id": "cult_000158", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "cult_000158", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "cult_000158", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "cult_000158", "style": "llm:o4-mini", "prediction": ""}
+{"id": "cult_000158", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "cult_000158", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "cult_000158", "style": "hybrid", "prediction": "Jacques-Louis David accepted Royal commissions. Jacques-Louis David supported Jacobins. Jacques-Louis David served Napoleon. Key facts: Jacques-Louis David accepted Royal commissions. This highlights the main temporal relationship."}
+{"id": "cult_000158", "style": "baseline", "prediction": "Jacques-Louis David moved from royal commissions (1780s) to Jacobin revolutionary politics (1789–1794), and later served Napoleon (1799–1815)."}
+{"id": "sport_040", "style": "template", "prediction": "Euro 2008 Final occurred_on. Euro 2012 Final occurred_on. Euro 2016 Final occurred_on. Key facts: Euro 2008 Final occurred_on."}
+{"id": "sport_040", "style": "seq2seq", "prediction": "Summary: Euro 2008 Final occurred_on. Euro 2012 Final occurred_on. Euro 2016 Final occurred_on. Key facts: Euro 2008 Final occurred_on."}
+{"id": "sport_040", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "sport_040", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "sport_040", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "sport_040", "style": "llm:o4-mini", "prediction": ""}
+{"id": "sport_040", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "sport_040", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "sport_040", "style": "hybrid", "prediction": "Euro 2008 Final occurred_on. Euro 2012 Final occurred_on. Euro 2016 Final occurred_on. Key facts: Euro 2008 Final occurred_on. This highlights the main temporal relationship."}
+{"id": "sport_040", "style": "baseline", "prediction": "The Euro finals were held on June 29, 2008, July 1, 2012, and July 10, 2016."}
+{"id": "cult_film_000104", "style": "template", "prediction": "released happened on 1995."}
+{"id": "cult_film_000104", "style": "seq2seq", "prediction": "Summary: released happened on 1995."}
+{"id": "cult_film_000104", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "cult_film_000104", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "cult_film_000104", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "cult_film_000104", "style": "llm:o4-mini", "prediction": ""}
+{"id": "cult_film_000104", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "cult_film_000104", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "cult_film_000104", "style": "hybrid", "prediction": "released happened on 1995. This highlights the main temporal relationship."}
+{"id": "cult_film_000104", "style": "baseline", "prediction": "Batman Forever was released in 1995."}
+{"id": "pat_000012", "style": "template", "prediction": "received_patent happened on 1965-07-06."}
+{"id": "pat_000012", "style": "seq2seq", "prediction": "Summary: received_patent happened on 1965-07-06."}
+{"id": "pat_000012", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "pat_000012", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "pat_000012", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "pat_000012", "style": "llm:o4-mini", "prediction": ""}
+{"id": "pat_000012", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "pat_000012", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "pat_000012", "style": "hybrid", "prediction": "received_patent happened on 1965-07-06. This highlights the main temporal relationship."}
+{"id": "pat_000012", "style": "baseline", "prediction": "Nick Holonyak Jr. received US Patent 3,249,953 for the visible-spectrum LED on July 6, 1965."}
+{"id": "sport_044", "style": "template", "prediction": "Euro 2024 Final occurred_on. Paris Summer Olympics started. Paris Summer Olympics started. Key facts: Euro 2024 Final occurred_on."}
+{"id": "sport_044", "style": "seq2seq", "prediction": "Summary: Euro 2024 Final occurred_on. Paris Summer Olympics started. Paris Summer Olympics started. Key facts: Euro 2024 Final occurred_on."}
+{"id": "sport_044", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "sport_044", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "sport_044", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "sport_044", "style": "llm:o4-mini", "prediction": ""}
+{"id": "sport_044", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "sport_044", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "sport_044", "style": "hybrid", "prediction": "Euro 2024 Final occurred_on. Paris Summer Olympics started. Paris Summer Olympics started. Key facts: Euro 2024 Final occurred_on. This highlights the main temporal relationship."}
+{"id": "sport_044", "style": "baseline", "prediction": "The Euro 2024 final on July 14, 2024, occurred just 12 days before the Paris Olympics began on July 26, 2024."}
+{"id": "cult_fash_026", "style": "template", "prediction": "end of British rationing and branding of The American Look together. Key facts: end of British rationing."}
+{"id": "cult_fash_026", "style": "seq2seq", "prediction": "Summary: end of British rationing and branding of The American Look together. Key facts: end of British rationing."}
+{"id": "cult_fash_026", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "cult_fash_026", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "cult_fash_026", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "cult_fash_026", "style": "llm:o4-mini", "prediction": ""}
+{"id": "cult_fash_026", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "cult_fash_026", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "cult_fash_026", "style": "hybrid", "prediction": "end of British rationing and branding of The American Look together. Key facts: end of British rationing. This highlights the main temporal relationship."}
+{"id": "cult_fash_026", "style": "baseline", "prediction": "Yes, the end of British rationing in 1949 overlapped with the branding of 'The American Look' that same year, marking a collision of austerity and aspiration."}
+{"id": "biz_000033", "style": "template", "prediction": "Google and Postini together. Key facts: Google."}
+{"id": "biz_000033", "style": "seq2seq", "prediction": "Summary: Google and Postini together. Key facts: Google."}
+{"id": "biz_000033", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "biz_000033", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "biz_000033", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "biz_000033", "style": "llm:o4-mini", "prediction": ""}
+{"id": "biz_000033", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "biz_000033", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "biz_000033", "style": "hybrid", "prediction": "Google and Postini together. Key facts: Google. This highlights the main temporal relationship."}
+{"id": "biz_000033", "style": "baseline", "prediction": "Google acquired Postini on 2007-07-09, and Microsoft acquired aQuantive on 2007-08-13."}
+{"id": "film_0055", "style": "template", "prediction": "Jonathan Majors legal issues. Then Avengers title change. Key facts: Jonathan Majors legal issues."}
+{"id": "film_0055", "style": "seq2seq", "prediction": "Summary: Jonathan Majors legal issues. Then Avengers title change. Key facts: Jonathan Majors legal issues."}
+{"id": "film_0055", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "film_0055", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "film_0055", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "film_0055", "style": "llm:o4-mini", "prediction": ""}
+{"id": "film_0055", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "film_0055", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "film_0055", "style": "hybrid", "prediction": "Jonathan Majors legal issues. Then Avengers title change. Key facts: Jonathan Majors legal issues. This highlights the main temporal relationship."}
+{"id": "film_0055", "style": "baseline", "prediction": "Legal issues facing Jonathan Majors in 2023 caused Marvel to retool Avengers: The Kang Dynasty into Avengers: Doomsday."}
+{"id": "biz_000035", "style": "template", "prediction": "Google and Omnisio together. Key facts: Google."}
+{"id": "biz_000035", "style": "seq2seq", "prediction": "Summary: Google and Omnisio together. Key facts: Google."}
+{"id": "biz_000035", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "biz_000035", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "biz_000035", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "biz_000035", "style": "llm:o4-mini", "prediction": ""}
+{"id": "biz_000035", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "biz_000035", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "biz_000035", "style": "hybrid", "prediction": "Google and Omnisio together. Key facts: Google. This highlights the main temporal relationship."}
+{"id": "biz_000035", "style": "baseline", "prediction": "Google acquired Omnisio on 2008-07-30, and Microsoft acquired Powerset on 2008-08-11."}
+{"id": "hist_000339", "style": "template", "prediction": "Settlement time 01:37. First train time 09:32. System running time 12:45. Key facts: Settlement time 01:37."}
+{"id": "hist_000339", "style": "seq2seq", "prediction": "Summary: Settlement time 01:37. First train time 09:32. System running time 12:45. Key facts: Settlement time 01:37."}
+{"id": "hist_000339", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "hist_000339", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "hist_000339", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "hist_000339", "style": "llm:o4-mini", "prediction": ""}
+{"id": "hist_000339", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "hist_000339", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "hist_000339", "style": "hybrid", "prediction": "Settlement time 01:37. First train time 09:32. System running time 12:45. Key facts: Settlement time 01:37. This highlights the main temporal relationship."}
+{"id": "hist_000339", "style": "baseline", "prediction": "Following the settlement recommendation at 1:37 a.m. on January 13, 1966, the first train ran at 9:32 a.m. and the system was fully running by 12:45 p.m."}
+{"id": "cult_000212", "style": "template", "prediction": "released happened on 2003-06-24."}
+{"id": "cult_000212", "style": "seq2seq", "prediction": "Summary: released happened on 2003-06-24."}
+{"id": "cult_000212", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "cult_000212", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "cult_000212", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "cult_000212", "style": "llm:o4-mini", "prediction": ""}
+{"id": "cult_000212", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "cult_000212", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "cult_000212", "style": "hybrid", "prediction": "released happened on 2003-06-24. This highlights the main temporal relationship."}
+{"id": "cult_000212", "style": "baseline", "prediction": "Beyoncé released her debut solo album Dangerously in Love on June 24, 2003."}
+{"id": "cult_000408", "style": "template", "prediction": "David Walliams decree nisi and Family-court reporting together. Key facts: David Walliams decree nisi."}
+{"id": "cult_000408", "style": "seq2seq", "prediction": "Summary: David Walliams decree nisi and Family-court reporting together. Key facts: David Walliams decree nisi."}
+{"id": "cult_000408", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "cult_000408", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "cult_000408", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "cult_000408", "style": "llm:o4-mini", "prediction": ""}
+{"id": "cult_000408", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "cult_000408", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "cult_000408", "style": "hybrid", "prediction": "David Walliams decree nisi and Family-court reporting together. Key facts: David Walliams decree nisi. This highlights the main temporal relationship."}
+{"id": "cult_000408", "style": "baseline", "prediction": "David Walliams's 2015 decree nisi overlapped with continued media reporting on family-court milestones."}
+{"id": "cult_md_018", "style": "template", "prediction": "divorced happened on 2002-10-15."}
+{"id": "cult_md_018", "style": "seq2seq", "prediction": "Summary: divorced happened on 2002-10-15."}
+{"id": "cult_md_018", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "cult_md_018", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "cult_md_018", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "cult_md_018", "style": "llm:o4-mini", "prediction": ""}
+{"id": "cult_md_018", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "cult_md_018", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "cult_md_018", "style": "hybrid", "prediction": "divorced happened on 2002-10-15. This highlights the main temporal relationship."}
+{"id": "cult_md_018", "style": "baseline", "prediction": "Drew Barrymore and Tom Green finalized their divorce on October 15, 2002, after less than a year of marriage."}
+{"id": "fash_000063", "style": "template", "prediction": "founded happened on 1881-01-01."}
+{"id": "fash_000063", "style": "seq2seq", "prediction": "Summary: founded happened on 1881-01-01."}
+{"id": "fash_000063", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "fash_000063", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "fash_000063", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "fash_000063", "style": "llm:o4-mini", "prediction": ""}
+{"id": "fash_000063", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "fash_000063", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "fash_000063", "style": "hybrid", "prediction": "founded happened on 1881-01-01. This highlights the main temporal relationship."}
+{"id": "fash_000063", "style": "baseline", "prediction": "The Rational Dress Society was founded in 1881 to combat restrictive womenswear, arguing that mainstream dress limited women’s health and productivity."}
+{"id": "infra_00102", "style": "template", "prediction": "Sound Transit Link extensions opening. Then Suburban light rail access. Key facts: Sound Transit Link extensions opening."}
+{"id": "infra_00102", "style": "seq2seq", "prediction": "Summary: Sound Transit Link extensions opening. Then Suburban light rail access. Key facts: Sound Transit Link extensions opening."}
+{"id": "infra_00102", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "infra_00102", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "infra_00102", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "infra_00102", "style": "llm:o4-mini", "prediction": ""}
+{"id": "infra_00102", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "infra_00102", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "infra_00102", "style": "hybrid", "prediction": "Sound Transit Link extensions opening. Then Suburban light rail access. Key facts: Sound Transit Link extensions opening. This highlights the main temporal relationship."}
+{"id": "infra_00102", "style": "baseline", "prediction": "Yes, the opening of Sound Transit Link extensions in 2021 brought light rail access to Northgate and other Seattle suburbs."}
+{"id": "cult_games_0085", "style": "template", "prediction": "Platform announcements phase1 Valve announces Greenlight shutdown. Platform announcements phase2 Steam Direct launches. Platform announcements phase3 Epic announces store. Key facts: Platform announcements phase1 Valve announces Greenlight."}
+{"id": "cult_games_0085", "style": "seq2seq", "prediction": "Summary: Platform announcements phase1 Valve announces Greenlight shutdown. Platform announcements phase2 Steam Direct launches. Platform announcements phase3 Epic announces store. Key facts: Platform announcements phase1 Valve announces Greenlight."}
+{"id": "cult_games_0085", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "cult_games_0085", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "cult_games_0085", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "cult_games_0085", "style": "llm:o4-mini", "prediction": ""}
+{"id": "cult_games_0085", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "cult_games_0085", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "cult_games_0085", "style": "hybrid", "prediction": "Platform announcements phase1 Valve announces Greenlight shutdown. Platform announcements phase2 Steam Direct launches. Platform announcements phase3 Epic announces store. Key facts: Platform announcements phase1 Valve announces Greenlight. This highlights the main temporal relationship."}
+{"id": "cult_games_0085", "style": "baseline", "prediction": "Valve announced Greenlight's shutdown on June 6, 2017, and launched Steam Direct on June 13, 2017; Epic later announced its store in early December 2018 and opened it on December 6, 2018."}
+{"id": "sport_092", "style": "template", "prediction": "2018 FIFA World Cup Final occurred_on. Euro 2020 Final occurred_on. 2022 FIFA World Cup Final occurred_on. Key facts: 2018 FIFA World Cup Final occurred_on."}
+{"id": "sport_092", "style": "seq2seq", "prediction": "Summary: 2018 FIFA World Cup Final occurred_on. Euro 2020 Final occurred_on. 2022 FIFA World Cup Final occurred_on. Key facts: 2018 FIFA World Cup Final occurred_on."}
+{"id": "sport_092", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "sport_092", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "sport_092", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "sport_092", "style": "llm:o4-mini", "prediction": ""}
+{"id": "sport_092", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "sport_092", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "sport_092", "style": "hybrid", "prediction": "2018 FIFA World Cup Final occurred_on. Euro 2020 Final occurred_on. 2022 FIFA World Cup Final occurred_on. Key facts: 2018 FIFA World Cup Final occurred_on. This highlights the main temporal relationship."}
+{"id": "sport_092", "style": "baseline", "prediction": "The timeline includes the World Cup final on July 15, 2018, the Euro 2020 final on July 11, 2021, and the World Cup final on December 18, 2022."}
+{"id": "cult_000305", "style": "template", "prediction": "announced happened on 2023-10-20."}
+{"id": "cult_000305", "style": "seq2seq", "prediction": "Summary: announced happened on 2023-10-20."}
+{"id": "cult_000305", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "cult_000305", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "cult_000305", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "cult_000305", "style": "llm:o4-mini", "prediction": ""}
+{"id": "cult_000305", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "cult_000305", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "cult_000305", "style": "hybrid", "prediction": "announced happened on 2023-10-20. This highlights the main temporal relationship."}
+{"id": "cult_000305", "style": "baseline", "prediction": "Meryl Streep and Don Gummer announced their separation on October 20, 2023, following 45 years of marriage."}
+{"id": "cult_000328", "style": "template", "prediction": "Aga Khan IV divorce. Then $78 million. Key facts: Aga Khan IV divorce."}
+{"id": "cult_000328", "style": "seq2seq", "prediction": "Summary: Aga Khan IV divorce. Then $78 million. Key facts: Aga Khan IV divorce."}
+{"id": "cult_000328", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "cult_000328", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "cult_000328", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "cult_000328", "style": "llm:o4-mini", "prediction": ""}
+{"id": "cult_000328", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "cult_000328", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "cult_000328", "style": "hybrid", "prediction": "Aga Khan IV divorce. Then $78 million. Key facts: Aga Khan IV divorce. This highlights the main temporal relationship."}
+{"id": "cult_000328", "style": "baseline", "prediction": "Aga Khan IV's 2011 divorce from Inaara Aga Khan was estimated at about $78 million."}
+{"id": "leg_000306", "style": "template", "prediction": "approved_on happened on 2022-12-27."}
+{"id": "leg_000306", "style": "seq2seq", "prediction": "Summary: approved_on happened on 2022-12-27."}
+{"id": "leg_000306", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "leg_000306", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "leg_000306", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "leg_000306", "style": "llm:o4-mini", "prediction": ""}
+{"id": "leg_000306", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "leg_000306", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "leg_000306", "style": "hybrid", "prediction": "approved_on happened on 2022-12-27. This highlights the main temporal relationship."}
+{"id": "leg_000306", "style": "baseline", "prediction": "Public Law 117-300 was approved on December 27, 2022."}
+{"id": "crises_000015", "style": "template", "prediction": "announced_merger happened on 2000-01-10."}
+{"id": "crises_000015", "style": "seq2seq", "prediction": "Summary: announced_merger happened on 2000-01-10."}
+{"id": "crises_000015", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "crises_000015", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "crises_000015", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "crises_000015", "style": "llm:o4-mini", "prediction": ""}
+{"id": "crises_000015", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "crises_000015", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "crises_000015", "style": "hybrid", "prediction": "announced_merger happened on 2000-01-10. This highlights the main temporal relationship."}
+{"id": "crises_000015", "style": "baseline", "prediction": "AOL announced its merger with Time Warner on January 10, 2000, an event often seen as epitomizing dot-com excess."}
+{"id": "sport_054", "style": "template", "prediction": "Birmingham Commonwealth Games occurred_on. 2022 FIFA World Cup Final occurred_on. 2022 FIFA World Cup Final occurred_on. Key facts: Birmingham Commonwealth Games occurred_on."}
+{"id": "sport_054", "style": "seq2seq", "prediction": "Summary: Birmingham Commonwealth Games occurred_on. 2022 FIFA World Cup Final occurred_on. 2022 FIFA World Cup Final occurred_on. Key facts: Birmingham Commonwealth Games occurred_on."}
+{"id": "sport_054", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "sport_054", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "sport_054", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "sport_054", "style": "llm:o4-mini", "prediction": ""}
+{"id": "sport_054", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "sport_054", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "sport_054", "style": "hybrid", "prediction": "Birmingham Commonwealth Games occurred_on. 2022 FIFA World Cup Final occurred_on. 2022 FIFA World Cup Final occurred_on. Key facts: Birmingham Commonwealth Games occurred_on. This highlights the main temporal relationship."}
+{"id": "sport_054", "style": "baseline", "prediction": "The Birmingham Commonwealth Games ran from July 28 to August 8, 2022, while the FIFA World Cup final took place months later on December 18, 2022."}
+{"id": "game_0082", "style": "template", "prediction": "interval lasted from 1996-01-29 to 2011-06-10."}
+{"id": "game_0082", "style": "seq2seq", "prediction": "Summary: interval lasted from 1996-01-29 to 2011-06-10."}
+{"id": "game_0082", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "game_0082", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "game_0082", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "game_0082", "style": "llm:o4-mini", "prediction": ""}
+{"id": "game_0082", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "game_0082", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "game_0082", "style": "hybrid", "prediction": "interval lasted from 1996-01-29 to 2011-06-10. This highlights the main temporal relationship."}
+{"id": "game_0082", "style": "baseline", "prediction": "Fans waited from the release of Duke Nukem 3D in 1996 until 2011 for the sequel, Duke Nukem Forever."}
+{"id": "gov_000129", "style": "template", "prediction": "established happened on 1938-02-10."}
+{"id": "gov_000129", "style": "seq2seq", "prediction": "Summary: established happened on 1938-02-10."}
+{"id": "gov_000129", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "gov_000129", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "gov_000129", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "gov_000129", "style": "llm:o4-mini", "prediction": ""}
+{"id": "gov_000129", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "gov_000129", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "gov_000129", "style": "hybrid", "prediction": "established happened on 1938-02-10. This highlights the main temporal relationship."}
+{"id": "gov_000129", "style": "baseline", "prediction": "Fannie Mae (Federal National Mortgage Association) was established on February 10, 1938."}
+{"id": "sport_010", "style": "template", "prediction": "St. Moritz Winter Olympics together. Key facts: St. Moritz Winter Olympics."}
+{"id": "sport_010", "style": "seq2seq", "prediction": "Summary: St. Moritz Winter Olympics together. Key facts: St. Moritz Winter Olympics."}
+{"id": "sport_010", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "sport_010", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "sport_010", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "sport_010", "style": "llm:o4-mini", "prediction": ""}
+{"id": "sport_010", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "sport_010", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "sport_010", "style": "hybrid", "prediction": "St. Moritz Winter Olympics together. Key facts: St. Moritz Winter Olympics. This highlights the main temporal relationship."}
+{"id": "sport_010", "style": "baseline", "prediction": "In 1928, the St. Moritz Winter Olympics ran from February 11 to 19, and the Amsterdam Summer Olympics ran from July 28 to August 12."}
+{"id": "cult_art_000040", "style": "template", "prediction": "Abstract Expressionism phase myth-making. Abstract Expressionism phase drip/action. Abstract Expressionism phase color field. Key facts: Abstract Expressionism phase myth-making."}
+{"id": "cult_art_000040", "style": "seq2seq", "prediction": "Summary: Abstract Expressionism phase myth-making. Abstract Expressionism phase drip/action. Abstract Expressionism phase color field. Key facts: Abstract Expressionism phase myth-making."}
+{"id": "cult_art_000040", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "cult_art_000040", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "cult_art_000040", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "cult_art_000040", "style": "llm:o4-mini", "prediction": ""}
+{"id": "cult_art_000040", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "cult_art_000040", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "cult_art_000040", "style": "hybrid", "prediction": "Abstract Expressionism phase myth-making. Abstract Expressionism phase drip/action. Abstract Expressionism phase color field. Key facts: Abstract Expressionism phase myth-making. This highlights the main temporal relationship."}
+{"id": "cult_art_000040", "style": "baseline", "prediction": "Abstract Expressionism evolved from early myth-making (1940-1946) to classic drip/action painting (1947-1952), and finally to Color Field painting (1950-1960)."}
+{"id": "curr_000080", "style": "template", "prediction": "Inflation/Large denominations. Then Redenomination. Key facts: Inflation/Large denominations."}
+{"id": "curr_000080", "style": "seq2seq", "prediction": "Summary: Inflation/Large denominations. Then Redenomination. Key facts: Inflation/Large denominations."}
+{"id": "curr_000080", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "curr_000080", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "curr_000080", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "curr_000080", "style": "llm:o4-mini", "prediction": ""}
+{"id": "curr_000080", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "curr_000080", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "curr_000080", "style": "hybrid", "prediction": "Inflation/Large denominations. Then Redenomination. Key facts: Inflation/Large denominations. This highlights the main temporal relationship."}
+{"id": "curr_000080", "style": "baseline", "prediction": "Mexico redenominated in 1993, converting 1,000 old pesos into 1 new peso, because inflation had made nominal denominations unwieldy."}
+{"id": "fin_000135", "style": "template", "prediction": "Rubrik IPO together. Key facts: Rubrik IPO."}
+{"id": "fin_000135", "style": "seq2seq", "prediction": "Summary: Rubrik IPO together. Key facts: Rubrik IPO."}
+{"id": "fin_000135", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "fin_000135", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "fin_000135", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "fin_000135", "style": "llm:o4-mini", "prediction": ""}
+{"id": "fin_000135", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "fin_000135", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "fin_000135", "style": "hybrid", "prediction": "Rubrik IPO together. Key facts: Rubrik IPO. This highlights the main temporal relationship."}
+{"id": "fin_000135", "style": "baseline", "prediction": "Rubrik and Marex both listed on the same day, April 25, 2024."}
+{"id": "infra_000122", "style": "template", "prediction": "occurred_on happened on 1818."}
+{"id": "infra_000122", "style": "seq2seq", "prediction": "Summary: occurred_on happened on 1818."}
+{"id": "infra_000122", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "infra_000122", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "infra_000122", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "infra_000122", "style": "llm:o4-mini", "prediction": ""}
+{"id": "infra_000122", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "infra_000122", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "infra_000122", "style": "hybrid", "prediction": "occurred_on happened on 1818. This highlights the main temporal relationship."}
+{"id": "infra_000122", "style": "baseline", "prediction": "Islington Tunnel opened in 1818 in London as a canal tunnel on Regent's Canal."}
+{"id": "tech_000126", "style": "template", "prediction": "completed happened on 2010-11."}
+{"id": "tech_000126", "style": "seq2seq", "prediction": "Summary: completed happened on 2010-11."}
+{"id": "tech_000126", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "tech_000126", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "tech_000126", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "tech_000126", "style": "llm:o4-mini", "prediction": ""}
+{"id": "tech_000126", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "tech_000126", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "tech_000126", "style": "hybrid", "prediction": "completed happened on 2010-11. This highlights the main temporal relationship."}
+{"id": "tech_000126", "style": "baseline", "prediction": "Completion of the Gansu Wind Farm's first phase was announced in November 2010."}
+{"id": "cult_art_000048", "style": "template", "prediction": "Chris Burden performed Five Day Locker Piece. Chris Burden performed Shoot. Chris Burden performed Trans-Fixed. Key facts: Chris Burden performed Five Day Locker."}
+{"id": "cult_art_000048", "style": "seq2seq", "prediction": "Summary: Chris Burden performed Five Day Locker Piece. Chris Burden performed Shoot. Chris Burden performed Trans-Fixed. Key facts: Chris Burden performed Five Day Locker."}
+{"id": "cult_art_000048", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "cult_art_000048", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "cult_art_000048", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "cult_art_000048", "style": "llm:o4-mini", "prediction": ""}
+{"id": "cult_art_000048", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "cult_art_000048", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "cult_art_000048", "style": "hybrid", "prediction": "Chris Burden performed Five Day Locker Piece. Chris Burden performed Shoot. Chris Burden performed Trans-Fixed. Key facts: Chris Burden performed Five Day Locker. This highlights the main temporal relationship."}
+{"id": "cult_art_000048", "style": "baseline", "prediction": "Chris Burden performed Five Day Locker Piece in 1971, Shoot in 1971, and Trans-Fixed in 1974."}
+{"id": "monu_004", "style": "template", "prediction": "Terminal Tower construction together. Key facts: Terminal Tower construction."}
+{"id": "monu_004", "style": "seq2seq", "prediction": "Summary: Terminal Tower construction together. Key facts: Terminal Tower construction."}
+{"id": "monu_004", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "monu_004", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "monu_004", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "monu_004", "style": "llm:o4-mini", "prediction": ""}
+{"id": "monu_004", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "monu_004", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "monu_004", "style": "hybrid", "prediction": "Terminal Tower construction together. Key facts: Terminal Tower construction. This highlights the main temporal relationship."}
+{"id": "monu_004", "style": "baseline", "prediction": "Yes, Terminal Tower was under construction (1926–1927) when Charles Lindbergh completed his flight in 1927."}
+{"id": "infra_000157", "style": "template", "prediction": "interval lasted from 1886 to 1892."}
+{"id": "infra_000157", "style": "seq2seq", "prediction": "Summary: interval lasted from 1886 to 1892."}
+{"id": "infra_000157", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "infra_000157", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "infra_000157", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "infra_000157", "style": "llm:o4-mini", "prediction": ""}
+{"id": "infra_000157", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "infra_000157", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "infra_000157", "style": "hybrid", "prediction": "interval lasted from 1886 to 1892. This highlights the main temporal relationship."}
+{"id": "infra_000157", "style": "baseline", "prediction": "The Mersey Railway tunnel was developed between 1886 and 1892, spanning from its early opening to completion."}
+{"id": "pat_000121", "style": "template", "prediction": "Diesel patent and 1898 together. Key facts: Diesel patent."}
+{"id": "pat_000121", "style": "seq2seq", "prediction": "Summary: Diesel patent and 1898 together. Key facts: Diesel patent."}
+{"id": "pat_000121", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "pat_000121", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "pat_000121", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "pat_000121", "style": "llm:o4-mini", "prediction": ""}
+{"id": "pat_000121", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "pat_000121", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "pat_000121", "style": "hybrid", "prediction": "Diesel patent and 1898 together. Key facts: Diesel patent. This highlights the main temporal relationship."}
+{"id": "pat_000121", "style": "baseline", "prediction": "Rudolf Diesel's 1898 patent and Herbert Akroyd-Stuart's 1890 patent represented overlapping development in compression ignition engines."}
+{"id": "hist_sport_076", "style": "template", "prediction": "occurred_on happened on 2008-08-08."}
+{"id": "hist_sport_076", "style": "seq2seq", "prediction": "Summary: occurred_on happened on 2008-08-08."}
+{"id": "hist_sport_076", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "hist_sport_076", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "hist_sport_076", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "hist_sport_076", "style": "llm:o4-mini", "prediction": ""}
+{"id": "hist_sport_076", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "hist_sport_076", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "hist_sport_076", "style": "hybrid", "prediction": "occurred_on happened on 2008-08-08. This highlights the main temporal relationship."}
+{"id": "hist_sport_076", "style": "baseline", "prediction": "The 2008 Summer Olympics opened on August 8, 2008, in Beijing."}
+{"id": "infra_000083", "style": "template", "prediction": "Brightline launch. Then Return of private intercity rail. Key facts: Brightline launch."}
+{"id": "infra_000083", "style": "seq2seq", "prediction": "Summary: Brightline launch. Then Return of private intercity rail. Key facts: Brightline launch."}
+{"id": "infra_000083", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "infra_000083", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "infra_000083", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "infra_000083", "style": "llm:o4-mini", "prediction": ""}
+{"id": "infra_000083", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "infra_000083", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "infra_000083", "style": "hybrid", "prediction": "Brightline launch. Then Return of private intercity rail. Key facts: Brightline launch. This highlights the main temporal relationship."}
+{"id": "infra_000083", "style": "baseline", "prediction": "The launch of Brightline in 2018 marked the return of private intercity passenger rail to the US."}
+{"id": "cult_awards_0048", "style": "template", "prediction": "won happened on 1982."}
+{"id": "cult_awards_0048", "style": "seq2seq", "prediction": "Summary: won happened on 1982."}
+{"id": "cult_awards_0048", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "cult_awards_0048", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "cult_awards_0048", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "cult_awards_0048", "style": "llm:o4-mini", "prediction": ""}
+{"id": "cult_awards_0048", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "cult_awards_0048", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "cult_awards_0048", "style": "hybrid", "prediction": "won happened on 1982. This highlights the main temporal relationship."}
+{"id": "cult_awards_0048", "style": "baseline", "prediction": "The State of Things won the Golden Lion in 1982, receiving Venice’s highest honor for best film."}
+{"id": "fin_ipo_050", "style": "template", "prediction": "Amazon founded. Amazon IPO. Amazon launched AWS. Key facts: Amazon founded."}
+{"id": "fin_ipo_050", "style": "seq2seq", "prediction": "Summary: Amazon founded. Amazon IPO. Amazon launched AWS. Key facts: Amazon founded."}
+{"id": "fin_ipo_050", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "fin_ipo_050", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "fin_ipo_050", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "fin_ipo_050", "style": "llm:o4-mini", "prediction": ""}
+{"id": "fin_ipo_050", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "fin_ipo_050", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "fin_ipo_050", "style": "hybrid", "prediction": "Amazon founded. Amazon IPO. Amazon launched AWS. Key facts: Amazon founded. This highlights the main temporal relationship."}
+{"id": "fin_ipo_050", "style": "baseline", "prediction": "Amazon was founded in 1994, went public in 1997, and launched AWS in 2006."}
+{"id": "pat_0022", "style": "template", "prediction": "introduced happened on 1873-05-20."}
+{"id": "pat_0022", "style": "seq2seq", "prediction": "Summary: introduced happened on 1873-05-20."}
+{"id": "pat_0022", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "pat_0022", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "pat_0022", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "pat_0022", "style": "llm:o4-mini", "prediction": ""}
+{"id": "pat_0022", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "pat_0022", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "pat_0022", "style": "hybrid", "prediction": "introduced happened on 1873-05-20. This highlights the main temporal relationship."}
+{"id": "pat_0022", "style": "baseline", "prediction": "Levi Strauss received the patent for copper-riveted pants on May 20, 1873."}
+{"id": "corp_0049", "style": "template", "prediction": "Hindenburg Research report. Then Nikola stock crash. Key facts: Hindenburg Research report."}
+{"id": "corp_0049", "style": "seq2seq", "prediction": "Summary: Hindenburg Research report. Then Nikola stock crash. Key facts: Hindenburg Research report."}
+{"id": "corp_0049", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "corp_0049", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "corp_0049", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "corp_0049", "style": "llm:o4-mini", "prediction": ""}
+{"id": "corp_0049", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "corp_0049", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "corp_0049", "style": "hybrid", "prediction": "Hindenburg Research report. Then Nikola stock crash. Key facts: Hindenburg Research report. This highlights the main temporal relationship."}
+{"id": "corp_0049", "style": "baseline", "prediction": "A report by Hindenburg Research on September 10, 2020, accusing Nikola of fraud caused its stock to crash."}
+{"id": "cult_000352", "style": "template", "prediction": "Samathur Li Kin-kan divorce occurred_on. Frank McCourt divorce occurred_on. Aga Khan IV divorce occurred_on. Key facts: Samathur Li Kin-kan divorce occurred_on."}
+{"id": "cult_000352", "style": "seq2seq", "prediction": "Summary: Samathur Li Kin-kan divorce occurred_on. Frank McCourt divorce occurred_on. Aga Khan IV divorce occurred_on. Key facts: Samathur Li Kin-kan divorce occurred_on."}
+{"id": "cult_000352", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "cult_000352", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "cult_000352", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "cult_000352", "style": "llm:o4-mini", "prediction": ""}
+{"id": "cult_000352", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "cult_000352", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "cult_000352", "style": "hybrid", "prediction": "Samathur Li Kin-kan divorce occurred_on. Frank McCourt divorce occurred_on. Aga Khan IV divorce occurred_on. Key facts: Samathur Li Kin-kan divorce occurred_on. This highlights the main temporal relationship."}
+{"id": "cult_000352", "style": "baseline", "prediction": "Samathur Li Kin-kan, Frank McCourt, and Aga Khan IV all had expensive divorces in 2011."}
+{"id": "cult_arch_027", "style": "template", "prediction": "construction_halt happened on 1886-06-13."}
+{"id": "cult_arch_027", "style": "seq2seq", "prediction": "Summary: construction_halt happened on 1886-06-13."}
+{"id": "cult_arch_027", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "cult_arch_027", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "cult_arch_027", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "cult_arch_027", "style": "llm:o4-mini", "prediction": ""}
+{"id": "cult_arch_027", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "cult_arch_027", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "cult_arch_027", "style": "hybrid", "prediction": "construction_halt happened on 1886-06-13. This highlights the main temporal relationship."}
+{"id": "cult_arch_027", "style": "baseline", "prediction": "Construction on Neuschwanstein Castle slowed immediately after King Ludwig II's mysterious death on June 13, 1886."}
+{"id": "cult_art_000049", "style": "template", "prediction": "Gordon Matta-Clark created Splitting. Gordon Matta-Clark created Day's End. Gordon Matta-Clark created Conical Intersect. Key facts: Gordon Matta-Clark created Splitting."}
+{"id": "cult_art_000049", "style": "seq2seq", "prediction": "Summary: Gordon Matta-Clark created Splitting. Gordon Matta-Clark created Day's End. Gordon Matta-Clark created Conical Intersect. Key facts: Gordon Matta-Clark created Splitting."}
+{"id": "cult_art_000049", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "cult_art_000049", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "cult_art_000049", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "cult_art_000049", "style": "llm:o4-mini", "prediction": ""}
+{"id": "cult_art_000049", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "cult_art_000049", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "cult_art_000049", "style": "hybrid", "prediction": "Gordon Matta-Clark created Splitting. Gordon Matta-Clark created Day's End. Gordon Matta-Clark created Conical Intersect. Key facts: Gordon Matta-Clark created Splitting. This highlights the main temporal relationship."}
+{"id": "cult_art_000049", "style": "baseline", "prediction": "Gordon Matta-Clark created Splitting in 1974, Day's End in 1975, and Conical Intersect in 1975."}
+{"id": "hist_infra_093", "style": "template", "prediction": "construction_start happened on 2020-07."}
+{"id": "hist_infra_093", "style": "seq2seq", "prediction": "Summary: construction_start happened on 2020-07."}
+{"id": "hist_infra_093", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "hist_infra_093", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "hist_infra_093", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "hist_infra_093", "style": "llm:o4-mini", "prediction": ""}
+{"id": "hist_infra_093", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "hist_infra_093", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "hist_infra_093", "style": "hybrid", "prediction": "construction_start happened on 2020-07. This highlights the main temporal relationship."}
+{"id": "hist_infra_093", "style": "baseline", "prediction": "Construction of the Diamer-Bhasha Dam began in July 2020."}
+{"id": "cult_000178", "style": "template", "prediction": "French Revolution. Then Louvre opening. Key facts: French Revolution."}
+{"id": "cult_000178", "style": "seq2seq", "prediction": "Summary: French Revolution. Then Louvre opening. Key facts: French Revolution."}
+{"id": "cult_000178", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "cult_000178", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "cult_000178", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "cult_000178", "style": "llm:o4-mini", "prediction": ""}
+{"id": "cult_000178", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "cult_000178", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "cult_000178", "style": "hybrid", "prediction": "French Revolution. Then Louvre opening. Key facts: French Revolution. This highlights the main temporal relationship."}
+{"id": "cult_000178", "style": "baseline", "prediction": "The French Revolution led to the nationalization of royal collections, causing the Louvre Museum to open to the public in 1793."}
+{"id": "hist_infra_097", "style": "template", "prediction": "ops_start happened on 2020-01."}
+{"id": "hist_infra_097", "style": "seq2seq", "prediction": "Summary: ops_start happened on 2020-01."}
+{"id": "hist_infra_097", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "hist_infra_097", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "hist_infra_097", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "hist_infra_097", "style": "llm:o4-mini", "prediction": ""}
+{"id": "hist_infra_097", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "hist_infra_097", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "hist_infra_097", "style": "hybrid", "prediction": "ops_start happened on 2020-01. This highlights the main temporal relationship."}
+{"id": "hist_infra_097", "style": "baseline", "prediction": "The Don Sahong Dam in Laos began operations in January 2020."}
+{"id": "energy_018", "style": "template", "prediction": "Temelín Unit 1 began_building. Temelín Unit 1 commercial_operation. Temelín Unit 1 commercial_operation. Key facts: Temelín Unit 1 began_building."}
+{"id": "energy_018", "style": "seq2seq", "prediction": "Summary: Temelín Unit 1 began_building. Temelín Unit 1 commercial_operation. Temelín Unit 1 commercial_operation. Key facts: Temelín Unit 1 began_building."}
+{"id": "energy_018", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "energy_018", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "energy_018", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "energy_018", "style": "llm:o4-mini", "prediction": ""}
+{"id": "energy_018", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "energy_018", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "energy_018", "style": "hybrid", "prediction": "Temelín Unit 1 began_building. Temelín Unit 1 commercial_operation. Temelín Unit 1 commercial_operation. Key facts: Temelín Unit 1 began_building. This highlights the main temporal relationship."}
+{"id": "energy_018", "style": "baseline", "prediction": "Temelín Unit 1 began construction on February 1, 1987, and entered commercial operation on June 10, 2002."}
+{"id": "hist_leg_0099", "style": "template", "prediction": "House passage (negotiated). Then Senate passage. Key facts: House passage (negotiated)."}
+{"id": "hist_leg_0099", "style": "seq2seq", "prediction": "Summary: House passage (negotiated). Then Senate passage. Key facts: House passage (negotiated)."}
+{"id": "hist_leg_0099", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "hist_leg_0099", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "hist_leg_0099", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "hist_leg_0099", "style": "llm:o4-mini", "prediction": ""}
+{"id": "hist_leg_0099", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "hist_leg_0099", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "hist_leg_0099", "style": "hybrid", "prediction": "House passage (negotiated). Then Senate passage. Key facts: House passage (negotiated). This highlights the main temporal relationship."}
+{"id": "hist_leg_0099", "style": "baseline", "prediction": "The Senate passed the bill on October 25, 2001, following the House's passage of a negotiated measure on October 24, to complete congressional action."}
+{"id": "pat_000048", "style": "template", "prediction": "received_patent happened on 1998-06-23."}
+{"id": "pat_000048", "style": "seq2seq", "prediction": "Summary: received_patent happened on 1998-06-23."}
+{"id": "pat_000048", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "pat_000048", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "pat_000048", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "pat_000048", "style": "llm:o4-mini", "prediction": ""}
+{"id": "pat_000048", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "pat_000048", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "pat_000048", "style": "hybrid", "prediction": "received_patent happened on 1998-06-23. This highlights the main temporal relationship."}
+{"id": "pat_000048", "style": "baseline", "prediction": "Jeff Hawkins was granted US Patent 5,748,512 for handwriting recognition systems on June 23, 1998."}
+{"id": "corp_0054", "style": "template", "prediction": "Semiconductor shortage. Then PS5 scarcity. Key facts: Semiconductor shortage."}
+{"id": "corp_0054", "style": "seq2seq", "prediction": "Summary: Semiconductor shortage. Then PS5 scarcity. Key facts: Semiconductor shortage."}
+{"id": "corp_0054", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "corp_0054", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "corp_0054", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "corp_0054", "style": "llm:o4-mini", "prediction": ""}
+{"id": "corp_0054", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "corp_0054", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "corp_0054", "style": "hybrid", "prediction": "Semiconductor shortage. Then PS5 scarcity. Key facts: Semiconductor shortage. This highlights the main temporal relationship."}
+{"id": "corp_0054", "style": "baseline", "prediction": "A global semiconductor shortage caused severe scarcity of the PlayStation 5 throughout 2021."}
+{"id": "fin_0013", "style": "template", "prediction": "BlockFi filed_bankruptcy. BlockFi confirmed_plan. BlockFi emerged. Key facts: BlockFi filed_bankruptcy."}
+{"id": "fin_0013", "style": "seq2seq", "prediction": "Summary: BlockFi filed_bankruptcy. BlockFi confirmed_plan. BlockFi emerged. Key facts: BlockFi filed_bankruptcy."}
+{"id": "fin_0013", "style": "llm:gpt-5-nano", "prediction": ""}
+{"id": "fin_0013", "style": "llm:gpt-4.1-nano", "prediction": ""}
+{"id": "fin_0013", "style": "llm:gpt-4o", "prediction": ""}
+{"id": "fin_0013", "style": "llm:o4-mini", "prediction": ""}
+{"id": "fin_0013", "style": "llm:gpt-5.1", "prediction": ""}
+{"id": "fin_0013", "style": "llm:gpt-5.2", "prediction": ""}
+{"id": "fin_0013", "style": "hybrid", "prediction": "BlockFi filed_bankruptcy. BlockFi confirmed_plan. BlockFi emerged. Key facts: BlockFi filed_bankruptcy. This highlights the main temporal relationship."}
+{"id": "fin_0013", "style": "baseline", "prediction": "BlockFi filed for bankruptcy on November 28, 2022, confirmed its plan in September 2023, and emerged on October 24, 2023."}

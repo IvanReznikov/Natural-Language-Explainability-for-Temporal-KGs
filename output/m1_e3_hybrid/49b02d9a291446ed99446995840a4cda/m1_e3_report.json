@@ -1,0 +1,19 @@
+{
+  "timestamp": "2025-12-15T01:51:48.573319",
+  "model": "templates_with_readability_simplification",
+  "examples_per_type": 100,
+  "metrics": {
+    "flesch_mean": 65.46368000000008,
+    "flesch_std": 25.602674455173634,
+    "success_rate": 1.0,
+    "latency_p50": 1.0259760019835085,
+    "latency_p95": 2.286282993736677,
+    "latency_p99": 2.747488993918523,
+    "accuracy": 1.0,
+    "type_coverage": 0.4,
+    "template_hit_rate": 0.972,
+    "simplification_rate": 0.028,
+    "hallucination_rate": 0.0
+  },
+  "duration_seconds": 0.611625
+}

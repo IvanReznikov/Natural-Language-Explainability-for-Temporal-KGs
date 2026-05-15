@@ -1,0 +1,47 @@
+.venv
+venv/
+.vscode/
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+htmlcov/
+logs/
+.venv311
+.hf_cache/
+colab/
+
+data/jsonls/temporal_graph_output_v3/embeddings
+
+# IDE/editor
+.idea/
+.DS_Store
+Thumbs.db
+
+# Build/dist
+build/
+dist/
+*.egg-info/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Model and large binary artifacts
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.onnx
+*.h5
+*.safetensors
+*.tflite
+*.pb
+*.joblib
+models/
+experiments/**/output/
+examples/**/output/
+
+temporal_graph_processing
+ideas
+legacy

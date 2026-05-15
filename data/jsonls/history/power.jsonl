@@ -1,0 +1,269 @@
+{"input":"entity: Queen Elizabeth II; start: 1952-02-06; end: 2022-09-08; context: British monarchy","output":"Queen Elizabeth II reigned from February 6, 1952, until her death on September 8, 2022, marking the longest reign in British history."}
+{"input":"entity: Louis XIV; start: 1643-05-14; end: 1715-09-01; context: French monarchy","output":"Louis XIV, known as the Sun King, ruled France from May 14, 1643, to September 1, 1715."}
+{"input":"entity: Emperor Augustus; start: -0027-01-16; end: 0014-08-19; context: Roman Empire","output":"Augustus became the first Roman Emperor on January 16, 27 BC, and ruled until his death on August 19, 14 AD."}
+{"input":"entity: Queen Victoria; start: 1837-06-20; end: 1901-01-22; context: British monarchy","output":"Queen Victoria's reign began on June 20, 1837, and concluded with her death on January 22, 1901."}
+{"input":"entity: Franklin D. Roosevelt; start: 1933-03-04; end: 1945-04-12; context: US presidency","output":"Franklin D. Roosevelt served as US President from March 4, 1933, until he died in office on April 12, 1945."}
+{"input":"entity: Emperor Hirohito; start: 1926-12-25; end: 1989-01-07; context: Japanese empire","output":"Emperor Hirohito (Showa) reigned over Japan from December 25, 1926, until January 7, 1989."}
+{"input":"entity: Suleiman the Magnificent; start: 1520-09-30; end: 1566-09-06; context: Ottoman Empire","output":"Suleiman the Magnificent led the Ottoman Empire from September 30, 1520, to September 6, 1566."}
+{"input":"entity: Napoleon Bonaparte; event: coronation; date: 1804-12-02; context: French empire","output":"Napoleon Bonaparte was crowned Emperor of the French on December 2, 1804."}
+{"input":"entity: Czar Nicholas II; event: abdication; date: 1917-03-15; context: Russian revolution","output":"Czar Nicholas II was forced to abdicate the throne on March 15, 1917, ending the Romanov dynasty."}
+{"input":"entity: Bhumibol Adulyadej; start: 1946-06-09; end: 2016-10-13; context: Thai monarchy","output":"King Bhumibol Adulyadej (Rama IX) of Thailand reigned from June 9, 1946, until October 13, 2016."}
+{"input":"entity: George Washington; start: 1789-04-30; end: 1797-03-04; context: US presidency","output":"George Washington served as the first US President from April 30, 1789, to March 4, 1797."}
+{"input":"entity: Adolf Hitler; start: 1934-08-02; end: 1945-04-30; context: German dictatorship","output":"Adolf Hitler ruled as Führer of Germany from August 2, 1934, until his suicide on April 30, 1945."}
+{"input":"entity: Joseph Stalin; start: 1924-01-21; end: 1953-03-05; context: Soviet leadership","output":"Joseph Stalin led the Soviet Union from January 21, 1924, until his death on March 5, 1953."}
+{"input":"entity: Mao Zedong; start: 1949-10-01; end: 1976-09-09; context: Chinese leadership","output":"Mao Zedong served as the Chairman of the Communist Party of China from October 1, 1949, to September 9, 1976."}
+{"input":"entity: Emperor Meiji; start: 1867-02-03; end: 1912-07-30; context: Japanese modernization","output":"Emperor Meiji presided over Japan's modernization from February 3, 1867, until July 30, 1912."}
+{"input":"entity: Benito Mussolini; start: 1922-10-31; end: 1943-07-25; context: Italian fascism","output":"Benito Mussolini ruled Italy as Prime Minister from October 31, 1922, until his dismissal on July 25, 1943."}
+{"input":"entity: Fidel Castro; start: 1959-02-16; end: 2008-02-24; context: Cuban leadership","output":"Fidel Castro led Cuba starting February 16, 1959, until he stepped down on February 24, 2008."}
+{"input":"entity: Nelson Mandela; start: 1994-05-10; end: 1999-06-14; context: South African presidency","output":"Nelson Mandela served as the first black President of South Africa from May 10, 1994, to June 14, 1999."}
+{"input":"entity: Emperor Franz Joseph I; start: 1848-12-02; end: 1916-11-21; context: Austrian empire","output":"Franz Joseph I ruled the Austrian Empire (later Austria-Hungary) from December 2, 1848, to November 21, 1916."}
+{"input":"entity: Queen Elizabeth I; start: 1558-11-17; end: 1603-03-24; context: English monarchy","output":"Queen Elizabeth I reigned over England from November 17, 1558, until March 24, 1603."}
+{"input":"entity: Henry VIII; start: 1509-04-21; end: 1547-01-28; context: English monarchy","output":"Henry VIII ruled England from April 21, 1509, until his death on January 28, 1547."}
+{"input":"entity: Charlemagne; event: coronation as Emperor; date: 0800-12-25; context: Holy Roman Empire","output":"Charlemagne was crowned Holy Roman Emperor on December 25, 800."}
+{"input":"entity: William the Conqueror; event: Battle of Hastings; date: 1066-10-14; context: Norman conquest","output":"William the Conqueror defeated King Harold II at the Battle of Hastings on October 14, 1066, claiming the English throne."}
+{"input":"entity: Cleopatra VII; end: -0030-08-12; context: Egyptian monarchy","output":"Cleopatra VII, the last active ruler of the Ptolemaic Kingdom of Egypt, died on August 12, 30 BC."}
+{"input":"entity: Alexander the Great; start: -0336-10-01; end: -0323-06-11; context: Macedonian empire","output":"Alexander the Great reigned as King of Macedonia from October 336 BC until June 11, 323 BC."}
+{"input":"entity: Genghis Khan; event: proclaimed Khan; date: 1206-01-01; context: Mongol empire","output":"Genghis Khan was proclaimed ruler of all Mongols in 1206, founding the Mongol Empire."}
+{"input":"entity: Julius Caesar; event: assassination; date: -0044-03-15; context: Roman republic","output":"Julius Caesar was assassinated on the Ides of March, March 15, 44 BC."}
+{"input":"entity: King John; event: signing of Magna Carta; date: 1215-06-15; context: English history","output":"King John sealed the Magna Carta on June 15, 1215, limiting royal power."}
+{"input":"entity: Tsar Peter the Great; start: 1682-05-07; end: 1725-02-08; context: Russian empire","output":"Peter the Great ruled Russia from May 7, 1682, until February 8, 1725."}
+{"input":"entity: Catherine the Great; start: 1762-07-09; end: 1796-11-17; context: Russian empire","output":"Catherine the Great reigned as Empress of Russia from July 9, 1762, to November 17, 1796."}
+{"input":"entity: Emperor Haile Selassie; start: 1930-11-02; end: 1974-09-12; context: Ethiopian empire","output":"Haile Selassie ruled Ethiopia from November 2, 1930, until the Marxist coup on September 12, 1974."}
+{"input":"entity: Idi Amin; start: 1971-01-25; end: 1979-04-11; context: Ugandan dictatorship","output":"Idi Amin seized power in Uganda on January 25, 1971, and ruled until April 11, 1979."}
+{"input":"entity: Saddam Hussein; start: 1979-07-16; end: 2003-04-09; context: Iraqi presidency","output":"Saddam Hussein served as President of Iraq from July 16, 1979, to April 9, 2003."}
+{"input":"entity: Muammar Gaddafi; start: 1969-09-01; end: 2011-10-20; context: Libyan leadership","output":"Muammar Gaddafi ruled Libya from the September 1, 1969 coup until his death on October 20, 2011."}
+{"input":"entity: Robert Mugabe; start: 1987-12-31; end: 2017-11-21; context: Zimbabwe presidency","output":"Robert Mugabe served as President of Zimbabwe from December 31, 1987, until his resignation on November 21, 2017."}
+{"input":"entity: Angela Merkel; start: 2005-11-22; end: 2021-12-08; context: German chancellery","output":"Angela Merkel served as Chancellor of Germany from November 22, 2005, to December 8, 2021."}
+{"input":"entity: Margaret Thatcher; start: 1979-05-04; end: 1990-11-28; context: UK premiership","output":"Margaret Thatcher was Prime Minister of the UK from May 4, 1979, until November 28, 1990."}
+{"input":"entity: Indira Gandhi; start: 1966-01-24; end: 1977-03-24; context: Indian premiership","output":"Indira Gandhi served her first term as Prime Minister of India from January 24, 1966, to March 24, 1977."}
+{"input":"entity: Vladimir Putin; start: 2000-05-07; end: 2008-05-07; context: Russian presidency","output":"Vladimir Putin served his first two terms as President of Russia from May 7, 2000, to May 7, 2008."}
+{"input":"entity: Abraham Lincoln; start: 1861-03-04; end: 1865-04-15; context: US presidency","output":"Abraham Lincoln served as US President from March 4, 1861, until his assassination on April 15, 1865."}
+{"input":"entity: John F. Kennedy; start: 1961-01-20; end: 1963-11-22; context: US presidency","output":"John F. Kennedy was US President from January 20, 1961, until his assassination on November 22, 1963."}
+{"input":"entity: Emperor Akihito; start: 1989-01-07; end: 2019-04-30; context: Japanese monarchy","output":"Emperor Akihito reigned from January 7, 1989, until his abdication on April 30, 2019."}
+{"input":"entity: King Charles III; event: accession; date: 2022-09-08; context: British monarchy","output":"King Charles III acceded to the British throne on September 8, 2022, immediately following the death of Queen Elizabeth II."}
+{"input":"entity: Edward VIII; start: 1936-01-20; end: 1936-12-11; context: British monarchy","output":"Edward VIII reigned for less than a year, from January 20, 1936, to December 11, 1936."}
+{"input":"entity: King Louis XVI; event: execution; date: 1793-01-21; context: French revolution","output":"King Louis XVI was executed by guillotine on January 21, 1793, during the French Revolution."}
+{"input":"entity: Shah Mohammad Reza Pahlavi; start: 1941-09-16; end: 1979-02-11; context: Iranian monarchy","output":"Mohammad Reza Pahlavi was the Shah of Iran from September 16, 1941, until the revolution on February 11, 1979."}
+{"input":"entity: Ayatollah Khomeini; start: 1979-12-03; end: 1989-06-03; context: Iranian leadership","output":"Ayatollah Khomeini served as Supreme Leader of Iran from December 3, 1979, until June 3, 1989."}
+{"input":"entity: Kim Il-sung; start: 1948-09-09; end: 1994-07-08; context: North Korean leadership","output":"Kim Il-sung led North Korea from its founding on September 9, 1948, until his death on July 8, 1994."}
+{"input":"entity: Kim Jong-il; start: 1994-07-08; end: 2011-12-17; context: North Korean leadership","output":"Kim Jong-il ruled North Korea from July 8, 1994, until his death on December 17, 2011."}
+{"input":"entity: Mustafa Kemal Atatürk; start: 1923-10-29; end: 1938-11-10; context: Turkish presidency","output":"Mustafa Kemal Atatürk served as the first President of Turkey from October 29, 1923, to November 10, 1938."}
+{"input":"entity: Mikhail Gorbachev; start: 1985-03-11; end: 1991-12-25; context: Soviet leadership","output":"Mikhail Gorbachev led the Soviet Union from March 11, 1985, until his resignation on December 25, 1991."}
+{"input":"entity: Boris Yeltsin; start: 1991-07-10; end: 1999-12-31; context: Russian presidency","output":"Boris Yeltsin served as the first President of the Russian Federation from July 10, 1991, to December 31, 1999."}
+{"input":"entity: Winston Churchill; start: 1940-05-10; end: 1945-07-26; context: UK premiership","output":"Winston Churchill served his first term as Prime Minister from May 10, 1940, to July 26, 1945."}
+{"input":"entity: Winston Churchill; start: 1951-10-26; end: 1955-04-05; context: UK premiership","output":"Winston Churchill served his second term as Prime Minister from October 26, 1951, to April 5, 1955."}
+{"input":"entity: Harry S. Truman; start: 1945-04-12; end: 1953-01-20; context: US presidency","output":"Harry S. Truman assumed the US presidency on April 12, 1945, and served until January 20, 1953."}
+{"input":"entity: Dwight D. Eisenhower; start: 1953-01-20; end: 1961-01-20; context: US presidency","output":"Dwight D. Eisenhower was US President from January 20, 1953, to January 20, 1961."}
+{"input":"entity: Richard Nixon; start: 1969-01-20; end: 1974-08-09; context: US presidency","output":"Richard Nixon served as President from January 20, 1969, until his resignation on August 9, 1974."}
+{"input":"entity: Ronald Reagan; start: 1981-01-20; end: 1989-01-20; context: US presidency","output":"Ronald Reagan served two terms as US President from January 20, 1981, to January 20, 1989."}
+{"input":"entity: Bill Clinton; start: 1993-01-20; end: 2001-01-20; context: US presidency","output":"Bill Clinton was US President from January 20, 1993, to January 20, 2001."}
+{"input":"entity: George W. Bush; start: 2001-01-20; end: 2009-01-20; context: US presidency","output":"George W. Bush served as US President from January 20, 2001, to January 20, 2009."}
+{"input":"entity: Barack Obama; start: 2009-01-20; end: 2017-01-20; context: US presidency","output":"Barack Obama served as US President from January 20, 2009, to January 20, 2017."}
+{"input":"entity: Donald Trump; start: 2017-01-20; end: 2021-01-20; context: US presidency","output":"Donald Trump served his first term as US President from January 20, 2017, to January 20, 2021."}
+{"input":"entity: Joe Biden; start: 2021-01-20; end: 2025-01-20; context: US presidency","output":"Joe Biden served as US President from January 20, 2021, to January 20, 2025."}
+{"input":"entity: Donald Trump; start: 2025-01-20; context: US presidency","output":"Donald Trump began his second term as US President on January 20, 2025."}
+{"input":"entity: King George VI; start: 1936-12-11; end: 1952-02-06; context: British monarchy","output":"King George VI reigned from December 11, 1936, until his death on February 6, 1952."}
+{"input":"entity: King George V; start: 1910-05-06; end: 1936-01-20; context: British monarchy","output":"King George V ruled the United Kingdom from May 6, 1910, to January 20, 1936."}
+{"input":"entity: King Edward VII; start: 1901-01-22; end: 1910-05-06; context: British monarchy","output":"Edward VII reigned from January 22, 1901, until his death on May 6, 1910."}
+{"input":"entity: King William IV; start: 1830-06-26; end: 1837-06-20; context: British monarchy","output":"William IV was King of the United Kingdom from June 26, 1830, to June 20, 1837."}
+{"input":"entity: King George IV; start: 1820-01-29; end: 1830-06-26; context: British monarchy","output":"George IV reigned from January 29, 1820, until June 26, 1830."}
+{"input":"entity: King George III; start: 1760-10-25; end: 1820-01-29; context: British monarchy","output":"George III reigned for nearly 60 years, from October 25, 1760, to January 29, 1820."}
+{"input":"entity: Emperor Puyi; start: 1908-12-02; end: 1912-02-12; context: Chinese monarchy","output":"Puyi, the last Emperor of China, reigned from December 2, 1908, until his abdication on February 12, 1912."}
+{"input":"entity: Emperor Qianlong; start: 1735-10-08; end: 1796-02-09; context: Qing dynasty","output":"The Qianlong Emperor ruled China from October 8, 1735, until his retirement on February 9, 1796."}
+{"input":"entity: Emperor Kangxi; start: 1661-02-05; end: 1722-12-20; context: Qing dynasty","output":"The Kangxi Emperor had one of the longest reigns in Chinese history, from February 5, 1661, to December 20, 1722."}
+{"input":"entity: Empress Wu Zetian; start: 0690-10-16; end: 0705-02-21; context: Chinese empire","output":"Wu Zetian, the only female emperor of China, ruled from October 16, 690, to February 21, 705."}
+{"input":"entity: Kublai Khan; start: 1260-05-05; end: 1294-02-18; context: Yuan dynasty","output":"Kublai Khan reigned as the Great Khan and Emperor of the Yuan Dynasty from May 5, 1260, to February 18, 1294."}
+{"input":"entity: Sultan Mehmed II; event: conquest of Constantinople; date: 1453-05-29; context: Ottoman history","output":"Mehmed II conquered Constantinople on May 29, 1453, ending the Byzantine Empire."}
+{"input":"entity: Sultan Selim I; start: 1512-04-24; end: 1520-09-22; context: Ottoman empire","output":"Selim I ruled the Ottoman Empire from April 24, 1512, to September 22, 1520."}
+{"input":"entity: Sultan Abdul Hamid II; start: 1876-08-31; end: 1909-04-27; context: Ottoman empire","output":"Abdul Hamid II reigned from August 31, 1876, until his deposition on April 27, 1909."}
+{"input":"entity: Osman I; start: 1299-01-01; end: 1326-08-01; context: Ottoman foundation","output":"Osman I, founder of the Ottoman Empire, reigned from approximately 1299 to 1326."}
+{"input":"entity: King Philip II; start: 1556-01-16; end: 1598-09-13; context: Spanish empire","output":"Philip II ruled Spain at the height of its power from January 16, 1556, to September 13, 1598."}
+{"input":"entity: Isabella I of Castile; start: 1474-12-11; end: 1504-11-26; context: Spanish monarchy","output":"Isabella I reigned over Castile from December 11, 1474, until her death on November 26, 1504."}
+{"input":"entity: Ferdinand II of Aragon; start: 1479-01-20; end: 1516-01-23; context: Spanish monarchy","output":"Ferdinand II ruled Aragon from January 20, 1479, to January 23, 1516."}
+{"input":"entity: Emperor Charles V; start: 1519-06-28; end: 1556-08-27; context: Holy Roman Empire","output":"Charles V reigned as Holy Roman Emperor from June 28, 1519, until his abdication on August 27, 1556."}
+{"input":"entity: Francis I; start: 1515-01-01; end: 1547-03-31; context: French monarchy","output":"Francis I ruled France from January 1, 1515, until March 31, 1547."}
+{"input":"entity: Henri IV; start: 1589-08-02; end: 1610-05-14; context: French monarchy","output":"Henri IV was King of France from August 2, 1589, until his assassination on May 14, 1610."}
+{"input":"entity: Napoleon III; start: 1852-12-02; end: 1870-09-04; context: French empire","output":"Napoleon III ruled as Emperor of the French from December 2, 1852, to September 4, 1870."}
+{"input":"entity: Charles de Gaulle; start: 1959-01-08; end: 1969-04-28; context: French presidency","output":"Charles de Gaulle served as President of France from January 8, 1959, to April 28, 1969."}
+{"input":"entity: François Mitterrand; start: 1981-05-21; end: 1995-05-17; context: French presidency","output":"François Mitterrand was President of France from May 21, 1981, to May 17, 1995."}
+{"input":"entity: Jacques Chirac; start: 1995-05-17; end: 2007-05-16; context: French presidency","output":"Jacques Chirac served as French President from May 17, 1995, to May 16, 2007."}
+{"input":"entity: Emmanuel Macron; start: 2017-05-14; context: French presidency","output":"Emmanuel Macron assumed the French presidency on May 14, 2017."}
+{"input":"entity: Ivan the Terrible; start: 1547-01-16; end: 1584-03-28; context: Russian tsardom","output":"Ivan the Terrible reigned as the first Tsar of Russia from January 16, 1547, to March 28, 1584."}
+{"input":"entity: Alexander II; event: assassination; date: 1881-03-13; context: Russian empire","output":"Tsar Alexander II was assassinated by revolutionaries on March 13, 1881."}
+{"input":"entity: Vladimir Lenin; start: 1917-11-08; end: 1924-01-21; context: Soviet leadership","output":"Vladimir Lenin led Soviet Russia from the revolution on November 8, 1917, until his death on January 21, 1924."}
+{"input":"entity: Nikita Khrushchev; start: 1953-09-07; end: 1964-10-14; context: Soviet leadership","output":"Nikita Khrushchev served as First Secretary of the Communist Party from September 7, 1953, to October 14, 1964."}
+{"input":"entity: Leonid Brezhnev; start: 1964-10-14; end: 1982-11-10; context: Soviet leadership","output":"Leonid Brezhnev led the Soviet Union from October 14, 1964, until his death on November 10, 1982."}
+{"input":"entity: Nero; start: 0054-10-13; end: 0068-06-09; context: Roman empire","output":"Nero was Roman Emperor from October 13, 54 AD, until his suicide on June 9, 68 AD."}
+{"input":"entity: Trajan; start: 0098-01-27; end: 0117-08-08; context: Roman empire","output":"Trajan reigned as Roman Emperor from January 27, 98 AD, to August 8, 117 AD."}
+{"input":"entity: Hadrian; start: 0117-08-11; end: 0138-07-10; context: Roman empire","output":"Hadrian ruled the Roman Empire from August 11, 117 AD, to July 10, 138 AD."}
+{"input":"entity: Marcus Aurelius; start: 0161-03-07; end: 0180-03-17; context: Roman empire","output":"Marcus Aurelius was Roman Emperor from March 7, 161 AD, until March 17, 180 AD."}
+{"input":"entity: Constantine the Great; start: 0306-07-25; end: 0337-05-22; context: Roman empire","output":"Constantine the Great ruled from July 25, 306 AD, to May 22, 337 AD, legalizing Christianity."}
+{"input":"entity: Justinian I; start: 0527-04-01; end: 0565-11-14; context: Byzantine empire","output":"Justinian I reigned over the Byzantine Empire from April 1, 527 AD, to November 14, 565 AD."}
+{"input":"entity: Caligula; start: 0037-03-16; end: 0041-01-24; context: Roman empire","output":"Caligula was Roman Emperor from March 16, 37 AD, until his assassination on January 24, 41 AD."}
+{"input":"entity: Diocletian; start: 0284-11-20; end: 0305-05-01; context: Roman empire","output":"Diocletian ruled from November 20, 284 AD, until his abdication on May 1, 305 AD."}
+{"input":"entity: Romulus Augustulus; end: 0476-09-04; context: Fall of Rome","output":"Romulus Augustulus, the last Western Roman Emperor, was deposed on September 4, 476 AD."}
+{"input":"entity: Queen Beatrix; start: 1980-04-30; end: 2013-04-30; context: Dutch monarchy","output":"Queen Beatrix reigned over the Netherlands from April 30, 1980, to April 30, 2013."}
+{"input":"entity: King Willem-Alexander; start: 2013-04-30; context: Dutch monarchy","output":"King Willem-Alexander ascended to the Dutch throne on April 30, 2013."}
+{"input":"entity: King Juan Carlos I; start: 1975-11-22; end: 2014-06-19; context: Spanish monarchy","output":"Juan Carlos I reigned as King of Spain from November 22, 1975, to June 19, 2014."}
+{"input":"entity: King Felipe VI; start: 2014-06-19; context: Spanish monarchy","output":"Felipe VI became King of Spain on June 19, 2014, following his father's abdication."}
+{"input":"entity: Margrethe II; start: 1972-01-14; end: 2024-01-14; context: Danish monarchy","output":"Margrethe II reigned as Queen of Denmark from January 14, 1972, until her abdication on January 14, 2024."}
+{"input":"entity: King Carl XVI Gustaf; start: 1973-09-15; context: Swedish monarchy","output":"Carl XVI Gustaf ascended to the Swedish throne on September 15, 1973."}
+{"input":"entity: King Harald V; start: 1991-01-17; context: Norwegian monarchy","output":"Harald V became King of Norway on January 17, 1991."}
+{"input":"entity: Pope John Paul II; start: 1978-10-16; end: 2005-04-02; context: Papacy","output":"Pope John Paul II served as head of the Catholic Church from October 16, 1978, to April 2, 2005."}
+{"input":"entity: Pope Benedict XVI; start: 2005-04-19; end: 2013-02-28; context: Papacy","output":"Pope Benedict XVI reigned from April 19, 2005, until his resignation on February 28, 2013."}
+{"input":"entity: Pope Francis; start: 2013-03-13; context: Papacy","output":"Pope Francis was elected as the head of the Catholic Church on March 13, 2013."}
+{"input":"entity: Saladin; start: 1174-05-15; end: 1193-03-04; context: Ayyubid dynasty","output":"Saladin reigned as Sultan of Egypt and Syria from 1174 until his death on March 4, 1193."}
+{"input":"entity: Ramses II; start: -1279-05-31; end: -1213-07-01; context: Egyptian pharaohs","output":"Ramses II, the Great, ruled Egypt from 1279 BC until 1213 BC."}
+{"input":"entity: Tutankhamun; start: -1332-01-01; end: -1323-01-01; context: Egyptian pharaohs","output":"Tutankhamun reigned as Pharaoh from approximately 1332 BC to 1323 BC."}
+{"input":"entity: Hatshepsut; start: -1479-01-01; end: -1458-01-01; context: Egyptian pharaohs","output":"Hatshepsut ruled as Pharaoh of Egypt from 1479 BC to 1458 BC."}
+{"input":"entity: Cyrus the Great; start: -0559-01-01; end: -0530-12-04; context: Persian empire","output":"Cyrus the Great founded the Achaemenid Empire, ruling from 559 BC to 530 BC."}
+{"input":"entity: Darius I; start: -0522-09-29; end: -0486-10-01; context: Persian empire","output":"Darius I, the Great, ruled the Persian Empire from September 522 BC to October 486 BC."}
+{"input":"entity: Xerxes I; start: -0486-10-01; end: -0465-08-01; context: Persian empire","output":"Xerxes I reigned over Persia from October 486 BC until August 465 BC."}
+{"input":"entity: Hammurabi; start: -1792-01-01; end: -1750-01-01; context: Babylonian empire","output":"Hammurabi ruled Babylon from 1792 BC to 1750 BC, famous for his legal code."}
+{"input":"entity: Nebuchadnezzar II; start: -0605-01-01; end: -0562-01-01; context: Babylonian empire","output":"Nebuchadnezzar II reigned as King of Babylon from 605 BC to 562 BC."}
+{"input":"entity: Ashoka the Great; start: -0268-01-01; end: -0232-01-01; context: Mauryan empire","output":"Ashoka ruled the Mauryan Empire in India from 268 BC to 232 BC."}
+{"input":"entity: Akbar the Great; start: 1556-02-14; end: 1605-10-27; context: Mughal empire","output":"Akbar the Great reigned over the Mughal Empire from February 14, 1556, to October 27, 1605."}
+{"input":"entity: Shah Jahan; start: 1628-01-19; end: 1658-07-31; context: Mughal empire","output":"Shah Jahan ruled the Mughal Empire from January 19, 1628, to July 31, 1658."}
+{"input":"entity: Aurangzeb; start: 1658-07-31; end: 1707-03-03; context: Mughal empire","output":"Aurangzeb was the Mughal Emperor from July 31, 1658, until March 3, 1707."}
+{"input":"entity: Shivaji Maharaj; start: 1674-06-06; end: 1680-04-03; context: Maratha empire","output":"Shivaji Maharaj was crowned Chhatrapati of the Maratha Empire on June 6, 1674, and ruled until April 3, 1680."}
+{"input":"entity: Pol Pot; start: 1975-04-17; end: 1979-01-07; context: Cambodian genocide","output":"Pol Pot led the Khmer Rouge regime in Cambodia from April 17, 1975, to January 7, 1979."}
+{"input":"entity: Ho Chi Minh; start: 1945-09-02; end: 1969-09-02; context: Vietnamese leadership","output":"Ho Chi Minh led North Vietnam from September 2, 1945, until his death on September 2, 1969."}
+{"input":"entity: Suharto; start: 1967-03-12; end: 1998-05-21; context: Indonesian presidency","output":"Suharto served as President of Indonesia from March 12, 1967, until his resignation on May 21, 1998."}
+{"input":"entity: Sukarno; start: 1945-08-18; end: 1967-03-12; context: Indonesian presidency","output":"Sukarno was the first President of Indonesia, serving from August 18, 1945, to March 12, 1967."}
+{"input":"entity: Lee Kuan Yew; start: 1959-06-05; end: 1990-11-28; context: Singapore premiership","output":"Lee Kuan Yew served as the first Prime Minister of Singapore from June 5, 1959, to November 28, 1990."}
+{"input":"entity: Mahathir Mohamad; start: 1981-07-16; end: 2003-10-31; context: Malaysian premiership","output":"Mahathir Mohamad served his first term as Prime Minister of Malaysia from July 16, 1981, to October 31, 2003."}
+{"input":"entity: Ferdinand Marcos; start: 1965-12-30; end: 1986-02-25; context: Philippines presidency","output":"Ferdinand Marcos ruled the Philippines from December 30, 1965, until the People Power Revolution on February 25, 1986."}
+{"input":"entity: Corazon Aquino; start: 1986-02-25; end: 1992-06-30; context: Philippines presidency","output":"Corazon Aquino served as President of the Philippines from February 25, 1986, to June 30, 1992."}
+{"input":"entity: Park Chung-hee; start: 1963-12-17; end: 1979-10-26; context: South Korean presidency","output":"Park Chung-hee led South Korea from December 17, 1963, until his assassination on October 26, 1979."}
+{"input":"entity: Syngman Rhee; start: 1948-07-24; end: 1960-04-26; context: South Korean presidency","output":"Syngman Rhee was the first President of South Korea, serving from July 24, 1948, to April 26, 1960."}
+{"input":"entity: Chiang Kai-shek; start: 1928-10-10; end: 1975-04-05; context: ROC leadership","output":"Chiang Kai-shek led the Republic of China from October 10, 1928, until his death on April 5, 1975."}
+{"input":"entity: Deng Xiaoping; start: 1978-12-22; end: 1989-11-09; context: Chinese leadership","output":"Deng Xiaoping was the paramount leader of China from December 1978 until his retirement in November 1989."}
+{"input":"entity: Xi Jinping; start: 2013-03-14; context: Chinese leadership","output":"Xi Jinping assumed the office of President of the People's Republic of China on March 14, 2013."}
+{"input":"entity: Jawaharlal Nehru; start: 1947-08-15; end: 1964-05-27; context: Indian premiership","output":"Jawaharlal Nehru was the first Prime Minister of India, serving from August 15, 1947, to May 27, 1964."}
+{"input":"entity: Narendra Modi; start: 2014-05-26; context: Indian premiership","output":"Narendra Modi assumed office as Prime Minister of India on May 26, 2014."}
+{"input":"entity: Benazir Bhutto; start: 1988-12-02; end: 1990-08-06; context: Pakistani premiership","output":"Benazir Bhutto served her first term as Prime Minister of Pakistan from December 2, 1988, to August 6, 1990."}
+{"input":"entity: Pervez Musharraf; start: 1999-10-12; end: 2008-08-18; context: Pakistani leadership","output":"Pervez Musharraf ruled Pakistan from the coup on October 12, 1999, until his resignation on August 18, 2008."}
+{"input":"entity: Sheikh Mujibur Rahman; start: 1971-04-17; end: 1975-08-15; context: Bangladesh leadership","output":"Sheikh Mujibur Rahman led Bangladesh from its independence in April 1971 until his assassination in August 1975."}
+{"input":"entity: Gamal Abdel Nasser; start: 1956-06-23; end: 1970-09-28; context: Egyptian presidency","output":"Gamal Abdel Nasser served as President of Egypt from June 23, 1956, until September 28, 1970."}
+{"input":"entity: Anwar Sadat; start: 1970-10-15; end: 1981-10-06; context: Egyptian presidency","output":"Anwar Sadat was President of Egypt from October 15, 1970, until his assassination on October 6, 1981."}
+{"input":"entity: Hosni Mubarak; start: 1981-10-14; end: 2011-02-11; context: Egyptian presidency","output":"Hosni Mubarak ruled Egypt from October 14, 1981, until the revolution on February 11, 2011."}
+{"input":"entity: Yasser Arafat; start: 1994-07-05; end: 2004-11-11; context: Palestinian leadership","output":"Yasser Arafat led the Palestinian Authority from July 5, 1994, until his death on November 11, 2004."}
+{"input":"entity: King Hussein; start: 1952-08-11; end: 1999-02-07; context: Jordanian monarchy","output":"King Hussein ruled Jordan from August 11, 1952, until February 7, 1999."}
+{"input":"entity: King Abdullah II; start: 1999-02-07; context: Jordanian monarchy","output":"Abdullah II became King of Jordan on February 7, 1999."}
+{"input":"entity: King Salman; start: 2015-01-23; context: Saudi monarchy","output":"Salman bin Abdulaziz became King of Saudi Arabia on January 23, 2015."}
+{"input":"entity: King Abdullah; start: 2005-08-01; end: 2015-01-23; context: Saudi monarchy","output":"Abdullah bin Abdulaziz ruled Saudi Arabia from August 1, 2005, to January 23, 2015."}
+{"input":"entity: King Fahd; start: 1982-06-13; end: 2005-08-01; context: Saudi monarchy","output":"Fahd bin Abdulaziz was King of Saudi Arabia from June 13, 1982, to August 1, 2005."}
+{"input":"entity: Sheikh Zayed; start: 1971-12-02; end: 2004-11-02; context: UAE presidency","output":"Sheikh Zayed bin Sultan Al Nahyan was the first President of the UAE from December 2, 1971, to November 2, 2004."}
+{"input":"entity: Sultan Qaboos; start: 1970-07-23; end: 2020-01-10; context: Omani monarchy","output":"Qaboos bin Said ruled Oman from July 23, 1970, until his death on January 10, 2020."}
+{"input":"entity: Bashar al-Assad; start: 2000-07-17; context: Syrian presidency","output":"Bashar al-Assad has served as President of Syria since July 17, 2000."}
+{"input":"entity: Hafez al-Assad; start: 1971-03-12; end: 2000-06-10; context: Syrian presidency","output":"Hafez al-Assad ruled Syria from March 12, 1971, until his death on June 10, 2000."}
+{"input":"entity: Recep Tayyip Erdoğan; start: 2014-08-28; context: Turkish presidency","output":"Recep Tayyip Erdoğan became President of Turkey on August 28, 2014, after serving as Prime Minister."}
+{"input":"entity: Konrad Adenauer; start: 1949-09-15; end: 1963-10-16; context: German chancellery","output":"Konrad Adenauer was the first Chancellor of West Germany, serving from September 15, 1949, to October 16, 1963."}
+{"input":"entity: Helmut Kohl; start: 1982-10-01; end: 1998-10-27; context: German chancellery","output":"Helmut Kohl served as Chancellor of Germany from October 1, 1982, to October 27, 1998, overseeing reunification."}
+{"input":"entity: Gerhard Schröder; start: 1998-10-27; end: 2005-11-22; context: German chancellery","output":"Gerhard Schröder was Chancellor of Germany from October 27, 1998, to November 22, 2005."}
+{"input":"entity: Tony Blair; start: 1997-05-02; end: 2007-06-27; context: UK premiership","output":"Tony Blair served as UK Prime Minister from May 2, 1997, to June 27, 2007."}
+{"input":"entity: David Cameron; start: 2010-05-11; end: 2016-07-13; context: UK premiership","output":"David Cameron was UK Prime Minister from May 11, 2010, until his resignation on July 13, 2016."}
+{"input":"entity: Boris Johnson; start: 2019-07-24; end: 2022-09-06; context: UK premiership","output":"Boris Johnson served as UK Prime Minister from July 24, 2019, to September 6, 2022."}
+{"input":"entity: Rishi Sunak; start: 2022-10-25; end: 2024-07-05; context: UK premiership","output":"Rishi Sunak served as UK Prime Minister from October 25, 2022, to July 5, 2024."}
+{"input":"entity: Keir Starmer; start: 2024-07-05; context: UK premiership","output":"Keir Starmer assumed office as UK Prime Minister on July 5, 2024."}
+{"input":"entity: Pierre Trudeau; start: 1968-04-20; end: 1979-06-04; context: Canadian premiership","output":"Pierre Trudeau served his first term as Prime Minister of Canada from April 20, 1968, to June 4, 1979."}
+{"input":"entity: Justin Trudeau; start: 2015-11-04; context: Canadian premiership","output":"Justin Trudeau became Prime Minister of Canada on November 4, 2015."}
+{"input":"entity: Stephen Harper; start: 2006-02-06; end: 2015-11-04; context: Canadian premiership","output":"Stephen Harper served as Prime Minister of Canada from February 6, 2006, to November 4, 2015."}
+{"input":"entity: Robert Menzies; start: 1949-12-19; end: 1966-01-26; context: Australian premiership","output":"Robert Menzies served his second term as Australia's longest-serving Prime Minister from 1949 to 1966."}
+{"input":"entity: John Howard; start: 1996-03-11; end: 2007-12-03; context: Australian premiership","output":"John Howard was Prime Minister of Australia from March 11, 1996, to December 3, 2007."}
+{"input":"entity: Jacinda Ardern; start: 2017-10-26; end: 2023-01-25; context: New Zealand premiership","output":"Jacinda Ardern served as Prime Minister of New Zealand from October 26, 2017, to January 25, 2023."}
+{"input":"entity: Helen Clark; start: 1999-12-10; end: 2008-11-19; context: New Zealand premiership","output":"Helen Clark was Prime Minister of New Zealand from December 10, 1999, to November 19, 2008."}
+{"input":"entity: Lula da Silva; start: 2003-01-01; end: 2010-12-31; context: Brazilian presidency","output":"Lula da Silva served his first two terms as President of Brazil from January 1, 2003, to December 31, 2010."}
+{"input":"entity: Jair Bolsonaro; start: 2019-01-01; end: 2022-12-31; context: Brazilian presidency","output":"Jair Bolsonaro served as President of Brazil from January 1, 2019, to December 31, 2022."}
+{"input":"entity: Hugo Chávez; start: 1999-02-02; end: 2013-03-05; context: Venezuelan presidency","output":"Hugo Chávez led Venezuela from February 2, 1999, until his death on March 5, 2013."}
+{"input":"entity: Nicolás Maduro; start: 2013-03-05; context: Venezuelan presidency","output":"Nicolás Maduro assumed the presidency of Venezuela on March 5, 2013."}
+{"input":"entity: Augusto Pinochet; start: 1973-09-11; end: 1990-03-11; context: Chilean dictatorship","output":"Augusto Pinochet ruled Chile following the 1973 coup until the transition to democracy in 1990."}
+{"input":"entity: Salvador Allende; start: 1970-11-03; end: 1973-09-11; context: Chilean presidency","output":"Salvador Allende served as President of Chile from November 3, 1970, until the coup on September 11, 1973."}
+{"input":"entity: Eva Perón; start: 1946-06-04; end: 1952-07-26; context: Argentine politics","output":"Eva Perón served as First Lady of Argentina from June 1946 until her death in July 1952."}
+{"input":"entity: Juan Perón; start: 1946-06-04; end: 1955-09-21; context: Argentine presidency","output":"Juan Perón served his first presidential terms from June 4, 1946, until his ouster on September 21, 1955."}
+{"input":"entity: Simon Bolivar; start: 1819-12-17; end: 1830-05-04; context: Gran Colombia presidency","output":"Simon Bolivar, El Libertador, served as President of Gran Colombia from 1819 to 1830."}
+{"input":"entity: Porfirio Díaz; start: 1884-12-01; end: 1911-05-25; context: Mexican presidency","output":"Porfirio Díaz ruled Mexico continuously from 1884 until the revolution forced his resignation in 1911."}
+{"input":"entity: Benito Juárez; start: 1858-01-15; end: 1872-07-18; context: Mexican presidency","output":"Benito Juárez served as President of Mexico from 1858 until his death in 1872."}
+{"input":"entity: Emperor Pedro II; start: 1831-04-07; end: 1889-11-15; context: Brazilian empire","output":"Pedro II reigned as Emperor of Brazil from April 7, 1831, until the proclamation of the republic on November 15, 1889."}
+{"input":"entity: Emperor Pedro I; start: 1822-10-12; end: 1831-04-07; context: Brazilian empire","output":"Pedro I founded the Empire of Brazil and reigned from October 12, 1822, to April 7, 1831."}
+{"input":"entity: Toussaint Louverture; start: 1797-05-01; end: 1802-05-06; context: Haitian revolution","output":"Toussaint Louverture led the Haitian Revolution and ruled Saint-Domingue until his capture in 1802."}
+{"input":"entity: Jean-Jacques Dessalines; start: 1804-01-01; end: 1806-10-17; context: Haitian empire","output":"Jean-Jacques Dessalines ruled independent Haiti as Emperor Jacques I from 1804 to 1806."}
+{"input":"entity: Leopold II; start: 1865-12-17; end: 1909-12-17; context: Belgian monarchy","output":"Leopold II was King of the Belgians from December 17, 1865, to December 17, 1909."}
+{"input":"entity: King Albert I; start: 1909-12-23; end: 1934-02-17; context: Belgian monarchy","output":"Albert I reigned over Belgium from 1909 until his death in a climbing accident in 1934."}
+{"input":"entity: Victor Emmanuel II; start: 1861-03-17; end: 1878-01-09; context: Italian monarchy","output":"Victor Emmanuel II became the first King of a united Italy on March 17, 1861, reigning until 1878."}
+{"input":"entity: Victor Emmanuel III; start: 1900-07-29; end: 1946-05-09; context: Italian monarchy","output":"Victor Emmanuel III reigned from July 29, 1900, until his abdication on May 9, 1946."}
+{"input":"entity: King Umberto II; start: 1946-05-09; end: 1946-06-12; context: Italian monarchy","output":"Umberto II, the last King of Italy, reigned for only 34 days in 1946."}
+{"input":"entity: Francisco Franco; start: 1939-04-01; end: 1975-11-20; context: Spanish dictatorship","output":"Francisco Franco ruled Spain as Caudillo from the end of the Civil War in 1939 until his death in 1975."}
+{"input":"entity: António de Oliveira Salazar; start: 1932-07-05; end: 1968-09-27; context: Portuguese dictatorship","output":"Salazar served as Prime Minister of Portugal from 1932 to 1968, establishing the Estado Novo."}
+{"input":"entity: King Manuel II; start: 1908-02-01; end: 1910-10-05; context: Portuguese monarchy","output":"Manuel II, the last King of Portugal, reigned from 1908 until the revolution in 1910."}
+{"input":"entity: King Michael I; start: 1940-09-06; end: 1947-12-30; context: Romanian monarchy","output":"Michael I reigned as King of Romania from 1940 until his forced abdication by communists in 1947."}
+{"input":"entity: King Simeon II; start: 1943-08-28; end: 1946-09-15; context: Bulgarian monarchy","output":"Simeon II was the last Tsar of Bulgaria, reigning from 1943 to 1946 as a child."}
+{"input":"entity: King Constantine II; start: 1964-03-06; end: 1973-06-01; context: Greek monarchy","output":"Constantine II, the last King of Greece, reigned from 1964 until the abolition of the monarchy in 1973."}
+{"input":"entity: Josip Broz Tito; start: 1953-01-14; end: 1980-05-04; context: Yugoslav presidency","output":"Tito served as President of Yugoslavia from January 14, 1953, until his death on May 4, 1980."}
+{"input":"entity: Slobodan Milošević; start: 1989-05-08; end: 2000-10-05; context: Serbian presidency","output":"Slobodan Milošević led Serbia from 1989 until his overthrow in October 2000."}
+{"input":"entity: Václav Havel; start: 1989-12-29; end: 2003-02-02; context: Czech presidency","output":"Václav Havel served as the last President of Czechoslovakia and first President of the Czech Republic from 1989 to 2003."}
+{"input":"entity: Lech Wałęsa; start: 1990-12-22; end: 1995-12-22; context: Polish presidency","output":"Lech Wałęsa served as the first democratically elected President of Poland from 1990 to 1995."}
+{"input":"entity: Viktor Orbán; start: 2010-05-29; context: Hungarian premiership","output":"Viktor Orbán has served as Prime Minister of Hungary since May 29, 2010."}
+{"input":"entity: Alexander Lukashenko; start: 1994-07-20; context: Belarusian presidency","output":"Alexander Lukashenko has served as the first and only President of Belarus since July 20, 1994."}
+{"input":"entity: Volodymyr Zelenskyy; start: 2019-05-20; context: Ukrainian presidency","output":"Volodymyr Zelenskyy assumed office as President of Ukraine on May 20, 2019."}
+{"input":"entity: Golda Meir; start: 1969-03-17; end: 1974-06-03; context: Israeli premiership","output":"Golda Meir served as Prime Minister of Israel from March 17, 1969, to June 3, 1974."}
+{"input":"entity: Benjamin Netanyahu; start: 2009-03-31; end: 2021-06-13; context: Israeli premiership","output":"Benjamin Netanyahu served his second term as Prime Minister from 2009 to 2021."}
+{"input":"entity: David Ben-Gurion; start: 1948-05-14; end: 1954-01-26; context: Israeli premiership","output":"David Ben-Gurion was the first Prime Minister of Israel, serving from 1948 to 1954."}
+{"input":"entity: King Farouk; start: 1936-04-28; end: 1952-07-26; context: Egyptian monarchy","output":"Farouk I was the last King of Egypt, reigning from 1936 until the revolution in 1952."}
+{"input":"entity: Colonel Nasser; event: abolition of monarchy; date: 1953-06-18; context: Egyptian revolution","output":"The Egyptian monarchy was officially abolished on June 18, 1953, establishing a republic."}
+{"input":"entity: Ayatollah Khamenei; start: 1989-06-04; context: Iranian leadership","output":"Ali Khamenei succeeded Khomeini as Supreme Leader of Iran on June 4, 1989."}
+{"input":"entity: Hassan Rouhani; start: 2013-08-03; end: 2021-08-03; context: Iranian presidency","output":"Hassan Rouhani served as President of Iran from August 3, 2013, to August 3, 2021."}
+{"input":"entity: Ebrahim Raisi; start: 2021-08-03; end: 2024-05-19; context: Iranian presidency","output":"Ebrahim Raisi served as President of Iran from 2021 until his death in a helicopter crash in 2024."}
+{"input":"entity: King Mswati III; start: 1986-04-25; context: Eswatini monarchy","output":"Mswati III has reigned as King of Eswatini (Swaziland) since April 25, 1986."}
+{"input":"entity: Sobhuza II; start: 1899-12-10; end: 1982-08-21; context: Eswatini monarchy","output":"Sobhuza II had one of the longest verifiable reigns, ruling Swaziland from 1899 to 1982."}
+{"input":"entity: Ellen Johnson Sirleaf; start: 2006-01-16; end: 2018-01-22; context: Liberian presidency","output":"Ellen Johnson Sirleaf served as Africa's first elected female head of state in Liberia from 2006 to 2018."}
+{"input":"entity: Kwame Nkrumah; start: 1960-07-01; end: 1966-02-24; context: Ghanaian presidency","output":"Kwame Nkrumah served as the first President of Ghana from 1960 until the coup in 1966."}
+{"input":"entity: Jomo Kenyatta; start: 1964-12-12; end: 1978-08-22; context: Kenyan presidency","output":"Jomo Kenyatta was the first President of Kenya, serving from 1964 until his death in 1978."}
+{"input":"entity: Julius Nyerere; start: 1964-10-29; end: 1985-11-05; context: Tanzanian presidency","output":"Julius Nyerere served as the first President of Tanzania from 1964 to 1985."}
+{"input":"entity: Paul Kagame; start: 2000-04-22; context: Rwandan presidency","output":"Paul Kagame has served as President of Rwanda since April 22, 2000."}
+{"input":"entity: Mobutu Sese Seko; start: 1965-11-24; end: 1997-05-16; context: Zaire leadership","output":"Mobutu Sese Seko ruled Zaire (DRC) from his 1965 coup until he was deposed in 1997."}
+{"input":"entity: Omar al-Bashir; start: 1989-06-30; end: 2019-04-11; context: Sudanese presidency","output":"Omar al-Bashir ruled Sudan for 30 years, from 1989 until his ouster in 2019."}
+{"input":"entity: Zine El Abidine Ben Ali; start: 1987-11-07; end: 2011-01-14; context: Tunisian presidency","output":"Ben Ali ruled Tunisia from 1987 until the Arab Spring forced him out in January 2011."}
+{"input":"entity: Abdelaziz Bouteflika; start: 1999-04-27; end: 2019-04-02; context: Algerian presidency","output":"Abdelaziz Bouteflika served as President of Algeria from 1999 until his resignation in 2019."}
+{"input":"cause: death of Queen Victoria; effect: accession of Edward VII; year: 1901; context: British succession","output":"The death of Queen Victoria in 1901 led to the accession of her son, King Edward VII."}
+{"input":"cause: abdication of Edward VIII; effect: accession of George VI; year: 1936; context: British succession","output":"Edward VIII's abdication in 1936 resulted in his brother George VI taking the throne."}
+{"input":"cause: death of Stalin; effect: rise of Khrushchev; year: 1953; context: Soviet politics","output":"Stalin's death in 1953 eventually led to Nikita Khrushchev becoming the Soviet leader."}
+{"input":"cause: assassination of JFK; effect: LBJ presidency; year: 1963; context: US succession","output":"The assassination of John F. Kennedy in 1963 made Lyndon B. Johnson the US President."}
+{"input":"cause: resignation of Nixon; effect: Ford presidency; year: 1974; context: US succession","output":"Richard Nixon's resignation in 1974 resulted in Gerald Ford assuming the presidency."}
+{"input":"cause: French Revolution; effect: fall of monarchy; year: 1792; context: French history","output":"The French Revolution led to the abolition of the monarchy in September 1792."}
+{"input":"cause: Russian Revolution; effect: end of Romanov dynasty; year: 1917; context: Russian history","output":"The 1917 Russian Revolution caused the end of the 300-year Romanov dynasty."}
+{"input":"cause: Xinhai Revolution; effect: end of Qing dynasty; year: 1912; context: Chinese history","output":"The Xinhai Revolution forced the abdication of the Qing Emperor in 1912, establishing a republic."}
+{"input":"cause: death of Mao; effect: end of Cultural Revolution; year: 1976; context: Chinese history","output":"Mao Zedong's death in 1976 marked the effective end of the Cultural Revolution."}
+{"input":"cause: Iranian Revolution; effect: fall of the Shah; year: 1979; context: Iranian history","output":"The 1979 Iranian Revolution led to the overthrow of the Shah and the establishment of an Islamic Republic."}
+{"input":"sequence: entity: Roman Republic to Empire; phase1: Caesar assassinated 44 BC; phase2: Battle of Actium 31 BC; phase3: Augustus Emperor 27 BC; context: Roman transition","output":"Following Caesar's assassination in 44 BC and the Battle of Actium in 31 BC, Augustus became Emperor in 27 BC."}
+{"input":"sequence: entity: Soviet Leaders; phase1: Lenin 1917-1924; phase2: Stalin 1924-1953; phase3: Khrushchev 1953-1964; context: USSR succession","output":"Lenin led until 1924, followed by Stalin until 1953, and then Khrushchev took power."}
+{"input":"sequence: entity: German Chancellors; phase1: Adenauer 1949-1963; phase2: Erhard 1963-1966; phase3: Kiesinger 1966-1969; context: West Germany","output":"Adenauer served until 1963, succeeded by Ludwig Erhard, and then Kurt Georg Kiesinger in 1966."}
+{"input":"sequence: entity: Recent US Presidents; phase1: Obama 2009-2017; phase2: Trump 2017-2021; phase3: Biden 2021-2025; context: US politics","output":"Obama served from 2009 to 2017, followed by Trump until 2021, and then Biden."}
+{"input":"sequence: entity: Tudor Monarchs; phase1: Henry VII 1485; phase2: Henry VIII 1509; phase3: Edward VI 1547; context: English dynasty","output":"The Tudor line began with Henry VII in 1485, continued with Henry VIII in 1509, and Edward VI in 1547."}
+{"input":"overlap: event1: Reign of Victoria 1837-1901; event2: US Civil War 1861-1865; context: 19th century history","output":"Queen Victoria's reign from 1837 to 1901 overlapped with the US Civil War of 1861-1865."}
+{"input":"overlap: event1: Reign of Elizabeth II 1952-2022; event2: Cold War 1947-1991; context: 20th century history","output":"Queen Elizabeth II's reign covered the majority of the Cold War era (1947-1991)."}
+{"input":"overlap: event1: Reign of Louis XIV 1643-1715; event2: English Civil War 1642-1651; context: European history","output":"Louis XIV's early reign in France coincided with the English Civil War of the 1640s."}
+{"input":"overlap: event1: Presidency of FDR 1933-1945; event2: Nazi Germany 1933-1945; context: WWII era","output":"Franklin Roosevelt's presidency coincided almost exactly with Hitler's rule in Germany (1933-1945)."}
+{"input":"overlap: event1: Reign of Emperor Meiji 1867-1912; event2: Scramble for Africa 1881-1914; context: global imperialism","output":"Japan's Meiji Restoration period overlapped with the European Scramble for Africa."}
+{"input":"entity: Alexander Kerensky; start: 1917-07-21; end: 1917-11-07; context: Russian provisional government","output":"Alexander Kerensky led the Russian Provisional Government for a few months in 1917 before the Bolshevik takeover."}
+{"input":"entity: Sun Yat-sen; start: 1912-01-01; end: 1912-04-01; context: ROC presidency","output":"Sun Yat-sen served briefly as the first provisional President of the Republic of China in early 1912."}
+{"input":"entity: Yuan Shikai; start: 1912-03-10; end: 1916-06-06; context: Chinese leadership","output":"Yuan Shikai ruled China from 1912 until 1916, briefly attempting to declare himself emperor."}
+{"input":"entity: King Zog I; start: 1928-09-01; end: 1939-04-07; context: Albanian monarchy","output":"Zog I reigned as King of the Albanians from 1928 until the Italian invasion in 1939."}
+{"input":"entity: Emperor Bokassa I; start: 1976-12-04; end: 1979-09-20; context: Central African Empire","output":"Jean-Bédel Bokassa ruled as Emperor of Central Africa from 1976 to 1979."}
+{"input":"entity: King Norodom Sihanouk; start: 1941-04-24; end: 1955-03-02; context: Cambodian monarchy","output":"Norodom Sihanouk reigned as King of Cambodia from 1941 to 1955 before abdicating to enter politics."}
+{"input":"entity: King Norodom Sihanouk; start: 1993-09-24; end: 2004-10-07; context: Cambodian monarchy","output":"Norodom Sihanouk returned to the throne in 1993 and reigned until his second abdication in 2004."}
+{"input":"entity: King Bhumibol; event: coronation; date: 1950-05-05; context: Thai monarchy","output":"King Bhumibol of Thailand was officially crowned on May 5, 1950."}
+{"input":"entity: King Maha Vajiralongkorn; start: 2016-10-13; context: Thai monarchy","output":"Maha Vajiralongkorn (Rama X) succeeded his father as King of Thailand on October 13, 2016."}
+{"input":"entity: Sultan Hassanal Bolkiah; start: 1967-10-04; context: Brunei monarchy","output":"Hassanal Bolkiah has reigned as Sultan of Brunei since October 4, 1967."}
+{"input":"entity: Pope Pius XII; start: 1939-03-02; end: 1958-10-09; context: Papacy","output":"Pope Pius XII led the Catholic Church during WWII, from March 1939 to October 1958."}
+{"input":"entity: Pope Paul VI; start: 1963-06-21; end: 1978-08-06; context: Papacy","output":"Pope Paul VI reigned from June 1963 until his death in August 1978."}
+{"input":"entity: Dalai Lama (14th); event: enthronement; date: 1940-02-22; context: Tibetan leadership","output":"Tenzin Gyatso was enthroned as the 14th Dalai Lama on February 22, 1940."}
+{"input":"entity: King Gyanendra; start: 2001-06-04; end: 2008-05-28; context: Nepalese monarchy","output":"Gyanendra was the last King of Nepal, reigning from 2001 until the monarchy was abolished in 2008."}
+{"input":"entity: Jigme Khesar Namgyel Wangchuck; start: 2006-12-09; context: Bhutanese monarchy","output":"Jigme Khesar Namgyel Wangchuck became King of Bhutan on December 9, 2006."}
+{"input":"entity: Kim Jong-un; start: 2011-12-17; context: North Korean leadership","output":"Kim Jong-un has led North Korea since the death of his father on December 17, 2011."}
+{"input":"entity: Park Geun-hye; start: 2013-02-25; end: 2017-03-10; context: South Korean presidency","output":"Park Geun-hye served as President of South Korea from 2013 until her impeachment in 2017."}
+{"input":"entity: Moon Jae-in; start: 2017-05-10; end: 2022-05-09; context: South Korean presidency","output":"Moon Jae-in was President of South Korea from May 10, 2017, to May 9, 2022."}
+{"input":"entity: Yoon Suk-yeol; start: 2022-05-10; context: South Korean presidency","output":"Yoon Suk-yeol assumed the South Korean presidency on May 10, 2022."}
+{"input":"entity: Shinzo Abe; start: 2012-12-26; end: 2020-09-16; context: Japanese premiership","output":"Shinzo Abe served his second and longest term as Prime Minister of Japan from 2012 to 2020."}
+{"input":"entity: Fumio Kishida; start: 2021-10-04; end: 2024-10-01; context: Japanese premiership","output":"Fumio Kishida served as Prime Minister of Japan from October 2021 to October 2024."}
+{"input":"entity: Shigeru Ishiba; start: 2024-10-01; context: Japanese premiership","output":"Shigeru Ishiba became Prime Minister of Japan on October 1, 2024."}

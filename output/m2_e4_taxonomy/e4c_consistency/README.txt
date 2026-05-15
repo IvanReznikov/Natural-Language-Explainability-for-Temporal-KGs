@@ -1,0 +1,1 @@
+Placeholder for E4c consistency model artifacts. Replace with classifier outputs and metrics.

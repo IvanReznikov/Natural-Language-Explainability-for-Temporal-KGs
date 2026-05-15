@@ -1,0 +1,44 @@
+{
+  "dataset": "data\\jsonls\\temporal_graph.jsonl",
+  "predictions": null,
+  "n_per_type": 2,
+  "seed": 1,
+  "missing_predictions": 0,
+  "aggregate_by_bucket": {
+    "point": {
+      "count": 2.0,
+      "context_relevance": 1.0,
+      "has_prediction": 1.0,
+      "relation_marker_presence": 0.0,
+      "timestamp_accuracy": 1.0,
+      "unnecessary_detail_score": 0.5
+    },
+    "interval": {
+      "count": 2.0,
+      "boundary_accuracy": 0.0,
+      "context_relevance": 1.0,
+      "duration_correctness": 0.5,
+      "has_prediction": 1.0,
+      "interval_comparison_clarity": 0.5,
+      "unnecessary_detail_score": 0.5
+    },
+    "sequence": {
+      "count": 2.0,
+      "causal_coherence": 0.0,
+      "context_relevance": 0.75,
+      "has_prediction": 1.0,
+      "sequence_marker_presence": 0.5,
+      "step_completeness": 1.0,
+      "unnecessary_detail_score": 0.5
+    },
+    "causal": {
+      "count": 2.0,
+      "alternative_cause_awareness": 0.0,
+      "causal_marker_presence": 0.0,
+      "context_relevance": 0.3333333333333333,
+      "has_prediction": 1.0,
+      "temporal_constraint_correctness": 1.0,
+      "unnecessary_detail_score": 1.0
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "overall": {
+    "n": 0,
+    "semantic_consistency_mean": null,
+    "narrative_consistency_mean": null,
+    "logical_consistency_mean": null
+  },
+  "by_style": {}
+}

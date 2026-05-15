@@ -1,0 +1,13 @@
+{
+  "n_responses": 0,
+  "n_scored": 0,
+  "overall_accuracy": null,
+  "accuracy_by_bucket": {},
+  "accuracy_by_domain": {},
+  "mean_response_time_sec": null,
+  "success_criteria": {
+    "overall_accuracy_ge_0_80": null,
+    "per_bucket_accuracy_ge_0_70": {},
+    "mean_response_time_sec_le_30": false
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "by_method": {
+    "baseline": {
+      "n": 954,
+      "latency_ms": {
+        "mean": null,
+        "p50": null,
+        "p95": null
+      },
+      "throughput_per_sec": null,
+      "tokens_out_mean": null,
+      "cost_mean": null,
+      "quality_proxy_mean": 0.629948002537101
+    }
+  },
+  "by_method_level": {
+    "baseline": {
+      "1": {
+        "n": 803,
+        "latency_ms": {
+          "mean": null,
+          "p50": null,
+          "p95": null
+        },
+        "throughput_per_sec": null,
+        "tokens_out_mean": null,
+        "cost_mean": null,
+        "quality_proxy_mean": 0.641306904663069
+      },
+      "2": {
+        "n": 151,
+        "latency_ms": {
+          "mean": null,
+          "p50": null,
+          "p95": null
+        },
+        "throughput_per_sec": null,
+        "tokens_out_mean": null,
+        "cost_mean": null,
+        "quality_proxy_mean": 0.5695427150725164
+      }
+    }
+  }
+}

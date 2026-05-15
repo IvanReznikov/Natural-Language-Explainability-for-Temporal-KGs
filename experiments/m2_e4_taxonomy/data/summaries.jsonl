@@ -1,0 +1,1445 @@
+{"id":"g001","query":"Total sales in 2023","result_struct":{"year":2023,"sales":12.3,"unit":"M USD"},"summary":"Sales in 2023 totaled 12.3 million USD."}
+{"id":"g002","query":"Users by plan, Q4 2024","result_struct":{"period":"2024-Q4","plans":{"Basic":12000,"Pro":4100,"Enterprise":320}},"summary":"In Q4 2024 there were about 12k Basic users, 4.1k Pro, and 320 Enterprise accounts."}
+{"id":"g003","query":"Revenue trend 2020-2024","result_struct":{"series":[{"year":2020,"rev":9.1},{"year":2021,"rev":10.4},{"year":2022,"rev":11.2},{"year":2023,"rev":11.9},{"year":2024,"rev":12.5}],"unit":"M"},"summary":"Revenue grew steadily from 9.1M in 2020 to 12.5M in 2024."}
+{"id":"g004","query":"Churn trend last 6 months","result_struct":{"months":["Jan","Feb","Mar","Apr","May","Jun"],"churn_pct":[3.1,3.0,3.4,3.2,2.9,3.0]},"summary":"Churn stayed near 3% over the last six months, peaking at 3.4% in March."}
+{"id":"g005","query":"Compare Q1 vs Q2 revenue 2024","result_struct":{"Q1":3.1,"Q2":3.6,"unit":"M"},"summary":"Revenue rose from 3.1M in Q1 2024 to 3.6M in Q2 2024."}
+{"id":"g006","query":"Top 5 products by margin","result_struct":{"ranked":[{"name":"Alpha","margin_pct":44},{"name":"Beta","margin_pct":41},{"name":"Gamma","margin_pct":39},{"name":"Delta","margin_pct":34},{"name":"Epsilon","margin_pct":32}]},"summary":"Alpha leads margin at 44%, with Beta and Gamma close behind at 41% and 39%."}
+{"id":"g007","query":"Anomalies in daily signups last 30d","result_struct":{"baseline":1100,"spikes":[{"date":"2024-05-12","value":2100}]},"summary":"A spike occurred on 2024-05-12 with 2.1k signups versus a 1.1k baseline."}
+{"id":"g008","query":"Average session length 2023","result_struct":{"avg_seconds":462},"summary":"Average session length in 2023 was about 7 minutes 42 seconds."}
+{"id":"g009","query":"CPC trend 2022-2024","result_struct":{"years":[2022,2023,2024],"cpc":[0.44,0.47,0.53],"currency":"USD"},"summary":"CPC rose from $0.44 in 2022 to $0.53 in 2024."}
+{"id":"g010","query":"Weekly active users, last 8 weeks","result_struct":{"wau":[11200,11400,11100,10900,10800,11000,11500,11600]},"summary":"Weekly actives hovered around 11k, ending at 11.6k in the latest week."}
+{"id":"g011","query":"Year-over-year revenue change 2024","result_struct":{"rev_2023":11.9,"rev_2024":12.8},"summary":"Revenue increased about 7–8% year over year in 2024."}
+{"id":"g012","query":"Failed payments reasons, June 2024","result_struct":{"month":"2024-06","reasons":{"Insufficient funds":48,"Expired card":22,"Processor errors":11,"Other":19}},"summary":"In June 2024, failed payments were mostly insufficient funds (48%) and expired cards (22%)."}
+{"id":"g013","query":"Return rate by region 2023","result_struct":{"year":2023,"regions":{"NA":3.2,"EU":2.4,"APAC":4.0}},"summary":"Return rates were lowest in the EU at 2.4% and highest in APAC at 4.0%."}
+{"id":"g014","query":"Inventory on hand for SKU-9","result_struct":{"sku":"SKU-9","on_hand":14},"summary":"SKU-9 currently has 14 units on hand."}
+{"id":"g015","query":"Median delivery time last quarter","result_struct":{"median_days":2.3},"summary":"Median delivery time last quarter was about 2.3 days."}
+{"id":"g016","query":"Backend timeout error","result_struct":{"error":"500 timeout hitting analytics cluster"},"summary":"The request failed with a backend timeout from the analytics cluster."}
+{"id":"g017","query":"No data for requested period","result_struct":{"data":[]},"summary":"No data was available for the requested period."}
+{"id":"g018","query":"Is CPI rising?","result_struct":{"years":[2023,2024],"cpi":[2.2,2.5]},"summary":"CPI increased from 2.2% in 2023 to 2.5% in 2024."}
+{"id":"g019","query":"Customer NPS trend","result_struct":{"quarters":["Q1","Q2","Q3"],"nps":[48,51,55]},"summary":"NPS improved from 48 in Q1 to 55 in Q3."}
+{"id":"g020","query":"Anomaly in latency SLOs","result_struct":{"slo_ms":450,"p95":{"2024-06-01":820}},"summary":"On 2024-06-01, p95 latency hit 820ms, exceeding the 450ms SLO."}
+{"id":"g021","query":"Total profit margin Q3 2024","result_struct":{"margin_pct":22.5},"summary":"Profit margin for Q3 2024 stood at 22.5%."}
+{"id":"g022","query":"Server uptime last 30 days","result_struct":{"uptime_pct":99.98},"summary":"Server uptime remained high at 99.98% over the last 30 days."}
+{"id":"g023","query":"Most used feature in June","result_struct":{"feature":"Export to PDF","count":4500},"summary":"'Export to PDF' was the most used feature in June with 4,500 uses."}
+{"id":"g024","query":"Active tickets by priority","result_struct":{"High":12,"Medium":45,"Low":88},"summary":"There are currently 12 High priority tickets, 45 Medium, and 88 Low."}
+{"id":"g025","query":"Revenue breakdown by source 2023","result_struct":{"Enterprise":60,"Self-Serve":30,"Partners":10,"unit":"pct"},"summary":"Enterprise clients drove 60% of revenue in 2023, followed by Self-Serve at 30%."}
+{"id":"g026","query":"New hires vs departures Q1","result_struct":{"hires":15,"departures":4},"summary":"The company hired 15 people and saw 4 departures in Q1."}
+{"id":"g027","query":"Memory usage spike detected?","result_struct":{"spike_detected":true,"timestamp":"14:05:00","usage_mb":8192},"summary":"Yes, a memory spike of 8192 MB was detected at 14:05:00."}
+{"id":"g028","query":"Top 3 referral domains","result_struct":{"domains":["google.com","linkedin.com","t.co"],"clicks":[5000,1200,800]},"summary":"Google led referrals with 5k clicks, followed by LinkedIn (1.2k) and Twitter (800)."}
+{"id":"g029","query":"Average order value last week","result_struct":{"aov":145.50,"currency":"USD"},"summary":"The average order value last week was $145.50."}
+{"id":"g030","query":"API latency trend last hour","result_struct":{"minutes":[0,15,30,45],"latency_ms":[120,125,118,200]},"summary":"Latency was stable around 120ms until a jump to 200ms at minute 45."}
+{"id":"g031","query":"Projected runway in months","result_struct":{"months":18.5},"summary":"Based on current burn, the projected runway is 18.5 months."}
+{"id":"g032","query":"Mobile vs Desktop traffic share","result_struct":{"mobile":55,"desktop":45,"tablet":0},"summary":"Mobile traffic accounts for 55%, surpassing desktop at 45%."}
+{"id":"g033","query":"Number of 5-star reviews today","result_struct":{"count":23},"summary":"We received 23 five-star reviews today."}
+{"id":"g034","query":"Cloud spend month-to-date","result_struct":{"spend":12500,"budget":15000,"currency":"USD"},"summary":"Month-to-date cloud spend is $12,500, which is within the $15,000 budget."}
+{"id":"g035","query":"Lead conversion rate trend","result_struct":{"weeks":["W1","W2","W3","W4"],"rates":[2.1,2.3,2.2,2.5]},"summary":"Conversion rates improved slightly from 2.1% in W1 to 2.5% in W4."}
+{"id":"g036","query":"Identify users with >5 failed logins","result_struct":{"count":3,"user_ids":["u88","u92","u104"]},"summary":"Three users (u88, u92, u104) had more than 5 failed login attempts."}
+{"id":"g037","query":"Storage capacity status","result_struct":{"used_tb":45,"total_tb":100,"status":"Healthy"},"summary":"Storage is healthy with 45TB used out of 100TB available."}
+{"id":"g038","query":"Top support agent by resolution time","result_struct":{"agent":"Sarah J.","avg_time_min":12},"summary":"Sarah J. had the best resolution time, averaging 12 minutes per ticket."}
+{"id":"g039","query":"Daily active users (DAU) yesterday","result_struct":{"date":"2024-10-10","dau":45200},"summary":"Yesterday's DAU count was 45,200."}
+{"id":"g040","query":"Is the payment gateway up?","result_struct":{"status":"UP","response_time_ms":45},"summary":"The payment gateway is up with a 45ms response time."}
+{"id":"g041","query":"Email open rate campaign A vs B","result_struct":{"A":22.4,"B":28.1},"summary":"Campaign B outperformed A with a 28.1% open rate compared to 22.4%."}
+{"id":"g042","query":"Inventory alerts for electronics","result_struct":{"low_stock":["HDMI Cables","USB-C Adapters"]},"summary":"Low stock alerts are active for HDMI Cables and USB-C Adapters."}
+{"id":"g043","query":"Customer satisfaction score (CSAT)","result_struct":{"score":4.2,"scale":5},"summary":"The current CSAT score is 4.2 out of 5."}
+{"id":"g044","query":"Database replication lag","result_struct":{"lag_seconds":0.02},"summary":"Database replication lag is minimal at 0.02 seconds."}
+{"id":"g045","query":"Top 3 losing products Q2","result_struct":{"products":["Widget X","Gadget Y","Tool Z"],"loss_pct":[15,12,8]},"summary":"Widget X had the highest loss at 15%, followed by Gadget Y and Tool Z."}
+{"id":"g046","query":"Percentage of encrypted traffic","result_struct":{"encrypted":98.5,"unencrypted":1.5},"summary":"98.5% of network traffic is currently encrypted."}
+{"id":"g047","query":"Sales team quota attainment","result_struct":{"attained_pct":85,"target_pct":100},"summary":"The sales team has reached 85% of their quota so far."}
+{"id":"g048","query":"Active subscriptions count","result_struct":{"total":15400},"summary":"There are currently 15,400 active subscriptions."}
+{"id":"g049","query":"Cost per acquisition (CPA) last month","result_struct":{"cpa":45.00,"currency":"EUR"},"summary":"CPA was €45.00 last month."}
+{"id":"g050","query":"Git commits by author last week","result_struct":{"DevA":15,"DevB":12,"DevC":8},"summary":"DevA led with 15 commits, while DevB and DevC had 12 and 8 respectively."}
+{"id":"g051","query":"Website bounce rate change","result_struct":{"prev_month":55,"curr_month":52},"summary":"Bounce rate decreased from 55% to 52% this month."}
+{"id":"g052","query":"Number of pending invoices","result_struct":{"count":12,"total_value":45000},"summary":"There are 12 pending invoices totaling 45,000."}
+{"id":"g053","query":"Top reason for churn Q3","result_struct":{"reason":"Pricing","pct":40},"summary":"Pricing was the primary reason for churn in Q3, cited by 40% of users."}
+{"id":"g054","query":"Daily API request volume","result_struct":{"requests":1500000},"summary":"Daily API volume reached 1.5 million requests."}
+{"id":"g055","query":"Average employee tenure","result_struct":{"years":3.2},"summary":"The average employee tenure is 3.2 years."}
+{"id":"g056","query":"Most visited help article","result_struct":{"title":"Reset Password","views":1200},"summary":"'Reset Password' was the most visited article with 1,200 views."}
+{"id":"g057","query":"GPU utilization current","result_struct":{"gpu_0":88,"gpu_1":92},"summary":"GPU utilization is high, with GPU 0 at 88% and GPU 1 at 92%."}
+{"id":"g058","query":"Net promoter score (NPS) by segment","result_struct":{"SMB":45,"Enterprise":60},"summary":"Enterprise NPS is significantly higher (60) compared to SMB (45)."}
+{"id":"g059","query":"Total refund amount today","result_struct":{"amount":350,"currency":"USD"},"summary":"Refunds processed today totaled $350."}
+{"id":"g060","query":"New feature adoption rate","result_struct":{"days_since_launch":30,"adoption_pct":15},"summary":"30 days post-launch, the new feature has a 15% adoption rate."}
+{"id":"g061","query":"Errors by browser type","result_struct":{"Chrome":10,"Firefox":2,"Safari":5},"summary":"Chrome users encountered the most errors (10), followed by Safari (5)."}
+{"id":"g062","query":"Marketing budget utilization","result_struct":{"spent":45000,"allocated":50000},"summary":"Marketing has spent $45k of the allocated $50k budget."}
+{"id":"g063","query":"Fastest growing region Q1","result_struct":{"region":"LATAM","growth_pct":25},"summary":"LATAM was the fastest growing region in Q1 with 25% growth."}
+{"id":"g064","query":"Time to first byte (TTFB) avg","result_struct":{"ms":150},"summary":"The average Time to First Byte is 150ms."}
+{"id":"g065","query":"Number of active beta testers","result_struct":{"count":450},"summary":"There are currently 450 active beta testers."}
+{"id":"g066","query":"Overdue tasks count","result_struct":{"count":7},"summary":"There are 7 tasks currently overdue."}
+{"id":"g067","query":"Video buffering rate","result_struct":{"rate_pct":0.5},"summary":"The video buffering rate is low at 0.5%."}
+{"id":"g068","query":"Top 3 search terms on site","result_struct":{"terms":["pricing","api","contact"]},"summary":"The top search terms were 'pricing', 'api', and 'contact'."}
+{"id":"g069","query":"Server error rate 5xx","result_struct":{"rate_pct":0.05},"summary":"The 5xx server error rate is a negligible 0.05%."}
+{"id":"g070","query":"Total customers onboarded this week","result_struct":{"count":25},"summary":"25 new customers were onboarded this week."}
+{"id":"g071","query":"Disk I/O wait time","result_struct":{"avg_ms":12},"summary":"Average disk I/O wait time is 12ms."}
+{"id":"g072","query":"Social media engagement rate","result_struct":{"rate_pct":3.4},"summary":"The social media engagement rate is 3.4%."}
+{"id":"g073","query":"Average deal size Enterprise","result_struct":{"value":55000,"currency":"USD"},"summary":"The average enterprise deal size is $55,000."}
+{"id":"g074","query":"Code coverage percentage","result_struct":{"coverage":82},"summary":"Test code coverage is currently at 82%."}
+{"id":"g075","query":"Number of dead links found","result_struct":{"count":0},"summary":"No dead links were found."}
+{"id":"g076","query":"Customer support backlog","result_struct":{"tickets":150},"summary":"The customer support backlog currently stands at 150 tickets."}
+{"id":"g077","query":"App crash-free users %","result_struct":{"pct":99.2},"summary":"99.2% of users experienced a crash-free session."}
+{"id":"g078","query":"Top selling category Dec 2023","result_struct":{"category":"Apparel","sales_vol":12000},"summary":"Apparel was the top category in Dec 2023 with 12,000 sales."}
+{"id":"g079","query":"Average response time for chat","result_struct":{"seconds":45},"summary":"The average chat response time is 45 seconds."}
+{"id":"g080","query":"User retention day 30","result_struct":{"retention_pct":45},"summary":"Day 30 retention is holding at 45%."}
+{"id":"g081","query":"Compare monthly active users Jan vs Feb","result_struct":{"Jan":12000,"Feb":12500},"summary":"MAU grew slightly from 12k in January to 12.5k in February."}
+{"id":"g082","query":"Highest latency endpoint","result_struct":{"endpoint":"/api/v1/report","latency_ms":2500},"summary":"The /api/v1/report endpoint has the highest latency at 2500ms."}
+{"id":"g083","query":"Total database size","result_struct":{"size_gb":500},"summary":"The total database size is 500 GB."}
+{"id":"g084","query":"Marketing qualified leads (MQL) this week","result_struct":{"count":120},"summary":"We generated 120 MQLs this week."}
+{"id":"g085","query":"Sales qualified leads (SQL) conversion","result_struct":{"rate_pct":15},"summary":"The conversion rate from MQL to SQL is 15%."}
+{"id":"g086","query":"Operating expenses Q2","result_struct":{"amount":250000,"currency":"USD"},"summary":"Operating expenses for Q2 totaled $250,000."}
+{"id":"g087","query":"Number of active API keys","result_struct":{"count":2300},"summary":"There are 2,300 active API keys."}
+{"id":"g088","query":"Email bounce rate","result_struct":{"rate_pct":1.2},"summary":"The email bounce rate is 1.2%."}
+{"id":"g089","query":"Most common support tag","result_struct":{"tag":"login_issue"},"summary":"'login_issue' is the most frequently used support tag."}
+{"id":"g090","query":"Total assets value","result_struct":{"value":1500000,"currency":"USD"},"summary":"Total assets are valued at $1.5 million."}
+{"id":"g091","query":"Current ratio (liquidity)","result_struct":{"ratio":1.5},"summary":"The current liquidity ratio is 1.5."}
+{"id":"g092","query":"Number of active projects","result_struct":{"count":14},"summary":"There are 14 active projects."}
+{"id":"g093","query":"Average ticket resolution costs","result_struct":{"cost":15.50,"currency":"USD"},"summary":"The average cost to resolve a ticket is $15.50."}
+{"id":"g094","query":"Top affiliate partner revenue","result_struct":{"partner":"PartnerA","revenue":5000},"summary":"PartnerA generated the most revenue among affiliates ($5,000)."}
+{"id":"g095","query":"Customer acquisition cost (CAC) trend","result_struct":{"Q1":120,"Q2":115,"Q3":110},"summary":"CAC has improved, dropping from $120 in Q1 to $110 in Q3."}
+{"id":"g096","query":"Employee satisfaction score","result_struct":{"score":8.5,"scale":10},"summary":"The employee satisfaction score is 8.5 out of 10."}
+{"id":"g097","query":"Total lines of code in repo","result_struct":{"loc":150000},"summary":"The repository contains approximately 150k lines of code."}
+{"id":"g098","query":"Percentage of mobile orders","result_struct":{"pct":65},"summary":"65% of all orders are placed via mobile."}
+{"id":"g099","query":"Inventory turnover ratio","result_struct":{"ratio":4.5},"summary":"The inventory turnover ratio is 4.5."}
+{"id":"g100","query":"Gross margin percentage","result_struct":{"pct":55},"summary":"Gross margin is currently 55%."}
+{"id":"g101","query":"Number of incidents last 24h","result_struct":{"critical":0,"warning":3},"summary":"There were no critical incidents and 3 warnings in the last 24 hours."}
+{"id":"g102","query":"Most popular plan for new users","result_struct":{"plan":"Pro","pct":60},"summary":"The Pro plan is most popular, selected by 60% of new users."}
+{"id":"g103","query":"Average time on page","result_struct":{"seconds":120},"summary":"Users spend an average of 2 minutes (120 seconds) on the page."}
+{"id":"g104","query":"Total subscribers to newsletter","result_struct":{"count":25000},"summary":"The newsletter has 25,000 subscribers."}
+{"id":"g105","query":"Number of open pull requests","result_struct":{"count":8},"summary":"There are 8 open pull requests."}
+{"id":"g106","query":"Average pull request merge time","result_struct":{"hours":4.5},"summary":"It takes an average of 4.5 hours to merge a pull request."}
+{"id":"g107","query":"Container restart count","result_struct":{"count":2},"summary":"Containers have restarted 2 times."}
+{"id":"g108","query":"Cache hit ratio","result_struct":{"ratio_pct":92},"summary":"The cache hit ratio is effective at 92%."}
+{"id":"g109","query":"Total unique visitors this month","result_struct":{"count":120000},"summary":"We have had 120,000 unique visitors this month."}
+{"id":"g110","query":"Cart abandonment rate","result_struct":{"rate_pct":70},"summary":"The cart abandonment rate is 70%."}
+{"id":"g111","query":"Top 3 exit pages","result_struct":{"pages":["/checkout","/pricing","/home"]},"summary":"Users most frequently exit from Checkout, Pricing, and Home pages."}
+{"id":"g112","query":"Revenue per employee","result_struct":{"amount":200000,"currency":"USD"},"summary":"Revenue per employee stands at $200,000."}
+{"id":"g113","query":"Debt to equity ratio","result_struct":{"ratio":0.5},"summary":"The debt-to-equity ratio is 0.5."}
+{"id":"g114","query":"Return on ad spend (ROAS)","result_struct":{"roas":3.5},"summary":"ROAS is currently 3.5."}
+{"id":"g115","query":"Click-through rate (CTR) Google Ads","result_struct":{"ctr_pct":2.1},"summary":"The CTR for Google Ads is 2.1%."}
+{"id":"g116","query":"Average daily signups","result_struct":{"count":55},"summary":"We are averaging 55 signups per day."}
+{"id":"g117","query":"Total comments on blog","result_struct":{"count":450},"summary":"There are 450 total comments on the blog."}
+{"id":"g118","query":"Podcast downloads last episode","result_struct":{"count":3000},"summary":"The last podcast episode received 3,000 downloads."}
+{"id":"g119","query":"Webinar attendees count","result_struct":{"registered":500,"attended":250},"summary":"250 out of 500 registered users attended the webinar."}
+{"id":"g120","query":"Number of blocked IP addresses","result_struct":{"count":150},"summary":"150 IP addresses are currently blocked."}
+{"id":"g121","query":"Average shipping cost per unit","result_struct":{"cost":5.20,"currency":"USD"},"summary":"Average shipping cost is $5.20 per unit."}
+{"id":"g122","query":"Supplier lead time avg","result_struct":{"days":14},"summary":"Average supplier lead time is 14 days."}
+{"id":"g123","query":"Scrap rate in manufacturing","result_struct":{"rate_pct":2},"summary":"The manufacturing scrap rate is 2%."}
+{"id":"g124","query":"Machine utilization rate","result_struct":{"rate_pct":85},"summary":"Machine utilization is running at 85%."}
+{"id":"g125","query":"Safety incidents this year","result_struct":{"count":0},"summary":"There have been zero safety incidents this year."}
+{"id":"g126","query":"Training completion rate","result_struct":{"pct":95},"summary":"95% of employees have completed the training."}
+{"id":"g127","query":"Diversity hire ratio Q3","result_struct":{"pct":40},"summary":"The diversity hire ratio for Q3 was 40%."}
+{"id":"g128","query":"Percentage of remote workers","result_struct":{"pct":70},"summary":"70% of the workforce is remote."}
+{"id":"g129","query":"Average days to fill a role","result_struct":{"days":45},"summary":"It takes an average of 45 days to fill a role."}
+{"id":"g130","query":"Offer acceptance rate","result_struct":{"pct":88},"summary":"The offer acceptance rate is 88%."}
+{"id":"g131","query":"Total AWS EC2 instances","result_struct":{"count":45},"summary":"There are 45 active AWS EC2 instances."}
+{"id":"g132","query":"S3 bucket storage used","result_struct":{"tb":12},"summary":"12 TB of S3 storage is currently in use."}
+{"id":"g133","query":"Lambda function error rate","result_struct":{"rate_pct":0.1},"summary":"Lambda functions have a low error rate of 0.1%."}
+{"id":"g134","query":"Kubernetes cluster health","result_struct":{"nodes_ready":5,"nodes_total":5},"summary":"The Kubernetes cluster is healthy with 5/5 nodes ready."}
+{"id":"g135","query":"Load balancer throughput","result_struct":{"mbps":500},"summary":"Load balancer throughput is 500 Mbps."}
+{"id":"g136","query":"CDN bandwidth usage","result_struct":{"tb_month":50},"summary":"CDN bandwidth usage is 50 TB this month."}
+{"id":"g137","query":"WAF blocked requests","result_struct":{"count":1200},"summary":"The WAF blocked 1,200 requests."}
+{"id":"g138","query":"SSL certificate expiry","result_struct":{"days_remaining":30},"summary":"The SSL certificate expires in 30 days."}
+{"id":"g139","query":"Domain authority score","result_struct":{"score":45},"summary":"The domain authority score is 45."}
+{"id":"g140","query":"Number of backlinks","result_struct":{"count":15000},"summary":"The site has 15,000 backlinks."}
+{"id":"g141","query":"Keyword ranking for 'AI tools'","result_struct":{"position":3},"summary":"We rank at position 3 for the keyword 'AI tools'."}
+{"id":"g142","query":"Organic traffic growth YoY","result_struct":{"pct":20},"summary":"Organic traffic grew 20% year-over-year."}
+{"id":"g143","query":"Direct traffic percentage","result_struct":{"pct":15},"summary":"Direct traffic accounts for 15% of visits."}
+{"id":"g144","query":"Referral traffic percentage","result_struct":{"pct":10},"summary":"Referral traffic makes up 10% of visits."}
+{"id":"g145","query":"Social traffic percentage","result_struct":{"pct":5},"summary":"Social media drives 5% of total traffic."}
+{"id":"g146","query":"Video completion rate","result_struct":{"pct":60},"summary":"60% of viewers complete the video."}
+{"id":"g147","query":"Average view duration","result_struct":{"minutes":5},"summary":"The average view duration is 5 minutes."}
+{"id":"g148","query":"Total likes on latest post","result_struct":{"count":150},"summary":"The latest post received 150 likes."}
+{"id":"g149","query":"Total shares on latest post","result_struct":{"count":20},"summary":"The latest post was shared 20 times."}
+{"id":"g150","query":"Influencer campaign reach","result_struct":{"people":100000},"summary":"The influencer campaign reached 100,000 people."}
+{"id":"g151","query":"Cost per click (CPC) Facebook","result_struct":{"cpc":0.80,"currency":"USD"},"summary":"Facebook CPC is currently $0.80."}
+{"id":"g152","query":"Cost per impression (CPM)","result_struct":{"cpm":10.00,"currency":"USD"},"summary":"The CPM is $10.00."}
+{"id":"g153","query":"Ad frequency","result_struct":{"times":2.5},"summary":"The average ad frequency is 2.5 times."}
+{"id":"g154","query":"Conversion rate landing page A","result_struct":{"pct":3.5},"summary":"Landing page A converts at 3.5%."}
+{"id":"g155","query":"Total leads generated Q3","result_struct":{"count":1500},"summary":"Q3 generated 1,500 total leads."}
+{"id":"g156","query":"Sales cycle length","result_struct":{"days":60},"summary":"The average sales cycle length is 60 days."}
+{"id":"g157","query":"Win rate for opportunities","result_struct":{"pct":25},"summary":"The opportunity win rate is 25%."}
+{"id":"g158","query":"Average deal size SMB","result_struct":{"value":5000,"currency":"USD"},"summary":"The average SMB deal size is $5,000."}
+{"id":"g159","query":"Pipeline coverage ratio","result_struct":{"ratio":3},"summary":"The pipeline coverage ratio is 3x."}
+{"id":"g160","query":"Number of deals lost to competitor","result_struct":{"count":5},"summary":"5 deals were lost to competitors."}
+{"id":"g161","query":"Customer lifetime value (LTV)","result_struct":{"ltv":1200,"currency":"USD"},"summary":"Customer lifetime value is estimated at $1,200."}
+{"id":"g162","query":"LTV to CAC ratio","result_struct":{"ratio":4},"summary":"The LTV to CAC ratio is a healthy 4:1."}
+{"id":"g163","query":"Monthly recurring revenue (MRR)","result_struct":{"amount":150000,"currency":"USD"},"summary":"Monthly recurring revenue stands at $150,000."}
+{"id":"g164","query":"Annual recurring revenue (ARR)","result_struct":{"amount":1800000,"currency":"USD"},"summary":"Annual recurring revenue has reached $1.8 million."}
+{"id":"g165","query":"Expansion MRR percentage","result_struct":{"pct":10},"summary":"Expansion MRR accounts for 10% of revenue."}
+{"id":"g166","query":"Contraction MRR percentage","result_struct":{"pct":2},"summary":"Contraction MRR is low at 2%."}
+{"id":"g167","query":"Net revenue retention (NRR)","result_struct":{"pct":108},"summary":"Net revenue retention is strong at 108%."}
+{"id":"g168","query":"Number of support tickets closed","result_struct":{"count":500},"summary":"500 support tickets have been closed."}
+{"id":"g169","query":"First response time support","result_struct":{"minutes":30},"summary":"The average first response time is 30 minutes."}
+{"id":"g170","query":"Ticket reopening rate","result_struct":{"pct":5},"summary":"The ticket reopening rate is 5%."}
+{"id":"g171","query":"Number of active contracts","result_struct":{"count":120},"summary":"There are 120 active contracts."}
+{"id":"g172","query":"Contract renewal rate","result_struct":{"pct":90},"summary":"The contract renewal rate is 90%."}
+{"id":"g173","query":"Legal spend year-to-date","result_struct":{"amount":15000,"currency":"USD"},"summary":"Legal spend year-to-date is $15,000."}
+{"id":"g174","query":"Number of compliance audits","result_struct":{"count":2},"summary":"There have been 2 compliance audits so far."}
+{"id":"g175","query":"GDPR requests processed","result_struct":{"count":10},"summary":"10 GDPR requests have been processed."}
+{"id":"g176","query":"CEO approval rating","result_struct":{"pct":95},"summary":"The CEO has a 95% approval rating."}
+{"id":"g177","query":"Glassdoor rating","result_struct":{"stars":4.5},"summary":"The company has a 4.5-star rating on Glassdoor."}
+{"id":"g178","query":"Number of interview candidates","result_struct":{"count":50},"summary":"There are currently 50 active interview candidates."}
+{"id":"g179","query":"Recruiting channel effectiveness","result_struct":{"referral":0.4,"linkedin":0.3,"agency":0.2,"other":0.1},"summary":"Referrals are most effective (40%), followed by LinkedIn (30%)."}
+{"id":"g180","query":"Internal promotion rate","result_struct":{"pct":15},"summary":"The internal promotion rate is 15%."}
+{"id":"g181","query":"Absenteeism rate","result_struct":{"pct":2},"summary":"The absenteeism rate is 2%."}
+{"id":"g182","query":"Overtime hours per employee","result_struct":{"hours":2},"summary":"Employees average 2 hours of overtime."}
+{"id":"g183","query":"Training budget used","result_struct":{"pct":60},"summary":"60% of the training budget has been utilized."}
+{"id":"g184","query":"Office occupancy rate","result_struct":{"pct":45},"summary":"Office occupancy is currently 45%."}
+{"id":"g185","query":"Carbon footprint metric","result_struct":{"tons":120},"summary":"The estimated carbon footprint is 120 tons."}
+{"id":"g186","query":"Energy consumption KWh","result_struct":{"kwh":5000},"summary":"Energy consumption is 5,000 KWh."}
+{"id":"g187","query":"Waste recycling rate","result_struct":{"pct":80},"summary":"The waste recycling rate is 80%."}
+{"id":"g188","query":"Product return rate","result_struct":{"pct":3},"summary":"The product return rate is 3%."}
+{"id":"g189","query":"Order accuracy rate","result_struct":{"pct":99},"summary":"The order accuracy rate is 99%."}
+{"id":"g190","query":"On-time delivery rate","result_struct":{"pct":95},"summary":"95% of deliveries are on time."}
+{"id":"g191","query":"Freight cost as % of sales","result_struct":{"pct":5},"summary":"Freight costs represent 5% of sales."}
+{"id":"g192","query":"Number of active suppliers","result_struct":{"count":25},"summary":"We work with 25 active suppliers."}
+{"id":"g193","query":"Supplier defect rate","result_struct":{"pct":1},"summary":"The supplier defect rate is 1%."}
+{"id":"g194","query":"Inventory shrinkage","result_struct":{"pct":0.5},"summary":"Inventory shrinkage is minimal at 0.5%."}
+{"id":"g195","query":"Warehouse capacity used","result_struct":{"pct":75},"summary":"Warehouse capacity is 75% utilized."}
+{"id":"g196","query":"Number of SKUs","result_struct":{"count":500},"summary":"There are 500 active SKUs."}
+{"id":"g197","query":"Top selling SKU","result_struct":{"sku":"A100","units":1000},"summary":"SKU A100 is the top seller with 1,000 units."}
+{"id":"g198","query":"Slow moving inventory","result_struct":{"skus":["B20","C30"]},"summary":"SKUs B20 and C30 are identified as slow-moving."}
+{"id":"g199","query":"Backorder rate","result_struct":{"pct":2},"summary":"The backorder rate is 2%."}
+{"id":"g200","query":"Average customer age","result_struct":{"years":32},"summary":"The average customer age is 32 years."}
+{"id":"g201","query":"Customer gender breakdown","result_struct":{"Male":48,"Female":50,"Other":2},"summary":"The customer base is 50% Female, 48% Male, and 2% Other."}
+{"id":"g202","query":"Top customer location","result_struct":{"city":"New York"},"summary":"New York is the top customer location."}
+{"id":"g203","query":"Device usage breakdown","result_struct":{"iOS":60,"Android":40},"summary":"iOS usage (60%) leads Android (40%)."}
+{"id":"g204","query":"Browser language preference","result_struct":{"en":80,"es":10,"fr":5,"other":5},"summary":"English is the dominant language (80%), followed by Spanish (10%)."}
+{"id":"g205","query":"New vs returning visitors","result_struct":{"new":60,"returning":40},"summary":"New visitors (60%) outnumber returning ones (40%)."}
+{"id":"g206","query":"Average sessions per user","result_struct":{"count":3},"summary":"Users average 3 sessions."}
+{"id":"g207","query":"Pages per session","result_struct":{"count":4.5},"summary":"Users view an average of 4.5 pages per session."}
+{"id":"g208","query":"Session duration distribution","result_struct":{"<1min":20,"1-5min":50,">5min":30},"summary":"Most sessions last 1-5 minutes (50%), with 30% exceeding 5 minutes."}
+{"id":"g209","query":"Event count 'Add to Cart'","result_struct":{"count":500},"summary":"The 'Add to Cart' event was triggered 500 times."}
+{"id":"g210","query":"Event count 'Checkout Start'","result_struct":{"count":300},"summary":"Checkout started 300 times."}
+{"id":"g211","query":"Event count 'Purchase'","result_struct":{"count":150},"summary":"150 purchases were completed."}
+{"id":"g212","query":"Funnel drop-off step","result_struct":{"step":"Payment Info","drop_pct":50},"summary":"The biggest funnel drop-off is at Payment Info (50%)."}
+{"id":"g213","query":"User signup source","result_struct":{"Google":50,"Facebook":30,"Direct":20},"summary":"Half of signups come from Google, followed by Facebook (30%)."}
+{"id":"g214","query":"Email list growth rate","result_struct":{"pct":5},"summary":"The email list grew by 5%."}
+{"id":"g215","query":"Unsubscribe rate","result_struct":{"pct":0.2},"summary":"The unsubscribe rate is a low 0.2%."}
+{"id":"g216","query":"Spam complaint rate","result_struct":{"pct":0.01},"summary":"The spam complaint rate is negligible at 0.01%."}
+{"id":"g217","query":"Domain reputation","result_struct":{"status":"High"},"summary":"Domain reputation is currently rated as High."}
+{"id":"g218","query":"IP warming status","result_struct":{"status":"Complete"},"summary":"IP warming is complete."}
+{"id":"g219","query":"API quota remaining","result_struct":{"pct":80},"summary":"80% of the API quota remains."}
+{"id":"g220","query":"Rate limit exceeded count","result_struct":{"count":5},"summary":"The rate limit was exceeded 5 times."}
+{"id":"g221","query":"Database connection errors","result_struct":{"count":0},"summary":"There are zero database connection errors."}
+{"id":"g222","query":"Slow query log count","result_struct":{"count":12},"summary":"The slow query log contains 12 entries."}
+{"id":"g223","query":"Index usage stats","result_struct":{"used":95,"unused":5},"summary":"Index usage is efficient, with 95% used."}
+{"id":"g224","query":"Table fragmentation","result_struct":{"pct":10},"summary":"Table fragmentation is at 10%."}
+{"id":"g225","query":"Backup success rate","result_struct":{"pct":100},"summary":"Backups have a 100% success rate."}
+{"id":"g226","query":"Last backup timestamp","result_struct":{"time":"02:00:00"},"summary":"The last backup completed at 02:00:00."}
+{"id":"g227","query":"Disaster recovery RTO","result_struct":{"hours":4},"summary":"The Recovery Time Objective (RTO) is 4 hours."}
+{"id":"g228","query":"Disaster recovery RPO","result_struct":{"hours":1},"summary":"The Recovery Point Objective (RPO) is 1 hour."}
+{"id":"g229","query":"Security vulnerability count (High)","result_struct":{"count":1},"summary":"There is 1 high-severity security vulnerability."}
+{"id":"g230","query":"Penetration test result","result_struct":{"status":"Passed"},"summary":"The penetration test was passed."}
+{"id":"g231","query":"Phishing simulation click rate","result_struct":{"pct":5},"summary":"5% of employees clicked during the phishing simulation."}
+{"id":"g232","query":"MFA adoption rate","result_struct":{"pct":98},"summary":"Multi-factor authentication adoption is at 98%."}
+{"id":"g233","query":"Device encryption rate","result_struct":{"pct":100},"summary":"100% of devices are encrypted."}
+{"id":"g234","query":"Antivirus coverage","result_struct":{"pct":99},"summary":"Antivirus coverage is 99%."}
+{"id":"g235","query":"Firewall uptime","result_struct":{"pct":100},"summary":"Firewall uptime is 100%."}
+{"id":"g236","query":"Intrusion detection alerts","result_struct":{"count":2},"summary":"There were 2 intrusion detection alerts."}
+{"id":"g237","query":"VPN usage peak","result_struct":{"users":50},"summary":"VPN usage peaked at 50 users."}
+{"id":"g238","query":"Network bandwidth peak","result_struct":{"mbps":800},"summary":"Network bandwidth peaked at 800 Mbps."}
+{"id":"g239","query":"Packet loss rate","result_struct":{"pct":0.1},"summary":"Packet loss rate is 0.1%."}
+{"id":"g240","query":"Jitter ms","result_struct":{"ms":5},"summary":"Network jitter is 5ms."}
+{"id":"g241","query":"VOIP call quality MOS","result_struct":{"score":4.2},"summary":"VOIP call quality (MOS) is 4.2."}
+{"id":"g242","query":"Zoom meeting count","result_struct":{"count":20},"summary":"There were 20 Zoom meetings."}
+{"id":"g243","query":"Slack message volume","result_struct":{"count":5000},"summary":"Slack message volume reached 5,000."}
+{"id":"g244","query":"Email volume sent","result_struct":{"count":2000},"summary":"2,000 emails were sent."}
+{"id":"g245","query":"Email volume received","result_struct":{"count":3000},"summary":"3,000 emails were received."}
+{"id":"g246","query":"Calendar utilization","result_struct":{"pct":60},"summary":"Calendar utilization is 60%."}
+{"id":"g247","query":"Meeting room booking rate","result_struct":{"pct":50},"summary":"Meeting rooms are booked 50% of the time."}
+{"id":"g248","query":"Printer paper usage","result_struct":{"reams":5},"summary":"5 reams of printer paper were used."}
+{"id":"g249","query":"Coffee consumption","result_struct":{"lbs":2},"summary":"2 lbs of coffee were consumed."}
+{"id":"g250","query":"Parking lot occupancy","result_struct":{"pct":80},"summary":"The parking lot is 80% full."}
+{"id":"g251","query":"Building temperature avg","result_struct":{"celsius":22},"summary":"Average building temperature is 22°C."}
+{"id":"g252","query":"Humidity level avg","result_struct":{"pct":45},"summary":"Average humidity is 45%."}
+{"id":"g253","query":"Noise level db","result_struct":{"db":50},"summary":"Noise level is 50 dB."}
+{"id":"g254","query":"CO2 level ppm","result_struct":{"ppm":450},"summary":"CO2 levels are 450 ppm."}
+{"id":"g255","query":"Water usage gallons","result_struct":{"gallons":200},"summary":"Water usage was 200 gallons."}
+{"id":"g256","query":"Electricity cost today","result_struct":{"cost":50,"currency":"USD"},"summary":"Electricity cost today was $50."}
+{"id":"g257","query":"Janitorial request count","result_struct":{"count":2},"summary":"There were 2 janitorial requests."}
+{"id":"g258","query":"Security badge swipes","result_struct":{"count":100},"summary":"There were 100 security badge swipes."}
+{"id":"g259","query":"Visitor count","result_struct":{"count":5},"summary":"There were 5 visitors."}
+{"id":"g260","query":"Delivery truck count","result_struct":{"count":3},"summary":"3 delivery trucks arrived."}
+{"id":"g261","query":"Company car mileage","result_struct":{"miles":150},"summary":"Company cars drove 150 miles."}
+{"id":"g262","query":"Fuel cost","result_struct":{"cost":40,"currency":"USD"},"summary":"Fuel costs were $40."}
+{"id":"g263","query":"Vehicle maintenance due","result_struct":{"count":1},"summary":"1 vehicle is due for maintenance."}
+{"id":"g264","query":"Accident count","result_struct":{"count":0},"summary":"There were zero accidents."}
+{"id":"g265","query":"Insurance claim count","result_struct":{"count":0},"summary":"There were zero insurance claims."}
+{"id":"g266","query":"Audit finding count","result_struct":{"count":0},"summary":"The audit yielded zero findings."}
+{"id":"g267","query":"Policy violation count","result_struct":{"count":0},"summary":"There were zero policy violations."}
+{"id":"g268","query":"Whistleblower reports","result_struct":{"count":0},"summary":"There were zero whistleblower reports."}
+{"id":"g269","query":"Legal case count","result_struct":{"count":1},"summary":"There is 1 active legal case."}
+{"id":"g270","query":"Patent application count","result_struct":{"count":2},"summary":"There are 2 pending patent applications."}
+{"id":"g271","query":"Trademark renewal due","result_struct":{"count":0},"summary":"No trademark renewals are due."}
+{"id":"g272","query":"Contract signed count","result_struct":{"count":5},"summary":"5 contracts were signed."}
+{"id":"g273","query":"NDA signed count","result_struct":{"count":10},"summary":"10 NDAs were signed."}
+{"id":"g274","query":"Partner onboarding status","result_struct":{"status":"In Progress"},"summary":"Partner onboarding is currently in progress."}
+{"id":"g275","query":"Reseller sales revenue","result_struct":{"amount":5000,"currency":"USD"},"summary":"Reseller sales generated $5,000."}
+{"id":"g276","query":"Distributor inventory level","result_struct":{"units":1000},"summary":"Distributor inventory is at 1,000 units."}
+{"id":"g277","query":"Channel conflict count","result_struct":{"count":0},"summary":"There were zero channel conflicts."}
+{"id":"g278","query":"MDF utilization","result_struct":{"pct":50},"summary":"Market Development Funds (MDF) utilization is 50%."}
+{"id":"g279","query":"Co-marketing campaign count","result_struct":{"count":1},"summary":"There is 1 active co-marketing campaign."}
+{"id":"g280","query":"Partner portal login count","result_struct":{"count":20},"summary":"The partner portal had 20 logins."}
+{"id":"g281","query":"Deal registration count","result_struct":{"count":5},"summary":"There were 5 deal registrations."}
+{"id":"g282","query":"Lead distribution count","result_struct":{"count":10},"summary":"10 leads were distributed."}
+{"id":"g283","query":"Sales training attendance","result_struct":{"count":15},"summary":"15 people attended sales training."}
+{"id":"g284","query":"Certification exam pass rate","result_struct":{"pct":90},"summary":"The certification exam pass rate is 90%."}
+{"id":"g285","query":"Knowledge base search count","result_struct":{"count":50},"summary":"There were 50 knowledge base searches."}
+{"id":"g286","query":"Community forum post count","result_struct":{"count":10},"summary":"10 posts were made on the community forum."}
+{"id":"g287","query":"User group meeting attendees","result_struct":{"count":30},"summary":"30 people attended the user group meeting."}
+{"id":"g288","query":"Hackathon participant count","result_struct":{"count":50},"summary":"The hackathon had 50 participants."}
+{"id":"g289","query":"Code commit volume","result_struct":{"count":100},"summary":"Code commit volume reached 100."}
+{"id":"g290","query":"Bug bounty payout","result_struct":{"amount":1000,"currency":"USD"},"summary":"Bug bounty payouts totaled $1,000."}
+{"id":"g291","query":"Open source contribution count","result_struct":{"count":5},"summary":"There were 5 open source contributions."}
+{"id":"g292","query":"Developer documentation views","result_struct":{"count":200},"summary":"Developer documentation received 200 views."}
+{"id":"g293","query":"SDK download count","result_struct":{"count":50},"summary":"The SDK was downloaded 50 times."}
+{"id":"g294","query":"API error 404 count","result_struct":{"count":20},"summary":"There were 20 API 404 errors."}
+{"id":"g295","query":"API error 500 count","result_struct":{"count":5},"summary":"There were 5 API 500 errors."}
+{"id":"g296","query":"Webhook failure rate","result_struct":{"pct":1},"summary":"The webhook failure rate is 1%."}
+{"id":"g297","query":"Data ingestion rate","result_struct":{"gb_hour":2},"summary":"Data ingestion is 2 GB/hour."}
+{"id":"g298","query":"ETL job duration avg","result_struct":{"minutes":15},"summary":"Average ETL job duration is 15 minutes."}
+{"id":"g299","query":"Data quality score","result_struct":{"score":95},"summary":"The data quality score is 95."}
+{"id":"g300","query":"Missing data field count","result_struct":{"count":10},"summary":"There are 10 missing data fields."}
+{"id":"g301","query":"Duplicate record count","result_struct":{"count":5},"summary":"5 duplicate records were found."}
+{"id":"g302","query":"Schema change count","result_struct":{"count":1},"summary":"There was 1 schema change."}
+{"id":"g303","query":"Table row count","result_struct":{"count":100000},"summary":"The table contains 100,000 rows."}
+{"id":"g304","query":"Query execution time max","result_struct":{"ms":500},"summary":"Maximum query execution time was 500ms."}
+{"id":"g305","query":"Database lock wait time","result_struct":{"ms":10},"summary":"Database lock wait time is 10ms."}
+{"id":"g306","query":"Transaction throughput","result_struct":{"tps":100},"summary":"Transaction throughput is 100 TPS."}
+{"id":"g307","query":"Connection pool usage","result_struct":{"pct":50},"summary":"Connection pool usage is 50%."}
+{"id":"g308","query":"Cache eviction count","result_struct":{"count":100},"summary":"There were 100 cache evictions."}
+{"id":"g309","query":"Session store size","result_struct":{"mb":50},"summary":"Session store size is 50 MB."}
+{"id":"g310","query":"Queue depth","result_struct":{"count":10},"summary":"The queue depth is 10."}
+{"id":"g311","query":"Consumer lag","result_struct":{"ms":50},"summary":"Consumer lag is 50ms."}
+{"id":"g312","query":"Stream processing rate","result_struct":{"events_sec":500},"summary":"Stream processing is at 500 events/sec."}
+{"id":"g313","query":"Log volume","result_struct":{"gb_day":5},"summary":"Log volume is 5 GB/day."}
+{"id":"g314","query":"Metric cardinality","result_struct":{"count":1000},"summary":"Metric cardinality is 1,000."}
+{"id":"g315","query":"Trace retention period","result_struct":{"days":7},"summary":"Trace retention period is 7 days."}
+{"id":"g316","query":"Alert firing count","result_struct":{"count":5},"summary":"5 alerts are currently firing."}
+{"id":"g317","query":"Incident MTTR","result_struct":{"minutes":30},"summary":"Mean Time To Resolution (MTTR) is 30 minutes."}
+{"id":"g318","query":"Incident MTBF","result_struct":{"days":10},"summary":"Mean Time Between Failures (MTBF) is 10 days."}
+{"id":"g319","query":"On-call page count","result_struct":{"count":2},"summary":"There were 2 on-call pages."}
+{"id":"g320","query":"Runbook usage count","result_struct":{"count":1},"summary":"The runbook was used 1 time."}
+{"id":"g321","query":"Status page view count","result_struct":{"count":50},"summary":"The status page had 50 views."}
+{"id":"g322","query":"Maintenance window duration","result_struct":{"minutes":60},"summary":"The maintenance window lasted 60 minutes."}
+{"id":"g323","query":"Planned downtime","result_struct":{"minutes":0},"summary":"There was zero planned downtime."}
+{"id":"g324","query":"Unplanned downtime","result_struct":{"minutes":0},"summary":"There was zero unplanned downtime."}
+{"id":"g325","query":"SLA breach count","result_struct":{"count":0},"summary":"There were zero SLA breaches."}
+{"id":"g326","query":"SLO error budget remaining","result_struct":{"pct":99},"summary":"99% of the SLO error budget remains."}
+{"id":"g327","query":"Customer churn rate monthly","result_struct":{"pct":1.5},"summary":"Monthly customer churn rate is 1.5%."}
+{"id":"g328","query":"Revenue churn rate","result_struct":{"pct":0.5},"summary":"Revenue churn rate is 0.5%."}
+{"id":"g329","query":"Upgrade MRR","result_struct":{"amount":2000,"currency":"USD"},"summary":"Upgrade MRR totaled $2,000."}
+{"id":"g330","query":"Downgrade MRR","result_struct":{"amount":500,"currency":"USD"},"summary":"Downgrade MRR totaled $500."}
+{"id":"g331","query":"Reactivation MRR","result_struct":{"amount":100,"currency":"USD"},"summary":"Reactivation MRR totaled $100."}
+{"id":"g332","query":"Trial conversion rate","result_struct":{"pct":10},"summary":"Trial conversion rate is 10%."}
+{"id":"g333","query":"Freemium to paid conversion","result_struct":{"pct":2},"summary":"Freemium to paid conversion is 2%."}
+{"id":"g334","query":"Average revenue per user (ARPU)","result_struct":{"amount":50,"currency":"USD"},"summary":"ARPU is $50."}
+{"id":"g335","query":"Average revenue per account (ARPA)","result_struct":{"amount":200,"currency":"USD"},"summary":"ARPA is $200."}
+{"id":"g336","query":"Magic number","result_struct":{"value":1.0},"summary":"The SaaS Magic Number is 1.0."}
+{"id":"g337","query":"Rule of 40 score","result_struct":{"value":45},"summary":"The Rule of 40 score is 45."}
+{"id":"g338","query":"Burn multiple","result_struct":{"value":1.5},"summary":"The burn multiple is 1.5."}
+{"id":"g339","query":"Cash flow positive?","result_struct":{"status":false},"summary":"The company is not currently cash flow positive."}
+{"id":"g340","query":"EBITDA margin","result_struct":{"pct":10},"summary":"EBITDA margin is 10%."}
+{"id":"g341","query":"Gross burn rate","result_struct":{"amount":100000,"currency":"USD"},"summary":"Gross burn rate is $100,000."}
+{"id":"g342","query":"Net burn rate","result_struct":{"amount":50000,"currency":"USD"},"summary":"Net burn rate is $50,000."}
+{"id":"g343","query":"Working capital","result_struct":{"amount":500000,"currency":"USD"},"summary":"Working capital is $500,000."}
+{"id":"g344","query":"Quick ratio","result_struct":{"ratio":1.2},"summary":"The quick ratio is 1.2."}
+{"id":"g345","query":"Accounts receivable turnover","result_struct":{"ratio":6},"summary":"Accounts receivable turnover is 6."}
+{"id":"g346","query":"Days sales outstanding (DSO)","result_struct":{"days":60},"summary":"Days Sales Outstanding (DSO) is 60 days."}
+{"id":"g347","query":"Accounts payable turnover","result_struct":{"ratio":4},"summary":"Accounts payable turnover is 4."}
+{"id":"g348","query":"Days payable outstanding (DPO)","result_struct":{"days":90},"summary":"Days Payable Outstanding (DPO) is 90 days."}
+{"id":"g349","query":"Return on equity (ROE)","result_struct":{"pct":15},"summary":"Return on Equity (ROE) is 15%."}
+{"id":"g350","query":"Return on assets (ROA)","result_struct":{"pct":10},"summary":"Return on Assets (ROA) is 10%."}
+{"id":"g351","query":"Earnings per share (EPS)","result_struct":{"amount":2.50,"currency":"USD"},"summary":"Earnings Per Share (EPS) is $2.50."}
+{"id":"g352","query":"Price to earnings (P/E) ratio","result_struct":{"ratio":20},"summary":"The P/E ratio is 20."}
+{"id":"g353","query":"Dividend yield","result_struct":{"pct":2},"summary":"The dividend yield is 2%."}
+{"id":"g354","query":"Market cap","result_struct":{"amount":100,"unit":"M USD"},"summary":"Market capitalization is 100 Million USD."}
+{"id":"g355","query":"Beta value","result_struct":{"value":1.1},"summary":"The Beta value is 1.1."}
+{"id":"g356","query":"Alpha value","result_struct":{"value":0.05},"summary":"The Alpha value is 0.05."}
+{"id":"g357","query":"Sharpe ratio","result_struct":{"value":1.5},"summary":"The Sharpe ratio is 1.5."}
+{"id":"g358","query":"Standard deviation","result_struct":{"value":10},"summary":"The standard deviation is 10."}
+{"id":"g359","query":"Variance","result_struct":{"value":100},"summary":"The variance is 100."}
+{"id":"g360","query":"Correlation coefficient","result_struct":{"value":0.8},"summary":"The correlation coefficient is 0.8."}
+{"id":"g361","query":"R-squared","result_struct":{"value":0.64},"summary":"The R-squared value is 0.64."}
+{"id":"g362","query":"P-value","result_struct":{"value":0.04},"summary":"The P-value is 0.04."}
+{"id":"g363","query":"Confidence interval","result_struct":{"lower":0.9,"upper":1.1},"summary":"The confidence interval ranges from 0.9 to 1.1."}
+{"id":"g364","query":"Margin of error","result_struct":{"pct":3},"summary":"The margin of error is 3%."}
+{"id":"g365","query":"Sample size","result_struct":{"count":1000},"summary":"The sample size is 1,000."}
+{"id":"g366","query":"Response rate","result_struct":{"pct":20},"summary":"The response rate is 20%."}
+{"id":"g367","query":"Completion rate","result_struct":{"pct":80},"summary":"The completion rate is 80%."}
+{"id":"g368","query":"Dropout rate","result_struct":{"pct":20},"summary":"The dropout rate is 20%."}
+{"id":"g369","query":"Validity score","result_struct":{"score":0.9},"summary":"The validity score is 0.9."}
+{"id":"g370","query":"Customer age demographics","result_struct":{"18-24":15,"25-34":45,"35+":40},"summary":"The 25-34 age group is the largest segment at 45%, followed by 35+ at 40%."}
+{"id":"g371","query":"Reliability score","result_struct":{"score":99},"summary":"The reliability score is 99."}
+{"id":"g372","query":"Incident severity breakdown","result_struct":{"Sev1":2,"Sev2":5,"Sev3":12},"summary":"There are 2 Sev1 incidents, 5 Sev2, and 12 Sev3."}
+{"id":"g373","query":"Average handle time (AHT)","result_struct":{"minutes":8.5},"summary":"Average handle time is 8.5 minutes."}
+{"id":"g374","query":"First contact resolution (FCR)","result_struct":{"pct":75},"summary":"First contact resolution rate is 75%."}
+{"id":"g375","query":"Customer effort score (CES)","result_struct":{"score":3.5,"scale":7},"summary":"The Customer Effort Score is 3.5 out of 7."}
+{"id":"g376","query":"Agent occupancy rate","result_struct":{"pct":85},"summary":"Agent occupancy rate is 85%."}
+{"id":"g377","query":"Shrinkage","result_struct":{"pct":10},"summary":"Shrinkage is calculated at 10%."}
+{"id":"g378","query":"Forecast accuracy","result_struct":{"pct":90},"summary":"Forecast accuracy stands at 90%."}
+{"id":"g379","query":"Schedule adherence","result_struct":{"pct":95},"summary":"Schedule adherence is high at 95%."}
+{"id":"g380","query":"Call abandonment rate","result_struct":{"pct":3},"summary":"The call abandonment rate is 3%."}
+{"id":"g381","query":"Average speed of answer (ASA)","result_struct":{"seconds":20},"summary":"Average speed of answer is 20 seconds."}
+{"id":"g382","query":"Service level","result_struct":{"pct":80,"seconds":20},"summary":"The service level is 80% answered within 20 seconds."}
+{"id":"g383","query":"IVR containment rate","result_struct":{"pct":40},"summary":"IVR containment rate is 40%."}
+{"id":"g384","query":"Chatbot deflection rate","result_struct":{"pct":30},"summary":"The chatbot deflection rate is 30%."}
+{"id":"g385","query":"Knowledge base article helpfulness","result_struct":{"pct":85},"summary":"85% of users found knowledge base articles helpful."}
+{"id":"g386","query":"Community engagement score","result_struct":{"score":70},"summary":"The community engagement score is 70."}
+{"id":"g387","query":"Moderation queue length","result_struct":{"count":20},"summary":"There are 20 items in the moderation queue."}
+{"id":"g388","query":"Flagged content count","result_struct":{"count":5},"summary":"5 pieces of content have been flagged."}
+{"id":"g389","query":"Banned user count","result_struct":{"count":2},"summary":"2 users have been banned."}
+{"id":"g390","query":"User registration trend","result_struct":{"trend":"up","pct":10},"summary":"User registrations are trending up by 10%."}
+{"id":"g391","query":"Account deletion requests","result_struct":{"count":5},"summary":"There are 5 account deletion requests."}
+{"id":"g392","query":"Password reset requests","result_struct":{"count":50},"summary":"We received 50 password reset requests."}
+{"id":"g393","query":"Login success rate","result_struct":{"pct":99},"summary":"The login success rate is 99%."}
+{"id":"g394","query":"Two-factor auth usage","result_struct":{"pct":40},"summary":"40% of users utilize two-factor authentication."}
+{"id":"g395","query":"Session timeout count","result_struct":{"count":100},"summary":"There were 100 session timeouts."}
+{"id":"g396","query":"Concurrent users peak","result_struct":{"count":5000},"summary":"Concurrent users peaked at 5,000."}
+{"id":"g397","query":"Bandwidth usage avg","result_struct":{"mbps":200},"summary":"Average bandwidth usage is 200 Mbps."}
+{"id":"g398","query":"Disk usage pct","result_struct":{"pct":60},"summary":"Disk usage is at 60%."}
+{"id":"g399","query":"CPU load avg","result_struct":{"load":1.5},"summary":"CPU load average is 1.5."}
+{"id":"g400","query":"Memory free mb","result_struct":{"mb":2048},"summary":"There is 2048 MB of free memory."}
+{"id":"g401","query":"Swap usage pct","result_struct":{"pct":5},"summary":"Swap usage is low at 5%."}
+{"id":"g402","query":"Process count","result_struct":{"count":150},"summary":"There are 150 active processes."}
+{"id":"g403","query":"Thread count","result_struct":{"count":500},"summary":"There are 500 active threads."}
+{"id":"g404","query":"File descriptor count","result_struct":{"count":1000},"summary":"There are 1,000 open file descriptors."}
+{"id":"g405","query":"Socket count","result_struct":{"count":200},"summary":"There are 200 open sockets."}
+{"id":"g406","query":"Inode usage pct","result_struct":{"pct":30},"summary":"Inode usage is at 30%."}
+{"id":"g407","query":"System uptime days","result_struct":{"days":100},"summary":"System uptime is 100 days."}
+{"id":"g408","query":"OS version","result_struct":{"version":"Linux 5.4"},"summary":"The OS version is Linux 5.4."}
+{"id":"g409","query":"Kernel panic count","result_struct":{"count":0},"summary":"There have been zero kernel panics."}
+{"id":"g410","query":"OOM killer count","result_struct":{"count":1},"summary":"The OOM killer was triggered 1 time."}
+{"id":"g411","query":"Zombie process count","result_struct":{"count":0},"summary":"There are no zombie processes."}
+{"id":"g412","query":"Docker container count","result_struct":{"count":10},"summary":"There are 10 Docker containers running."}
+{"id":"g413","query":"Pod restart count","result_struct":{"count":5},"summary":"Pods have restarted 5 times."}
+{"id":"g414","query":"Deployment success rate","result_struct":{"pct":98},"summary":"Deployment success rate is 98%."}
+{"id":"g415","query":"Build time avg","result_struct":{"minutes":5},"summary":"Average build time is 5 minutes."}
+{"id":"g416","query":"Test execution time","result_struct":{"minutes":10},"summary":"Test execution takes 10 minutes."}
+{"id":"g417","query":"Artifact size avg","result_struct":{"mb":50},"summary":"Average artifact size is 50 MB."}
+{"id":"g418","query":"Repo size gb","result_struct":{"gb":1},"summary":"Repository size is 1 GB."}
+{"id":"g419","query":"Branch count","result_struct":{"count":20},"summary":"There are 20 branches."}
+{"id":"g420","query":"Tag count","result_struct":{"count":50},"summary":"There are 50 tags."}
+{"id":"g421","query":"Release frequency","result_struct":{"per_week":2},"summary":"The release frequency is 2 per week."}
+{"id":"g422","query":"Hotfix count","result_struct":{"count":1},"summary":"There was 1 hotfix."}
+{"id":"g423","query":"Rollback count","result_struct":{"count":0},"summary":"There were zero rollbacks."}
+{"id":"g424","query":"Feature flag count","result_struct":{"count":15},"summary":"There are 15 active feature flags."}
+{"id":"g425","query":"Experiment count","result_struct":{"count":3},"summary":"3 experiments are currently running."}
+{"id":"g426","query":"A/B test winner","result_struct":{"variant":"B"},"summary":"Variant B is the A/B test winner."}
+{"id":"g427","query":"Significance level","result_struct":{"pct":95},"summary":"The significance level is 95%."}
+{"id":"g428","query":"Power usage effectiveness (PUE)","result_struct":{"value":1.5},"summary":"PUE is 1.5."}
+{"id":"g429","query":"Data center temperature","result_struct":{"celsius":20},"summary":"Data center temperature is 20°C."}
+{"id":"g430","query":"Rack utilization","result_struct":{"pct":80},"summary":"Rack utilization is 80%."}
+{"id":"g431","query":"Cable management status","result_struct":{"status":"Good"},"summary":"Cable management status is Good."}
+{"id":"g432","query":"Hardware failure rate","result_struct":{"pct":0.5},"summary":"The hardware failure rate is 0.5%."}
+{"id":"g433","query":"RMA count","result_struct":{"count":2},"summary":"There are 2 active RMAs."}
+{"id":"g434","query":"Server refresh cycle","result_struct":{"years":3},"summary":"The server refresh cycle is 3 years."}
+{"id":"g435","query":"Laptop inventory","result_struct":{"count":100},"summary":"There are 100 laptops in inventory."}
+{"id":"g436","query":"Mobile device inventory","result_struct":{"count":50},"summary":"There are 50 mobile devices in inventory."}
+{"id":"g437","query":"Software license compliance","result_struct":{"pct":100},"summary":"Software license compliance is 100%."}
+{"id":"g438","query":"Unused license count","result_struct":{"count":10},"summary":"There are 10 unused licenses."}
+{"id":"g439","query":"Shadow IT applications","result_struct":{"count":5},"summary":"5 shadow IT applications were detected."}
+{"id":"g440","query":"Cloud spend optimization","result_struct":{"savings_pct":10},"summary":"Cloud spend optimization saved 10%."}
+{"id":"g441","query":"Reserved instance coverage","result_struct":{"pct":60},"summary":"Reserved instance coverage is 60%."}
+{"id":"g442","query":"Spot instance usage","result_struct":{"pct":20},"summary":"Spot instance usage is 20%."}
+{"id":"g443","query":"Data transfer cost","result_struct":{"amount":500,"currency":"USD"},"summary":"Data transfer costs were $500."}
+{"id":"g444","query":"Storage cost","result_struct":{"amount":200,"currency":"USD"},"summary":"Storage costs were $200."}
+{"id":"g445","query":"Compute cost","result_struct":{"amount":1000,"currency":"USD"},"summary":"Compute costs were $1,000."}
+{"id":"g446","query":"Database cost","result_struct":{"amount":300,"currency":"USD"},"summary":"Database costs were $300."}
+{"id":"g447","query":"Network cost","result_struct":{"amount":100,"currency":"USD"},"summary":"Network costs were $100."}
+{"id":"g448","query":"Support cost","result_struct":{"amount":50,"currency":"USD"},"summary":"Support costs were $50."}
+{"id":"g449","query":"Training cost","result_struct":{"amount":100,"currency":"USD"},"summary":"Training costs were $100."}
+{"id":"g450","query":"Travel cost","result_struct":{"amount":500,"currency":"USD"},"summary":"Travel costs were $500."}
+{"id":"g451","query":"Entertainment cost","result_struct":{"amount":200,"currency":"USD"},"summary":"Entertainment costs were $200."}
+{"id":"g452","query":"Office supplies cost","result_struct":{"amount":50,"currency":"USD"},"summary":"Office supplies costs were $50."}
+{"id":"g453","query":"Rent cost","result_struct":{"amount":2000,"currency":"USD"},"summary":"Rent costs were $2,000."}
+{"id":"g454","query":"Utilities cost","result_struct":{"amount":300,"currency":"USD"},"summary":"Utilities costs were $300."}
+{"id":"g455","query":"Marketing spend","result_struct":{"amount":5000,"currency":"USD"},"summary":"Marketing spend was $5,000."}
+{"id":"g456","query":"Sales spend","result_struct":{"amount":4000,"currency":"USD"},"summary":"Sales spend was $4,000."}
+{"id":"g457","query":"R&D spend","result_struct":{"amount":3000,"currency":"USD"},"summary":"R&D spend was $3,000."}
+{"id":"g458","query":"G&A spend","result_struct":{"amount":2000,"currency":"USD"},"summary":"G&A spend was $2,000."}
+{"id":"g459","query":"COGS","result_struct":{"amount":1000,"currency":"USD"},"summary":"Cost of Goods Sold (COGS) was $1,000."}
+{"id":"g460","query":"Gross profit","result_struct":{"amount":5000,"currency":"USD"},"summary":"Gross profit was $5,000."}
+{"id":"g461","query":"Operating profit","result_struct":{"amount":2000,"currency":"USD"},"summary":"Operating profit was $2,000."}
+{"id":"g462","query":"Net profit","result_struct":{"amount":1000,"currency":"USD"},"summary":"Net profit was $1,000."}
+{"id":"g463","query":"Cash on hand","result_struct":{"amount":10000,"currency":"USD"},"summary":"Cash on hand is $10,000."}
+{"id":"g464","query":"Accounts receivable","result_struct":{"amount":2000,"currency":"USD"},"summary":"Accounts receivable total $2,000."}
+{"id":"g465","query":"Accounts payable","result_struct":{"amount":1000,"currency":"USD"},"summary":"Accounts payable total $1,000."}
+{"id":"g466","query":"Inventory value","result_struct":{"amount":5000,"currency":"USD"},"summary":"Inventory value is $5,000."}
+{"id":"g467","query":"Fixed assets","result_struct":{"amount":10000,"currency":"USD"},"summary":"Fixed assets are valued at $10,000."}
+{"id":"g468","query":"Intangible assets","result_struct":{"amount":2000,"currency":"USD"},"summary":"Intangible assets are valued at $2,000."}
+{"id":"g469","query":"Total liabilities","result_struct":{"amount":5000,"currency":"USD"},"summary":"Total liabilities are $5,000."}
+{"id":"g470","query":"Shareholders equity","result_struct":{"amount":15000,"currency":"USD"},"summary":"Shareholders' equity is $15,000."}
+{"id":"g471","query":"Working capital ratio","result_struct":{"ratio":2.0},"summary":"The working capital ratio is 2.0."}
+{"id":"g472","query":"Quick ratio","result_struct":{"ratio":1.5},"summary":"The quick ratio is 1.5."}
+{"id":"g473","query":"Debt ratio","result_struct":{"ratio":0.3},"summary":"The debt ratio is 0.3."}
+{"id":"g474","query":"Equity multiplier","result_struct":{"value":1.5},"summary":"The equity multiplier is 1.5."}
+{"id":"g475","query":"Asset turnover","result_struct":{"ratio":0.8},"summary":"Asset turnover is 0.8."}
+{"id":"g476","query":"Interest coverage ratio","result_struct":{"ratio":5},"summary":"The interest coverage ratio is 5."}
+{"id":"g477","query":"Dividend payout ratio","result_struct":{"pct":20},"summary":"The dividend payout ratio is 20%."}
+{"id":"g478","query":"Retention ratio","result_struct":{"pct":80},"summary":"The retention ratio is 80%."}
+{"id":"g479","query":"Sustainable growth rate","result_struct":{"pct":10},"summary":"The sustainable growth rate is 10%."}
+{"id":"g480","query":"Internal rate of return (IRR)","result_struct":{"pct":15},"summary":"The Internal Rate of Return (IRR) is 15%."}
+{"id":"g481","query":"Net present value (NPV)","result_struct":{"amount":5000,"currency":"USD"},"summary":"Net Present Value (NPV) is $5,000."}
+{"id":"g482","query":"Payback period","result_struct":{"years":3},"summary":"The payback period is 3 years."}
+{"id":"g483","query":"Break-even point","result_struct":{"units":1000},"summary":"The break-even point is 1,000 units."}
+{"id":"g484","query":"Contribution margin","result_struct":{"amount":50,"currency":"USD"},"summary":"Contribution margin is $50."}
+{"id":"g485","query":"Variable cost per unit","result_struct":{"amount":20,"currency":"USD"},"summary":"Variable cost per unit is $20."}
+{"id":"g486","query":"Fixed cost total","result_struct":{"amount":10000,"currency":"USD"},"summary":"Total fixed costs are $10,000."}
+{"id":"g487","query":"Opportunity cost","result_struct":{"amount":1000,"currency":"USD"},"summary":"The opportunity cost is estimated at $1,000."}
+{"id":"g488","query":"Sunk cost","result_struct":{"amount":500,"currency":"USD"},"summary":"Sunk costs amount to $500."}
+{"id":"g489","query":"Marginal cost","result_struct":{"amount":10,"currency":"USD"},"summary":"The marginal cost is $10."}
+{"id":"g490","query":"Marginal revenue","result_struct":{"amount":15,"currency":"USD"},"summary":"Marginal revenue is $15."}
+{"id":"g491","query":"Price elasticity of demand","result_struct":{"value":-1.5},"summary":"Price elasticity of demand is -1.5."}
+{"id":"g492","query":"Consumer surplus","result_struct":{"amount":200,"currency":"USD"},"summary":"Consumer surplus is $200."}
+{"id":"g493","query":"Producer surplus","result_struct":{"amount":300,"currency":"USD"},"summary":"Producer surplus is $300."}
+{"id":"g494","query":"Deadweight loss","result_struct":{"amount":50,"currency":"USD"},"summary":"Deadweight loss is $50."}
+{"id":"g495","query":"Gini coefficient","result_struct":{"value":0.4},"summary":"The Gini coefficient is 0.4."}
+{"id":"g496","query":"Human development index (HDI)","result_struct":{"value":0.8},"summary":"The Human Development Index (HDI) is 0.8."}
+{"id":"g497","query":"GDP growth rate","result_struct":{"pct":2},"summary":"GDP growth rate is 2%."}
+{"id":"g498","query":"Inflation rate","result_struct":{"pct":3},"summary":"The inflation rate is 3%."}
+{"id":"g499","query":"Unemployment rate","result_struct":{"pct":5},"summary":"The unemployment rate is 5%."}
+{"id":"g500","query":"Interest rate","result_struct":{"pct":4},"summary":"The interest rate is 4%."}
+{"id":"g501","query":"Exchange rate USD/EUR","result_struct":{"rate":0.9},"summary":"The USD/EUR exchange rate is 0.9."}
+{"id":"g502","query":"Balance of trade","result_struct":{"amount":-100,"unit":"M USD"},"summary":"The balance of trade is -100 Million USD."}
+{"id":"g503","query":"National debt","result_struct":{"amount":1,"unit":"T USD"},"summary":"The national debt is 1 Trillion USD."}
+{"id":"g504","query":"Budget deficit","result_struct":{"amount":50,"unit":"B USD"},"summary":"The budget deficit is 50 Billion USD."}
+{"id":"g505","query":"Tax revenue","result_struct":{"amount":200,"unit":"B USD"},"summary":"Tax revenue amounts to 200 Billion USD."}
+{"id":"g506","query":"Government spending","result_struct":{"amount":250,"unit":"B USD"},"summary":"Government spending is 250 Billion USD."}
+{"id":"g507","query":"Poverty rate","result_struct":{"pct":10},"summary":"The poverty rate is 10%."}
+{"id":"g508","query":"Literacy rate","result_struct":{"pct":95},"summary":"The literacy rate is 95%."}
+{"id":"g509","query":"Life expectancy","result_struct":{"years":78},"summary":"Life expectancy is 78 years."}
+{"id":"g510","query":"Population growth rate","result_struct":{"pct":1},"summary":"The population growth rate is 1%."}
+{"id":"g511","query":"Urbanization rate","result_struct":{"pct":80},"summary":"The urbanization rate is 80%."}
+{"id":"g512","query":"Internet penetration","result_struct":{"pct":90},"summary":"Internet penetration is 90%."}
+{"id":"g513","query":"Mobile phone penetration","result_struct":{"pct":95},"summary":"Mobile phone penetration is 95%."}
+{"id":"g514","query":"Social media usage","result_struct":{"pct":70},"summary":"Social media usage is 70%."}
+{"id":"g515","query":"E-commerce adoption","result_struct":{"pct":50},"summary":"E-commerce adoption is 50%."}
+{"id":"g516","query":"Fintech adoption","result_struct":{"pct":40},"summary":"Fintech adoption is 40%."}
+{"id":"g517","query":"Cryptocurrency adoption","result_struct":{"pct":10},"summary":"Cryptocurrency adoption is 10%."}
+{"id":"g518","query":"AI adoption","result_struct":{"pct":20},"summary":"AI adoption is 20%."}
+{"id":"g519","query":"IoT adoption","result_struct":{"pct":30},"summary":"IoT adoption is 30%."}
+{"id":"g520","query":"Cloud adoption","result_struct":{"pct":60},"summary":"Cloud adoption is 60%."}
+{"id":"g521","query":"Big data adoption","result_struct":{"pct":50},"summary":"Big data adoption is 50%."}
+{"id":"g522","query":"Blockchain adoption","result_struct":{"pct":5},"summary":"Blockchain adoption is 5%."}
+{"id":"g523","query":"VR/AR adoption","result_struct":{"pct":5},"summary":"VR/AR adoption is 5%."}
+{"id":"g524","query":"5G adoption","result_struct":{"pct":20},"summary":"5G adoption is 20%."}
+{"id":"g525","query":"EV adoption","result_struct":{"pct":10},"summary":"Electric Vehicle (EV) adoption is 10%."}
+{"id":"g526","query":"Solar power adoption","result_struct":{"pct":15},"summary":"Solar power adoption is 15%."}
+{"id":"g527","query":"Wind power adoption","result_struct":{"pct":10},"summary":"Wind power adoption is 10%."}
+{"id":"g528","query":"Recycling rate national","result_struct":{"pct":30},"summary":"The national recycling rate is 30%."}
+{"id":"g529","query":"Carbon emission reduction","result_struct":{"pct":5},"summary":"Carbon emissions were reduced by 5%."}
+{"id":"g530","query":"Water conservation","result_struct":{"pct":2},"summary":"Water conservation improved by 2%."}
+{"id":"g531","query":"Forest cover change","result_struct":{"pct":-1},"summary":"Forest cover decreased by 1%."}
+{"id":"g532","query":"Air quality index","result_struct":{"aqi":50},"summary":"The Air Quality Index (AQI) is 50."}
+{"id":"g533","query":"Water quality index","result_struct":{"wqi":80},"summary":"The Water Quality Index (WQI) is 80."}
+{"id":"g534","query":"Biodiversity index","result_struct":{"index":0.7},"summary":"The biodiversity index is 0.7."}
+{"id":"g535","query":"Renewable energy share","result_struct":{"pct":25},"summary":"Renewable energy accounts for 25% of the total."}
+{"id":"g536","query":"Fossil fuel dependency","result_struct":{"pct":70},"summary":"Fossil fuel dependency is 70%."}
+{"id":"g537","query":"Nuclear energy share","result_struct":{"pct":5},"summary":"Nuclear energy provides 5% of power."}
+{"id":"g538","query":"Energy efficiency improvement","result_struct":{"pct":2},"summary":"Energy efficiency improved by 2%."}
+{"id":"g539","query":"Grid reliability","result_struct":{"pct":99.9},"summary":"Grid reliability is 99.9%."}
+{"id":"g540","query":"Power outage duration avg","result_struct":{"minutes":10},"summary":"Average power outage duration is 10 minutes."}
+{"id":"g541","query":"Customer complaints utility","result_struct":{"count":50},"summary":"The utility received 50 customer complaints."}
+{"id":"g542","query":"Smart meter installation","result_struct":{"pct":80},"summary":"Smart meter installation has reached 80%."}
+{"id":"g543","query":"Peak load demand","result_struct":{"mw":1000},"summary":"Peak load demand is 1,000 MW."}
+{"id":"g544","query":"Base load demand","result_struct":{"mw":500},"summary":"Base load demand is 500 MW."}
+{"id":"g545","query":"Transmission loss","result_struct":{"pct":5},"summary":"Transmission losses are 5%."}
+{"id":"g546","query":"Distribution loss","result_struct":{"pct":3},"summary":"Distribution losses are 3%."}
+{"id":"g547","query":"Substation capacity","result_struct":{"mva":200},"summary":"Substation capacity is 200 MVA."}
+{"id":"g548","query":"Transformer health index","result_struct":{"score":90},"summary":"The transformer health index is 90."}
+{"id":"g549","query":"Circuit breaker operation count","result_struct":{"count":10},"summary":"Circuit breakers operated 10 times."}
+{"id":"g550","query":"Relay operation count","result_struct":{"count":5},"summary":"Relays operated 5 times."}
+{"id":"g551","query":"Voltage fluctuation avg","result_struct":{"pct":1},"summary":"Average voltage fluctuation is 1%."}
+{"id":"g552","query":"Frequency deviation avg","result_struct":{"hz":0.1},"summary":"Average frequency deviation is 0.1 Hz."}
+{"id":"g553","query":"Harmonic distortion total","result_struct":{"pct":2},"summary":"Total harmonic distortion is 2%."}
+{"id":"g554","query":"Power factor avg","result_struct":{"value":0.95},"summary":"The average power factor is 0.95."}
+{"id":"g555","query":"Reactive power consumption","result_struct":{"kvar":100},"summary":"Reactive power consumption is 100 kVAR."}
+{"id":"g556","query":"Active power consumption","result_struct":{"kw":500},"summary":"Active power consumption is 500 kW."}
+{"id":"g557","query":"Apparent power consumption","result_struct":{"kva":520},"summary":"Apparent power consumption is 520 kVA."}
+{"id":"g558","query":"Load factor","result_struct":{"value":0.6},"summary":"The load factor is 0.6."}
+{"id":"g559","query":"Diversity factor","result_struct":{"value":1.2},"summary":"The diversity factor is 1.2."}
+{"id":"g560","query":"Coincidence factor","result_struct":{"value":0.8},"summary":"The coincidence factor is 0.8."}
+{"id":"g561","query":"Utilization factor","result_struct":{"value":0.7},"summary":"The utilization factor is 0.7."}
+{"id":"g562","query":"Plant capacity factor","result_struct":{"value":0.5},"summary":"The plant capacity factor is 0.5."}
+{"id":"g563","query":"Plant use factor","result_struct":{"value":0.4},"summary":"The plant use factor is 0.4."}
+{"id":"g564","query":"Demand factor","result_struct":{"value":0.6},"summary":"The demand factor is 0.6."}
+{"id":"g565","query":"Connected load","result_struct":{"kw":1000},"summary":"The connected load is 1,000 kW."}
+{"id":"g566","query":"Maximum demand","result_struct":{"kw":600},"summary":"Maximum demand is 600 kW."}
+{"id":"g567","query":"Average demand","result_struct":{"kw":400},"summary":"Average demand is 400 kW."}
+{"id":"g568","query":"Energy generated MWh","result_struct":{"mwh":10},"summary":"Energy generated was 10 MWh."}
+{"id":"g569","query":"Energy consumed MWh","result_struct":{"mwh":8},"summary":"Energy consumed was 8 MWh."}
+{"id":"g570","query":"Energy exported MWh","result_struct":{"mwh":2},"summary":"Energy exported was 2 MWh."}
+{"id":"g571","query":"Energy imported MWh","result_struct":{"mwh":0},"summary":"Energy imported was 0 MWh."}
+{"id":"g572","query":"Fuel consumption liters","result_struct":{"liters":1000},"summary":"Fuel consumption was 1,000 liters."}
+{"id":"g573","query":"Heat rate","result_struct":{"kj_kwh":10000},"summary":"The heat rate is 10,000 kJ/kWh."}
+{"id":"g574","query":"Thermal efficiency","result_struct":{"pct":35},"summary":"Thermal efficiency is 35%."}
+{"id":"g575","query":"Boiler efficiency","result_struct":{"pct":85},"summary":"Boiler efficiency is 85%."}
+{"id":"g576","query":"Turbine efficiency","result_struct":{"pct":40},"summary":"Turbine efficiency is 40%."}
+{"id":"g577","query":"Generator efficiency","result_struct":{"pct":95},"summary":"Generator efficiency is 95%."}
+{"id":"g578","query":"Transmission line length","result_struct":{"km":100},"summary":"Transmission line length is 100 km."}
+{"id":"g579","query":"Tower count","result_struct":{"count":300},"summary":"There are 300 towers."}
+{"id":"g580","query":"Insulator count","result_struct":{"count":1000},"summary":"There are 1,000 insulators."}
+{"id":"g581","query":"Conductor type","result_struct":{"type":"ACSR"},"summary":"The conductor type is ACSR."}
+{"id":"g582","query":"Grounding resistance","result_struct":{"ohm":5},"summary":"Grounding resistance is 5 ohms."}
+{"id":"g583","query":"Lightning arrestor count","result_struct":{"count":50},"summary":"There are 50 lightning arrestors."}
+{"id":"g584","query":"Battery bank capacity","result_struct":{"ah":1000},"summary":"Battery bank capacity is 1,000 Ah."}
+{"id":"g585","query":"Battery health","result_struct":{"pct":90},"summary":"Battery health is at 90%."}
+{"id":"g586","query":"Inverter efficiency","result_struct":{"pct":95},"summary":"Inverter efficiency is 95%."}
+{"id":"g587","query":"Solar panel degradation","result_struct":{"pct":0.5},"summary":"Solar panel degradation is 0.5%."}
+{"id":"g588","query":"Wind turbine availability","result_struct":{"pct":98},"summary":"Wind turbine availability is 98%."}
+{"id":"g589","query":"Hydro dam water level","result_struct":{"meters":50},"summary":"Hydro dam water level is 50 meters."}
+{"id":"g590","query":"Nuclear reactor status","result_struct":{"status":"Critical"},"summary":"The nuclear reactor status is Critical (active)."}
+{"id":"g591","query":"Radiation level","result_struct":{"msv":0.1},"summary":"Radiation level is 0.1 mSv."}
+{"id":"g592","query":"Safety valve status","result_struct":{"status":"Closed"},"summary":"Safety valves are Closed."}
+{"id":"g593","query":"Coolant temperature","result_struct":{"celsius":300},"summary":"Coolant temperature is 300°C."}
+{"id":"g594","query":"Pressure vessel integrity","result_struct":{"status":"OK"},"summary":"Pressure vessel integrity is OK."}
+{"id":"g595","query":"Control rod position","result_struct":{"pct":50},"summary":"Control rods are at 50% insertion."}
+{"id":"g596","query":"Emergency diesel generator status","result_struct":{"status":"Standby"},"summary":"The emergency diesel generator is on Standby."}
+{"id":"g597","query":"Fire suppression system status","result_struct":{"status":"Armed"},"summary":"The fire suppression system is Armed."}
+{"id":"g598","query":"Security camera status","result_struct":{"active":10,"total":10},"summary":"10 out of 10 security cameras are active."}
+{"id":"g599","query":"Access control log count","result_struct":{"count":50},"summary":"The access control log has 50 entries."}
+{"id":"g600","query":"Intruder alarm count","result_struct":{"count":0},"summary":"There have been zero intruder alarms."}
+{"id":"g601","query":"Perimeter fence status","result_struct":{"status":"Secure"},"summary":"The perimeter fence is Secure."}
+{"id":"g602","query":"Guard patrol count","result_struct":{"count":5},"summary":"There have been 5 guard patrols."}
+{"id":"g603","query":"Incident report count","result_struct":{"count":0},"summary":"There are zero incident reports."}
+{"id":"g604","query":"Drill completion status","result_struct":{"status":"Completed"},"summary":"The safety drill was Completed."}
+{"id":"g605","query":"Evacuation time avg","result_struct":{"minutes":2},"summary":"Average evacuation time is 2 minutes."}
+{"id":"g606","query":"First aid kit count","result_struct":{"count":5},"summary":"There are 5 first aid kits."}
+{"id":"g607","query":"AED count","result_struct":{"count":2},"summary":"There are 2 AEDs available."}
+{"id":"g608","query":"Fire extinguisher count","result_struct":{"count":10},"summary":"There are 10 fire extinguishers."}
+{"id":"g609","query":"Smoke detector count","result_struct":{"count":20},"summary":"There are 20 smoke detectors."}
+{"id":"g610","query":"Sprinkler system pressure","result_struct":{"psi":100},"summary":"Sprinkler system pressure is 100 PSI."}
+{"id":"g611","query":"Exit sign status","result_struct":{"status":"Lit"},"summary":"Exit signs are Lit."}
+{"id":"g612","query":"Emergency lighting status","result_struct":{"status":"Functional"},"summary":"Emergency lighting is Functional."}
+{"id":"g613","query":"Hazardous material storage","result_struct":{"status":"Safe"},"summary":"Hazardous material storage is Safe."}
+{"id":"g614","query":"Waste disposal log","result_struct":{"count":2},"summary":"The waste disposal log shows 2 entries."}
+{"id":"g615","query":"Recycling bin fullness","result_struct":{"pct":50},"summary":"Recycling bins are 50% full."}
+{"id":"g616","query":"Compost bin fullness","result_struct":{"pct":20},"summary":"Compost bins are 20% full."}
+{"id":"g617","query":"Trash bin fullness","result_struct":{"pct":80},"summary":"Trash bins are 80% full."}
+{"id":"g618","query":"Pest control visit","result_struct":{"date":"2024-01-01"},"summary":"The last pest control visit was on 2024-01-01."}
+{"id":"g619","query":"Cleaning schedule adherence","result_struct":{"pct":100},"summary":"Cleaning schedule adherence is 100%."}
+{"id":"g620","query":"Restroom supply status","result_struct":{"status":"Stocked"},"summary":"Restrooms are fully Stocked."}
+{"id":"g621","query":"Breakroom supply status","result_struct":{"status":"Stocked"},"summary":"The breakroom is fully Stocked."}
+{"id":"g622","query":"Vending machine status","result_struct":{"status":"Operational"},"summary":"Vending machines are Operational."}
+{"id":"g623","query":"Coffee machine status","result_struct":{"status":"Operational"},"summary":"The coffee machine is Operational."}
+{"id":"g624","query":"Water cooler status","result_struct":{"status":"Operational"},"summary":"The water cooler is Operational."}
+{"id":"g625","query":"Microwave status","result_struct":{"status":"Operational"},"summary":"The microwave is Operational."}
+{"id":"g626","query":"Refrigerator temp","result_struct":{"celsius":4},"summary":"The refrigerator temperature is 4°C."}
+{"id":"g627","query":"Dishwasher cycle count","result_struct":{"count":3},"summary":"The dishwasher ran 3 cycles."}
+{"id":"g628","query":"Sink functionality","result_struct":{"status":"OK"},"summary":"Sinks are functioning OK."}
+{"id":"g629","query":"Toilet functionality","result_struct":{"status":"OK"},"summary":"Toilets are functioning OK."}
+{"id":"g630","query":"Hand dryer status","result_struct":{"status":"OK"},"summary":"Hand dryers are functioning OK."}
+{"id":"g631","query":"Soap dispenser level","result_struct":{"pct":50},"summary":"Soap dispensers are 50% full."}
+{"id":"g632","query":"Paper towel level","result_struct":{"pct":50},"summary":"Paper towels are 50% full."}
+{"id":"g633","query":"Air freshener status","result_struct":{"status":"Active"},"summary":"Air fresheners are Active."}
+{"id":"g634","query":"Plant watering status","result_struct":{"status":"Done"},"summary":"Plant watering is Done."}
+{"id":"g635","query":"Window cleanliness","result_struct":{"status":"Clean"},"summary":"Windows are Clean."}
+{"id":"g636","query":"Floor cleanliness","result_struct":{"status":"Clean"},"summary":"Floors are Clean."}
+{"id":"g637","query":"Desk cleanliness","result_struct":{"status":"Clean"},"summary":"Desks are Clean."}
+{"id":"g638","query":"Chair condition","result_struct":{"status":"Good"},"summary":"Chairs are in Good condition."}
+{"id":"g639","query":"Monitor condition","result_struct":{"status":"Good"},"summary":"Monitors are in Good condition."}
+{"id":"g640","query":"Keyboard condition","result_struct":{"status":"Good"},"summary":"Keyboards are in Good condition."}
+{"id":"g641","query":"Mouse condition","result_struct":{"status":"Good"},"summary":"Mice are in Good condition."}
+{"id":"g642","query":"Phone condition","result_struct":{"status":"Good"},"summary":"Phones are in Good condition."}
+{"id":"g643","query":"Headset condition","result_struct":{"status":"Good"},"summary":"Headsets are in Good condition."}
+{"id":"g644","query":"Webcam condition","result_struct":{"status":"Good"},"summary":"Webcams are in Good condition."}
+{"id":"g645","query":"Docking station condition","result_struct":{"status":"Good"},"summary":"Docking stations are in Good condition."}
+{"id":"g646","query":"Cable condition","result_struct":{"status":"Good"},"summary":"Cables are in Good condition."}
+{"id":"g647","query":"Adapter condition","result_struct":{"status":"Good"},"summary":"Adapters are in Good condition."}
+{"id":"g648","query":"Bag condition","result_struct":{"status":"Good"},"summary":"Bags are in Good condition."}
+{"id":"g649","query":"Lock condition","result_struct":{"status":"Good"},"summary":"Locks are in Good condition."}
+{"id":"g650","query":"Key condition","result_struct":{"status":"Good"},"summary":"Keys are in Good condition."}
+{"id":"g651","query":"Badge condition","result_struct":{"status":"Good"},"summary":"Badges are in Good condition."}
+{"id":"g652","query":"Lanyard condition","result_struct":{"status":"Good"},"summary":"Lanyards are in Good condition."}
+{"id":"g653","query":"Uniform condition","result_struct":{"status":"Good"},"summary":"Uniforms are in Good condition."}
+{"id":"g654","query":"Shoe condition","result_struct":{"status":"Good"},"summary":"Shoes are in Good condition."}
+{"id":"g655","query":"Hat condition","result_struct":{"status":"Good"},"summary":"Hats are in Good condition."}
+{"id":"g656","query":"Glove condition","result_struct":{"status":"Good"},"summary":"Gloves are in Good condition."}
+{"id":"g657","query":"Goggle condition","result_struct":{"status":"Good"},"summary":"Goggles are in Good condition."}
+{"id":"g658","query":"Earplug condition","result_struct":{"status":"Good"},"summary":"Earplugs are in Good condition."}
+{"id":"g659","query":"Mask condition","result_struct":{"status":"Good"},"summary":"Masks are in Good condition."}
+{"id":"g660","query":"Vest condition","result_struct":{"status":"Good"},"summary":"Vests are in Good condition."}
+{"id":"g661","query":"Helmet condition","result_struct":{"status":"Good"},"summary":"Helmets are in Good condition."}
+{"id":"g662","query":"Belt condition","result_struct":{"status":"Good"},"summary":"Belts are in Good condition."}
+{"id":"g663","query":"Tool condition","result_struct":{"status":"Good"},"summary":"Tools are in Good condition."}
+{"id":"g664","query":"Equipment condition","result_struct":{"status":"Good"},"summary":"Equipment is in Good condition."}
+{"id":"g665","query":"Vehicle condition","result_struct":{"status":"Good"},"summary":"Vehicles are in Good condition."}
+{"id":"g666","query":"Building condition","result_struct":{"status":"Good"},"summary":"The building is in Good condition."}
+{"id":"g667","query":"Grounds condition","result_struct":{"status":"Good"},"summary":"Grounds are in Good condition."}
+{"id":"g668","query":"Landscaping condition","result_struct":{"status":"Good"},"summary":"Landscaping is in Good condition."}
+{"id":"g669","query":"Parking lot condition","result_struct":{"status":"Good"},"summary":"The parking lot is in Good condition."}
+{"id":"g670","query":"Signage condition","result_struct":{"status":"Good"},"summary":"Signage is in Good condition."}
+{"id":"g671","query":"Lighting condition","result_struct":{"status":"Good"},"summary":"Lighting is in Good condition."}
+{"id":"g672","query":"HVAC condition","result_struct":{"status":"Good"},"summary":"HVAC systems are in Good condition."}
+{"id":"g673","query":"Plumbing condition","result_struct":{"status":"Good"},"summary":"Plumbing is in Good condition."}
+{"id":"g674","query":"Electrical condition","result_struct":{"status":"Good"},"summary":"Electrical systems are in Good condition."}
+{"id":"g675","query":"Network condition","result_struct":{"status":"Good"},"summary":"The network is in Good condition."}
+{"id":"g676","query":"Phone system condition","result_struct":{"status":"Good"},"summary":"The phone system is in Good condition."}
+{"id":"g677","query":"Security system condition","result_struct":{"status":"Good"},"summary":"The security system is in Good condition."}
+{"id":"g678","query":"Fire system condition","result_struct":{"status":"Good"},"summary":"The fire system is in Good condition."}
+{"id":"g679","query":"Elevator condition","result_struct":{"status":"Good"},"summary":"Elevators are in Good condition."}
+{"id":"g680","query":"Escalator condition","result_struct":{"status":"Good"},"summary":"Escalators are in Good condition."}
+{"id":"g681","query":"Door condition","result_struct":{"status":"Good"},"summary":"Doors are in Good condition."}
+{"id":"g682","query":"Window condition","result_struct":{"status":"Good"},"summary":"Windows are in Good condition."}
+{"id":"g683","query":"Roof condition","result_struct":{"status":"Good"},"summary":"The roof is in Good condition."}
+{"id":"g684","query":"Wall condition","result_struct":{"status":"Good"},"summary":"Walls are in Good condition."}
+{"id":"g685","query":"Floor condition","result_struct":{"status":"Good"},"summary":"Floors are in Good condition."}
+{"id":"g686","query":"Ceiling condition","result_struct":{"status":"Good"},"summary":"Ceilings are in Good condition."}
+{"id":"g687","query":"Furniture condition","result_struct":{"status":"Good"},"summary":"Furniture is in Good condition."}
+{"id":"g688","query":"Appliance condition","result_struct":{"status":"Good"},"summary":"Appliances are in Good condition."}
+{"id":"g689","query":"Supply condition","result_struct":{"status":"Good"},"summary":"Supplies are in Good condition."}
+{"id":"g690","query":"Inventory condition","result_struct":{"status":"Good"},"summary":"Inventory is in Good condition."}
+{"id":"g691","query":"Asset condition","result_struct":{"status":"Good"},"summary":"Assets are in Good condition."}
+{"id":"g692","query":"Product A vs Product B sales","result_struct":{"Product A":1500,"Product B":1200},"summary":"Product A outsold Product B (1500 vs 1200)."}
+{"id":"g693","query":"Q1 vs Q2 user growth","result_struct":{"Q1":5,"Q2":8},"summary":"User growth accelerated from 5% in Q1 to 8% in Q2."}
+{"id":"g694","query":"Desktop vs Mobile revenue","result_struct":{"Desktop":40000,"Mobile":60000},"summary":"Mobile revenue ($60k) exceeded Desktop ($40k)."}
+{"id":"g695","query":"Paid vs Organic traffic","result_struct":{"Paid":30,"Organic":70},"summary":"Organic traffic (70%) is more than double paid traffic (30%)."}
+{"id":"g696","query":"New vs Existing customer revenue","result_struct":{"New":20000,"Existing":80000},"summary":"Existing customers contributed $80k revenue compared to $20k from new ones."}
+{"id":"g697","query":"Male vs Female demographics","result_struct":{"Male":45,"Female":55},"summary":"The demographic split is 55% Female and 45% Male."}
+{"id":"g698","query":"Domestic vs International shipping","result_struct":{"Domestic":80,"International":20},"summary":"80% of shipping is domestic, with 20% international."}
+{"id":"g699","query":"Online vs In-store sales","result_struct":{"Online":60,"In-store":40},"summary":"Online sales (60%) are higher than in-store sales (40%)."}
+{"id":"g700","query":"Cloud vs On-prem cost","result_struct":{"Cloud":5000,"On-prem":3000},"summary":"Cloud costs ($5k) are currently higher than on-prem ($3k)."}
+{"id":"g701","query":"Subscription vs One-time purchase","result_struct":{"Subscription":70,"One-time":30},"summary":"Subscriptions make up 70% of revenue vs 30% for one-time purchases."}
+{"id":"g702","query":"Top 3 sales regions","result_struct":{"regions":["North","West","South"]},"summary":"The top sales regions are North, West, and South."}
+{"id":"g703","query":"Bottom 3 performing products","result_struct":{"products":["Item X","Item Y","Item Z"]},"summary":"The worst performing products are Item X, Item Y, and Item Z."}
+{"id":"g704","query":"Top 5 customer industries","result_struct":{"industries":["Tech","Finance","Healthcare","Retail","Education"]},"summary":"Top customer industries include Tech, Finance, Healthcare, Retail, and Education."}
+{"id":"g705","query":"List of active campaigns","result_struct":{"campaigns":["Summer Sale","Back to School"]},"summary":"Active campaigns are Summer Sale and Back to School."}
+{"id":"g706","query":"List of supported languages","result_struct":{"languages":["en","es","fr","de"]},"summary":"Supported languages are English, Spanish, French, and German."}
+{"id":"g707","query":"List of payment methods","result_struct":{"methods":["Visa","Mastercard","PayPal"]},"summary":"Accepted payment methods are Visa, Mastercard, and PayPal."}
+{"id":"g708","query":"List of shipping providers","result_struct":{"providers":["UPS","FedEx","USPS"]},"summary":"Shipping providers include UPS, FedEx, and USPS."}
+{"id":"g709","query":"List of integrations","result_struct":{"integrations":["Slack","Jira","Salesforce"]},"summary":"Integrations include Slack, Jira, and Salesforce."}
+{"id":"g710","query":"List of user roles","result_struct":{"roles":["Admin","Editor","Viewer"]},"summary":"User roles are Admin, Editor, and Viewer."}
+{"id":"g711","query":"Compliance certifications held","result_struct":{"certs":["ISO 27001","SOC 2"]},"summary":"We hold ISO 27001 and SOC 2 certifications."}
+{"id":"g712","query":"System status check","result_struct":{"status":"All Systems Operational"},"summary":"All systems are currently operational."}
+{"id":"g713","query":"Is database maintenance required?","result_struct":{"required":false},"summary":"Database maintenance is not required."}
+{"id":"g714","query":"Are backups up to date?","result_struct":{"uptodate":true},"summary":"Yes, backups are up to date."}
+{"id":"g715","query":"Is disk space critical?","result_struct":{"critical":false},"summary":"Disk space is not critical."}
+{"id":"g716","query":"Are there pending updates?","result_struct":{"pending":true,"count":3},"summary":"Yes, there are 3 pending updates."}
+{"id":"g717","query":"Is the firewall active?","result_struct":{"active":true},"summary":"The firewall is active."}
+{"id":"g718","query":"Is virus scan running?","result_struct":{"running":false},"summary":"No virus scan is currently running."}
+{"id":"g719","query":"Are all services healthy?","result_struct":{"healthy":true},"summary":"All services are reporting as healthy."}
+{"id":"g720","query":"Is the user locked out?","result_struct":{"locked":false},"summary":"The user is not locked out."}
+{"id":"g721","query":"System architecture type","result_struct":{"type":"Microservices"},"summary":"The system architecture is Microservices-based."}
+{"id":"g722","query":"Programming language primary","result_struct":{"language":"Python"},"summary":"The primary programming language used is Python."}
+{"id":"g723","query":"Framework used","result_struct":{"name":"Django"},"summary":"The framework in use is Django."}
+{"id":"g724","query":"Frontend library","result_struct":{"name":"React"},"summary":"React is the frontend library."}
+{"id":"g725","query":"Mobile app framework","result_struct":{"name":"Flutter"},"summary":"The mobile app is built with Flutter."}
+{"id":"g726","query":"CI/CD tool","result_struct":{"name":"Jenkins"},"summary":"Jenkins is the CI/CD tool."}
+{"id":"g727","query":"Version control system","result_struct":{"name":"Git"},"summary":"Git is the version control system."}
+{"id":"g728","query":"Issue tracker","result_struct":{"name":"Jira"},"summary":"Jira is used for issue tracking."}
+{"id":"g729","query":"Documentation tool","result_struct":{"name":"Confluence"},"summary":"Confluence is the documentation tool."}
+{"id":"g730","query":"Communication tool","result_struct":{"name":"Slack"},"summary":"Slack is the primary communication tool."}
+{"id":"g731","query":"Video conferencing tool","result_struct":{"name":"Zoom"},"summary":"Zoom is used for video conferencing."}
+{"id":"g732","query":"CRM system","result_struct":{"name":"Salesforce"},"summary":"Salesforce is the CRM system."}
+{"id":"g733","query":"ERP system","result_struct":{"name":"SAP"},"summary":"SAP is the ERP system."}
+{"id":"g734","query":"Marketing automation tool","result_struct":{"name":"HubSpot"},"summary":"HubSpot is used for marketing automation."}
+{"id":"g735","query":"Support desk tool","result_struct":{"name":"Zendesk"},"summary":"Zendesk is the support desk tool."}
+{"id":"g736","query":"HRIS system","result_struct":{"name":"Workday"},"summary":"Workday is the HRIS system."}
+{"id":"g737","query":"Payroll system","result_struct":{"name":"ADP"},"summary":"ADP is the payroll system."}
+{"id":"g738","query":"Accounting software","result_struct":{"name":"QuickBooks"},"summary":"QuickBooks is the accounting software."}
+{"id":"g739","query":"Expense management tool","result_struct":{"name":"Expensify"},"summary":"Expensify is used for expense management."}
+{"id":"g740","query":"Signature tool","result_struct":{"name":"DocuSign"},"summary":"DocuSign is the e-signature tool."}
+{"id":"g741","query":"Cloud provider","result_struct":{"name":"AWS"},"summary":"AWS is the cloud provider."}
+{"id":"g742","query":"DNS provider","result_struct":{"name":"Cloudflare"},"summary":"Cloudflare is the DNS provider."}
+{"id":"g743","query":"CDN provider","result_struct":{"name":"Akamai"},"summary":"Akamai is the CDN provider."}
+{"id":"g744","query":"Email provider","result_struct":{"name":"SendGrid"},"summary":"SendGrid is the email provider."}
+{"id":"g745","query":"SMS provider","result_struct":{"name":"Twilio"},"summary":"Twilio is the SMS provider."}
+{"id":"g746","query":"Payment gateway","result_struct":{"name":"Stripe"},"summary":"Stripe is the payment gateway."}
+{"id":"g747","query":"Analytics tool","result_struct":{"name":"Google Analytics"},"summary":"Google Analytics is the analytics tool."}
+{"id":"g748","query":"A/B testing tool","result_struct":{"name":"Optimizely"},"summary":"Optimizely is used for A/B testing."}
+{"id":"g749","query":"Heatmap tool","result_struct":{"name":"Hotjar"},"summary":"Hotjar is the heatmap tool."}
+{"id":"g750","query":"SEO tool","result_struct":{"name":"SEMrush"},"summary":"SEMrush is the SEO tool."}
+{"id":"g751","query":"Social media scheduler","result_struct":{"name":"Buffer"},"summary":"Buffer is the social media scheduler."}
+{"id":"g752","query":"Graphic design tool","result_struct":{"name":"Canva"},"summary":"Canva is the graphic design tool."}
+{"id":"g753","query":"Video editing tool","result_struct":{"name":"Premiere Pro"},"summary":"Premiere Pro is the video editing tool."}
+{"id":"g754","query":"Project management tool","result_struct":{"name":"Asana"},"summary":"Asana is the project management tool."}
+{"id":"g755","query":"Team collaboration tool","result_struct":{"name":"Miro"},"summary":"Miro is used for team collaboration."}
+{"id":"g756","query":"Password manager","result_struct":{"name":"1Password"},"summary":"1Password is the password manager."}
+{"id":"g757","query":"VPN provider","result_struct":{"name":"NordLayer"},"summary":"NordLayer is the VPN provider."}
+{"id":"g758","query":"Antivirus software","result_struct":{"name":"CrowdStrike"},"summary":"CrowdStrike is the antivirus software."}
+{"id":"g759","query":"Backup solution","result_struct":{"name":"Veeam"},"summary":"Veeam is the backup solution."}
+{"id":"g760","query":"Monitoring tool","result_struct":{"name":"Datadog"},"summary":"Datadog is the monitoring tool."}
+{"id":"g761","query":"Logging tool","result_struct":{"name":"Splunk"},"summary":"Splunk is the logging tool."}
+{"id":"g762","query":"Incident management","result_struct":{"name":"PagerDuty"},"summary":"PagerDuty is used for incident management."}
+{"id":"g763","query":"Container orchestration","result_struct":{"name":"Kubernetes"},"summary":"Kubernetes is used for container orchestration."}
+{"id":"g764","query":"Infrastructure as code","result_struct":{"name":"Terraform"},"summary":"Terraform is the IaC tool."}
+{"id":"g765","query":"Configuration management","result_struct":{"name":"Ansible"},"summary":"Ansible is used for configuration management."}
+{"id":"g766","query":"Code repository","result_struct":{"name":"GitHub"},"summary":"GitHub is the code repository."}
+{"id":"g767","query":"IDE","result_struct":{"name":"VS Code"},"summary":"VS Code is the IDE."}
+{"id":"g768","query":"Database management","result_struct":{"name":"PostgreSQL"},"summary":"PostgreSQL is the database management system."}
+{"id":"g769","query":"Cache store","result_struct":{"name":"Redis"},"summary":"Redis is the cache store."}
+{"id":"g770","query":"Message broker","result_struct":{"name":"Kafka"},"summary":"Kafka is the message broker."}
+{"id":"g771","query":"Search engine","result_struct":{"name":"Elasticsearch"},"summary":"Elasticsearch is the search engine."}
+{"id":"g772","query":"API gateway","result_struct":{"name":"Kong"},"summary":"Kong is the API gateway."}
+{"id":"g773","query":"Service mesh","result_struct":{"name":"Istio"},"summary":"Istio is the service mesh."}
+{"id":"g774","query":"Virtualization platform","result_struct":{"name":"VMware"},"summary":"VMware is the virtualization platform."}
+{"id":"g775","query":"Operating system server","result_struct":{"name":"Ubuntu"},"summary":"Ubuntu is the server operating system."}
+{"id":"g776","query":"Web server","result_struct":{"name":"Nginx"},"summary":"Nginx is the web server."}
+{"id":"g777","query":"App server","result_struct":{"name":"Gunicorn"},"summary":"Gunicorn is the app server."}
+{"id":"g778","query":"Reverse proxy","result_struct":{"name":"Traefik"},"summary":"Traefik is the reverse proxy."}
+{"id":"g779","query":"Load balancer type","result_struct":{"name":"ALB"},"summary":"An Application Load Balancer (ALB) is used."}
+{"id":"g780","query":"Firewall type","result_struct":{"name":"WAF"},"summary":"A Web Application Firewall (WAF) is used."}
+{"id":"g781","query":"Encryption standard","result_struct":{"name":"AES-256"},"summary":"AES-256 is the encryption standard."}
+{"id":"g782","query":"Auth protocol","result_struct":{"name":"OAuth2"},"summary":"OAuth2 is the authentication protocol."}
+{"id":"g783","query":"Identity provider","result_struct":{"name":"Okta"},"summary":"Okta is the identity provider."}
+{"id":"g784","query":"MFA method","result_struct":{"name":"TOTP"},"summary":"TOTP is the MFA method."}
+{"id":"g785","query":"Certificate authority","result_struct":{"name":"Let's Encrypt"},"summary":"Let's Encrypt is the certificate authority."}
+{"id":"g786","query":"Compliance framework","result_struct":{"name":"GDPR"},"summary":"The compliance framework is GDPR."}
+{"id":"g787","query":"License type","result_struct":{"name":"MIT"},"summary":"The license type is MIT."}
+{"id":"g788","query":"Support tier","result_struct":{"name":"Gold"},"summary":"The support tier is Gold."}
+{"id":"g789","query":"Plan name","result_struct":{"name":"Enterprise"},"summary":"The plan name is Enterprise."}
+{"id":"g790","query":"Billing cycle","result_struct":{"name":"Annual"},"summary":"The billing cycle is Annual."}
+{"id":"g791","query":"Currency","result_struct":{"name":"USD"},"summary":"The currency is USD."}
+{"id":"g792","query":"Language default","result_struct":{"name":"English"},"summary":"The default language is English."}
+{"id":"g793","query":"Timezone default","result_struct":{"name":"UTC"},"summary":"The default timezone is UTC."}
+{"id":"g794","query":"Date format","result_struct":{"format":"YYYY-MM-DD"},"summary":"The date format is YYYY-MM-DD."}
+{"id":"g795","query":"Time format","result_struct":{"format":"24h"},"summary":"The time format is 24h."}
+{"id":"g796","query":"Number format","result_struct":{"decimal_separator":"."},"summary":"The decimal separator is a dot."}
+{"id":"g797","query":"Unit system","result_struct":{"name":"Metric"},"summary":"The metric system is used."}
+{"id":"g798","query":"Paper size","result_struct":{"name":"A4"},"summary":"The paper size is A4."}
+{"id":"g799","query":"Orientation","result_struct":{"name":"Portrait"},"summary":"The orientation is Portrait."}
+{"id":"g800","query":"Theme","result_struct":{"name":"Dark Mode"},"summary":"The theme is Dark Mode."}
+{"id":"g801","query":"Font family","result_struct":{"name":"Roboto"},"summary":"The font family is Roboto."}
+{"id":"g802","query":"Font size","result_struct":{"px":14},"summary":"The font size is 14px."}
+{"id":"g803","query":"Primary color","result_struct":{"hex":"#007BFF"},"summary":"The primary color is #007BFF."}
+{"id":"g804","query":"Secondary color","result_struct":{"hex":"#6C757D"},"summary":"The secondary color is #6C757D."}
+{"id":"g805","query":"Background color","result_struct":{"hex":"#FFFFFF"},"summary":"The background color is #FFFFFF."}
+{"id":"g806","query":"Text color","result_struct":{"hex":"#333333"},"summary":"The text color is #333333."}
+{"id":"g807","query":"Link color","result_struct":{"hex":"#0056b3"},"summary":"The link color is #0056b3."}
+{"id":"g808","query":"Button radius","result_struct":{"px":4},"summary":"Button radius is 4px."}
+{"id":"g809","query":"Padding standard","result_struct":{"px":16},"summary":"Standard padding is 16px."}
+{"id":"g810","query":"Margin standard","result_struct":{"px":8},"summary":"Standard margin is 8px."}
+{"id":"g811","query":"Grid columns","result_struct":{"count":12},"summary":"The grid has 12 columns."}
+{"id":"g812","query":"Breakpoint mobile","result_struct":{"px":576},"summary":"The mobile breakpoint is 576px."}
+{"id":"g813","query":"Breakpoint tablet","result_struct":{"px":768},"summary":"The tablet breakpoint is 768px."}
+{"id":"g814","query":"Breakpoint desktop","result_struct":{"px":992},"summary":"The desktop breakpoint is 992px."}
+{"id":"g815","query":"Breakpoint wide","result_struct":{"px":1200},"summary":"The wide breakpoint is 1200px."}
+{"id":"g816","query":"Animation speed","result_struct":{"ms":300},"summary":"Animation speed is 300ms."}
+{"id":"g817","query":"Transition type","result_struct":{"name":"Ease-in-out"},"summary":"Transition type is Ease-in-out."}
+{"id":"g818","query":"Shadow depth","result_struct":{"px":2},"summary":"Shadow depth is 2px."}
+{"id":"g819","query":"Opacity level","result_struct":{"value":0.8},"summary":"Opacity level is 0.8."}
+{"id":"g820","query":"Z-index modal","result_struct":{"value":1000},"summary":"Modal z-index is 1000."}
+{"id":"g821","query":"Number of SKU variants","result_struct":{"count":5},"summary":"There are 5 SKU variants."}
+{"id":"g822","query":"Product weight avg","result_struct":{"kg":1.2},"summary":"Average product weight is 1.2 kg."}
+{"id":"g823","query":"Package dimensions","result_struct":{"l":10,"w":10,"h":5},"summary":"Package dimensions are 10x10x5."}
+{"id":"g824","query":"Shipping class","result_struct":{"class":"Standard"},"summary":"The shipping class is Standard."}
+{"id":"g825","query":"Tariff code","result_struct":{"code":"8471.60"},"summary":"The tariff code is 8471.60."}
+{"id":"g826","query":"Country of origin","result_struct":{"code":"CN"},"summary":"The country of origin is CN."}
+{"id":"g827","query":"Manufacturer name","result_struct":{"name":"Foxconn"},"summary":"The manufacturer is Foxconn."}
+{"id":"g828","query":"Warranty period","result_struct":{"months":12},"summary":"The warranty period is 12 months."}
+{"id":"g829","query":"Return window","result_struct":{"days":30},"summary":"The return window is 30 days."}
+{"id":"g830","query":"Restocking fee","result_struct":{"pct":0},"summary":"There is a 0% restocking fee."}
+{"id":"g831","query":"Gift wrap available?","result_struct":{"available":true},"summary":"Gift wrap is available."}
+{"id":"g832","query":"Engraving available?","result_struct":{"available":false},"summary":"Engraving is not available."}
+{"id":"g833","query":"Expedited shipping cost","result_struct":{"amount":15,"currency":"USD"},"summary":"Expedited shipping costs $15."}
+{"id":"g834","query":"Free shipping threshold","result_struct":{"amount":50,"currency":"USD"},"summary":"The free shipping threshold is $50."}
+{"id":"g835","query":"Carrier pickup time","result_struct":{"time":"16:00"},"summary":"Carrier pickup is at 16:00."}
+{"id":"g836","query":"Tracking number format","result_struct":{"format":"1Z..."},"summary":"Tracking numbers use the 1Z... format."}
+{"id":"g837","query":"Label generation status","result_struct":{"status":"Success"},"summary":"Label generation was Success."}
+{"id":"g838","query":"Manifest creation status","result_struct":{"status":"Pending"},"summary":"Manifest creation is Pending."}
+{"id":"g839","query":"Address validation status","result_struct":{"status":"Valid"},"summary":"Address validation is Valid."}
+{"id":"g840","query":"Customs declaration status","result_struct":{"status":"Filed"},"summary":"Customs declaration has been Filed."}
+{"id":"g841","query":"Insurance value","result_struct":{"amount":100,"currency":"USD"},"summary":"The insurance value is $100."}
+{"id":"g842","query":"Signature required?","result_struct":{"required":false},"summary":"Signature is not required."}
+{"id":"g843","query":"Saturday delivery?","result_struct":{"available":true},"summary":"Saturday delivery is available."}
+{"id":"g844","query":"Hold at location?","result_struct":{"available":true},"summary":"Hold at location is available."}
+{"id":"g845","query":"Redirect to neighbor?","result_struct":{"available":false},"summary":"Redirect to neighbor is not available."}
+{"id":"g846","query":"Carbon neutral shipping?","result_struct":{"opt_in":true},"summary":"Carbon neutral shipping opt-in is active."}
+{"id":"g847","query":"Packaging type","result_struct":{"type":"Box"},"summary":"The packaging type is Box."}
+{"id":"g848","query":"Dunnage type","result_struct":{"type":"Bubble Wrap"},"summary":"Dunnage type is Bubble Wrap."}
+{"id":"g849","query":"Label size","result_struct":{"size":"4x6"},"summary":"Label size is 4x6."}
+{"id":"g850","query":"Printer name","result_struct":{"name":"Zebra ZP450"},"summary":"The printer is a Zebra ZP450."}
+{"id":"g851","query":"Student enrollment count","result_struct":{"count":500},"summary":"Student enrollment is 500."}
+{"id":"g852","query":"Course count","result_struct":{"count":20},"summary":"There are 20 courses offered."}
+{"id":"g853","query":"Instructor count","result_struct":{"count":10},"summary":"There are 10 instructors."}
+{"id":"g854","query":"Average class size","result_struct":{"students":25},"summary":"The average class size is 25 students."}
+{"id":"g855","query":"Attendance rate","result_struct":{"pct":92},"summary":"The attendance rate is 92%."}
+{"id":"g856","query":"Graduation rate","result_struct":{"pct":85},"summary":"The graduation rate is 85%."}
+{"id":"g857","query":"Dropout rate education","result_struct":{"pct":5},"summary":"The education dropout rate is 5%."}
+{"id":"g858","query":"Average GPA","result_struct":{"gpa":3.2},"summary":"The average GPA is 3.2."}
+{"id":"g859","query":"Scholarship fund","result_struct":{"amount":50000,"currency":"USD"},"summary":"The scholarship fund holds $50,000."}
+{"id":"g860","query":"Tuition fees","result_struct":{"amount":10000,"currency":"USD"},"summary":"Tuition fees are $10,000."}
+{"id":"g861","query":"Library book count","result_struct":{"count":5000},"summary":"The library has 5,000 books."}
+{"id":"g862","query":"Lab computer count","result_struct":{"count":30},"summary":"There are 30 lab computers."}
+{"id":"g863","query":"Gym capacity","result_struct":{"people":100},"summary":"Gym capacity is 100 people."}
+{"id":"g864","query":"Cafeteria meal count daily","result_struct":{"count":200},"summary":"The cafeteria serves 200 meals daily."}
+{"id":"g865","query":"Bus route count","result_struct":{"count":5},"summary":"There are 5 bus routes."}
+{"id":"g866","query":"Dormitory occupancy","result_struct":{"pct":90},"summary":"Dormitory occupancy is 90%."}
+{"id":"g867","query":"Student club count","result_struct":{"count":15},"summary":"There are 15 student clubs."}
+{"id":"g868","query":"Sports team count","result_struct":{"count":8},"summary":"There are 8 sports teams."}
+{"id":"g869","query":"Alumni association members","result_struct":{"count":1000},"summary":"The alumni association has 1,000 members."}
+{"id":"g870","query":"Research grant total","result_struct":{"amount":100000,"currency":"USD"},"summary":"Research grants total $100,000."}
+{"id":"g871","query":"Patient admission count","result_struct":{"count":50},"summary":"There were 50 patient admissions."}
+{"id":"g872","query":"Emergency room wait time","result_struct":{"minutes":45},"summary":"ER wait time is 45 minutes."}
+{"id":"g873","query":"Bed occupancy rate","result_struct":{"pct":85},"summary":"Bed occupancy rate is 85%."}
+{"id":"g874","query":"Surgery count today","result_struct":{"count":10},"summary":"There were 10 surgeries today."}
+{"id":"g875","query":"Doctor on duty count","result_struct":{"count":15},"summary":"15 doctors are on duty."}
+{"id":"g876","query":"Nurse on duty count","result_struct":{"count":40},"summary":"40 nurses are on duty."}
+{"id":"g877","query":"Ambulance dispatch count","result_struct":{"count":12},"summary":"12 ambulances were dispatched."}
+{"id":"g878","query":"ICU availability","result_struct":{"beds":2},"summary":"There are 2 ICU beds available."}
+{"id":"g879","query":"Pharmacy prescription count","result_struct":{"count":200},"summary":"The pharmacy filled 200 prescriptions."}
+{"id":"g880","query":"Lab test turnaround","result_struct":{"hours":24},"summary":"Lab test turnaround is 24 hours."}
+{"id":"g881","query":"Vaccination rate local","result_struct":{"pct":70},"summary":"The local vaccination rate is 70%."}
+{"id":"g882","query":"Infection rate hospital","result_struct":{"pct":1},"summary":"The hospital infection rate is 1%."}
+{"id":"g883","query":"Patient satisfaction score","result_struct":{"score":8.5},"summary":"Patient satisfaction score is 8.5."}
+{"id":"g884","query":"Readmission rate","result_struct":{"pct":10},"summary":"The readmission rate is 10%."}
+{"id":"g885","query":"Average length of stay","result_struct":{"days":4},"summary":"Average length of stay is 4 days."}
+{"id":"g886","query":"Medical waste generated","result_struct":{"kg":50},"summary":"50 kg of medical waste was generated."}
+{"id":"g887","query":"Oxygen tank level","result_struct":{"pct":90},"summary":"Oxygen tank levels are at 90%."}
+{"id":"g888","query":"Blood bank inventory","result_struct":{"units":100},"summary":"The blood bank has 100 units."}
+{"id":"g889","query":"MRI machine status","result_struct":{"status":"Operational"},"summary":"The MRI machine is Operational."}
+{"id":"g890","query":"CT scanner status","result_struct":{"status":"Maintenance"},"summary":"The CT scanner is under Maintenance."}
+{"id":"g891","query":"Hotel occupancy rate","result_struct":{"pct":75},"summary":"Hotel occupancy rate is 75%."}
+{"id":"g892","query":"Average daily rate (ADR)","result_struct":{"amount":150,"currency":"USD"},"summary":"Average Daily Rate (ADR) is $150."}
+{"id":"g893","query":"RevPAR","result_struct":{"amount":112.5,"currency":"USD"},"summary":"Revenue Per Available Room (RevPAR) is $112.50."}
+{"id":"g894","query":"Check-in count today","result_struct":{"count":40},"summary":"There were 40 check-ins today."}
+{"id":"g895","query":"Check-out count today","result_struct":{"count":35},"summary":"There were 35 check-outs today."}
+{"id":"g896","query":"Room service order count","result_struct":{"count":20},"summary":"There were 20 room service orders."}
+{"id":"g897","query":"Housekeeping efficiency","result_struct":{"minutes_room":30},"summary":"Housekeeping takes 30 minutes per room."}
+{"id":"g898","query":"Guest complaint count","result_struct":{"count":2},"summary":"There were 2 guest complaints."}
+{"id":"g899","query":"Event booking count","result_struct":{"count":1},"summary":"There is 1 event booking."}
+{"id":"g900","query":"Spa utilization","result_struct":{"pct":50},"summary":"Spa utilization is 50%."}
+{"id":"g901","query":"Restaurant table turnover","result_struct":{"times":3},"summary":"Restaurant table turnover is 3 times."}
+{"id":"g902","query":"Bar revenue","result_struct":{"amount":2000,"currency":"USD"},"summary":"Bar revenue was $2,000."}
+{"id":"g903","query":"Valet car count","result_struct":{"count":50},"summary":"Valet parked 50 cars."}
+{"id":"g904","query":"Concierge request count","result_struct":{"count":15},"summary":"There were 15 concierge requests."}
+{"id":"g905","query":"Pool water temperature","result_struct":{"celsius":28},"summary":"Pool water temperature is 28°C."}
+{"id":"g906","query":"Gym usage count hotel","result_struct":{"count":20},"summary":"20 guests used the gym."}
+{"id":"g907","query":"Mini-bar consumption","result_struct":{"items":10},"summary":"10 mini-bar items were consumed."}
+{"id":"g908","query":"Wake-up call count","result_struct":{"count":5},"summary":"There were 5 wake-up calls."}
+{"id":"g909","query":"Luggage storage count","result_struct":{"bags":30},"summary":"30 bags are in luggage storage."}
+{"id":"g910","query":"Shuttle bus passenger count","result_struct":{"count":10},"summary":"The shuttle bus carried 10 passengers."}
+{"id":"g911","query":"Flight on-time performance","result_struct":{"pct":85},"summary":"Flight on-time performance is 85%."}
+{"id":"g912","query":"Gate departure delay avg","result_struct":{"minutes":15},"summary":"Average gate departure delay is 15 minutes."}
+{"id":"g913","query":"Passenger load factor","result_struct":{"pct":90},"summary":"Passenger load factor is 90%."}
+{"id":"g914","query":"Baggage handling error rate","result_struct":{"per_1k":5},"summary":"Baggage handling error rate is 5 per 1,000."}
+{"id":"g915","query":"TSA wait time avg","result_struct":{"minutes":20},"summary":"Average TSA wait time is 20 minutes."}
+{"id":"g916","query":"Runway utilization","result_struct":{"flights_hour":60},"summary":"Runway utilization is 60 flights per hour."}
+{"id":"g917","query":"Aircraft turnaround time","result_struct":{"minutes":45},"summary":"Aircraft turnaround time is 45 minutes."}
+{"id":"g918","query":"Fuel loaded gallons","result_struct":{"gallons":5000},"summary":"5,000 gallons of fuel were loaded."}
+{"id":"g919","query":"Catering meal count flight","result_struct":{"count":150},"summary":"150 catering meals were loaded."}
+{"id":"g920","query":"Duty-free sales flight","result_struct":{"amount":500,"currency":"USD"},"summary":"In-flight duty-free sales totaled $500."}
+{"id":"g921","query":"Pilot flight hours","result_struct":{"hours":10},"summary":"Pilot logged 10 flight hours."}
+{"id":"g922","query":"Cabin crew count","result_struct":{"count":6},"summary":"There are 6 cabin crew members."}
+{"id":"g923","query":"Seat upgrade count","result_struct":{"count":5},"summary":"There were 5 seat upgrades."}
+{"id":"g924","query":"No-show count flight","result_struct":{"count":3},"summary":"There were 3 no-shows."}
+{"id":"g925","query":"Standby passenger cleared","result_struct":{"count":2},"summary":"2 standby passengers were cleared."}
+{"id":"g926","query":"In-flight entertainment usage","result_struct":{"pct":70},"summary":"In-flight entertainment usage was 70%."}
+{"id":"g927","query":"WiFi connection count flight","result_struct":{"count":50},"summary":"50 passengers connected to WiFi."}
+{"id":"g928","query":"Turbulence incidents","result_struct":{"count":0},"summary":"There were zero turbulence incidents."}
+{"id":"g929","query":"Medical emergency flight","result_struct":{"count":0},"summary":"There were zero medical emergencies."}
+{"id":"g930","query":"Diversion count","result_struct":{"count":0},"summary":"There were zero flight diversions."}
+{"id":"g931","query":"Train on-time rate","result_struct":{"pct":95},"summary":"Train on-time rate is 95%."}
+{"id":"g932","query":"Passenger count train","result_struct":{"count":500},"summary":"The train carried 500 passengers."}
+{"id":"g933","query":"Ticket revenue train","result_struct":{"amount":10000,"currency":"USD"},"summary":"Train ticket revenue was $10,000."}
+{"id":"g934","query":"Freight tonnage train","result_struct":{"tons":1000},"summary":"The train carried 1,000 tons of freight."}
+{"id":"g935","query":"Track maintenance status","result_struct":{"status":"Good"},"summary":"Track maintenance status is Good."}
+{"id":"g936","query":"Signal system status","result_struct":{"status":"Operational"},"summary":"The signal system is Operational."}
+{"id":"g937","query":"Locomotive health","result_struct":{"status":"Good"},"summary":"Locomotive health is Good."}
+{"id":"g938","query":"Wagon count","result_struct":{"count":50},"summary":"There are 50 wagons."}
+{"id":"g939","query":"Crew shift duration","result_struct":{"hours":8},"summary":"Crew shift duration is 8 hours."}
+{"id":"g940","query":"Delay minutes total","result_struct":{"minutes":0},"summary":"There were zero total delay minutes."}
+{"id":"g941","query":"Bus fleet availability","result_struct":{"pct":90},"summary":"Bus fleet availability is 90%."}
+{"id":"g942","query":"Ridership daily bus","result_struct":{"count":5000},"summary":"Daily bus ridership is 5,000."}
+{"id":"g943","query":"Fare collection rate","result_struct":{"pct":98},"summary":"Fare collection rate is 98%."}
+{"id":"g944","query":"Route deviation count","result_struct":{"count":2},"summary":"There were 2 route deviations."}
+{"id":"g945","query":"Fuel efficiency bus","result_struct":{"mpg":6},"summary":"Bus fuel efficiency is 6 MPG."}
+{"id":"g946","query":"Maintenance cost bus","result_struct":{"amount":200,"currency":"USD"},"summary":"Bus maintenance cost was $200."}
+{"id":"g947","query":"Driver safety score","result_struct":{"score":95},"summary":"Driver safety score is 95."}
+{"id":"g948","query":"Customer complaint bus","result_struct":{"count":5},"summary":"There were 5 bus customer complaints."}
+{"id":"g949","query":"Stop adherence","result_struct":{"pct":99},"summary":"Stop adherence is 99%."}
+{"id":"g950","query":"Accessibility lift usage","result_struct":{"count":10},"summary":"The accessibility lift was used 10 times."}
+{"id":"g951","query":"Taxi fleet active","result_struct":{"count":50},"summary":"50 taxis are active."}
+{"id":"g952","query":"Ride count taxi","result_struct":{"count":200},"summary":"There were 200 taxi rides."}
+{"id":"g953","query":"Average fare taxi","result_struct":{"amount":20,"currency":"USD"},"summary":"Average taxi fare is $20."}
+{"id":"g954","query":"Wait time taxi avg","result_struct":{"minutes":5},"summary":"Average taxi wait time is 5 minutes."}
+{"id":"g955","query":"Trip distance avg","result_struct":{"miles":5},"summary":"Average trip distance is 5 miles."}
+{"id":"g956","query":"Tip percentage avg","result_struct":{"pct":15},"summary":"Average tip percentage is 15%."}
+{"id":"g957","query":"Rating avg taxi","result_struct":{"stars":4.8},"summary":"Average taxi rating is 4.8 stars."}
+{"id":"g958","query":"App booking pct","result_struct":{"pct":60},"summary":"60% of bookings were via app."}
+{"id":"g959","query":"Cash payment pct","result_struct":{"pct":20},"summary":"20% of payments were in cash."}
+{"id":"g960","query":"surge pricing multiplier","result_struct":{"value":1.0},"summary":"Surge pricing multiplier is 1.0."}
+{"id":"g961","query":"Weather condition","result_struct":{"condition":"Sunny"},"summary":"The weather condition is Sunny."}
+{"id":"g962","query":"Temperature current","result_struct":{"celsius":25},"summary":"Current temperature is 25°C."}
+{"id":"g963","query":"Humidity current","result_struct":{"pct":60},"summary":"Current humidity is 60%."}
+{"id":"g964","query":"Wind speed","result_struct":{"kmh":15},"summary":"Wind speed is 15 km/h."}
+{"id":"g965","query":"Wind direction","result_struct":{"direction":"NW"},"summary":"Wind direction is NW."}
+{"id":"g966","query":"Pressure atmospheric","result_struct":{"hpa":1013},"summary":"Atmospheric pressure is 1013 hPa."}
+{"id":"g967","query":"Visibility distance","result_struct":{"km":10},"summary":"Visibility is 10 km."}
+{"id":"g968","query":"UV index","result_struct":{"index":5},"summary":"The UV index is 5."}
+{"id":"g969","query":"Precipitation chance","result_struct":{"pct":0},"summary":"There is a 0% chance of precipitation."}
+{"id":"g970","query":"Sunrise time","result_struct":{"time":"06:00"},"summary":"Sunrise is at 06:00."}
+{"id":"g971","query":"Sunset time","result_struct":{"time":"20:00"},"summary":"Sunset is at 20:00."}
+{"id":"g972","query":"Moon phase","result_struct":{"phase":"Full"},"summary":"The moon phase is Full."}
+{"id":"g973","query":"Air quality (PM2.5)","result_struct":{"value":10},"summary":"PM2.5 air quality value is 10."}
+{"id":"g974","query":"Pollen count","result_struct":{"level":"Low"},"summary":"Pollen count is Low."}
+{"id":"g975","query":"Cloud cover","result_struct":{"pct":10},"summary":"Cloud cover is 10%."}
+{"id":"g976","query":"Dew point","result_struct":{"celsius":15},"summary":"The dew point is 15°C."}
+{"id":"g977","query":"Heat index","result_struct":{"celsius":26},"summary":"The heat index is 26°C."}
+{"id":"g978","query":"Wind chill","result_struct":{"celsius":25},"summary":"Wind chill is 25°C."}
+{"id":"g979","query":"Storm warning","result_struct":{"active":false},"summary":"There are no active storm warnings."}
+{"id":"g980","query":"Flood warning","result_struct":{"active":false},"summary":"There are no active flood warnings."}
+{"id":"g981","query":"Soil moisture","result_struct":{"pct":30},"summary":"Soil moisture is 30%."}
+{"id":"g982","query":"Leaf wetness","result_struct":{"value":0},"summary":"Leaf wetness is 0."}
+{"id":"g983","query":"Solar radiation","result_struct":{"wm2":800},"summary":"Solar radiation is 800 W/m²."}
+{"id":"g984","query":"Evapotranspiration","result_struct":{"mm":5},"summary":"Evapotranspiration is 5 mm."}
+{"id":"g985","query":"Crop health index","result_struct":{"score":90},"summary":"Crop health index is 90."}
+{"id":"g986","query":"Irrigation status","result_struct":{"status":"Off"},"summary":"Irrigation is currently Off."}
+{"id":"g987","query":"Fertilizer level","result_struct":{"pct":50},"summary":"Fertilizer levels are 50%."}
+{"id":"g988","query":"Pesticide application","result_struct":{"date":"2024-05-01"},"summary":"Last pesticide application was 2024-05-01."}
+{"id":"g989","query":"Harvest forecast","result_struct":{"tons":100},"summary":"The harvest forecast is 100 tons."}
+{"id":"g990","query":"Market price corn","result_struct":{"price":4.5,"unit":"bushel"},"summary":"Corn market price is $4.5 per bushel."}
+{"id":"g991","query":"Stock price AAPL","result_struct":{"price":150,"currency":"USD"},"summary":"AAPL stock price is $150."}
+{"id":"g992","query":"Stock volume","result_struct":{"shares":1000000},"summary":"Stock volume is 1,000,000 shares."}
+{"id":"g993","query":"Market sentiment","result_struct":{"sentiment":"Bullish"},"summary":"Market sentiment is Bullish."}
+{"id":"g994","query":"Volatility index (VIX)","result_struct":{"value":15},"summary":"The VIX volatility index is 15."}
+{"id":"g995","query":"Bond yield 10y","result_struct":{"pct":3.5},"summary":"The 10-year bond yield is 3.5%."}
+{"id":"g996","query":"Gold price","result_struct":{"price":1800,"unit":"oz"},"summary":"Gold is priced at $1800 per oz."}
+{"id":"g997","query":"Oil price (WTI)","result_struct":{"price":75,"unit":"barrel"},"summary":"WTI crude oil is $75 per barrel."}
+{"id":"g998","query":"Bitcoin price","result_struct":{"price":30000,"currency":"USD"},"summary":"Bitcoin price is $30,000."}
+{"id":"g999","query":"Ethereum price","result_struct":{"price":2000,"currency":"USD"},"summary":"Ethereum price is $2,000."}
+{"id":"g1000","query":"Gas fee ETH","result_struct":{"gwei":20},"summary":"ETH gas fee is 20 Gwei."}
+{"id":"g1001","query":"Movie box office","result_struct":{"amount":100,"unit":"M USD"},"summary":"Movie box office reached 100 Million USD."}
+{"id":"g1002","query":"Streaming views","result_struct":{"count":5000000},"summary":"Streaming views hit 5 million."}
+{"id":"g1003","query":"Album sales","result_struct":{"copies":10000},"summary":"Album sales reached 10,000 copies."}
+{"id":"g1004","query":"Concert attendance","result_struct":{"people":20000},"summary":"Concert attendance was 20,000."}
+{"id":"g1005","query":"Book sales","result_struct":{"copies":5000},"summary":"Book sales reached 5,000 copies."}
+{"id":"g1006","query":"Game downloads","result_struct":{"count":100000},"summary":"Game downloads reached 100,000."}
+{"id":"g1007","query":"Twitch viewers","result_struct":{"count":1000},"summary":"There are 1,000 Twitch viewers."}
+{"id":"g1008","query":"YouTube subscribers","result_struct":{"count":50000},"summary":"YouTube subscribers reached 50,000."}
+{"id":"g1009","query":"Instagram followers","result_struct":{"count":10000},"summary":"Instagram followers reached 10,000."}
+{"id":"g1010","query":"Twitter followers","result_struct":{"count":5000},"summary":"Twitter followers reached 5,000."}
+{"id":"g1011","query":"Campaign impressions","result_struct":{"count":1000000},"summary":"Campaign impressions hit 1 million."}
+{"id":"g1012","query":"Campaign clicks","result_struct":{"count":20000},"summary":"Campaign clicks reached 20,000."}
+{"id":"g1013","query":"Campaign conversions","result_struct":{"count":500},"summary":"Campaign conversions totaled 500."}
+{"id":"g1014","query":"Cost per lead","result_struct":{"amount":10,"currency":"USD"},"summary":"Cost per lead is $10."}
+{"id":"g1015","query":"Return on investment","result_struct":{"pct":200},"summary":"Return on investment is 200%."}
+{"id":"g1016","query":"Brand awareness","result_struct":{"pct":40},"summary":"Brand awareness is 40%."}
+{"id":"g1017","query":"Brand sentiment","result_struct":{"score":0.8},"summary":"Brand sentiment score is 0.8."}
+{"id":"g1018","query":"Share of voice","result_struct":{"pct":15},"summary":"Share of voice is 15%."}
+{"id":"g1019","query":"Net promoter score","result_struct":{"score":50},"summary":"Net promoter score is 50."}
+{"id":"g1020","query":"Customer loyalty index","result_struct":{"score":80},"summary":"Customer loyalty index is 80."}
+{"id":"g1021","query":"Smart light status","result_struct":{"on":true},"summary":"The smart light is on."}
+{"id":"g1022","query":"Smart light brightness","result_struct":{"pct":75},"summary":"Smart light brightness is 75%."}
+{"id":"g1023","query":"Smart light color","result_struct":{"hex":"#FFA500"},"summary":"Smart light color is Orange (#FFA500)."}
+{"id":"g1024","query":"Thermostat mode","result_struct":{"mode":"Cool"},"summary":"Thermostat mode is Cool."}
+{"id":"g1025","query":"Thermostat target temp","result_struct":{"celsius":22},"summary":"Thermostat target is 22°C."}
+{"id":"g1026","query":"Smart lock status","result_struct":{"locked":true},"summary":"The smart lock is locked."}
+{"id":"g1027","query":"Door sensor status","result_struct":{"open":false},"summary":"The door sensor is closed."}
+{"id":"g1028","query":"Window sensor status","result_struct":{"open":false},"summary":"The window sensor is closed."}
+{"id":"g1029","query":"Motion sensor status","result_struct":{"detected":false},"summary":"No motion is currently detected."}
+{"id":"g1030","query":"Camera recording status","result_struct":{"recording":true},"summary":"The camera is currently recording."}
+{"id":"g1031","query":"Garage door status","result_struct":{"open":false},"summary":"The garage door is closed."}
+{"id":"g1032","query":"Smart plug status","result_struct":{"on":false},"summary":"The smart plug is off."}
+{"id":"g1033","query":"Energy meter reading","result_struct":{"kwh":12.5},"summary":"Energy meter reads 12.5 kWh."}
+{"id":"g1034","query":"Water leak sensor","result_struct":{"wet":false},"summary":"No water leak detected."}
+{"id":"g1035","query":"Smoke alarm status","result_struct":{"alarm":false},"summary":"Smoke alarm is silent."}
+{"id":"g1036","query":"CO alarm status","result_struct":{"alarm":false},"summary":"CO alarm is silent."}
+{"id":"g1037","query":"Robot vacuum status","result_struct":{"status":"Docked"},"summary":"The robot vacuum is Docked."}
+{"id":"g1038","query":"Robot vacuum battery","result_struct":{"pct":100},"summary":"Robot vacuum battery is 100%."}
+{"id":"g1039","query":"Smart speaker volume","result_struct":{"level":5},"summary":"Smart speaker volume is at 5."}
+{"id":"g1040","query":"Music playing status","result_struct":{"playing":false},"summary":"Music is not playing."}
+{"id":"g1041","query":"TV power status","result_struct":{"on":false},"summary":"The TV is off."}
+{"id":"g1042","query":"TV input source","result_struct":{"source":"HDMI1"},"summary":"TV input is HDMI1."}
+{"id":"g1043","query":"Smart fridge temp","result_struct":{"celsius":3},"summary":"Smart fridge temp is 3°C."}
+{"id":"g1044","query":"Freezer temp","result_struct":{"celsius":-18},"summary":"Freezer temp is -18°C."}
+{"id":"g1045","query":"Ice maker status","result_struct":{"status":"On"},"summary":"Ice maker is On."}
+{"id":"g1046","query":"Filter status","result_struct":{"status":"Good"},"summary":"Filter status is Good."}
+{"id":"g1047","query":"Oven preheat status","result_struct":{"ready":false},"summary":"Oven is not yet preheated."}
+{"id":"g1048","query":"Oven temp current","result_struct":{"celsius":150},"summary":"Current oven temp is 150°C."}
+{"id":"g1049","query":"Timer remaining","result_struct":{"minutes":5},"summary":"Timer has 5 minutes remaining."}
+{"id":"g1050","query":"Dishwasher time remaining","result_struct":{"minutes":20},"summary":"Dishwasher has 20 minutes left."}
+{"id":"g1051","query":"Washing machine status","result_struct":{"status":"Spinning"},"summary":"Washing machine is Spinning."}
+{"id":"g1052","query":"Dryer status","result_struct":{"status":"Drying"},"summary":"Dryer is Drying."}
+{"id":"g1053","query":"Coffee maker status","result_struct":{"status":"Brewing"},"summary":"Coffee maker is Brewing."}
+{"id":"g1054","query":"Blinds position","result_struct":{"pct":0},"summary":"Blinds are fully closed (0%)."}
+{"id":"g1055","query":"Awning position","result_struct":{"pct":100},"summary":"Awning is fully extended (100%)."}
+{"id":"g1056","query":"Sprinkler zone 1","result_struct":{"on":false},"summary":"Sprinkler zone 1 is off."}
+{"id":"g1057","query":"Pool pump status","result_struct":{"on":true},"summary":"The pool pump is on."}
+{"id":"g1058","query":"Pool heater status","result_struct":{"on":false},"summary":"The pool heater is off."}
+{"id":"g1059","query":"Gate status","result_struct":{"closed":true},"summary":"The gate is closed."}
+{"id":"g1060","query":"Mailbox sensor","result_struct":{"new_mail":false},"summary":"No new mail detected."}
+{"id":"g1061","query":"Pet feeder status","result_struct":{"full":true},"summary":"Pet feeder is full."}
+{"id":"g1062","query":"Pet door lock","result_struct":{"locked":false},"summary":"Pet door is unlocked."}
+{"id":"g1063","query":"Air purifier speed","result_struct":{"level":"Auto"},"summary":"Air purifier is on Auto."}
+{"id":"g1064","query":"Dehumidifier status","result_struct":{"on":true},"summary":"The dehumidifier is on."}
+{"id":"g1065","query":"Humidifier tank","result_struct":{"empty":false},"summary":"Humidifier tank is not empty."}
+{"id":"g1066","query":"Fan speed","result_struct":{"level":2},"summary":"Fan speed is level 2."}
+{"id":"g1067","query":"Heater status","result_struct":{"on":false},"summary":"Heater is off."}
+{"id":"g1068","query":"AC filter health","result_struct":{"pct":80},"summary":"AC filter health is 80%."}
+{"id":"g1069","query":"Device battery low count","result_struct":{"count":0},"summary":"Zero devices have low battery."}
+{"id":"g1070","query":"Firmware update available","result_struct":{"count":1},"summary":"1 firmware update is available."}
+{"id":"g1071","query":"Network strength avg","result_struct":{"dbm":-60},"summary":"Average network strength is -60 dBm."}
+{"id":"g1072","query":"Device offline count","result_struct":{"count":0},"summary":"Zero devices are offline."}
+{"id":"g1073","query":"Scene active","result_struct":{"name":"Movie Night"},"summary":"'Movie Night' scene is active."}
+{"id":"g1074","query":"Automation run count","result_struct":{"count":10},"summary":"Automations ran 10 times."}
+{"id":"g1075","query":"Voice command count","result_struct":{"count":5},"summary":"5 voice commands were issued."}
+{"id":"g1076","query":"App usage duration","result_struct":{"minutes":15},"summary":"App usage duration was 15 minutes."}
+{"id":"g1077","query":"Notification count home","result_struct":{"count":2},"summary":"There were 2 home notifications."}
+{"id":"g1078","query":"Guest access active","result_struct":{"active":false},"summary":"Guest access is not active."}
+{"id":"g1079","query":"Vacation mode","result_struct":{"active":false},"summary":"Vacation mode is off."}
+{"id":"g1080","query":"Eco mode","result_struct":{"active":true},"summary":"Eco mode is active."}
+{"id":"g1081","query":"Car engine oil life","result_struct":{"pct":85},"summary":"Engine oil life is at 85%."}
+{"id":"g1082","query":"Tire pressure FL","result_struct":{"psi":32},"summary":"Front-left tire pressure is 32 PSI."}
+{"id":"g1083","query":"Tire pressure FR","result_struct":{"psi":32},"summary":"Front-right tire pressure is 32 PSI."}
+{"id":"g1084","query":"Tire pressure RL","result_struct":{"psi":33},"summary":"Rear-left tire pressure is 33 PSI."}
+{"id":"g1085","query":"Tire pressure RR","result_struct":{"psi":33},"summary":"Rear-right tire pressure is 33 PSI."}
+{"id":"g1086","query":"Fuel level","result_struct":{"pct":45},"summary":"Fuel level is at 45%."}
+{"id":"g1087","query":"Range remaining","result_struct":{"miles":180},"summary":"Estimated range remaining is 180 miles."}
+{"id":"g1088","query":"Odometer reading","result_struct":{"miles":45200},"summary":"The odometer reads 45,200 miles."}
+{"id":"g1089","query":"Average fuel economy","result_struct":{"mpg":28.5},"summary":"Average fuel economy is 28.5 MPG."}
+{"id":"g1090","query":"Battery voltage car","result_struct":{"volts":12.6},"summary":"Car battery voltage is 12.6V."}
+{"id":"g1091","query":"Coolant temperature","result_struct":{"celsius":90},"summary":"Coolant temperature is 90°C."}
+{"id":"g1092","query":"Transmission fluid temp","result_struct":{"celsius":85},"summary":"Transmission fluid temp is 85°C."}
+{"id":"g1093","query":"Check engine light","result_struct":{"on":false},"summary":"Check engine light is off."}
+{"id":"g1094","query":"Service due","result_struct":{"days":60},"summary":"Service is due in 60 days."}
+{"id":"g1095","query":"Last trip distance","result_struct":{"miles":12.4},"summary":"The last trip was 12.4 miles."}
+{"id":"g1096","query":"Last trip duration","result_struct":{"minutes":25},"summary":"The last trip took 25 minutes."}
+{"id":"g1097","query":"EV state of charge","result_struct":{"pct":72},"summary":"EV state of charge is 72%."}
+{"id":"g1098","query":"Charging status","result_struct":{"status":"Not Charging"},"summary":"The vehicle is not charging."}
+{"id":"g1099","query":"Time to full charge","result_struct":{"hours":0},"summary":"Time to full charge is 0 hours (not charging)."}
+{"id":"g1100","query":"Regen braking level","result_struct":{"level":"High"},"summary":"Regenerative braking is set to High."}
+{"id":"g1101","query":"Door lock status car","result_struct":{"locked":true},"summary":"Car doors are locked."}
+{"id":"g1102","query":"Window status car","result_struct":{"closed":true},"summary":"Car windows are closed."}
+{"id":"g1103","query":"Trunk status","result_struct":{"closed":true},"summary":"The trunk is closed."}
+{"id":"g1104","query":"Sunroof status","result_struct":{"closed":true},"summary":"The sunroof is closed."}
+{"id":"g1105","query":"Parking brake status","result_struct":{"engaged":true},"summary":"The parking brake is engaged."}
+{"id":"g1106","query":"GPS location car","result_struct":{"lat":34.05,"lon":-118.25},"summary":"Car is located at 34.05, -118.25."}
+{"id":"g1107","query":"Alarm status car","result_struct":{"armed":true},"summary":"Car alarm is armed."}
+{"id":"g1108","query":"Remote start status","result_struct":{"active":false},"summary":"Remote start is inactive."}
+{"id":"g1109","query":"Seat heater status","result_struct":{"level":0},"summary":"Seat heaters are off."}
+{"id":"g1110","query":"Climate control temp","result_struct":{"celsius":21},"summary":"Climate control is set to 21°C."}
+{"id":"g1111","query":"Music volume car","result_struct":{"level":12},"summary":"Car music volume is 12."}
+{"id":"g1112","query":"Phone connected car","result_struct":{"name":"iPhone 13"},"summary":"iPhone 13 is connected."}
+{"id":"g1113","query":"Navigation destination","result_struct":{"name":"Home"},"summary":"Navigation is set to 'Home'."}
+{"id":"g1114","query":"ETA to destination","result_struct":{"minutes":15},"summary":"ETA is 15 minutes."}
+{"id":"g1115","query":"Traffic delay","result_struct":{"minutes":2},"summary":"Traffic delay is 2 minutes."}
+{"id":"g1116","query":"Speed limit current","result_struct":{"mph":45},"summary":"Current speed limit is 45 mph."}
+{"id":"g1117","query":"Current speed","result_struct":{"mph":0},"summary":"Current speed is 0 mph."}
+{"id":"g1118","query":"Cruise control status","result_struct":{"active":false},"summary":"Cruise control is inactive."}
+{"id":"g1119","query":"Lane keep assist","result_struct":{"active":true},"summary":"Lane keep assist is active."}
+{"id":"g1120","query":"Blind spot monitor","result_struct":{"active":true},"summary":"Blind spot monitor is active."}
+{"id":"g1121","query":"Steps taken today","result_struct":{"count":4500},"summary":"4,500 steps taken today."}
+{"id":"g1122","query":"Calories burned","result_struct":{"kcal":350},"summary":"350 calories burned."}
+{"id":"g1123","query":"Distance walked","result_struct":{"km":3.2},"summary":"Distance walked is 3.2 km."}
+{"id":"g1124","query":"Active minutes","result_struct":{"minutes":45},"summary":"45 active minutes recorded."}
+{"id":"g1125","query":"Floors climbed","result_struct":{"count":10},"summary":"10 floors climbed."}
+{"id":"g1126","query":"Heart rate current","result_struct":{"bpm":72},"summary":"Current heart rate is 72 bpm."}
+{"id":"g1127","query":"Resting heart rate","result_struct":{"bpm":60},"summary":"Resting heart rate is 60 bpm."}
+{"id":"g1128","query":"Sleep duration","result_struct":{"hours":7.5},"summary":"Sleep duration was 7.5 hours."}
+{"id":"g1129","query":"Sleep score","result_struct":{"score":85},"summary":"Sleep score is 85."}
+{"id":"g1130","query":"Deep sleep time","result_struct":{"minutes":90},"summary":"Deep sleep lasted 90 minutes."}
+{"id":"g1131","query":"REM sleep time","result_struct":{"minutes":120},"summary":"REM sleep lasted 120 minutes."}
+{"id":"g1132","query":"Blood oxygen (SpO2)","result_struct":{"pct":98},"summary":"Blood oxygen level is 98%."}
+{"id":"g1133","query":"Stress level","result_struct":{"score":30},"summary":"Stress level score is 30."}
+{"id":"g1134","query":"Body battery","result_struct":{"pct":80},"summary":"Body battery is at 80%."}
+{"id":"g1135","query":"Respiration rate","result_struct":{"brpm":14},"summary":"Respiration rate is 14 brpm."}
+{"id":"g1136","query":"Weight measurement","result_struct":{"kg":75.5},"summary":"Weight recorded as 75.5 kg."}
+{"id":"g1137","query":"BMI calculation","result_struct":{"value":24.2},"summary":"BMI is calculated at 24.2."}
+{"id":"g1138","query":"Body fat percentage","result_struct":{"pct":18},"summary":"Body fat is 18%."}
+{"id":"g1139","query":"Muscle mass","result_struct":{"kg":35},"summary":"Muscle mass is 35 kg."}
+{"id":"g1140","query":"Water intake","result_struct":{"ml":1500},"summary":"Water intake is 1500 ml."}
+{"id":"g1141","query":"Workout count week","result_struct":{"count":3},"summary":"3 workouts completed this week."}
+{"id":"g1142","query":"VO2 max estimate","result_struct":{"value":48},"summary":"Estimated VO2 max is 48."}
+{"id":"g1143","query":"Fitness age","result_struct":{"years":28},"summary":"Fitness age is estimated at 28."}
+{"id":"g1144","query":"Recovery time","result_struct":{"hours":12},"summary":"Recovery time needed is 12 hours."}
+{"id":"g1145","query":"Training load","result_struct":{"status":"Optimal"},"summary":"Training load is Optimal."}
+{"id":"g1146","query":"Stand hours","result_struct":{"count":8},"summary":"Stand hours achieved: 8."}
+{"id":"g1147","query":"Move ring status","result_struct":{"pct":80},"summary":"Move ring is 80% complete."}
+{"id":"g1148","query":"Exercise ring status","result_struct":{"pct":100},"summary":"Exercise ring is 100% complete."}
+{"id":"g1149","query":"Stand ring status","result_struct":{"pct":70},"summary":"Stand ring is 70% complete."}
+{"id":"g1150","query":"Daily goal streak","result_struct":{"days":5},"summary":"Daily goal streak is 5 days."}
+{"id":"g1151","query":"Coffee beans stock","result_struct":{"grams":500},"summary":"500g of coffee beans in stock."}
+{"id":"g1152","query":"Milk volume","result_struct":{"liters":1.5},"summary":"1.5 liters of milk remaining."}
+{"id":"g1153","query":"Egg count","result_struct":{"count":6},"summary":"There are 6 eggs left."}
+{"id":"g1154","query":"Bread slices","result_struct":{"count":10},"summary":"10 slices of bread remaining."}
+{"id":"g1155","query":"Fruit count","result_struct":{"apples":3,"bananas":4},"summary":"We have 3 apples and 4 bananas."}
+{"id":"g1156","query":"Vegetable bin status","result_struct":{"status":"Full"},"summary":"The vegetable bin is Full."}
+{"id":"g1157","query":"Meat freezer stock","result_struct":{"kg":2},"summary":"2 kg of meat in the freezer."}
+{"id":"g1158","query":"Rice supply","result_struct":{"kg":5},"summary":"5 kg of rice in supply."}
+{"id":"g1159","query":"Pasta boxes","result_struct":{"count":3},"summary":"3 boxes of pasta available."}
+{"id":"g1160","query":"Canned goods","result_struct":{"count":12},"summary":"12 canned goods in the pantry."}
+{"id":"g1161","query":"Spice rack status","result_struct":{"status":"Stocked"},"summary":"Spice rack is fully Stocked."}
+{"id":"g1162","query":"Oil volume","result_struct":{"ml":750},"summary":"750ml of oil remaining."}
+{"id":"g1163","query":"Sugar stock","result_struct":{"kg":1},"summary":"1 kg of sugar in stock."}
+{"id":"g1164","query":"Flour stock","result_struct":{"kg":2},"summary":"2 kg of flour in stock."}
+{"id":"g1165","query":"Snack inventory","result_struct":{"items":5},"summary":"There are 5 snack items left."}
+{"id":"g1166","query":"Beverage count","result_struct":{"cans":6},"summary":"6 beverage cans remaining."}
+{"id":"g1167","query":"Dish soap level","result_struct":{"pct":40},"summary":"Dish soap is 40% full."}
+{"id":"g1168","query":"Sponge condition","result_struct":{"status":"Old"},"summary":"The sponge status is Old."}
+{"id":"g1169","query":"Trash bag count","result_struct":{"count":20},"summary":"20 trash bags remaining."}
+{"id":"g1170","query":"Paper towel rolls","result_struct":{"count":2},"summary":"2 rolls of paper towels left."}
+{"id":"g1171","query":"Toilet paper rolls","result_struct":{"count":6},"summary":"6 rolls of toilet paper left."}
+{"id":"g1172","query":"Shampoo level","result_struct":{"pct":20},"summary":"Shampoo is 20% full."}
+{"id":"g1173","query":"Body wash level","result_struct":{"pct":50},"summary":"Body wash is 50% full."}
+{"id":"g1174","query":"Toothpaste status","result_struct":{"status":"Low"},"summary":"Toothpaste is running Low."}
+{"id":"g1175","query":"Laundry detergent","result_struct":{"loads":10},"summary":"Enough detergent for 10 loads."}
+{"id":"g1176","query":"Fabric softener","result_struct":{"loads":15},"summary":"Enough softener for 15 loads."}
+{"id":"g1177","query":"Bleach level","result_struct":{"pct":80},"summary":"Bleach is 80% full."}
+{"id":"g1178","query":"Cleaning spray","result_struct":{"pct":30},"summary":"Cleaning spray is 30% full."}
+{"id":"g1179","query":"Light bulb stock","result_struct":{"count":4},"summary":"4 spare light bulbs in stock."}
+{"id":"g1180","query":"Battery AA stock","result_struct":{"count":8},"summary":"8 AA batteries in stock."}
+{"id":"g1181","query":"Project timeline status","result_struct":{"status":"On Track"},"summary":"The project timeline is On Track."}
+{"id":"g1182","query":"Tasks completed","result_struct":{"count":45},"summary":"45 tasks have been completed."}
+{"id":"g1183","query":"Tasks remaining","result_struct":{"count":12},"summary":"12 tasks remain."}
+{"id":"g1184","query":"Milestones reached","result_struct":{"count":3},"summary":"3 milestones have been reached."}
+{"id":"g1185","query":"Upcoming deadline","result_struct":{"date":"2024-12-01"},"summary":"The next deadline is 2024-12-01."}
+{"id":"g1186","query":"Budget consumed","result_struct":{"pct":65},"summary":"65% of the budget has been consumed."}
+{"id":"g1187","query":"Team velocity","result_struct":{"points":42},"summary":"Team velocity is 42 points."}
+{"id":"g1188","query":"Sprint number","result_struct":{"current":12},"summary":"We are currently in Sprint 12."}
+{"id":"g1189","query":"Sprint goal status","result_struct":{"status":"At Risk"},"summary":"The sprint goal is At Risk."}
+{"id":"g1190","query":"Blocker count","result_struct":{"count":2},"summary":"There are 2 active blockers."}
+{"id":"g1191","query":"Burndown chart trend","result_struct":{"trend":"Flat"},"summary":"The burndown chart is trending Flat."}
+{"id":"g1192","query":"Defect density","result_struct":{"per_kloc":0.5},"summary":"Defect density is 0.5 per KLOC."}
+{"id":"g1193","query":"Code review backlog","result_struct":{"count":5},"summary":"There are 5 PRs in the code review backlog."}
+{"id":"g1194","query":"Meeting hours week","result_struct":{"hours":10},"summary":"10 hours of meetings this week."}
+{"id":"g1195","query":"Focus time avg","result_struct":{"hours":20},"summary":"Average focus time is 20 hours."}
+{"id":"g1196","query":"Stakeholder satisfaction","result_struct":{"score":4.5},"summary":"Stakeholder satisfaction is 4.5."}
+{"id":"g1197","query":"Scope creep estimate","result_struct":{"pct":5},"summary":"Scope creep is estimated at 5%."}
+{"id":"g1198","query":"Resource utilization","result_struct":{"pct":90},"summary":"Resource utilization is 90%."}
+{"id":"g1199","query":"Risk count high","result_struct":{"count":1},"summary":"There is 1 high-level risk."}
+{"id":"g1200","query":"Issue resolution time","result_struct":{"days":2},"summary":"Average issue resolution time is 2 days."}
+{"id":"g1201","query":"Client feedback count","result_struct":{"count":8},"summary":"We received 8 pieces of client feedback."}
+{"id":"g1202","query":"Change request count","result_struct":{"count":3},"summary":"There are 3 change requests."}
+{"id":"g1203","query":"Deployment frequency","result_struct":{"per_sprint":2},"summary":"Deployment frequency is 2 per sprint."}
+{"id":"g1204","query":"Uptime SLA status","result_struct":{"status":"Met"},"summary":"Uptime SLA was Met."}
+{"id":"g1205","query":"Documentation progress","result_struct":{"pct":80},"summary":"Documentation is 80% complete."}
+{"id":"g1206","query":"Training completion","result_struct":{"pct":100},"summary":"Training is 100% complete."}
+{"id":"g1207","query":"Onboarding status","result_struct":{"status":"Done"},"summary":"Onboarding is Done."}
+{"id":"g1208","query":"Offboarding status","result_struct":{"status":"Pending"},"summary":"Offboarding is Pending."}
+{"id":"g1209","query":"Hardware request","result_struct":{"status":"Approved"},"summary":"The hardware request was Approved."}
+{"id":"g1210","query":"Software license req","result_struct":{"status":"Denied"},"summary":"The software license request was Denied."}
+{"id":"g1211","query":"Steps to goal","result_struct":{"steps":500},"summary":"500 steps remaining to goal."}
+{"id":"g1212","query":"Calories to goal","result_struct":{"kcal":150},"summary":"150 calories remaining to goal."}
+{"id":"g1213","query":"Water to goal","result_struct":{"ml":500},"summary":"500ml water remaining to goal."}
+{"id":"g1214","query":"Reading goal progress","result_struct":{"pages":20},"summary":"20 pages read towards goal."}
+{"id":"g1215","query":"Meditation minutes","result_struct":{"minutes":15},"summary":"15 minutes of meditation completed."}
+{"id":"g1216","query":"Journal entry status","result_struct":{"done":true},"summary":"Journal entry is done."}
+{"id":"g1217","query":"Language lesson","result_struct":{"done":true},"summary":"Language lesson completed."}
+{"id":"g1218","query":"Coding streak","result_struct":{"days":10},"summary":"Coding streak is 10 days."}
+{"id":"g1219","query":"Guitar practice","result_struct":{"minutes":30},"summary":"30 minutes of guitar practice."}
+{"id":"g1220","query":"Painting progress","result_struct":{"pct":50},"summary":"Painting is 50% complete."}
+{"id":"g1221","query":"Writing word count","result_struct":{"words":500},"summary":"500 words written today."}
+{"id":"g1222","query":"Savings goal","result_struct":{"pct":25},"summary":"25% of savings goal reached."}
+{"id":"g1223","query":"Debt payoff","result_struct":{"pct":10},"summary":"10% of debt paid off."}
+{"id":"g1224","query":"Charity donation","result_struct":{"amount":50,"currency":"USD"},"summary":"Donated $50 to charity."}
+{"id":"g1225","query":"Volunteer hours","result_struct":{"hours":4},"summary":"4 volunteer hours logged."}
+{"id":"g1226","query":"Social event count","result_struct":{"count":1},"summary":"Attended 1 social event."}
+{"id":"g1227","query":"Family call duration","result_struct":{"minutes":45},"summary":"Family call lasted 45 minutes."}
+{"id":"g1228","query":"Date night status","result_struct":{"planned":true},"summary":"Date night is planned."}
+{"id":"g1229","query":"Movie watched","result_struct":{"title":"Dune"},"summary":"Watched the movie 'Dune'."}
+{"id":"g1230","query":"Book finished","result_struct":{"title":"1984"},"summary":"Finished reading '1984'."}
+{"id":"g1231","query":"Recipe tried","result_struct":{"name":"Risotto"},"summary":"Tried cooking Risotto."}
+{"id":"g1232","query":"Plant watered","result_struct":{"count":5},"summary":"Watered 5 plants."}
+{"id":"g1233","query":"Room cleaned","result_struct":{"name":"Kitchen"},"summary":"Cleaned the Kitchen."}
+{"id":"g1234","query":"Laundry folded","result_struct":{"loads":2},"summary":"Folded 2 loads of laundry."}
+{"id":"g1235","query":"Groceries bought","result_struct":{"cost":120,"currency":"USD"},"summary":"Bought $120 worth of groceries."}
+{"id":"g1236","query":"Car washed","result_struct":{"done":false},"summary":"Car has not been washed."}
+{"id":"g1237","query":"Dog walked","result_struct":{"minutes":40},"summary":"Walked the dog for 40 minutes."}
+{"id":"g1238","query":"Cat fed","result_struct":{"done":true},"summary":"The cat has been fed."}
+{"id":"g1239","query":"Fish tank cleaned","result_struct":{"done":false},"summary":"Fish tank needs cleaning."}
+{"id":"g1240","query":"Mail checked","result_struct":{"done":true},"summary":"Mail has been checked."}
+{"id":"g1241","query":"Server CPU temp","result_struct":{"celsius":55},"summary":"Server CPU temperature is 55°C."}
+{"id":"g1242","query":"Server Fan speed","result_struct":{"rpm":3000},"summary":"Server fan speed is 3000 RPM."}
+{"id":"g1243","query":"Server Power draw","result_struct":{"watts":450},"summary":"Server power draw is 450 Watts."}
+{"id":"g1244","query":"RAID status","result_struct":{"status":"Optimal"},"summary":"RAID status is Optimal."}
+{"id":"g1245","query":"Disk SMART status","result_struct":{"status":"Pass"},"summary":"Disk SMART status is Pass."}
+{"id":"g1246","query":"UPS battery level","result_struct":{"pct":100},"summary":"UPS battery is at 100%."}
+{"id":"g1247","query":"UPS load","result_struct":{"pct":20},"summary":"UPS load is 20%."}
+{"id":"g1248","query":"Switch port status (1)","result_struct":{"status":"Up"},"summary":"Switch port 1 is Up."}
+{"id":"g1249","query":"Switch port speed (1)","result_struct":{"mbps":1000},"summary":"Switch port 1 speed is 1000 Mbps."}
+{"id":"g1250","query":"Router uptime","result_struct":{"days":45},"summary":"Router uptime is 45 days."}
+{"id":"g1251","query":"WiFi connected clients","result_struct":{"count":12},"summary":"12 clients are connected to WiFi."}
+{"id":"g1252","query":"ISP latency","result_struct":{"ms":15},"summary":"ISP latency is 15ms."}
+{"id":"g1253","query":"ISP jitter","result_struct":{"ms":2},"summary":"ISP jitter is 2ms."}
+{"id":"g1254","query":"Download speed","result_struct":{"mbps":500},"summary":"Download speed is 500 Mbps."}
+{"id":"g1255","query":"Upload speed","result_struct":{"mbps":50},"summary":"Upload speed is 50 Mbps."}
+{"id":"g1256","query":"DNS resolution time","result_struct":{"ms":20},"summary":"DNS resolution time is 20ms."}
+{"id":"g1257","query":"Packet loss WAN","result_struct":{"pct":0},"summary":"WAN packet loss is 0%."}
+{"id":"g1258","query":"VPN tunnel status","result_struct":{"status":"Connected"},"summary":"VPN tunnel is Connected."}
+{"id":"g1259","query":"Firewall hits deny","result_struct":{"count":500},"summary":"Firewall denied 500 hits."}
+{"id":"g1260","query":"Firewall hits allow","result_struct":{"count":10000},"summary":"Firewall allowed 10,000 hits."}
+{"id":"g1261","query":"IDS alerts count","result_struct":{"count":5},"summary":"There are 5 IDS alerts."}
+{"id":"g1262","query":"Proxy cache hit rate","result_struct":{"pct":40},"summary":"Proxy cache hit rate is 40%."}
+{"id":"g1263","query":"Load balancer active connections","result_struct":{"count":200},"summary":"Load balancer has 200 active connections."}
+{"id":"g1264","query":"Web server requests/sec","result_struct":{"rps":50},"summary":"Web server is handling 50 requests/sec."}
+{"id":"g1265","query":"Database queries/sec","result_struct":{"qps":100},"summary":"Database is processing 100 queries/sec."}
+{"id":"g1266","query":"Cache memory used","result_struct":{"mb":512},"summary":"512 MB of cache memory used."}
+{"id":"g1267","query":"Message queue depth","result_struct":{"count":0},"summary":"Message queue depth is 0."}
+{"id":"g1268","query":"Worker pool busy","result_struct":{"pct":10},"summary":"Worker pool is 10% busy."}
+{"id":"g1269","query":"Error log rate","result_struct":{"per_min":2},"summary":"Error log rate is 2 per minute."}
+{"id":"g1270","query":"Access log rate","result_struct":{"per_min":100},"summary":"Access log rate is 100 per minute."}
+{"id":"g1271","query":"Game score Home","result_struct":{"score":2},"summary":"Home team score is 2."}
+{"id":"g1272","query":"Game score Away","result_struct":{"score":1},"summary":"Away team score is 1."}
+{"id":"g1273","query":"Game period","result_struct":{"period":3},"summary":"Game is in period 3."}
+{"id":"g1274","query":"Time remaining game","result_struct":{"minutes":5},"summary":"5 minutes remaining in the game."}
+{"id":"g1275","query":"Possession pct","result_struct":{"home":55,"away":45},"summary":"Possession: Home 55%, Away 45%."}
+{"id":"g1276","query":"Shots on goal Home","result_struct":{"count":10},"summary":"Home had 10 shots on goal."}
+{"id":"g1277","query":"Shots on goal Away","result_struct":{"count":8},"summary":"Away had 8 shots on goal."}
+{"id":"g1278","query":"Fouls Home","result_struct":{"count":3},"summary":"Home committed 3 fouls."}
+{"id":"g1279","query":"Fouls Away","result_struct":{"count":4},"summary":"Away committed 4 fouls."}
+{"id":"g1280","query":"Yellow cards Home","result_struct":{"count":1},"summary":"Home has 1 yellow card."}
+{"id":"g1281","query":"Red cards Away","result_struct":{"count":0},"summary":"Away has 0 red cards."}
+{"id":"g1282","query":"Corner kicks Home","result_struct":{"count":5},"summary":"Home took 5 corner kicks."}
+{"id":"g1283","query":"Offsides Away","result_struct":{"count":2},"summary":"Away was offside 2 times."}
+{"id":"g1284","query":"Pass accuracy Home","result_struct":{"pct":85},"summary":"Home pass accuracy is 85%."}
+{"id":"g1285","query":"Tackles won Away","result_struct":{"count":12},"summary":"Away won 12 tackles."}
+{"id":"g1286","query":"Saves Home GK","result_struct":{"count":7},"summary":"Home goalkeeper made 7 saves."}
+{"id":"g1287","query":"Distance covered Home","result_struct":{"km":105},"summary":"Home team covered 105 km."}
+{"id":"g1288","query":"Man of the Match","result_struct":{"player":"#10"},"summary":"Man of the Match is #10."}
+{"id":"g1289","query":"Attendance stadium","result_struct":{"count":50000},"summary":"Stadium attendance is 50,000."}
+{"id":"g1290","query":"Weather game","result_struct":{"condition":"Rain"},"summary":"Game weather is Rain."}
+{"id":"g1291","query":"Top scorer season","result_struct":{"name":"Smith","goals":20},"summary":"Smith is top scorer with 20 goals."}
+{"id":"g1292","query":"League rank Home","result_struct":{"rank":3},"summary":"Home team is ranked 3rd."}
+{"id":"g1293","query":"League rank Away","result_struct":{"rank":10},"summary":"Away team is ranked 10th."}
+{"id":"g1294","query":"Form last 5 Home","result_struct":{"form":"WWDLW"},"summary":"Home form: WWDLW."}
+{"id":"g1295","query":"Form last 5 Away","result_struct":{"form":"LLDWD"},"summary":"Away form: LLDWD."}
+{"id":"g1296","query":"Betting odds Home win","result_struct":{"odds":1.8},"summary":"Odds for Home win are 1.8."}
+{"id":"g1297","query":"Betting odds Draw","result_struct":{"odds":3.5},"summary":"Odds for a Draw are 3.5."}
+{"id":"g1298","query":"Betting odds Away win","result_struct":{"odds":4.2},"summary":"Odds for Away win are 4.2."}
+{"id":"g1299","query":"Next match Home","result_struct":{"opponent":"City"},"summary":"Home's next match is against City."}
+{"id":"g1300","query":"Coach name Home","result_struct":{"name":"Johnson"},"summary":"Home coach is Johnson."}
+{"id":"g1301","query":"Podcast subscriber count","result_struct":{"count":1500},"summary":"The podcast has 1,500 subscribers."}
+{"id":"g1302","query":"Episode download count","result_struct":{"count":250},"summary":"The episode has 250 downloads."}
+{"id":"g1303","query":"Listener retention avg","result_struct":{"pct":60},"summary":"Average listener retention is 60%."}
+{"id":"g1304","query":"Top listener country","result_struct":{"code":"US"},"summary":"Top listener country is US."}
+{"id":"g1305","query":"Spotify stream count","result_struct":{"count":100},"summary":"100 streams on Spotify."}
+{"id":"g1306","query":"Apple Podcast rating","result_struct":{"stars":4.9},"summary":"Apple Podcast rating is 4.9."}
+{"id":"g1307","query":"Review count total","result_struct":{"count":50},"summary":"Total review count is 50."}
+{"id":"g1308","query":"Patreon supporter count","result_struct":{"count":20},"summary":"There are 20 Patreon supporters."}
+{"id":"g1309","query":"Monthly donation revenue","result_struct":{"amount":100,"currency":"USD"},"summary":"Monthly donations total $100."}
+{"id":"g1310","query":"Ad impression count","result_struct":{"count":500},"summary":"There were 500 ad impressions."}
+{"id":"g1311","query":"Sponsorship deal status","result_struct":{"active":true},"summary":"Sponsorship deal is active."}
+{"id":"g1312","query":"Guest booking status","result_struct":{"confirmed":true},"summary":"Guest booking is confirmed."}
+{"id":"g1313","query":"Recording schedule","result_struct":{"day":"Tuesday"},"summary":"Recording is scheduled for Tuesday."}
+{"id":"g1314","query":"Editing status","result_struct":{"pct":50},"summary":"Editing is 50% complete."}
+{"id":"g1315","query":"Show notes status","result_struct":{"drafted":true},"summary":"Show notes are drafted."}
+{"id":"g1316","query":"Social share count","result_struct":{"count":30},"summary":"The episode was shared 30 times."}
+{"id":"g1317","query":"Website visit count","result_struct":{"count":200},"summary":"The website received 200 visits."}
+{"id":"g1318","query":"Newsletter open rate","result_struct":{"pct":40},"summary":"Newsletter open rate is 40%."}
+{"id":"g1319","query":"Merch sales count","result_struct":{"count":5},"summary":"5 merch items sold."}
+{"id":"g1320","query":"Community member count","result_struct":{"count":300},"summary":"The community has 300 members."}
+{"id":"g1321","query":"Discord active users","result_struct":{"count":50},"summary":"50 active users on Discord."}
+{"id":"g1322","query":"YouTube view count","result_struct":{"count":1000},"summary":"1,000 views on YouTube."}
+{"id":"g1323","query":"YouTube watch time","result_struct":{"hours":100},"summary":"100 hours of watch time on YouTube."}
+{"id":"g1324","query":"Subscriber gain","result_struct":{"count":10},"summary":"Gained 10 subscribers."}
+{"id":"g1325","query":"Comment count video","result_struct":{"count":15},"summary":"The video has 15 comments."}
+{"id":"g1326","query":"Like count video","result_struct":{"count":50},"summary":"The video has 50 likes."}
+{"id":"g1327","query":"Dislike count video","result_struct":{"count":1},"summary":"The video has 1 dislike."}
+{"id":"g1328","query":"Video length","result_struct":{"minutes":20},"summary":"Video length is 20 minutes."}
+{"id":"g1329","query":"Resolution max","result_struct":{"res":"4K"},"summary":"Max resolution is 4K."}
+{"id":"g1330","query":"Subtitle status","result_struct":{"available":true},"summary":"Subtitles are available."}
+{"id":"g1331","query":"Construction site safety","result_struct":{"days_accident_free":100},"summary":"100 days accident-free on site."}
+{"id":"g1332","query":"Project completion pct","result_struct":{"pct":40},"summary":"Project is 40% complete."}
+{"id":"g1333","query":"Budget variance","result_struct":{"pct":-2},"summary":"Budget variance is -2% (under budget)."}
+{"id":"g1334","query":"Material delivery status","result_struct":{"status":"Delayed"},"summary":"Material delivery is Delayed."}
+{"id":"g1335","query":"Worker headcount today","result_struct":{"count":50},"summary":"50 workers on site today."}
+{"id":"g1336","query":"Equipment usage excavator","result_struct":{"hours":8},"summary":"Excavator used for 8 hours."}
+{"id":"g1337","query":"Equipment usage crane","result_struct":{"hours":4},"summary":"Crane used for 4 hours."}
+{"id":"g1338","query":"Concrete poured","result_struct":{"m3":100},"summary":"100 cubic meters of concrete poured."}
+{"id":"g1339","query":"Steel installed","result_struct":{"tons":5},"summary":"5 tons of steel installed."}
+{"id":"g1340","query":"Weather delay days","result_struct":{"count":2},"summary":"2 days of weather delays."}
+{"id":"g1341","query":"Inspection status","result_struct":{"passed":true},"summary":"Inspection passed."}
+{"id":"g1342","query":"Permit status","result_struct":{"active":true},"summary":"Permit is active."}
+{"id":"g1343","query":"RFI count","result_struct":{"count":5},"summary":"There are 5 active RFIs."}
+{"id":"g1344","query":"Change order count","result_struct":{"count":1},"summary":"There is 1 change order."}
+{"id":"g1345","query":"Subcontractor count","result_struct":{"count":3},"summary":"3 subcontractors are active."}
+{"id":"g1346","query":"Waste removed","result_struct":{"tons":2},"summary":"2 tons of waste removed."}
+{"id":"g1347","query":"Fuel consumed site","result_struct":{"liters":500},"summary":"500 liters of fuel consumed."}
+{"id":"g1348","query":"Noise level site","result_struct":{"db":85},"summary":"Site noise level is 85 dB."}
+{"id":"g1349","query":"Dust level site","result_struct":{"status":"Acceptable"},"summary":"Dust level is Acceptable."}
+{"id":"g1350","query":"Site security breach","result_struct":{"count":0},"summary":"Zero site security breaches."}
+{"id":"g1351","query":"Museum visitor count","result_struct":{"count":200},"summary":"200 visitors at the museum."}
+{"id":"g1352","query":"Ticket revenue museum","result_struct":{"amount":3000,"currency":"USD"},"summary":"Museum ticket revenue was $3,000."}
+{"id":"g1353","query":"Exhibition A visitors","result_struct":{"count":100},"summary":"100 visitors for Exhibition A."}
+{"id":"g1354","query":"Exhibition B visitors","result_struct":{"count":50},"summary":"50 visitors for Exhibition B."}
+{"id":"g1355","query":"Tour guide booking","result_struct":{"count":5},"summary":"5 tour guide bookings."}
+{"id":"g1356","query":"Audio guide rental","result_struct":{"count":20},"summary":"20 audio guides rented."}
+{"id":"g1357","query":"Gift shop revenue","result_struct":{"amount":500,"currency":"USD"},"summary":"Gift shop revenue was $500."}
+{"id":"g1358","query":"Cafe revenue museum","result_struct":{"amount":400,"currency":"USD"},"summary":"Cafe revenue was $400."}
+{"id":"g1359","query":"Member visit count","result_struct":{"count":30},"summary":"30 member visits."}
+{"id":"g1360","query":"School group count","result_struct":{"count":2},"summary":"2 school groups visited."}
+{"id":"g1361","query":"Donation box total","result_struct":{"amount":50,"currency":"USD"},"summary":"Donation box collected $50."}
+{"id":"g1362","query":"Event attendance museum","result_struct":{"count":80},"summary":"Museum event attendance was 80."}
+{"id":"g1363","query":"Artwork restoration","result_struct":{"status":"In Progress"},"summary":"Artwork restoration is In Progress."}
+{"id":"g1364","query":"New acquisition count","result_struct":{"count":1},"summary":"1 new acquisition."}
+{"id":"g1365","query":"Loaned item count","result_struct":{"count":5},"summary":"5 items are on loan."}
+{"id":"g1366","query":"Temperature gallery","result_struct":{"celsius":20},"summary":"Gallery temperature is 20°C."}
+{"id":"g1367","query":"Humidity gallery","result_struct":{"pct":50},"summary":"Gallery humidity is 50%."}
+{"id":"g1368","query":"Security alert museum","result_struct":{"count":0},"summary":"Zero museum security alerts."}
+{"id":"g1369","query":"Cleaning schedule museum","result_struct":{"status":"Done"},"summary":"Cleaning schedule is Done."}
+{"id":"g1370","query":"Volunteer count museum","result_struct":{"count":10},"summary":"10 volunteers present."}
+{"id":"g1371","query":"Library visitor count","result_struct":{"count":150},"summary":"150 visitors at the library."}
+{"id":"g1372","query":"Book checkout count","result_struct":{"count":300},"summary":"300 books checked out."}
+{"id":"g1373","query":"Book return count","result_struct":{"count":250},"summary":"250 books returned."}
+{"id":"g1374","query":"Overdue book count","result_struct":{"count":50},"summary":"50 books are overdue."}
+{"id":"g1375","query":"Fine revenue library","result_struct":{"amount":20,"currency":"USD"},"summary":"Library fine revenue was $20."}
+{"id":"g1376","query":"Computer usage library","result_struct":{"sessions":40},"summary":"40 computer sessions used."}
+{"id":"g1377","query":"WiFi user count library","result_struct":{"count":30},"summary":"30 WiFi users at the library."}
+{"id":"g1378","query":"Study room booking","result_struct":{"count":5},"summary":"5 study rooms booked."}
+{"id":"g1379","query":"Event attendance library","result_struct":{"count":20},"summary":"20 people attended library events."}
+{"id":"g1380","query":"New card issue count","result_struct":{"count":5},"summary":"5 new library cards issued."}
+{"id":"g1381","query":"E-book checkout count","result_struct":{"count":100},"summary":"100 e-books checked out."}
+{"id":"g1382","query":"Audiobook checkout","result_struct":{"count":50},"summary":"50 audiobooks checked out."}
+{"id":"g1383","query":"Interlibrary loan","result_struct":{"count":2},"summary":"2 interlibrary loans processed."}
+{"id":"g1384","query":"Reference question","result_struct":{"count":10},"summary":"10 reference questions answered."}
+{"id":"g1385","query":"Printer usage pages","result_struct":{"count":200},"summary":"200 pages printed."}
+{"id":"g1386","query":"3D printer usage","result_struct":{"hours":2},"summary":"3D printer used for 2 hours."}
+{"id":"g1387","query":"Volunteer hours library","result_struct":{"hours":15},"summary":"15 volunteer hours at the library."}
+{"id":"g1388","query":"Book sale revenue","result_struct":{"amount":30,"currency":"USD"},"summary":"Book sale revenue was $30."}
+{"id":"g1389","query":"System outage library","result_struct":{"count":0},"summary":"Zero system outages at the library."}
+{"id":"g1390","query":"Maintenance request","result_struct":{"count":1},"summary":"1 maintenance request submitted."}
+{"id":"g1391","query":"Zoo visitor count","result_struct":{"count":1000},"summary":"1,000 visitors at the zoo."}
+{"id":"g1392","query":"Ticket revenue zoo","result_struct":{"amount":20000,"currency":"USD"},"summary":"Zoo ticket revenue was $20,000."}
+{"id":"g1393","query":"Animal feeding schedule","result_struct":{"status":"On Time"},"summary":"Animal feeding is On Time."}
+{"id":"g1394","query":"Vet checkup count","result_struct":{"count":5},"summary":"5 vet checkups completed."}
+{"id":"g1395","query":"New animal birth","result_struct":{"count":0},"summary":"Zero new animal births."}
+{"id":"g1396","query":"Animal transfer in","result_struct":{"count":0},"summary":"Zero animal transfers in."}
+{"id":"g1397","query":"Animal transfer out","result_struct":{"count":0},"summary":"Zero animal transfers out."}
+{"id":"g1398","query":"Enclosure maintenance","result_struct":{"count":2},"summary":"2 enclosures maintained."}
+{"id":"g1399","query":"Food consumption zoo","result_struct":{"kg":500},"summary":"500 kg of food consumed."}
+{"id":"g1400","query":"Gift shop revenue zoo","result_struct":{"amount":3000,"currency":"USD"},"summary":"Zoo gift shop revenue was $3,000."}
+{"id":"g1401","query":"Concession revenue zoo","result_struct":{"amount":4000,"currency":"USD"},"summary":"Zoo concession revenue was $4,000."}
+{"id":"g1402","query":"Train ride count","result_struct":{"riders":200},"summary":"200 riders on the zoo train."}
+{"id":"g1403","query":"Carousel ride count","result_struct":{"riders":100},"summary":"100 riders on the carousel."}
+{"id":"g1404","query":"Show attendance zoo","result_struct":{"count":300},"summary":"300 people attended zoo shows."}
+{"id":"g1405","query":"Membership sales zoo","result_struct":{"count":10},"summary":"10 memberships sold."}
+{"id":"g1406","query":"Lost child report","result_struct":{"count":0},"summary":"Zero lost child reports."}
+{"id":"g1407","query":"First aid incident","result_struct":{"count":1},"summary":"1 first aid incident occurred."}
+{"id":"g1408","query":"Parking lot fullness zoo","result_struct":{"pct":80},"summary":"Zoo parking lot is 80% full."}
+{"id":"g1409","query":"Weather impact zoo","result_struct":{"status":"None"},"summary":"No weather impact at the zoo."}
+{"id":"g1410","query":"Staff attendance zoo","result_struct":{"pct":95},"summary":"Zoo staff attendance is 95%."}
+{"id":"g1411","query":"Theme park visitor count","result_struct":{"count":5000},"summary":"5,000 visitors at the theme park."}
+{"id":"g1412","query":"Ride wait time avg","result_struct":{"minutes":30},"summary":"Average ride wait time is 30 minutes."}
+{"id":"g1413","query":"Most popular ride","result_struct":{"name":"Coaster A"},"summary":"'Coaster A' is the most popular ride."}
+{"id":"g1414","query":"Ride downtime count","result_struct":{"count":1},"summary":"1 ride experienced downtime."}
+{"id":"g1415","query":"Fast pass sales","result_struct":{"count":500},"summary":"500 Fast Passes sold."}
+{"id":"g1416","query":"Ticket revenue park","result_struct":{"amount":250000,"currency":"USD"},"summary":"Park ticket revenue was $250,000."}
+{"id":"g1417","query":"Food sales park","result_struct":{"amount":50000,"currency":"USD"},"summary":"Park food sales were $50,000."}
+{"id":"g1418","query":"Merch sales park","result_struct":{"amount":30000,"currency":"USD"},"summary":"Park merch sales were $30,000."}
+{"id":"g1419","query":"Hotel occupancy park","result_struct":{"pct":90},"summary":"Park hotel occupancy is 90%."}
+{"id":"g1420","query":"Show attendance park","result_struct":{"count":2000},"summary":"2,000 people attended park shows."}
+{"id":"g1421","query":"Fireworks status","result_struct":{"status":"Go"},"summary":"Fireworks show is a Go."}
+{"id":"g1422","query":"Parade status","result_struct":{"status":"Go"},"summary":"Parade is a Go."}
+{"id":"g1423","query":"Lost and found items","result_struct":{"count":10},"summary":"10 items in lost and found."}
+{"id":"g1424","query":"Security incident park","result_struct":{"count":0},"summary":"Zero security incidents."}
+{"id":"g1425","query":"Medical incident park","result_struct":{"count":2},"summary":"2 medical incidents occurred."}
+{"id":"g1426","query":"Cleanliness score park","result_struct":{"score":9},"summary":"Park cleanliness score is 9."}
+{"id":"g1427","query":"Staff happiness park","result_struct":{"score":8},"summary":"Staff happiness score is 8."}
+{"id":"g1428","query":"Guest satisfaction park","result_struct":{"score":4.5},"summary":"Guest satisfaction is 4.5."}
+{"id":"g1429","query":"Parking revenue park","result_struct":{"amount":10000,"currency":"USD"},"summary":"Parking revenue was $10,000."}
+{"id":"g1430","query":"App download count park","result_struct":{"count":200},"summary":"200 park app downloads."}
+{"id":"g1431","query":"Aquarium visitor count","result_struct":{"count":800},"summary":"800 visitors at the aquarium."}
+{"id":"g1432","query":"Ticket revenue aquarium","result_struct":{"amount":15000,"currency":"USD"},"summary":"Aquarium ticket revenue was $15,000."}
+{"id":"g1433","query":"Tank temperature avg","result_struct":{"celsius":24},"summary":"Average tank temperature is 24°C."}
+{"id":"g1434","query":"Ph level avg","result_struct":{"ph":8.2},"summary":"Average pH level is 8.2."}
+{"id":"g1435","query":"Salinity level avg","result_struct":{"ppt":35},"summary":"Average salinity is 35 ppt."}
+{"id":"g1436","query":"Filter status aquarium","result_struct":{"status":"Good"},"summary":"Filter status is Good."}
+{"id":"g1437","query":"Pump status aquarium","result_struct":{"status":"Good"},"summary":"Pump status is Good."}
+{"id":"g1438","query":"Lighting status aquarium","result_struct":{"status":"Good"},"summary":"Lighting status is Good."}
+{"id":"g1439","query":"Feeding dive status","result_struct":{"status":"Complete"},"summary":"Feeding dive is Complete."}
+{"id":"g1440","query":"Touch pool active","result_struct":{"status":"Open"},"summary":"Touch pool is Open."}
+{"id":"g1441","query":"Education program","result_struct":{"students":50},"summary":"50 students in the education program."}
+{"id":"g1442","query":"Event hosting aquarium","result_struct":{"count":1},"summary":"1 event hosted at the aquarium."}
+{"id":"g1443","query":"Gift shop sales aquarium","result_struct":{"amount":1000,"currency":"USD"},"summary":"Aquarium gift shop sales were $1,000."}
+{"id":"g1444","query":"Membership new","result_struct":{"count":5},"summary":"5 new aquarium memberships."}
+{"id":"g1445","query":"Conservation fund","result_struct":{"amount":200,"currency":"USD"},"summary":"$200 raised for the conservation fund."}

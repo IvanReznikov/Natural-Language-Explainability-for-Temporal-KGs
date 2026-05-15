@@ -1,0 +1,31 @@
+{
+  "input_jsonl": "data\\jsonls\\temporal_graph.jsonl",
+  "output_dir": "data\\jsonls\\temporal_graph_output_v3",
+  "graph_rows": 51191,
+  "nodes": 129630,
+  "tags": 23843,
+  "edges": 415429,
+  "edge_type_counts": {
+    "inferred_temporal": 185488,
+    "base": 97290,
+    "gold_fact": 54333,
+    "inferred_tag": 60644,
+    "inferred_entity": 17674
+  },
+  "append": {
+    "start_line": 51039,
+    "rows_appended": 261,
+    "new_nodes": 252,
+    "new_edges": 1639,
+    "new_tags": 84
+  },
+  "artifacts": {
+    "processed_graph": "data\\jsonls\\temporal_graph_output_v3\\processed_graph.jsonl",
+    "nodes": "data\\jsonls\\temporal_graph_output_v3\\nodes.jsonl",
+    "edges": "data\\jsonls\\temporal_graph_output_v3\\edges.jsonl",
+    "tags": "data\\jsonls\\temporal_graph_output_v3\\tags.jsonl",
+    "qa_index": "data\\jsonls\\temporal_graph_output_v3\\qa_index.jsonl",
+    "report": "data\\jsonls\\temporal_graph_output_v3\\build_report.json",
+    "documentation": "data\\jsonls\\temporal_graph_output_v3\\TEMPORAL_GRAPH_OUTPUT.md"
+  }
+}

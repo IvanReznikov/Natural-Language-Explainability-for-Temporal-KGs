@@ -1,0 +1,894 @@
+{"id": "q001", "canonical_query": "GENERIC(frame)"}
+{"id": "q002", "canonical_query": "INTERVAL(metric='revenue', period='2023-Q3')"}
+{"id": "q003", "canonical_query": "CAUSAL(cause='supply chain disruption', effect='inventory shortage')"}
+{"id": "q004", "canonical_query": "COMPARE(metric='user_churn', a='2021', b='2022')"}
+{"id": "q005", "canonical_query": "SEQUENCE(anchor='brexit vote', relation='followed')"}
+{"id": "q006", "canonical_query": "INTERVAL(metric='average_temperature', start='1990', end='2000')"}
+{"id": "q007", "canonical_query": "PREDICT(metric='stock_prices', date='2026')"}
+{"id": "q008", "canonical_query": "SEQUENCE(anchor='the ui update', relation='after')"}
+{"id": "q009", "canonical_query": "OVERLAP(event='campaigns in q4 2024', period='2024-Q4')"}
+{"id": "q010", "canonical_query": "UNKNOWN()"}
+{"id": "q011", "canonical_query": "INTERVAL(metric='ebitda', start='2018', end='2023')"}
+{"id": "q012", "canonical_query": "INTERVAL(metric='active_users', period='2025-Q1')"}
+{"id": "q013", "canonical_query": "SEQUENCE(anchor='iphone x launch', relation='before')"}
+{"id": "q014", "canonical_query": "CAUSAL(cause='', effect='')"}
+{"id": "q015", "canonical_query": "COMPARE(metric='roi', a='2019', b='2020')"}
+{"id": "q016", "canonical_query": "PREDICT(metric='sales_growth', date='2027')"}
+{"id": "q017", "canonical_query": "SEQUENCE(anchor='holiday season', relation='after')"}
+{"id": "q018", "canonical_query": "OVERLAP(event='system errors during q2 2023', period='2023-Q2')"}
+{"id": "q019", "canonical_query": "UNKNOWN()"}
+{"id": "q020", "canonical_query": "PREDICT(metric='net', date='2010')"}
+{"id": "q021", "canonical_query": "INTERVAL(metric='ticket_volume', period='2024-Q3')"}
+{"id": "q022", "canonical_query": "SEQUENCE(anchor='windows xp', relation='followed')"}
+{"id": "q023", "canonical_query": "CAUSAL(cause='', effect='')"}
+{"id": "q024", "canonical_query": "COMPARE(metric='exports', a='2018', b='2022')"}
+{"id": "q025", "canonical_query": "INTERVAL(metric='headcount', period='2025')"}
+{"id": "q026", "canonical_query": "SEQUENCE(anchor='the patch', relation='after')"}
+{"id": "q027", "canonical_query": "OVERLAP(event='meetings in q1 2024', period='2024-Q1')"}
+{"id": "q028", "canonical_query": "UNKNOWN()"}
+{"id": "q029", "canonical_query": "PREDICT(metric='crude_oil_prices', date='2008')"}
+{"id": "q030", "canonical_query": "INTERVAL(metric='server_load', period='2023-Q4')"}
+{"id": "q031", "canonical_query": "UNKNOWN()"}
+{"id": "q032", "canonical_query": "UNKNOWN()"}
+{"id": "q033", "canonical_query": "COMPARE(metric='conversion_rates', a='2020', b='2021')"}
+{"id": "q034", "canonical_query": "PREDICT(metric='carbon_emissions', date='2030')"}
+{"id": "q035", "canonical_query": "SEQUENCE(anchor='the recall', relation='after')"}
+{"id": "q036", "canonical_query": "OVERLAP(event='downloads in q2 2025', period='2025-Q2')"}
+{"id": "q037", "canonical_query": "UNKNOWN()"}
+{"id": "q038", "canonical_query": "INTERVAL(metric='user_growth', start='2012', end='2016')"}
+{"id": "q039", "canonical_query": "INTERVAL(metric='shipping_costs', period='2022-Q4')"}
+{"id": "q040", "canonical_query": "SEQUENCE(anchor='None', relation='followed')"}
+{"id": "q041", "canonical_query": "CAUSAL(cause='did the marketing push', effect='higher signups')"}
+{"id": "q042", "canonical_query": "COMPARE(metric='report', a='2021', b='2023')"}
+{"id": "q043", "canonical_query": "PREDICT(metric='churn_rate', date='2028')"}
+{"id": "q044", "canonical_query": "SEQUENCE(anchor='the rebrand', relation='before')"}
+{"id": "q045", "canonical_query": "OVERLAP(event='deploys in q3 2024', period='2024-Q3')"}
+{"id": "q046", "canonical_query": "GENERIC(frame)"}
+{"id": "q047", "canonical_query": "INTERVAL(metric='revenue_trends', start='2005', end='2010')"}
+{"id": "q048", "canonical_query": "INTERVAL(metric='leads', period='2022-Q2')"}
+{"id": "q049", "canonical_query": "SEQUENCE(anchor='dot-com bubble', relation='followed')"}
+{"id": "q050", "canonical_query": "CAUSAL(cause='price cut', effect='sales spike')"}
+{"id": "q051", "canonical_query": "UNKNOWN()"}
+{"id": "q052", "canonical_query": "INTERVAL(metric='cloud_costs', period='2025-Q1')"}
+{"id": "q053", "canonical_query": "CAUSAL(cause='api change', effect='mobile crash')"}
+{"id": "q054", "canonical_query": "COMPARE(metric='latency', a='2023', b='2024')"}
+{"id": "q055", "canonical_query": "SEQUENCE(anchor='network outage', relation='after')"}
+{"id": "q056", "canonical_query": "INTERVAL(metric='list_employees_hired', start='2015', end='2018')"}
+{"id": "q057", "canonical_query": "PREDICT(metric='market_share', date='2027')"}
+{"id": "q058", "canonical_query": "SEQUENCE(anchor='the layout shift', relation='after')"}
+{"id": "q059", "canonical_query": "OVERLAP(event='sessions in q2 2024', period='2024-Q2')"}
+{"id": "q060", "canonical_query": "UNKNOWN()"}
+{"id": "q061", "canonical_query": "INTERVAL(metric='subscriptions', period='2023-Q3')"}
+{"id": "q062", "canonical_query": "CAUSAL(cause='did the tax hike', effect='lower spending')"}
+{"id": "q063", "canonical_query": "INTERVAL(metric='active_users', start='2020', end='2022')"}
+{"id": "q064", "canonical_query": "SEQUENCE(anchor='None', relation='followed')"}
+{"id": "q065", "canonical_query": "COMPARE(metric='net_profit', a='2019', b='2021')"}
+{"id": "q066", "canonical_query": "PREDICT(metric='quarterly_revenue', date='2026')"}
+{"id": "q067", "canonical_query": "SEQUENCE(anchor='price increase', relation='before')"}
+{"id": "q068", "canonical_query": "OVERLAP(event='logs in q1 2023', period='2023-Q1')"}
+{"id": "q069", "canonical_query": "GENERIC(frame)"}
+{"id": "q070", "canonical_query": "INTERVAL(metric='customer_acquisition', start='2016', end='2020')"}
+{"id": "q071", "canonical_query": "INTERVAL(metric='errors', period='2024-Q4')"}
+{"id": "q072", "canonical_query": "SEQUENCE(anchor='henry viii', relation='followed')"}
+{"id": "q073", "canonical_query": "CAUSAL(cause='', effect='')"}
+{"id": "q074", "canonical_query": "COMPARE(metric='bugs', a='2021', b='2022')"}
+{"id": "q075", "canonical_query": "PREDICT(metric='server_capacity', date='2028')"}
+{"id": "q076", "canonical_query": "SEQUENCE(anchor='the ui update', relation='after')"}
+{"id": "q077", "canonical_query": "OVERLAP(event='promotions in q1 2025', period='2025-Q1')"}
+{"id": "q078", "canonical_query": "UNKNOWN()"}
+{"id": "q079", "canonical_query": "INTERVAL(metric='gross_margin', start='2018', end='2023')"}
+{"id": "q080", "canonical_query": "INTERVAL(metric='downtime', period='2023-Q2')"}
+{"id": "q081", "canonical_query": "SEQUENCE(anchor='great depression', relation='before')"}
+{"id": "q082", "canonical_query": "CAUSAL(cause='outage', effect='data loss')"}
+{"id": "q083", "canonical_query": "COMPARE(metric='user_retention', a='2020', b='2022')"}
+{"id": "q084", "canonical_query": "PREDICT(metric='inventory_levels', date='2026')"}
+{"id": "q085", "canonical_query": "SEQUENCE(anchor='the firmware upgrade', relation='after')"}
+{"id": "q086", "canonical_query": "OVERLAP(event='shifts in q3 2024', period='2024-Q3')"}
+{"id": "q087", "canonical_query": "GENERIC(frame)"}
+{"id": "q088", "canonical_query": "INTERVAL(metric='bounce_rate', start='2019', end='2021')"}
+{"id": "q089", "canonical_query": "INTERVAL(metric='refunds', period='2022-Q4')"}
+{"id": "q090", "canonical_query": "SEQUENCE(anchor='bronze age', relation='after')"}
+{"id": "q091", "canonical_query": "CAUSAL(cause='bad weather', effect='shipment delay')"}
+{"id": "q092", "canonical_query": "COMPARE(metric='cpu_usage', a='2023', b='2024')"}
+{"id": "q093", "canonical_query": "PREDICT(metric='workforce_size', date='2030')"}
+{"id": "q094", "canonical_query": "SEQUENCE(anchor='the promo launch', relation='after')"}
+{"id": "q095", "canonical_query": "OVERLAP(event='errors in q2 2023', period='2023-Q2')"}
+{"id": "q096", "canonical_query": "UNKNOWN()"}
+{"id": "q097", "canonical_query": "PREDICT(metric='bandwidth_usage', date='2012')"}
+{"id": "q098", "canonical_query": "INTERVAL(metric='response_time', period='2024-Q1')"}
+{"id": "q099", "canonical_query": "SEQUENCE(anchor='None', relation='followed')"}
+{"id": "q100", "canonical_query": "CAUSAL(cause='algorithm update', effect='ranking drop')"}
+{"id": "q101", "canonical_query": "GENERIC(frame)"}
+{"id": "q102", "canonical_query": "INTERVAL(metric='user_count', period='2024-Q2')"}
+{"id": "q103", "canonical_query": "UNKNOWN()"}
+{"id": "q104", "canonical_query": "COMPARE(metric='gross_revenue', a='2022', b='2023')"}
+{"id": "q105", "canonical_query": "SEQUENCE(anchor='launch of sputnik', relation='followed')"}
+{"id": "q106", "canonical_query": "INTERVAL(metric='page_load_time', start='2020', end='2021')"}
+{"id": "q107", "canonical_query": "PREDICT(metric='operating_costs', date='2025')"}
+{"id": "q108", "canonical_query": "SEQUENCE(anchor='the price hike', relation='after')"}
+{"id": "q109", "canonical_query": "OVERLAP(event='maintenance windows in q3 2024', period='2024-Q3')"}
+{"id": "q110", "canonical_query": "GENERIC(frame)"}
+{"id": "q111", "canonical_query": "INTERVAL(metric='transactions', period='2023-Q1')"}
+{"id": "q112", "canonical_query": "CAUSAL(cause='viral video', effect='traffic spike')"}
+{"id": "q113", "canonical_query": "INTERVAL(metric='bounce_rates', start='2018', end='2020')"}
+{"id": "q114", "canonical_query": "SEQUENCE(anchor='None', relation='followed')"}
+{"id": "q115", "canonical_query": "COMPARE(metric='ad_spend', a='2021', b='2022')"}
+{"id": "q116", "canonical_query": "PREDICT(metric='user_growth', date='2026')"}
+{"id": "q117", "canonical_query": "SEQUENCE(anchor='database migration', relation='after')"}
+{"id": "q118", "canonical_query": "OVERLAP(event='sessions in q4 2023', period='2023-Q4')"}
+{"id": "q119", "canonical_query": "UNKNOWN()"}
+{"id": "q120", "canonical_query": "INTERVAL(metric='server_uptime', start='2019', end='2023')"}
+{"id": "q121", "canonical_query": "INTERVAL(metric='bugs', period='2024-Q2')"}
+{"id": "q122", "canonical_query": "SEQUENCE(anchor='ming dynasty', relation='followed')"}
+{"id": "q123", "canonical_query": "CAUSAL(cause='', effect='')"}
+{"id": "q124", "canonical_query": "COMPARE(metric='cac', a='2020', b='2021')"}
+{"id": "q125", "canonical_query": "PREDICT(metric='quarterly_profits', date='2025')"}
+{"id": "q126", "canonical_query": "SEQUENCE(anchor='the ios update', relation='after')"}
+{"id": "q127", "canonical_query": "OVERLAP(event='meetings in q1 2025', period='2025-Q1')"}
+{"id": "q128", "canonical_query": "UNKNOWN()"}
+{"id": "q129", "canonical_query": "INTERVAL(metric='roi', start='2015', end='2019')"}
+{"id": "q130", "canonical_query": "INTERVAL(metric='support_tickets', period='2023-Q3')"}
+{"id": "q131", "canonical_query": "SEQUENCE(anchor='great recession', relation='before')"}
+{"id": "q132", "canonical_query": "UNKNOWN()"}
+{"id": "q133", "canonical_query": "COMPARE(metric='open_rates', a='2022', b='2023')"}
+{"id": "q134", "canonical_query": "PREDICT(metric='server_load', date='2027')"}
+{"id": "q135", "canonical_query": "SEQUENCE(anchor='the api deprecation', relation='after')"}
+{"id": "q136", "canonical_query": "OVERLAP(event='events in q2 2024', period='2024-Q2')"}
+{"id": "q137", "canonical_query": "UNKNOWN()"}
+{"id": "q138", "canonical_query": "INTERVAL(metric='bandwidth_usage', start='2021', end='2023')"}
+{"id": "q139", "canonical_query": "INTERVAL(metric='downloads', period='2022-Q4')"}
+{"id": "q140", "canonical_query": "SEQUENCE(anchor='iron age', relation='followed')"}
+{"id": "q141", "canonical_query": "UNKNOWN()"}
+{"id": "q142", "canonical_query": "COMPARE(metric='analysis', a='2020', b='2021')"}
+{"id": "q143", "canonical_query": "PREDICT(metric='website_traffic', date='2028')"}
+{"id": "q144", "canonical_query": "SEQUENCE(anchor='the website launch', relation='before')"}
+{"id": "q145", "canonical_query": "OVERLAP(event='builds in q2 2023', period='2023-Q2')"}
+{"id": "q146", "canonical_query": "GENERIC(frame)"}
+{"id": "q147", "canonical_query": "UNKNOWN()"}
+{"id": "q148", "canonical_query": "INTERVAL(metric='session_duration', period='2024-Q1')"}
+{"id": "q149", "canonical_query": "SEQUENCE(anchor='None', relation='followed')"}
+{"id": "q150", "canonical_query": "UNKNOWN()"}
+{"id": "q151", "canonical_query": "UNKNOWN()"}
+{"id": "q152", "canonical_query": "INTERVAL(metric='cloud_spend', period='2023-Q3')"}
+{"id": "q153", "canonical_query": "CAUSAL(cause='new feature', effect='login bug')"}
+{"id": "q154", "canonical_query": "COMPARE(metric='response_times', a='2021', b='2024')"}
+{"id": "q155", "canonical_query": "SEQUENCE(anchor='ipo launch', relation='after')"}
+{"id": "q156", "canonical_query": "INTERVAL(metric='list_hires', start='2018', end='2022')"}
+{"id": "q157", "canonical_query": "PREDICT(metric='profit_margin', date='2029')"}
+{"id": "q158", "canonical_query": "SEQUENCE(anchor='the update', relation='after')"}
+{"id": "q159", "canonical_query": "OVERLAP(event='tests in q4 2023', period='2023-Q4')"}
+{"id": "q160", "canonical_query": "UNKNOWN()"}
+{"id": "q161", "canonical_query": "INTERVAL(metric='signups', period='2024-Q2')"}
+{"id": "q162", "canonical_query": "CAUSAL(cause='did the price drop', effect='more sales')"}
+{"id": "q163", "canonical_query": "INTERVAL(metric='latency', start='2020', end='2021')"}
+{"id": "q164", "canonical_query": "SEQUENCE(anchor='None', relation='followed')"}
+{"id": "q165", "canonical_query": "COMPARE(metric='churn_rate', a='2021', b='2023')"}
+{"id": "q166", "canonical_query": "PREDICT(metric='quarterly_growth', date='2028')"}
+{"id": "q167", "canonical_query": "SEQUENCE(anchor='holiday rush', relation='before')"}
+{"id": "q168", "canonical_query": "OVERLAP(event='processes in q1 2025', period='2025-Q1')"}
+{"id": "q169", "canonical_query": "GENERIC(frame)"}
+{"id": "q170", "canonical_query": "INTERVAL(metric='user_retention', start='2017', end='2019')"}
+{"id": "q171", "canonical_query": "INTERVAL(metric='failures', period='2023-Q3')"}
+{"id": "q172", "canonical_query": "SEQUENCE(anchor='jfk', relation='followed')"}
+{"id": "q173", "canonical_query": "CAUSAL(cause='', effect='')"}
+{"id": "q174", "canonical_query": "COMPARE(metric='revenue', a='2022', b='2023')"}
+{"id": "q175", "canonical_query": "PREDICT(metric='active_users', date='2029')"}
+{"id": "q176", "canonical_query": "SEQUENCE(anchor='the banner change', relation='after')"}
+{"id": "q177", "canonical_query": "OVERLAP(event='campaigns in q2 2024', period='2024-Q2')"}
+{"id": "q178", "canonical_query": "UNKNOWN()"}
+{"id": "q179", "canonical_query": "INTERVAL(metric='ebitda', start='2019', end='2022')"}
+{"id": "q180", "canonical_query": "INTERVAL(metric='outages', period='2024-Q1')"}
+{"id": "q181", "canonical_query": "SEQUENCE(anchor='cold war', relation='before')"}
+{"id": "q182", "canonical_query": "CAUSAL(cause='layoff announcement', effect='stock drop')"}
+{"id": "q183", "canonical_query": "COMPARE(metric='conversion_rates', a='2020', b='2022')"}
+{"id": "q184", "canonical_query": "PREDICT(metric='server_costs', date='2026')"}
+{"id": "q185", "canonical_query": "SEQUENCE(anchor='the maintenance', relation='after')"}
+{"id": "q186", "canonical_query": "OVERLAP(event='updates in q3 2024', period='2024-Q3')"}
+{"id": "q187", "canonical_query": "GENERIC(frame)"}
+{"id": "q188", "canonical_query": "INTERVAL(metric='churn_rate', start='2020', end='2022')"}
+{"id": "q189", "canonical_query": "INTERVAL(metric='orders', period='2023-Q4')"}
+{"id": "q190", "canonical_query": "SEQUENCE(anchor='stone age', relation='after')"}
+{"id": "q191", "canonical_query": "CAUSAL(cause='promotion', effect='user spike')"}
+{"id": "q192", "canonical_query": "COMPARE(metric='memory_usage', a='2023', b='2024')"}
+{"id": "q193", "canonical_query": "PREDICT(metric='team_size', date='2030')"}
+{"id": "q194", "canonical_query": "SEQUENCE(anchor='the fix', relation='after')"}
+{"id": "q195", "canonical_query": "OVERLAP(event='sessions in q2 2024', period='2024-Q2')"}
+{"id": "q196", "canonical_query": "UNKNOWN()"}
+{"id": "q197", "canonical_query": "PREDICT(metric='disk_usage', date='2016')"}
+{"id": "q198", "canonical_query": "INTERVAL(metric='latency', period='2024-Q1')"}
+{"id": "q199", "canonical_query": "SEQUENCE(anchor='None', relation='followed')"}
+{"id": "q200", "canonical_query": "CAUSAL(cause='policy change', effect='hiring freeze')"}
+{"id": "q201", "canonical_query": "GENERIC(frame)"}
+{"id": "q202", "canonical_query": "INTERVAL(metric='cloud_storage', period='2023-Q4')"}
+{"id": "q203", "canonical_query": "CAUSAL(cause='new ceo', effect='stock rally')"}
+{"id": "q204", "canonical_query": "COMPARE(metric='net', a='2021', b='2023')"}
+{"id": "q205", "canonical_query": "SEQUENCE(anchor='fall of rome', relation='followed')"}
+{"id": "q206", "canonical_query": "INTERVAL(metric='bounce_rate', start='2020', end='2022')"}
+{"id": "q207", "canonical_query": "PREDICT(metric='operating', date='2025')"}
+{"id": "q208", "canonical_query": "SEQUENCE(anchor='the email blast', relation='after')"}
+{"id": "q209", "canonical_query": "OVERLAP(event='tests in q3 2024', period='2024-Q3')"}
+{"id": "q210", "canonical_query": "GENERIC(frame)"}
+{"id": "q211", "canonical_query": "INTERVAL(metric='views', period='2023-Q1')"}
+{"id": "q212", "canonical_query": "UNKNOWN()"}
+{"id": "q213", "canonical_query": "INTERVAL(metric='churn', start='2019', end='2021')"}
+{"id": "q214", "canonical_query": "SEQUENCE(anchor='None', relation='followed')"}
+{"id": "q215", "canonical_query": "COMPARE(metric='user_growth', a='2022', b='2023')"}
+{"id": "q216", "canonical_query": "PREDICT(metric='market_cap', date='2028')"}
+{"id": "q217", "canonical_query": "SEQUENCE(anchor='cache update', relation='after')"}
+{"id": "q218", "canonical_query": "OVERLAP(event='failures in q4 2023', period='2023-Q4')"}
+{"id": "q219", "canonical_query": "UNKNOWN()"}
+{"id": "q220", "canonical_query": "INTERVAL(metric='memory_usage', start='2021', end='2024')"}
+{"id": "q221", "canonical_query": "INTERVAL(metric='leads', period='2025-Q2')"}
+{"id": "q222", "canonical_query": "SEQUENCE(anchor='victorian era', relation='followed')"}
+{"id": "q223", "canonical_query": "CAUSAL(cause='', effect='')"}
+{"id": "q224", "canonical_query": "COMPARE(metric='impressions', a='2020', b='2021')"}
+{"id": "q225", "canonical_query": "PREDICT(metric='gross_profit', date='2026')"}
+{"id": "q226", "canonical_query": "SEQUENCE(anchor='the referral program', relation='after')"}
+{"id": "q227", "canonical_query": "OVERLAP(event='events in q1 2025', period='2025-Q1')"}
+{"id": "q228", "canonical_query": "GENERIC(frame)"}
+{"id": "q229", "canonical_query": "INTERVAL(metric='cpc', start='2018', end='2020')"}
+{"id": "q230", "canonical_query": "INTERVAL(metric='requests', period='2023-Q3')"}
+{"id": "q231", "canonical_query": "SEQUENCE(anchor='great plague', relation='before')"}
+{"id": "q232", "canonical_query": "UNKNOWN()"}
+{"id": "q233", "canonical_query": "COMPARE(metric='click_rates', a='2022', b='2023')"}
+{"id": "q234", "canonical_query": "PREDICT(metric='server_demand', date='2029')"}
+{"id": "q235", "canonical_query": "SEQUENCE(anchor='the policy change', relation='after')"}
+{"id": "q236", "canonical_query": "OVERLAP(event='bugs in q2 2024', period='2024-Q2')"}
+{"id": "q237", "canonical_query": "UNKNOWN()"}
+{"id": "q238", "canonical_query": "INTERVAL(metric='data_usage', start='2021', end='2023')"}
+{"id": "q239", "canonical_query": "INTERVAL(metric='installations', period='2022-Q4')"}
+{"id": "q240", "canonical_query": "SEQUENCE(anchor='middle ages', relation='followed')"}
+{"id": "q241", "canonical_query": "UNKNOWN()"}
+{"id": "q242", "canonical_query": "COMPARE(metric='report', a='2020', b='2021')"}
+{"id": "q243", "canonical_query": "PREDICT(metric='ad_revenue', date='2028')"}
+{"id": "q244", "canonical_query": "SEQUENCE(anchor='the sale', relation='before')"}
+{"id": "q245", "canonical_query": "OVERLAP(event='updates in q2 2023', period='2023-Q2')"}
+{"id": "q246", "canonical_query": "GENERIC(frame)"}
+{"id": "q247", "canonical_query": "PREDICT(metric='unemployment', date='2009')"}
+{"id": "q248", "canonical_query": "INTERVAL(metric='cart_value', period='2024-Q1')"}
+{"id": "q249", "canonical_query": "SEQUENCE(anchor='None', relation='followed')"}
+{"id": "q250", "canonical_query": "UNKNOWN()"}
+{"id": "q251", "canonical_query": "UNKNOWN()"}
+{"id": "q252", "canonical_query": "INTERVAL(metric='bandwidth', period='2023-Q3')"}
+{"id": "q253", "canonical_query": "CAUSAL(cause='code refactor', effect='regression')"}
+{"id": "q254", "canonical_query": "COMPARE(metric='load_times', a='2021', b='2024')"}
+{"id": "q255", "canonical_query": "SEQUENCE(anchor='product launch', relation='after')"}
+{"id": "q256", "canonical_query": "INTERVAL(metric='list_exits', start='2018', end='2022')"}
+{"id": "q257", "canonical_query": "PREDICT(metric='net_revenue', date='2029')"}
+{"id": "q258", "canonical_query": "SEQUENCE(anchor='the update', relation='after')"}
+{"id": "q259", "canonical_query": "OVERLAP(event='jobs in q4 2023', period='2023-Q4')"}
+{"id": "q260", "canonical_query": "UNKNOWN()"}
+{"id": "q261", "canonical_query": "INTERVAL(metric='returns', period='2024-Q2')"}
+{"id": "q262", "canonical_query": "CAUSAL(cause='did the ad campaign', effect='more clicks')"}
+{"id": "q263", "canonical_query": "INTERVAL(metric='uptime', start='2020', end='2021')"}
+{"id": "q264", "canonical_query": "SEQUENCE(anchor='None', relation='followed')"}
+{"id": "q265", "canonical_query": "COMPARE(metric='bounce_rate', a='2021', b='2023')"}
+{"id": "q266", "canonical_query": "PREDICT(metric='yearly_growth', date='2028')"}
+{"id": "q267", "canonical_query": "SEQUENCE(anchor='outage', relation='before')"}
+{"id": "q268", "canonical_query": "OVERLAP(event='tasks in q1 2025', period='2025-Q1')"}
+{"id": "q269", "canonical_query": "GENERIC(frame)"}
+{"id": "q270", "canonical_query": "INTERVAL(metric='customer_loyalty', start='2017', end='2019')"}
+{"id": "q271", "canonical_query": "INTERVAL(metric='errors', period='2023-Q3')"}
+{"id": "q272", "canonical_query": "SEQUENCE(anchor='caesar', relation='followed')"}
+{"id": "q273", "canonical_query": "CAUSAL(cause='', effect='')"}
+{"id": "q274", "canonical_query": "COMPARE(metric='profit', a='2022', b='2023')"}
+{"id": "q275", "canonical_query": "PREDICT(metric='active_sessions', date='2029')"}
+{"id": "q276", "canonical_query": "SEQUENCE(anchor='the layout change', relation='after')"}
+{"id": "q277", "canonical_query": "OVERLAP(event='promotions in q2 2024', period='2024-Q2')"}
+{"id": "q278", "canonical_query": "UNKNOWN()"}
+{"id": "q279", "canonical_query": "INTERVAL(metric='roi', start='2019', end='2022')"}
+{"id": "q280", "canonical_query": "INTERVAL(metric='downtime', period='2024-Q1')"}
+{"id": "q281", "canonical_query": "SEQUENCE(anchor='gulf war', relation='before')"}
+{"id": "q282", "canonical_query": "CAUSAL(cause='ceo resignation', effect='stock fall')"}
+{"id": "q283", "canonical_query": "COMPARE(metric='engagement', a='2020', b='2022')"}
+{"id": "q284", "canonical_query": "PREDICT(metric='staff_costs', date='2026')"}
+{"id": "q285", "canonical_query": "SEQUENCE(anchor='the patch', relation='after')"}
+{"id": "q286", "canonical_query": "OVERLAP(event='jobs in q3 2024', period='2024-Q3')"}
+{"id": "q287", "canonical_query": "GENERIC(frame)"}
+{"id": "q288", "canonical_query": "INTERVAL(metric='bounce_rate', start='2020', end='2022')"}
+{"id": "q289", "canonical_query": "INTERVAL(metric='shipments', period='2023-Q4')"}
+{"id": "q290", "canonical_query": "SEQUENCE(anchor='renaissance', relation='after')"}
+{"id": "q291", "canonical_query": "CAUSAL(cause='coupon', effect='order spike')"}
+{"id": "q292", "canonical_query": "COMPARE(metric='disk_usage', a='2023', b='2024')"}
+{"id": "q293", "canonical_query": "PREDICT(metric='workforce_size', date='2030')"}
+{"id": "q294", "canonical_query": "SEQUENCE(anchor='the update', relation='after')"}
+{"id": "q295", "canonical_query": "OVERLAP(event='logs in q2 2024', period='2024-Q2')"}
+{"id": "q296", "canonical_query": "UNKNOWN()"}
+{"id": "q297", "canonical_query": "PREDICT(metric='server_load', date='2020')"}
+{"id": "q298", "canonical_query": "INTERVAL(metric='response_time', period='2024-Q1')"}
+{"id": "q299", "canonical_query": "SEQUENCE(anchor='None', relation='followed')"}
+{"id": "q300", "canonical_query": "UNKNOWN()"}
+{"id": "q301", "canonical_query": "GENERIC(frame)"}
+{"id": "q302", "canonical_query": "INTERVAL(metric='disk_space', period='2023-Q4')"}
+{"id": "q303", "canonical_query": "CAUSAL(cause='layoff rumors', effect='stock drop')"}
+{"id": "q304", "canonical_query": "COMPARE(metric='gross_margin', a='2021', b='2023')"}
+{"id": "q305", "canonical_query": "SEQUENCE(anchor='fall of constantinople', relation='followed')"}
+{"id": "q306", "canonical_query": "INTERVAL(metric='bounce_rate', start='2020', end='2022')"}
+{"id": "q307", "canonical_query": "PREDICT(metric='net', date='2025')"}
+{"id": "q308", "canonical_query": "SEQUENCE(anchor='the ad launch', relation='after')"}
+{"id": "q309", "canonical_query": "OVERLAP(event='tests in q3 2024', period='2024-Q3')"}
+{"id": "q310", "canonical_query": "GENERIC(frame)"}
+{"id": "q311", "canonical_query": "INTERVAL(metric='views', period='2023-Q1')"}
+{"id": "q312", "canonical_query": "UNKNOWN()"}
+{"id": "q313", "canonical_query": "INTERVAL(metric='churn', start='2019', end='2021')"}
+{"id": "q314", "canonical_query": "SEQUENCE(anchor='None', relation='followed')"}
+{"id": "q315", "canonical_query": "COMPARE(metric='user_growth', a='2022', b='2023')"}
+{"id": "q316", "canonical_query": "PREDICT(metric='market_cap', date='2028')"}
+{"id": "q317", "canonical_query": "SEQUENCE(anchor='cache update', relation='after')"}
+{"id": "q318", "canonical_query": "OVERLAP(event='failures in q4 2023', period='2023-Q4')"}
+{"id": "q319", "canonical_query": "UNKNOWN()"}
+{"id": "q320", "canonical_query": "INTERVAL(metric='memory_usage', start='2021', end='2024')"}
+{"id": "q321", "canonical_query": "INTERVAL(metric='leads', period='2025-Q2')"}
+{"id": "q322", "canonical_query": "SEQUENCE(anchor='richard iii', relation='followed')"}
+{"id": "q323", "canonical_query": "CAUSAL(cause='', effect='')"}
+{"id": "q324", "canonical_query": "COMPARE(metric='impressions', a='2020', b='2021')"}
+{"id": "q325", "canonical_query": "PREDICT(metric='gross_profit', date='2026')"}
+{"id": "q326", "canonical_query": "SEQUENCE(anchor='the referral program', relation='after')"}
+{"id": "q327", "canonical_query": "OVERLAP(event='events in q1 2025', period='2025-Q1')"}
+{"id": "q328", "canonical_query": "UNKNOWN()"}
+{"id": "q329", "canonical_query": "INTERVAL(metric='cpc', start='2018', end='2020')"}
+{"id": "q330", "canonical_query": "INTERVAL(metric='requests', period='2023-Q3')"}
+{"id": "q331", "canonical_query": "SEQUENCE(anchor='great famine', relation='before')"}
+{"id": "q332", "canonical_query": "UNKNOWN()"}
+{"id": "q333", "canonical_query": "COMPARE(metric='click_rates', a='2022', b='2023')"}
+{"id": "q334", "canonical_query": "PREDICT(metric='server_demand', date='2029')"}
+{"id": "q335", "canonical_query": "SEQUENCE(anchor='the policy change', relation='after')"}
+{"id": "q336", "canonical_query": "OVERLAP(event='bugs in q2 2024', period='2024-Q2')"}
+{"id": "q337", "canonical_query": "UNKNOWN()"}
+{"id": "q338", "canonical_query": "INTERVAL(metric='data_usage', start='2021', end='2023')"}
+{"id": "q339", "canonical_query": "INTERVAL(metric='installations', period='2022-Q4')"}
+{"id": "q340", "canonical_query": "SEQUENCE(anchor='dark ages', relation='followed')"}
+{"id": "q341", "canonical_query": "UNKNOWN()"}
+{"id": "q342", "canonical_query": "COMPARE(metric='report', a='2020', b='2021')"}
+{"id": "q343", "canonical_query": "PREDICT(metric='ad_revenue', date='2028')"}
+{"id": "q344", "canonical_query": "SEQUENCE(anchor='the sale', relation='before')"}
+{"id": "q345", "canonical_query": "OVERLAP(event='updates in q2 2023', period='2023-Q2')"}
+{"id": "q346", "canonical_query": "GENERIC(frame)"}
+{"id": "q347", "canonical_query": "UNKNOWN()"}
+{"id": "q348", "canonical_query": "INTERVAL(metric='cart_value', period='2024-Q1')"}
+{"id": "q349", "canonical_query": "SEQUENCE(anchor='None', relation='followed')"}
+{"id": "q350", "canonical_query": "UNKNOWN()"}
+{"id": "q351", "canonical_query": "UNKNOWN()"}
+{"id": "q352", "canonical_query": "INTERVAL(metric='bandwidth', period='2023-Q3')"}
+{"id": "q353", "canonical_query": "CAUSAL(cause='code refactor', effect='regression')"}
+{"id": "q354", "canonical_query": "COMPARE(metric='load_times', a='2021', b='2024')"}
+{"id": "q355", "canonical_query": "SEQUENCE(anchor='product launch', relation='after')"}
+{"id": "q356", "canonical_query": "INTERVAL(metric='list_exits', start='2018', end='2022')"}
+{"id": "q357", "canonical_query": "PREDICT(metric='net_revenue', date='2029')"}
+{"id": "q358", "canonical_query": "SEQUENCE(anchor='the update', relation='after')"}
+{"id": "q359", "canonical_query": "OVERLAP(event='jobs in q4 2023', period='2023-Q4')"}
+{"id": "q360", "canonical_query": "UNKNOWN()"}
+{"id": "q361", "canonical_query": "INTERVAL(metric='returns', period='2024-Q2')"}
+{"id": "q362", "canonical_query": "CAUSAL(cause='did the ad campaign', effect='more clicks')"}
+{"id": "q363", "canonical_query": "INTERVAL(metric='uptime', start='2020', end='2021')"}
+{"id": "q364", "canonical_query": "SEQUENCE(anchor='None', relation='followed')"}
+{"id": "q365", "canonical_query": "COMPARE(metric='bounce_rate', a='2021', b='2023')"}
+{"id": "q366", "canonical_query": "PREDICT(metric='yearly_growth', date='2028')"}
+{"id": "q367", "canonical_query": "SEQUENCE(anchor='outage', relation='before')"}
+{"id": "q368", "canonical_query": "OVERLAP(event='tasks in q1 2025', period='2025-Q1')"}
+{"id": "q369", "canonical_query": "GENERIC(frame)"}
+{"id": "q370", "canonical_query": "INTERVAL(metric='customer_loyalty', start='2017', end='2019')"}
+{"id": "q371", "canonical_query": "INTERVAL(metric='errors', period='2023-Q3')"}
+{"id": "q372", "canonical_query": "SEQUENCE(anchor='song dynasty', relation='followed')"}
+{"id": "q373", "canonical_query": "CAUSAL(cause='is the downtime', effect='by the dns error')"}
+{"id": "q374", "canonical_query": "COMPARE(metric='user_count', a='2022', b='2023')"}
+{"id": "q375", "canonical_query": "PREDICT(metric='recurring_revenue', date='2029')"}
+{"id": "q376", "canonical_query": "SEQUENCE(anchor='the redesign', relation='after')"}
+{"id": "q377", "canonical_query": "OVERLAP(event='conflicts in q2 2024', period='2024-Q2')"}
+{"id": "q378", "canonical_query": "UNKNOWN()"}
+{"id": "q379", "canonical_query": "INTERVAL(metric='ltv', start='2019', end='2022')"}
+{"id": "q380", "canonical_query": "INTERVAL(metric='incidents', period='2024-Q1')"}
+{"id": "q381", "canonical_query": "SEQUENCE(anchor='punic wars', relation='before')"}
+{"id": "q382", "canonical_query": "CAUSAL(cause='merger announcement', effect='stock rise')"}
+{"id": "q383", "canonical_query": "COMPARE(metric='retention', a='2020', b='2022')"}
+{"id": "q384", "canonical_query": "PREDICT(metric='labor_costs', date='2026')"}
+{"id": "q385", "canonical_query": "SEQUENCE(anchor='the hotfix', relation='after')"}
+{"id": "q386", "canonical_query": "OVERLAP(event='events in q3 2024', period='2024-Q3')"}
+{"id": "q387", "canonical_query": "GENERIC(frame)"}
+{"id": "q388", "canonical_query": "INTERVAL(metric='churn_rate', start='2020', end='2022')"}
+{"id": "q389", "canonical_query": "INTERVAL(metric='subscriptions', period='2023-Q4')"}
+{"id": "q390", "canonical_query": "SEQUENCE(anchor='reformation', relation='after')"}
+{"id": "q391", "canonical_query": "CAUSAL(cause='discount', effect='sales spike')"}
+{"id": "q392", "canonical_query": "COMPARE(metric='bandwidth', a='2023', b='2024')"}
+{"id": "q393", "canonical_query": "INTERVAL(metric='employee_count', period='2030')"}
+{"id": "q394", "canonical_query": "SEQUENCE(anchor='the outage', relation='after')"}
+{"id": "q395", "canonical_query": "OVERLAP(event='builds in q2 2024', period='2024-Q2')"}
+{"id": "q396", "canonical_query": "UNKNOWN()"}
+{"id": "q397", "canonical_query": "UNKNOWN()"}
+{"id": "q398", "canonical_query": "INTERVAL(metric='session_time', period='2024-Q1')"}
+{"id": "q399", "canonical_query": "SEQUENCE(anchor='None', relation='followed')"}
+{"id": "q400", "canonical_query": "UNKNOWN()"}
+{"id": "q401", "canonical_query": "GENERIC(frame)"}
+{"id": "q402", "canonical_query": "INTERVAL(metric='file_size', period='2023-Q4')"}
+{"id": "q403", "canonical_query": "CAUSAL(cause='scandal', effect='resignation')"}
+{"id": "q404", "canonical_query": "COMPARE(metric='operating_costs', a='2021', b='2023')"}
+{"id": "q405", "canonical_query": "SEQUENCE(anchor='great fire of london', relation='followed')"}
+{"id": "q406", "canonical_query": "INTERVAL(metric='exit_rate', start='2020', end='2022')"}
+{"id": "q407", "canonical_query": "PREDICT(metric='quarterly_profit', date='2025')"}
+{"id": "q408", "canonical_query": "SEQUENCE(anchor='the event', relation='after')"}
+{"id": "q409", "canonical_query": "OVERLAP(event='deployments in q3 2024', period='2024-Q3')"}
+{"id": "q410", "canonical_query": "GENERIC(frame)"}
+{"id": "q411", "canonical_query": "INTERVAL(metric='impressions', period='2023-Q1')"}
+{"id": "q412", "canonical_query": "UNKNOWN()"}
+{"id": "q413", "canonical_query": "INTERVAL(metric='retention', start='2019', end='2021')"}
+{"id": "q414", "canonical_query": "SEQUENCE(anchor='None', relation='followed')"}
+{"id": "q415", "canonical_query": "COMPARE(metric='conversion', a='2022', b='2023')"}
+{"id": "q416", "canonical_query": "INTERVAL(metric='user_count', period='2028')"}
+{"id": "q417", "canonical_query": "SEQUENCE(anchor='release', relation='after')"}
+{"id": "q418", "canonical_query": "OVERLAP(event='processes in q4 2023', period='2023-Q4')"}
+{"id": "q419", "canonical_query": "UNKNOWN()"}
+{"id": "q420", "canonical_query": "INTERVAL(metric='disk_usage', start='2021', end='2024')"}
+{"id": "q421", "canonical_query": "INTERVAL(metric='users', period='2025-Q2')"}
+{"id": "q422", "canonical_query": "SEQUENCE(anchor='elizabethan era', relation='followed')"}
+{"id": "q423", "canonical_query": "CAUSAL(cause='', effect='')"}
+{"id": "q424", "canonical_query": "COMPARE(metric='visits', a='2020', b='2021')"}
+{"id": "q425", "canonical_query": "PREDICT(metric='gross_revenue', date='2026')"}
+{"id": "q426", "canonical_query": "SEQUENCE(anchor='the trial', relation='after')"}
+{"id": "q427", "canonical_query": "OVERLAP(event='meetings in q1 2025', period='2025-Q1')"}
+{"id": "q428", "canonical_query": "UNKNOWN()"}
+{"id": "q429", "canonical_query": "INTERVAL(metric='cac', start='2018', end='2020')"}
+{"id": "q430", "canonical_query": "INTERVAL(metric='pageviews', period='2023-Q3')"}
+{"id": "q431", "canonical_query": "SEQUENCE(anchor='irish potato famine', relation='before')"}
+{"id": "q432", "canonical_query": "UNKNOWN()"}
+{"id": "q433", "canonical_query": "COMPARE(metric='conversion_rates', a='2022', b='2023')"}
+{"id": "q434", "canonical_query": "PREDICT(metric='server_load', date='2029')"}
+{"id": "q435", "canonical_query": "SEQUENCE(anchor='the pricing change', relation='after')"}
+{"id": "q436", "canonical_query": "OVERLAP(event='errors in q2 2024', period='2024-Q2')"}
+{"id": "q437", "canonical_query": "UNKNOWN()"}
+{"id": "q438", "canonical_query": "INTERVAL(metric='bandwidth_usage', start='2021', end='2023')"}
+{"id": "q439", "canonical_query": "INTERVAL(metric='signups', period='2022-Q4')"}
+{"id": "q440", "canonical_query": "SEQUENCE(anchor='age of revolution', relation='followed')"}
+{"id": "q441", "canonical_query": "UNKNOWN()"}
+{"id": "q442", "canonical_query": "COMPARE(metric='report', a='2020', b='2021')"}
+{"id": "q443", "canonical_query": "PREDICT(metric='churn', date='2028')"}
+{"id": "q444", "canonical_query": "SEQUENCE(anchor='the fix', relation='before')"}
+{"id": "q445", "canonical_query": "OVERLAP(event='sessions in q2 2023', period='2023-Q2')"}
+{"id": "q446", "canonical_query": "GENERIC(frame)"}
+{"id": "q447", "canonical_query": "UNKNOWN()"}
+{"id": "q448", "canonical_query": "INTERVAL(metric='order_value', period='2024-Q1')"}
+{"id": "q449", "canonical_query": "SEQUENCE(anchor='None', relation='followed')"}
+{"id": "q450", "canonical_query": "UNKNOWN()"}
+{"id": "q451", "canonical_query": "UNKNOWN()"}
+{"id": "q452", "canonical_query": "INTERVAL(metric='storage', period='2023-Q3')"}
+{"id": "q453", "canonical_query": "CAUSAL(cause='rewrite', effect='regression')"}
+{"id": "q454", "canonical_query": "COMPARE(metric='load_times', a='2022', b='2024')"}
+{"id": "q455", "canonical_query": "SEQUENCE(anchor='ipo', relation='after')"}
+{"id": "q456", "canonical_query": "INTERVAL(metric='list_hires', start='2019', end='2021')"}
+{"id": "q457", "canonical_query": "PREDICT(metric='net_profit', date='2029')"}
+{"id": "q458", "canonical_query": "SEQUENCE(anchor='the update', relation='after')"}
+{"id": "q459", "canonical_query": "OVERLAP(event='tests in q4 2023', period='2023-Q4')"}
+{"id": "q460", "canonical_query": "UNKNOWN()"}
+{"id": "q461", "canonical_query": "INTERVAL(metric='returns', period='2024-Q2')"}
+{"id": "q462", "canonical_query": "CAUSAL(cause='did the ad campaign', effect='more leads')"}
+{"id": "q463", "canonical_query": "INTERVAL(metric='uptime', start='2020', end='2022')"}
+{"id": "q464", "canonical_query": "SEQUENCE(anchor='None', relation='followed')"}
+{"id": "q465", "canonical_query": "COMPARE(metric='bounce_rate', a='2021', b='2022')"}
+{"id": "q466", "canonical_query": "PREDICT(metric='yearly_growth', date='2029')"}
+{"id": "q467", "canonical_query": "SEQUENCE(anchor='maintenance', relation='before')"}
+{"id": "q468", "canonical_query": "OVERLAP(event='tasks in q1 2024', period='2024-Q1')"}
+{"id": "q469", "canonical_query": "GENERIC(frame)"}
+{"id": "q470", "canonical_query": "INTERVAL(metric='customer_loyalty', start='2018', end='2020')"}
+{"id": "q471", "canonical_query": "INTERVAL(metric='errors', period='2023-Q3')"}
+{"id": "q472", "canonical_query": "SEQUENCE(anchor='augustus', relation='followed')"}
+{"id": "q473", "canonical_query": "CAUSAL(cause='', effect='')"}
+{"id": "q474", "canonical_query": "COMPARE(metric='profit', a='2021', b='2022')"}
+{"id": "q475", "canonical_query": "PREDICT(metric='active_sessions', date='2030')"}
+{"id": "q476", "canonical_query": "SEQUENCE(anchor='the design change', relation='after')"}
+{"id": "q477", "canonical_query": "OVERLAP(event='promotions in q1 2024', period='2024-Q1')"}
+{"id": "q478", "canonical_query": "UNKNOWN()"}
+{"id": "q479", "canonical_query": "INTERVAL(metric='roi', start='2018', end='2021')"}
+{"id": "q480", "canonical_query": "INTERVAL(metric='downtime', period='2024-Q1')"}
+{"id": "q481", "canonical_query": "SEQUENCE(anchor='iraq war', relation='before')"}
+{"id": "q482", "canonical_query": "CAUSAL(cause='ceo firing', effect='stock fall')"}
+{"id": "q483", "canonical_query": "COMPARE(metric='engagement', a='2021', b='2023')"}
+{"id": "q484", "canonical_query": "PREDICT(metric='staff_costs', date='2027')"}
+{"id": "q485", "canonical_query": "SEQUENCE(anchor='the fix', relation='after')"}
+{"id": "q486", "canonical_query": "OVERLAP(event='jobs in q3 2024', period='2024-Q3')"}
+{"id": "q487", "canonical_query": "GENERIC(frame)"}
+{"id": "q488", "canonical_query": "INTERVAL(metric='bounce_rate', start='2019', end='2021')"}
+{"id": "q489", "canonical_query": "INTERVAL(metric='shipments', period='2023-Q4')"}
+{"id": "q490", "canonical_query": "SEQUENCE(anchor='enlightenment', relation='after')"}
+{"id": "q491", "canonical_query": "CAUSAL(cause='coupon', effect='order drop')"}
+{"id": "q492", "canonical_query": "COMPARE(metric='disk_usage', a='2022', b='2024')"}
+{"id": "q493", "canonical_query": "PREDICT(metric='workforce_size', date='2028')"}
+{"id": "q494", "canonical_query": "SEQUENCE(anchor='the patch', relation='after')"}
+{"id": "q495", "canonical_query": "OVERLAP(event='logs in q2 2023', period='2023-Q2')"}
+{"id": "q496", "canonical_query": "UNKNOWN()"}
+{"id": "q497", "canonical_query": "PREDICT(metric='server_load', date='2016')"}
+{"id": "q498", "canonical_query": "INTERVAL(metric='response_time', period='2024-Q1')"}
+{"id": "q499", "canonical_query": "SEQUENCE(anchor='None', relation='followed')"}
+{"id": "q500", "canonical_query": "UNKNOWN()"}
+{"id": "q501", "canonical_query": "GENERIC(frame)"}
+{"id": "q502", "canonical_query": "INTERVAL(metric='disk_space', period='2023-Q4')"}
+{"id": "q503", "canonical_query": "CAUSAL(cause='layoff rumors', effect='strike')"}
+{"id": "q504", "canonical_query": "COMPARE(metric='gross_margin', a='2020', b='2022')"}
+{"id": "q505", "canonical_query": "SEQUENCE(anchor='fall of the berlin wall', relation='followed')"}
+{"id": "q506", "canonical_query": "INTERVAL(metric='bounce_rate', start='2019', end='2021')"}
+{"id": "q507", "canonical_query": "PREDICT(metric='net', date='2026')"}
+{"id": "q508", "canonical_query": "SEQUENCE(anchor='the campaign', relation='after')"}
+{"id": "q509", "canonical_query": "OVERLAP(event='tests in q2 2024', period='2024-Q2')"}
+{"id": "q510", "canonical_query": "GENERIC(frame)"}
+{"id": "q511", "canonical_query": "INTERVAL(metric='views', period='2023-Q1')"}
+{"id": "q512", "canonical_query": "UNKNOWN()"}
+{"id": "q513", "canonical_query": "INTERVAL(metric='churn', start='2020', end='2022')"}
+{"id": "q514", "canonical_query": "SEQUENCE(anchor='None', relation='followed')"}
+{"id": "q515", "canonical_query": "COMPARE(metric='user_growth', a='2021', b='2022')"}
+{"id": "q516", "canonical_query": "PREDICT(metric='market_cap', date='2029')"}
+{"id": "q517", "canonical_query": "SEQUENCE(anchor='fix', relation='after')"}
+{"id": "q518", "canonical_query": "OVERLAP(event='failures in q3 2024', period='2024-Q3')"}
+{"id": "q519", "canonical_query": "UNKNOWN()"}
+{"id": "q520", "canonical_query": "INTERVAL(metric='memory_usage', start='2020', end='2023')"}
+{"id": "q521", "canonical_query": "INTERVAL(metric='leads', period='2025-Q2')"}
+{"id": "q522", "canonical_query": "SEQUENCE(anchor='edward i', relation='followed')"}
+{"id": "q523", "canonical_query": "CAUSAL(cause='', effect='')"}
+{"id": "q524", "canonical_query": "COMPARE(metric='impressions', a='2021', b='2022')"}
+{"id": "q525", "canonical_query": "PREDICT(metric='gross_profit', date='2027')"}
+{"id": "q526", "canonical_query": "SEQUENCE(anchor='the promo', relation='after')"}
+{"id": "q527", "canonical_query": "OVERLAP(event='events in q4 2024', period='2024-Q4')"}
+{"id": "q528", "canonical_query": "UNKNOWN()"}
+{"id": "q529", "canonical_query": "INTERVAL(metric='cpc', start='2019', end='2021')"}
+{"id": "q530", "canonical_query": "INTERVAL(metric='requests', period='2023-Q3')"}
+{"id": "q531", "canonical_query": "SEQUENCE(anchor='great depression', relation='before')"}
+{"id": "q532", "canonical_query": "UNKNOWN()"}
+{"id": "q533", "canonical_query": "COMPARE(metric='click_rates', a='2021', b='2022')"}
+{"id": "q534", "canonical_query": "PREDICT(metric='server_demand', date='2028')"}
+{"id": "q535", "canonical_query": "SEQUENCE(anchor='the price hike', relation='after')"}
+{"id": "q536", "canonical_query": "OVERLAP(event='bugs in q3 2024', period='2024-Q3')"}
+{"id": "q537", "canonical_query": "UNKNOWN()"}
+{"id": "q538", "canonical_query": "INTERVAL(metric='data_usage', start='2020', end='2022')"}
+{"id": "q539", "canonical_query": "INTERVAL(metric='installations', period='2023-Q4')"}
+{"id": "q540", "canonical_query": "SEQUENCE(anchor='renaissance', relation='followed')"}
+{"id": "q541", "canonical_query": "UNKNOWN()"}
+{"id": "q542", "canonical_query": "COMPARE(metric='report', a='2021', b='2023')"}
+{"id": "q543", "canonical_query": "PREDICT(metric='ad_revenue', date='2029')"}
+{"id": "q544", "canonical_query": "SEQUENCE(anchor='the launch', relation='before')"}
+{"id": "q545", "canonical_query": "OVERLAP(event='updates in q3 2023', period='2023-Q3')"}
+{"id": "q546", "canonical_query": "GENERIC(frame)"}
+{"id": "q547", "canonical_query": "UNKNOWN()"}
+{"id": "q548", "canonical_query": "INTERVAL(metric='cart_value', period='2024-Q1')"}
+{"id": "q549", "canonical_query": "SEQUENCE(anchor='None', relation='followed')"}
+{"id": "q550", "canonical_query": "UNKNOWN()"}
+{"id": "q551", "canonical_query": "UNKNOWN()"}
+{"id": "q552", "canonical_query": "INTERVAL(metric='bandwidth', period='2023-Q3')"}
+{"id": "q553", "canonical_query": "CAUSAL(cause='code refactor', effect='bug')"}
+{"id": "q554", "canonical_query": "COMPARE(metric='load_times', a='2023', b='2024')"}
+{"id": "q555", "canonical_query": "SEQUENCE(anchor='release', relation='after')"}
+{"id": "q556", "canonical_query": "INTERVAL(metric='list_exits', start='2020', end='2022')"}
+{"id": "q557", "canonical_query": "PREDICT(metric='net_revenue', date='2030')"}
+{"id": "q558", "canonical_query": "SEQUENCE(anchor='the redesign', relation='after')"}
+{"id": "q559", "canonical_query": "OVERLAP(event='jobs in q2 2024', period='2024-Q2')"}
+{"id": "q560", "canonical_query": "UNKNOWN()"}
+{"id": "q561", "canonical_query": "INTERVAL(metric='returns', period='2024-Q2')"}
+{"id": "q562", "canonical_query": "CAUSAL(cause='did the ad campaign', effect='more traffic')"}
+{"id": "q563", "canonical_query": "INTERVAL(metric='uptime', start='2021', end='2023')"}
+{"id": "q564", "canonical_query": "SEQUENCE(anchor='None', relation='followed')"}
+{"id": "q565", "canonical_query": "COMPARE(metric='bounce_rate', a='2022', b='2023')"}
+{"id": "q566", "canonical_query": "PREDICT(metric='yearly_growth', date='2030')"}
+{"id": "q567", "canonical_query": "SEQUENCE(anchor='release', relation='before')"}
+{"id": "q568", "canonical_query": "OVERLAP(event='tasks in q2 2025', period='2025-Q2')"}
+{"id": "q569", "canonical_query": "GENERIC(frame)"}
+{"id": "q570", "canonical_query": "INTERVAL(metric='customer_loyalty', start='2019', end='2021')"}
+{"id": "q571", "canonical_query": "INTERVAL(metric='errors', period='2023-Q3')"}
+{"id": "q572", "canonical_query": "SEQUENCE(anchor='nero', relation='followed')"}
+{"id": "q573", "canonical_query": "CAUSAL(cause='', effect='')"}
+{"id": "q574", "canonical_query": "COMPARE(metric='profit', a='2020', b='2022')"}
+{"id": "q575", "canonical_query": "PREDICT(metric='active_sessions', date='2028')"}
+{"id": "q576", "canonical_query": "SEQUENCE(anchor='the layout update', relation='after')"}
+{"id": "q577", "canonical_query": "OVERLAP(event='promotions in q2 2024', period='2024-Q2')"}
+{"id": "q578", "canonical_query": "UNKNOWN()"}
+{"id": "q579", "canonical_query": "INTERVAL(metric='roi', start='2020', end='2022')"}
+{"id": "q580", "canonical_query": "INTERVAL(metric='downtime', period='2024-Q1')"}
+{"id": "q581", "canonical_query": "SEQUENCE(anchor='war of 1812', relation='before')"}
+{"id": "q582", "canonical_query": "CAUSAL(cause='ceo change', effect='stock rise')"}
+{"id": "q583", "canonical_query": "COMPARE(metric='engagement', a='2022', b='2023')"}
+{"id": "q584", "canonical_query": "PREDICT(metric='staff_costs', date='2028')"}
+{"id": "q585", "canonical_query": "SEQUENCE(anchor='the update', relation='after')"}
+{"id": "q586", "canonical_query": "OVERLAP(event='jobs in q4 2024', period='2024-Q4')"}
+{"id": "q587", "canonical_query": "GENERIC(frame)"}
+{"id": "q588", "canonical_query": "INTERVAL(metric='bounce_rate', start='2020', end='2022')"}
+{"id": "q589", "canonical_query": "INTERVAL(metric='shipments', period='2023-Q4')"}
+{"id": "q590", "canonical_query": "SEQUENCE(anchor='reformation', relation='after')"}
+{"id": "q591", "canonical_query": "CAUSAL(cause='discount', effect='order spike')"}
+{"id": "q592", "canonical_query": "COMPARE(metric='disk_usage', a='2023', b='2024')"}
+{"id": "q593", "canonical_query": "PREDICT(metric='workforce_size', date='2030')"}
+{"id": "q594", "canonical_query": "SEQUENCE(anchor='the outage', relation='after')"}
+{"id": "q595", "canonical_query": "OVERLAP(event='logs in q2 2024', period='2024-Q2')"}
+{"id": "q596", "canonical_query": "UNKNOWN()"}
+{"id": "q597", "canonical_query": "PREDICT(metric='server_load', date='2020')"}
+{"id": "q598", "canonical_query": "INTERVAL(metric='response_time', period='2024-Q1')"}
+{"id": "q599", "canonical_query": "SEQUENCE(anchor='None', relation='followed')"}
+{"id": "q600", "canonical_query": "UNKNOWN()"}
+{"id": "q601", "canonical_query": "GENERIC(frame)"}
+{"id": "q602", "canonical_query": "INTERVAL(metric='disk_space', period='2023-Q4')"}
+{"id": "q603", "canonical_query": "CAUSAL(cause='rumor', effect='stock drop')"}
+{"id": "q604", "canonical_query": "COMPARE(metric='gross_margin', a='2021', b='2022')"}
+{"id": "q605", "canonical_query": "SEQUENCE(anchor='fall of the roman empire', relation='followed')"}
+{"id": "q606", "canonical_query": "INTERVAL(metric='bounce_rate', start='2019', end='2020')"}
+{"id": "q607", "canonical_query": "PREDICT(metric='net', date='2027')"}
+{"id": "q608", "canonical_query": "SEQUENCE(anchor='the ad', relation='after')"}
+{"id": "q609", "canonical_query": "OVERLAP(event='tests in q1 2024', period='2024-Q1')"}
+{"id": "q610", "canonical_query": "GENERIC(frame)"}
+{"id": "q611", "canonical_query": "INTERVAL(metric='views', period='2023-Q1')"}
+{"id": "q612", "canonical_query": "UNKNOWN()"}
+{"id": "q613", "canonical_query": "INTERVAL(metric='churn', start='2018', end='2020')"}
+{"id": "q614", "canonical_query": "SEQUENCE(anchor='None', relation='followed')"}
+{"id": "q615", "canonical_query": "COMPARE(metric='user_growth', a='2020', b='2021')"}
+{"id": "q616", "canonical_query": "PREDICT(metric='market_cap', date='2028')"}
+{"id": "q617", "canonical_query": "SEQUENCE(anchor='reboot', relation='after')"}
+{"id": "q618", "canonical_query": "OVERLAP(event='failures in q2 2024', period='2024-Q2')"}
+{"id": "q619", "canonical_query": "UNKNOWN()"}
+{"id": "q620", "canonical_query": "INTERVAL(metric='memory_usage', start='2019', end='2022')"}
+{"id": "q621", "canonical_query": "INTERVAL(metric='leads', period='2025-Q2')"}
+{"id": "q622", "canonical_query": "SEQUENCE(anchor='henry vii', relation='followed')"}
+{"id": "q623", "canonical_query": "CAUSAL(cause='', effect='')"}
+{"id": "q624", "canonical_query": "COMPARE(metric='impressions', a='2022', b='2023')"}
+{"id": "q625", "canonical_query": "PREDICT(metric='gross_profit', date='2028')"}
+{"id": "q626", "canonical_query": "SEQUENCE(anchor='the email', relation='after')"}
+{"id": "q627", "canonical_query": "OVERLAP(event='events in q3 2024', period='2024-Q3')"}
+{"id": "q628", "canonical_query": "UNKNOWN()"}
+{"id": "q629", "canonical_query": "INTERVAL(metric='cpc', start='2020', end='2022')"}
+{"id": "q630", "canonical_query": "INTERVAL(metric='requests', period='2023-Q3')"}
+{"id": "q631", "canonical_query": "SEQUENCE(anchor='great schism', relation='before')"}
+{"id": "q632", "canonical_query": "UNKNOWN()"}
+{"id": "q633", "canonical_query": "COMPARE(metric='click_rates', a='2021', b='2023')"}
+{"id": "q634", "canonical_query": "PREDICT(metric='server_demand', date='2029')"}
+{"id": "q635", "canonical_query": "SEQUENCE(anchor='the price hike', relation='after')"}
+{"id": "q636", "canonical_query": "OVERLAP(event='bugs in q3 2024', period='2024-Q3')"}
+{"id": "q637", "canonical_query": "UNKNOWN()"}
+{"id": "q638", "canonical_query": "INTERVAL(metric='data_usage', start='2020', end='2022')"}
+{"id": "q639", "canonical_query": "INTERVAL(metric='installations', period='2023-Q4')"}
+{"id": "q640", "canonical_query": "SEQUENCE(anchor='renaissance', relation='followed')"}
+{"id": "q641", "canonical_query": "UNKNOWN()"}
+{"id": "q642", "canonical_query": "COMPARE(metric='report', a='2021', b='2023')"}
+{"id": "q643", "canonical_query": "PREDICT(metric='ad_revenue', date='2029')"}
+{"id": "q644", "canonical_query": "SEQUENCE(anchor='the launch', relation='before')"}
+{"id": "q645", "canonical_query": "OVERLAP(event='updates in q3 2023', period='2023-Q3')"}
+{"id": "q646", "canonical_query": "GENERIC(frame)"}
+{"id": "q647", "canonical_query": "UNKNOWN()"}
+{"id": "q648", "canonical_query": "INTERVAL(metric='cart_value', period='2024-Q1')"}
+{"id": "q649", "canonical_query": "SEQUENCE(anchor='None', relation='followed')"}
+{"id": "q650", "canonical_query": "UNKNOWN()"}
+{"id": "q651", "canonical_query": "UNKNOWN()"}
+{"id": "q652", "canonical_query": "INTERVAL(metric='bandwidth', period='2023-Q3')"}
+{"id": "q653", "canonical_query": "CAUSAL(cause='code refactor', effect='bug')"}
+{"id": "q654", "canonical_query": "COMPARE(metric='load_times', a='2023', b='2024')"}
+{"id": "q655", "canonical_query": "SEQUENCE(anchor='release', relation='after')"}
+{"id": "q656", "canonical_query": "INTERVAL(metric='list_exits', start='2020', end='2022')"}
+{"id": "q657", "canonical_query": "PREDICT(metric='net_revenue', date='2030')"}
+{"id": "q658", "canonical_query": "SEQUENCE(anchor='the redesign', relation='after')"}
+{"id": "q659", "canonical_query": "OVERLAP(event='jobs in q2 2024', period='2024-Q2')"}
+{"id": "q660", "canonical_query": "UNKNOWN()"}
+{"id": "q661", "canonical_query": "INTERVAL(metric='returns', period='2024-Q2')"}
+{"id": "q662", "canonical_query": "CAUSAL(cause='did the ad campaign', effect='more traffic')"}
+{"id": "q663", "canonical_query": "INTERVAL(metric='uptime', start='2021', end='2023')"}
+{"id": "q664", "canonical_query": "SEQUENCE(anchor='None', relation='followed')"}
+{"id": "q665", "canonical_query": "COMPARE(metric='bounce_rate', a='2022', b='2023')"}
+{"id": "q666", "canonical_query": "PREDICT(metric='yearly_growth', date='2030')"}
+{"id": "q667", "canonical_query": "SEQUENCE(anchor='release', relation='before')"}
+{"id": "q668", "canonical_query": "OVERLAP(event='tasks in q2 2025', period='2025-Q2')"}
+{"id": "q669", "canonical_query": "GENERIC(frame)"}
+{"id": "q670", "canonical_query": "INTERVAL(metric='customer_loyalty', start='2019', end='2021')"}
+{"id": "q671", "canonical_query": "INTERVAL(metric='errors', period='2023-Q3')"}
+{"id": "q672", "canonical_query": "SEQUENCE(anchor='nero', relation='followed')"}
+{"id": "q673", "canonical_query": "CAUSAL(cause='', effect='')"}
+{"id": "q674", "canonical_query": "COMPARE(metric='profit', a='2020', b='2022')"}
+{"id": "q675", "canonical_query": "PREDICT(metric='active_sessions', date='2028')"}
+{"id": "q676", "canonical_query": "SEQUENCE(anchor='the layout update', relation='after')"}
+{"id": "q677", "canonical_query": "OVERLAP(event='promotions in q2 2024', period='2024-Q2')"}
+{"id": "q678", "canonical_query": "UNKNOWN()"}
+{"id": "q679", "canonical_query": "INTERVAL(metric='roi', start='2020', end='2022')"}
+{"id": "q680", "canonical_query": "INTERVAL(metric='downtime', period='2024-Q1')"}
+{"id": "q681", "canonical_query": "SEQUENCE(anchor='war of 1812', relation='before')"}
+{"id": "q682", "canonical_query": "CAUSAL(cause='ceo change', effect='stock rise')"}
+{"id": "q683", "canonical_query": "COMPARE(metric='engagement', a='2022', b='2023')"}
+{"id": "q684", "canonical_query": "PREDICT(metric='staff_costs', date='2028')"}
+{"id": "q685", "canonical_query": "SEQUENCE(anchor='the update', relation='after')"}
+{"id": "q686", "canonical_query": "OVERLAP(event='jobs in q4 2024', period='2024-Q4')"}
+{"id": "q687", "canonical_query": "GENERIC(frame)"}
+{"id": "q688", "canonical_query": "INTERVAL(metric='bounce_rate', start='2020', end='2022')"}
+{"id": "q689", "canonical_query": "INTERVAL(metric='shipments', period='2023-Q4')"}
+{"id": "q690", "canonical_query": "SEQUENCE(anchor='reformation', relation='after')"}
+{"id": "q691", "canonical_query": "CAUSAL(cause='discount', effect='order spike')"}
+{"id": "q692", "canonical_query": "COMPARE(metric='disk_usage', a='2023', b='2024')"}
+{"id": "q693", "canonical_query": "PREDICT(metric='workforce_size', date='2030')"}
+{"id": "q694", "canonical_query": "SEQUENCE(anchor='the outage', relation='after')"}
+{"id": "q695", "canonical_query": "OVERLAP(event='logs in q2 2024', period='2024-Q2')"}
+{"id": "q696", "canonical_query": "UNKNOWN()"}
+{"id": "q697", "canonical_query": "PREDICT(metric='server_load', date='2020')"}
+{"id": "q698", "canonical_query": "INTERVAL(metric='response_time', period='2024-Q1')"}
+{"id": "q699", "canonical_query": "SEQUENCE(anchor='None', relation='followed')"}
+{"id": "q700", "canonical_query": "UNKNOWN()"}
+{"id": "q701", "canonical_query": "GENERIC(frame)"}
+{"id": "q702", "canonical_query": "INTERVAL(metric='disk_space', period='2023-Q4')"}
+{"id": "q703", "canonical_query": "CAUSAL(cause='rumor', effect='stock drop')"}
+{"id": "q704", "canonical_query": "COMPARE(metric='gross_margin', a='2021', b='2022')"}
+{"id": "q705", "canonical_query": "SEQUENCE(anchor='fall of the roman empire', relation='followed')"}
+{"id": "q706", "canonical_query": "INTERVAL(metric='bounce_rate', start='2019', end='2020')"}
+{"id": "q707", "canonical_query": "PREDICT(metric='net', date='2027')"}
+{"id": "q708", "canonical_query": "SEQUENCE(anchor='the ad', relation='after')"}
+{"id": "q709", "canonical_query": "OVERLAP(event='tests in q1 2024', period='2024-Q1')"}
+{"id": "q710", "canonical_query": "GENERIC(frame)"}
+{"id": "q711", "canonical_query": "INTERVAL(metric='views', period='2023-Q1')"}
+{"id": "q712", "canonical_query": "UNKNOWN()"}
+{"id": "q713", "canonical_query": "INTERVAL(metric='churn', start='2018', end='2020')"}
+{"id": "q714", "canonical_query": "SEQUENCE(anchor='None', relation='followed')"}
+{"id": "q715", "canonical_query": "COMPARE(metric='user_growth', a='2020', b='2021')"}
+{"id": "q716", "canonical_query": "PREDICT(metric='market_cap', date='2028')"}
+{"id": "q717", "canonical_query": "SEQUENCE(anchor='reboot', relation='after')"}
+{"id": "q718", "canonical_query": "OVERLAP(event='failures in q2 2024', period='2024-Q2')"}
+{"id": "q719", "canonical_query": "UNKNOWN()"}
+{"id": "q720", "canonical_query": "INTERVAL(metric='memory_usage', start='2019', end='2022')"}
+{"id": "q721", "canonical_query": "INTERVAL(metric='leads', period='2025-Q2')"}
+{"id": "q722", "canonical_query": "SEQUENCE(anchor='henry vii', relation='followed')"}
+{"id": "q723", "canonical_query": "CAUSAL(cause='', effect='')"}
+{"id": "q724", "canonical_query": "COMPARE(metric='impressions', a='2022', b='2023')"}
+{"id": "q725", "canonical_query": "PREDICT(metric='gross_profit', date='2028')"}
+{"id": "q726", "canonical_query": "SEQUENCE(anchor='the email', relation='after')"}
+{"id": "q727", "canonical_query": "OVERLAP(event='events in q3 2024', period='2024-Q3')"}
+{"id": "q728", "canonical_query": "UNKNOWN()"}
+{"id": "q729", "canonical_query": "INTERVAL(metric='cpc', start='2020', end='2022')"}
+{"id": "q730", "canonical_query": "INTERVAL(metric='requests', period='2023-Q3')"}
+{"id": "q731", "canonical_query": "SEQUENCE(anchor='great schism', relation='before')"}
+{"id": "q732", "canonical_query": "UNKNOWN()"}
+{"id": "q733", "canonical_query": "COMPARE(metric='click_rates', a='2021', b='2023')"}
+{"id": "q734", "canonical_query": "PREDICT(metric='server_demand', date='2029')"}
+{"id": "q735", "canonical_query": "SEQUENCE(anchor='the price hike', relation='after')"}
+{"id": "q736", "canonical_query": "OVERLAP(event='bugs in q3 2024', period='2024-Q3')"}
+{"id": "q737", "canonical_query": "UNKNOWN()"}
+{"id": "q738", "canonical_query": "INTERVAL(metric='data_usage', start='2020', end='2022')"}
+{"id": "q739", "canonical_query": "INTERVAL(metric='installations', period='2023-Q4')"}
+{"id": "q740", "canonical_query": "SEQUENCE(anchor='renaissance', relation='followed')"}
+{"id": "q741", "canonical_query": "UNKNOWN()"}
+{"id": "q742", "canonical_query": "COMPARE(metric='report', a='2021', b='2023')"}
+{"id": "q743", "canonical_query": "PREDICT(metric='ad_revenue', date='2029')"}
+{"id": "q744", "canonical_query": "SEQUENCE(anchor='the launch', relation='before')"}
+{"id": "q745", "canonical_query": "OVERLAP(event='updates in q3 2023', period='2023-Q3')"}
+{"id": "q746", "canonical_query": "GENERIC(frame)"}
+{"id": "q747", "canonical_query": "UNKNOWN()"}
+{"id": "q748", "canonical_query": "INTERVAL(metric='cart_value', period='2024-Q1')"}
+{"id": "q749", "canonical_query": "SEQUENCE(anchor='None', relation='followed')"}
+{"id": "q750", "canonical_query": "UNKNOWN()"}
+{"id": "q751", "canonical_query": "UNKNOWN()"}
+{"id": "q752", "canonical_query": "INTERVAL(metric='bandwidth', period='2023-Q3')"}
+{"id": "q753", "canonical_query": "CAUSAL(cause='code refactor', effect='bug')"}
+{"id": "q754", "canonical_query": "COMPARE(metric='load_times', a='2023', b='2024')"}
+{"id": "q755", "canonical_query": "SEQUENCE(anchor='release', relation='after')"}
+{"id": "q756", "canonical_query": "INTERVAL(metric='list_exits', start='2020', end='2022')"}
+{"id": "q757", "canonical_query": "PREDICT(metric='net_revenue', date='2030')"}
+{"id": "q758", "canonical_query": "SEQUENCE(anchor='the redesign', relation='after')"}
+{"id": "q759", "canonical_query": "OVERLAP(event='jobs in q2 2024', period='2024-Q2')"}
+{"id": "q760", "canonical_query": "UNKNOWN()"}
+{"id": "q761", "canonical_query": "INTERVAL(metric='returns', period='2024-Q2')"}
+{"id": "q762", "canonical_query": "CAUSAL(cause='did the ad campaign', effect='more traffic')"}
+{"id": "q763", "canonical_query": "INTERVAL(metric='uptime', start='2021', end='2023')"}
+{"id": "q764", "canonical_query": "SEQUENCE(anchor='None', relation='followed')"}
+{"id": "q765", "canonical_query": "COMPARE(metric='bounce_rate', a='2022', b='2023')"}
+{"id": "q766", "canonical_query": "PREDICT(metric='yearly_growth', date='2030')"}
+{"id": "q767", "canonical_query": "SEQUENCE(anchor='release', relation='before')"}
+{"id": "q768", "canonical_query": "OVERLAP(event='tasks in q2 2025', period='2025-Q2')"}
+{"id": "q769", "canonical_query": "GENERIC(frame)"}
+{"id": "q770", "canonical_query": "INTERVAL(metric='customer_loyalty', start='2019', end='2021')"}
+{"id": "q771", "canonical_query": "INTERVAL(metric='errors', period='2023-Q3')"}
+{"id": "q772", "canonical_query": "SEQUENCE(anchor='nero', relation='followed')"}
+{"id": "q773", "canonical_query": "CAUSAL(cause='', effect='')"}
+{"id": "q774", "canonical_query": "COMPARE(metric='profit', a='2020', b='2022')"}
+{"id": "q775", "canonical_query": "PREDICT(metric='active_sessions', date='2028')"}
+{"id": "q776", "canonical_query": "SEQUENCE(anchor='the layout update', relation='after')"}
+{"id": "q777", "canonical_query": "OVERLAP(event='promotions in q2 2024', period='2024-Q2')"}
+{"id": "q778", "canonical_query": "UNKNOWN()"}
+{"id": "q779", "canonical_query": "INTERVAL(metric='roi', start='2020', end='2022')"}
+{"id": "q780", "canonical_query": "INTERVAL(metric='downtime', period='2024-Q1')"}
+{"id": "q781", "canonical_query": "SEQUENCE(anchor='war of 1812', relation='before')"}
+{"id": "q782", "canonical_query": "CAUSAL(cause='ceo change', effect='stock rise')"}
+{"id": "q783", "canonical_query": "COMPARE(metric='engagement', a='2022', b='2023')"}
+{"id": "q784", "canonical_query": "PREDICT(metric='staff_costs', date='2028')"}
+{"id": "q785", "canonical_query": "SEQUENCE(anchor='the update', relation='after')"}
+{"id": "q786", "canonical_query": "OVERLAP(event='jobs in q4 2024', period='2024-Q4')"}
+{"id": "q787", "canonical_query": "GENERIC(frame)"}
+{"id": "q788", "canonical_query": "INTERVAL(metric='bounce_rate', start='2020', end='2022')"}
+{"id": "q789", "canonical_query": "INTERVAL(metric='shipments', period='2023-Q4')"}
+{"id": "q790", "canonical_query": "SEQUENCE(anchor='reformation', relation='after')"}
+{"id": "q791", "canonical_query": "CAUSAL(cause='discount', effect='order spike')"}
+{"id": "q792", "canonical_query": "COMPARE(metric='disk_usage', a='2023', b='2024')"}
+{"id": "q793", "canonical_query": "PREDICT(metric='workforce_size', date='2030')"}
+{"id": "q794", "canonical_query": "SEQUENCE(anchor='the outage', relation='after')"}
+{"id": "q795", "canonical_query": "OVERLAP(event='logs in q2 2024', period='2024-Q2')"}
+{"id": "q796", "canonical_query": "UNKNOWN()"}
+{"id": "q797", "canonical_query": "PREDICT(metric='server_load', date='2020')"}
+{"id": "q798", "canonical_query": "INTERVAL(metric='response_time', period='2024-Q1')"}
+{"id": "q799", "canonical_query": "SEQUENCE(anchor='None', relation='followed')"}
+{"id": "q800", "canonical_query": "UNKNOWN()"}
+{"id": "q801", "canonical_query": "GENERIC(frame)"}
+{"id": "q802", "canonical_query": "INTERVAL(metric='disk_space', period='2023-Q4')"}
+{"id": "q803", "canonical_query": "CAUSAL(cause='rumor', effect='stock drop')"}
+{"id": "q804", "canonical_query": "COMPARE(metric='gross_margin', a='2021', b='2022')"}
+{"id": "q805", "canonical_query": "SEQUENCE(anchor='fall of the roman empire', relation='followed')"}
+{"id": "q806", "canonical_query": "INTERVAL(metric='bounce_rate', start='2019', end='2020')"}
+{"id": "q807", "canonical_query": "PREDICT(metric='net', date='2027')"}
+{"id": "q808", "canonical_query": "SEQUENCE(anchor='the ad', relation='after')"}
+{"id": "q809", "canonical_query": "OVERLAP(event='tests in q1 2024', period='2024-Q1')"}
+{"id": "q810", "canonical_query": "GENERIC(frame)"}
+{"id": "q811", "canonical_query": "INTERVAL(metric='views', period='2023-Q1')"}
+{"id": "q812", "canonical_query": "UNKNOWN()"}
+{"id": "q813", "canonical_query": "INTERVAL(metric='churn', start='2018', end='2020')"}
+{"id": "q814", "canonical_query": "SEQUENCE(anchor='None', relation='followed')"}
+{"id": "q815", "canonical_query": "COMPARE(metric='user_growth', a='2020', b='2021')"}
+{"id": "q816", "canonical_query": "PREDICT(metric='market_cap', date='2028')"}
+{"id": "q817", "canonical_query": "SEQUENCE(anchor='reboot', relation='after')"}
+{"id": "q818", "canonical_query": "OVERLAP(event='failures in q2 2024', period='2024-Q2')"}
+{"id": "q819", "canonical_query": "UNKNOWN()"}
+{"id": "q820", "canonical_query": "INTERVAL(metric='memory_usage', start='2019', end='2022')"}
+{"id": "q821", "canonical_query": "INTERVAL(metric='leads', period='2025-Q2')"}
+{"id": "q822", "canonical_query": "SEQUENCE(anchor='henry vii', relation='followed')"}
+{"id": "q823", "canonical_query": "CAUSAL(cause='', effect='')"}
+{"id": "q824", "canonical_query": "COMPARE(metric='impressions', a='2022', b='2023')"}
+{"id": "q825", "canonical_query": "PREDICT(metric='gross_profit', date='2028')"}
+{"id": "q826", "canonical_query": "SEQUENCE(anchor='the email', relation='after')"}
+{"id": "q827", "canonical_query": "OVERLAP(event='events in q3 2024', period='2024-Q3')"}
+{"id": "q828", "canonical_query": "UNKNOWN()"}
+{"id": "q829", "canonical_query": "INTERVAL(metric='cpc', start='2020', end='2022')"}
+{"id": "q830", "canonical_query": "INTERVAL(metric='requests', period='2023-Q3')"}
+{"id": "q831", "canonical_query": "SEQUENCE(anchor='great schism', relation='before')"}
+{"id": "q832", "canonical_query": "UNKNOWN()"}
+{"id": "q833", "canonical_query": "COMPARE(metric='click_rates', a='2021', b='2023')"}
+{"id": "q834", "canonical_query": "PREDICT(metric='server_demand', date='2029')"}
+{"id": "q835", "canonical_query": "SEQUENCE(anchor='the price hike', relation='after')"}
+{"id": "q836", "canonical_query": "OVERLAP(event='bugs in q3 2024', period='2024-Q3')"}
+{"id": "q837", "canonical_query": "UNKNOWN()"}
+{"id": "q838", "canonical_query": "INTERVAL(metric='data_usage', start='2020', end='2022')"}
+{"id": "q839", "canonical_query": "INTERVAL(metric='installations', period='2023-Q4')"}
+{"id": "q840", "canonical_query": "SEQUENCE(anchor='renaissance', relation='followed')"}
+{"id": "q841", "canonical_query": "UNKNOWN()"}
+{"id": "q842", "canonical_query": "COMPARE(metric='report', a='2021', b='2023')"}
+{"id": "q843", "canonical_query": "PREDICT(metric='ad_revenue', date='2029')"}
+{"id": "q844", "canonical_query": "SEQUENCE(anchor='the launch', relation='before')"}
+{"id": "q845", "canonical_query": "OVERLAP(event='updates in q3 2023', period='2023-Q3')"}
+{"id": "q846", "canonical_query": "GENERIC(frame)"}
+{"id": "q847", "canonical_query": "UNKNOWN()"}
+{"id": "q848", "canonical_query": "INTERVAL(metric='cart_value', period='2024-Q1')"}
+{"id": "q849", "canonical_query": "SEQUENCE(anchor='None', relation='followed')"}
+{"id": "q850", "canonical_query": "UNKNOWN()"}
+{"id": "q851", "canonical_query": "UNKNOWN()"}
+{"id": "q852", "canonical_query": "INTERVAL(metric='bandwidth', period='2023-Q3')"}
+{"id": "q853", "canonical_query": "CAUSAL(cause='code refactor', effect='bug')"}
+{"id": "q854", "canonical_query": "COMPARE(metric='load_times', a='2023', b='2024')"}
+{"id": "q855", "canonical_query": "SEQUENCE(anchor='release', relation='after')"}
+{"id": "q856", "canonical_query": "INTERVAL(metric='list_exits', start='2020', end='2022')"}
+{"id": "q857", "canonical_query": "PREDICT(metric='net_revenue', date='2030')"}
+{"id": "q858", "canonical_query": "SEQUENCE(anchor='the redesign', relation='after')"}
+{"id": "q859", "canonical_query": "OVERLAP(event='jobs in q2 2024', period='2024-Q2')"}
+{"id": "q860", "canonical_query": "UNKNOWN()"}
+{"id": "q861", "canonical_query": "INTERVAL(metric='returns', period='2024-Q2')"}
+{"id": "q862", "canonical_query": "CAUSAL(cause='did the ad campaign', effect='more traffic')"}
+{"id": "q863", "canonical_query": "INTERVAL(metric='uptime', start='2021', end='2023')"}
+{"id": "q864", "canonical_query": "SEQUENCE(anchor='None', relation='followed')"}
+{"id": "q865", "canonical_query": "COMPARE(metric='bounce_rate', a='2022', b='2023')"}
+{"id": "q866", "canonical_query": "PREDICT(metric='yearly_growth', date='2030')"}
+{"id": "q867", "canonical_query": "SEQUENCE(anchor='release', relation='before')"}
+{"id": "q868", "canonical_query": "OVERLAP(event='tasks in q2 2025', period='2025-Q2')"}
+{"id": "q869", "canonical_query": "GENERIC(frame)"}
+{"id": "q870", "canonical_query": "INTERVAL(metric='customer_loyalty', start='2019', end='2021')"}
+{"id": "q871", "canonical_query": "INTERVAL(metric='errors', period='2023-Q3')"}
+{"id": "q872", "canonical_query": "SEQUENCE(anchor='nero', relation='followed')"}
+{"id": "q873", "canonical_query": "CAUSAL(cause='', effect='')"}
+{"id": "q874", "canonical_query": "COMPARE(metric='profit', a='2020', b='2022')"}
+{"id": "q875", "canonical_query": "PREDICT(metric='active_sessions', date='2028')"}
+{"id": "q876", "canonical_query": "SEQUENCE(anchor='the layout update', relation='after')"}
+{"id": "q877", "canonical_query": "OVERLAP(event='promotions in q2 2024', period='2024-Q2')"}
+{"id": "q878", "canonical_query": "UNKNOWN()"}
+{"id": "q879", "canonical_query": "INTERVAL(metric='roi', start='2020', end='2022')"}
+{"id": "q880", "canonical_query": "INTERVAL(metric='downtime', period='2024-Q1')"}
+{"id": "q881", "canonical_query": "SEQUENCE(anchor='war of 1812', relation='before')"}
+{"id": "q882", "canonical_query": "CAUSAL(cause='ceo change', effect='stock rise')"}
+{"id": "q883", "canonical_query": "COMPARE(metric='engagement', a='2022', b='2023')"}
+{"id": "q884", "canonical_query": "PREDICT(metric='staff_costs', date='2028')"}
+{"id": "q885", "canonical_query": "SEQUENCE(anchor='the update', relation='after')"}
+{"id": "q886", "canonical_query": "OVERLAP(event='jobs in q4 2024', period='2024-Q4')"}
+{"id": "q887", "canonical_query": "GENERIC(frame)"}
+{"id": "q888", "canonical_query": "INTERVAL(metric='bounce_rate', start='2020', end='2022')"}
+{"id": "q889", "canonical_query": "INTERVAL(metric='shipments', period='2023-Q4')"}
+{"id": "q890", "canonical_query": "SEQUENCE(anchor='reformation', relation='after')"}
+{"id": "q891", "canonical_query": "CAUSAL(cause='discount', effect='order spike')"}
+{"id": "q892", "canonical_query": "COMPARE(metric='disk_usage', a='2023', b='2024')"}
+{"id": "q893", "canonical_query": "PREDICT(metric='workforce_size', date='2030')"}
+{"id": "q894", "canonical_query": "SEQUENCE(anchor='the outage', relation='after')"}

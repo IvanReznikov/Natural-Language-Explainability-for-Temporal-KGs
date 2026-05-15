@@ -1,0 +1,1 @@
+{"query_id": "q_temp_c1", "text": "What antibiotics treat this infection?", "intent": "medical", "issued_at": 1767732401.1574574, "meta": {}, "dependencies": ["temperature_fact"], "user_id": null}

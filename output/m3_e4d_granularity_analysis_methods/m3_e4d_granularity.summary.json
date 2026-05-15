@@ -1,0 +1,39 @@
+{
+  "by_granularity": {
+    "days": {
+      "n": 200,
+      "quality_mean": 0.4985103415103415,
+      "length_chars_mean": 91.68
+    },
+    "decades": {
+      "n": 200,
+      "quality_mean": 0.5420685425685425,
+      "length_chars_mean": 94.44
+    },
+    "hours": {
+      "n": 200,
+      "quality_mean": 0.4985103415103415,
+      "length_chars_mean": 92.675
+    },
+    "minutes": {
+      "n": 200,
+      "quality_mean": 0.4985103415103415,
+      "length_chars_mean": 94.665
+    },
+    "months": {
+      "n": 200,
+      "quality_mean": 0.4985103415103415,
+      "length_chars_mean": 93.67
+    },
+    "seconds": {
+      "n": 200,
+      "quality_mean": 0.4985103415103415,
+      "length_chars_mean": 94.665
+    },
+    "years": {
+      "n": 200,
+      "quality_mean": 0.4985103415103415,
+      "length_chars_mean": 92.675
+    }
+  }
+}

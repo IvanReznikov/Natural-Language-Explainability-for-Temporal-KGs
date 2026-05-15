@@ -1,0 +1,144 @@
+{"id": "g1335", "query": "Worker headcount today", "result_struct": {"count": 50}, "summary": "50 workers on site today."}
+{"id": "g309", "query": "Session store size", "result_struct": {"mb": 50}, "summary": "Session store size is 50 MB."}
+{"id": "g549", "query": "Circuit breaker operation count", "result_struct": {"count": 10}, "summary": "Circuit breakers operated 10 times."}
+{"id": "g1250", "query": "Router uptime", "result_struct": {"days": 45}, "summary": "Router uptime is 45 days."}
+{"id": "g966", "query": "Pressure atmospheric", "result_struct": {"hpa": 1013}, "summary": "Atmospheric pressure is 1013 hPa."}
+{"id": "g794", "query": "Date format", "result_struct": {"format": "YYYY-MM-DD"}, "summary": "The date format is YYYY-MM-DD."}
+{"id": "g831", "query": "Gift wrap available?", "result_struct": {"available": true}, "summary": "Gift wrap is available."}
+{"id": "g632", "query": "Paper towel level", "result_struct": {"pct": 50}, "summary": "Paper towels are 50% full."}
+{"id": "g194", "query": "Inventory shrinkage", "result_struct": {"pct": 0.5}, "summary": "Inventory shrinkage is minimal at 0.5%."}
+{"id": "g225", "query": "Backup success rate", "result_struct": {"pct": 100}, "summary": "Backups have a 100% success rate."}
+{"id": "g084", "query": "Marketing qualified leads (MQL) this week", "result_struct": {"count": 120}, "summary": "We generated 120 MQLs this week."}
+{"id": "g595", "query": "Control rod position", "result_struct": {"pct": 50}, "summary": "Control rods are at 50% insertion."}
+{"id": "g329", "query": "Upgrade MRR", "result_struct": {"amount": 2000, "currency": "USD"}, "summary": "Upgrade MRR totaled $2,000."}
+{"id": "g870", "query": "Research grant total", "result_struct": {"amount": 100000, "currency": "USD"}, "summary": "Research grants total $100,000."}
+{"id": "g684", "query": "Wall condition", "result_struct": {"status": "Good"}, "summary": "Walls are in Good condition."}
+{"id": "g187", "query": "Waste recycling rate", "result_struct": {"pct": 80}, "summary": "The waste recycling rate is 80%."}
+{"id": "g556", "query": "Active power consumption", "result_struct": {"kw": 500}, "summary": "Active power consumption is 500 kW."}
+{"id": "g1074", "query": "Automation run count", "result_struct": {"count": 10}, "summary": "Automations ran 10 times."}
+{"id": "g220", "query": "Rate limit exceeded count", "result_struct": {"count": 5}, "summary": "The rate limit was exceeded 5 times."}
+{"id": "g032", "query": "Mobile vs Desktop traffic share", "result_struct": {"mobile": 55, "desktop": 45, "tablet": 0}, "summary": "Mobile traffic accounts for 55%, surpassing desktop at 45%."}
+{"id": "g1322", "query": "YouTube view count", "result_struct": {"count": 1000}, "summary": "1,000 views on YouTube."}
+{"id": "g063", "query": "Fastest growing region Q1", "result_struct": {"region": "LATAM", "growth_pct": 25}, "summary": "LATAM was the fastest growing region in Q1 with 25% growth."}
+{"id": "g1193", "query": "Code review backlog", "result_struct": {"count": 5}, "summary": "There are 5 PRs in the code review backlog."}
+{"id": "g764", "query": "Infrastructure as code", "result_struct": {"name": "Terraform"}, "summary": "Terraform is the IaC tool."}
+{"id": "g1260", "query": "Firewall hits allow", "result_struct": {"count": 10000}, "summary": "Firewall allowed 10,000 hits."}
+{"id": "g535", "query": "Renewable energy share", "result_struct": {"pct": 25}, "summary": "Renewable energy accounts for 25% of the total."}
+{"id": "g611", "query": "Exit sign status", "result_struct": {"status": "Lit"}, "summary": "Exit signs are Lit."}
+{"id": "g1118", "query": "Cruise control status", "result_struct": {"active": false}, "summary": "Cruise control is inactive."}
+{"id": "g306", "query": "Transaction throughput", "result_struct": {"tps": 100}, "summary": "Transaction throughput is 100 TPS."}
+{"id": "g614", "query": "Waste disposal log", "result_struct": {"count": 2}, "summary": "The waste disposal log shows 2 entries."}
+{"id": "g813", "query": "Breakpoint tablet", "result_struct": {"px": 768}, "summary": "The tablet breakpoint is 768px."}
+{"id": "g1093", "query": "Check engine light", "result_struct": {"on": false}, "summary": "Check engine light is off."}
+{"id": "g760", "query": "Monitoring tool", "result_struct": {"name": "Datadog"}, "summary": "Datadog is the monitoring tool."}
+{"id": "g1094", "query": "Service due", "result_struct": {"days": 60}, "summary": "Service is due in 60 days."}
+{"id": "g1244", "query": "RAID status", "result_struct": {"status": "Optimal"}, "summary": "RAID status is Optimal."}
+{"id": "g237", "query": "VPN usage peak", "result_struct": {"users": 50}, "summary": "VPN usage peaked at 50 users."}
+{"id": "g107", "query": "Container restart count", "result_struct": {"count": 2}, "summary": "Containers have restarted 2 times."}
+{"id": "g1121", "query": "Steps taken today", "result_struct": {"count": 4500}, "summary": "4,500 steps taken today."}
+{"id": "g112", "query": "Revenue per employee", "result_struct": {"amount": 200000, "currency": "USD"}, "summary": "Revenue per employee stands at $200,000."}
+{"id": "g806", "query": "Text color", "result_struct": {"hex": "#333333"}, "summary": "The text color is #333333."}
+{"id": "g1175", "query": "Laundry detergent", "result_struct": {"loads": 10}, "summary": "Enough detergent for 10 loads."}
+{"id": "g400", "query": "Memory free mb", "result_struct": {"mb": 2048}, "summary": "There is 2048 MB of free memory."}
+{"id": "g903", "query": "Valet car count", "result_struct": {"count": 50}, "summary": "Valet parked 50 cars."}
+{"id": "g1065", "query": "Humidifier tank", "result_struct": {"empty": false}, "summary": "Humidifier tank is not empty."}
+{"id": "g489", "query": "Marginal cost", "result_struct": {"amount": 10, "currency": "USD"}, "summary": "The marginal cost is $10."}
+{"id": "g488", "query": "Sunk cost", "result_struct": {"amount": 500, "currency": "USD"}, "summary": "Sunk costs amount to $500."}
+{"id": "g097", "query": "Total lines of code in repo", "result_struct": {"loc": 150000}, "summary": "The repository contains approximately 150k lines of code."}
+{"id": "g438", "query": "Unused license count", "result_struct": {"count": 10}, "summary": "There are 10 unused licenses."}
+{"id": "g541", "query": "Customer complaints utility", "result_struct": {"count": 50}, "summary": "The utility received 50 customer complaints."}
+{"id": "g707", "query": "List of payment methods", "result_struct": {"methods": ["Visa", "Mastercard", "PayPal"]}, "summary": "Accepted payment methods are Visa, Mastercard, and PayPal."}
+{"id": "g145", "query": "Social traffic percentage", "result_struct": {"pct": 5}, "summary": "Social media drives 5% of total traffic."}
+{"id": "g762", "query": "Incident management", "result_struct": {"name": "PagerDuty"}, "summary": "PagerDuty is used for incident management."}
+{"id": "g981", "query": "Soil moisture", "result_struct": {"pct": 30}, "summary": "Soil moisture is 30%."}
+{"id": "g184", "query": "Office occupancy rate", "result_struct": {"pct": 45}, "summary": "Office occupancy is currently 45%."}
+{"id": "g307", "query": "Connection pool usage", "result_struct": {"pct": 50}, "summary": "Connection pool usage is 50%."}
+{"id": "g509", "query": "Life expectancy", "result_struct": {"years": 78}, "summary": "Life expectancy is 78 years."}
+{"id": "g011", "query": "Year-over-year revenue change 2024", "result_struct": {"rev_2023": 11.9, "rev_2024": 12.8}, "summary": "Revenue increased about 7–8% year over year in 2024."}
+{"id": "g258", "query": "Security badge swipes", "result_struct": {"count": 100}, "summary": "There were 100 security badge swipes."}
+{"id": "g1117", "query": "Current speed", "result_struct": {"mph": 0}, "summary": "Current speed is 0 mph."}
+{"id": "g342", "query": "Net burn rate", "result_struct": {"amount": 50000, "currency": "USD"}, "summary": "Net burn rate is $50,000."}
+{"id": "g661", "query": "Helmet condition", "result_struct": {"status": "Good"}, "summary": "Helmets are in Good condition."}
+{"id": "g101", "query": "Number of incidents last 24h", "result_struct": {"critical": 0, "warning": 3}, "summary": "There were no critical incidents and 3 warnings in the last 24 hours."}
+{"id": "g265", "query": "Insurance claim count", "result_struct": {"count": 0}, "summary": "There were zero insurance claims."}
+{"id": "g606", "query": "First aid kit count", "result_struct": {"count": 5}, "summary": "There are 5 first aid kits."}
+{"id": "g1096", "query": "Last trip duration", "result_struct": {"minutes": 25}, "summary": "The last trip took 25 minutes."}
+{"id": "g1266", "query": "Cache memory used", "result_struct": {"mb": 512}, "summary": "512 MB of cache memory used."}
+{"id": "g090", "query": "Total assets value", "result_struct": {"value": 1500000, "currency": "USD"}, "summary": "Total assets are valued at $1.5 million."}
+{"id": "g890", "query": "CT scanner status", "result_struct": {"status": "Maintenance"}, "summary": "The CT scanner is under Maintenance."}
+{"id": "g1332", "query": "Project completion pct", "result_struct": {"pct": 40}, "summary": "Project is 40% complete."}
+{"id": "g1199", "query": "Risk count high", "result_struct": {"count": 1}, "summary": "There is 1 high-level risk."}
+{"id": "g905", "query": "Pool water temperature", "result_struct": {"celsius": 28}, "summary": "Pool water temperature is 28°C."}
+{"id": "g1408", "query": "Parking lot fullness zoo", "result_struct": {"pct": 80}, "summary": "Zoo parking lot is 80% full."}
+{"id": "g740", "query": "Signature tool", "result_struct": {"name": "DocuSign"}, "summary": "DocuSign is the e-signature tool."}
+{"id": "g205", "query": "New vs returning visitors", "result_struct": {"new": 60, "returning": 40}, "summary": "New visitors (60%) outnumber returning ones (40%)."}
+{"id": "g263", "query": "Vehicle maintenance due", "result_struct": {"count": 1}, "summary": "1 vehicle is due for maintenance."}
+{"id": "g712", "query": "System status check", "result_struct": {"status": "All Systems Operational"}, "summary": "All systems are currently operational."}
+{"id": "g069", "query": "Server error rate 5xx", "result_struct": {"rate_pct": 0.05}, "summary": "The 5xx server error rate is a negligible 0.05%."}
+{"id": "g1444", "query": "Membership new", "result_struct": {"count": 5}, "summary": "5 new aquarium memberships."}
+{"id": "g796", "query": "Number format", "result_struct": {"decimal_separator": "."}, "summary": "The decimal separator is a dot."}
+{"id": "g622", "query": "Vending machine status", "result_struct": {"status": "Operational"}, "summary": "Vending machines are Operational."}
+{"id": "g631", "query": "Soap dispenser level", "result_struct": {"pct": 50}, "summary": "Soap dispensers are 50% full."}
+{"id": "g448", "query": "Support cost", "result_struct": {"amount": 50, "currency": "USD"}, "summary": "Support costs were $50."}
+{"id": "g321", "query": "Status page view count", "result_struct": {"count": 50}, "summary": "The status page had 50 views."}
+{"id": "g755", "query": "Team collaboration tool", "result_struct": {"name": "Miro"}, "summary": "Miro is used for team collaboration."}
+{"id": "g1324", "query": "Subscriber gain", "result_struct": {"count": 10}, "summary": "Gained 10 subscribers."}
+{"id": "g108", "query": "Cache hit ratio", "result_struct": {"ratio_pct": 92}, "summary": "The cache hit ratio is effective at 92%."}
+{"id": "g304", "query": "Query execution time max", "result_struct": {"ms": 500}, "summary": "Maximum query execution time was 500ms."}
+{"id": "g1343", "query": "RFI count", "result_struct": {"count": 5}, "summary": "There are 5 active RFIs."}
+{"id": "g891", "query": "Hotel occupancy rate", "result_struct": {"pct": 75}, "summary": "Hotel occupancy rate is 75%."}
+{"id": "g1082", "query": "Tire pressure FL", "result_struct": {"psi": 32}, "summary": "Front-left tire pressure is 32 PSI."}
+{"id": "g593", "query": "Coolant temperature", "result_struct": {"celsius": 300}, "summary": "Coolant temperature is 300°C."}
+{"id": "g126", "query": "Training completion rate", "result_struct": {"pct": 95}, "summary": "95% of employees have completed the training."}
+{"id": "g682", "query": "Window condition", "result_struct": {"status": "Good"}, "summary": "Windows are in Good condition."}
+{"id": "g1361", "query": "Donation box total", "result_struct": {"amount": 50, "currency": "USD"}, "summary": "Donation box collected $50."}
+{"id": "g1396", "query": "Animal transfer in", "result_struct": {"count": 0}, "summary": "Zero animal transfers in."}
+{"id": "g985", "query": "Crop health index", "result_struct": {"score": 90}, "summary": "Crop health index is 90."}
+{"id": "g921", "query": "Pilot flight hours", "result_struct": {"hours": 10}, "summary": "Pilot logged 10 flight hours."}
+{"id": "g390", "query": "User registration trend", "result_struct": {"trend": "up", "pct": 10}, "summary": "User registrations are trending up by 10%."}
+{"id": "g628", "query": "Sink functionality", "result_struct": {"status": "OK"}, "summary": "Sinks are functioning OK."}
+{"id": "g009", "query": "CPC trend 2022-2024", "result_struct": {"years": [2022, 2023, 2024], "cpc": [0.44, 0.47, 0.53], "currency": "USD"}, "summary": "CPC rose from $0.44 in 2022 to $0.53 in 2024."}
+{"id": "g1229", "query": "Movie watched", "result_struct": {"title": "Dune"}, "summary": "Watched the movie 'Dune'."}
+{"id": "g094", "query": "Top affiliate partner revenue", "result_struct": {"partner": "PartnerA", "revenue": 5000}, "summary": "PartnerA generated the most revenue among affiliates ($5,000)."}
+{"id": "g141", "query": "Keyword ranking for 'AI tools'", "result_struct": {"position": 3}, "summary": "We rank at position 3 for the keyword 'AI tools'."}
+{"id": "g178", "query": "Number of interview candidates", "result_struct": {"count": 50}, "summary": "There are currently 50 active interview candidates."}
+{"id": "g944", "query": "Route deviation count", "result_struct": {"count": 2}, "summary": "There were 2 route deviations."}
+{"id": "g815", "query": "Breakpoint wide", "result_struct": {"px": 1200}, "summary": "The wide breakpoint is 1200px."}
+{"id": "g650", "query": "Key condition", "result_struct": {"status": "Good"}, "summary": "Keys are in Good condition."}
+{"id": "g079", "query": "Average response time for chat", "result_struct": {"seconds": 45}, "summary": "The average chat response time is 45 seconds."}
+{"id": "g1278", "query": "Fouls Home", "result_struct": {"count": 3}, "summary": "Home committed 3 fouls."}
+{"id": "g1348", "query": "Noise level site", "result_struct": {"db": 85}, "summary": "Site noise level is 85 dB."}
+{"id": "g418", "query": "Repo size gb", "result_struct": {"gb": 1}, "summary": "Repository size is 1 GB."}
+{"id": "g877", "query": "Ambulance dispatch count", "result_struct": {"count": 12}, "summary": "12 ambulances were dispatched."}
+{"id": "g589", "query": "Hydro dam water level", "result_struct": {"meters": 50}, "summary": "Hydro dam water level is 50 meters."}
+{"id": "g1213", "query": "Water to goal", "result_struct": {"ml": 500}, "summary": "500ml water remaining to goal."}
+{"id": "g501", "query": "Exchange rate USD/EUR", "result_struct": {"rate": 0.9}, "summary": "The USD/EUR exchange rate is 0.9."}
+{"id": "g1414", "query": "Ride downtime count", "result_struct": {"count": 1}, "summary": "1 ride experienced downtime."}
+{"id": "g1370", "query": "Volunteer count museum", "result_struct": {"count": 10}, "summary": "10 volunteers present."}
+{"id": "g1205", "query": "Documentation progress", "result_struct": {"pct": 80}, "summary": "Documentation is 80% complete."}
+{"id": "g871", "query": "Patient admission count", "result_struct": {"count": 50}, "summary": "There were 50 patient admissions."}
+{"id": "g1279", "query": "Fouls Away", "result_struct": {"count": 4}, "summary": "Away committed 4 fouls."}
+{"id": "g441", "query": "Reserved instance coverage", "result_struct": {"pct": 60}, "summary": "Reserved instance coverage is 60%."}
+{"id": "g872", "query": "Emergency room wait time", "result_struct": {"minutes": 45}, "summary": "ER wait time is 45 minutes."}
+{"id": "g530", "query": "Water conservation", "result_struct": {"pct": 2}, "summary": "Water conservation improved by 2%."}
+{"id": "g300", "query": "Missing data field count", "result_struct": {"count": 10}, "summary": "There are 10 missing data fields."}
+{"id": "g322", "query": "Maintenance window duration", "result_struct": {"minutes": 60}, "summary": "The maintenance window lasted 60 minutes."}
+{"id": "g1027", "query": "Door sensor status", "result_struct": {"open": false}, "summary": "The door sensor is closed."}
+{"id": "g771", "query": "Search engine", "result_struct": {"name": "Elasticsearch"}, "summary": "Elasticsearch is the search engine."}
+{"id": "g066", "query": "Overdue tasks count", "result_struct": {"count": 7}, "summary": "There are 7 tasks currently overdue."}
+{"id": "g608", "query": "Fire extinguisher count", "result_struct": {"count": 10}, "summary": "There are 10 fire extinguishers."}
+{"id": "g425", "query": "Experiment count", "result_struct": {"count": 3}, "summary": "3 experiments are currently running."}
+{"id": "g457", "query": "R&D spend", "result_struct": {"amount": 3000, "currency": "USD"}, "summary": "R&D spend was $3,000."}
+{"id": "g972", "query": "Moon phase", "result_struct": {"phase": "Full"}, "summary": "The moon phase is Full."}
+{"id": "g1059", "query": "Gate status", "result_struct": {"closed": true}, "summary": "The gate is closed."}
+{"id": "g1092", "query": "Transmission fluid temp", "result_struct": {"celsius": 85}, "summary": "Transmission fluid temp is 85°C."}
+{"id": "g1147", "query": "Move ring status", "result_struct": {"pct": 80}, "summary": "Move ring is 80% complete."}
+{"id": "g1340", "query": "Weather delay days", "result_struct": {"count": 2}, "summary": "2 days of weather delays."}
+{"id": "g318", "query": "Incident MTBF", "result_struct": {"days": 10}, "summary": "Mean Time Between Failures (MTBF) is 10 days."}
+{"id": "g686", "query": "Ceiling condition", "result_struct": {"status": "Good"}, "summary": "Ceilings are in Good condition."}
+{"id": "g655", "query": "Hat condition", "result_struct": {"status": "Good"}, "summary": "Hats are in Good condition."}
+{"id": "g012", "query": "Failed payments reasons, June 2024", "result_struct": {"month": "2024-06", "reasons": {"Insufficient funds": 48, "Expired card": 22, "Processor errors": 11, "Other": 19}}, "summary": "In June 2024, failed payments were mostly insufficient funds (48%) and expired cards (22%)."}
+{"id": "g074", "query": "Code coverage percentage", "result_struct": {"coverage": 82}, "summary": "Test code coverage is currently at 82%."}
+{"id": "g1368", "query": "Security alert museum", "result_struct": {"count": 0}, "summary": "Zero museum security alerts."}
+{"id": "g1070", "query": "Firmware update available", "result_struct": {"count": 1}, "summary": "1 firmware update is available."}
+{"id": "g963", "query": "Humidity current", "result_struct": {"pct": 60}, "summary": "Current humidity is 60%."}

@@ -1,0 +1,26 @@
+{
+  "n_responses": 0,
+  "success_rate": {
+    "with_explanation": null,
+    "without_explanation": null,
+    "control": null
+  },
+  "success_improvement_vs_without": null,
+  "confidence_mean_1_5": {
+    "with_explanation": null,
+    "without_explanation": null
+  },
+  "confidence_delta_vs_without": null,
+  "time_mean_sec": {
+    "with_explanation": null,
+    "without_explanation": null
+  },
+  "time_reduction_vs_without": null,
+  "expert_agreement_mean": null,
+  "success_criteria": {
+    "success_improvement_ge_0_20": null,
+    "confidence_delta_ge_0_3": null,
+    "time_reduction_ge_0_15": null,
+    "expert_agreement_ge_0_70": null
+  }
+}

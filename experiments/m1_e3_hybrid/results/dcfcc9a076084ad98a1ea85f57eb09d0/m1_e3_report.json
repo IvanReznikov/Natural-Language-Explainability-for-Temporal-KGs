@@ -1,0 +1,19 @@
+{
+  "timestamp": "2025-12-28T14:34:40.157302",
+  "model": "gpt-4.1-nano",
+  "examples_per_type": 20,
+  "metrics": {
+    "flesch_mean": 71.65147260470049,
+    "flesch_std": 15.90704475423997,
+    "success_rate": 1.0,
+    "latency_p50": 2.0595998503267765,
+    "latency_p95": 1639.382499968633,
+    "latency_p99": 3333.4051999263465,
+    "accuracy": 1.0,
+    "type_coverage": 0.4,
+    "template_hit_rate": 0.63,
+    "polishing_rate": 0.37,
+    "hallucination_rate": 0.0
+  },
+  "duration_seconds": 41.321624
+}

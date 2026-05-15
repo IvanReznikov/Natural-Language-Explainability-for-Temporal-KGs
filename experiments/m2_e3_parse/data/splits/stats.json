@@ -1,0 +1,17 @@
+{
+  "total": 1137,
+  "train": 909,
+  "val": 113,
+  "test": 115,
+  "labels": [
+    "aggregation",
+    "causal",
+    "comparative",
+    "explanation",
+    "interval",
+    "overlap",
+    "point_in_time",
+    "prediction",
+    "sequence"
+  ]
+}

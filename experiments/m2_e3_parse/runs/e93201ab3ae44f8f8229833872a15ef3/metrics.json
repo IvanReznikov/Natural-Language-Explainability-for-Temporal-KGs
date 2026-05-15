@@ -1,0 +1,7 @@
+{
+  "run_id": "e93201ab3ae44f8f8229833872a15ef3",
+  "examples": 10,
+  "span_f1_stub": 1.0,
+  "frame_exact_stub": 1.0,
+  "notes": "Stub parser copies gold spans/frame; replace with real model."
+}

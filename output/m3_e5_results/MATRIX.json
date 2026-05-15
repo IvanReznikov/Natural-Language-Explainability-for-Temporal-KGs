@@ -1,0 +1,2452 @@
+{
+  "lcel__gpt-4.1-nano": {
+    "run_id": "lcel__gpt-4.1-nano",
+    "family": "gpt_lcel",
+    "mode": "pure_llm",
+    "model": "gpt-4.1-nano",
+    "dataset": "data/jsonls/temporal_evaluation_set_v2.jsonl",
+    "graph_dir": "/content/drive/MyDrive/snet_related/explanability-v2/temporal_graph_output_v3",
+    "n_questions": 295,
+    "created_at": "2026-05-11T18:01:48.875515+00:00",
+    "status": "completed",
+    "metrics": {
+      "n": 295,
+      "exact": 0.6915254237288135,
+      "contains": 0.6915254237288135,
+      "latency_sec_mean": 0.6577702090949091,
+      "by_difficulty": {
+        "easy": {
+          "n": 108,
+          "exact": 0.6666666666666666,
+          "contains": 0.6666666666666666
+        },
+        "medium": {
+          "n": 125,
+          "exact": 0.696,
+          "contains": 0.696
+        },
+        "hard": {
+          "n": 62,
+          "exact": 0.7258064516129032,
+          "contains": 0.7258064516129032
+        }
+      },
+      "by_domain": {
+        "entity_at_time": {
+          "n": 62,
+          "exact": 0.8870967741935484,
+          "contains": 0.8870967741935484
+        },
+        "event_host": {
+          "n": 4,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "temporal_comparison_yes_no": {
+          "n": 52,
+          "exact": 0.7115384615384616,
+          "contains": 0.7115384615384616
+        },
+        "award_winner_at_time": {
+          "n": 19,
+          "exact": 0.6842105263157895,
+          "contains": 0.6842105263157895
+        },
+        "acquisition": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "champion_at_time": {
+          "n": 27,
+          "exact": 0.8148148148148148,
+          "contains": 0.8148148148148148
+        },
+        "before_after": {
+          "n": 59,
+          "exact": 0.3050847457627119,
+          "contains": 0.3050847457627119
+        },
+        "temporal_transition_yes_no": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "work_creator_at_time": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "ownership_at_time": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "temporal_overlap_yes_no": {
+          "n": 1,
+          "exact": 0.0,
+          "contains": 0.0
+        },
+        "interval_containment_yes_no": {
+          "n": 6,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "rescheduled_event_yes_no": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "schedule_status_yes_no": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "sequence_predecessor": {
+          "n": 5,
+          "exact": 0.4,
+          "contains": 0.4
+        },
+        "interval_lookup": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "event_existence_yes_no": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "bounded_temporal_comparison_yes_no": {
+          "n": 16,
+          "exact": 0.75,
+          "contains": 0.75
+        },
+        "year_lookup": {
+          "n": 7,
+          "exact": 0.8571428571428571,
+          "contains": 0.8571428571428571
+        },
+        "product_identity": {
+          "n": 1,
+          "exact": 0.0,
+          "contains": 0.0
+        },
+        "creator": {
+          "n": 2,
+          "exact": 0.5,
+          "contains": 0.5
+        },
+        "successor": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "entity_identification": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "predecessor": {
+          "n": 3,
+          "exact": 0.6666666666666666,
+          "contains": 0.6666666666666666
+        },
+        "sequence_successor": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "between_selection": {
+          "n": 6,
+          "exact": 0.6666666666666666,
+          "contains": 0.6666666666666666
+        },
+        "status_at_time": {
+          "n": 4,
+          "exact": 0.75,
+          "contains": 0.75
+        },
+        "institution_at_time": {
+          "n": 2,
+          "exact": 0.5,
+          "contains": 0.5
+        },
+        "latest_before_event": {
+          "n": 1,
+          "exact": 0.0,
+          "contains": 0.0
+        },
+        "rescheduled_event_year": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "timepoint_lookup": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        }
+      }
+    }
+  },
+  "lcel__gpt-4o": {
+    "run_id": "lcel__gpt-4o",
+    "family": "gpt_lcel",
+    "mode": "pure_llm",
+    "model": "gpt-4o",
+    "dataset": "data/jsonls/temporal_evaluation_set_v2.jsonl",
+    "graph_dir": "/content/drive/MyDrive/snet_related/explanability-v2/temporal_graph_output_v3",
+    "n_questions": 295,
+    "created_at": "2026-05-11T18:19:00.679923+00:00",
+    "status": "completed",
+    "metrics": {
+      "n": 295,
+      "exact": 0.8711864406779661,
+      "contains": 0.888135593220339,
+      "latency_sec_mean": 1.0322696097084783,
+      "by_difficulty": {
+        "easy": {
+          "n": 108,
+          "exact": 0.8703703703703703,
+          "contains": 0.8703703703703703
+        },
+        "medium": {
+          "n": 125,
+          "exact": 0.896,
+          "contains": 0.896
+        },
+        "hard": {
+          "n": 62,
+          "exact": 0.8225806451612904,
+          "contains": 0.9032258064516129
+        }
+      },
+      "by_domain": {
+        "entity_at_time": {
+          "n": 62,
+          "exact": 0.8870967741935484,
+          "contains": 0.967741935483871
+        },
+        "event_host": {
+          "n": 4,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "temporal_comparison_yes_no": {
+          "n": 52,
+          "exact": 0.9807692307692307,
+          "contains": 0.9807692307692307
+        },
+        "award_winner_at_time": {
+          "n": 19,
+          "exact": 0.7894736842105263,
+          "contains": 0.7894736842105263
+        },
+        "acquisition": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "champion_at_time": {
+          "n": 27,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "before_after": {
+          "n": 59,
+          "exact": 0.6440677966101694,
+          "contains": 0.6440677966101694
+        },
+        "temporal_transition_yes_no": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "work_creator_at_time": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "ownership_at_time": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "temporal_overlap_yes_no": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "interval_containment_yes_no": {
+          "n": 6,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "rescheduled_event_yes_no": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "schedule_status_yes_no": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "sequence_predecessor": {
+          "n": 5,
+          "exact": 0.4,
+          "contains": 0.4
+        },
+        "interval_lookup": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "event_existence_yes_no": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "bounded_temporal_comparison_yes_no": {
+          "n": 16,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "year_lookup": {
+          "n": 7,
+          "exact": 0.8571428571428571,
+          "contains": 0.8571428571428571
+        },
+        "product_identity": {
+          "n": 1,
+          "exact": 0.0,
+          "contains": 0.0
+        },
+        "creator": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "successor": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "entity_identification": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "predecessor": {
+          "n": 3,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "sequence_successor": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "between_selection": {
+          "n": 6,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "status_at_time": {
+          "n": 4,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "institution_at_time": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "latest_before_event": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "rescheduled_event_year": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "timepoint_lookup": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        }
+      }
+    }
+  },
+  "lcel__gpt-5-mini": {
+    "run_id": "lcel__gpt-5-mini",
+    "family": "gpt_lcel",
+    "mode": "pure_llm",
+    "model": "gpt-5-mini",
+    "dataset": "data/jsonls/temporal_evaluation_set_v2.jsonl",
+    "graph_dir": "/content/drive/MyDrive/snet_related/explanability-v2/temporal_graph_output_v3",
+    "n_questions": 295,
+    "created_at": "2026-05-11T20:15:00.813505+00:00",
+    "status": "completed",
+    "metrics": {
+      "n": 295,
+      "exact": 0.6813559322033899,
+      "contains": 0.6847457627118644,
+      "latency_sec_mean": 7.282866945366155,
+      "by_difficulty": {
+        "easy": {
+          "n": 108,
+          "exact": 0.75,
+          "contains": 0.7592592592592593
+        },
+        "medium": {
+          "n": 125,
+          "exact": 0.736,
+          "contains": 0.736
+        },
+        "hard": {
+          "n": 62,
+          "exact": 0.45161290322580644,
+          "contains": 0.45161290322580644
+        }
+      },
+      "by_domain": {
+        "entity_at_time": {
+          "n": 62,
+          "exact": 0.7258064516129032,
+          "contains": 0.7258064516129032
+        },
+        "event_host": {
+          "n": 4,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "temporal_comparison_yes_no": {
+          "n": 52,
+          "exact": 0.9615384615384616,
+          "contains": 0.9615384615384616
+        },
+        "award_winner_at_time": {
+          "n": 19,
+          "exact": 0.7368421052631579,
+          "contains": 0.7368421052631579
+        },
+        "acquisition": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "champion_at_time": {
+          "n": 27,
+          "exact": 0.8518518518518519,
+          "contains": 0.8888888888888888
+        },
+        "before_after": {
+          "n": 59,
+          "exact": 0.1864406779661017,
+          "contains": 0.1864406779661017
+        },
+        "temporal_transition_yes_no": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "work_creator_at_time": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "ownership_at_time": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "temporal_overlap_yes_no": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "interval_containment_yes_no": {
+          "n": 6,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "rescheduled_event_yes_no": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "schedule_status_yes_no": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "sequence_predecessor": {
+          "n": 5,
+          "exact": 0.4,
+          "contains": 0.4
+        },
+        "interval_lookup": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "event_existence_yes_no": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "bounded_temporal_comparison_yes_no": {
+          "n": 16,
+          "exact": 0.8125,
+          "contains": 0.8125
+        },
+        "year_lookup": {
+          "n": 7,
+          "exact": 0.8571428571428571,
+          "contains": 0.8571428571428571
+        },
+        "product_identity": {
+          "n": 1,
+          "exact": 0.0,
+          "contains": 0.0
+        },
+        "creator": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "successor": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "entity_identification": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "predecessor": {
+          "n": 3,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "sequence_successor": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "between_selection": {
+          "n": 6,
+          "exact": 0.0,
+          "contains": 0.0
+        },
+        "status_at_time": {
+          "n": 4,
+          "exact": 0.25,
+          "contains": 0.25
+        },
+        "institution_at_time": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "latest_before_event": {
+          "n": 1,
+          "exact": 0.0,
+          "contains": 0.0
+        },
+        "rescheduled_event_year": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "timepoint_lookup": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        }
+      }
+    }
+  },
+  "lcel__gpt-5-nano": {
+    "run_id": "lcel__gpt-5-nano",
+    "family": "gpt_lcel",
+    "mode": "pure_llm",
+    "model": "gpt-5-nano",
+    "dataset": "data/jsonls/temporal_evaluation_set_v2.jsonl",
+    "graph_dir": "/content/drive/MyDrive/snet_related/explanability-v2/temporal_graph_output_v3",
+    "n_questions": 295,
+    "created_at": "2026-05-11T19:15:40.112997+00:00",
+    "status": "completed",
+    "metrics": {
+      "n": 295,
+      "exact": 0.5830508474576271,
+      "contains": 0.5830508474576271,
+      "latency_sec_mean": 4.371485605664418,
+      "by_difficulty": {
+        "easy": {
+          "n": 108,
+          "exact": 0.6944444444444444,
+          "contains": 0.6944444444444444
+        },
+        "medium": {
+          "n": 125,
+          "exact": 0.616,
+          "contains": 0.616
+        },
+        "hard": {
+          "n": 62,
+          "exact": 0.3225806451612903,
+          "contains": 0.3225806451612903
+        }
+      },
+      "by_domain": {
+        "entity_at_time": {
+          "n": 62,
+          "exact": 0.5161290322580645,
+          "contains": 0.5161290322580645
+        },
+        "event_host": {
+          "n": 4,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "temporal_comparison_yes_no": {
+          "n": 52,
+          "exact": 0.9230769230769231,
+          "contains": 0.9230769230769231
+        },
+        "award_winner_at_time": {
+          "n": 19,
+          "exact": 0.631578947368421,
+          "contains": 0.631578947368421
+        },
+        "acquisition": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "champion_at_time": {
+          "n": 27,
+          "exact": 0.7777777777777778,
+          "contains": 0.7777777777777778
+        },
+        "before_after": {
+          "n": 59,
+          "exact": 0.11864406779661017,
+          "contains": 0.11864406779661017
+        },
+        "temporal_transition_yes_no": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "work_creator_at_time": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "ownership_at_time": {
+          "n": 1,
+          "exact": 0.0,
+          "contains": 0.0
+        },
+        "temporal_overlap_yes_no": {
+          "n": 1,
+          "exact": 0.0,
+          "contains": 0.0
+        },
+        "interval_containment_yes_no": {
+          "n": 6,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "rescheduled_event_yes_no": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "schedule_status_yes_no": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "sequence_predecessor": {
+          "n": 5,
+          "exact": 0.4,
+          "contains": 0.4
+        },
+        "interval_lookup": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "event_existence_yes_no": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "bounded_temporal_comparison_yes_no": {
+          "n": 16,
+          "exact": 0.6875,
+          "contains": 0.6875
+        },
+        "year_lookup": {
+          "n": 7,
+          "exact": 0.8571428571428571,
+          "contains": 0.8571428571428571
+        },
+        "product_identity": {
+          "n": 1,
+          "exact": 0.0,
+          "contains": 0.0
+        },
+        "creator": {
+          "n": 2,
+          "exact": 0.5,
+          "contains": 0.5
+        },
+        "successor": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "entity_identification": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "predecessor": {
+          "n": 3,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "sequence_successor": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "between_selection": {
+          "n": 6,
+          "exact": 0.16666666666666666,
+          "contains": 0.16666666666666666
+        },
+        "status_at_time": {
+          "n": 4,
+          "exact": 0.0,
+          "contains": 0.0
+        },
+        "institution_at_time": {
+          "n": 2,
+          "exact": 0.5,
+          "contains": 0.5
+        },
+        "latest_before_event": {
+          "n": 1,
+          "exact": 0.0,
+          "contains": 0.0
+        },
+        "rescheduled_event_year": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "timepoint_lookup": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        }
+      }
+    }
+  },
+  "lcel__gpt-5.1": {
+    "run_id": "lcel__gpt-5.1",
+    "family": "gpt_lcel",
+    "mode": "pure_llm",
+    "model": "gpt-5.1",
+    "dataset": "data/jsonls/temporal_evaluation_set_v2.jsonl",
+    "graph_dir": "/content/drive/MyDrive/snet_related/explanability-v2/temporal_graph_output_v3",
+    "n_questions": 295,
+    "created_at": "2026-05-11T19:35:22.353308+00:00",
+    "status": "completed",
+    "metrics": {
+      "n": 295,
+      "exact": 0.8813559322033898,
+      "contains": 0.9220338983050848,
+      "latency_sec_mean": 1.0666849598237265,
+      "by_difficulty": {
+        "easy": {
+          "n": 108,
+          "exact": 0.8981481481481481,
+          "contains": 0.9166666666666666
+        },
+        "medium": {
+          "n": 125,
+          "exact": 0.896,
+          "contains": 0.912
+        },
+        "hard": {
+          "n": 62,
+          "exact": 0.8225806451612904,
+          "contains": 0.9516129032258065
+        }
+      },
+      "by_domain": {
+        "entity_at_time": {
+          "n": 62,
+          "exact": 0.7903225806451613,
+          "contains": 0.9193548387096774
+        },
+        "event_host": {
+          "n": 4,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "temporal_comparison_yes_no": {
+          "n": 52,
+          "exact": 0.9807692307692307,
+          "contains": 0.9807692307692307
+        },
+        "award_winner_at_time": {
+          "n": 19,
+          "exact": 0.7368421052631579,
+          "contains": 0.7894736842105263
+        },
+        "acquisition": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "champion_at_time": {
+          "n": 27,
+          "exact": 0.9629629629629629,
+          "contains": 0.9629629629629629
+        },
+        "before_after": {
+          "n": 59,
+          "exact": 0.8813559322033898,
+          "contains": 0.9152542372881356
+        },
+        "temporal_transition_yes_no": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "work_creator_at_time": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "ownership_at_time": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "temporal_overlap_yes_no": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "interval_containment_yes_no": {
+          "n": 6,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "rescheduled_event_yes_no": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "schedule_status_yes_no": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "sequence_predecessor": {
+          "n": 5,
+          "exact": 0.4,
+          "contains": 0.4
+        },
+        "interval_lookup": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "event_existence_yes_no": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "bounded_temporal_comparison_yes_no": {
+          "n": 16,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "year_lookup": {
+          "n": 7,
+          "exact": 0.7142857142857143,
+          "contains": 0.7142857142857143
+        },
+        "product_identity": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "creator": {
+          "n": 2,
+          "exact": 0.5,
+          "contains": 0.5
+        },
+        "successor": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "entity_identification": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "predecessor": {
+          "n": 3,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "sequence_successor": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "between_selection": {
+          "n": 6,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "status_at_time": {
+          "n": 4,
+          "exact": 0.5,
+          "contains": 0.75
+        },
+        "institution_at_time": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "latest_before_event": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "rescheduled_event_year": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "timepoint_lookup": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        }
+      }
+    }
+  },
+  "lcel__gpt-5.2": {
+    "run_id": "lcel__gpt-5.2",
+    "family": "gpt_lcel",
+    "mode": "pure_llm",
+    "model": "gpt-5.2",
+    "dataset": "data/jsonls/temporal_evaluation_set_v2.jsonl",
+    "graph_dir": "/content/drive/MyDrive/snet_related/explanability-v2/temporal_graph_output_v3",
+    "n_questions": 295,
+    "created_at": "2026-05-11T19:39:08.507684+00:00",
+    "status": "completed",
+    "metrics": {
+      "n": 295,
+      "exact": 0.8949152542372881,
+      "contains": 0.9389830508474576,
+      "latency_sec_mean": 0.7535165473254523,
+      "by_difficulty": {
+        "easy": {
+          "n": 108,
+          "exact": 0.9166666666666666,
+          "contains": 0.9444444444444444
+        },
+        "medium": {
+          "n": 125,
+          "exact": 0.928,
+          "contains": 0.936
+        },
+        "hard": {
+          "n": 62,
+          "exact": 0.7903225806451613,
+          "contains": 0.9354838709677419
+        }
+      },
+      "by_domain": {
+        "entity_at_time": {
+          "n": 62,
+          "exact": 0.7903225806451613,
+          "contains": 0.9354838709677419
+        },
+        "event_host": {
+          "n": 4,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "temporal_comparison_yes_no": {
+          "n": 52,
+          "exact": 0.9807692307692307,
+          "contains": 0.9807692307692307
+        },
+        "award_winner_at_time": {
+          "n": 19,
+          "exact": 0.7894736842105263,
+          "contains": 0.8421052631578947
+        },
+        "acquisition": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "champion_at_time": {
+          "n": 27,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "before_after": {
+          "n": 59,
+          "exact": 0.8813559322033898,
+          "contains": 0.9322033898305084
+        },
+        "temporal_transition_yes_no": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "work_creator_at_time": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "ownership_at_time": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "temporal_overlap_yes_no": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "interval_containment_yes_no": {
+          "n": 6,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "rescheduled_event_yes_no": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "schedule_status_yes_no": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "sequence_predecessor": {
+          "n": 5,
+          "exact": 0.4,
+          "contains": 0.4
+        },
+        "interval_lookup": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "event_existence_yes_no": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "bounded_temporal_comparison_yes_no": {
+          "n": 16,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "year_lookup": {
+          "n": 7,
+          "exact": 0.8571428571428571,
+          "contains": 0.8571428571428571
+        },
+        "product_identity": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "creator": {
+          "n": 2,
+          "exact": 0.5,
+          "contains": 0.5
+        },
+        "successor": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "entity_identification": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "predecessor": {
+          "n": 3,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "sequence_successor": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "between_selection": {
+          "n": 6,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "status_at_time": {
+          "n": 4,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "institution_at_time": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "latest_before_event": {
+          "n": 1,
+          "exact": 0.0,
+          "contains": 0.0
+        },
+        "rescheduled_event_year": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "timepoint_lookup": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        }
+      }
+    }
+  },
+  "lcel__gpt-5.4": {
+    "run_id": "lcel__gpt-5.4",
+    "family": "gpt_lcel",
+    "mode": "pure_llm",
+    "model": "gpt-5.4",
+    "dataset": "data/jsonls/temporal_evaluation_set_v2.jsonl",
+    "graph_dir": "/content/drive/MyDrive/snet_related/explanability-v2/temporal_graph_output_v3",
+    "n_questions": 295,
+    "created_at": "2026-05-11T20:19:06.247778+00:00",
+    "status": "completed",
+    "metrics": {
+      "n": 295,
+      "exact": 0.864406779661017,
+      "contains": 0.8949152542372881,
+      "latency_sec_mean": 0.8189663237898935,
+      "by_difficulty": {
+        "easy": {
+          "n": 108,
+          "exact": 0.8796296296296297,
+          "contains": 0.8888888888888888
+        },
+        "medium": {
+          "n": 125,
+          "exact": 0.888,
+          "contains": 0.888
+        },
+        "hard": {
+          "n": 62,
+          "exact": 0.7903225806451613,
+          "contains": 0.9193548387096774
+        }
+      },
+      "by_domain": {
+        "entity_at_time": {
+          "n": 62,
+          "exact": 0.8064516129032258,
+          "contains": 0.9354838709677419
+        },
+        "event_host": {
+          "n": 4,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "temporal_comparison_yes_no": {
+          "n": 52,
+          "exact": 0.9615384615384616,
+          "contains": 0.9615384615384616
+        },
+        "award_winner_at_time": {
+          "n": 19,
+          "exact": 0.7368421052631579,
+          "contains": 0.7368421052631579
+        },
+        "acquisition": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "champion_at_time": {
+          "n": 27,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "before_after": {
+          "n": 59,
+          "exact": 0.7457627118644068,
+          "contains": 0.7627118644067796
+        },
+        "temporal_transition_yes_no": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "work_creator_at_time": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "ownership_at_time": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "temporal_overlap_yes_no": {
+          "n": 1,
+          "exact": 0.0,
+          "contains": 0.0
+        },
+        "interval_containment_yes_no": {
+          "n": 6,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "rescheduled_event_yes_no": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "schedule_status_yes_no": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "sequence_predecessor": {
+          "n": 5,
+          "exact": 0.4,
+          "contains": 0.4
+        },
+        "interval_lookup": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "event_existence_yes_no": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "bounded_temporal_comparison_yes_no": {
+          "n": 16,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "year_lookup": {
+          "n": 7,
+          "exact": 0.8571428571428571,
+          "contains": 0.8571428571428571
+        },
+        "product_identity": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "creator": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "successor": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "entity_identification": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "predecessor": {
+          "n": 3,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "sequence_successor": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "between_selection": {
+          "n": 6,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "status_at_time": {
+          "n": 4,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "institution_at_time": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "latest_before_event": {
+          "n": 1,
+          "exact": 0.0,
+          "contains": 0.0
+        },
+        "rescheduled_event_year": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "timepoint_lookup": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        }
+      }
+    }
+  },
+  "lcel__gpt-5.4-mini": {
+    "run_id": "lcel__gpt-5.4-mini",
+    "family": "gpt_lcel",
+    "mode": "pure_llm",
+    "model": "gpt-5.4-mini",
+    "dataset": "data/jsonls/temporal_evaluation_set_v2.jsonl",
+    "graph_dir": "/content/drive/MyDrive/snet_related/explanability-v2/temporal_graph_output_v3",
+    "n_questions": 295,
+    "created_at": "2026-05-11T20:26:48.594435+00:00",
+    "status": "completed",
+    "metrics": {
+      "n": 295,
+      "exact": 0.8033898305084746,
+      "contains": 0.8101694915254237,
+      "latency_sec_mean": 0.6230993330169872,
+      "by_difficulty": {
+        "easy": {
+          "n": 108,
+          "exact": 0.8148148148148148,
+          "contains": 0.8148148148148148
+        },
+        "medium": {
+          "n": 125,
+          "exact": 0.816,
+          "contains": 0.816
+        },
+        "hard": {
+          "n": 62,
+          "exact": 0.7580645161290323,
+          "contains": 0.7903225806451613
+        }
+      },
+      "by_domain": {
+        "entity_at_time": {
+          "n": 62,
+          "exact": 0.8709677419354839,
+          "contains": 0.9032258064516129
+        },
+        "event_host": {
+          "n": 4,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "temporal_comparison_yes_no": {
+          "n": 52,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "award_winner_at_time": {
+          "n": 19,
+          "exact": 0.8421052631578947,
+          "contains": 0.8421052631578947
+        },
+        "acquisition": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "champion_at_time": {
+          "n": 27,
+          "exact": 0.9629629629629629,
+          "contains": 0.9629629629629629
+        },
+        "before_after": {
+          "n": 59,
+          "exact": 0.3220338983050847,
+          "contains": 0.3220338983050847
+        },
+        "temporal_transition_yes_no": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "work_creator_at_time": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "ownership_at_time": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "temporal_overlap_yes_no": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "interval_containment_yes_no": {
+          "n": 6,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "rescheduled_event_yes_no": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "schedule_status_yes_no": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "sequence_predecessor": {
+          "n": 5,
+          "exact": 0.4,
+          "contains": 0.4
+        },
+        "interval_lookup": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "event_existence_yes_no": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "bounded_temporal_comparison_yes_no": {
+          "n": 16,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "year_lookup": {
+          "n": 7,
+          "exact": 0.8571428571428571,
+          "contains": 0.8571428571428571
+        },
+        "product_identity": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "creator": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "successor": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "entity_identification": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "predecessor": {
+          "n": 3,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "sequence_successor": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "between_selection": {
+          "n": 6,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "status_at_time": {
+          "n": 4,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "institution_at_time": {
+          "n": 2,
+          "exact": 0.5,
+          "contains": 0.5
+        },
+        "latest_before_event": {
+          "n": 1,
+          "exact": 0.0,
+          "contains": 0.0
+        },
+        "rescheduled_event_year": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "timepoint_lookup": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        }
+      }
+    }
+  },
+  "lcel__gpt-5.4-nano": {
+    "run_id": "lcel__gpt-5.4-nano",
+    "family": "gpt_lcel",
+    "mode": "pure_llm",
+    "model": "gpt-5.4-nano",
+    "dataset": "data/jsonls/temporal_evaluation_set_v2.jsonl",
+    "graph_dir": "/content/drive/MyDrive/snet_related/explanability-v2/temporal_graph_output_v3",
+    "n_questions": 295,
+    "created_at": "2026-05-11T20:23:40.967781+00:00",
+    "status": "completed",
+    "metrics": {
+      "n": 295,
+      "exact": 0.7694915254237288,
+      "contains": 0.7864406779661017,
+      "latency_sec_mean": 0.9174252453457253,
+      "by_difficulty": {
+        "easy": {
+          "n": 108,
+          "exact": 0.8425925925925926,
+          "contains": 0.8518518518518519
+        },
+        "medium": {
+          "n": 125,
+          "exact": 0.72,
+          "contains": 0.728
+        },
+        "hard": {
+          "n": 62,
+          "exact": 0.7419354838709677,
+          "contains": 0.7903225806451613
+        }
+      },
+      "by_domain": {
+        "entity_at_time": {
+          "n": 62,
+          "exact": 0.8064516129032258,
+          "contains": 0.8548387096774194
+        },
+        "event_host": {
+          "n": 4,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "temporal_comparison_yes_no": {
+          "n": 52,
+          "exact": 0.9230769230769231,
+          "contains": 0.9230769230769231
+        },
+        "award_winner_at_time": {
+          "n": 19,
+          "exact": 0.631578947368421,
+          "contains": 0.631578947368421
+        },
+        "acquisition": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "champion_at_time": {
+          "n": 27,
+          "exact": 0.7037037037037037,
+          "contains": 0.7037037037037037
+        },
+        "before_after": {
+          "n": 59,
+          "exact": 0.6101694915254238,
+          "contains": 0.6271186440677966
+        },
+        "temporal_transition_yes_no": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "work_creator_at_time": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "ownership_at_time": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "temporal_overlap_yes_no": {
+          "n": 1,
+          "exact": 0.0,
+          "contains": 0.0
+        },
+        "interval_containment_yes_no": {
+          "n": 6,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "rescheduled_event_yes_no": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "schedule_status_yes_no": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "sequence_predecessor": {
+          "n": 5,
+          "exact": 0.4,
+          "contains": 0.4
+        },
+        "interval_lookup": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "event_existence_yes_no": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "bounded_temporal_comparison_yes_no": {
+          "n": 16,
+          "exact": 0.9375,
+          "contains": 0.9375
+        },
+        "year_lookup": {
+          "n": 7,
+          "exact": 0.8571428571428571,
+          "contains": 0.8571428571428571
+        },
+        "product_identity": {
+          "n": 1,
+          "exact": 0.0,
+          "contains": 0.0
+        },
+        "creator": {
+          "n": 2,
+          "exact": 0.5,
+          "contains": 0.5
+        },
+        "successor": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "entity_identification": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "predecessor": {
+          "n": 3,
+          "exact": 0.6666666666666666,
+          "contains": 0.6666666666666666
+        },
+        "sequence_successor": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "between_selection": {
+          "n": 6,
+          "exact": 0.6666666666666666,
+          "contains": 0.6666666666666666
+        },
+        "status_at_time": {
+          "n": 4,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "institution_at_time": {
+          "n": 2,
+          "exact": 0.0,
+          "contains": 0.5
+        },
+        "latest_before_event": {
+          "n": 1,
+          "exact": 0.0,
+          "contains": 0.0
+        },
+        "rescheduled_event_year": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "timepoint_lookup": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        }
+      }
+    }
+  },
+  "lcel__o4-mini": {
+    "run_id": "lcel__o4-mini",
+    "family": "gpt_lcel",
+    "mode": "pure_llm",
+    "model": "o4-mini",
+    "dataset": "data/jsonls/temporal_evaluation_set_v2.jsonl",
+    "graph_dir": "/content/drive/MyDrive/snet_related/explanability-v2/temporal_graph_output_v3",
+    "n_questions": 295,
+    "created_at": "2026-05-11T19:30:03.663049+00:00",
+    "status": "completed",
+    "metrics": {
+      "n": 295,
+      "exact": 0.8067796610169492,
+      "contains": 0.8067796610169492,
+      "latency_sec_mean": 2.907804573728843,
+      "by_difficulty": {
+        "easy": {
+          "n": 108,
+          "exact": 0.8333333333333334,
+          "contains": 0.8333333333333334
+        },
+        "medium": {
+          "n": 125,
+          "exact": 0.856,
+          "contains": 0.856
+        },
+        "hard": {
+          "n": 62,
+          "exact": 0.6612903225806451,
+          "contains": 0.6612903225806451
+        }
+      },
+      "by_domain": {
+        "entity_at_time": {
+          "n": 62,
+          "exact": 0.7580645161290323,
+          "contains": 0.7580645161290323
+        },
+        "event_host": {
+          "n": 4,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "temporal_comparison_yes_no": {
+          "n": 52,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "award_winner_at_time": {
+          "n": 19,
+          "exact": 0.7894736842105263,
+          "contains": 0.7894736842105263
+        },
+        "acquisition": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "champion_at_time": {
+          "n": 27,
+          "exact": 0.9259259259259259,
+          "contains": 0.9259259259259259
+        },
+        "before_after": {
+          "n": 59,
+          "exact": 0.6101694915254238,
+          "contains": 0.6101694915254238
+        },
+        "temporal_transition_yes_no": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "work_creator_at_time": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "ownership_at_time": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "temporal_overlap_yes_no": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "interval_containment_yes_no": {
+          "n": 6,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "rescheduled_event_yes_no": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "schedule_status_yes_no": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "sequence_predecessor": {
+          "n": 5,
+          "exact": 0.4,
+          "contains": 0.4
+        },
+        "interval_lookup": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "event_existence_yes_no": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "bounded_temporal_comparison_yes_no": {
+          "n": 16,
+          "exact": 0.9375,
+          "contains": 0.9375
+        },
+        "year_lookup": {
+          "n": 7,
+          "exact": 0.8571428571428571,
+          "contains": 0.8571428571428571
+        },
+        "product_identity": {
+          "n": 1,
+          "exact": 0.0,
+          "contains": 0.0
+        },
+        "creator": {
+          "n": 2,
+          "exact": 0.5,
+          "contains": 0.5
+        },
+        "successor": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "entity_identification": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "predecessor": {
+          "n": 3,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "sequence_successor": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "between_selection": {
+          "n": 6,
+          "exact": 0.3333333333333333,
+          "contains": 0.3333333333333333
+        },
+        "status_at_time": {
+          "n": 4,
+          "exact": 0.75,
+          "contains": 0.75
+        },
+        "institution_at_time": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "latest_before_event": {
+          "n": 1,
+          "exact": 0.0,
+          "contains": 0.0
+        },
+        "rescheduled_event_year": {
+          "n": 2,
+          "exact": 1.0,
+          "contains": 1.0
+        },
+        "timepoint_lookup": {
+          "n": 1,
+          "exact": 1.0,
+          "contains": 1.0
+        }
+      }
+    }
+  },
+  "llm_0.8b__graph_large_emb__emb_4b": {
+    "run_id": "llm_0.8b__graph_large_emb__emb_4b",
+    "llm_id": "llm_0.8b",
+    "emb_id": "emb_4b",
+    "mode": "graph_large_emb",
+    "dataset": "data/jsonls/temporal_evaluation_set_v2.jsonl",
+    "n_questions": 295,
+    "created_at": "2026-05-11T12:16:31.8871413Z",
+    "status": "completed",
+    "metrics": {
+      "n": 295,
+      "exact": 0.5559322033898305,
+      "contains": 0.559322033898305,
+      "latency_sec_mean": 0.3865811349322061,
+      "by_difficulty": {
+        "easy": {
+          "n": 108,
+          "exact": 0.6481481481481481,
+          "contains": 0.6574074074074074
+        },
+        "hard": {
+          "n": 62,
+          "exact": 0.3870967741935484,
+          "contains": 0.3870967741935484
+        },
+        "medium": {
+          "n": 125,
+          "exact": 0.56,
+          "contains": 0.56
+        }
+      },
+      "by_domain": {}
+    },
+    "provenance": "migrated_from_output/m3e5",
+    "source_run_folder": "output/m3e5/runs/c_graph_qwen3_5-0_8b_emb_4b_v5"
+  },
+  "llm_0.8b__graph_small_emb__emb_0.6b": {
+    "run_id": "llm_0.8b__graph_small_emb__emb_0.6b",
+    "llm_id": "llm_0.8b",
+    "emb_id": "emb_0.6b",
+    "mode": "graph_small_emb",
+    "dataset": "data/jsonls/temporal_evaluation_set_v2.jsonl",
+    "n_questions": 295,
+    "created_at": "2026-05-11T12:16:31.9402124Z",
+    "status": "completed",
+    "metrics": {
+      "n": 295,
+      "exact": 0.559322033898305,
+      "contains": 0.5627118644067797,
+      "latency_sec_mean": 0.38085729310508953,
+      "by_difficulty": {
+        "easy": {
+          "n": 108,
+          "exact": 0.6481481481481481,
+          "contains": 0.6574074074074074
+        },
+        "hard": {
+          "n": 62,
+          "exact": 0.3870967741935484,
+          "contains": 0.3870967741935484
+        },
+        "medium": {
+          "n": 125,
+          "exact": 0.568,
+          "contains": 0.568
+        }
+      },
+      "by_domain": {}
+    },
+    "provenance": "migrated_from_output/m3e5",
+    "source_run_folder": "output/m3e5/runs/c_graph_qwen3_5-0_8b_v5"
+  },
+  "llm_0.8b__pure_llm": {
+    "run_id": "llm_0.8b__pure_llm",
+    "llm_id": "llm_0.8b",
+    "emb_id": null,
+    "mode": "pure_llm",
+    "dataset": "data/jsonls/temporal_evaluation_set_v2.jsonl",
+    "n_questions": 295,
+    "created_at": "2026-05-12T10:33:29.4257113Z",
+    "status": "completed",
+    "metrics": {
+      "n": 295,
+      "exact": 0.061016949152542375,
+      "contains": 0.061016949152542375,
+      "latency_sec_mean": 0.5893945757186391,
+      "by_difficulty": {
+        "easy": {
+          "n": 108,
+          "exact": 0.12962962962962962,
+          "contains": 0.12962962962962962
+        },
+        "hard": {
+          "n": 62,
+          "exact": 0.016129032258064516,
+          "contains": 0.016129032258064516
+        },
+        "medium": {
+          "n": 125,
+          "exact": 0.024,
+          "contains": 0.024
+        }
+      },
+      "by_domain": {}
+    },
+    "provenance": "migrated_from_noncanonical_qwen_pure",
+    "source_run_folder": "results/m3e5_noncanonical_archived_20260512/a_pure_qwen3_5-0_8b"
+  },
+  "llm_0.8b__rag_large_emb__emb_4b": {
+    "run_id": "llm_0.8b__rag_large_emb__emb_4b",
+    "llm_id": "llm_0.8b",
+    "emb_id": "emb_4b",
+    "mode": "rag_large_emb",
+    "dataset": "data/jsonls/temporal_evaluation_set_v2.jsonl",
+    "n_questions": 295,
+    "created_at": "2026-05-11T12:16:31.8381563Z",
+    "status": "completed",
+    "metrics": {
+      "n": 295,
+      "exact": 0.24745762711864408,
+      "contains": 0.24745762711864408,
+      "latency_sec_mean": 0.6117092401423773,
+      "by_difficulty": {
+        "easy": {
+          "n": 108,
+          "exact": 0.26851851851851855,
+          "contains": 0.26851851851851855
+        },
+        "hard": {
+          "n": 62,
+          "exact": 0.3709677419354839,
+          "contains": 0.3709677419354839
+        },
+        "medium": {
+          "n": 125,
+          "exact": 0.168,
+          "contains": 0.168
+        }
+      },
+      "by_domain": {}
+    },
+    "provenance": "migrated_from_output/m3e5",
+    "source_run_folder": "output/m3e5/runs/b_rag_qwen3_5-0_8b_emb4b"
+  },
+  "llm_0.8b__rag_small_emb__emb_0.6b": {
+    "run_id": "llm_0.8b__rag_small_emb__emb_0.6b",
+    "llm_id": "llm_0.8b",
+    "emb_id": "emb_0.6b",
+    "mode": "rag_small_emb",
+    "dataset": "data/jsonls/temporal_evaluation_set_v2.jsonl",
+    "n_questions": 295,
+    "created_at": "2026-05-11T12:16:31.8014540Z",
+    "status": "completed",
+    "metrics": {
+      "n": 295,
+      "exact": 0.13559322033898305,
+      "contains": 0.13559322033898305,
+      "latency_sec_mean": 0.76759056786441,
+      "by_difficulty": {
+        "easy": {
+          "n": 108,
+          "exact": 0.19444444444444445,
+          "contains": 0.19444444444444445
+        },
+        "hard": {
+          "n": 62,
+          "exact": 0.03225806451612903,
+          "contains": 0.03225806451612903
+        },
+        "medium": {
+          "n": 125,
+          "exact": 0.136,
+          "contains": 0.136
+        }
+      },
+      "by_domain": {}
+    },
+    "provenance": "migrated_from_output/m3e5",
+    "source_run_folder": "output/m3e5/runs/b_rag_qwen3_5-0_8b"
+  },
+  "llm_2b__graph_large_emb__emb_4b": {
+    "run_id": "llm_2b__graph_large_emb__emb_4b",
+    "llm_id": "llm_2b",
+    "emb_id": "emb_4b",
+    "mode": "graph_large_emb",
+    "dataset": "data/jsonls/temporal_evaluation_set_v2.jsonl",
+    "n_questions": 295,
+    "created_at": "2026-05-11T12:16:32.1036704Z",
+    "status": "completed",
+    "metrics": {
+      "n": 295,
+      "exact": 0.6,
+      "contains": 0.6,
+      "latency_sec_mean": 0.39652628782373,
+      "by_difficulty": {
+        "easy": {
+          "n": 108,
+          "exact": 0.6574074074074074,
+          "contains": 0.6574074074074074
+        },
+        "hard": {
+          "n": 62,
+          "exact": 0.41935483870967744,
+          "contains": 0.41935483870967744
+        },
+        "medium": {
+          "n": 125,
+          "exact": 0.64,
+          "contains": 0.64
+        }
+      },
+      "by_domain": {}
+    },
+    "provenance": "migrated_from_output/m3e5",
+    "source_run_folder": "output/m3e5/runs/f_graph_qwen3_5-2b_emb_4b_v5"
+  },
+  "llm_2b__graph_small_emb__emb_0.6b": {
+    "run_id": "llm_2b__graph_small_emb__emb_0.6b",
+    "llm_id": "llm_2b",
+    "emb_id": "emb_0.6b",
+    "mode": "graph_small_emb",
+    "dataset": "data/jsonls/temporal_evaluation_set_v2.jsonl",
+    "n_questions": 295,
+    "created_at": "2026-05-11T12:16:32.1535506Z",
+    "status": "completed",
+    "metrics": {
+      "n": 295,
+      "exact": 0.6,
+      "contains": 0.6,
+      "latency_sec_mean": 0.38523580420338416,
+      "by_difficulty": {
+        "easy": {
+          "n": 108,
+          "exact": 0.6574074074074074,
+          "contains": 0.6574074074074074
+        },
+        "hard": {
+          "n": 62,
+          "exact": 0.41935483870967744,
+          "contains": 0.41935483870967744
+        },
+        "medium": {
+          "n": 125,
+          "exact": 0.64,
+          "contains": 0.64
+        }
+      },
+      "by_domain": {}
+    },
+    "provenance": "migrated_from_output/m3e5",
+    "source_run_folder": "output/m3e5/runs/f_graph_qwen3_5-2b_v5"
+  },
+  "llm_2b__pure_llm": {
+    "run_id": "llm_2b__pure_llm",
+    "llm_id": "llm_2b",
+    "emb_id": null,
+    "mode": "pure_llm",
+    "dataset": "data/jsonls/temporal_evaluation_set_v2.jsonl",
+    "n_questions": 295,
+    "created_at": "2026-05-12T10:33:29.4458035Z",
+    "status": "completed",
+    "metrics": {
+      "n": 295,
+      "exact": 0.3288135593220339,
+      "contains": 0.3288135593220339,
+      "latency_sec_mean": 0.7633012061660909,
+      "by_difficulty": {
+        "easy": {
+          "n": 108,
+          "exact": 0.39814814814814814,
+          "contains": 0.39814814814814814
+        },
+        "hard": {
+          "n": 62,
+          "exact": 0.3225806451612903,
+          "contains": 0.3225806451612903
+        },
+        "medium": {
+          "n": 125,
+          "exact": 0.272,
+          "contains": 0.272
+        }
+      },
+      "by_domain": {}
+    },
+    "provenance": "migrated_from_noncanonical_qwen_pure",
+    "source_run_folder": "results/m3e5_noncanonical_archived_20260512/d_pure_qwen3_5-2b"
+  },
+  "llm_2b__rag_large_emb__emb_4b": {
+    "run_id": "llm_2b__rag_large_emb__emb_4b",
+    "llm_id": "llm_2b",
+    "emb_id": "emb_4b",
+    "mode": "rag_large_emb",
+    "dataset": "data/jsonls/temporal_evaluation_set_v2.jsonl",
+    "n_questions": 295,
+    "created_at": "2026-05-11T12:16:32.0456756Z",
+    "status": "completed",
+    "metrics": {
+      "n": 295,
+      "exact": 0.3593220338983051,
+      "contains": 0.3593220338983051,
+      "latency_sec_mean": 0.892430455630464,
+      "by_difficulty": {
+        "easy": {
+          "n": 108,
+          "exact": 0.42592592592592593,
+          "contains": 0.42592592592592593
+        },
+        "hard": {
+          "n": 62,
+          "exact": 0.3064516129032258,
+          "contains": 0.3064516129032258
+        },
+        "medium": {
+          "n": 125,
+          "exact": 0.328,
+          "contains": 0.328
+        }
+      },
+      "by_domain": {}
+    },
+    "provenance": "migrated_from_output/m3e5",
+    "source_run_folder": "output/m3e5/runs/e_rag_qwen3_5-2b_emb4b"
+  },
+  "llm_2b__rag_small_emb__emb_0.6b": {
+    "run_id": "llm_2b__rag_small_emb__emb_0.6b",
+    "llm_id": "llm_2b",
+    "emb_id": "emb_0.6b",
+    "mode": "rag_small_emb",
+    "dataset": "data/jsonls/temporal_evaluation_set_v2.jsonl",
+    "n_questions": 295,
+    "created_at": "2026-05-11T12:16:32.0030402Z",
+    "status": "completed",
+    "metrics": {
+      "n": 295,
+      "exact": 0.2542372881355932,
+      "contains": 0.2542372881355932,
+      "latency_sec_mean": 1.088548705491531,
+      "by_difficulty": {
+        "easy": {
+          "n": 108,
+          "exact": 0.23148148148148148,
+          "contains": 0.23148148148148148
+        },
+        "hard": {
+          "n": 62,
+          "exact": 0.24193548387096775,
+          "contains": 0.24193548387096775
+        },
+        "medium": {
+          "n": 125,
+          "exact": 0.28,
+          "contains": 0.28
+        }
+      },
+      "by_domain": {}
+    },
+    "provenance": "migrated_from_output/m3e5",
+    "source_run_folder": "output/m3e5/runs/e_rag_qwen3_5-2b"
+  },
+  "llm_4b__graph_large_emb__emb_4b": {
+    "run_id": "llm_4b__graph_large_emb__emb_4b",
+    "llm_id": "llm_4b",
+    "emb_id": "emb_4b",
+    "mode": "graph_large_emb",
+    "dataset": "data/jsonls/temporal_evaluation_set_v2.jsonl",
+    "n_questions": 295,
+    "created_at": "2026-05-11T12:16:32.2926850Z",
+    "status": "completed",
+    "metrics": {
+      "n": 295,
+      "exact": 0.7389830508474576,
+      "contains": 0.7389830508474576,
+      "latency_sec_mean": 0.556881363413524,
+      "by_difficulty": {
+        "easy": {
+          "n": 108,
+          "exact": 0.7592592592592593,
+          "contains": 0.7592592592592593
+        },
+        "hard": {
+          "n": 62,
+          "exact": 0.6129032258064516,
+          "contains": 0.6129032258064516
+        },
+        "medium": {
+          "n": 125,
+          "exact": 0.784,
+          "contains": 0.784
+        }
+      },
+      "by_domain": {}
+    },
+    "provenance": "migrated_from_output/m3e5",
+    "source_run_folder": "output/m3e5/runs/i_graph_qwen3_5-4b_emb_4b_v5"
+  },
+  "llm_4b__graph_small_emb__emb_0.6b": {
+    "run_id": "llm_4b__graph_small_emb__emb_0.6b",
+    "llm_id": "llm_4b",
+    "emb_id": "emb_0.6b",
+    "mode": "graph_small_emb",
+    "dataset": "data/jsonls/temporal_evaluation_set_v2.jsonl",
+    "n_questions": 295,
+    "created_at": "2026-05-11T12:16:32.3403873Z",
+    "status": "completed",
+    "metrics": {
+      "n": 295,
+      "exact": 0.7423728813559322,
+      "contains": 0.7423728813559322,
+      "latency_sec_mean": 0.5523632339084373,
+      "by_difficulty": {
+        "easy": {
+          "n": 108,
+          "exact": 0.7592592592592593,
+          "contains": 0.7592592592592593
+        },
+        "hard": {
+          "n": 62,
+          "exact": 0.6129032258064516,
+          "contains": 0.6129032258064516
+        },
+        "medium": {
+          "n": 125,
+          "exact": 0.792,
+          "contains": 0.792
+        }
+      },
+      "by_domain": {}
+    },
+    "provenance": "migrated_from_output/m3e5",
+    "source_run_folder": "output/m3e5/runs/i_graph_qwen3_5-4b_v5"
+  },
+  "llm_4b__pure_llm": {
+    "run_id": "llm_4b__pure_llm",
+    "llm_id": "llm_4b",
+    "emb_id": null,
+    "mode": "pure_llm",
+    "dataset": "data/jsonls/temporal_evaluation_set_v2.jsonl",
+    "n_questions": 295,
+    "created_at": "2026-05-12T10:33:29.4534857Z",
+    "status": "completed",
+    "metrics": {
+      "n": 295,
+      "exact": 0.4406779661016949,
+      "contains": 0.4406779661016949,
+      "latency_sec_mean": 0.8603191193220298,
+      "by_difficulty": {
+        "easy": {
+          "n": 108,
+          "exact": 0.5925925925925926,
+          "contains": 0.5925925925925926
+        },
+        "hard": {
+          "n": 62,
+          "exact": 0.3548387096774194,
+          "contains": 0.3548387096774194
+        },
+        "medium": {
+          "n": 125,
+          "exact": 0.352,
+          "contains": 0.352
+        }
+      },
+      "by_domain": {}
+    },
+    "provenance": "migrated_from_noncanonical_qwen_pure",
+    "source_run_folder": "results/m3e5_noncanonical_archived_20260512/g_pure_qwen3_5-4b"
+  },
+  "llm_4b__rag_large_emb__emb_4b": {
+    "run_id": "llm_4b__rag_large_emb__emb_4b",
+    "llm_id": "llm_4b",
+    "emb_id": "emb_4b",
+    "mode": "rag_large_emb",
+    "dataset": "data/jsonls/temporal_evaluation_set_v2.jsonl",
+    "n_questions": 295,
+    "created_at": "2026-05-11T12:16:32.2398795Z",
+    "status": "completed",
+    "metrics": {
+      "n": 295,
+      "exact": 0.6915254237288135,
+      "contains": 0.6983050847457627,
+      "latency_sec_mean": 1.0967179542542276,
+      "by_difficulty": {
+        "easy": {
+          "n": 108,
+          "exact": 0.7407407407407407,
+          "contains": 0.75
+        },
+        "hard": {
+          "n": 62,
+          "exact": 0.6612903225806451,
+          "contains": 0.6612903225806451
+        },
+        "medium": {
+          "n": 125,
+          "exact": 0.664,
+          "contains": 0.672
+        }
+      },
+      "by_domain": {}
+    },
+    "provenance": "migrated_from_output/m3e5",
+    "source_run_folder": "output/m3e5/runs/h_rag_qwen3_5-4b_emb4b"
+  },
+  "llm_4b__rag_small_emb__emb_0.6b": {
+    "run_id": "llm_4b__rag_small_emb__emb_0.6b",
+    "llm_id": "llm_4b",
+    "emb_id": "emb_0.6b",
+    "mode": "rag_small_emb",
+    "dataset": "data/jsonls/temporal_evaluation_set_v2.jsonl",
+    "n_questions": 295,
+    "created_at": "2026-05-11T12:16:32.2137364Z",
+    "status": "completed",
+    "metrics": {
+      "n": 295,
+      "exact": 0.43728813559322033,
+      "contains": 0.43728813559322033,
+      "latency_sec_mean": 1.62670806912205,
+      "by_difficulty": {
+        "easy": {
+          "n": 108,
+          "exact": 0.4444444444444444,
+          "contains": 0.4444444444444444
+        },
+        "hard": {
+          "n": 62,
+          "exact": 0.43548387096774194,
+          "contains": 0.43548387096774194
+        },
+        "medium": {
+          "n": 125,
+          "exact": 0.432,
+          "contains": 0.432
+        }
+      },
+      "by_domain": {}
+    },
+    "provenance": "migrated_from_output/m3e5",
+    "source_run_folder": "output/m3e5/runs/h_rag_qwen3_5-4b"
+  }
+}

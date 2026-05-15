@@ -1,0 +1,12 @@
+# M3-E3a Comprehension Results
+# Format: one JSON object per line (ComprehensionResponse schema)
+# Fields: participant_id, explanation_id, question_id, question_type, answer, score, response_time_sec, domain, bucket
+#
+# To populate: paste output/m3_e3a_comprehension/llm_simulation_prompt.txt into an LLM
+# and save the JSONL output here.
+#
+# Then run analysis:
+#   python experiments/m3_e3/run_comprehension.py analyze \
+#       --tasks output/m3_e3a_comprehension/m3_e3a_tasks.jsonl \
+#       --responses output/m3_e3a_comprehension/m3_e3a_results.jsonl \
+#       --output-dir output/m3_e3a_comprehension_analysis_llm

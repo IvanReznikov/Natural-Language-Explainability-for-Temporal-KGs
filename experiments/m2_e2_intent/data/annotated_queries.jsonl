@@ -1,0 +1,1250 @@
+{"id":"q1","query":"What happened on January 15, 2024?","intents":["point_in_time"]}
+{"id":"q2","query":"When did the CEO announce the acquisition?","intents":["point_in_time"]}
+{"id":"q3","query":"Show all events between 2020 and 2022 for the product line.","intents":["interval"]}
+{"id":"q4","query":"List everything that occurred during Q2 2025 in healthcare.","intents":["interval"]}
+{"id":"q5","query":"What was the order of steps that led to the recall?","intents":["sequence"]}
+{"id":"q6","query":"How did symptom A lead to test B and treatment C?","intents":["sequence"]}
+{"id":"q7","query":"What caused the market crash in late 2022?","intents":["causal"]}
+{"id":"q8","query":"Why did the patient's symptoms worsen after treatment?","intents":["causal"]}
+{"id":"q9","query":"Compare the timelines for Company A and Company B mergers.","intents":["comparative"]}
+{"id":"q10","query":"How did the rollout differ between hospital wing 1 and wing 2?","intents":["comparative"]}
+{"id":"q11","query":"How many incidents happened each month in 2024?","intents":["aggregation"]}
+{"id":"q12","query":"What is the most common event type during the trial?","intents":["aggregation"]}
+{"id":"q13","query":"Given events A and B, what is likely to happen next?","intents":["prediction"]}
+{"id":"q14","query":"What would happen if we delayed vaccination by two weeks?","intents":["prediction"]}
+{"id":"q15","query":"Explain the causal chain leading to the service outage.","intents":["explanation"]}
+{"id":"q16","query":"Why should we believe this timeline of product launches?","intents":["explanation"]}
+{"id":"q17","query":"Show events between 2020-2022 that caused the market crash.","intents":["interval","causal"]}
+{"id":"q18","query":"Compare the sequence of events leading to success versus failure.","intents":["sequence","comparative"]}
+{"id":"q19","query":"What happened on Jan 5, 2025 and why did it trigger recalls?","intents":["point_in_time","causal"]}
+{"id":"q20","query":"Summarize events during Q4 2024 and forecast the most likely next step.","intents":["interval","prediction"]}
+{"id":"q21","query":"Explain the causal chain for all events in 2023 and compare to 2022.","intents":["interval","causal","comparative","explanation"]}
+{"id":"q22","query":"Count how many adverse events happened after each dosage change and explain the difference.","intents":["aggregation","causal","explanation"]}
+{"id":"q23","query":"Given the rollout steps, predict the next milestone and explain why.","intents":["sequence","prediction","explanation"]}
+{"id":"q24","query":"Compare patient histories and predict which factors most likely cause the complications.","intents":["comparative","prediction","causal"]}
+{"id":"q25","query":"What happened on March 3, 2023?","intents":["point_in_time"]}
+{"id":"q26","query":"When was the product launch announcement?","intents":["point_in_time"]}
+{"id":"q27","query":"On which date did the system fail?","intents":["point_in_time"]}
+{"id":"q28","query":"What occurred on the first trading day of 2024?","intents":["point_in_time"]}
+{"id":"q29","query":"When did the FDA approve this drug?","intents":["point_in_time"]}
+{"id":"q30","query":"At what point in time did revenue peak?","intents":["point_in_time"]}
+{"id":"q31","query":"What date was the historical event documented?","intents":["point_in_time"]}
+{"id":"q32","query":"When did the partnership officially begin?","intents":["point_in_time"]}
+{"id":"q33","query":"What time did the incident occur on July 12, 2022?","intents":["point_in_time"]}
+{"id":"q34","query":"When was the policy change implemented?","intents":["point_in_time"]}
+{"id":"q35","query":"Show all events from January through March 2024.","intents":["interval"]}
+{"id":"q36","query":"List incidents during the third quarter of 2023.","intents":["interval"]}
+{"id":"q37","query":"What happened over the last six months?","intents":["interval"]}
+{"id":"q38","query":"Retrieve all data from 2021 to 2023.","intents":["interval"]}
+{"id":"q39","query":"What occurred between the launch and the first major update?","intents":["interval"]}
+{"id":"q40","query":"Show events in the 2025 fiscal year.","intents":["interval"]}
+{"id":"q41","query":"List all transactions from April 1 to June 30, 2024.","intents":["interval"]}
+{"id":"q42","query":"What transpired during the trial period?","intents":["interval"]}
+{"id":"q43","query":"Show the timeline for events in late 2024.","intents":["interval"]}
+{"id":"q44","query":"What happened throughout the pandemic years 2020-2021?","intents":["interval"]}
+{"id":"q45","query":"How many steps are involved in the onboarding process?","intents":["sequence"]}
+{"id":"q46","query":"In what order did the complications develop?","intents":["sequence"]}
+{"id":"q47","query":"Walk me through the sequence of the merger.","intents":["sequence"]}
+{"id":"q48","query":"What is the step-by-step process for this procedure?","intents":["sequence"]}
+{"id":"q49","query":"How did the initial issue escalate into a crisis?","intents":["sequence"]}
+{"id":"q50","query":"Describe the chain of events leading to bankruptcy.","intents":["sequence"]}
+{"id":"q51","query":"What was the progression of symptoms?","intents":["sequence"]}
+{"id":"q52","query":"In order, what happened after the announcement?","intents":["sequence"]}
+{"id":"q53","query":"Trace the pathway from bug discovery to fix deployment.","intents":["sequence"]}
+{"id":"q54","query":"What sequence of decisions led to this outcome?","intents":["sequence"]}
+{"id":"q55","query":"Why did the stock price drop in October 2023?","intents":["causal"]}
+{"id":"q56","query":"What caused the system outage?","intents":["causal"]}
+{"id":"q57","query":"What is the root cause of the patient's condition?","intents":["causal"]}
+{"id":"q58","query":"How did the policy change affect sales?","intents":["causal"]}
+{"id":"q59","query":"What led to the reduction in customer satisfaction?","intents":["causal"]}
+{"id":"q60","query":"What triggered the regulatory investigation?","intents":["causal"]}
+{"id":"q61","query":"Why did the trial fail?","intents":["causal"]}
+{"id":"q62","query":"What was responsible for the product defect?","intents":["causal"]}
+{"id":"q63","query":"What effect did the supply chain disruption have?","intents":["causal"]}
+{"id":"q64","query":"How did increased competition impact margins?","intents":["causal"]}
+{"id":"q65","query":"Compare the growth rates of Company A and Company B.","intents":["comparative"]}
+{"id":"q66","query":"How do the timelines differ between the two product launches?","intents":["comparative"]}
+{"id":"q67","query":"What is the difference in outcomes between treatment groups?","intents":["comparative"]}
+{"id":"q68","query":"Contrast the market conditions in Q1 versus Q4 2024.","intents":["comparative"]}
+{"id":"q69","query":"How did adoption rates compare across regions?","intents":["comparative"]}
+{"id":"q70","query":"What distinguishes the old process from the new one?","intents":["comparative"]}
+{"id":"q71","query":"Compare the side effects profile of Drug A versus Drug B.","intents":["comparative"]}
+{"id":"q72","query":"How does this quarter's performance rank against last year?","intents":["comparative"]}
+{"id":"q73","query":"What are the key differences in customer retention between cohorts?","intents":["comparative"]}
+{"id":"q74","query":"How did the rollout strategy differ across teams?","intents":["comparative"]}
+{"id":"q75","query":"How many errors occurred per day in 2024?","intents":["aggregation"]}
+{"id":"q76","query":"What is the total count of adverse events?","intents":["aggregation"]}
+{"id":"q77","query":"How frequently did customers report this issue?","intents":["aggregation"]}
+{"id":"q78","query":"What is the distribution of incidents by category?","intents":["aggregation"]}
+{"id":"q79","query":"Count the number of transactions per week.","intents":["aggregation"]}
+{"id":"q80","query":"What is the most common failure mode?","intents":["aggregation"]}
+{"id":"q81","query":"How many hospital visits were attributed to this condition each month?","intents":["aggregation"]}
+{"id":"q82","query":"What percentage of patients experienced improvement?","intents":["aggregation"]}
+{"id":"q83","query":"How many unique users accessed the platform weekly?","intents":["aggregation"]}
+{"id":"q84","query":"What is the average time between incidents?","intents":["aggregation"]}
+{"id":"q85","query":"What is likely to happen next given current trends?","intents":["prediction"]}
+{"id":"q86","query":"Forecast revenue for Q1 2026.","intents":["prediction"]}
+{"id":"q87","query":"What would happen if we increased the dosage?","intents":["prediction"]}
+{"id":"q88","query":"Predict the customer churn rate for next quarter.","intents":["prediction"]}
+{"id":"q89","query":"What is the likely outcome if we delay the launch?","intents":["prediction"]}
+{"id":"q90","query":"If the trend continues, when will we reach the target?","intents":["prediction"]}
+{"id":"q91","query":"What adverse events might occur from this medication interaction?","intents":["prediction"]}
+{"id":"q92","query":"Predict which market segment will show the highest growth.","intents":["prediction"]}
+{"id":"q93","query":"What would be the financial impact of a 10% price increase?","intents":["prediction"]}
+{"id":"q94","query":"What is the expected timeline for recovery?","intents":["prediction"]}
+{"id":"q95","query":"Explain why the market crashed in 2023.","intents":["explanation"]}
+{"id":"q96","query":"Justify the decision to discontinue this product line.","intents":["explanation"]}
+{"id":"q97","query":"Walk through the reasoning behind the treatment plan.","intents":["explanation"]}
+{"id":"q98","query":"Why should these results be considered reliable?","intents":["explanation"]}
+{"id":"q99","query":"Explain the mechanism by which this drug works.","intents":["explanation"]}
+{"id":"q100","query":"Provide context for the sudden policy reversal.","intents":["explanation"]}
+{"id":"q101","query":"Explain the correlation between these variables.","intents":["explanation"]}
+{"id":"q102","query":"Why did this strategy succeed while others failed?","intents":["explanation"]}
+{"id":"q103","query":"Articulate the connection between investment and returns.","intents":["explanation"]}
+{"id":"q104","query":"Clarify the reasoning for this regulatory change.","intents":["explanation"]}
+{"id":"q105","query":"What events between Q1 and Q4 2023 contributed to the decline?","intents":["interval","causal"]}
+{"id":"q106","query":"Show events from 2020-2022 that led to the restructuring.","intents":["interval","causal"]}
+{"id":"q107","query":"List incidents during the outage period and explain what triggered each.","intents":["interval","causal"]}
+{"id":"q108","query":"What happened over the past year and why did it matter?","intents":["interval","causal"]}
+{"id":"q109","query":"Retrieve events from the trial and identify what caused the dropout rate.","intents":["interval","causal"]}
+{"id":"q110","query":"Show the timeline between launch and recall and explain the issues.","intents":["interval","causal"]}
+{"id":"q111","query":"What occurred during the pandemic and how did it affect operations?","intents":["interval","causal"]}
+{"id":"q112","query":"List all Q2 2024 transactions and explain variance from forecast.","intents":["interval","causal"]}
+{"id":"q113","query":"What steps led to success and what steps led to failure?","intents":["sequence","comparative"]}
+{"id":"q114","query":"Compare the sequence of events for the successful campaign versus the failed one.","intents":["sequence","comparative"]}
+{"id":"q115","query":"How did the adoption pathway differ between early adopters and laggards?","intents":["sequence","comparative"]}
+{"id":"q116","query":"Contrast the rollout sequence in the winning market versus the losing one.","intents":["sequence","comparative"]}
+{"id":"q117","query":"Compare the symptom progression in recovered versus non-recovered patients.","intents":["sequence","comparative"]}
+{"id":"q118","query":"What is the difference in the setup process between Version 1 and Version 2?","intents":["sequence","comparative"]}
+{"id":"q119","query":"How does the customer journey differ for retained versus churned users?","intents":["sequence","comparative"]}
+{"id":"q120","query":"Compare the decision chain leading to approval versus rejection.","intents":["sequence","comparative"]}
+{"id":"q121","query":"On March 15, 2023, what event triggered the price spike?","intents":["point_in_time","causal"]}
+{"id":"q122","query":"When did the policy change and what caused the subsequent impact?","intents":["point_in_time","causal"]}
+{"id":"q123","query":"What happened on launch day and why did it matter?","intents":["point_in_time","causal"]}
+{"id":"q124","query":"On the date of the announcement, what drove the market reaction?","intents":["point_in_time","causal"]}
+{"id":"q125","query":"When was the bug discovered and what led to the outage?","intents":["point_in_time","causal"]}
+{"id":"q126","query":"What specific day did the adverse events spike and why?","intents":["point_in_time","causal"]}
+{"id":"q127","query":"When was the decision made and what prompted the reversal?","intents":["point_in_time","causal"]}
+{"id":"q128","query":"At what moment did the system begin failing and what caused it?","intents":["point_in_time","causal"]}
+{"id":"q129","query":"Show all events during 2024 and forecast what happens next.","intents":["interval","prediction"]}
+{"id":"q130","query":"List incidents from Q1-Q3 2025 and predict Q4 outcomes.","intents":["interval","prediction"]}
+{"id":"q131","query":"What occurred in the past six months and what trend will continue?","intents":["interval","prediction"]}
+{"id":"q132","query":"Retrieve historical data from 2022-2023 and forecast 2024.","intents":["interval","prediction"]}
+{"id":"q133","query":"What happened during the trial and what will likely occur post-launch?","intents":["interval","prediction"]}
+{"id":"q134","query":"Show quarterly performance and predict next quarter's results.","intents":["interval","prediction"]}
+{"id":"q135","query":"What events transpired over the last year and what should we expect?","intents":["interval","prediction"]}
+{"id":"q136","query":"List all changes from 2020-2021 and predict future direction.","intents":["interval","prediction"]}
+{"id":"q137","query":"Explain the causal chain for all events between 2021 and 2023.","intents":["interval","causal","explanation"]}
+{"id":"q138","query":"Describe events from Q1-Q4 2024 and explain why each mattered.","intents":["interval","causal","explanation"]}
+{"id":"q139","query":"Walk through the timeline of the crisis and justify why it escalated.","intents":["interval","causal","explanation"]}
+{"id":"q140","query":"Show incidents over six months and clarify the underlying causes.","intents":["interval","causal","explanation"]}
+{"id":"q141","query":"List all events during the pilot phase and explain the implications.","intents":["interval","causal","explanation"]}
+{"id":"q142","query":"Retrieve data from the trial period and explain the outcome.","intents":["interval","causal","explanation"]}
+{"id":"q143","query":"What happened between launch and scaling and why did growth plateau?","intents":["interval","causal","explanation"]}
+{"id":"q144","query":"Show the timeline of product iterations and explain the strategy.","intents":["interval","causal","explanation"]}
+{"id":"q145","query":"Compare event sequences across markets and explain regional differences.","intents":["sequence","comparative","explanation"]}
+{"id":"q146","query":"Contrast the implementation steps and justify which approach was better.","intents":["sequence","comparative","explanation"]}
+{"id":"q147","query":"How did the customer journey differ and why did one path succeed?","intents":["sequence","comparative","explanation"]}
+{"id":"q148","query":"Compare the decision-making process in both scenarios and explain outcomes.","intents":["sequence","comparative","explanation"]}
+{"id":"q149","query":"Show the symptom progression for two patient groups and explain differences.","intents":["sequence","comparative","explanation"]}
+{"id":"q150","query":"Contrast the rollout strategy and justify why one succeeded.","intents":["sequence","comparative","explanation"]}
+{"id":"q151","query":"How did adoption timelines differ and why?","intents":["sequence","comparative","explanation"]}
+{"id":"q152","query":"Compare the setup process versions and explain the improvements.","intents":["sequence","comparative","explanation"]}
+{"id":"q153","query":"How many incidents per month and what caused the variation?","intents":["aggregation","causal"]}
+{"id":"q154","query":"Count adverse events by category and explain the distribution.","intents":["aggregation","causal"]}
+{"id":"q155","query":"What is the frequency of errors and why did it increase?","intents":["aggregation","causal"]}
+{"id":"q156","query":"How many customers churned each quarter and what drove it?","intents":["aggregation","causal"]}
+{"id":"q157","query":"Tally the defects by type and explain the common causes.","intents":["aggregation","causal"]}
+{"id":"q158","query":"Count hospital admissions weekly and explain the spike.","intents":["aggregation","causal"]}
+{"id":"q159","query":"What is the distribution of complaints and why are they clustered?","intents":["aggregation","causal"]}
+{"id":"q160","query":"How many transactions failed per day and what was the root cause?","intents":["aggregation","causal"]}
+{"id":"q161","query":"Count issues by severity and predict which will escalate.","intents":["aggregation","prediction"]}
+{"id":"q162","query":"How many patients recovered and what is the expected outcome?","intents":["aggregation","prediction"]}
+{"id":"q163","query":"What is the failure rate and will it improve?","intents":["aggregation","prediction"]}
+{"id":"q164","query":"How many leads converted and what should next quarter's pipeline be?","intents":["aggregation","prediction"]}
+{"id":"q165","query":"Count the number of updates needed and forecast completion time.","intents":["aggregation","prediction"]}
+{"id":"q166","query":"How many users signed up monthly and when will we hit 100k?","intents":["aggregation","prediction"]}
+{"id":"q167","query":"What is the average resolution time and will automation help?","intents":["aggregation","prediction"]}
+{"id":"q168","query":"Count the incidents and predict if we'll exceed SLA targets.","intents":["aggregation","prediction"]}
+{"id":"q169","query":"Analyze the sequence and predict the next logical step.","intents":["sequence","prediction"]}
+{"id":"q170","query":"Given the progression, what will happen next in the timeline?","intents":["sequence","prediction"]}
+{"id":"q171","query":"If these steps continue, what is the likely outcome?","intents":["sequence","prediction"]}
+{"id":"q172","query":"Based on the pattern so far, forecast the next phase.","intents":["sequence","prediction"]}
+{"id":"q173","query":"What should occur next in the process and why?","intents":["sequence","prediction"]}
+{"id":"q174","query":"Following the established sequence, what is the expected result?","intents":["sequence","prediction"]}
+{"id":"q175","query":"If the chain continues, when will we reach the final state?","intents":["sequence","prediction"]}
+{"id":"q176","query":"What is the next logical step and what would result?","intents":["sequence","prediction"]}
+{"id":"q177","query":"Explain how the sequence led to this result.","intents":["sequence","explanation"]}
+{"id":"q178","query":"Justify the causal connection between steps.","intents":["sequence","explanation"]}
+{"id":"q179","query":"Clarify why these events occurred in this specific order.","intents":["sequence","explanation"]}
+{"id":"q180","query":"Walk through the logic of how A led to B led to C.","intents":["sequence","explanation"]}
+{"id":"q181","query":"Explain the reasoning for this sequence of decisions.","intents":["sequence","explanation"]}
+{"id":"q182","query":"Why did the process follow this pathway?","intents":["sequence","explanation"]}
+{"id":"q183","query":"Articulate how each step enabled the next.","intents":["sequence","explanation"]}
+{"id":"q184","query":"Justify why this sequence of events was inevitable.","intents":["sequence","explanation"]}
+{"id":"q185","query":"Compare growth between 2022 and 2024 and explain the divergence.","intents":["comparative","causal","explanation"]}
+{"id":"q186","query":"Contrast the outcomes for Strategy A versus B and why.","intents":["comparative","causal","explanation"]}
+{"id":"q187","query":"How did Region X differ from Region Y and what caused it?","intents":["comparative","causal","explanation"]}
+{"id":"q188","query":"Compare treatment efficacy and explain the performance gap.","intents":["comparative","causal","explanation"]}
+{"id":"q189","query":"What distinguishes the high-performing team and why did they excel?","intents":["comparative","causal","explanation"]}
+{"id":"q190","query":"Contrast the customer experience before and after and explain the shift.","intents":["comparative","causal","explanation"]}
+{"id":"q191","query":"How did adoption differ across demographics and why?","intents":["comparative","causal","explanation"]}
+{"id":"q192","query":"Compare retention rates and justify the difference.","intents":["comparative","causal","explanation"]}
+{"id":"q193","query":"What does the data show for the time period and predict the next trend.","intents":["interval","comparative","prediction"]}
+{"id":"q194","query":"Compare Q1 to Q4 and forecast annual growth.","intents":["interval","comparative","prediction"]}
+{"id":"q195","query":"How did performance change over six months and what comes next?","intents":["interval","comparative","prediction"]}
+{"id":"q196","query":"Show the trajectory from 2022-2024 and predict 2025.","intents":["interval","comparative","prediction"]}
+{"id":"q197","query":"Compare this year to last and forecast next year.","intents":["interval","comparative","prediction"]}
+{"id":"q198","query":"What changed between phases and what will change next?","intents":["interval","comparative","prediction"]}
+{"id":"q199","query":"Contrast the before and after periods and project the future.","intents":["interval","comparative","prediction"]}
+{"id":"q200","query":"Show historical trends and predict where we are headed.","intents":["interval","comparative","prediction"]}
+{"id":"q201","query":"How many cases per category and compare to last year.","intents":["aggregation","comparative"]}
+{"id":"q202","query":"What is the distribution across regions and how does it differ?","intents":["aggregation","comparative"]}
+{"id":"q203","query":"Count incidents by type and contrast with previous period.","intents":["aggregation","comparative"]}
+{"id":"q204","query":"What percentage of each group and how do they compare?","intents":["aggregation","comparative"]}
+{"id":"q205","query":"How many transactions per category and which increased most?","intents":["aggregation","comparative"]}
+{"id":"q206","query":"Tally the outcomes by segment and rank them.","intents":["aggregation","comparative"]}
+{"id":"q207","query":"What is the frequency distribution and how does it align with expectations?","intents":["aggregation","comparative"]}
+{"id":"q208","query":"Count the issues by severity and compare severity trends.","intents":["aggregation","comparative"]}
+{"id":"q209","query":"What happened on May 10, 2024, and how did it compare to May 10, 2023?","intents":["point_in_time","comparative"]}
+{"id":"q210","query":"When did each milestone occur and in what order?","intents":["point_in_time","sequence"]}
+{"id":"q211","query":"What date marked the turning point and why?","intents":["point_in_time","causal"]}
+{"id":"q212","query":"On this specific date, compare outcomes to previous benchmarks.","intents":["point_in_time","comparative"]}
+{"id":"q213","query":"When did the change take effect and what caused it?","intents":["point_in_time","causal"]}
+{"id":"q214","query":"What date triggered the sequence of events?","intents":["point_in_time","sequence"]}
+{"id":"q215","query":"On Q1 close, what was the impact and how does it forecast for Q2?","intents":["point_in_time","prediction"]}
+{"id":"q216","query":"When did the inflection point occur and what will happen next?","intents":["point_in_time","prediction"]}
+{"id":"q217","query":"How many errors between Jan-June 2024 and what caused the spike?","intents":["interval","aggregation","causal"]}
+{"id":"q218","query":"List all events in Q1-Q2 by category and explain the variance.","intents":["interval","aggregation","causal"]}
+{"id":"q219","query":"Show the timeline from 2022-2023 and count incidents per category.","intents":["interval","aggregation"]}
+{"id":"q220","query":"What occurred over six months and how does it rank in severity?","intents":["interval","aggregation"]}
+{"id":"q221","query":"Retrieve events from the trial period and aggregate by outcome type.","intents":["interval","aggregation"]}
+{"id":"q222","query":"List all quarterly data and forecast next quarter by category.","intents":["interval","aggregation","prediction"]}
+{"id":"q223","query":"Show incidents from 2024 and predict if count will exceed last year.","intents":["interval","aggregation","prediction"]}
+{"id":"q224","query":"What events occurred each month and will frequency increase?","intents":["interval","aggregation","prediction"]}
+{"id":"q225","query":"Describe the steps that occurred between March-September 2024.","intents":["sequence","interval"]}
+{"id":"q226","query":"Walk through the process and timeline from start to finish.","intents":["sequence","interval"]}
+{"id":"q227","query":"Show the sequence of decisions made over the past year.","intents":["sequence","interval"]}
+{"id":"q228","query":"Trace the progression of changes from Q1 through Q4 2024.","intents":["sequence","interval"]}
+{"id":"q229","query":"What is the step-by-step timeline of the product lifecycle?","intents":["sequence","interval"]}
+{"id":"q230","query":"List the stages in order over the deployment period.","intents":["sequence","interval"]}
+{"id":"q231","query":"Walk through events on both dates and explain the correlation.","intents":["point_in_time","comparative","causal"]}
+{"id":"q232","query":"Compare what happened on Day 1 versus Day 30 and explain why.","intents":["point_in_time","comparative","causal"]}
+{"id":"q233","query":"On launch date, what metrics exceeded forecast and why?","intents":["point_in_time","comparative","causal"]}
+{"id":"q234","query":"When did the metrics diverge and what caused the split?","intents":["point_in_time","comparative","causal"]}
+{"id":"q235","query":"What specific events on the key date created the difference?","intents":["point_in_time","comparative","causal"]}
+{"id":"q236","query":"Compare outcomes on approval date versus rejection date.","intents":["point_in_time","comparative"]}
+{"id":"q237","query":"Explain the causal sequence for all data from January to December 2024.","intents":["interval","sequence","causal","explanation"]}
+{"id":"q238","query":"Walk through the quarterly progression and justify each transition.","intents":["interval","sequence","explanation"]}
+{"id":"q239","query":"Describe the timeline of changes and explain the strategic rationale.","intents":["interval","sequence","causal","explanation"]}
+{"id":"q240","query":"List all steps over six months and clarify how they connect causally.","intents":["interval","sequence","causal"]}
+{"id":"q241","query":"Show the process from start to finish over the deployment window.","intents":["interval","sequence"]}
+{"id":"q242","query":"Trace the evolution through each phase and explain the logic.","intents":["interval","sequence","explanation"]}
+{"id":"q243","query":"Compare event sequences across regions and forecast which will lead.","intents":["sequence","comparative","prediction"]}
+{"id":"q244","query":"How did the customer journey differ and predict which path will dominate?","intents":["sequence","comparative","prediction"]}
+{"id":"q245","query":"Contrast the decision pathways and forecast which outcome prevails.","intents":["sequence","comparative","prediction"]}
+{"id":"q246","query":"Show adoption sequences for early adopters versus laggards and predict mainstream.","intents":["sequence","comparative","prediction"]}
+{"id":"q247","query":"Compare implementation steps and predict which approach will scale.","intents":["sequence","comparative","prediction"]}
+{"id":"q248","query":"How did the success path differ from failure and what will likely occur next?","intents":["sequence","comparative","prediction"]}
+{"id":"q249","query":"Aggregate incidents per month from 2023-2024 and explain causes.","intents":["aggregation","interval","causal"]}
+{"id":"q250","query":"Count events by category over the past year and justify the distribution.","intents":["aggregation","interval","causal","explanation"]}
+{"id":"q251","query":"Tally transactions quarterly and explain variance from plan.","intents":["aggregation","interval","causal"]}
+{"id":"q252","query":"What is the monthly frequency of issues and why did it spike?","intents":["aggregation","interval","causal"]}
+{"id":"q253","query":"Show incident counts per quarter and predict next quarter's total.","intents":["aggregation","interval","prediction"]}
+{"id":"q254","query":"How many outcomes in each category per month and which will likely increase?","intents":["aggregation","interval","prediction"]}
+{"id":"q255","query":"Count issues weekly over two months and forecast the trend.","intents":["aggregation","interval","prediction"]}
+{"id":"q256","query":"Tally events by day across the month and predict daily average.","intents":["aggregation","interval","prediction"]}
+{"id":"q257","query":"Show daily transaction count and explain variance across the period.","intents":["aggregation","interval","causal"]}
+{"id":"q258","query":"How many errors occurred each week and explain the pattern?","intents":["aggregation","interval","causal"]}
+{"id":"q259","query":"What percentage of users engaged monthly and will retention improve?","intents":["aggregation","interval","prediction"]}
+{"id":"q260","query":"Count conversions by source and predict next month's mix.","intents":["aggregation","interval","prediction"]}
+{"id":"q261","query":"How did outcomes compare across the two periods and why?","intents":["comparative","interval","causal"]}
+{"id":"q262","query":"Show performance metrics for both years and explain the divergence.","intents":["comparative","interval","causal","explanation"]}
+{"id":"q263","query":"Compare Q1 2024 to Q1 2023 and justify the change.","intents":["comparative","interval","causal"]}
+{"id":"q264","query":"What changed from Year 1 to Year 2 and what caused it?","intents":["comparative","interval","causal"]}
+{"id":"q265","query":"Contrast strategy outcomes before and after the pivot.","intents":["comparative","interval","causal"]}
+{"id":"q266","query":"Show data from both periods and explain what drives the difference.","intents":["comparative","interval","causal","explanation"]}
+{"id":"q267","query":"How will performance likely diverge between the strategies next quarter?","intents":["comparative","interval","prediction"]}
+{"id":"q268","query":"Compare historical trends and forecast which trajectory will prevail.","intents":["comparative","interval","prediction"]}
+{"id":"q269","query":"Show the progression and explain why this sequence was chosen.","intents":["sequence","causal","explanation"]}
+{"id":"q270","query":"Walk through the steps and justify why they follow this order.","intents":["sequence","causal","explanation"]}
+{"id":"q271","query":"Describe how each phase led to the next and explain the logic.","intents":["sequence","causal","explanation"]}
+{"id":"q272","query":"Explain why the process unfolds in this specific sequence.","intents":["sequence","causal","explanation"]}
+{"id":"q273","query":"Show the decision tree and clarify the causal links between nodes.","intents":["sequence","causal"]}
+{"id":"q274","query":"Trace the chain and explain how each element causes the next.","intents":["sequence","causal"]}
+{"id":"q275","query":"How many issues per department and which is most problematic?","intents":["aggregation","comparative"]}
+{"id":"q276","query":"Count outcomes by category and rank them by frequency.","intents":["aggregation","comparative"]}
+{"id":"q277","query":"What is the distribution across teams and how do teams compare?","intents":["aggregation","comparative"]}
+{"id":"q278","query":"Tally results by segment and which performs best?","intents":["aggregation","comparative"]}
+{"id":"q279","query":"How many cases of each type and which type is growing fastest?","intents":["aggregation","comparative"]}
+{"id":"q280","query":"Count incidents by severity and which severity level is increasing?","intents":["aggregation","comparative"]}
+{"id":"q281","query":"What is the composition of users by cohort and how do cohorts differ?","intents":["aggregation","comparative"]}
+{"id":"q282","query":"Show the breakdown by region and which region leads?","intents":["aggregation","comparative"]}
+{"id":"q283","query":"When did the turning point occur and what will change?","intents":["point_in_time","causal","prediction"]}
+{"id":"q284","query":"At what date did the situation improve and will it continue?","intents":["point_in_time","causal","prediction"]}
+{"id":"q285","query":"When did the policy take effect and how will it impact next quarter?","intents":["point_in_time","causal","prediction"]}
+{"id":"q286","query":"On launch day, what drove adoption and what will month 2 look like?","intents":["point_in_time","causal","prediction"]}
+{"id":"q287","query":"What triggered the crisis on that date and will it reoccur?","intents":["point_in_time","causal","prediction"]}
+{"id":"q288","query":"When was the decision finalized and how will it affect operations?","intents":["point_in_time","causal","prediction"]}
+{"id":"q289","query":"Explain why these metrics moved on that specific date.","intents":["point_in_time","causal","explanation"]}
+{"id":"q290","query":"Clarify what drove the event on this date.","intents":["point_in_time","causal","explanation"]}
+{"id":"q291","query":"Justify why this date was pivotal.","intents":["point_in_time","causal","explanation"]}
+{"id":"q292","query":"Show events from both quarters and predict which will accelerate.","intents":["comparative","interval","prediction"]}
+{"id":"q293","query":"Compare performance trajectories and forecast which trend dominates.","intents":["comparative","interval","prediction"]}
+{"id":"q294","query":"How did outcomes differ and what will likely happen next?","intents":["comparative","interval","prediction"]}
+{"id":"q295","query":"Contrast the periods and project the next evolution.","intents":["comparative","interval","prediction"]}
+{"id":"q296","query":"Show the comparative data and forecast the convergence point.","intents":["comparative","interval","prediction"]}
+{"id":"q297","query":"Compare cycles and predict which pattern repeats next.","intents":["comparative","interval","prediction"]}
+{"id":"q298","query":"List all steps in both paths and which will likely succeed?","intents":["sequence","comparative","prediction"]}
+{"id":"q299","query":"Trace both progressions and predict which outcome materializes.","intents":["sequence","comparative","prediction"]}
+{"id":"q300","query":"Show both sequences and forecast which leads to the desired result.","intents":["sequence","comparative","prediction"]}
+{"id":"q301","query":"How many events in each category across both years and explain causality.","intents":["aggregation","comparative","causal"]}
+{"id":"q302","query":"Compare counts by segment and why did the composition shift?","intents":["aggregation","comparative","causal"]}
+{"id":"q303","query":"What is the frequency distribution across both cohorts and why?","intents":["aggregation","comparative","causal"]}
+{"id":"q304","query":"Tally outcomes and compare to targets, explaining the variance.","intents":["aggregation","comparative","causal","explanation"]}
+{"id":"q305","query":"Show incident counts per category and explain the ranking.","intents":["aggregation","comparative","explanation"]}
+{"id":"q306","query":"How many users in each segment and why does this distribution matter?","intents":["aggregation","comparative","explanation"]}
+{"id":"q307","query":"Count transactions by type and explain the business implications.","intents":["aggregation","comparative","explanation"]}
+{"id":"q308","query":"What is the breakdown by risk level and justify the allocation?","intents":["aggregation","comparative","explanation"]}
+{"id":"q309","query":"On what date did which step occur and why was sequence important?","intents":["point_in_time","sequence","causal"]}
+{"id":"q310","query":"When did the first and last phase occur and explain the progression.","intents":["point_in_time","sequence","explanation"]}
+{"id":"q311","query":"Show the timeline and why each milestone mattered.","intents":["point_in_time","sequence","explanation"]}
+{"id":"q312","query":"At what points did key transitions occur and explain their significance.","intents":["point_in_time","sequence","causal","explanation"]}
+{"id":"q313","query":"Compare timelines across projects and explain why one sequence was superior.","intents":["point_in_time","sequence","comparative"]}
+{"id":"q314","query":"When did each version launch and how did sequences differ?","intents":["point_in_time","sequence","comparative"]}
+{"id":"q315","query":"Show when events occurred and explain why this order was chosen.","intents":["point_in_time","sequence","causal"]}
+{"id":"q316","query":"What happened during the interval and why did it matter?","intents":["interval","causal","explanation"]}
+{"id":"q317","query":"List all events in the period and clarify what caused the outcome.","intents":["interval","causal","explanation"]}
+{"id":"q318","query":"Show the timeline from start to finish and explain the progression.","intents":["interval","sequence","explanation"]}
+{"id":"q319","query":"What data exists for the timeframe and predict next period.","intents":["interval","prediction"]}
+{"id":"q320","query":"Retrieve historical records and forecast based on the pattern.","intents":["interval","prediction"]}
+{"id":"q321","query":"Show seasonal trends and predict next cycle.","intents":["interval","prediction"]}
+{"id":"q322","query":"What is the typical pattern and will it repeat?","intents":["interval","prediction"]}
+{"id":"q323","query":"Compare this interval to the last and predict the next.","intents":["interval","comparative","prediction"]}
+{"id":"q324","query":"How similar are consecutive periods and what will occur next?","intents":["interval","comparative","prediction"]}
+{"id":"q325","query":"When did the board sign off on the divestiture?","intents":["point_in_time"]}
+{"id":"q326","query":"List all incidents between June and August 2025 and what triggered each.","intents":["interval","causal"]}
+{"id":"q327","query":"Walk through the steps from prototype to GA release.","intents":["sequence"]}
+{"id":"q328","query":"Compare the outage timelines for cloud zone A and zone B.","intents":["comparative"]}
+{"id":"q329","query":"How many orders failed per day last month?","intents":["aggregation"]}
+{"id":"q330","query":"If the strike extends two weeks, what happens to Q3 revenue?","intents":["prediction"]}
+{"id":"q331","query":"Explain why cancellations spiked after the pricing change.","intents":["explanation","causal"]}
+{"id":"q332","query":"Contrast the sequence of approvals between the fast-track and standard submissions.","intents":["sequence","comparative"]}
+{"id":"q333","query":"On what date did the first critical vulnerability get reported?","intents":["point_in_time"]}
+{"id":"q334","query":"When was the first ICU bed shortage alert raised?","intents":["point_in_time"]}
+{"id":"q335","query":"What happened on February 2, 2025 that triggered the recall?","intents":["point_in_time","causal"]}
+{"id":"q336","query":"When did regulators publish the final guidance on this policy?","intents":["point_in_time"]}
+{"id":"q337","query":"On which day did the warehouse fire start?","intents":["point_in_time"]}
+{"id":"q338","query":"When was the last major security patch deployed to production?","intents":["point_in_time"]}
+{"id":"q339","query":"Show me what occurred on the day the IPO priced.","intents":["point_in_time"]}
+{"id":"q340","query":"On what date did daily active users first cross one million?","intents":["point_in_time"]}
+{"id":"q341","query":"When did the first vaccine shipment arrive at the central depot?","intents":["point_in_time"]}
+{"id":"q342","query":"Which exact day did the new SLA come into effect?","intents":["point_in_time"]}
+{"id":"q343","query":"Pull up all events that happened in late 2024 for this portfolio.","intents":["interval"]}
+{"id":"q344","query":"Show everything that occurred last quarter in the Latin America region.","intents":["interval"]}
+{"id":"q345","query":"List all maintenance windows over the past 18 months.","intents":["interval"]}
+{"id":"q346","query":"Retrieve incidents logged during the vaccine rollout phase from 2021 to 2022.","intents":["interval"]}
+{"id":"q347","query":"Show me events between contract signature and first revenue recognition.","intents":["interval"]}
+{"id":"q348","query":"Pull up all policy changes made during the 2020–2021 academic year.","intents":["interval"]}
+{"id":"q349","query":"What happened across supply hubs during the winter 2023 storm period?","intents":["interval"]}
+{"id":"q350","query":"List events in the trial from baseline visit through week 24.","intents":["interval"]}
+{"id":"q351","query":"Show all outages recorded between Black Friday and Cyber Monday 2024.","intents":["interval"]}
+{"id":"q352","query":"Retrieve everything that occurred during Q3 2025 in the logistics network.","intents":["interval"]}
+{"id":"q353","query":"Walk me through the steps from symptom onset to hospital discharge.","intents":["sequence"]}
+{"id":"q354","query":"Detail the order of milestones from seed funding to Series C.","intents":["sequence"]}
+{"id":"q355","query":"Show the sequence of configuration changes before the cluster crashed.","intents":["sequence"]}
+{"id":"q356","query":"In what order did the microservices roll out to production?","intents":["sequence"]}
+{"id":"q357","query":"Outline the timeline and steps from design approval to factory handoff.","intents":["sequence"]}
+{"id":"q358","query":"Walk me through the escalation path from initial ticket to on-call page.","intents":["sequence"]}
+{"id":"q359","query":"List in order the regulatory reviews before the license was granted.","intents":["sequence"]}
+{"id":"q360","query":"Show the sequence of interventions during the patient's ICU stay.","intents":["sequence"]}
+{"id":"q361","query":"Fill the gaps between step 2 and launch in the rollout plan.","intents":["sequence"]}
+{"id":"q362","query":"What sequence of events took us from minor delay to full supply chain freeze?","intents":["sequence"]}
+{"id":"q363","query":"What likely drove the sudden drop in card approvals in March 2024?","intents":["causal"]}
+{"id":"q364","query":"Why did on-time delivery rates fall after we switched carriers?","intents":["causal"]}
+{"id":"q365","query":"What caused the spike in CPU usage on node group three?","intents":["causal"]}
+{"id":"q366","query":"Which factors contributed most to staff turnover in 2023?","intents":["causal"]}
+{"id":"q367","query":"Why did vaccine uptake stall in rural districts after week 6?","intents":["causal"]}
+{"id":"q368","query":"What drove the margin compression in the European business unit?","intents":["causal"]}
+{"id":"q369","query":"Which upstream failures triggered the cascading outages in the payments pipeline?","intents":["causal"]}
+{"id":"q370","query":"Why did ICU mortality improve despite stable admission volumes?","intents":["causal"]}
+{"id":"q371","query":"What made the second pilot site perform so much better than the first?","intents":["causal","comparative"]}
+{"id":"q372","query":"Explain what factors caused the backlog to clear so quickly in April.","intents":["causal","explanation"]}
+{"id":"q373","query":"Compare defect rates for line A, line B, and line C last quarter.","intents":["comparative"]}
+{"id":"q374","query":"How did vaccination timelines differ between country A, B, and C?","intents":["comparative"]}
+{"id":"q375","query":"Contrast revenue recovery paths for retail, travel, and hospitality post-2020.","intents":["comparative"]}
+{"id":"q376","query":"Compare the rollout timelines for web, Android, and iOS clients.","intents":["comparative"]}
+{"id":"q377","query":"How does incident frequency this quarter stack up against the same quarter last year?","intents":["comparative"]}
+{"id":"q378","query":"Compare the deployment cadence between the core banking and analytics teams.","intents":["comparative"]}
+{"id":"q379","query":"Contrast hiring velocity before, during, and after the hiring freeze.","intents":["comparative"]}
+{"id":"q380","query":"How do ICU admission outcomes compare across the three main hospitals?","intents":["comparative"]}
+{"id":"q381","query":"Compare median resolution times for P1 tickets across regions.","intents":["comparative"]}
+{"id":"q382","query":"How did product adoption curves differ between beta cohort and public launch?","intents":["comparative"]}
+{"id":"q383","query":"How many shipments missed their SLA per week over the last quarter?","intents":["aggregation"]}
+{"id":"q384","query":"Count the number of ransomware alerts raised per region in 2024.","intents":["aggregation"]}
+{"id":"q385","query":"How many ICU admissions occurred per hospital per month in 2023?","intents":["aggregation"]}
+{"id":"q386","query":"Show total chargebacks per card scheme for the past six months.","intents":["aggregation"]}
+{"id":"q387","query":"Count failed login attempts per user segment last week.","intents":["aggregation"]}
+{"id":"q388","query":"How many policy exceptions did we grant each quarter since 2022?","intents":["aggregation"]}
+{"id":"q389","query":"Show total downtime minutes per data center in 2025.","intents":["aggregation"]}
+{"id":"q390","query":"How many tickets were reopened at least once in the last 30 days?","intents":["aggregation"]}
+{"id":"q391","query":"Count shipments routed through each port in the previous fiscal year.","intents":["aggregation"]}
+{"id":"q392","query":"How many experiments reached statistical significance in the last 12 months?","intents":["aggregation"]}
+{"id":"q393","query":"Given current burn and booked revenue, what happens to runway by year-end?","intents":["prediction"]}
+{"id":"q394","query":"If we delay the hardware refresh by one quarter, what will failure rates look like?","intents":["prediction"]}
+{"id":"q395","query":"What is the most likely churn rate next quarter for high-risk customers?","intents":["prediction"]}
+{"id":"q396","query":"Given the inventory cap, how many orders can we fulfill next month?","intents":["prediction"]}
+{"id":"q397","query":"If we push the release back two weeks, what happens to daily active users?","intents":["prediction"]}
+{"id":"q398","query":"Which three regions will most likely grow faster than the company average next year?","intents":["prediction","comparative"]}
+{"id":"q399","query":"What will ICU bed utilization look like if admissions stay on the current trend?","intents":["prediction"]}
+{"id":"q400","query":"Which of the three vendors is most likely to miss the next delivery window?","intents":["prediction","comparative"]}
+{"id":"q401","query":"Under current constraints, when do we hit the 95% vaccination threshold?","intents":["prediction"]}
+{"id":"q402","query":"What is the expected failure rate if traffic doubles during the holiday peak?","intents":["prediction"]}
+{"id":"q403","query":"Explain why the fraud detection model started flagging more false positives in July.","intents":["explanation","causal"]}
+{"id":"q404","query":"Walk through why our logistics costs diverged from plan in H2 2024.","intents":["explanation","causal"]}
+{"id":"q405","query":"Explain the chain of decisions that led us to cancel the product line.","intents":["explanation","sequence","causal"]}
+{"id":"q406","query":"Why should we trust the reported uptime figures for the last quarter?","intents":["explanation"]}
+{"id":"q407","query":"Explain why booster uptake plateaued even after expanding eligibility.","intents":["explanation","causal"]}
+{"id":"q408","query":"Walk me through the reasoning for choosing this deprecation timeline.","intents":["explanation","sequence"]}
+{"id":"q409","query":"Explain how the three mitigation steps together reduced outage risk.","intents":["explanation","sequence","causal"]}
+{"id":"q410","query":"Justify the claim that the backlog will clear within two sprints.","intents":["explanation","prediction"]}
+{"id":"q411","query":"Explain why region C outperformed regions A and B in renewal rates.","intents":["explanation","comparative","causal"]}
+{"id":"q412","query":"Walk through why the second trial phase is considered more reliable than the first.","intents":["explanation","comparative"]}
+{"id":"q413","query":"Show events in calendar 2023 that led to the Q4 churn spike.","intents":["interval","causal"]}
+{"id":"q414","query":"List all infra changes in the past 12 months that likely drove latency up.","intents":["interval","causal"]}
+{"id":"q415","query":"During 2024, what events contributed most to support volume growth?","intents":["interval","causal"]}
+{"id":"q416","query":"Show me everything between contract renewal and the subsequent usage drop, and why it fell.","intents":["interval","causal","explanation"]}
+{"id":"q417","query":"Pull all pricing-related events in 2022 that could have triggered churn increases.","intents":["interval","causal"]}
+{"id":"q418","query":"From late 2023 to mid 2024, what changes most likely drove NPS down?","intents":["interval","causal"]}
+{"id":"q419","query":"List incidents across the last three sprints that together caused the release delay.","intents":["interval","causal"]}
+{"id":"q420","query":"Show all outages during the first half of 2025 and explain their root causes.","intents":["interval","causal","explanation"]}
+{"id":"q421","query":"Compare the rollout steps for the EU edition versus the US edition.","intents":["sequence","comparative"]}
+{"id":"q422","query":"Contrast customer onboarding sequences for enterprise, mid-market, and SMB tiers.","intents":["sequence","comparative"]}
+{"id":"q423","query":"How did the escalation path differ between the January and March incidents?","intents":["sequence","comparative"]}
+{"id":"q424","query":"Compare the approval sequences for the expedited versus standard device submissions.","intents":["sequence","comparative"]}
+{"id":"q425","query":"How does the claims processing flow differ across the three insurers?","intents":["sequence","comparative"]}
+{"id":"q426","query":"Contrast the vaccine distribution sequence in urban versus rural districts.","intents":["sequence","comparative"]}
+{"id":"q427","query":"Compare the steps followed during the planned outage and the unplanned one.","intents":["sequence","comparative"]}
+{"id":"q428","query":"How did the bug triage sequence differ between v1.0 and v2.0?","intents":["sequence","comparative"]}
+{"id":"q429","query":"On which exact day did we switch to the new routing algorithm, and what did that change?","intents":["point_in_time","causal"]}
+{"id":"q430","query":"What happened on the day the central warehouse went offline that disrupted deliveries?","intents":["point_in_time","causal"]}
+{"id":"q431","query":"When did the new reimbursement rule kick in, and how did it affect claims?","intents":["point_in_time","causal"]}
+{"id":"q432","query":"On the release date, what issues caused error rates to spike?","intents":["point_in_time","causal"]}
+{"id":"q433","query":"When was multi-factor auth enforced by default, and what did that do to login success?","intents":["point_in_time","causal"]}
+{"id":"q434","query":"On what date did the union announcement hit, and why did production drop afterwards?","intents":["point_in_time","causal"]}
+{"id":"q435","query":"On the first trading day after earnings, what drove the stock gap down?","intents":["point_in_time","causal"]}
+{"id":"q436","query":"When did the public health alert go out, and how did hospital traffic change?","intents":["point_in_time","causal"]}
+{"id":"q437","query":"During 2024, what is the most likely next major milestone for this program?","intents":["interval","prediction"]}
+{"id":"q438","query":"Over the next two quarters, given past performance, what milestones should we expect?","intents":["interval","prediction"]}
+{"id":"q439","query":"Looking at the last 18 months of hiring, how many offers will we likely make next quarter?","intents":["interval","prediction","aggregation"]}
+{"id":"q440","query":"During the current fiscal year, which business line is most likely to overperform plan?","intents":["interval","prediction","comparative"]}
+{"id":"q441","query":"Based on 2022–2024 trends, what will net promoter score look like in 2025?","intents":["interval","prediction"]}
+{"id":"q442","query":"Over the rest of 2025, which city is most likely to hit ICU capacity first?","intents":["interval","prediction","comparative"]}
+{"id":"q443","query":"Across the next three release cycles, what is the expected defect rate trajectory?","intents":["interval","prediction"]}
+{"id":"q444","query":"Given revenue performance over the past year, when will we cross break-even?","intents":["interval","prediction"]}
+{"id":"q445","query":"Count ICU admissions by week and explain the spike weeks.","intents":["aggregation","explanation","causal"]}
+{"id":"q446","query":"How many login failures occurred per hour yesterday, and why did 9–11am look so different?","intents":["aggregation","explanation","causal"]}
+{"id":"q447","query":"Tally refunds per product line this quarter and explain outliers.","intents":["aggregation","explanation"]}
+{"id":"q448","query":"Show weekly bug counts per squad and explain why squad delta surged in May.","intents":["aggregation","explanation","causal"]}
+{"id":"q449","query":"Aggregate cargo delays per route per month and explain the worst routes.","intents":["aggregation","explanation","comparative"]}
+{"id":"q450","query":"How many adverse events did each site report, and why did site three stand out?","intents":["aggregation","explanation","comparative","causal"]}
+{"id":"q451","query":"Count breached password attempts per geography and explain any unusual spikes.","intents":["aggregation","explanation","causal"]}
+{"id":"q452","query":"How many claims were denied per insurer, and explain the differences.","intents":["aggregation","explanation","comparative"]}
+{"id":"q453","query":"Which region will grow faster next quarter and why?","intents":["comparative","prediction","explanation"]}
+{"id":"q454","query":"Of North, South, and East regions, which is likeliest to exceed its sales target next month and why?","intents":["comparative","prediction","explanation"]}
+{"id":"q455","query":"Between online, retail, and partner channels, which will dominate acquisition next year?","intents":["comparative","prediction"]}
+{"id":"q456","query":"Which of the three warehouses will hit capacity first under the current demand forecast?","intents":["comparative","prediction"]}
+{"id":"q457","query":"Compare likely time-to-recovery for hospital A versus hospital B after the flood.","intents":["comparative","prediction","interval"]}
+{"id":"q458","query":"Which cloud provider will most likely give us lower downtime over the next year?","intents":["comparative","prediction"]}
+{"id":"q459","query":"Across the three loan products, which is likeliest to see rising default rates next quarter?","intents":["comparative","prediction"]}
+{"id":"q460","query":"Which plant is expected to recover output faster after maintenance, and why?","intents":["comparative","prediction","explanation"]}
+{"id":"q461","query":"Show monthly revenue for 2023 and 2024 without explaining causes yet.","intents":["interval","aggregation"]}
+{"id":"q462","query":"Pull up the last three quarters of SLA performance by vendor, just to compare them.","intents":["interval","comparative"]}
+{"id":"q463","query":"Show downtime by month for 2024 so we can see seasonality.","intents":["interval","aggregation"]}
+{"id":"q464","query":"Give me the last year of ICU admissions side by side for the main three hospitals.","intents":["interval","comparative","aggregation"]}
+{"id":"q465","query":"Show average handle time by week for the past six months, no root cause needed.","intents":["interval","aggregation"]}
+{"id":"q466","query":"Pull the last two years of occupancy for each hotel and line them up.","intents":["interval","comparative","aggregation"]}
+{"id":"q467","query":"Show per-region revenue trend over the past 18 months for a quick comparison.","intents":["interval","comparative"]}
+{"id":"q468","query":"Plot ticket volume per day for the previous sprint cycle only.","intents":["interval","aggregation"]}
+{"id":"q469","query":"Show me order counts per region per month, grouped by shipping method.","intents":["aggregation"]}
+{"id":"q470","query":"How many security incidents were filed per business unit per quarter?","intents":["aggregation"]}
+{"id":"q471","query":"Count deliveries per route per week and highlight the busiest routes.","intents":["aggregation","comparative"]}
+{"id":"q472","query":"How many ED visits occurred per age group per month in 2024?","intents":["aggregation"]}
+{"id":"q473","query":"Show loan applications per branch per day this quarter.","intents":["aggregation"]}
+{"id":"q474","query":"Count bug reports per product area and compare the top three.","intents":["aggregation","comparative"]}
+{"id":"q475","query":"How many shipments exceeded promised delivery time per carrier per month?","intents":["aggregation"]}
+{"id":"q476","query":"Show new signups per marketing channel per week since the last campaign.","intents":["aggregation"]}
+{"id":"q477","query":"Walk through the chain of events from first warning alert to full system outage.","intents":["sequence","causal","explanation"]}
+{"id":"q478","query":"Explain how a minor configuration tweak ultimately led to a region-wide incident.","intents":["sequence","causal","explanation"]}
+{"id":"q479","query":"Trace the steps from first trial enrollee to protocol amendment approval.","intents":["sequence","interval"]}
+{"id":"q480","query":"Show the timeline of patching across data centers and how it reduced vulnerability exposure.","intents":["interval","sequence","causal"]}
+{"id":"q481","query":"Walk me through critical approvals from concept note to published guideline.","intents":["sequence","interval"]}
+{"id":"q482","query":"Explain why each stage of the rollout was delayed relative to the original plan.","intents":["sequence","explanation","comparative"]}
+{"id":"q483","query":"Show the order in which cities received vaccine shipments and compare coverage outcomes.","intents":["sequence","comparative","aggregation"]}
+{"id":"q484","query":"Explain how multiple upstream outages combined to cause the payments freeze.","intents":["causal","explanation"]}
+{"id":"q485","query":"Which changes over the last quarter likely drove the improvement in SLA compliance?","intents":["interval","causal","explanation"]}
+{"id":"q486","query":"Show all model retraining runs in 2024 and explain why accuracy improved.","intents":["interval","explanation","causal"]}
+{"id":"q487","query":"If we cap inventory at current levels, what happens to backorder rates over the next month?","intents":["prediction","interval"]}
+{"id":"q488","query":"Given current nurse staffing and demand trends, what is ICU capacity risk over winter?","intents":["prediction","interval"]}
+{"id":"q489","query":"Show refunds per week for the last quarter and predict next month's pattern.","intents":["aggregation","interval","prediction"]}
+{"id":"q490","query":"Compare hospital readmission rates this year versus last and predict next year's direction.","intents":["comparative","interval","prediction"]}
+{"id":"q491","query":"Which product cohorts will likely hit profitability first based on their last six quarters?","intents":["comparative","interval","prediction"]}
+{"id":"q492","query":"Show fraud alerts per day this month and estimate tomorrow's volume.","intents":["aggregation","interval","prediction"]}
+{"id":"q493","query":"Explain why variant B adoption lagged variant A despite launching at the same time.","intents":["comparative","explanation","causal"]}
+{"id":"q494","query":"Compare time-to-resolution across P1, P2, and P3 tickets and explain the gaps.","intents":["comparative","aggregation","explanation"]}
+{"id":"q495","query":"Show the last year of outpatient visits and explain weekends versus weekdays.","intents":["interval","aggregation","explanation"]}
+{"id":"q496","query":"Why did call volume fall after we changed the IVR, even though marketing spend stayed flat?","intents":["causal","explanation"]}
+{"id":"q497","query":"When did the new routing rules go live, and explain how they cut latency.","intents":["point_in_time","causal","explanation"]}
+{"id":"q498","query":"Show all major releases this year, when they went out, and why we sequenced them that way.","intents":["interval","point_in_time","sequence","explanation"]}
+{"id":"q499","query":"Compare this quarter's new-ticket volume to last quarter, ignoring root cause for now.","intents":["comparative","interval","aggregation"]}
+{"id":"q500","query":"Show change in daily admissions over the past month, just the counts.","intents":["interval","aggregation"]}
+{"id":"q501","query":"Pull up the whole 2024 deployment timeline so we can visually inspect pacing.","intents":["interval","sequence"]}
+{"id":"q502","query":"Show the full timeline for vaccine rollout across regions without explaining why it differed.","intents":["interval","sequence","comparative"]}
+{"id":"q503","query":"Compare daily active users this week versus the same week last year, numbers only.","intents":["comparative","interval","aggregation"]}
+{"id":"q504","query":"Show ticket counts for each support tier across the last three months.","intents":["interval","aggregation"]}
+{"id":"q505","query":"List when each major incident happened this quarter and how many users it affected.","intents":["point_in_time","aggregation"]}
+{"id":"q506","query":"On which dates did we exceed ICU bed capacity, and by how many beds?","intents":["point_in_time","aggregation"]}
+{"id":"q507","query":"When did each warehouse hit the storage cap, and what happened afterward?","intents":["point_in_time","causal","comparative"]}
+{"id":"q508","query":"Show the days with the highest fraud losses and explain what made them unusual.","intents":["point_in_time","aggregation","explanation","causal"]}
+{"id":"q509","query":"When did the first three data centers complete the migration, and which was fastest?","intents":["point_in_time","comparative","sequence"]}
+{"id":"q510","query":"On which day did marketing pause spend, and what was the immediate traffic impact?","intents":["point_in_time","causal"]}
+{"id":"q511","query":"Show the timeline from breach detection to full containment and highlight bottlenecks.","intents":["sequence","interval","explanation"]}
+{"id":"q512","query":"Trace the order of events from first suspicious login to account lockout.","intents":["sequence"]}
+{"id":"q513","query":"List all emergency policy updates during the outbreak and how they interacted.","intents":["interval","sequence","causal","explanation"]}
+{"id":"q514","query":"Show the chain of logistics handoffs from port arrival to last-mile delivery.","intents":["sequence"]}
+{"id":"q515","query":"Explain why only the second and third waves of layoffs reduced burn meaningfully.","intents":["explanation","causal","sequence"]}
+{"id":"q516","query":"Compare outage durations for January, February, and March without discussing causes.","intents":["comparative","interval","aggregation"]}
+{"id":"q517","query":"How many complaints arrived after-hours each week this quarter?","intents":["aggregation","interval"]}
+{"id":"q518","query":"Show the number of API calls per region per day last month.","intents":["aggregation","interval"]}
+{"id":"q519","query":"Which three weeks this year had the highest call center volume?","intents":["aggregation","interval","comparative"]}
+{"id":"q520","query":"Show me the difference in closed tickets between Team X and Team Y last sprint.","intents":["comparative","aggregation","interval"]}
+{"id":"q521","query":"Over the past 18 months, which release train shipped the most features?","intents":["interval","comparative","aggregation"]}
+{"id":"q522","query":"How many days last quarter did we miss the response-time SLA?","intents":["aggregation","interval"]}
+{"id":"q523","query":"Show ED arrivals per hour yesterday and mark the peak hour only.","intents":["aggregation","interval"]}
+{"id":"q524","query":"Compare ICU mortality across hospitals for 2023, no deeper analysis.","intents":["comparative","interval","aggregation"]}
+{"id":"q525","query":"During late 2024, which region's logistics network appeared most fragile based on incident counts?","intents":["interval","comparative","aggregation","prediction"]}
+{"id":"q526","query":"If we reroute 20% of traffic away from region A, what happens to error rates elsewhere?","intents":["prediction","comparative","causal"]}
+{"id":"q527","query":"Given forecast demand and current fleet size, when do we start missing delivery windows?","intents":["prediction","interval"]}
+{"id":"q528","query":"Which two quarters over the last three years are most likely to repeat next year’s pattern?","intents":["prediction","interval","comparative"]}
+{"id":"q529","query":"Explain why the same incident type resolved faster in 2024 than in 2023.","intents":["explanation","comparative","causal","interval"]}
+{"id":"q530","query":"Show daily ICU occupancy for the last wave and the wave before it, and compare their peaks.","intents":["interval","aggregation","comparative"]}
+{"id":"q531","query":"How many escalations did each product area generate this month, and which stands out?","intents":["aggregation","comparative"]}
+{"id":"q532","query":"Show per-country vaccination counts and highlight any outliers.","intents":["aggregation","comparative"]}
+{"id":"q533","query":"Compare median shipping times across carriers A, B, and C this quarter.","intents":["comparative","aggregation","interval"]}
+{"id":"q534","query":"Which portfolio generated more write-offs in 2024, retail or SME?","intents":["comparative","aggregation","interval"]}
+{"id":"q535","query":"Show policy violations per department and identify the top three offenders.","intents":["aggregation","comparative"]}
+{"id":"q536","query":"How many code deploys did each squad push in the last sprint?","intents":["aggregation","comparative","interval"]}
+{"id":"q537","query":"Explain why winter 2023–2024 had fewer respiratory admissions than the previous winter.","intents":["explanation","comparative","interval","causal"]}
+{"id":"q538","query":"Why did production output increase even though machine downtime stayed constant?","intents":["explanation","causal"]}
+{"id":"q539","query":"Explain why our time-to-fill roles shortened after we centralized recruiting.","intents":["explanation","causal"]}
+{"id":"q540","query":"Walk me through why only the third campaign variant lifted conversion rates.","intents":["explanation","sequence","comparative","causal"]}
+{"id":"q541","query":"What factors likely drove the improvement in mean time to recovery this year?","intents":["causal","interval","explanation"]}
+{"id":"q542","query":"Which changes in the claims workflow were most responsible for the drop in backlogs?","intents":["causal","sequence","explanation"]}
+{"id":"q543","query":"Explain how overlapping maintenance windows and high load combined to cause the outage.","intents":["causal","explanation","sequence"]}
+{"id":"q544","query":"During the past six months, which facility is most likely to breach safety thresholds next?","intents":["interval","prediction","comparative"]}
+{"id":"q545","query":"Given the last four quarters of margin data, which unit is at highest risk of contraction?","intents":["prediction","comparative","interval"]}
+{"id":"q546","query":"If we freeze headcount but workloads rise 20%, what happens to ticket SLAs?","intents":["prediction","causal"]}
+{"id":"q547","query":"Compare predicted bed occupancy across hospitals for the coming flu season.","intents":["prediction","comparative","interval"]}
+{"id":"q548","query":"Under current replenishment rates, when do we run out of critical PPE items?","intents":["prediction","interval"]}
+{"id":"q549","query":"Over the next quarter, which customer tier is most likely to see rising churn?","intents":["prediction","comparative"]}
+{"id":"q550","query":"Show last year's weekly admissions and predict the coming quarter’s pattern.","intents":["interval","aggregation","prediction"]}
+{"id":"q551","query":"When did we first observe the anomaly pattern that appears again this week?","intents":["point_in_time","comparative"]}
+{"id":"q552","query":"On what date did region B overtake region A in revenue?","intents":["point_in_time","comparative"]}
+{"id":"q553","query":"When did the latest policy revision go live compared with the prior one?","intents":["point_in_time","comparative","sequence"]}
+{"id":"q554","query":"On which days this month did ticket volume exceed last month's peak?","intents":["point_in_time","comparative","aggregation"]}
+{"id":"q555","query":"When did average handle time first drop below the 5-minute target?","intents":["point_in_time"]}
+{"id":"q556","query":"List the exact days we breached ICU occupancy thresholds and how they compare with last year.","intents":["point_in_time","aggregation","comparative"]}
+{"id":"q557","query":"When was the last time we saw a similar fraud spike?","intents":["point_in_time","comparative"]}
+{"id":"q558","query":"Show all product launches this year by date, no further detail.","intents":["point_in_time","interval"]}
+{"id":"q559","query":"Across the last three years, which month always shows the highest incident count?","intents":["aggregation","interval","comparative"]}
+{"id":"q560","query":"Show the months with the lowest ICU occupancy over the past five years.","intents":["aggregation","interval","comparative"]}
+{"id":"q561","query":"How many critical security patches were released per month in 2024?","intents":["aggregation","interval"]}
+{"id":"q562","query":"Show the timeline of major feature releases and explain why some were delayed.","intents":["interval","sequence","explanation","causal"]}
+{"id":"q563","query":"When did the API response time first exceed 500ms, and what caused the regression?","intents":["point_in_time","causal"]}
+{"id":"q564","query":"Count the number of customer escalations per week and identify peak weeks.","intents":["aggregation","interval","comparative"]}
+{"id":"q565","query":"Walk through the approval process from requirement to production deployment.","intents":["sequence"]}
+{"id":"q566","query":"Compare error rates across the three microservices and explain the outlier.","intents":["comparative","aggregation","explanation","causal"]}
+{"id":"q567","query":"What happened during the Q2 2025 infrastructure refresh that affected performance?","intents":["interval","causal","explanation"]}
+{"id":"q568","query":"Show all policy changes made in the healthcare domain over the past 24 months.","intents":["interval","sequence"]}
+{"id":"q569","query":"If we increase cache hit rates by 15%, what happens to database load?","intents":["prediction","causal"]}
+{"id":"q570","query":"Between now and year-end, which quarterly target is most at risk?","intents":["prediction","interval","comparative"]}
+{"id":"q571","query":"How many incidents escalated to P1 severity per region last quarter?","intents":["aggregation","comparative","interval"]}
+{"id":"q572","query":"Explain why the second pilot site achieved higher adoption despite identical resources.","intents":["explanation","comparative","causal"]}
+{"id":"q573","query":"Pull all compliance audit findings from 2023–2024 and categorize by risk level.","intents":["interval","aggregation"]}
+{"id":"q574","query":"When was the first alert raised for this anomaly, and what made it initially unclear?","intents":["point_in_time","explanation"]}
+{"id":"q575","query":"Show admission counts per hospital per day for the past three months.","intents":["aggregation","interval"]}
+{"id":"q576","query":"List the exact steps to reproduce the bug and trace its lineage back to root cause.","intents":["sequence","causal"]}
+{"id":"q577","query":"Compare median wait times for urgent vs non-urgent cases across all clinics.","intents":["comparative","aggregation"]}
+{"id":"q578","query":"During the rolling blackouts, what happened to grid stability indicators?","intents":["interval","causal","aggregation"]}
+{"id":"q579","query":"Which infrastructure components are most likely to fail in the next 90 days?","intents":["prediction","comparative"]}
+{"id":"q580","query":"Explain the sequence of events that caused the supply chain disruption.","intents":["sequence","causal","explanation"]}
+{"id":"q581","query":"How many orders were cancelled per day in the week after the price increase?","intents":["aggregation","interval","causal"]}
+{"id":"q582","query":"On what date did we first detect the data inconsistency, and how long before it was resolved?","intents":["point_in_time","interval"]}
+{"id":"q583","query":"Compare the rollback procedures for v1.5 and v2.0 release cycles.","intents":["sequence","comparative"]}
+{"id":"q584","query":"Show all security patches applied per system per month and highlight any gaps.","intents":["aggregation","interval","comparative"]}
+{"id":"q585","query":"When will inventory levels return to optimal if demand stays flat?","intents":["prediction","interval"]}
+{"id":"q586","query":"Walk through the triage workflow from ticket creation to assignment.","intents":["sequence"]}
+{"id":"q587","query":"Explain why response times improved in March despite increased ticket volume.","intents":["explanation","causal","interval"]}
+{"id":"q588","query":"Compare customer satisfaction scores across the three support tiers.","intents":["comparative","aggregation"]}
+{"id":"q589","query":"List all service disruptions in 2025 by duration and frequency.","intents":["aggregation","interval","point_in_time"]}
+{"id":"q590","query":"What cascading failures occurred after the initial database failure?","intents":["sequence","causal"]}
+{"id":"q591","query":"Show deployment frequency per team per quarter and rank them.","intents":["aggregation","interval","comparative"]}
+{"id":"q592","query":"When did compliance violations peak, and what was the enforcement pattern?","intents":["point_in_time","interval","aggregation"]}
+{"id":"q593","query":"If we implement the proposed caching layer, how much latency reduction can we expect?","intents":["prediction","causal"]}
+{"id":"q594","query":"Compare ICU readmission rates for discharged patients across three hospitals.","intents":["comparative","aggregation"]}
+{"id":"q595","query":"Explain why the early adopter cohort has higher lifetime value than mainstream cohort.","intents":["explanation","comparative","causal"]}
+{"id":"q596","query":"Pull all incidents involving third-party integrations and explain their frequency.","intents":["aggregation","explanation","interval"]}
+{"id":"q597","query":"On which date did network latency spike to unacceptable levels?","intents":["point_in_time"]}
+{"id":"q598","query":"Show the sequence of configuration changes leading up to the outage.","intents":["sequence","interval"]}
+{"id":"q599","query":"Count failed transactions per payment processor and identify the weak link.","intents":["aggregation","comparative"]}
+{"id":"q600","query":"During which quarters did customer acquisition costs exceed projections?","intents":["interval","comparative","aggregation"]}
+{"id":"q601","query":"Walk me through why the second marketing campaign outperformed the first.","intents":["explanation","comparative","sequence","causal"]}
+{"id":"q602","query":"Show all urgent maintenance windows and their impact on uptime metrics.","intents":["interval","aggregation","causal"]}
+{"id":"q603","query":"When is the database expected to reach capacity given current growth rates?","intents":["prediction"]}
+{"id":"q604","query":"List all protocol amendments since study initiation and their rationale.","intents":["sequence","explanation"]}
+{"id":"q605","query":"Compare time-to-market for Feature A versus Feature B by release cycle.","intents":["comparative","interval"]}
+{"id":"q606","query":"How many tickets were reopened per support agent last month?","intents":["aggregation","comparative"]}
+{"id":"q607","query":"Explain the regional variance in product adoption rates over the past year.","intents":["explanation","comparative","interval","causal"]}
+{"id":"q608","query":"Show all regulatory filings submitted in 2024 and their approval status.","intents":["aggregation","interval","point_in_time"]}
+{"id":"q609","query":"When did the first security vulnerability get patched, and were there follow-ups?","intents":["point_in_time","sequence"]}
+{"id":"q610","query":"Compare the defect escape rate between the original and revised QA process.","intents":["comparative","aggregation","interval"]}
+{"id":"q611","query":"Pull all customer complaints mentioning latency issues and their resolution time.","intents":["aggregation","explanation","causal"]}
+{"id":"q612","query":"If we scale the API tier horizontally, what capacity improvement should we expect?","intents":["prediction","causal"]}
+{"id":"q613","query":"During each crisis event in 2024, how long until leadership was notified?","intents":["interval","aggregation","point_in_time"]}
+{"id":"q614","query":"Explain why the third test iteration finally yielded passing results.","intents":["explanation","sequence","causal"]}
+{"id":"q615","query":"Show all vendor performance metrics for Q1 2025 side by side.","intents":["interval","aggregation","comparative"]}
+{"id":"q616","query":"When did monthly recurring revenue first exceed quarterly expenses?","intents":["point_in_time"]}
+{"id":"q617","query":"List the exact sequence of approvals before the policy could be enforced.","intents":["sequence"]}
+{"id":"q618","query":"Compare patient outcomes for the treatment group versus control group.","intents":["comparative","aggregation"]}
+{"id":"q619","query":"How many schema migrations were deployed without incident per year?","intents":["aggregation","interval","comparative"]}
+{"id":"q620","query":"Explain the decision to deprecate three legacy APIs at the same time.","intents":["explanation","causal"]}
+{"id":"q621","query":"Show all cost reductions achieved per department in the past 12 months.","intents":["aggregation","interval","comparative"]}
+{"id":"q622","query":"When did the hiring surge begin, and how quickly did we fill open positions?","intents":["point_in_time","interval"]}
+{"id":"q623","query":"Walk through the release candidate validation steps in order.","intents":["sequence"]}
+{"id":"q624","query":"Compare incident duration before and after implementing automated remediation.","intents":["comparative","interval","causal"]}
+{"id":"q625","query":"How many false positives did each anomaly detection model generate per week?","intents":["aggregation","interval","comparative"]}
+{"id":"q626","query":"Explain why the second vendor proposal was selected over the other two.","intents":["explanation","comparative","causal"]}
+{"id":"q627","query":"Pull all system events that preceded each major outage in 2024.","intents":["interval","sequence"]}
+{"id":"q628","query":"When did we first observe the memory leak, and when was it fully contained?","intents":["point_in_time","interval","sequence"]}
+{"id":"q629","query":"Show weekly utilization rates for each data center and spot underutilized capacity.","intents":["aggregation","interval","comparative"]}
+{"id":"q630","query":"Which regions will likely need additional capacity by year-end?","intents":["prediction","comparative","interval"]}
+{"id":"q631","query":"List all customer communications about service degradation in the past six months.","intents":["aggregation","interval"]}
+{"id":"q632","query":"Explain the correlation between staffing levels and ticket resolution time.","intents":["explanation","causal"]}
+{"id":"q633","query":"Compare the feature roadmap execution rate for backend versus frontend teams.","intents":["comparative","aggregation","interval"]}
+{"id":"q634","query":"When was the last time error rates returned to baseline after a spike?","intents":["point_in_time","interval"]}
+{"id":"q635","query":"Show all rollback events and explain what triggered each one.","intents":["aggregation","explanation","causal"]}
+{"id":"q636","query":"During the pilot phase, how many issues were identified per week on average?","intents":["aggregation","interval"]}
+{"id":"q637","query":"If we compress deployment cycles from monthly to weekly, what's the estimated defect impact?","intents":["prediction","causal"]}
+{"id":"q638","query":"Compare SLA compliance across all support channels for Q1 2025.","intents":["comparative","aggregation","interval"]}
+{"id":"q639","query":"Walk through the incident escalation hierarchy and decision criteria at each level.","intents":["sequence","explanation"]}
+{"id":"q640","query":"Show all process improvements implemented since the last audit.","intents":["interval","sequence","aggregation"]}
+{"id":"q641","query":"When did the first customer churn occur after the pricing change?","intents":["point_in_time","causal"]}
+{"id":"q642","query":"List all database schema changes deployed in the past year by risk level.","intents":["aggregation","interval","comparative"]}
+{"id":"q643","query":"Explain why the alternate architecture was ultimately rejected despite its benefits.","intents":["explanation","comparative","causal"]}
+{"id":"q644","query":"Compare code review cycle time between the legacy and new backend services.","intents":["comparative","aggregation"]}
+{"id":"q645","query":"Show all high-severity incidents per month and identify any seasonal patterns.","intents":["aggregation","interval"]}
+{"id":"q646","query":"On which dates did we exceed the backup SLA, and what was the impact?","intents":["point_in_time","aggregation","causal"]}
+{"id":"q647","query":"Walk me through the contract negotiation timeline with Vendor X.","intents":["sequence","interval"]}
+{"id":"q648","query":"Explain the technical decision to migrate from database A to database B.","intents":["explanation","causal"]}
+{"id":"q649","query":"Compare new feature adoption rates across user segments for the past quarter.","intents":["comparative","aggregation","interval"]}
+{"id":"q650","query":"How many experiments reached statistical significance per product team per quarter?","intents":["aggregation","interval","comparative"]}
+{"id":"q651","query":"When will the current compute capacity be exhausted at the current growth rate?","intents":["prediction"]}
+{"id":"q652","query":"Show all policy exceptions granted per department per quarter.","intents":["aggregation","interval","comparative"]}
+{"id":"q653","query":"Explain why the redesigned onboarding flow reduced drop-off rates.","intents":["explanation","causal"]}
+{"id":"q654","query":"List all infrastructure investments made per business unit in 2024.","intents":["aggregation","interval"]}
+{"id":"q655","query":"When did the security audit identify the vulnerability that led to the breach?","intents":["point_in_time","sequence","causal"]}
+{"id":"q656","query":"Compare customer retention rates before and after the feature launch.","intents":["comparative","interval","causal"]}
+{"id":"q657","query":"How many performance regressions were detected per release cycle?","intents":["aggregation","interval","comparative"]}
+{"id":"q658","query":"Pull all customer satisfaction feedback mentioning a specific pain point.","intents":["aggregation"]}
+{"id":"q659","query":"Explain the sequence of market events that led to the price adjustment.","intents":["sequence","causal","explanation"]}
+{"id":"q660","query":"Show response time percentiles per service per day for the past week.","intents":["aggregation","interval","comparative"]}
+{"id":"q661","query":"When did the new SLA come into effect, and how has compliance tracked since then?","intents":["point_in_time","interval","causal"]}
+{"id":"q662","query":"List all known limitations of the current system architecture.","intents":["aggregation"]}
+{"id":"q663","query":"Compare the mean time to recovery across the three major incident categories.","intents":["comparative","aggregation"]}
+{"id":"q664","query":"If the growth rate accelerates by 25%, what infrastructure challenges emerge?","intents":["prediction","causal"]}
+{"id":"q665","query":"Walk through the complete customer lifecycle from signup to churn.","intents":["sequence"]}
+{"id":"q666","query":"Explain why engagement metrics diverged between the test group and control group.","intents":["explanation","comparative","causal"]}
+{"id":"q667","query":"Show all API deprecation announcements and their timeline to removal.","intents":["aggregation","interval","sequence"]}
+{"id":"q668","query":"When did we first see signs of the coming supply chain crisis?","intents":["point_in_time"]}
+{"id":"q669","query":"Count the number of bugs fixed per development sprint this quarter.","intents":["aggregation","interval"]}
+{"id":"q670","query":"Compare the feature request backlog size month-over-month for the past year.","intents":["comparative","aggregation","interval"]}
+{"id":"q671","query":"Explain the business rationale behind the product bundling strategy.","intents":["explanation","causal"]}
+{"id":"q672","query":"Show all compliance violations per category per region in 2024.","intents":["aggregation","comparative","interval"]}
+{"id":"q673","query":"When was the decision made to sunset the legacy platform?","intents":["point_in_time"]}
+{"id":"q674","query":"List the phases of the migration strategy and their expected durations.","intents":["sequence","interval"]}
+{"id":"q675","query":"Compare resource utilization across production, staging, and development environments.","intents":["comparative","aggregation"]}
+{"id":"q676","query":"How many security incidents would we expect next quarter based on historical trends?","intents":["prediction","interval"]}
+{"id":"q677","query":"Walk through the approval matrix for changes of varying risk levels.","intents":["sequence","explanation"]}
+{"id":"q678","query":"Explain why the first release candidate was rejected before the second one passed.","intents":["explanation","sequence","comparative"]}
+{"id":"q679","query":"Show all customer success interventions performed per account per month.","intents":["aggregation","interval","comparative"]}
+{"id":"q680","query":"When did usage patterns shift from batch processing to real-time queries?","intents":["point_in_time","causal"]}
+{"id":"q681","query":"Count the number of commits per developer per sprint and identify outliers.","intents":["aggregation","interval","comparative"]}
+{"id":"q682","query":"Explain the technical debt accumulation over the past two years.","intents":["explanation","interval","causal"]}
+{"id":"q683","query":"Compare build times across the three primary deployment pipelines.","intents":["comparative","aggregation"]}
+{"id":"q684","query":"How many security patches are we running behind on critical systems?","intents":["aggregation"]}
+{"id":"q685","query":"Pull all incidents marked as preventable and identify their common causes.","intents":["aggregation","explanation","causal"]}
+{"id":"q686","query":"When will current staffing levels become insufficient for projected workload?","intents":["prediction","interval"]}
+{"id":"q687","query":"Walk through the entire product roadmap for the next 18 months.","intents":["sequence","interval"]}
+{"id":"q688","query":"Explain why certain regions showed different adoption curves despite identical marketing.","intents":["explanation","comparative","causal"]}
+{"id":"q689","query":"Show all capacity planning recommendations per data center.","intents":["aggregation"]}
+{"id":"q690","query":"Compare customer churn cohorts by acquisition channel and identify patterns.","intents":["comparative","aggregation","causal"]}
+{"id":"q691","query":"When did the infrastructure team first flag the impending capacity issue?","intents":["point_in_time"]}
+{"id":"q692","query":"List all architecture decision records from the past 12 months.","intents":["aggregation","interval"]}
+{"id":"q693","query":"Explain the implications of adopting the proposed API versioning strategy.","intents":["explanation","causal"]}
+{"id":"q694","query":"Show cost per transaction across all processing channels per month.","intents":["aggregation","interval","comparative"]}
+{"id":"q695","query":"How many duplicate records were identified in the database audit?","intents":["aggregation"]}
+{"id":"q696","query":"Compare mean time between failures for the three critical systems.","intents":["comparative","aggregation"]}
+{"id":"q697","query":"Explain why downtime events have become more frequent despite improved monitoring.","intents":["explanation","causal","interval"]}
+{"id":"q698","query":"Show all third-party dependency updates applied per quarter.","intents":["aggregation","interval"]}
+{"id":"q699","query":"When did monthly active users first plateau, and what factors contributed?","intents":["point_in_time","causal"]}
+{"id":"q700","query":"List the prerequisites for reaching the proposed scalability targets.","intents":["sequence"]}
+{"id":"q701","query":"Compare incident response times before and after the new on-call rotation.","intents":["comparative","interval","causal"]}
+{"id":"q702","query":"How many customer escalations could have been prevented with earlier intervention?","intents":["aggregation","causal"]}
+{"id":"q703","query":"Explain the root causes of the top five customer complaints this quarter.","intents":["explanation","causal","aggregation"]}
+{"id":"q704","query":"Show all SLA breaches per customer per month in 2024.","intents":["aggregation","interval","comparative"]}
+{"id":"q705","query":"When did we first exhaust the contingency budget, and what was the impact?","intents":["point_in_time","causal"]}
+{"id":"q706","query":"Walk through the complete post-mortem process for major incidents.","intents":["sequence","explanation"]}
+{"id":"q707","query":"Explain why the performance improvements in v2.1 exceeded expectations.","intents":["explanation","causal"]}
+{"id":"q708","query":"Compare customer acquisition cost across the three primary channels per quarter.","intents":["comparative","aggregation","interval"]}
+{"id":"q709","query":"How many process improvements were suggested by frontline staff this year?","intents":["aggregation","interval"]}
+{"id":"q710","query":"Show all system failures that were automatically detected versus manually reported.","intents":["aggregation","comparative"]}
+{"id":"q711","query":"When will the current technology stack become unsustainable for supporting growth?","intents":["prediction"]}
+{"id":"q712","query":"List all customer wins directly attributed to product improvements.","intents":["aggregation"]}
+{"id":"q713","query":"Explain the decision tree for escalating issues to the executive team.","intents":["sequence","explanation"]}
+{"id":"q714","query":"Compare the accuracy of our forecasts versus actual outcomes per quarter.","intents":["comparative","interval"]}
+{"id":"q715","query":"Show all risk assessments conducted per project per year.","intents":["aggregation","interval"]}
+{"id":"q716","query":"When did customer feedback start driving the product roadmap?","intents":["point_in_time"]}
+{"id":"q717","query":"Walk through the complete vendor selection process for critical systems.","intents":["sequence"]}
+{"id":"q718","query":"Explain why the same improvement initiative succeeded in region A but failed in region B.","intents":["explanation","comparative","causal"]}
+{"id":"q719","query":"Show all system configurations that diverge from the documented standard.","intents":["aggregation"]}
+{"id":"q720","query":"How many critical findings from the last audit remain unresolved?","intents":["aggregation"]}
+{"id":"q721","query":"Compare employee engagement scores across teams per quarter.","intents":["comparative","aggregation","interval"]}
+{"id":"q722","query":"Explain the cost-benefit tradeoff of the proposed infrastructure upgrade.","intents":["explanation","causal"]}
+{"id":"q723","query":"Show all instances where automation could have prevented an incident.","intents":["aggregation"]}
+{"id":"q724","query":"When did the first signs of market saturation appear in our user growth?","intents":["point_in_time"]}
+{"id":"q725","query":"List all customer segments showing signs of declining engagement.","intents":["aggregation"]}
+{"id":"q726","query":"Compare the effectiveness of the three competing mitigation strategies.","intents":["comparative","causal"]}
+{"id":"q727","query":"Show the timeline of regulatory changes that impacted our business in 2024.","intents":["interval","point_in_time"]}
+{"id":"q728","query":"How many one-time exceptions to policy were granted per month?","intents":["aggregation","interval"]}
+{"id":"q729","query":"Explain why the proposed cost reduction initiative may backfire operationally.","intents":["explanation","causal"]}
+{"id":"q730","query":"Walk through the sequence of decisions that led to the platform shutdown.","intents":["sequence","explanation","causal"]}
+{"id":"q731","query":"Compare code quality metrics across repositories per programming language.","intents":["comparative","aggregation"]}
+{"id":"q732","query":"Show all vendor performance issues that escalated to contract discussions.","intents":["aggregation","causal"]}
+{"id":"q733","query":"When did we first recognize the strategic opportunity that led to the acquisition?","intents":["point_in_time"]}
+{"id":"q734","query":"List the dependencies that must be resolved before the major refactor can begin.","intents":["sequence"]}
+{"id":"q735","query":"Explain the surprising divergence between predicted and actual customer behavior.","intents":["explanation","causal","comparative"]}
+{"id":"q736","query":"Show all policy waivers granted per business unit per year.","intents":["aggregation","interval","comparative"]}
+{"id":"q737","query":"How many customers were impacted by each major incident in 2024?","intents":["aggregation","point_in_time"]}
+{"id":"q738","query":"Compare the long-term retention of early cohorts versus recent cohorts.","intents":["comparative","interval"]}
+{"id":"q739","query":"Explain why the experimental feature outperformed all baseline variants.","intents":["explanation","causal"]}
+{"id":"q740","query":"Show the breakdown of support tickets by reason and identify improvement areas.","intents":["aggregation","explanation","causal"]}
+{"id":"q741","query":"When did the market conditions change in a way that required strategy pivot?","intents":["point_in_time","causal"]}
+{"id":"q742","query":"Walk through the complete change management process for production deployments.","intents":["sequence"]}
+{"id":"q743","query":"Explain why two seemingly identical implementations had vastly different outcomes.","intents":["explanation","comparative","causal"]}
+{"id":"q744","query":"Compare the burn rate at different growth stages over the company history.","intents":["comparative","interval"]}
+{"id":"q745","query":"Show all assumptions embedded in the current business model.","intents":["aggregation"]}
+{"id":"q746","query":"How many metrics are we tracking versus the number we can meaningfully act on?","intents":["aggregation","comparative"]}
+{"id":"q747","query":"Explain the cascade of events from the initial product decision to market exit.","intents":["sequence","explanation","causal"]}
+{"id":"q748","query":"Show all high-impact items completed per quarter versus originally planned.","intents":["aggregation","interval","comparative"]}
+{"id":"q749","query":"When did the competitive landscape shift in a way that disadvantaged us?","intents":["point_in_time","causal"]}
+{"id":"q750","query":"List all customer commitments we failed to meet in the past year.","intents":["aggregation","interval"]}
+{"id":"q751","query":"Explain why geographic expansion succeeded in market A but stalled in market B.","intents":["explanation","comparative","causal"]}
+{"id":"q752","query":"Compare the product roadmap alignment between engineering and product management.","intents":["comparative"]}
+{"id":"q753","query":"Show all instances where customer feedback directly influenced product decisions.","intents":["aggregation"]}
+{"id":"q754","query":"How many critical capabilities are we missing compared to leading competitors?","intents":["aggregation","comparative"]}
+{"id":"q755","query":"Explain the strategic importance of the proposed partnership.","intents":["explanation","causal"]}
+{"id":"q756","query":"Show the complete evolution of our go-to-market strategy since inception.","intents":["sequence","interval"]}
+{"id":"q757","query":"When did we first achieve profitability per business line?","intents":["point_in_time"]}
+{"id":"q758","query":"List all major customer complaints that could have been avoided.","intents":["aggregation","causal"]}
+{"id":"q759","query":"Compare the relative importance of our top five revenue drivers.","intents":["comparative","aggregation"]}
+{"id":"q760","query":"Explain why the original product vision had to be significantly compromised.","intents":["explanation","causal"]}
+{"id":"q761","query":"Show the timeline of organizational changes and their correlation with performance shifts.","intents":["interval","sequence","comparative","causal"]}
+{"id":"q762","query":"How many customer acquisition channels have we tested and what was the ROI per channel?","intents":["aggregation","comparative"]}
+{"id":"q763","query":"Explain the hidden costs that weren't apparent in the original proposal.","intents":["explanation","causal"]}
+{"id":"q764","query":"Walk through the complete financial model assumptions underlying our growth forecast.","intents":["sequence","explanation"]}
+{"id":"q765","query":"Show all strategic initiatives that were postponed or cancelled per year.","intents":["aggregation","interval"]}
+{"id":"q766","query":"Compare our actual trajectory versus the original business plan projections.","intents":["comparative","interval"]}
+{"id":"q767","query":"When did we realize that a key market assumption was fundamentally wrong?","intents":["point_in_time","causal"]}
+{"id":"q768","query":"List the dependencies we created that now constrain our ability to pivot.","intents":["aggregation","causal"]}
+{"id":"q769","query":"Explain why the cheaper solution ultimately became more expensive than the premium alternative.","intents":["explanation","comparative","causal"]}
+{"id":"q770","query":"Show the evolution of our competitive positioning over the past three years.","intents":["interval","sequence","comparative"]}
+{"id":"q771","query":"How many process bottlenecks have we identified but not yet fixed?","intents":["aggregation"]}
+{"id":"q772","query":"Compare the effectiveness of different customer retention strategies by cohort.","intents":["comparative","aggregation"]}
+{"id":"q773","query":"Explain why the majority of churn happens within the first 90 days.","intents":["explanation","causal"]}
+{"id":"q774","query":"Show all external market events that significantly impacted our business in 2024.","intents":["interval","aggregation","causal"]}
+{"id":"q775","query":"When did we first recognize that we needed to fundamentally retool the product?","intents":["point_in_time"]}
+{"id":"q776","query":"Walk me through the complete post-acquisition integration plan and timeline.","intents":["sequence","interval"]}
+{"id":"q777","query":"Explain the surprising finding from the latest customer research study.","intents":["explanation"]}
+{"id":"q778","query":"Compare customer lifetime value across the three primary customer segments.","intents":["comparative","aggregation"]}
+{"id":"q779","query":"Show all strategic bets we made that did not pan out as expected.","intents":["aggregation"]}
+{"id":"q780","query":"How many false starts did we have before landing on the current product-market fit?","intents":["aggregation"]}
+{"id":"q781","query":"Explain why the initial go-to-market strategy had to be completely abandoned.","intents":["explanation","causal"]}
+{"id":"q782","query":"Show the timeline of investor sentiment shifts correlated with company milestones.","intents":["interval","point_in_time","comparative"]}
+{"id":"q783","query":"When did we exhaust our initial capital runway, and what happened next?","intents":["point_in_time","sequence","causal"]}
+{"id":"q784","query":"List all critical hires that proved transformational for the business.","intents":["aggregation"]}
+{"id":"q785","query":"Explain the unexpected consequences of the organizational restructuring.","intents":["explanation","causal"]}
+{"id":"q786","query":"Compare the long-term value creation strategies of our three closest competitors.","intents":["comparative"]}
+{"id":"q787","query":"Show all pivots we have made and the business justification for each.","intents":["sequence","interval","explanation"]}
+{"id":"q788","query":"How many market opportunities have we missed due to resource constraints?","intents":["aggregation"]}
+{"id":"q789","query":"Explain why the product feature request backlog keeps growing faster than we can deliver.","intents":["explanation","causal","interval"]}
+{"id":"q790","query":"Walk through the sequence of decisions that shaped our current market position.","intents":["sequence","interval","causal","explanation"]}
+{"id":"q791","query":"Show all partnerships we pursued and which ones actually generated value.","intents":["aggregation","causal"]}
+{"id":"q792","query":"When did employee satisfaction scores start declining, and what were the contributing factors?","intents":["point_in_time","causal","interval"]}
+{"id":"q793","query":"List the key assumptions that could still invalidate our growth trajectory.","intents":["aggregation","causal"]}
+{"id":"q794","query":"Compare the talent retention rates across departments and identify flight risks.","intents":["comparative","aggregation"]}
+{"id":"q795","query":"Explain why the most technically elegant solution is not always the best choice.","intents":["explanation"]}
+{"id":"q796","query":"Show the timeline of competitive threats and how we responded to each.","intents":["interval","point_in_time","sequence","causal"]}
+{"id":"q797","query":"How many experiments with negative results gave us crucial insights?","intents":["aggregation"]}
+{"id":"q798","query":"Explain the hidden patterns in customer churn that suggest a deeper issue.","intents":["explanation","causal"]}
+{"id":"q799","query":"Compare the trajectory of successful employees versus those who burned out.","intents":["comparative","interval","causal"]}
+{"id":"q800","query":"Show all lessons learned from failed initiatives that shaped our current culture.","intents":["aggregation","sequence","explanation"]}
+{"id":"q801","query":"When did the market dynamics shift in a way that made our original thesis obsolete?","intents":["point_in_time","causal"]}
+{"id":"q802","query":"Walk through the evolution of our values and how they manifested in business decisions.","intents":["sequence","interval","explanation"]}
+{"id":"q803","query":"List all technical decisions we made that created lasting competitive advantages.","intents":["aggregation"]}
+{"id":"q804","query":"Explain why some of our smartest people keep leaving the company.","intents":["explanation","causal"]}
+{"id":"q805","query":"Compare the public narrative we tell about our success versus private reality.","intents":["comparative","explanation"]}
+{"id":"q806","query":"Show the timeline of inflection points that could have redirected the company trajectory.","intents":["interval","point_in_time","sequence"]}
+{"id":"q807","query":"How many times did we almost run out of runway, and what saved us?","intents":["aggregation","causal"]}
+{"id":"q808","query":"Explain the surprising finding about our most loyal customers.","intents":["explanation"]}
+{"id":"q809","query":"Compare the diversity metrics across hiring cohorts and identify trends.","intents":["comparative","aggregation","interval"]}
+{"id":"q810","query":"Show all instances where we sacrificed quality for speed and the long-term consequences.","intents":["aggregation","causal","explanation"]}
+{"id":"q811","query":"When did we first realize that our business model was unsustainable at scale?","intents":["point_in_time","causal"]}
+{"id":"q812","query":"Walk through the complete incident post-mortem from the biggest outage in our history.","intents":["sequence","explanation","causal"]}
+{"id":"q813","query":"List all strategic partnerships that exceeded or fell short of expectations.","intents":["aggregation","comparative"]}
+{"id":"q814","query":"Explain why the second attempt at a feature succeeded where the first failed.","intents":["explanation","sequence","comparative","causal"]}
+{"id":"q815","query":"Compare the efficiency metrics of remote versus in-office teams.","intents":["comparative","aggregation"]}
+{"id":"q816","query":"Show the evolution of our customer success metrics and what changed the trajectory.","intents":["interval","sequence","causal","explanation"]}
+{"id":"q817","query":"How many customer relationships were damaged by a single incident?","intents":["aggregation","causal"]}
+{"id":"q818","query":"Explain the correlation between team morale and product quality metrics.","intents":["explanation","causal"]}
+{"id":"q819","query":"Compare the strategic plans across three major business units and identify conflicts.","intents":["comparative","aggregation"]}
+{"id":"q820","query":"Show all historical board decisions that were later questioned.","intents":["aggregation","interval"]}
+{"id":"q821","query":"When was the last time we fundamentally rethought our approach to the problem?","intents":["point_in_time"]}
+{"id":"q822","query":"Walk through the decision framework used for our biggest strategic bets.","intents":["sequence","explanation"]}
+{"id":"q823","query":"List all technical debt items and estimate the payoff of addressing each.","intents":["aggregation"]}
+{"id":"q824","query":"Explain why we continue investing in markets that show poor unit economics.","intents":["explanation","causal"]}
+{"id":"q825","query":"Compare the relative health of our three largest customer accounts.","intents":["comparative","aggregation"]}
+{"id":"q826","query":"Show all instances where we proved skeptics wrong and justified the risk.","intents":["aggregation","sequence"]}
+{"id":"q827","query":"How many critical insights came from customers versus internal data?","intents":["aggregation","comparative"]}
+{"id":"q828","query":"Explain the changing relationship between engineering and product over time.","intents":["explanation","interval","causal"]}
+{"id":"q829","query":"Compare the effectiveness of different go-to-market approaches across product lines.","intents":["comparative","aggregation"]}
+{"id":"q830","query":"Show the timeline of our most successful product launches and what made them work.","intents":["interval","point_in_time","sequence","explanation"]}
+{"id":"q831","query":"When did we stop being scrappy and start being corporate, and was it necessary?","intents":["point_in_time","causal"]}
+{"id":"q832","query":"Walk through the complete customer success playbook that drives our retention.","intents":["sequence"]}
+{"id":"q833","query":"List the assumptions embedded in our financial forecasts that have proven wrong.","intents":["aggregation"]}
+{"id":"q834","query":"Explain why the simple solution always ends up being the most powerful.","intents":["explanation"]}
+{"id":"q835","query":"Compare the decision-making velocity of different teams and organizational structures.","intents":["comparative","aggregation"]}
+{"id":"q836","query":"Show all critical near-misses that could have been catastrophic if timing was different.","intents":["aggregation","causal"]}
+{"id":"q837","query":"How many of our top performers credit a specific experience or mentor?","intents":["aggregation"]}
+{"id":"q838","query":"Explain the hidden costs of maintaining legacy systems that no one wants to address.","intents":["explanation","causal"]}
+{"id":"q839","query":"Compare the product vision across three distinct periods of company evolution.","intents":["comparative","interval"]}
+{"id":"q840","query":"Show the timeline of talent acquisitions and how they influenced product direction.","intents":["interval","sequence","causal"]}
+{"id":"q841","query":"When did we realize our hiring bar was either too high or too low?","intents":["point_in_time","causal"]}
+{"id":"q842","query":"Walk through the complete customer advisory board feedback loop.","intents":["sequence"]}
+{"id":"q843","query":"List all competitive threats that evolved differently than we predicted.","intents":["aggregation","causal"]}
+{"id":"q844","query":"Explain the surprising shift in customer preferences that required product pivots.","intents":["explanation","causal","interval"]}
+{"id":"q845","query":"Compare the efficiency of centralized versus distributed decision-making structures.","intents":["comparative","causal"]}
+{"id":"q846","query":"Show all instances where customer obsession conflicted with operational efficiency.","intents":["aggregation","comparative"]}
+{"id":"q847","query":"How many product features were used by less than 5% of customers?","intents":["aggregation"]}
+{"id":"q848","query":"Explain why we continue to pursue a market segment that has low unit economics.","intents":["explanation","causal"]}
+{"id":"q849","query":"Compare the strategic importance of building versus buying capabilities.","intents":["comparative"]}
+{"id":"q850","query":"Show the complete history of our pivot decisions and their long-term impact.","intents":["interval","sequence","comparative","causal"]}
+{"id": "q851", "query": "What date did the compliance review conclude?", "intents": ["point_in_time"]}
+{"id": "q852", "query": "When was the ransomware attack first detected?", "intents": ["point_in_time"]}
+{"id": "q853", "query": "On which day did we hit the million-user milestone?", "intents": ["point_in_time"]}
+{"id": "q854", "query": "When did the executive team approve the new org structure?", "intents": ["point_in_time"]}
+{"id": "q855", "query": "What time did the certificate expire causing the outage?", "intents": ["point_in_time"]}
+{"id": "q856", "query": "When was the final contract signed with the distributor?", "intents": ["point_in_time"]}
+{"id": "q857", "query": "On what date did the API gateway go live?", "intents": ["point_in_time"]}
+{"id": "q858", "query": "When did quarterly revenue first drop year-over-year?", "intents": ["point_in_time"]}
+{"id": "q859", "query": "Show me the exact date the patent was filed.", "intents": ["point_in_time"]}
+{"id": "q860", "query": "When did the third-party vendor breach occur?", "intents": ["point_in_time"]}
+{"id": "q861", "query": "On which day did we announce the layoffs publicly?", "intents": ["point_in_time"]}
+{"id": "q862", "query": "When was the emergency maintenance window scheduled?", "intents": ["point_in_time"]}
+{"id": "q863", "query": "What date marked our entry into the Japanese market?", "intents": ["point_in_time"]}
+{"id": "q864", "query": "When did the CFO resign?", "intents": ["point_in_time"]}
+{"id": "q865", "query": "On what specific day did latency cross the 2-second threshold?", "intents": ["point_in_time"]}
+{"id": "q866", "query": "When was the first customer complaint about the redesign logged?", "intents": ["point_in_time"]}
+{"id": "q867", "query": "Show the date when we switched cloud providers.", "intents": ["point_in_time"]}
+{"id": "q868", "query": "When did the antitrust investigation begin?", "intents": ["point_in_time"]}
+{"id": "q869", "query": "On which date did we deprecate the legacy authentication system?", "intents": ["point_in_time"]}
+{"id": "q870", "query": "When was the board meeting where the pivot was decided?", "intents": ["point_in_time"]}
+{"id": "q871", "query": "What date did the quarterly compliance audit start?", "intents": ["point_in_time"]}
+{"id": "q872", "query": "When did we first observe the memory corruption issue?", "intents": ["point_in_time"]}
+{"id": "q873", "query": "On what day did the marketing campaign go live?", "intents": ["point_in_time"]}
+{"id": "q874", "query": "When was the disaster recovery plan last tested?", "intents": ["point_in_time"]}
+{"id": "q875", "query": "What date did the new pricing take effect?", "intents": ["point_in_time"]}
+{"id": "q876", "query": "When did the fraud detection system flag the anomaly?", "intents": ["point_in_time"]}
+{"id": "q877", "query": "On which day did inventory reach critically low levels?", "intents": ["point_in_time"]}
+{"id": "q878", "query": "When was the strategic partnership officially announced?", "intents": ["point_in_time"]}
+{"id": "q879", "query": "What date did the privacy policy update go into effect?", "intents": ["point_in_time"]}
+{"id": "q880", "query": "When did the load balancer fail over to the backup?", "intents": ["point_in_time"]}
+{"id": "q881", "query": "On what day did we cross 10k daily transactions?", "intents": ["point_in_time"]}
+{"id": "q882", "query": "When was the zero-day vulnerability disclosed?", "intents": ["point_in_time"]}
+{"id": "q883", "query": "Show me when the acquisition closed.", "intents": ["point_in_time"]}
+{"id": "q884", "query": "When did the regional office officially open?", "intents": ["point_in_time"]}
+{"id": "q885", "query": "On which date did we implement the new commission structure?", "intents": ["point_in_time"]}
+{"id": "q886", "query": "Show all feature releases during the last 90 days.", "intents": ["interval"]}
+{"id": "q887", "query": "Pull up incidents across the entire 2023 fiscal year.", "intents": ["interval"]}
+{"id": "q888", "query": "List events from the beta testing phase.", "intents": ["interval"]}
+{"id": "q889", "query": "Retrieve all changes made during the migration window.", "intents": ["interval"]}
+{"id": "q890", "query": "Show everything that happened in Q4 2024 for the supply chain.", "intents": ["interval"]}
+{"id": "q891", "query": "Pull all transactions between midnight and 6am yesterday.", "intents": ["interval"]}
+{"id": "q892", "query": "Show incidents during the holiday shopping season.", "intents": ["interval"]}
+{"id": "q893", "query": "List all policy updates from January through March 2025.", "intents": ["interval"]}
+{"id": "q894", "query": "Retrieve events across the entire clinical trial duration.", "intents": ["interval"]}
+{"id": "q895", "query": "Show all deployments made over the past two weeks.", "intents": ["interval"]}
+{"id": "q896", "query": "Pull everything logged during the incident response window.", "intents": ["interval"]}
+{"id": "q897", "query": "List changes between version 3.1 and version 4.0.", "intents": ["interval"]}
+{"id": "q898", "query": "Show all customer interactions during the onboarding period.", "intents": ["interval"]}
+{"id": "q899", "query": "Retrieve audit logs from the past 30 days.", "intents": ["interval"]}
+{"id": "q900", "query": "Pull all alerts generated over the weekend outage.", "intents": ["interval"]}
+{"id": "q901", "query": "Show transactions for the previous quarter only.", "intents": ["interval"]}
+{"id": "q902", "query": "List all modifications during the code freeze period.", "intents": ["interval"]}
+{"id": "q903", "query": "Retrieve events from the pre-launch testing phase.", "intents": ["interval"]}
+{"id": "q904", "query": "Show all communications sent in the last 48 hours.", "intents": ["interval"]}
+{"id": "q905", "query": "Pull system metrics from the performance testing window.", "intents": ["interval"]}
+{"id": "q906", "query": "List all regulatory submissions across 2022\u20132024.", "intents": ["interval"]}
+{"id": "q907", "query": "Show events during the merger integration period.", "intents": ["interval"]}
+{"id": "q908", "query": "Retrieve all data from the pilot program timeframe.", "intents": ["interval"]}
+{"id": "q909", "query": "Pull changes made during the emergency patch window.", "intents": ["interval"]}
+{"id": "q910", "query": "Show activity logs for the training period.", "intents": ["interval"]}
+{"id": "q911", "query": "List all customer churn events in the past six months.", "intents": ["interval"]}
+{"id": "q912", "query": "Retrieve incidents from the post-deployment monitoring period.", "intents": ["interval"]}
+{"id": "q913", "query": "Show all expense reports submitted last quarter.", "intents": ["interval"]}
+{"id": "q914", "query": "Pull database queries executed during peak hours yesterday.", "intents": ["interval"]}
+{"id": "q915", "query": "List security scans performed across the year.", "intents": ["interval"]}
+{"id": "q916", "query": "Show all customer feedback collected during the survey period.", "intents": ["interval"]}
+{"id": "q917", "query": "Retrieve sales data from the promotional campaign window.", "intents": ["interval"]}
+{"id": "q918", "query": "Pull all configuration changes made over the past month.", "intents": ["interval"]}
+{"id": "q919", "query": "Show events throughout the entire warranty period.", "intents": ["interval"]}
+{"id": "q920", "query": "List all hires made during the expansion phase.", "intents": ["interval"]}
+{"id": "q921", "query": "Walk through the complete patient intake workflow.", "intents": ["sequence"]}
+{"id": "q922", "query": "List the stages of the procurement process in order.", "intents": ["sequence"]}
+{"id": "q923", "query": "Show the step-by-step drug approval pathway.", "intents": ["sequence"]}
+{"id": "q924", "query": "Trace the order of events from alert to resolution.", "intents": ["sequence"]}
+{"id": "q925", "query": "Describe the escalation sequence for critical bugs.", "intents": ["sequence"]}
+{"id": "q926", "query": "Walk me through the complete onboarding flow for new hires.", "intents": ["sequence"]}
+{"id": "q927", "query": "Show the progression from lead to closed deal.", "intents": ["sequence"]}
+{"id": "q928", "query": "List the phases of the construction project chronologically.", "intents": ["sequence"]}
+{"id": "q929", "query": "Detail the sequence of quality control checkpoints.", "intents": ["sequence"]}
+{"id": "q930", "query": "Walk through the claim adjudication process step by step.", "intents": ["sequence"]}
+{"id": "q931", "query": "Show how a transaction flows through all processing stages.", "intents": ["sequence"]}
+{"id": "q932", "query": "Trace the deployment pipeline from commit to production.", "intents": ["sequence"]}
+{"id": "q933", "query": "List the order of reviews before publishing content.", "intents": ["sequence"]}
+{"id": "q934", "query": "Show the sequence of surgical procedure steps.", "intents": ["sequence"]}
+{"id": "q935", "query": "Walk through the manufacturing assembly line stages.", "intents": ["sequence"]}
+{"id": "q936", "query": "Detail the order of approvals for capital expenditures.", "intents": ["sequence"]}
+{"id": "q937", "query": "Show the progression of a ticket through support tiers.", "intents": ["sequence"]}
+{"id": "q938", "query": "Trace the order in which systems were brought back online.", "intents": ["sequence"]}
+{"id": "q939", "query": "List the stages from product ideation to market launch.", "intents": ["sequence"]}
+{"id": "q940", "query": "Walk through the complete loan origination process.", "intents": ["sequence"]}
+{"id": "q941", "query": "Show how data flows through the ETL pipeline.", "intents": ["sequence"]}
+{"id": "q942", "query": "Detail the sequence of tests in the QA suite.", "intents": ["sequence"]}
+{"id": "q943", "query": "List the order of failover mechanisms that triggered.", "intents": ["sequence"]}
+{"id": "q944", "query": "Walk through the employee performance review cycle.", "intents": ["sequence"]}
+{"id": "q945", "query": "Show the sequence of authentication checks.", "intents": ["sequence"]}
+{"id": "q946", "query": "Trace the steps from inquiry to signed contract.", "intents": ["sequence"]}
+{"id": "q947", "query": "List the chronological order of regulatory submissions.", "intents": ["sequence"]}
+{"id": "q948", "query": "Walk through the complete disaster recovery sequence.", "intents": ["sequence"]}
+{"id": "q949", "query": "Show the order of database migration phases.", "intents": ["sequence"]}
+{"id": "q950", "query": "Detail the progression from prototype to production unit.", "intents": ["sequence"]}
+{"id": "q951", "query": "List the steps in the customer complaint resolution process.", "intents": ["sequence"]}
+{"id": "q952", "query": "Walk through the complete billing cycle.", "intents": ["sequence"]}
+{"id": "q953", "query": "Show the order of defensive systems that activated.", "intents": ["sequence"]}
+{"id": "q954", "query": "Trace the path from raw material to finished product.", "intents": ["sequence"]}
+{"id": "q955", "query": "List the sequence of backup and restore operations.", "intents": ["sequence"]}
+{"id": "q956", "query": "What drove the sudden increase in support tickets?", "intents": ["causal"]}
+{"id": "q957", "query": "Why did conversion rates drop after the UI change?", "intents": ["causal"]}
+{"id": "q958", "query": "What caused the database to deadlock?", "intents": ["causal"]}
+{"id": "q959", "query": "Which factors led to the project delay?", "intents": ["causal"]}
+{"id": "q960", "query": "What triggered the automated scaling event?", "intents": ["causal"]}
+{"id": "q961", "query": "Why did the model accuracy degrade over time?", "intents": ["causal"]}
+{"id": "q962", "query": "What caused patient satisfaction scores to improve?", "intents": ["causal"]}
+{"id": "q963", "query": "Which change broke the integration?", "intents": ["causal"]}
+{"id": "q964", "query": "What led to the inventory write-off?", "intents": ["causal"]}
+{"id": "q965", "query": "Why did the campaign underperform expectations?", "intents": ["causal"]}
+{"id": "q966", "query": "What factors contributed to employee attrition?", "intents": ["causal"]}
+{"id": "q967", "query": "Which events precipitated the liquidity crisis?", "intents": ["causal"]}
+{"id": "q968", "query": "What caused the throughput bottleneck?", "intents": ["causal"]}
+{"id": "q969", "query": "Why did the partnership negotiations fail?", "intents": ["causal"]}
+{"id": "q970", "query": "What drove customer migration to competitors?", "intents": ["causal"]}
+{"id": "q971", "query": "Which factor was most responsible for the cost overrun?", "intents": ["causal"]}
+{"id": "q972", "query": "What caused the quality metrics to deteriorate?", "intents": ["causal"]}
+{"id": "q973", "query": "Why did the pilot fail to scale?", "intents": ["causal"]}
+{"id": "q974", "query": "What triggered the circuit breaker?", "intents": ["causal"]}
+{"id": "q975", "query": "Which decision led to the technical debt accumulation?", "intents": ["causal"]}
+{"id": "q976", "query": "What caused the revenue shortfall?", "intents": ["causal"]}
+{"id": "q977", "query": "Why did the vaccine efficacy vary by population?", "intents": ["causal"]}
+{"id": "q978", "query": "What drove the margin expansion?", "intents": ["causal"]}
+{"id": "q979", "query": "Which configuration error caused the downtime?", "intents": ["causal"]}
+{"id": "q980", "query": "What led to the regulatory warning letter?", "intents": ["causal"]}
+{"id": "q981", "query": "Why did brand perception shift negatively?", "intents": ["causal"]}
+{"id": "q982", "query": "What caused the unexpected traffic spike?", "intents": ["causal"]}
+{"id": "q983", "query": "Which factors enabled the rapid recovery?", "intents": ["causal"]}
+{"id": "q984", "query": "What drove the shift in customer demographics?", "intents": ["causal"]}
+{"id": "q985", "query": "Why did the feature adoption plateau?", "intents": ["causal"]}
+{"id": "q986", "query": "What caused the authentication failures to spike?", "intents": ["causal"]}
+{"id": "q987", "query": "Which change improved cache hit rates?", "intents": ["causal"]}
+{"id": "q988", "query": "What led to the product recall?", "intents": ["causal"]}
+{"id": "q989", "query": "Why did investor confidence waver?", "intents": ["causal"]}
+{"id": "q990", "query": "What caused the data inconsistency?", "intents": ["causal"]}
+{"id": "q991", "query": "Compare response times between the old and new architecture.", "intents": ["comparative"]}
+{"id": "q992", "query": "How do outcomes differ across treatment protocols A, B, and C?", "intents": ["comparative"]}
+{"id": "q993", "query": "Contrast the user experience on mobile versus desktop.", "intents": ["comparative"]}
+{"id": "q994", "query": "Compare profitability across all business segments.", "intents": ["comparative"]}
+{"id": "q995", "query": "How did the two marketing strategies perform relative to each other?", "intents": ["comparative"]}
+{"id": "q996", "query": "Compare the cost structures of in-house versus outsourced development.", "intents": ["comparative"]}
+{"id": "q997", "query": "How do the three pricing tiers differ in customer lifetime value?", "intents": ["comparative"]}
+{"id": "q998", "query": "Contrast the implementation approaches of Team Alpha and Team Beta.", "intents": ["comparative"]}
+{"id": "q999", "query": "Compare vulnerability exposure across different cloud zones.", "intents": ["comparative"]}
+{"id": "q1000", "query": "How do patient outcomes differ between academic and community hospitals?", "intents": ["comparative"]}
+{"id": "q1001", "query": "Compare the efficiency of batch versus real-time processing.", "intents": ["comparative"]}
+{"id": "q1002", "query": "How do the regional sales teams stack up against each other?", "intents": ["comparative"]}
+{"id": "q1003", "query": "Contrast early adopter behavior versus mainstream customer behavior.", "intents": ["comparative"]}
+{"id": "q1004", "query": "Compare the risk profiles of the investment portfolios.", "intents": ["comparative"]}
+{"id": "q1005", "query": "How does our performance compare to industry benchmarks?", "intents": ["comparative"]}
+{"id": "q1006", "query": "Compare the effectiveness of email versus in-app notifications.", "intents": ["comparative"]}
+{"id": "q1007", "query": "How do the product lines differ in gross margin?", "intents": ["comparative"]}
+{"id": "q1008", "query": "Contrast the customer service quality across channels.", "intents": ["comparative"]}
+{"id": "q1009", "query": "Compare the technical sophistication of our three main competitors.", "intents": ["comparative"]}
+{"id": "q1010", "query": "How do outcomes differ for patients under 50 versus over 50?", "intents": ["comparative"]}
+{"id": "q1011", "query": "Compare the production throughput of the two factories.", "intents": ["comparative"]}
+{"id": "q1012", "query": "How does employee engagement differ across departments?", "intents": ["comparative"]}
+{"id": "q1013", "query": "Contrast the customer acquisition costs across channels.", "intents": ["comparative"]}
+{"id": "q1014", "query": "Compare the uptime reliability of our four critical services.", "intents": ["comparative"]}
+{"id": "q1015", "query": "How do the two different training programs compare in outcomes?", "intents": ["comparative"]}
+{"id": "q1016", "query": "Compare the security posture before and after the audit.", "intents": ["comparative"]}
+{"id": "q1017", "query": "How does organic growth differ from acquisition-driven growth?", "intents": ["comparative"]}
+{"id": "q1018", "query": "Contrast the adoption curves for the two product variants.", "intents": ["comparative"]}
+{"id": "q1019", "query": "Compare the lead conversion rates by source.", "intents": ["comparative"]}
+{"id": "q1020", "query": "How do the financial projections differ under each scenario?", "intents": ["comparative"]}
+{"id": "q1021", "query": "Compare developer productivity across programming languages.", "intents": ["comparative"]}
+{"id": "q1022", "query": "How does the customer mix differ between regions?", "intents": ["comparative"]}
+{"id": "q1023", "query": "Contrast the clinical trial results from the two sites.", "intents": ["comparative"]}
+{"id": "q1024", "query": "Compare the risk-adjusted returns of different strategies.", "intents": ["comparative"]}
+{"id": "q1025", "query": "How do the pilot results differ from the original hypothesis?", "intents": ["comparative"]}
+{"id": "q1026", "query": "Count alerts per severity level for the past week.", "intents": ["aggregation"]}
+{"id": "q1027", "query": "How many transactions processed per payment method?", "intents": ["aggregation"]}
+{"id": "q1028", "query": "Show total revenue per product line.", "intents": ["aggregation"]}
+{"id": "q1029", "query": "How many bugs filed per component this sprint?", "intents": ["aggregation"]}
+{"id": "q1030", "query": "Count unique visitors per landing page.", "intents": ["aggregation"]}
+{"id": "q1031", "query": "How many patients treated per clinic per day?", "intents": ["aggregation"]}
+{"id": "q1032", "query": "Show shipment volumes per carrier per week.", "intents": ["aggregation"]}
+{"id": "q1033", "query": "Count API calls per service endpoint.", "intents": ["aggregation"]}
+{"id": "q1034", "query": "How many employees per department and location?", "intents": ["aggregation"]}
+{"id": "q1035", "query": "Show failed login attempts per user per day.", "intents": ["aggregation"]}
+{"id": "q1036", "query": "Count support tickets per category this month.", "intents": ["aggregation"]}
+{"id": "q1037", "query": "How many server instances per availability zone?", "intents": ["aggregation"]}
+{"id": "q1038", "query": "Show total cost per cloud service.", "intents": ["aggregation"]}
+{"id": "q1039", "query": "Count experiments launched per product area.", "intents": ["aggregation"]}
+{"id": "q1040", "query": "How many quality defects per production batch?", "intents": ["aggregation"]}
+{"id": "q1041", "query": "Show new customer signups per acquisition source.", "intents": ["aggregation"]}
+{"id": "q1042", "query": "Count inventory items per warehouse location.", "intents": ["aggregation"]}
+{"id": "q1043", "query": "How many refunds issued per reason code?", "intents": ["aggregation"]}
+{"id": "q1044", "query": "Show total hours worked per project.", "intents": ["aggregation"]}
+{"id": "q1045", "query": "Count security vulnerabilities per risk rating.", "intents": ["aggregation"]}
+{"id": "q1046", "query": "How many marketing emails sent per campaign?", "intents": ["aggregation"]}
+{"id": "q1047", "query": "Show total bandwidth consumed per region.", "intents": ["aggregation"]}
+{"id": "q1048", "query": "Count customer complaints per product SKU.", "intents": ["aggregation"]}
+{"id": "q1049", "query": "How many deployments per team this quarter?", "intents": ["aggregation"]}
+{"id": "q1050", "query": "Show adverse events reported per trial arm.", "intents": ["aggregation"]}
+{"id": "q1051", "query": "Count policy violations per business unit.", "intents": ["aggregation"]}
+{"id": "q1052", "query": "How many accounts created per day last month?", "intents": ["aggregation"]}
+{"id": "q1053", "query": "Show total storage used per database.", "intents": ["aggregation"]}
+{"id": "q1054", "query": "Count escalations per customer tier.", "intents": ["aggregation"]}
+{"id": "q1055", "query": "How many training sessions completed per employee?", "intents": ["aggregation"]}
+{"id": "q1056", "query": "Show total claims paid per insurance type.", "intents": ["aggregation"]}
+{"id": "q1057", "query": "Count merge requests per repository.", "intents": ["aggregation"]}
+{"id": "q1058", "query": "How many preventive maintenance tasks per asset?", "intents": ["aggregation"]}
+{"id": "q1059", "query": "Show order volumes per fulfillment center.", "intents": ["aggregation"]}
+{"id": "q1060", "query": "Count data breaches per attack vector.", "intents": ["aggregation"]}
+{"id": "q1061", "query": "What will monthly recurring revenue be in six months?", "intents": ["prediction"]}
+{"id": "q1062", "query": "Predict which customer segment will churn most next quarter.", "intents": ["prediction"]}
+{"id": "q1063", "query": "When will we reach storage capacity limits?", "intents": ["prediction"]}
+{"id": "q1064", "query": "What is the likely outcome if we cut marketing spend by 30%?", "intents": ["prediction"]}
+{"id": "q1065", "query": "Forecast infrastructure costs for next year.", "intents": ["prediction"]}
+{"id": "q1066", "query": "Which product feature will drive the most engagement?", "intents": ["prediction"]}
+{"id": "q1067", "query": "Predict the probability of hitting the revenue target.", "intents": ["prediction"]}
+{"id": "q1068", "query": "What will happen to wait times if staffing stays flat?", "intents": ["prediction"]}
+{"id": "q1069", "query": "Forecast demand for the next seasonal peak.", "intents": ["prediction"]}
+{"id": "q1070", "query": "When will technical debt become unmanageable?", "intents": ["prediction"]}
+{"id": "q1071", "query": "What is the expected failure rate for the next production run?", "intents": ["prediction"]}
+{"id": "q1072", "query": "Predict which region will require expansion first.", "intents": ["prediction"]}
+{"id": "q1073", "query": "If we delay the launch three months, what happens to adoption?", "intents": ["prediction"]}
+{"id": "q1074", "query": "Forecast cash burn rate through year-end.", "intents": ["prediction"]}
+{"id": "q1075", "query": "What is the likely regulatory response to our filing?", "intents": ["prediction"]}
+{"id": "q1076", "query": "Predict customer lifetime value for the new cohort.", "intents": ["prediction"]}
+{"id": "q1077", "query": "When will we need to add more server capacity?", "intents": ["prediction"]}
+{"id": "q1078", "query": "What happens if the partnership falls through?", "intents": ["prediction"]}
+{"id": "q1079", "query": "Forecast the impact of the price increase on volume.", "intents": ["prediction"]}
+{"id": "q1080", "query": "Which vendor is most likely to miss delivery deadlines?", "intents": ["prediction"]}
+{"id": "q1081", "query": "Predict the next likely failure point in the system.", "intents": ["prediction"]}
+{"id": "q1082", "query": "What will employee turnover look like next quarter?", "intents": ["prediction"]}
+{"id": "q1083", "query": "Forecast the timeline to break-even.", "intents": ["prediction"]}
+{"id": "q1084", "query": "If we automate this process, what cost savings result?", "intents": ["prediction"]}
+{"id": "q1085", "query": "Predict which market segment will grow fastest.", "intents": ["prediction"]}
+{"id": "q1086", "query": "What is the expected time to full recovery?", "intents": ["prediction"]}
+{"id": "q1087", "query": "Forecast the competitive response to our new offering.", "intents": ["prediction"]}
+{"id": "q1088", "query": "When will current inventory be depleted?", "intents": ["prediction"]}
+{"id": "q1089", "query": "What happens if compliance requirements tighten?", "intents": ["prediction"]}
+{"id": "q1090", "query": "Predict conversion rates for the new funnel.", "intents": ["prediction"]}
+{"id": "q1091", "query": "Which initiative is most likely to exceed budget?", "intents": ["prediction"]}
+{"id": "q1092", "query": "Forecast patient enrollment rates for the trial.", "intents": ["prediction"]}
+{"id": "q1093", "query": "What will happen to margins if costs rise 15%?", "intents": ["prediction"]}
+{"id": "q1094", "query": "Predict which features users will request most.", "intents": ["prediction"]}
+{"id": "q1095", "query": "When will the backlog be cleared at current velocity?", "intents": ["prediction"]}
+{"id": "q1096", "query": "Explain the rationale for the cloud migration strategy.", "intents": ["explanation"]}
+{"id": "q1097", "query": "Justify why we prioritized security over new features.", "intents": ["explanation"]}
+{"id": "q1098", "query": "Walk through the logic of the pricing model.", "intents": ["explanation"]}
+{"id": "q1099", "query": "Explain how the recommendation algorithm works.", "intents": ["explanation"]}
+{"id": "q1100", "query": "Clarify the methodology behind the customer segmentation.", "intents": ["explanation"]}
+{"id": "q1101", "query": "Justify the decision to exit that market.", "intents": ["explanation"]}
+{"id": "q1102", "query": "Explain why the results differ from initial projections.", "intents": ["explanation"]}
+{"id": "q1103", "query": "Walk through the tradeoffs in the architecture design.", "intents": ["explanation"]}
+{"id": "q1104", "query": "Clarify how data privacy is maintained in the platform.", "intents": ["explanation"]}
+{"id": "q1105", "query": "Explain the connection between team structure and velocity.", "intents": ["explanation"]}
+{"id": "q1106", "query": "Justify why this metric is the right success indicator.", "intents": ["explanation"]}
+{"id": "q1107", "query": "Walk me through the model training process.", "intents": ["explanation"]}
+{"id": "q1108", "query": "Explain the assumptions underlying the forecast.", "intents": ["explanation"]}
+{"id": "q1109", "query": "Clarify how the compensation structure aligns incentives.", "intents": ["explanation"]}
+{"id": "q1110", "query": "Justify the choice of technology stack.", "intents": ["explanation"]}
+{"id": "q1111", "query": "Explain why the pilot results are considered valid.", "intents": ["explanation"]}
+{"id": "q1112", "query": "Walk through the risk mitigation framework.", "intents": ["explanation"]}
+{"id": "q1113", "query": "Clarify the relationship between the two metrics.", "intents": ["explanation"]}
+{"id": "q1114", "query": "Explain how the change improves user experience.", "intents": ["explanation"]}
+{"id": "q1115", "query": "Justify the investment in this capability.", "intents": ["explanation"]}
+{"id": "q1116", "query": "Walk through the clinical trial design rationale.", "intents": ["explanation"]}
+{"id": "q1117", "query": "Explain why this approach is better than alternatives.", "intents": ["explanation"]}
+{"id": "q1118", "query": "Clarify the criteria for promotion decisions.", "intents": ["explanation"]}
+{"id": "q1119", "query": "Justify the timeline for the rollout plan.", "intents": ["explanation"]}
+{"id": "q1120", "query": "Explain how the scoring model was validated.", "intents": ["explanation"]}
+{"id": "q1121", "query": "Walk through the incident classification scheme.", "intents": ["explanation"]}
+{"id": "q1122", "query": "Clarify what makes this a leading indicator.", "intents": ["explanation"]}
+{"id": "q1123", "query": "Explain the governance structure for data access.", "intents": ["explanation"]}
+{"id": "q1124", "query": "Justify the resource allocation across projects.", "intents": ["explanation"]}
+{"id": "q1125", "query": "Walk through how the system handles edge cases.", "intents": ["explanation"]}
+{"id": "q1126", "query": "Explain why confidence intervals are so wide.", "intents": ["explanation"]}
+{"id": "q1127", "query": "Clarify the business logic for the workflow.", "intents": ["explanation"]}
+{"id": "q1128", "query": "Justify the choice of control group.", "intents": ["explanation"]}
+{"id": "q1129", "query": "Explain the statistical significance of the findings.", "intents": ["explanation"]}
+{"id": "q1130", "query": "Walk through why this solution is the most cost-effective.", "intents": ["explanation"]}
+{"id": "q1131", "query": "Show all errors in December 2024 that caused customer-facing outages.", "intents": ["interval", "causal", "aggregation"]}
+{"id": "q1132", "query": "Compare the deployment sequence for the mobile app versus web app.", "intents": ["sequence", "comparative"]}
+{"id": "q1133", "query": "On Black Friday, what traffic spike triggered the scale-out and why?", "intents": ["point_in_time", "causal"]}
+{"id": "q1134", "query": "Over the next quarter, which team is most likely to exceed their sprint goals?", "intents": ["interval", "prediction", "comparative"]}
+{"id": "q1135", "query": "How many patients were readmitted per hospital and explain the variance.", "intents": ["aggregation", "comparative", "explanation", "causal"]}
+{"id": "q1136", "query": "Walk through the sequence from first symptom to diagnosis and compare outcomes by age group.", "intents": ["sequence", "comparative"]}
+{"id": "q1137", "query": "During Q3 2024, what changes likely drove conversion rate improvements?", "intents": ["interval", "causal", "explanation"]}
+{"id": "q1138", "query": "Count incidents per region per month and predict next month's distribution.", "intents": ["aggregation", "interval", "prediction"]}
+{"id": "q1139", "query": "On the launch date, compare performance metrics to the pilot and explain differences.", "intents": ["point_in_time", "comparative", "explanation", "causal"]}
+{"id": "q1140", "query": "Show the order of configuration changes and predict which will cause issues.", "intents": ["sequence", "prediction"]}
+{"id": "q1141", "query": "Between February and April, how did adoption differ across segments and why?", "intents": ["interval", "comparative", "causal"]}
+{"id": "q1142", "query": "Walk through the escalation path and explain why Stage 2 was bottlenecked.", "intents": ["sequence", "explanation", "causal"]}
+{"id": "q1143", "query": "When did error rates diverge between regions, and what will likely happen next?", "intents": ["point_in_time", "comparative", "prediction"]}
+{"id": "q1144", "query": "Compare feature adoption sequences for enterprise versus SMB customers.", "intents": ["sequence", "comparative"]}
+{"id": "q1145", "query": "Show weekly signup counts during the campaign and forecast post-campaign trends.", "intents": ["aggregation", "interval", "prediction"]}
+{"id": "q1146", "query": "Explain the causal chain from policy change to improved compliance across all divisions.", "intents": ["causal", "explanation", "comparative"]}
+{"id": "q1147", "query": "List all migrations in 2024 by date and predict completion time for remaining ones.", "intents": ["interval", "point_in_time", "prediction", "sequence"]}
+{"id": "q1148", "query": "Compare the timeline of approvals for Drug X versus Drug Y and explain delays.", "intents": ["sequence", "comparative", "explanation", "causal"]}
+{"id": "q1149", "query": "On what date did each cohort hit critical mass, and which will grow fastest?", "intents": ["point_in_time", "comparative", "prediction"]}
+{"id": "q1150", "query": "Show events between MVP launch and Series A, count milestones, and explain the fundraising success.", "intents": ["interval", "aggregation", "explanation", "causal"]}
+{"id": "q1151", "query": "Compare the sequence of steps in the old versus new onboarding process.", "intents": ["sequence", "comparative"]}
+{"id": "q1152", "query": "During the last outage, what caused the failover to trigger and how many systems were affected?", "intents": ["interval", "causal", "aggregation"]}
+{"id": "q1153", "query": "Walk through the product development stages and predict which phase will face the most delays.", "intents": ["sequence", "prediction"]}
+{"id": "q1154", "query": "Between January and June, how did customer satisfaction vary by region and why?", "intents": ["interval", "comparative", "causal"]}
+{"id": "q1155", "query": "On the date of the security breach, what vulnerabilities were exploited and explain how?", "intents": ["point_in_time", "causal", "explanation"]}
+{"id": "q1156", "query": "Count deployments per team over the last quarter and predict next quarter's activity.", "intents": ["aggregation", "interval", "prediction"]}
+{"id": "q1157", "query": "Show the sequence of events leading to the system failure and explain the root cause.", "intents": ["sequence", "explanation", "causal"]}
+{"id": "q1158", "query": "During the holiday season, how did sales compare across channels and what drove differences?", "intents": ["interval", "comparative", "causal"]}
+{"id": "q1159", "query": "Walk through the customer journey from awareness to purchase and predict drop-off points.", "intents": ["sequence", "prediction"]}
+{"id": "q1160", "query": "On the day of the product launch, compare user engagement metrics to pre-launch tests and explain discrepancies.", "intents": ["point_in_time", "comparative", "explanation", "causal"]}
+{"id":"q1161","query":"Why did Region A outperform Region B?","intents":["comparative","causal"]}
+{"id":"q1162","query":"What caused the difference in conversion rates between the two variants?","intents":["comparative","causal"]}
+{"id":"q1163","query":"Compare the outcomes without explaining what drove them.","intents":["comparative"]}
+{"id":"q1164","query":"How do the two approaches differ in results?","intents":["comparative"]}
+{"id":"q1165","query":"Show the performance gap between teams, just the numbers.","intents":["comparative"]}
+{"id":"q1166","query":"What made the second attempt succeed where the first failed?","intents":["causal","comparative"]}
+{"id":"q1167","query":"Why do enterprise customers churn less than SMB customers?","intents":["causal","comparative"]}
+{"id":"q1168","query":"Contrast the metrics side by side, no root cause needed.","intents":["comparative"]}
+{"id":"q1169","query":"Compare Hospital A and Hospital B mortality rates, period.","intents":["comparative"]}
+{"id":"q1170","query":"What drove the divergence between projected and actual revenue?","intents":["causal","comparative"]}
+{"id":"q1171","query":"How many incidents occurred, no explanation needed.","intents":["aggregation"]}
+{"id":"q1172","query":"Count the tickets by priority level, just the counts.","intents":["aggregation"]}
+{"id":"q1173","query":"Show total refunds per product, don't explain the pattern.","intents":["aggregation"]}
+{"id":"q1174","query":"Tally the errors by type without analyzing causes.","intents":["aggregation"]}
+{"id":"q1175","query":"How many users signed up per channel, that's all I need.","intents":["aggregation"]}
+{"id":"q1176","query":"Explain why the ticket volume varies so much by week.","intents":["explanation","causal"]}
+{"id":"q1177","query":"Walk through the reasoning behind the uneven distribution.","intents":["explanation"]}
+{"id":"q1178","query":"Justify why some categories have disproportionate counts.","intents":["explanation","causal"]}
+{"id":"q1179","query":"Clarify what makes this metric fluctuate over time.","intents":["explanation","causal"]}
+{"id":"q1180","query":"Count shipments per route and explain the concentration patterns.","intents":["aggregation","explanation","causal"]}
+{"id":"q1181","query":"Show everything from the day of the launch.","intents":["point_in_time"]}
+{"id":"q1182","query":"What happened on March 15, 2024 specifically?","intents":["point_in_time"]}
+{"id":"q1183","query":"Pull data from the entire week of the outage, not just one day.","intents":["interval"]}
+{"id":"q1184","query":"Show me the specific moment when the threshold was crossed.","intents":["point_in_time"]}
+{"id":"q1185","query":"Retrieve all activity around the time of the incident, say a 3-day window.","intents":["interval"]}
+{"id":"q1186","query":"When exactly did the migration complete?","intents":["point_in_time"]}
+{"id":"q1187","query":"Show events spanning the upgrade period, not a single timestamp.","intents":["interval"]}
+{"id":"q1188","query":"On what date did we first breach the SLA?","intents":["point_in_time"]}
+{"id":"q1189","query":"Pull logs from the entire maintenance duration.","intents":["interval"]}
+{"id":"q1190","query":"What time did the alert fire?","intents":["point_in_time"]}
+{"id":"q1191","query":"How many incidents do we expect next month based on trends?","intents":["prediction","aggregation"]}
+{"id":"q1192","query":"Count current backlog items without forecasting completion.","intents":["aggregation"]}
+{"id":"q1193","query":"Show historical churn rates, no future projection needed.","intents":["aggregation"]}
+{"id":"q1194","query":"What will the error rate be if traffic doubles?","intents":["prediction"]}
+{"id":"q1195","query":"Tally past deployments per quarter, not what's coming.","intents":["aggregation"]}
+{"id":"q1196","query":"Predict the number of support tickets next week.","intents":["prediction","aggregation"]}
+{"id":"q1197","query":"How many users have churned historically, just the totals.","intents":["aggregation"]}
+{"id":"q1198","query":"Forecast capacity needs for the next six months.","intents":["prediction"]}
+{"id":"q1199","query":"Show the distribution of incidents by severity last year, no future estimates.","intents":["aggregation"]}
+{"id":"q1200","query":"What is the likely failure count if we skip maintenance?","intents":["prediction"]}
+{"id":"q1201","query":"Explain how the caching layer improves performance.","intents":["explanation"]}
+{"id":"q1202","query":"What caused the performance improvement after caching was added?","intents":["causal"]}
+{"id":"q1203","query":"Walk through the mechanism of the authentication flow.","intents":["explanation"]}
+{"id":"q1204","query":"Why did authentication latency increase last week?","intents":["causal"]}
+{"id":"q1205","query":"Clarify how the algorithm ranks results, not why rankings changed.","intents":["explanation"]}
+{"id":"q1206","query":"What drove the ranking changes we observed?","intents":["causal"]}
+{"id":"q1207","query":"Explain the process by which data flows through the pipeline.","intents":["explanation"]}
+{"id":"q1208","query":"What caused the pipeline to slow down?","intents":["causal"]}
+{"id":"q1209","query":"Describe how the model makes predictions, not why accuracy dropped.","intents":["explanation"]}
+{"id":"q1210","query":"Why did model accuracy decline in production?","intents":["causal"]}
+{"id":"q1211","query":"Count how many items are in each stage of the pipeline.","intents":["aggregation"]}
+{"id":"q1212","query":"Show the number of tickets per status, not the workflow.","intents":["aggregation"]}
+{"id":"q1213","query":"Walk through each phase of the process in order.","intents":["sequence"]}
+{"id":"q1214","query":"How many patients are at each treatment stage?","intents":["aggregation"]}
+{"id":"q1215","query":"Trace the path from intake to discharge step by step.","intents":["sequence"]}
+{"id":"q1216","query":"Tally orders by fulfillment stage without describing the flow.","intents":["aggregation"]}
+{"id":"q1217","query":"Detail the sequence of quality checks.","intents":["sequence"]}
+{"id":"q1218","query":"Count defects found at each inspection point, no process description.","intents":["aggregation"]}
+{"id":"q1219","query":"Show the progression through approval stages.","intents":["sequence"]}
+{"id":"q1220","query":"How many requests are pending at each approval level?","intents":["aggregation"]}
+{"id":"q1221","query":"Count incidents for Region A, Region B, and Region C separately.","intents":["aggregation"]}
+{"id":"q1222","query":"Compare incident rates across the three regions.","intents":["comparative","aggregation"]}
+{"id":"q1223","query":"Show total revenue per product line, no ranking needed.","intents":["aggregation"]}
+{"id":"q1224","query":"Which product line is the most profitable?","intents":["comparative","aggregation"]}
+{"id":"q1225","query":"Tally support tickets per team without comparing performance.","intents":["aggregation"]}
+{"id":"q1226","query":"How do the support teams compare in ticket resolution?","intents":["comparative","aggregation"]}
+{"id":"q1227","query":"Count hospitalizations per age group.","intents":["aggregation"]}
+{"id":"q1228","query":"Compare hospitalization rates between age groups.","intents":["comparative","aggregation"]}
+{"id":"q1229","query":"Show sales volumes for each channel.","intents":["aggregation"]}
+{"id":"q1230","query":"Rank the channels by sales volume.","intents":["comparative","aggregation"]}
+{"id":"q1231","query":"Why does Team A consistently outperform Team B?","intents":["comparative","explanation","causal"]}
+{"id":"q1232","query":"Compare Team A and Team B performance metrics.","intents":["comparative"]}
+{"id":"q1233","query":"Explain the difference in customer satisfaction between cohorts.","intents":["comparative","explanation","causal"]}
+{"id":"q1234","query":"Show satisfaction scores for both cohorts side by side.","intents":["comparative"]}
+{"id":"q1235","query":"Walk through why the outcomes diverged between groups.","intents":["explanation","causal","comparative"]}
+{"id":"q1236","query":"Display the outcome differences without analysis.","intents":["comparative"]}
+{"id":"q1237","query":"Clarify what drives the performance gap between vendors.","intents":["explanation","causal","comparative"]}
+{"id":"q1238","query":"Compare vendor performance on key metrics.","intents":["comparative"]}
+{"id":"q1239","query":"Justify why one approach worked better than the other.","intents":["explanation","causal","comparative"]}
+{"id":"q1240","query":"Contrast the two approaches on effectiveness.","intents":["comparative"]}
+{"id":"q1241","query":"What will cause the system to fail if load increases?","intents":["prediction","causal"]}
+{"id":"q1242","query":"What caused the last system failure?","intents":["causal"]}
+{"id":"q1243","query":"If we change the algorithm, what outcomes should we expect?","intents":["prediction"]}
+{"id":"q1244","query":"What drove the outcome after the algorithm change?","intents":["causal"]}
+{"id":"q1245","query":"Which factors will likely drive churn next quarter?","intents":["prediction","causal"]}
+{"id":"q1246","query":"Which factors drove churn last quarter?","intents":["causal"]}
+{"id":"q1247","query":"Predict what happens if inventory drops below threshold.","intents":["prediction"]}
+{"id":"q1248","query":"What happened when inventory dropped below threshold last time?","intents":["causal","point_in_time"]}
+{"id":"q1249","query":"What would trigger a capacity issue in the future?","intents":["prediction","causal"]}
+{"id":"q1250","query":"What triggered the capacity issue last month?","intents":["causal"]}

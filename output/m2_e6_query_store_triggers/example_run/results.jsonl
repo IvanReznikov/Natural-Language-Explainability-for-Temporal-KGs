@@ -1,0 +1,1 @@
+{"result_id": "res_q_temp_c1", "query_id": "q_temp_c1", "results": [{"value": "demo_result"}], "result_timestamp": 1778588734.8223357, "freshness": {"generated_at": "now"}, "dependent_facts": ["temperature_fact"], "invalidation_rules": ["rule_temp_update"], "status": "stale"}

@@ -1,0 +1,40 @@
+{
+  "overall": {
+    "n": 100,
+    "semantic_consistency_mean": 0.6711367725110613,
+    "narrative_consistency_mean": 0.54025,
+    "logical_consistency_mean": 0.953
+  },
+  "by_style": {
+    "baseline": {
+      "n": 100,
+      "semantic_consistency_mean": 0.6252479051786941,
+      "narrative_consistency_mean": 0.5875,
+      "logical_consistency_mean": 0.95
+    },
+    "hybrid": {
+      "n": 100,
+      "semantic_consistency_mean": 0.7151730874355416,
+      "narrative_consistency_mean": 0.5360416666666666,
+      "logical_consistency_mean": 0.9775
+    },
+    "llm": {
+      "n": 100,
+      "semantic_consistency_mean": 0.5491384462208952,
+      "narrative_consistency_mean": 0.505625,
+      "logical_consistency_mean": 0.8825
+    },
+    "seq2seq": {
+      "n": 100,
+      "semantic_consistency_mean": 0.7269439149973914,
+      "narrative_consistency_mean": 0.5360416666666666,
+      "logical_consistency_mean": 0.9775
+    },
+    "template": {
+      "n": 100,
+      "semantic_consistency_mean": 0.739180508722784,
+      "narrative_consistency_mean": 0.5360416666666666,
+      "logical_consistency_mean": 0.9775
+    }
+  }
+}

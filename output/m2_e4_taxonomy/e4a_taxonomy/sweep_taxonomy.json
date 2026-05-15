@@ -1,0 +1,116 @@
+{
+  "results": [
+    {
+      "id": "E1_word12_LR",
+      "desc": "word tfidf 1-2 + LR",
+      "split": "val",
+      "acc": 0.9558823529411765,
+      "macro_f1": 0.9611644657863145
+    },
+    {
+      "id": "E1_word12_LR",
+      "desc": "word tfidf 1-2 + LR",
+      "split": "test",
+      "acc": 0.9594594594594594,
+      "macro_f1": 0.9600424785298735
+    },
+    {
+      "id": "E2_word123_LR",
+      "desc": "word tfidf 1-3 + LR",
+      "split": "val",
+      "acc": 0.9558823529411765,
+      "macro_f1": 0.9611644657863145
+    },
+    {
+      "id": "E2_word123_LR",
+      "desc": "word tfidf 1-3 + LR",
+      "split": "test",
+      "acc": 0.9594594594594594,
+      "macro_f1": 0.9600424785298735
+    },
+    {
+      "id": "E3_word12_char35_LR",
+      "desc": "word 1-2 + char 3-5 tfidf concat + LR",
+      "split": "val",
+      "acc": 0.9705882352941176,
+      "macro_f1": 0.9743021786575794
+    },
+    {
+      "id": "E3_word12_char35_LR",
+      "desc": "word 1-2 + char 3-5 tfidf concat + LR",
+      "split": "test",
+      "acc": 0.9864864864864865,
+      "macro_f1": 0.9881954418428582
+    },
+    {
+      "id": "E4_char35_LR",
+      "desc": "char 3-5 tfidf + LR",
+      "split": "val",
+      "acc": 0.9779411764705882,
+      "macro_f1": 0.9804232804232804
+    },
+    {
+      "id": "E4_char35_LR",
+      "desc": "char 3-5 tfidf + LR",
+      "split": "test",
+      "acc": 0.9932432432432432,
+      "macro_f1": 0.994454220658028
+    },
+    {
+      "id": "E5_word12_SVM",
+      "desc": "word 1-2 tfidf + LinearSVC",
+      "split": "val",
+      "acc": 0.9632352941176471,
+      "macro_f1": 0.9674000331840054
+    },
+    {
+      "id": "E5_word12_SVM",
+      "desc": "word 1-2 tfidf + LinearSVC",
+      "split": "test",
+      "acc": 0.972972972972973,
+      "macro_f1": 0.9753487647104668
+    },
+    {
+      "id": "E6_word12_char35_SVM",
+      "desc": "word 1-2 + char 3-5 tfidf concat + LinearSVC",
+      "split": "val",
+      "acc": 0.9852941176470589,
+      "macro_f1": 0.9875616704884997
+    },
+    {
+      "id": "E6_word12_char35_SVM",
+      "desc": "word 1-2 + char 3-5 tfidf concat + LinearSVC",
+      "split": "test",
+      "acc": 0.9932432432432432,
+      "macro_f1": 0.994454220658028
+    },
+    {
+      "id": "E7_hashing_SGD",
+      "desc": "hashing 1-2 + SGD log-loss",
+      "split": "val",
+      "acc": 0.9411764705882353,
+      "macro_f1": 0.9475292559016986
+    },
+    {
+      "id": "E7_hashing_SGD",
+      "desc": "hashing 1-2 + SGD log-loss",
+      "split": "test",
+      "acc": 0.9391891891891891,
+      "macro_f1": 0.9397467759033439
+    },
+    {
+      "id": "E8_word12_Ridge",
+      "desc": "word 1-2 tfidf + RidgeClassifier",
+      "split": "val",
+      "acc": 0.9705882352941176,
+      "macro_f1": 0.9743021786575794
+    },
+    {
+      "id": "E8_word12_Ridge",
+      "desc": "word 1-2 tfidf + RidgeClassifier",
+      "split": "test",
+      "acc": 0.9662162162162162,
+      "macro_f1": 0.9691657246928403
+    }
+  ]
+}

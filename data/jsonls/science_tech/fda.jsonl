@@ -1,0 +1,921 @@
+{"input":"entity: Orlynvah; event: FDA approval; date: 2024-10-25; context: urinary tract infection treatment","output":"Orlynvah received FDA approval on October 25, 2024, for the treatment of uncomplicated urinary tract infections."}
+{"input":"entity: Vyloy; event: FDA approval; date: 2024-10-18; context: gastric cancer therapy","output":"The FDA approved Vyloy on October 18, 2024, for use in combination chemotherapy for gastric cancer."}
+{"input":"entity: Aqneursa; event: FDA approval; date: 2024-09-24; context: Niemann-Pick disease type C","output":"Aqneursa was approved by the FDA on September 24, 2024, to treat Niemann-Pick disease type C."}
+{"input":"entity: Miplyffa; event: FDA approval; date: 2024-09-20; context: rare genetic disease","output":"Miplyffa received regulatory approval on September 20, 2024, for the treatment of Niemann-Pick disease type C."}
+{"input":"entity: Leqselvi; event: FDA approval; date: 2024-07-25; context: alopecia areata treatment","output":"On July 25, 2024, the FDA approved Leqselvi for the treatment of severe alopecia areata."}
+{"input":"entity: Kisunla; event: FDA approval; date: 2024-07-02; context: Alzheimer's disease","output":"Kisunla was approved for the treatment of Alzheimer's disease on July 2, 2024."}
+{"input":"entity: Ohtuvayre; event: FDA approval; date: 2024-06-26; context: COPD treatment","output":"Ohtuvayre received FDA approval on June 26, 2024, as a maintenance treatment for COPD."}
+{"input":"entity: Piasky; event: FDA approval; date: 2024-06-20; context: paroxysmal nocturnal hemoglobinuria","output":"Piasky was approved on June 20, 2024, for the treatment of paroxysmal nocturnal hemoglobinuria."}
+{"input":"entity: Capvaxive; event: FDA approval; date: 2024-06-17; context: pneumococcal vaccine","output":"The FDA approved Capvaxive, a pneumococcal conjugate vaccine, on June 17, 2024."}
+{"input":"entity: Wakix; event: FDA approval; date: 2024-06-24; context: pediatric narcolepsy","output":"Wakix received approval for treating pediatric narcolepsy on June 24, 2024."}
+{"input":"entity: Augtyro; event: FDA approval; date: 2023-11-15; context: lung cancer treatment","output":"Augtyro was approved on November 15, 2023, for treating ROS1-positive non-small cell lung cancer."}
+{"input":"entity: Ryzneuta; event: FDA approval; date: 2023-11-16; context: neutropenia treatment","output":"On November 16, 2023, the FDA approved Ryzneuta for the treatment of chemotherapy-induced neutropenia."}
+{"input":"entity: Truqap; event: FDA approval; date: 2023-11-16; context: breast cancer therapy","output":"Truqap received FDA approval on November 16, 2023, for patients with specific forms of breast cancer."}
+{"input":"entity: Ogsiveo; event: FDA approval; date: 2023-11-27; context: desmoid tumors","output":"Ogsiveo was approved on November 27, 2023, becoming the first FDA-approved treatment for desmoid tumors."}
+{"input":"entity: Defencath; event: FDA approval; date: 2023-11-15; context: catheter lock solution","output":"Defencath was approved on November 15, 2023, to reduce the risk of catheter-related bloodstream infections."}
+{"input":"entity: Fruzaqla; event: FDA approval; date: 2023-11-08; context: colorectal cancer","output":"Fruzaqla received FDA approval on November 8, 2023, for metastatic colorectal cancer treatment."}
+{"input":"entity: Zepbound; event: FDA approval; date: 2023-11-08; context: weight management","output":"The FDA approved Zepbound for chronic weight management on November 8, 2023."}
+{"input":"entity: Loqtorzi; event: FDA approval; date: 2023-10-27; context: nasopharyngeal carcinoma","output":"Loqtorzi was approved on October 27, 2023, for the treatment of nasopharyngeal carcinoma."}
+{"input":"entity: Omvoh; event: FDA approval; date: 2023-10-26; context: ulcerative colitis","output":"Omvoh received FDA approval on October 26, 2023, for treating ulcerative colitis."}
+{"input":"entity: Agamree; event: FDA approval; date: 2023-10-26; context: Duchenne muscular dystrophy","output":"The FDA approved Agamree on October 26, 2023, for patients with Duchenne muscular dystrophy."}
+{"input":"entity: Bimzelx; event: FDA approval; date: 2023-10-17; context: psoriasis treatment","output":"Bimzelx was approved for the treatment of plaque psoriasis on October 17, 2023."}
+{"input":"entity: Velsipity; event: FDA approval; date: 2023-10-12; context: ulcerative colitis","output":"Velsipity received FDA approval on October 12, 2023, for adults with active ulcerative colitis."}
+{"input":"entity: Rivfloza; event: FDA approval; date: 2023-09-29; context: primary hyperoxaluria","output":"Rivfloza was approved on September 29, 2023, to treat primary hyperoxaluria type 1."}
+{"input":"entity: Pombiliti; event: FDA approval; date: 2023-09-28; context: Pompe disease","output":"The FDA approved Pombiliti on September 28, 2023, for the treatment of late-onset Pompe disease."}
+{"input":"entity: Exxua; event: FDA approval; date: 2023-09-22; context: major depressive disorder","output":"Exxua received approval on September 22, 2023, for the treatment of major depressive disorder."}
+{"input":"entity: Ojjaara; event: FDA approval; date: 2023-09-15; context: myelofibrosis","output":"Ojjaara was approved on September 15, 2023, for treating myelofibrosis with anemia."}
+{"input":"entity: Aphexda; event: FDA approval; date: 2023-09-08; context: stem cell mobilization","output":"Aphexda received FDA approval on September 8, 2023, for stem cell mobilization in multiple myeloma patients."}
+{"input":"entity: Veopoz; event: FDA approval; date: 2023-08-18; context: CHAPLE disease","output":"Veopoz was approved on August 18, 2023, for the treatment of CHAPLE disease."}
+{"input":"entity: Sohonos; event: FDA approval; date: 2023-08-16; context: fibrodysplasia ossificans progressiva","output":"Sohonos received approval on August 16, 2023, for treating fibrodysplasia ossificans progressiva."}
+{"input":"entity: Elrexfio; event: FDA approval; date: 2023-08-14; context: multiple myeloma","output":"The FDA approved Elrexfio on August 14, 2023, for relapsed or refractory multiple myeloma."}
+{"input":"entity: Talvey; event: FDA approval; date: 2023-08-09; context: multiple myeloma","output":"Talvey was approved on August 9, 2023, as a treatment for multiple myeloma."}
+{"input":"entity: Izervay; event: FDA approval; date: 2023-08-04; context: geographic atrophy","output":"Izervay received FDA approval on August 4, 2023, for geographic atrophy secondary to AMD."}
+{"input":"entity: Zurzuvae; event: FDA approval; date: 2023-08-04; context: postpartum depression","output":"Zurzuvae was approved on August 4, 2023, becoming the first oral treatment for postpartum depression."}
+{"input":"entity: Xdemvy; event: FDA approval; date: 2023-07-24; context: Demodex blepharitis","output":"Xdemvy received approval on July 24, 2023, for the treatment of Demodex blepharitis."}
+{"input":"entity: Beyfortus; event: FDA approval; date: 2023-07-17; context: RSV prevention","output":"Beyfortus was approved on July 17, 2023, for the prevention of RSV in infants."}
+{"input":"entity: Leqembi; event: full FDA approval; date: 2023-07-06; context: Alzheimer's treatment","output":"Leqembi received full FDA approval on July 6, 2023, for the treatment of Alzheimer's disease."}
+{"input":"entity: Roctavian; event: FDA approval; date: 2023-06-29; context: hemophilia A gene therapy","output":"Roctavian was approved on June 29, 2023, as a gene therapy for severe hemophilia A."}
+{"input":"entity: Lantidra; event: FDA approval; date: 2023-06-28; context: type 1 diabetes","output":"The FDA approved Lantidra on June 28, 2023, as the first cell therapy for type 1 diabetes."}
+{"input":"entity: Ngenla; event: FDA approval; date: 2023-06-27; context: pediatric growth hormone deficiency","output":"Ngenla received approval on June 27, 2023, for pediatric growth hormone deficiency."}
+{"input":"entity: Rystiggo; event: FDA approval; date: 2023-06-26; context: myasthenia gravis","output":"Rystiggo was approved on June 26, 2023, for the treatment of generalized myasthenia gravis."}
+{"input":"entity: Litfulo; event: FDA approval; date: 2023-06-23; context: alopecia areata","output":"Litfulo received FDA approval on June 23, 2023, for severe alopecia areata."}
+{"input":"entity: Elevidys; event: FDA approval; date: 2023-06-22; context: Duchenne muscular dystrophy","output":"Elevidys was approved on June 22, 2023, as a gene therapy for Duchenne muscular dystrophy."}
+{"input":"entity: Columvi; event: FDA approval; date: 2023-06-15; context: lymphoma treatment","output":"Columvi received approval on June 15, 2023, for diffuse large B-cell lymphoma."}
+{"input":"entity: Inpefa; event: FDA approval; date: 2023-05-26; context: heart failure","output":"Inpefa was approved on May 26, 2023, to reduce the risk of cardiovascular death and heart failure."}
+{"input":"entity: Paxlovid; event: full FDA approval; date: 2023-05-25; context: COVID-19 treatment","output":"Paxlovid received full FDA approval on May 25, 2023, for the treatment of COVID-19."}
+{"input":"entity: Posluma; event: FDA approval; date: 2023-05-25; context: prostate cancer imaging","output":"Posluma was approved on May 25, 2023, as an imaging agent for prostate cancer."}
+{"input":"entity: Xacduro; event: FDA approval; date: 2023-05-23; context: pneumonia treatment","output":"Xacduro received approval on May 23, 2023, for bacterial pneumonia caused by Acinetobacter."}
+{"input":"entity: Epkinly; event: FDA approval; date: 2023-05-19; context: lymphoma therapy","output":"The FDA approved Epkinly on May 19, 2023, for diffuse large B-cell lymphoma."}
+{"input":"entity: Vyjuvek; event: FDA approval; date: 2023-05-19; context: dystrophic epidermolysis bullosa","output":"Vyjuvek was approved on May 19, 2023, as the first gene therapy for dystrophic epidermolysis bullosa."}
+{"input":"entity: Miebo; event: FDA approval; date: 2023-05-18; context: dry eye disease","output":"Miebo received FDA approval on May 18, 2023, for the treatment of dry eye disease."}
+{"input":"entity: Veozah; event: FDA approval; date: 2023-05-12; context: vasomotor symptoms","output":"Veozah was approved on May 12, 2023, for moderate to severe vasomotor symptoms due to menopause."}
+{"input":"entity: Elfabrio; event: FDA approval; date: 2023-05-09; context: Fabry disease","output":"Elfabrio received approval on May 9, 2023, for the treatment of Fabry disease."}
+{"input":"entity: Arexvy; event: FDA approval; date: 2023-05-03; context: RSV vaccine","output":"Arexvy was approved on May 3, 2023, as the first RSV vaccine for older adults."}
+{"input":"entity: Vowst; event: FDA approval; date: 2023-04-26; context: C. difficile infection","output":"Vowst received approval on April 26, 2023, to prevent recurrence of Clostridioides difficile infection."}
+{"input":"entity: Qalsody; event: FDA approval; date: 2023-04-25; context: ALS treatment","output":"Qalsody was approved on April 25, 2023, for treating a specific genetic form of ALS."}
+{"input":"entity: Joenja; event: FDA approval; date: 2023-03-24; context: APDS treatment","output":"Joenja received FDA approval on March 24, 2023, for activated PI3K delta syndrome."}
+{"input":"entity: Daybue; event: FDA approval; date: 2023-03-10; context: Rett syndrome","output":"Daybue was approved on March 10, 2023, as the first treatment for Rett syndrome."}
+{"input":"entity: Zavzpret; event: FDA approval; date: 2023-03-09; context: migraine treatment","output":"Zavzpret received approval on March 9, 2023, as a nasal spray for migraine relief."}
+{"input":"entity: Skyclarys; event: FDA approval; date: 2023-02-28; context: Friedreich's ataxia","output":"Skyclarys was approved on February 28, 2023, for the treatment of Friedreich's ataxia."}
+{"input":"entity: Filspari; event: FDA approval; date: 2023-02-17; context: IgA nephropathy","output":"Filspari received FDA approval on February 17, 2023, for reducing proteinuria in IgA nephropathy."}
+{"input":"entity: Lamzede; event: FDA approval; date: 2023-02-16; context: alpha-mannosidosis","output":"Lamzede was approved on February 16, 2023, for the treatment of alpha-mannosidosis."}
+{"input":"entity: Jesduvroq; event: FDA approval; date: 2023-02-01; context: anemia in CKD","output":"Jesduvroq received approval on February 1, 2023, for anemia caused by chronic kidney disease."}
+{"input":"entity: Jaypirca; event: FDA approval; date: 2023-01-27; context: mantle cell lymphoma","output":"Jaypirca was approved on January 27, 2023, for relapsed or refractory mantle cell lymphoma."}
+{"input":"entity: Brenzavvy; event: FDA approval; date: 2023-01-20; context: type 2 diabetes","output":"Brenzavvy received FDA approval on January 20, 2023, for improving glycemic control in type 2 diabetes."}
+{"input":"entity: Sunlenca; event: FDA approval; date: 2022-12-22; context: HIV treatment","output":"Sunlenca was approved on December 22, 2022, for multidrug-resistant HIV-1 infection."}
+{"input":"entity: Lunsumio; event: FDA approval; date: 2022-12-22; context: follicular lymphoma","output":"Lunsumio received approval on December 22, 2022, for relapsed or refractory follicular lymphoma."}
+{"input":"entity: Xenpozyme; event: FDA approval; date: 2022-08-31; context: ASMD treatment","output":"Xenpozyme was approved on August 31, 2022, for acid sphingomyelinase deficiency."}
+{"input":"entity: Sotyktu; event: FDA approval; date: 2022-09-09; context: psoriasis treatment","output":"Sotyktu received FDA approval on September 9, 2022, for moderate-to-severe plaque psoriasis."}
+{"input":"entity: Spevigo; event: FDA approval; date: 2022-09-01; context: generalized pustular psoriasis","output":"Spevigo was approved on September 1, 2022, for generalized pustular psoriasis flares."}
+{"input":"entity: Daxxify; event: FDA approval; date: 2022-09-07; context: aesthetic treatment","output":"Daxxify received approval on September 7, 2022, for temporary improvement of glabellar lines."}
+{"input":"entity: Elahere; event: FDA approval; date: 2022-11-14; context: ovarian cancer","output":"Elahere was approved on November 14, 2022, for platinum-resistant ovarian cancer."}
+{"input":"entity: Tzield; event: FDA approval; date: 2022-11-17; context: type 1 diabetes prevention","output":"Tzield received FDA approval on November 17, 2022, to delay the onset of stage 3 type 1 diabetes."}
+{"input":"entity: Hemgenix; event: FDA approval; date: 2022-11-22; context: hemophilia B gene therapy","output":"Hemgenix was approved on November 22, 2022, as a gene therapy for hemophilia B."}
+{"input":"entity: Rezlidhia; event: FDA approval; date: 2022-12-01; context: acute myeloid leukemia","output":"Rezlidhia received approval on December 1, 2022, for relapsed or refractory AML."}
+{"input":"entity: Krazati; event: FDA approval; date: 2022-12-12; context: lung cancer therapy","output":"Krazati was approved on December 12, 2022, for KRAS G12C-mutated non-small cell lung cancer."}
+{"input":"entity: Mounjaro; event: FDA approval; date: 2022-05-13; context: diabetes treatment","output":"Mounjaro received FDA approval on May 13, 2022, for type 2 diabetes management."}
+{"input":"entity: Vtama; event: FDA approval; date: 2022-05-23; context: psoriasis cream","output":"Vtama was approved on May 23, 2022, as a topical treatment for plaque psoriasis."}
+{"input":"entity: Camzyos; event: FDA approval; date: 2022-04-28; context: cardiomyopathy","output":"Camzyos received approval on April 28, 2022, for obstructive hypertrophic cardiomyopathy."}
+{"input":"entity: Vivjoa; event: FDA approval; date: 2022-04-26; context: vulvovaginal candidiasis","output":"Vivjoa was approved on April 26, 2022, to reduce the incidence of recurrent vulvovaginal candidiasis."}
+{"input":"entity: Pluvicto; event: FDA approval; date: 2022-03-23; context: prostate cancer therapy","output":"Pluvicto received FDA approval on March 23, 2022, for metastatic castration-resistant prostate cancer."}
+{"input":"entity: Opdualag; event: FDA approval; date: 2022-03-18; context: melanoma treatment","output":"Opdualag was approved on March 18, 2022, for unresectable or metastatic melanoma."}
+{"input":"entity: Ztalmy; event: FDA approval; date: 2022-03-18; context: seizure treatment","output":"Ztalmy received approval on March 18, 2022, for seizures associated with CDKL5 deficiency disorder."}
+{"input":"entity: Carvykti; event: FDA approval; date: 2022-02-28; context: multiple myeloma CAR-T","output":"Carvykti was approved on February 28, 2022, as a CAR-T cell therapy for multiple myeloma."}
+{"input":"entity: Enjaymo; event: FDA approval; date: 2022-02-04; context: cold agglutinin disease","output":"Enjaymo received FDA approval on February 4, 2022, for cold agglutinin disease."}
+{"input":"entity: Kimmtrak; event: FDA approval; date: 2022-01-25; context: uveal melanoma","output":"Kimmtrak was approved on January 25, 2022, for unresectable or metastatic uveal melanoma."}
+{"input":"entity: Quviviq; event: FDA approval; date: 2022-01-10; context: insomnia treatment","output":"Quviviq received approval on January 10, 2022, for the treatment of insomnia."}
+{"input":"entity: Cibinqo; event: FDA approval; date: 2022-01-14; context: atopic dermatitis","output":"Cibinqo was approved on January 14, 2022, for refractory, moderate-to-severe atopic dermatitis."}
+{"input":"entity: Adbry; event: FDA approval; date: 2021-12-27; context: atopic dermatitis","output":"Adbry received FDA approval on December 27, 2021, for moderate-to-severe atopic dermatitis."}
+{"input":"entity: Tezspire; event: FDA approval; date: 2021-12-17; context: severe asthma","output":"Tezspire was approved on December 17, 2021, as an add-on maintenance treatment for severe asthma."}
+{"input":"entity: Voxzogo; event: FDA approval; date: 2021-11-19; context: achondroplasia","output":"Voxzogo received approval on November 19, 2021, to increase linear growth in children with achondroplasia."}
+{"input":"entity: Livtencity; event: FDA approval; date: 2021-11-23; context: CMV infection","output":"Livtencity was approved on November 23, 2021, for post-transplant cytomegalovirus infection."}
+{"input":"entity: Besremi; event: FDA approval; date: 2021-11-12; context: polycythemia vera","output":"Besremi received FDA approval on November 12, 2021, for the treatment of polycythemia vera."}
+{"input":"entity: Scemblix; event: FDA approval; date: 2021-10-29; context: chronic myeloid leukemia","output":"Scemblix was approved on October 29, 2021, for chronic myeloid leukemia treatment."}
+{"input":"entity: Tavneos; event: FDA approval; date: 2021-10-07; context: vasculitis","output":"Tavneos received approval on October 7, 2021, for ANCA-associated vasculitis."}
+{"input":"entity: Qulipta; event: FDA approval; date: 2021-09-28; context: migraine prevention","output":"Qulipta was approved on September 28, 2021, for the preventive treatment of episodic migraine."}
+{"input":"entity: Exkivity; event: FDA approval; date: 2021-09-15; context: lung cancer","output":"Exkivity received FDA approval on September 15, 2021, for EGFR-mutated non-small cell lung cancer."}
+{"input":"entity: Opdivo; event: initial FDA approval; date: 2014-12-22; context: cancer immunotherapy","output":"Opdivo received its initial FDA approval on December 22, 2014, for treating advanced melanoma."}
+{"input":"entity: Keytruda; event: initial FDA approval; date: 2014-09-04; context: cancer immunotherapy","output":"Keytruda was first approved by the FDA on September 4, 2014, for the treatment of melanoma."}
+{"input":"entity: Sovaldi; event: FDA approval; date: 2013-12-06; context: hepatitis C cure","output":"Sovaldi received FDA approval on December 6, 2013, revolutionizing hepatitis C treatment."}
+{"input":"entity: Harvoni; event: FDA approval; date: 2014-10-10; context: hepatitis C cure","output":"Harvoni was approved on October 10, 2014, as a combination therapy for hepatitis C."}
+{"input":"entity: Gardasil 9; event: FDA approval; date: 2014-12-10; context: HPV vaccine","output":"Gardasil 9 received FDA approval on December 10, 2014, covering nine HPV types."}
+{"input":"entity: Imbruvica; event: FDA approval; date: 2013-11-13; context: mantle cell lymphoma","output":"Imbruvica was approved on November 13, 2013, for the treatment of mantle cell lymphoma."}
+{"input":"entity: Gazyva; event: FDA approval; date: 2013-11-01; context: leukemia treatment","output":"Gazyva received approval on November 1, 2013, for chronic lymphocytic leukemia."}
+{"input":"entity: Tecfidera; event: FDA approval; date: 2013-03-27; context: multiple sclerosis","output":"Tecfidera was approved on March 27, 2013, for relapsing forms of multiple sclerosis."}
+{"input":"entity: Kadcyla; event: FDA approval; date: 2013-02-22; context: breast cancer","output":"Kadcyla received FDA approval on February 22, 2013, for HER2-positive breast cancer."}
+{"input":"entity: Kyprolis; event: FDA approval; date: 2012-07-20; context: multiple myeloma","output":"Kyprolis was approved on July 20, 2012, for the treatment of multiple myeloma."}
+{"input":"entity: Perjeta; event: FDA approval; date: 2012-06-08; context: breast cancer","output":"Perjeta received approval on June 8, 2012, for HER2-positive metastatic breast cancer."}
+{"input":"entity: Kalydeco; event: FDA approval; date: 2012-01-31; context: cystic fibrosis","output":"Kalydeco was approved on January 31, 2012, for cystic fibrosis with specific gene mutations."}
+{"input":"cause: Vioxx cardiovascular risk; effect: market withdrawal; date: 2004-09-30; context: drug safety","output":"Due to increased risks of heart attack and stroke, Merck withdrew Vioxx from the market on September 30, 2004."}
+{"input":"cause: Bextra skin reactions; effect: market withdrawal; date: 2005-04-07; context: safety recall","output":"Pfizer withdrew Bextra on April 7, 2005, following FDA concerns over serious skin reactions and cardiovascular risks."}
+{"input":"cause: Baycol rhabdomyolysis cases; effect: market withdrawal; date: 2001-08-08; context: statin safety","output":"Baycol was withdrawn on August 8, 2001, after being linked to fatal cases of rhabdomyolysis."}
+{"input":"cause: Rezulin liver toxicity; effect: market withdrawal; date: 2000-03-21; context: diabetes drug safety","output":"Rezulin was withdrawn from the US market on March 21, 2000, due to severe liver toxicity."}
+{"input":"cause: Seldane cardiac arrhythmia; effect: market withdrawal; date: 1998-02-28; context: antihistamine safety","output":"Seldane was withdrawn in early 1998 due to life-threatening cardiac arrhythmias when interacting with other drugs."}
+{"input":"cause: Fen-Phen heart valve defects; effect: market withdrawal; date: 1997-09-15; context: diet drug safety","output":"The diet drug combination Fen-Phen was withdrawn on September 15, 1997, after being linked to heart valve defects."}
+{"input":"cause: Phenylpropanolamine stroke risk; effect: FDA public health advisory; date: 2000-11-06; context: regulatory warning","output":"The FDA issued a public health advisory against Phenylpropanolamine on November 6, 2000, citing an increased risk of hemorrhagic stroke."}
+{"input":"cause: Propulsid cardiac risks; effect: limited access program; date: 2000-03-23; context: drug restriction","output":"On March 23, 2000, Janssen announced it would stop marketing Propulsid in the US due to cardiac risks, shifting to a limited access program."}
+{"input":"cause: Lotronex ischemic colitis; effect: market withdrawal; date: 2000-11-28; context: IBS drug safety","output":"Glaxo Wellcome withdrew Lotronex on November 28, 2000, following reports of ischemic colitis and severe constipation."}
+{"input":"cause: Raplon bronchospasm; effect: market withdrawal; date: 2001-03-27; context: anesthesia safety","output":"Raplon was withdrawn on March 27, 2001, due to reports of bronchospasm in patients."}
+{"input":"cause: Zelnorm cardiovascular events; effect: market withdrawal; date: 2007-03-30; context: IBS drug safety","output":"Novartis withdrew Zelnorm on March 30, 2007, after finding a higher risk of heart attack and stroke."}
+{"input":"cause: Mylotarg efficacy concerns; effect: voluntary withdrawal; date: 2010-06-21; context: leukemia drug safety","output":"Pfizer voluntarily withdrew Mylotarg on June 21, 2010, after trials failed to verify clinical benefit and showed safety concerns."}
+{"input":"cause: Meridia stroke risk; effect: market withdrawal; date: 2010-10-08; context: weight loss drug safety","output":"Meridia was withdrawn on October 8, 2010, due to an increased risk of heart attack and stroke."}
+{"input":"cause: Darvon cardiotoxicity; effect: market withdrawal; date: 2010-11-19; context: opioid safety","output":"Darvon and Darvocet were withdrawn on November 19, 2010, due to serious heart rhythm abnormalities."}
+{"input":"cause: Xigris efficacy failure; effect: market withdrawal; date: 2011-10-25; context: sepsis treatment","output":"Lilly withdrew Xigris on October 25, 2011, after a study showed no survival benefit for sepsis patients."}
+{"input":"cause: Zecuity burns; effect: market withdrawal; date: 2016-06-13; context: migraine patch safety","output":"Teva suspended sales of the Zecuity patch on June 13, 2016, following reports of burns and scarring."}
+{"input":"cause: Opana ER abuse potential; effect: FDA removal request; date: 2017-06-08; context: opioid crisis","output":"On June 8, 2017, the FDA requested the removal of Opana ER due to the public health consequences of abuse."}
+{"input":"cause: Belviq cancer risk; effect: market withdrawal; date: 2020-02-13; context: weight loss drug safety","output":"Belviq was withdrawn on February 13, 2020, after a safety trial showed an increased occurrence of cancer."}
+{"input":"cause: Zantac NDMA contamination; effect: market removal; date: 2020-04-01; context: carcinogen risk","output":"The FDA requested the removal of all Zantac products on April 1, 2020, due to NDMA contamination."}
+{"input":"cause: Makena lack of efficacy; effect: FDA withdrawal approval; date: 2023-04-06; context: preterm birth drug","output":"The FDA effectively withdrew approval for Makena on April 6, 2023, after it failed to demonstrate clinical benefit."}
+{"input":"cause: Pepaxto survival detriment; effect: market withdrawal; date: 2021-10-22; context: myeloma safety","output":"Oncopeptides withdrew Pepaxto on October 22, 2021, after a trial showed a higher risk of death compared to control."}
+{"input":"cause: Umbralisib safety concerns; effect: market withdrawal; date: 2022-04-15; context: lymphoma drug","output":"TG Therapeutics withdrew Umbralisib on April 15, 2022, citing an imbalance in overall survival in clinical trials."}
+{"input":"cause: COVID-19 emergency; effect: Remdesivir EUA; date: 2020-05-01; context: pandemic response","output":"Due to the COVID-19 emergency, the FDA granted Emergency Use Authorization to Remdesivir on May 1, 2020."}
+{"input":"cause: COVID-19 emergency; effect: Pfizer vaccine EUA; date: 2020-12-11; context: pandemic response","output":"The FDA issued an Emergency Use Authorization for the Pfizer-BioNTech COVID-19 vaccine on December 11, 2020."}
+{"input":"cause: COVID-19 emergency; effect: Moderna vaccine EUA; date: 2020-12-18; context: pandemic response","output":"Moderna's COVID-19 vaccine received Emergency Use Authorization on December 18, 2020, to combat the pandemic."}
+{"input":"cause: Accelerated Approval pathway; effect: Aduhelm approval; date: 2021-06-07; context: Alzheimer's regulation","output":"Using the Accelerated Approval pathway, the FDA approved Aduhelm for Alzheimer's disease on June 7, 2021."}
+{"input":"cause: Priority Review designation; effect: Trodelvy approval; date: 2020-04-22; context: breast cancer","output":"Trodelvy received accelerated approval on April 22, 2020, under the Priority Review designation for metastatic triple-negative breast cancer."}
+{"input":"cause: Orphan Drug Act; effect: increased rare disease approvals; date: 1983-01-04; context: regulatory incentive","output":"The passage of the Orphan Drug Act in January 1983 led to a significant increase in approvals for rare disease treatments."}
+{"input":"cause: Thalidomide tragedy; effect: Kefauver-Harris Amendment; date: 1962-10-10; context: drug safety law","output":"The Thalidomide tragedy prompted the Kefauver-Harris Amendment on October 10, 1962, requiring drugs to be proven effective before approval."}
+{"input":"cause: AIDS crisis; effect: AZT fast-track approval; date: 1987-03-19; context: HIV history","output":"In response to the AIDS crisis, the FDA approved AZT on March 19, 1987, after a record 25-month development period."}
+{"input":"overlap: event1: Vioxx withdrawal 2004-09-30; event2: Bextra withdrawal 2005-04-07; context: COX-2 inhibitor crisis","output":"The withdrawal of Vioxx in September 2004 overlapped with safety scrutiny that led to Bextra's withdrawal in April 2005."}
+{"input":"overlap: event1: Sovaldi approval 2013-12-06; event2: Harvoni approval 2014-10-10; context: Hepatitis C revolution","output":"Sovaldi's approval in late 2013 was quickly followed by the combination therapy Harvoni in October 2014, overlapping in the transformation of HCV care."}
+{"input":"overlap: event1: Pfizer COVID vaccine EUA 2020-12-11; event2: Moderna COVID vaccine EUA 2020-12-18; context: vaccine rollout","output":"The Pfizer COVID-19 vaccine EUA on December 11, 2020, overlapped closely with the Moderna EUA just one week later on December 18, 2020."}
+{"input":"overlap: event1: Aduhelm approval 2021-06-07; event2: Leqembi approval 2023-01-06; context: Alzheimer's antibody era","output":"Aduhelm's controversial approval in 2021 preceded and overlapped with the regulatory review of Leqembi, which was approved in early 2023."}
+{"input":"overlap: event1: Keytruda HNSCC approval 2016-08-05; event2: Opdivo HNSCC approval 2016-11-10; context: immunotherapy competition","output":"Keytruda's approval for head and neck cancer in August 2016 overlapped with Opdivo's approval for the same indication in November 2016."}
+{"input":"overlap: event1: Viagra approval 1998-03-27; event2: Cialis approval 2003-11-21; context: ED drug market","output":"Viagra dominated the ED market from 1998 until Cialis was approved in 2003, creating an overlapping era of blockbuster ED drugs."}
+{"input":"overlap: event1: Zantac approval 1983-06-09; event2: Zantac withdrawal 2020-04-01; context: drug lifecycle","output":"Zantac was on the market from its approval in June 1983 until its mandatory withdrawal in April 2020."}
+{"input":"overlap: event1: Humira approval 2002-12-31; event2: Amjevita approval 2016-09-23; context: biosimilar emergence","output":"Humira's monopoly since 2002 overlapped with the approval of its first biosimilar, Amjevita, in September 2016."}
+{"input":"overlap: event1: Prozac approval 1987-12-29; event2: Zoloft approval 1991-12-30; context: SSRI boom","output":"Prozac's launch in late 1987 overlapped with the approval of Zoloft in late 1991, marking the rise of the SSRI class."}
+{"input":"overlap: event1: Gardasil approval 2006-06-08; event2: Cervarix approval 2009-10-16; context: HPV vaccines","output":"Gardasil's 2006 approval was followed by Cervarix in 2009, creating an overlapping market for HPV vaccines."}
+{"input":"overlap: event1: Truvada approval 2004-08-02; event2: Descovy approval 2016-04-04; context: HIV PrEP evolution","output":"Truvada served as a primary HIV therapy from 2004 until Descovy's approval in 2016 offered a newer alternative."}
+{"input":"overlap: event1: Lipitor approval 1996-12-17; event2: Crestor approval 2003-08-12; context: statin wars","output":"Lipitor's dominance starting in 1996 overlapped with the entry of Crestor in 2003."}
+{"input":"overlap: event1: Lucentis approval 2006-06-30; event2: Eylea approval 2011-11-18; context: wet AMD therapy","output":"Lucentis was the standard for wet AMD from 2006 until Eylea's approval in 2011 introduced competition."}
+{"input":"overlap: event1: Januvia approval 2006-10-16; event2: Onglyza approval 2009-07-31; context: DPP-4 inhibitors","output":"Januvia's approval in 2006 overlapped with the approval of Onglyza in 2009 in the DPP-4 inhibitor class."}
+{"input":"overlap: event1: Invokana approval 2013-03-29; event2: Farxiga approval 2014-01-08; context: SGLT2 inhibitors","output":"Invokana's 2013 approval was followed closely by Farxiga in early 2014, establishing the SGLT2 inhibitor market."}
+{"input":"overlap: event1: Cosentyx approval 2015-01-21; event2: Taltz approval 2016-03-22; context: IL-17 inhibitors","output":"Cosentyx approved in early 2015 overlapped with Taltz's approval in 2016 for psoriasis treatment."}
+{"input":"overlap: event1: Ocrevus approval 2017-03-28; event2: Kesimpta approval 2020-08-20; context: MS B-cell therapies","output":"Ocrevus, approved in 2017, was the primary B-cell therapy for MS until Kesimpta's approval in 2020."}
+{"input":"overlap: event1: Spinraza approval 2016-12-23; event2: Zolgensma approval 2019-05-24; context: SMA treatments","output":"Spinraza's approval in 2016 overlapped with the introduction of the gene therapy Zolgensma in 2019."}
+{"input":"overlap: event1: Kymriah approval 2017-08-30; event2: Yescarta approval 2017-10-18; context: CAR-T launch","output":"The approval of Kymriah in August 2017 overlapped almost immediately with Yescarta in October 2017."}
+{"input":"overlap: event1: Aimovig approval 2018-05-17; event2: Ajovy approval 2018-09-14; context: CGRP inhibitors","output":"Aimovig's approval in May 2018 overlapped with Ajovy's approval in September 2018 for migraine prevention."}
+{"input":"overlap: event1: Ozempic approval 2017-12-05; event2: Wegovy approval 2021-06-04; context: semaglutide expansion","output":"Ozempic's 2017 approval for diabetes overlapped with the 2021 approval of Wegovy for weight loss."}
+{"input":"overlap: event1: Dupixent approval 2017-03-28; event2: Adbry approval 2021-12-27; context: atopic dermatitis","output":"Dupixent's monopoly in biologics for eczema overlapped with Adbry's approval in late 2021."}
+{"input":"overlap: event1: Paxlovid EUA 2021-12-22; event2: Molnupiravir EUA 2021-12-23; context: COVID antivirals","output":"Paxlovid and Molnupiravir received Emergency Use Authorization just one day apart in December 2021."}
+{"input":"overlap: event1: Zurzuvae approval 2023-08-04; event2: Zulresso approval 2019-03-19; context: PPD treatments","output":"Zulresso, approved in 2019, was the only PPD treatment until the oral drug Zurzuvae was approved in 2023."}
+{"input":"overlap: event1: Arexvy approval 2023-05-03; event2: Abrysvo approval 2023-05-31; context: RSV vaccines","output":"Arexvy's approval in early May 2023 overlapped with Abrysvo's approval later that same month."}
+{"input":"overlap: event1: Epkinly approval 2023-05-19; event2: Columvi approval 2023-06-15; context: bispecific antibodies","output":"Epkinly's approval in May 2023 overlapped with Columvi's approval in June 2023 for lymphoma."}
+{"input":"overlap: event1: Casgevy approval 2023-12-08; event2: Lyfgenia approval 2023-12-08; context: sickle cell gene therapy","output":"Casgevy and Lyfgenia were both approved on the same day, December 8, 2023, for sickle cell disease."}
+{"input":"overlap: event1: Roctavian approval 2023-06-29; event2: Hemgenix approval 2022-11-22; context: hemophilia gene therapy","output":"Hemgenix for hemophilia B (2022) overlapped with the approval of Roctavian for hemophilia A (2023)."}
+{"input":"overlap: event1: Mounjaro approval 2022-05-13; event2: Zepbound approval 2023-11-08; context: tirzepatide branding","output":"Mounjaro's diabetes approval in 2022 overlapped with the 2023 approval of Zepbound, the same molecule for obesity."}
+{"input":"overlap: event1: Pombiliti approval 2023-09-28; event2: Nexviazyme approval 2021-08-06; context: Pompe disease","output":"Nexviazyme's 2021 approval overlapped with the approval of Pombiliti in 2023 for Pompe disease."}
+{"input":"sequence: entity: Comirnaty (Pfizer); phase1: EUA 2020-12-11; phase2: full approval 2021-08-23; context: vaccine regulation","output":"The Pfizer COVID-19 vaccine received EUA on December 11, 2020, followed by full FDA approval as Comirnaty on August 23, 2021."}
+{"input":"sequence: entity: Spikevax (Moderna); phase1: EUA 2020-12-18; phase2: full approval 2022-01-31; context: vaccine regulation","output":"Moderna's vaccine was granted EUA on December 18, 2020, and achieved full FDA approval as Spikevax on January 31, 2022."}
+{"input":"sequence: entity: Remdesivir; phase1: EUA 2020-05-01; phase2: full approval 2020-10-22; context: antiviral regulation","output":"Remdesivir received Emergency Use Authorization on May 1, 2020, and was fully approved as Veklury on October 22, 2020."}
+{"input":"sequence: entity: Leqembi; phase1: accelerated approval 2023-01-06; phase2: full approval 2023-07-06; context: Alzheimer's approval","output":"Leqembi was granted accelerated approval on January 6, 2023, and converted to full approval on July 6, 2023."}
+{"input":"sequence: entity: Aduhelm; phase1: advisory committee negative vote 2020-11-06; phase2: accelerated approval 2021-06-07; context: controversial approval","output":"Despite a negative advisory committee vote on November 6, 2020, Aduhelm received accelerated approval on June 7, 2021."}
+{"input":"sequence: entity: Keytruda; phase1: initial approval melanoma 2014-09-04; phase2: NSCLC approval 2015-10-02; phase3: HNSCC approval 2016-08-05; context: label expansion","output":"Keytruda was first approved for melanoma in 2014, followed by lung cancer in 2015, and head and neck cancer in 2016."}
+{"input":"sequence: entity: AZT; phase1: IND filed 1985; phase2: Phase 2 trial stopped 1986; phase3: approval 1987-03-19; context: HIV fast track","output":"After filing an IND in 1985 and stopping trials early in 1986 due to efficacy, AZT was approved on March 19, 1987."}
+{"input":"sequence: entity: Gleevec; phase1: NDA submission 2001-02-27; phase2: approval 2001-05-10; context: rapid review","output":"Novartis submitted the NDA for Gleevec on February 27, 2001, and it was approved just 2.5 months later on May 10, 2001."}
+{"input":"sequence: entity: Paxlovid; phase1: EUA 2021-12-22; phase2: full approval 2023-05-25; context: antiviral timeline","output":"Paxlovid operated under EUA starting December 22, 2021, until receiving full FDA approval on May 25, 2023."}
+{"input":"sequence: entity: Tzield; phase1: CRL issued 2021-07-02; phase2: resubmission 2022; phase3: approval 2022-11-17; context: delay to approval","output":"Provention Bio received a CRL for Tzield in July 2021 but secured approval on November 17, 2022, after resubmission."}
+{"input":"sequence: entity: Roctavian; phase1: CRL issued 2020-08-19; phase2: approval 2023-06-29; context: gene therapy delay","output":"Roctavian faced a CRL in August 2020 requesting more data before finally achieving approval on June 29, 2023."}
+{"input":"sequence: entity: Firdapse; phase1: refusal to file 2016; phase2: approval 2018-11-28; context: regulatory hurdle","output":"After an initial refusal to file in 2016, Firdapse was eventually approved by the FDA on November 28, 2018."}
+{"input":"sequence: entity: Vioxx; phase1: approval 1999-05-20; phase2: withdrawal 2004-09-30; context: market lifecycle","output":"Vioxx was approved on May 20, 1999, but was voluntarily withdrawn from the market on September 30, 2004."}
+{"input":"sequence: entity: Baycol; phase1: approval 1997-06-26; phase2: withdrawal 2001-08-08; context: safety recall","output":"Baycol received approval on June 26, 1997, and remained on the market until its withdrawal on August 8, 2001."}
+{"input":"sequence: entity: Seldane; phase1: approval 1985-05-08; phase2: proposal to withdraw 1997-01-13; phase3: withdrawal 1998-02-28; context: safety timeline","output":"Approved in 1985, Seldane faced a withdrawal proposal in 1997 and was finally removed from the market in February 1998."}
+{"input":"sequence: entity: Belviq; phase1: approval 2012-06-27; phase2: safety signal 2020-01; phase3: withdrawal 2020-02-13; context: safety monitoring","output":"Belviq was approved in 2012, but after a safety signal in early 2020, it was withdrawn on February 13, 2020."}
+{"input":"sequence: entity: Lumakras; phase1: accelerated approval 2021-05-28; phase2: advisory committee negative vote 2023-10-05; phase3: CRL 2023-12-26; context: confirmatory trial failure","output":"Lumakras received accelerated approval in May 2021, but faced a negative vote and a CRL in late 2023 regarding full approval."}
+{"input":"sequence: entity: Pepaxto; phase1: accelerated approval 2021-02-26; phase2: withdrawal 2021-10-22; context: rapid withdrawal","output":"Pepaxto was granted accelerated approval in February 2021 but was withdrawn just months later in October 2021."}
+{"input":"sequence: entity: Makena; phase1: accelerated approval 2011-02-03; phase2: advisory committee vote to withdraw 2022-10-19; phase3: final withdrawal 2023-04-06; context: protracted withdrawal","output":"Makena received accelerated approval in 2011, but after years of debate, it was finally withdrawn in April 2023."}
+{"input":"sequence: entity: Opill; phase1: Rx approval 1973; phase2: OTC approval 2023-07-13; context: switch to OTC","output":"Originally approved as a prescription drug in 1973, Opill was approved for over-the-counter use on July 13, 2023."}
+{"input":"sequence: entity: Narcan; phase1: Rx approval 1971; phase2: OTC nasal spray approval 2023-03-29; context: public health access","output":"Naloxone was approved in 1971, and the Narcan nasal spray was approved for OTC use on March 29, 2023."}
+{"input":"sequence: entity: Casgevy; phase1: advisory committee 2023-10-31; phase2: approval 2023-12-08; context: CRISPR milestone","output":"After an advisory committee meeting on October 31, 2023, Casgevy became the first FDA-approved CRISPR therapy on December 8, 2023."}
+{"input":"sequence: entity: Palforzia; phase1: advisory committee 2019-09-13; phase2: approval 2020-01-31; context: allergy treatment","output":"Following a supportive advisory committee in September 2019, Palforzia was approved for peanut allergy on January 31, 2020."}
+{"input":"sequence: entity: Jemperli; phase1: accelerated approval 2021-04-22; phase2: full approval 2023-02-09; context: endometrial cancer","output":"Jemperli received accelerated approval in April 2021 and converted to regular approval on February 9, 2023."}
+{"input":"sequence: entity: Tivdak; phase1: accelerated approval 2021-09-20; phase2: full approval 2024-04-29; context: cervical cancer","output":"Tivdak was granted accelerated approval in 2021 and achieved full FDA approval on April 29, 2024."}
+{"input":"sequence: entity: Mirvetuximab soravtansine; phase1: accelerated approval 2022-11-14; phase2: full approval 2024-03-22; context: ovarian cancer","output":"Elahere received accelerated approval in November 2022 and full approval on March 22, 2024."}
+{"input":"sequence: entity: Iclusig; phase1: approval 2012-12-14; phase2: suspension 2013-10; phase3: remarketing 2014-01; context: safety pause","output":"Iclusig was approved in 2012, suspended in October 2013 due to safety, and allowed back on the market in January 2014."}
+{"input":"sequence: entity: Tysabri; phase1: approval 2004-11-23; phase2: withdrawal 2005-02-28; phase3: reintroduction 2006-06-05; context: safety REMS","output":"Tysabri was approved in 2004, withdrawn in 2005 due to PML, and reintroduced with a safety program in June 2006."}
+{"input":"sequence: entity: Exondys 51; phase1: advisory committee negative vote 2016-04-25; phase2: approval 2016-09-19; context: controversial decision","output":"Despite a negative advisory committee vote in April 2016, Exondys 51 was approved for DMD on September 19, 2016."}
+{"input":"sequence: entity: Addyi; phase1: rejection 2010; phase2: rejection 2013; phase3: approval 2015-08-18; context: resubmission success","output":"After rejections in 2010 and 2013, Addyi was finally approved for HSDD on August 18, 2015."}
+{"input":"sequence: entity: Zolgensma; phase1: CRL issued 2019-05-24; phase2: approval 2019-05-24; context: swift turnaround","output":"Zolgensma received a CRL and approval on the same day, May 24, 2019, after addressing FDA concerns."}
+{"input":"entity: Insulin; event: FDA approval; date: 1923-06-04; context: diabetes breakthrough","output":"Insulin (Iletin) was approved by the FDA on June 4, 1923, revolutionizing the treatment of diabetes."}
+{"input":"entity: Penicillin; event: FDA approval; date: 1945-02-26; context: antibiotic era","output":"Mass-produced Penicillin received FDA clearance on February 26, 1945, marking the start of the antibiotic era."}
+{"input":"entity: Thorazine; event: FDA approval; date: 1954-03-26; context: antipsychotic","output":"Thorazine (chlorpromazine) was approved on March 26, 1954, as the first antipsychotic medication."}
+{"input":"entity: Enovid; event: FDA approval; date: 1957-06-23; context: menstrual disorders","output":"Enovid was first approved for menstrual disorders on June 23, 1957, before its later approval as a contraceptive."}
+{"input":"entity: Enovid; event: contraceptive approval; date: 1960-05-09; context: The Pill","output":"The FDA approved Enovid as the first oral contraceptive on May 9, 1960."}
+{"input":"entity: Valium; event: FDA approval; date: 1963-11-15; context: anxiety treatment","output":"Valium (diazepam) received FDA approval on November 15, 1963, becoming a widely prescribed anxiolytic."}
+{"input":"entity: Inderal; event: FDA approval; date: 1967-11-13; context: beta-blocker","output":"Inderal (propranolol), the first beta-blocker, was approved by the FDA on November 13, 1967."}
+{"input":"entity: Lasix; event: FDA approval; date: 1966-07-25; context: diuretic","output":"Lasix (furosemide) received FDA approval on July 25, 1966, for the treatment of edema and hypertension."}
+{"input":"entity: Haldol; event: FDA approval; date: 1967-04-12; context: antipsychotic","output":"Haldol (haloperidol) was approved on April 12, 1967, for the treatment of schizophrenia."}
+{"input":"entity: L-Dopa; event: FDA approval; date: 1970-06-04; context: Parkinson's disease","output":"Levodopa (Larodopa) was approved on June 4, 1970, as a breakthrough treatment for Parkinson's disease."}
+{"input":"entity: Motrin; event: FDA approval; date: 1974-09-19; context: NSAID","output":"Motrin (ibuprofen) received FDA approval as a prescription NSAID on September 19, 1974."}
+{"input":"entity: Tagamet; event: FDA approval; date: 1977-08-16; context: H2 blocker","output":"Tagamet (cimetidine) was approved on August 16, 1977, transforming the treatment of peptic ulcers."}
+{"input":"entity: Nolvadex; event: FDA approval; date: 1977-12-30; context: breast cancer","output":"Nolvadex (tamoxifen) received FDA approval on December 30, 1977, for the treatment of breast cancer."}
+{"input":"entity: Platinol; event: FDA approval; date: 1978-12-19; context: chemotherapy","output":"Platinol (cisplatin) was approved on December 19, 1978, for testicular and ovarian cancers."}
+{"input":"entity: Capoten; event: FDA approval; date: 1981-04-06; context: ACE inhibitor","output":"Capoten (captopril), the first ACE inhibitor, was approved by the FDA on April 6, 1981."}
+{"input":"entity: Xanax; event: FDA approval; date: 1981-10-16; context: anxiety","output":"Xanax (alprazolam) received FDA approval on October 16, 1981, for the treatment of anxiety disorders."}
+{"input":"entity: Accutane; event: FDA approval; date: 1982-05-07; context: acne treatment","output":"Accutane (isotretinoin) was approved on May 7, 1982, for severe recalcitrant nodular acne."}
+{"input":"entity: Humulin; event: FDA approval; date: 1982-10-28; context: biotech milestone","output":"Humulin was approved on October 28, 1982, as the first recombinant DNA human insulin."}
+{"input":"entity: Zantac; event: FDA approval; date: 1983-06-09; context: H2 blocker","output":"Zantac (ranitidine) received FDA approval on June 9, 1983, quickly becoming a best-selling ulcer treatment."}
+{"input":"entity: Seldane; event: FDA approval; date: 1985-05-08; context: antihistamine","output":"Seldane (terfenadine) was approved on May 8, 1985, as the first non-sedating antihistamine."}
+{"input":"entity: Vasotec; event: FDA approval; date: 1985-12-24; context: ACE inhibitor","output":"Vasotec (enalapril) received FDA approval on December 24, 1985, for the treatment of hypertension."}
+{"input":"entity: Wellbutrin; event: FDA approval; date: 1985-12-30; context: antidepressant","output":"Wellbutrin (bupropion) was approved on December 30, 1985, for the treatment of major depression."}
+{"input":"entity: AZT; event: FDA approval; date: 1987-03-19; context: HIV/AIDS","output":"Retrovir (zidovudine/AZT) was approved on March 19, 1987, as the first treatment for HIV."}
+{"input":"entity: Mevacor; event: FDA approval; date: 1987-08-31; context: statin","output":"Mevacor (lovastatin), the first statin, received FDA approval on August 31, 1987."}
+{"input":"entity: Prozac; event: FDA approval; date: 1987-12-29; context: SSRI","output":"Prozac (fluoxetine) was approved on December 29, 1987, ushering in the SSRI era for depression."}
+{"input":"entity: Cipro; event: FDA approval; date: 1987-10-22; context: antibiotic","output":"Cipro (ciprofloxacin) received FDA approval on October 22, 1987, as a broad-spectrum fluoroquinolone."}
+{"input":"entity: Rogaine; event: FDA approval; date: 1988-08-17; context: hair growth","output":"Rogaine (minoxidil) was approved on August 17, 1988, for the treatment of male pattern baldness."}
+{"input":"entity: Prilosec; event: FDA approval; date: 1989-09-15; context: PPI","output":"Prilosec (omeprazole), the first proton pump inhibitor, was approved on September 15, 1989."}
+{"input":"entity: Epogen; event: FDA approval; date: 1989-06-01; context: biotech","output":"Epogen (epoetin alfa) received FDA approval on June 1, 1989, for anemia associated with renal failure."}
+{"input":"entity: Clozaril; event: FDA approval; date: 1989-09-26; context: antipsychotic","output":"Clozaril (clozapine) was approved on September 26, 1989, for treatment-resistant schizophrenia."}
+{"input":"entity: Diflucan; event: FDA approval; date: 1990-01-29; context: antifungal","output":"Diflucan (fluconazole) received FDA approval on January 29, 1990, for fungal infections."}
+{"input":"entity: Zofran; event: FDA approval; date: 1991-01-04; context: antiemetic","output":"Zofran (ondansetron) was approved on January 4, 1991, for chemotherapy-induced nausea."}
+{"input":"entity: Zoloft; event: FDA approval; date: 1991-12-30; context: SSRI","output":"Zoloft (sertraline) received FDA approval on December 30, 1991, for the treatment of depression."}
+{"input":"entity: Ambien; event: FDA approval; date: 1992-12-16; context: insomnia","output":"Ambien (zolpidem) was approved on December 16, 1992, for the short-term treatment of insomnia."}
+{"input":"entity: Paxil; event: FDA approval; date: 1992-12-29; context: SSRI","output":"Paxil (paroxetine) received FDA approval on December 29, 1992, for depression and anxiety."}
+{"input":"entity: Taxol; event: FDA approval; date: 1992-12-29; context: chemotherapy","output":"Taxol (paclitaxel) was approved on December 29, 1992, for the treatment of ovarian cancer."}
+{"input":"entity: Imitrex; event: FDA approval; date: 1992-12-28; context: migraine","output":"Imitrex (sumatriptan) received FDA approval on December 28, 1992, as the first triptan for migraines."}
+{"input":"entity: Claritin; event: FDA approval; date: 1993-04-12; context: antihistamine","output":"Claritin (loratadine) was approved on April 12, 1993, as a non-sedating antihistamine."}
+{"input":"entity: Risperdal; event: FDA approval; date: 1993-12-29; context: antipsychotic","output":"Risperdal (risperidone) received FDA approval on December 29, 1993, for schizophrenia."}
+{"input":"entity: Metformin; event: FDA approval; date: 1994-12-29; context: diabetes","output":"Glucophage (metformin) was approved on December 29, 1994, for type 2 diabetes management."}
+{"input":"entity: Cozaar; event: FDA approval; date: 1995-04-14; context: ARB","output":"Cozaar (losartan), the first ARB, received FDA approval on April 14, 1995."}
+{"input":"entity: Prevacid; event: FDA approval; date: 1995-05-10; context: PPI","output":"Prevacid (lansoprazole) was approved on May 10, 1995, for the treatment of acid reflux."}
+{"input":"entity: Fosamax; event: FDA approval; date: 1995-09-29; context: osteoporosis","output":"Fosamax (alendronate) received FDA approval on September 29, 1995, for osteoporosis treatment."}
+{"input":"entity: Saquinavir; event: FDA approval; date: 1995-12-06; context: HIV protease inhibitor","output":"Invirase (saquinavir) was approved on December 6, 1995, as the first HIV protease inhibitor."}
+{"input":"entity: Zyprexa; event: FDA approval; date: 1996-09-30; context: antipsychotic","output":"Zyprexa (olanzapine) received FDA approval on September 30, 1996, for schizophrenia."}
+{"input":"entity: Lipitor; event: FDA approval; date: 1996-12-17; context: statin","output":"Lipitor (atorvastatin) was approved on December 17, 1996, becoming a leading cholesterol treatment."}
+{"input":"entity: Donepezil; event: FDA approval; date: 1996-11-25; context: Alzheimer's","output":"Aricept (donepezil) received FDA approval on November 25, 1996, for Alzheimer's disease."}
+{"input":"entity: Rituxan; event: FDA approval; date: 1997-11-26; context: monoclonal antibody","output":"Rituxan (rituximab) was approved on November 26, 1997, for non-Hodgkin's lymphoma."}
+{"input":"entity: Plavix; event: FDA approval; date: 1997-11-17; context: antiplatelet","output":"Plavix (clopidogrel) received FDA approval on November 17, 1997, to prevent cardiovascular events."}
+{"input":"entity: Singulair; event: FDA approval; date: 1998-02-20; context: asthma","output":"Singulair (montelukast) was approved on February 20, 1998, for asthma prophylaxis."}
+{"input":"entity: Viagra; event: FDA approval; date: 1998-03-27; context: erectile dysfunction","output":"Viagra (sildenafil) received FDA approval on March 27, 1998, for erectile dysfunction."}
+{"input":"entity: Herceptin; event: FDA approval; date: 1998-09-25; context: breast cancer","output":"Herceptin (trastuzumab) was approved on September 25, 1998, for HER2-positive breast cancer."}
+{"input":"entity: Enbrel; event: FDA approval; date: 1998-11-02; context: rheumatoid arthritis","output":"Enbrel (etanercept) received FDA approval on November 2, 1998, for rheumatoid arthritis."}
+{"input":"entity: Celebrex; event: FDA approval; date: 1998-12-31; context: COX-2 inhibitor","output":"Celebrex (celecoxib) was approved on December 31, 1998, for arthritis pain."}
+{"input":"entity: Remicade; event: FDA approval; date: 1998-08-24; context: Crohn's disease","output":"Remicade (infliximab) received FDA approval on August 24, 1998, for Crohn's disease."}
+{"input":"entity: Tamiflu; event: FDA approval; date: 1999-10-27; context: influenza","output":"Tamiflu (oseltamivir) was approved on October 27, 1999, for the treatment of influenza."}
+{"input":"entity: Actos; event: FDA approval; date: 1999-07-15; context: diabetes","output":"Actos (pioglitazone) received FDA approval on July 15, 1999, for type 2 diabetes."}
+{"input":"entity: Avandia; event: FDA approval; date: 1999-05-25; context: diabetes","output":"Avandia (rosiglitazone) was approved on May 25, 1999, for type 2 diabetes management."}
+{"input":"entity: Gleevec; event: FDA approval; date: 2001-05-10; context: leukemia","output":"Gleevec (imatinib) received FDA approval on May 10, 2001, for chronic myeloid leukemia."}
+{"input":"entity: NuvaRing; event: FDA approval; date: 2001-10-03; context: contraception","output":"NuvaRing was approved on October 3, 2001, as a vaginal contraceptive ring."}
+{"input":"entity: Crestor; event: FDA approval; date: 2003-08-12; context: statin","output":"Crestor (rosuvastatin) received FDA approval on August 12, 2003, for hyperlipidemia."}
+{"input":"entity: Cialis; event: FDA approval; date: 2003-11-21; context: erectile dysfunction","output":"Cialis (tadalafil) was approved on November 21, 2003, for erectile dysfunction."}
+{"input":"entity: Levitra; event: FDA approval; date: 2003-08-19; context: erectile dysfunction","output":"Levitra (vardenafil) received FDA approval on August 19, 2003, for erectile dysfunction."}
+{"input":"entity: Cymbalta; event: FDA approval; date: 2004-08-03; context: antidepressant","output":"Cymbalta (duloxetine) was approved on August 3, 2004, for depression and diabetic neuropathy."}
+{"input":"entity: Lyrica; event: FDA approval; date: 2004-12-30; context: neuropathic pain","output":"Lyrica (pregabalin) received FDA approval on December 30, 2004, for neuropathic pain."}
+{"input":"entity: Tysabri; event: FDA approval; date: 2004-11-23; context: multiple sclerosis","output":"Tysabri (natalizumab) was approved on November 23, 2004, for multiple sclerosis."}
+{"input":"entity: Chantix; event: FDA approval; date: 2006-05-10; context: smoking cessation","output":"Chantix (varenicline) received FDA approval on May 10, 2006, as a smoking cessation aid."}
+{"input":"entity: Januvia; event: FDA approval; date: 2006-10-16; context: diabetes","output":"Januvia (sitagliptin) was approved on October 16, 2006, as the first DPP-4 inhibitor."}
+{"input":"entity: Gardasil; event: FDA approval; date: 2006-06-08; context: HPV vaccine","output":"Gardasil received FDA approval on June 8, 2006, as the first vaccine for cervical cancer prevention."}
+{"input":"entity: Atripla; event: FDA approval; date: 2006-07-12; context: HIV","output":"Atripla was approved on July 12, 2006, as the first single-tablet regimen for HIV."}
+{"input":"entity: Isentress; event: FDA approval; date: 2007-10-12; context: HIV integrase inhibitor","output":"Isentress (raltegravir) received FDA approval on October 12, 2007, for HIV treatment."}
+{"input":"entity: Xarelto; event: FDA approval; date: 2011-07-01; context: anticoagulant","output":"Xarelto (rivaroxaban) was approved on July 1, 2011, for DVT prophylaxis."}
+{"input":"entity: Eliquis; event: FDA approval; date: 2012-12-28; context: anticoagulant","output":"Eliquis (apixaban) received FDA approval on December 28, 2012, to prevent stroke in atrial fibrillation."}
+{"input":"entity: Stribild; event: FDA approval; date: 2012-08-27; context: HIV","output":"Stribild was approved on August 27, 2012, as a four-drug combination for HIV."}
+{"input":"entity: Tivicay; event: FDA approval; date: 2013-08-12; context: HIV","output":"Tivicay (dolutegravir) received FDA approval on August 12, 2013, for HIV-1 infection."}
+{"input":"entity: Ofev; event: FDA approval; date: 2014-10-15; context: idiopathic pulmonary fibrosis","output":"Ofev (nintedanib) was approved on October 15, 2014, for idiopathic pulmonary fibrosis."}
+{"input":"entity: Esbriet; event: FDA approval; date: 2014-10-15; context: idiopathic pulmonary fibrosis","output":"Esbriet (pirfenidone) received FDA approval on October 15, 2014, for IPF treatment."}
+{"input":"entity: Cosentyx; event: FDA approval; date: 2015-01-21; context: psoriasis","output":"Cosentyx (secukinumab) was approved on January 21, 2015, for plaque psoriasis."}
+{"input":"entity: Entresto; event: FDA approval; date: 2015-07-07; context: heart failure","output":"Entresto received FDA approval on July 7, 2015, for heart failure with reduced ejection fraction."}
+{"input":"entity: Ocrevus; event: FDA approval; date: 2017-03-28; context: multiple sclerosis","output":"Ocrevus (ocrelizumab) was approved on March 28, 2017, for primary progressive and relapsing MS."}
+{"input":"entity: Shingrix; event: FDA approval; date: 2017-10-20; context: shingles vaccine","output":"Shingrix received FDA approval on October 20, 2017, for the prevention of herpes zoster."}
+{"input":"entity: Biktarvy; event: FDA approval; date: 2018-02-07; context: HIV","output":"Biktarvy was approved on February 7, 2018, as a complete regimen for HIV-1 infection."}
+{"input":"entity: Epidiolex; event: FDA approval; date: 2018-06-25; context: cannabis-derived","output":"Epidiolex received FDA approval on June 25, 2018, becoming the first cannabis-derived drug approved."}
+{"input":"entity: Aimovig; event: FDA approval; date: 2018-05-17; context: migraine","output":"Aimovig was approved on May 17, 2018, for the preventive treatment of migraine."}
+{"input":"entity: Onpattro; event: FDA approval; date: 2018-08-10; context: RNA interference","output":"Onpattro received FDA approval on August 10, 2018, as the first siRNA therapeutic."}
+{"input":"entity: Zulresso; event: FDA approval; date: 2019-03-19; context: postpartum depression","output":"Zulresso (brexanolone) was approved on March 19, 2019, for postpartum depression."}
+{"input":"entity: Skyrizi; event: FDA approval; date: 2019-04-23; context: psoriasis","output":"Skyrizi (risankizumab) received FDA approval on April 23, 2019, for plaque psoriasis."}
+{"input":"entity: Vyndaqel; event: FDA approval; date: 2019-05-03; context: cardiomyopathy","output":"Vyndaqel was approved on May 3, 2019, for ATTR cardiomyopathy."}
+{"input":"entity: Rinvoq; event: FDA approval; date: 2019-08-16; context: rheumatoid arthritis","output":"Rinvoq (upadacitinib) received FDA approval on August 16, 2019, for rheumatoid arthritis."}
+{"input":"entity: Trikafta; event: FDA approval; date: 2019-10-21; context: cystic fibrosis","output":"Trikafta was approved on October 21, 2019, for cystic fibrosis patients with F508del mutation."}
+{"input":"entity: Adakveo; event: FDA approval; date: 2019-11-15; context: sickle cell","output":"Adakveo received FDA approval on November 15, 2019, to reduce vaso-occlusive crises in sickle cell disease."}
+{"input":"entity: Oxbryta; event: FDA approval; date: 2019-11-25; context: sickle cell","output":"Oxbryta was approved on November 25, 2019, for sickle cell disease treatment."}
+{"input":"entity: Ubrelvy; event: FDA approval; date: 2019-12-23; context: migraine","output":"Ubrelvy received FDA approval on December 23, 2019, for acute migraine treatment."}
+{"input":"entity: Enhertu; event: FDA approval; date: 2019-12-20; context: breast cancer","output":"Enhertu was approved on December 20, 2019, for HER2-positive breast cancer."}
+{"input":"entity: Ayvakit; event: FDA approval; date: 2020-01-09; context: GIST","output":"Ayvakit received FDA approval on January 9, 2020, for GIST with PDGFRa exon 18 mutation."}
+{"input":"entity: Tepezza; event: FDA approval; date: 2020-01-21; context: thyroid eye disease","output":"Tepezza was approved on January 21, 2020, for thyroid eye disease."}
+{"input":"entity: Tazverik; event: FDA approval; date: 2020-01-23; context: sarcoma","output":"Tazverik received FDA approval on January 23, 2020, for epithelioid sarcoma."}
+{"input":"entity: Palforzia; event: FDA approval; date: 2020-01-31; context: peanut allergy","output":"Palforzia was approved on January 31, 2020, to mitigate allergic reactions to peanuts."}
+{"input":"entity: Nurtec ODT; event: FDA approval; date: 2020-02-27; context: migraine","output":"Nurtec ODT received FDA approval on February 27, 2020, for acute migraine treatment."}
+{"input":"entity: Isturisa; event: FDA approval; date: 2020-03-06; context: Cushing's disease","output":"Isturisa was approved on March 6, 2020, for adults with Cushing's disease."}
+{"input":"entity: Zeposia; event: FDA approval; date: 2020-03-25; context: multiple sclerosis","output":"Zeposia received FDA approval on March 25, 2020, for relapsing multiple sclerosis."}
+{"input":"entity: Koselugo; event: FDA approval; date: 2020-04-10; context: neurofibromatosis","output":"Koselugo was approved on April 10, 2020, for neurofibromatosis type 1."}
+{"input":"entity: Tabrecta; event: FDA approval; date: 2020-05-06; context: lung cancer","output":"Tabrecta received FDA approval on May 6, 2020, for metastatic NSCLC with MET exon 14 skipping."}
+{"input":"entity: Retevmo; event: FDA approval; date: 2020-05-08; context: lung cancer","output":"Retevmo was approved on May 8, 2020, for RET fusion-positive cancers."}
+{"input":"entity: Qinlock; event: FDA approval; date: 2020-05-15; context: GIST","output":"Qinlock received FDA approval on May 15, 2020, for advanced gastrointestinal stromal tumors."}
+{"input":"entity: Uplizna; event: FDA approval; date: 2020-06-11; context: NMOSD","output":"Uplizna was approved on June 11, 2020, for neuromyelitis optica spectrum disorder."}
+{"input":"entity: Rukobia; event: FDA approval; date: 2020-07-02; context: HIV","output":"Rukobia received FDA approval on July 2, 2020, for heavily treatment-experienced HIV-1 patients."}
+{"input":"entity: Inqovi; event: FDA approval; date: 2020-07-07; context: MDS","output":"Inqovi was approved on July 7, 2020, for myelodysplastic syndromes."}
+{"input":"entity: Blenrep; event: FDA approval; date: 2020-08-05; context: multiple myeloma","output":"Blenrep received FDA approval on August 5, 2020, for relapsed or refractory multiple myeloma."}
+{"input":"entity: Evrysdi; event: FDA approval; date: 2020-08-07; context: SMA","output":"Evrysdi was approved on August 7, 2020, as an oral treatment for spinal muscular atrophy."}
+{"input":"entity: Viltepso; event: FDA approval; date: 2020-08-12; context: Duchenne muscular dystrophy","output":"Viltepso received FDA approval on August 12, 2020, for DMD amenable to exon 53 skipping."}
+{"input":"entity: Enspryng; event: FDA approval; date: 2020-08-14; context: NMOSD","output":"Enspryng was approved on August 14, 2020, for neuromyelitis optica spectrum disorder."}
+{"input":"entity: Monjuvi; event: FDA approval; date: 2020-07-31; context: lymphoma","output":"Monjuvi received FDA approval on July 31, 2020, for diffuse large B-cell lymphoma."}
+{"input":"entity: Gavreto; event: FDA approval; date: 2020-09-04; context: lung cancer","output":"Gavreto was approved on September 4, 2020, for RET fusion-positive NSCLC."}
+{"input":"entity: Zokinvy; event: FDA approval; date: 2020-11-20; context: Progeria","output":"Zokinvy received FDA approval on November 20, 2020, for Hutchinson-Gilford progeria syndrome."}
+{"input":"entity: Orgovyx; event: FDA approval; date: 2020-12-18; context: prostate cancer","output":"Orgovyx was approved on December 18, 2020, for advanced prostate cancer."}
+{"input":"entity: Gemtesa; event: FDA approval; date: 2020-12-18; context: overactive bladder","output":"Gemtesa received FDA approval on December 18, 2020, for overactive bladder."}
+{"input":"entity: Verquvo; event: FDA approval; date: 2021-01-19; context: heart failure","output":"Verquvo was approved on January 19, 2021, for chronic heart failure."}
+{"input":"entity: Cabenuva; event: FDA approval; date: 2021-01-21; context: HIV long-acting","output":"Cabenuva received FDA approval on January 21, 2021, as a monthly injectable for HIV."}
+{"input":"entity: Tepmetko; event: FDA approval; date: 2021-02-03; context: lung cancer","output":"Tepmetko was approved on February 3, 2021, for MET exon 14 skipping NSCLC."}
+{"input":"entity: Ukoniq; event: FDA approval; date: 2021-02-05; context: lymphoma","output":"Ukoniq received FDA approval on February 5, 2021, for marginal zone lymphoma."}
+{"input":"entity: Cosela; event: FDA approval; date: 2021-02-12; context: myeloprotection","output":"Cosela was approved on February 12, 2021, to decrease chemotherapy-induced myelosuppression."}
+{"input":"entity: Amondys 45; event: FDA approval; date: 2021-02-25; context: Duchenne muscular dystrophy","output":"Amondys 45 received FDA approval on February 25, 2021, for DMD amenable to exon 45 skipping."}
+{"input":"entity: Nulibry; event: FDA approval; date: 2021-02-26; context: MoCD type A","output":"Nulibry was approved on February 26, 2021, for molybdenum cofactor deficiency type A."}
+{"input":"entity: Fotivda; event: FDA approval; date: 2021-03-10; context: renal cell carcinoma","output":"Fotivda received FDA approval on March 10, 2021, for relapsed or refractory advanced renal cell carcinoma."}
+{"input":"entity: Ponvory; event: FDA approval; date: 2021-03-18; context: multiple sclerosis","output":"Ponvory was approved on March 18, 2021, for relapsing forms of multiple sclerosis."}
+{"input":"entity: Zegalogue; event: FDA approval; date: 2021-03-22; context: hypoglycemia","output":"Zegalogue received FDA approval on March 22, 2021, for severe hypoglycemia."}
+{"input":"entity: Qelbree; event: FDA approval; date: 2021-04-02; context: ADHD","output":"Qelbree was approved on April 2, 2021, for ADHD in pediatric patients."}
+{"input":"entity: Nextstellis; event: FDA approval; date: 2021-04-15; context: contraception","output":"Nextstellis received FDA approval on April 15, 2021, containing a new estrogen, estetrol."}
+{"input":"entity: Empaveli; event: FDA approval; date: 2021-05-14; context: PNH","output":"Empaveli was approved on May 14, 2021, for paroxysmal nocturnal hemoglobinuria."}
+{"input":"entity: Rybrevant; event: FDA approval; date: 2021-05-21; context: lung cancer","output":"Rybrevant received FDA approval on May 21, 2021, for NSCLC with EGFR exon 20 insertions."}
+{"input":"entity: Truseltiq; event: FDA approval; date: 2021-05-28; context: cholangiocarcinoma","output":"Truseltiq was approved on May 28, 2021, for FGFR2-fusion positive cholangiocarcinoma."}
+{"input":"entity: Brexafemme; event: FDA approval; date: 2021-06-01; context: antifungal","output":"Brexafemme received FDA approval on June 1, 2021, for vulvovaginal candidiasis."}
+{"input":"entity: Kerendia; event: FDA approval; date: 2021-07-09; context: kidney disease","output":"Kerendia was approved on July 9, 2021, for CKD associated with type 2 diabetes."}
+{"input":"entity: Rezurock; event: FDA approval; date: 2021-07-16; context: GVHD","output":"Rezurock received FDA approval on July 16, 2021, for chronic graft-versus-host disease."}
+{"input":"entity: Bylvay; event: FDA approval; date: 2021-07-20; context: pruritus","output":"Bylvay was approved on July 20, 2021, for pruritus in progressive familial intrahepatic cholestasis."}
+{"input":"entity: Saphnelo; event: FDA approval; date: 2021-07-30; context: lupus","output":"Saphnelo received FDA approval on July 30, 2021, for systemic lupus erythematosus."}
+{"input":"entity: Nexviazyme; event: FDA approval; date: 2021-08-06; context: Pompe disease","output":"Nexviazyme was approved on August 6, 2021, for late-onset Pompe disease."}
+{"input":"entity: Welireg; event: FDA approval; date: 2021-08-13; context: VHL disease","output":"Welireg received FDA approval on August 13, 2021, for von Hippel-Lindau disease-associated tumors."}
+{"input":"entity: Korsuva; event: FDA approval; date: 2021-08-23; context: pruritus","output":"Korsuva was approved on August 23, 2021, for pruritus associated with chronic kidney disease."}
+{"input":"entity: Skytrofa; event: FDA approval; date: 2021-08-25; context: growth hormone","output":"Skytrofa received FDA approval on August 25, 2021, for pediatric growth hormone deficiency."}
+{"input":"entity: Mobocertinib; event: FDA approval; date: 2021-09-15; context: lung cancer","output":"Exkivity (mobocertinib) was approved on September 15, 2021, for EGFR exon 20 insertion NSCLC."}
+{"input":"cause: Pure Food and Drug Act; effect: federal regulation; date: 1906-06-30; context: regulatory origin","output":"The Pure Food and Drug Act was passed on June 30, 1906, establishing federal regulation over drug labeling."}
+{"input":"cause: Sulfanilamide elixir tragedy; effect: FD&C Act; date: 1938-06-25; context: safety regulation","output":"Following the Sulfanilamide tragedy, the Federal Food, Drug, and Cosmetic Act was signed on June 25, 1938."}
+{"input":"cause: Thalidomide birth defects; effect: Kefauver-Harris Amendment; date: 1962-10-10; context: efficacy requirement","output":"The Kefauver-Harris Amendment was enacted on October 10, 1962, requiring drugs to prove efficacy due to the Thalidomide crisis."}
+{"input":"cause: Hatch-Waxman Act; effect: generic industry growth; date: 1984-09-24; context: patent law","output":"The Hatch-Waxman Act was signed on September 24, 1984, creating the modern generic drug approval pathway."}
+{"input":"cause: PDUFA; effect: user fees; date: 1992-10-29; context: review speed","output":"The Prescription Drug User Fee Act was enacted on October 29, 1992, allowing the FDA to collect fees to speed up reviews."}
+{"input":"cause: FDAMA; effect: modernization; date: 1997-11-21; context: regulatory reform","output":"The FDA Modernization Act was signed on November 21, 1997, streamlining clinical research and inspections."}
+{"input":"cause: 21st Century Cures Act; effect: RWE integration; date: 2016-12-13; context: innovation","output":"The 21st Century Cures Act was signed on December 13, 2016, encouraging the use of real-world evidence."}
+{"input":"cause: DES cancer link; effect: market withdrawal; date: 1971; context: pregnancy safety","output":"Diethylstilbestrol (DES) was withdrawn for use in pregnancy in 1971 after being linked to cancer in daughters of users."}
+{"input":"cause: Phenformin lactic acidosis; effect: market withdrawal; date: 1978-07-25; context: diabetes safety","output":"Phenformin was withdrawn on July 25, 1978, due to a high risk of fatal lactic acidosis."}
+{"input":"cause: Ticrynafen liver toxicity; effect: market withdrawal; date: 1980; context: diuretic safety","output":"Ticrynafen (Selacryn) was withdrawn in 1980 shortly after approval due to reports of severe liver damage."}
+{"input":"cause: Zomax anaphylaxis; effect: market withdrawal; date: 1983-03-04; context: painkiller safety","output":"Zomax (zomepirac) was withdrawn on March 4, 1983, following reports of fatal anaphylactic reactions."}
+{"input":"cause: Merital immune hemolysis; effect: market withdrawal; date: 1986-01-21; context: antidepressant safety","output":"Merital (nomifensine) was withdrawn on January 21, 1986, due to hemolytic anemia."}
+{"input":"cause: Suprol flank pain; effect: market withdrawal; date: 1987-05-15; context: NSAID safety","output":"Suprol (suprofen) was withdrawn on May 15, 1987, after being linked to flank pain and kidney effects."}
+{"input":"cause: Enkaid cardiac arrest; effect: CAST trial result; date: 1989; context: arrhythmia trial","output":"Enkaid (encainide) use was severely restricted in 1989 after the CAST trial showed it increased mortality."}
+{"input":"cause: Omniflox reactions; effect: market withdrawal; date: 1992-06-05; context: antibiotic safety","output":"Omniflox (temafloxacin) was withdrawn on June 5, 1992, due to severe blood sugar fluctuations and hemolytic anemia."}
+{"input":"cause: Manoplax mortality; effect: market withdrawal; date: 1993-07-16; context: heart failure safety","output":"Manoplax (flosequinan) was withdrawn on July 16, 1993, after a study showed increased mortality."}
+{"input":"cause: Redux heart valve issues; effect: market withdrawal; date: 1997-09-15; context: diet drug safety","output":"Redux (dexfenfluramine) was withdrawn on September 15, 1997, alongside fenfluramine."}
+{"input":"cause: Posicor drug interactions; effect: market withdrawal; date: 1998-06-08; context: calcium channel blocker","output":"Posicor (mibefradil) was withdrawn on June 8, 1998, due to dangerous interactions with multiple other drugs."}
+{"input":"cause: Duract liver failure; effect: market withdrawal; date: 1998-06-22; context: NSAID safety","output":"Duract (bromfenac) was withdrawn on June 22, 1998, following reports of severe hepatitis and liver failure."}
+{"input":"cause: Raxar cardiac risk; effect: market withdrawal; date: 1999-10-27; context: antibiotic safety","output":"Raxar (grepafloxacin) was withdrawn on October 27, 1999, due to potential cardiac risks."}
+{"input":"cause: Hismanal cardiac arrhythmia; effect: market withdrawal; date: 1999-06-21; context: antihistamine safety","output":"Hismanal (astemizole) was withdrawn on June 21, 1999, due to the risk of fatal heart arrhythmias."}
+{"input":"cause: Lotronex ischemic colitis; effect: withdrawal; date: 2000-11-28; context: IBS safety","output":"Lotronex was withdrawn on November 28, 2000, after reports of ischemic colitis, before returning with restrictions."}
+{"input":"cause: Raplon bronchospasm; effect: market withdrawal; date: 2001-03-27; context: anesthesia","output":"Raplon was withdrawn on March 27, 2001, after reports of fatal bronchospasm."}
+{"input":"cause: Baycol rhabdomyolysis; effect: market withdrawal; date: 2001-08-08; context: statin safety","output":"Baycol (cerivastatin) was withdrawn on August 8, 2001, due to a high rate of rhabdomyolysis."}
+{"input":"cause: Palladone alcohol interaction; effect: market withdrawal; date: 2005-07-13; context: opioid safety","output":"Palladone was withdrawn on July 13, 2005, because alcohol could cause a rapid release of the drug."}
+{"input":"cause: NeutroSpec life-threatening reactions; effect: market withdrawal; date: 2005-12-05; context: diagnostic agent","output":"NeutroSpec was withdrawn on December 5, 2005, following reports of severe immune reactions."}
+{"input":"cause: Tequin dysglycemia; effect: market withdrawal; date: 2006-05-01; context: antibiotic safety","output":"Tequin (gatifloxacin) was withdrawn in May 2006 due to severe blood sugar abnormalities."}
+{"input":"cause: Permax valve disease; effect: market withdrawal; date: 2007-03-29; context: Parkinson's safety","output":"Permax (pergolide) was withdrawn on March 29, 2007, due to heart valve damage risks."}
+{"input":"cause: Trasylol mortality; effect: market withdrawal; date: 2007-11-05; context: surgical safety","output":"Trasylol (aprotinin) was suspended on November 5, 2007, after a study suggested increased mortality."}
+{"input":"cause: Raptiva PML risk; effect: market withdrawal; date: 2009-04-08; context: psoriasis safety","output":"Raptiva (efalizumab) was withdrawn on April 8, 2009, due to the risk of progressive multifocal leukoencephalopathy."}
+{"input":"cause: Mylotarg lack of benefit; effect: withdrawal; date: 2010-06-21; context: oncology","output":"Mylotarg was voluntarily withdrawn on June 21, 2010, after failing to show clinical benefit."}
+{"input":"cause: Omontys hypersensitivity; effect: market withdrawal; date: 2013-02-23; context: anemia safety","output":"Omontys was recalled on February 23, 2013, due to reports of fatal hypersensitivity reactions."}
+{"input":"overlap: event1: Tagamet approval 1977-08-16; event2: Zantac approval 1983-06-09; context: H2 blocker era","output":"Tagamet dominated the ulcer market from 1977 until Zantac's approval in 1983 created fierce competition."}
+{"input":"overlap: event1: Capoten approval 1981-04-06; event2: Vasotec approval 1985-12-24; context: ACE inhibitors","output":"Capoten's 1981 launch was followed by Vasotec in 1985, expanding the ACE inhibitor class."}
+{"input":"overlap: event1: Prozac approval 1987-12-29; event2: Zoloft approval 1991-12-30; context: SSRI market","output":"Prozac's approval in late 1987 was followed four years later by Zoloft, marking the rise of SSRIs."}
+{"input":"overlap: event1: Mevacor approval 1987-08-31; event2: Pravachol approval 1991-10-31; context: statin market","output":"Mevacor's monopoly as the first statin in 1987 ended with Pravachol's approval in 1991."}
+{"input":"overlap: event1: Viagra approval 1998-03-27; event2: Levitra approval 2003-08-19; context: ED drugs","output":"Viagra's five-year monopoly ended with the approval of Levitra in August 2003."}
+{"input":"overlap: event1: Cialis approval 2003-11-21; event2: Levitra approval 2003-08-19; context: ED competition","output":"Levitra and Cialis were approved just months apart in late 2003, challenging Viagra."}
+{"input":"overlap: event1: Claritin approval 1993-04-12; event2: Zyrtec approval 1995-12-08; context: antihistamines","output":"Claritin's 1993 approval was followed by Zyrtec in late 1995, defining the non-sedating antihistamine market."}
+{"input":"overlap: event1: Prilosec approval 1989-09-15; event2: Prevacid approval 1995-05-10; context: PPIs","output":"Prilosec led the PPI market from 1989 until Prevacid was approved in 1995."}
+{"input":"overlap: event1: Avonex approval 1996-05-17; event2: Betaseron approval 1993-07-23; context: MS drugs","output":"Betaseron's 1993 approval preceded Avonex in 1996, establishing the interferon era for MS."}
+{"input":"overlap: event1: Copaxone approval 1996-12-20; event2: Rebif approval 2002-03-07; context: MS therapies","output":"Copaxone was approved in 1996, while Rebif entered the US market in 2002."}
+{"input":"overlap: event1: Enbrel approval 1998-11-02; event2: Remicade approval 1998-08-24; context: TNF inhibitors","output":"Remicade and Enbrel were approved just months apart in 1998, revolutionizing autoimmune therapy."}
+{"input":"overlap: event1: Humira approval 2002-12-31; event2: Enbrel approval 1998-11-02; context: biologics","output":"Humira entered the market in late 2002, four years after Enbrel."}
+{"input":"overlap: event1: Celebrex approval 1998-12-31; event2: Vioxx approval 1999-05-20; context: COX-2 inhibitors","output":"Celebrex's 1998 approval was quickly followed by Vioxx in May 1999."}
+{"input":"overlap: event1: Fosamax approval 1995-09-29; event2: Actonel approval 1998-03-27; context: bisphosphonates","output":"Fosamax's 1995 launch preceded Actonel's approval in 1998."}
+{"input":"overlap: event1: Lipitor approval 1996-12-17; event2: Zocor approval 1991-12-23; context: statins","output":"Zocor was approved in 1991, five years before Lipitor arrived in 1996."}
+{"input":"overlap: event1: Plavix approval 1997-11-17; event2: Effient approval 2009-07-10; context: antiplatelets","output":"Plavix dominated the antiplatelet market from 1997 until Effient's approval in 2009."}
+{"input":"overlap: event1: Ambien approval 1992-12-16; event2: Lunesta approval 2004-12-15; context: sleep aids","output":"Ambien's 1992 approval was followed by Lunesta in 2004."}
+{"input":"overlap: event1: Risperdal approval 1993-12-29; event2: Zyprexa approval 1996-09-30; context: atypical antipsychotics","output":"Risperdal (1993) and Zyprexa (1996) were foundational atypical antipsychotic approvals."}
+{"input":"overlap: event1: Seroquel approval 1997-09-26; event2: Geodon approval 2001-02-05; context: antipsychotics","output":"Seroquel's 1997 approval preceded Geodon's approval in 2001."}
+{"input":"overlap: event1: Abilify approval 2002-11-15; event2: Risperdal approval 1993-12-29; context: antipsychotics","output":"Abilify entered the market in 2002, nearly a decade after Risperdal."}
+{"input":"overlap: event1: Januvia approval 2006-10-16; event2: Galvus approval 2007 (delayed); context: DPP-4","output":"Januvia was approved in 2006, while its competitor Galvus faced delays in the US."}
+{"input":"overlap: event1: Byetta approval 2005-04-28; event2: Victoza approval 2010-01-25; context: GLP-1","output":"Byetta, approved in 2005, pioneered the GLP-1 class before Victoza's 2010 approval."}
+{"input":"overlap: event1: Invokana approval 2013-03-29; event2: Jardiance approval 2014-08-01; context: SGLT2","output":"Invokana (2013) was followed by Jardiance in 2014 in the SGLT2 inhibitor class."}
+{"input":"overlap: event1: Harvoni approval 2014-10-10; event2: Viekira Pak approval 2014-12-19; context: HCV","output":"Harvoni and Viekira Pak were approved just months apart in late 2014."}
+{"input":"overlap: event1: Opdivo approval 2014-12-22; event2: Tecentriq approval 2016-05-18; context: checkpoint inhibitors","output":"Opdivo (2014) preceded Tecentriq (2016) in the checkpoint inhibitor space."}
+{"input":"overlap: event1: Ibrance approval 2015-02-03; event2: Kisqali approval 2017-03-13; context: CDK4/6","output":"Ibrance was the first CDK4/6 inhibitor in 2015, followed by Kisqali in 2017."}
+{"input":"overlap: event1: Verzenio approval 2017-09-28; event2: Ibrance approval 2015-02-03; context: CDK4/6","output":"Verzenio joined the CDK4/6 market in 2017, two years after Ibrance."}
+{"input":"overlap: event1: Keytruda lung approval 2015-10-02; event2: Opdivo lung approval 2015-03-04; context: NSCLC","output":"Opdivo received lung cancer approval in March 2015, months before Keytruda in October 2015."}
+{"input":"overlap: event1: Darzalex approval 2015-11-16; event2: Empliciti approval 2015-11-30; context: myeloma","output":"Darzalex and Empliciti were approved for multiple myeloma within two weeks of each other in 2015."}
+{"input":"overlap: event1: Gilenya approval 2010-09-21; event2: Aubagio approval 2012-09-12; context: oral MS drugs","output":"Gilenya was the first oral MS drug in 2010, followed by Aubagio in 2012."}
+{"input":"overlap: event1: Tecfidera approval 2013-03-27; event2: Gilenya approval 2010-09-21; context: MS market","output":"Tecfidera entered the oral MS market in 2013, three years after Gilenya."}
+{"input":"overlap: event1: Sovaldi approval 2013-12-06; event2: Olysio approval 2013-11-22; context: HCV","output":"Olysio was approved just two weeks before Sovaldi in late 2013."}
+{"input":"overlap: event1: Xarelto approval 2011-07-01; event2: Pradaxa approval 2010-10-19; context: DOACs","output":"Pradaxa's 2010 approval opened the DOAC market, followed by Xarelto in 2011."}
+{"input":"overlap: event1: Eliquis approval 2012-12-28; event2: Xarelto approval 2011-07-01; context: blood thinners","output":"Eliquis entered the market in late 2012, over a year after Xarelto."}
+{"input":"overlap: event1: Lucentis approval 2006-06-30; event2: Macugen approval 2004-12-17; context: AMD","output":"Macugen was approved in 2004 but was largely displaced by Lucentis after its 2006 approval."}
+{"input":"overlap: event1: Eylea approval 2011-11-18; event2: Beovu approval 2019-10-07; context: AMD","output":"Eylea dominated from 2011 until Beovu's approval in 2019."}
+{"input":"overlap: event1: Dupixent approval 2017-03-28; event2: Eucrisa approval 2016-12-14; context: atopic dermatitis","output":"Eucrisa was approved for eczema in late 2016, shortly before Dupixent in 2017."}
+{"input":"overlap: event1: Skyrizi approval 2019-04-23; event2: Tremfya approval 2017-07-13; context: psoriasis","output":"Tremfya (2017) and Skyrizi (2019) compete in the IL-23 inhibitor class."}
+{"input":"overlap: event1: Ozempic approval 2017-12-05; event2: Trulicity approval 2014-09-18; context: GLP-1","output":"Trulicity was approved in 2014, three years before Ozempic entered the market."}
+{"input":"overlap: event1: Shingrix approval 2017-10-20; event2: Zostavax approval 2006-05-25; context: shingles","output":"Shingrix (2017) largely replaced Zostavax (2006) as the preferred shingles vaccine."}
+{"input":"overlap: event1: Gardasil 9 approval 2014-12-10; event2: Gardasil approval 2006-06-08; context: HPV","output":"Gardasil 9 was approved in 2014, updating the original Gardasil approved in 2006."}
+{"input":"sequence: entity: Zantac; phase1: approval 1983-06-09; phase2: generic approval 1997; phase3: withdrawal 2020-04-01; context: lifecycle","output":"Zantac was approved in 1983, faced generic competition in 1997, and was withdrawn in 2020."}
+{"input":"sequence: entity: Claritin; phase1: Rx approval 1993-04-12; phase2: OTC approval 2002-11-27; context: Rx to OTC","output":"Claritin was approved as a prescription drug in 1993 and switched to OTC status on November 27, 2002."}
+{"input":"sequence: entity: Prilosec; phase1: Rx approval 1989-09-15; phase2: OTC approval 2003-06-20; context: Rx to OTC","output":"Prilosec Rx was approved in 1989, followed by Prilosec OTC approval on June 20, 2003."}
+{"input":"sequence: entity: Plan B; phase1: Rx approval 1999-07-28; phase2: OTC approval 2006-08-24; context: emergency contraception","output":"Plan B was approved for prescription use in 1999 and became OTC for adults in 2006."}
+{"input":"sequence: entity: Nicorette; phase1: Rx approval 1984-01-13; phase2: OTC approval 1996-02-09; context: smoking cessation","output":"Nicorette gum was approved as Rx in 1984 and switched to OTC in 1996."}
+{"input":"sequence: entity: Rogaine; phase1: Rx approval 1988-08-17; phase2: OTC approval 1996-02-09; context: hair loss","output":"Rogaine was approved for prescription use in 1988 and became available OTC in 1996."}
+{"input":"sequence: entity: Advil; phase1: Rx approval (Motrin) 1974; phase2: OTC approval 1984-05-18; context: ibuprofen access","output":"While Motrin was approved in 1974, ibuprofen became OTC as Advil on May 18, 1984."}
+{"input":"sequence: entity: Aleve; phase1: Rx approval (Naprosyn) 1976; phase2: OTC approval 1994-01-11; context: naproxen access","output":"Naproxen was approved as Rx in 1976 and became OTC as Aleve on January 11, 1994."}
+{"input":"sequence: entity: Pepcid; phase1: Rx approval 1986-10-15; phase2: OTC approval 1995-04-28; context: famotidine","output":"Pepcid was approved as a prescription drug in 1986 and switched to OTC in 1995."}
+{"input":"sequence: entity: Zyrtec; phase1: Rx approval 1995-12-08; phase2: OTC approval 2007-11-16; context: allergy","output":"Zyrtec was approved as prescription-only in 1995 and switched to OTC in 2007."}
+{"input":"sequence: entity: Flonase; phase1: Rx approval 1994-10-19; phase2: OTC approval 2014-07-23; context: allergy spray","output":"Flonase was approved as Rx in 1994 and became available OTC in 2014."}
+{"input":"sequence: entity: Nasacort; phase1: Rx approval 1996; phase2: OTC approval 2013-10-11; context: allergy spray","output":"Nasacort AQ was approved for prescription use in 1996 and switched to OTC in 2013."}
+{"input":"sequence: entity: Prevacid; phase1: Rx approval 1995-05-10; phase2: OTC approval 2009-05-18; context: PPI switch","output":"Prevacid was approved as Rx in 1995 and received OTC approval in 2009."}
+{"input":"sequence: entity: Nexium; phase1: Rx approval 2001-02-20; phase2: OTC approval 2014-03-28; context: PPI switch","output":"Nexium was approved as a prescription drug in 2001 and switched to OTC in 2014."}
+{"input":"sequence: entity: Voltaren Gel; phase1: Rx approval 2007-10-17; phase2: OTC approval 2020-02-14; context: arthritis pain","output":"Voltaren Gel was approved for prescription use in 2007 and became OTC in 2020."}
+{"input":"sequence: entity: Patanol; phase1: Rx approval 1996-12-18; phase2: Pataday OTC approval 2020-02-14; context: eye drops","output":"Olopatadine (Patanol) was approved Rx in 1996; Pataday became OTC in 2020."}
+{"input":"sequence: entity: Differin; phase1: Rx approval 1996-05-31; phase2: OTC approval 2016-07-08; context: acne","output":"Differin was approved as a prescription retinoid in 1996 and switched to OTC in 2016."}
+{"input":"sequence: entity: Seldane; phase1: approval 1985; phase2: withdrawal proposed 1997; phase3: removed 1998; context: safety","output":"Seldane was approved in 1985, but the FDA proposed withdrawal in 1997, leading to its removal in 1998."}
+{"input":"sequence: entity: Propulsid; phase1: approval 1993-07-29; phase2: withdrawal 2000-03-23; context: safety","output":"Propulsid was approved in 1993 and withdrawn from the market in 2000."}
+{"input":"sequence: entity: Rezulin; phase1: approval 1997-01-29; phase2: withdrawal 2000-03-21; context: safety","output":"Rezulin was approved in 1997 and withdrawn in 2000 due to liver toxicity."}
+{"input":"sequence: entity: Lotronex; phase1: approval 2000-02-09; phase2: withdrawal 2000-11-28; phase3: reintroduction 2002-06-07; context: unusual history","output":"Lotronex was approved in Feb 2000, withdrawn in Nov 2000, and reintroduced with restrictions in 2002."}
+{"input":"sequence: entity: Tysabri; phase1: approval 2004-11-23; phase2: withdrawal 2005-02-28; phase3: return 2006-06-05; context: MS safety","output":"Tysabri was approved in 2004, withdrawn in 2005, and returned to market in 2006."}
+{"input":"sequence: entity: Mylotarg; phase1: approval 2000-05-17; phase2: withdrawal 2010-06-21; phase3: re-approval 2017-09-01; context: oncology","output":"Mylotarg was approved in 2000, withdrawn in 2010, and re-approved in 2017 with a new dosing regimen."}
+{"input":"sequence: entity: Iclusig; phase1: approval 2012-12-14; phase2: suspension 2013-10; phase3: return 2014-01; context: safety","output":"Iclusig was approved in 2012, sales were suspended in 2013, and it returned in 2014."}
+{"input":"sequence: entity: Addyi; phase1: rejection 2010; phase2: rejection 2013; phase3: approval 2015-08-18; context: regulatory path","output":"Addyi was rejected twice before finally winning approval on August 18, 2015."}
+{"input":"sequence: entity: Exubera; phase1: approval 2006-01-27; phase2: withdrawal 2007-10; context: commercial failure","output":"Exubera (inhaled insulin) was approved in 2006 but withdrawn by Pfizer in 2007 due to poor sales."}
+{"input":"sequence: entity: BiDil; phase1: rejection 1997; phase2: approval 2005-06-23; context: specific population","output":"After a 1997 rejection, BiDil was approved on June 23, 2005, for heart failure in Black patients."}
+{"input":"sequence: entity: Provenge; phase1: complete response letter 2007; phase2: approval 2010-04-29; context: cancer vaccine","output":"Provenge received a CRL in 2007 but was approved on April 29, 2010."}
+{"input":"sequence: entity: Belviq; phase1: rejection 2010; phase2: approval 2012-06-27; phase3: withdrawal 2020-02-13; context: weight loss","output":"Belviq was rejected in 2010, approved in 2012, and withdrawn in 2020."}
+{"input":"sequence: entity: Qsymia; phase1: rejection 2010; phase2: approval 2012-07-17; context: weight loss","output":"Qsymia was rejected in 2010 before receiving approval on July 17, 2012."}
+{"input":"sequence: entity: Contrave; phase1: rejection 2011; phase2: approval 2014-09-10; context: weight loss","output":"Contrave was rejected in 2011 and subsequently approved on September 10, 2014."}
+{"input":"sequence: entity: Saxenda; phase1: Victoza approval 2010; phase2: Saxenda approval 2014-12-23; context: indication expansion","output":"Liraglutide was approved as Victoza in 2010 and as Saxenda for weight loss in 2014."}
+{"input":"sequence: entity: Wegovy; phase1: Ozempic approval 2017; phase2: Wegovy approval 2021-06-04; context: indication expansion","output":"Semaglutide was approved as Ozempic in 2017 and as Wegovy for obesity in 2021."}
+{"input":"sequence: entity: Latisse; phase1: Lumigan approval 2001; phase2: Latisse approval 2008-12-24; context: side effect to indication","output":"Bimatoprost was approved as Lumigan for glaucoma in 2001 and as Latisse for eyelash growth in 2008."}
+{"input":"sequence: entity: Botox; phase1: approval 1989-12-29; phase2: cosmetic approval 2002-04-15; context: indication expansion","output":"Botox was approved for strabismus in 1989 and for cosmetic use in 2002."}
+{"input":"sequence: entity: Finasteride; phase1: Proscar approval 1992-06-19; phase2: Propecia approval 1997-12-22; context: dose change","output":"Finasteride was approved as Proscar (5mg) in 1992 and Propecia (1mg) in 1997."}
+{"input":"sequence: entity: Bupropion; phase1: Wellbutrin approval 1985; phase2: Zyban approval 1997-05-14; context: rebranding","output":"Bupropion was approved as Wellbutrin in 1985 and as Zyban for smoking cessation in 1997."}
+{"input":"sequence: entity: Sildenafil; phase1: Viagra approval 1998; phase2: Revatio approval 2005-06-03; context: indication","output":"Sildenafil was approved as Viagra in 1998 and as Revatio for pulmonary hypertension in 2005."}
+{"input":"sequence: entity: Tadalafil; phase1: Cialis approval 2003; phase2: Adcirca approval 2009-05-22; context: indication","output":"Tadalafil was approved as Cialis in 2003 and as Adcirca for pulmonary hypertension in 2009."}
+{"input":"sequence: entity: Hydroxyurea; phase1: Hydrea approval 1967; phase2: Droxia approval 1998; context: sickle cell","output":"Hydroxyurea was approved as Hydrea in 1967 and as Droxia for sickle cell anemia in 1998."}
+{"input":"entity: Adriamycin; event: FDA approval; date: 1974; context: chemotherapy","output":"Adriamycin (doxorubicin) was approved in 1974, becoming a cornerstone of chemotherapy."}
+{"input":"entity: Methotrexate; event: FDA approval; date: 1953; context: cancer","output":"Methotrexate was approved by the FDA in 1953 for the treatment of cancer."}
+{"input":"entity: Coumadin; event: FDA approval; date: 1954; context: anticoagulant","output":"Coumadin (warfarin) was approved in 1954 for use in humans as an anticoagulant."}
+{"input":"entity: Ritalin; event: FDA approval; date: 1955-12-05; context: ADHD","output":"Ritalin (methylphenidate) was approved on December 5, 1955, for treating hyperactivity."}
+{"input":"entity: Librium; event: FDA approval; date: 1960-02-24; context: benzodiazepine","output":"Librium (chlordiazepoxide) was approved on February 24, 1960, as the first benzodiazepine."}
+{"input":"entity: Sabin vaccine; event: FDA approval; date: 1961; context: polio","output":"The Sabin oral polio vaccine was approved in 1961, replacing the Salk vaccine."}
+{"input":"entity: Measles vaccine; event: FDA approval; date: 1963; context: public health","output":"The first measles vaccine was approved in 1963, later incorporated into the MMR shot."}
+{"input":"entity: Mumps vaccine; event: FDA approval; date: 1967; context: public health","output":"The mumps vaccine (Mumpsvax) was approved by the FDA in 1967."}
+{"input":"entity: Rubella vaccine; event: FDA approval; date: 1969; context: public health","output":"The rubella vaccine was approved in 1969, completing the trio for MMR."}
+{"input":"entity: MMR vaccine; event: FDA approval; date: 1971; context: combination vaccine","output":"The combination MMR vaccine was approved in 1971."}
+{"input":"entity: Narcan; event: FDA approval; date: 1971-04-13; context: opioid reversal","output":"Narcan (naloxone) was approved on April 13, 1971, to treat opioid overdose."}
+{"input":"entity: Synthroid; event: FDA approval; date: 2002-07-24; context: regulatory anomaly","output":"Though used for decades, Synthroid only received formal FDA approval on July 24, 2002."}
+{"input":"entity: Dilantin; event: FDA approval; date: 1938; context: epilepsy","output":"Dilantin (phenytoin) was approved in 1938 for the control of seizures."}
+{"input":"entity: Premarin; event: FDA approval; date: 1942; context: hormone therapy","output":"Premarin was approved in 1942 for the treatment of menopausal symptoms."}
+{"input":"entity: Benadryl; event: FDA approval; date: 1946; context: antihistamine","output":"Benadryl (diphenhydramine) was approved in 1946 as the first prescription antihistamine."}
+{"input":"entity: Cortisone; event: FDA approval; date: 1950; context: steroid","output":"Cortisone was approved in 1950, introducing corticosteroids to medicine."}
+{"input":"entity: Tylenol; event: FDA approval; date: 1955; context: analgesic","output":"Tylenol (acetaminophen) was approved in 1955 as a prescription analgesic for children."}
+{"input":"entity: Darvon; event: FDA approval; date: 1957; context: painkiller","output":"Darvon (propoxyphene) was approved in 1957 for mild to moderate pain."}
+{"input":"entity: Halcion; event: FDA approval; date: 1982-11-15; context: insomnia","output":"Halcion (triazolam) was approved on November 15, 1982, for short-term insomnia treatment."}
+{"input":"entity: Versed; event: FDA approval; date: 1985-12-20; context: sedation","output":"Versed (midazolam) was approved on December 20, 1985, for preoperative sedation."}
+{"input":"entity: Propofol; event: FDA approval; date: 1989-10-02; context: anesthesia","output":"Diprivan (propofol) was approved on October 2, 1989, for induction of anesthesia."}
+{"input":"entity: Fentanyl patch; event: FDA approval; date: 1990-08-07; context: pain management","output":"Duragesic (fentanyl transdermal) was approved on August 7, 1990, for chronic pain."}
+{"input":"entity: OxyContin; event: FDA approval; date: 1995-12-12; context: opioid","output":"OxyContin was approved on December 12, 1995, as a controlled-release oxycodone formulation."}
+{"input":"entity: Ultram; event: FDA approval; date: 1995-03-03; context: analgesic","output":"Ultram (tramadol) was approved on March 3, 1995, for moderate to moderately severe pain."}
+{"input":"entity: Lidoderm; event: FDA approval; date: 1999-03-19; context: neuropathic pain","output":"Lidoderm (lidocaine patch) was approved on March 19, 1999, for postherpetic neuralgia."}
+{"input":"entity: Keppra; event: FDA approval; date: 1999-11-30; context: epilepsy","output":"Keppra (levetiracetam) was approved on November 30, 1999, as an antiepileptic drug."}
+{"input":"entity: Topamax; event: FDA approval; date: 1996-12-24; context: epilepsy","output":"Topamax (topiramate) was approved on December 24, 1996, for seizure control."}
+{"input":"entity: Lamictal; event: FDA approval; date: 1994-12-27; context: epilepsy","output":"Lamictal (lamotrigine) was approved on December 27, 1994, for the treatment of seizures."}
+{"input":"entity: Neurontin; event: FDA approval; date: 1993-12-30; context: epilepsy","output":"Neurontin (gabapentin) was approved on December 30, 1993, for partial seizures."}
+{"input":"entity: Depakote; event: FDA approval; date: 1983-03-10; context: epilepsy","output":"Depakote was approved on March 10, 1983, for the treatment of seizures."}
+{"input":"entity: Tegretol; event: FDA approval; date: 1968; context: epilepsy","output":"Tegretol (carbamazepine) was approved in 1968 for trigeminal neuralgia and later for seizures."}
+{"input":"entity: Imitrex; event: FDA approval; date: 1992-12-28; context: migraine","output":"Imitrex injection was approved on December 28, 1992, for acute migraine treatment."}
+{"input":"entity: Maxalt; event: FDA approval; date: 1998-06-29; context: migraine","output":"Maxalt (rizatriptan) was approved on June 29, 1998, for migraine treatment."}
+{"input":"entity: Zomig; event: FDA approval; date: 1997-11-25; context: migraine","output":"Zomig (zolmitriptan) was approved on November 25, 1997, for migraine relief."}
+{"input":"entity: Amerge; event: FDA approval; date: 1998-02-11; context: migraine","output":"Amerge (naratriptan) was approved on February 11, 1998, for the treatment of migraine."}
+{"input":"entity: Relpax; event: FDA approval; date: 2002-12-26; context: migraine","output":"Relpax (eletriptan) was approved on December 26, 2002, for migraine headaches."}
+{"input":"entity: Frova; event: FDA approval; date: 2001-11-08; context: migraine","output":"Frova (frovatriptan) was approved on November 8, 2001, for acute migraine treatment."}
+{"input":"entity: Axert; event: FDA approval; date: 2001-05-07; context: migraine","output":"Axert (almotriptan) was approved on May 7, 2001, for migraine in adults."}
+{"input":"entity: Arimidex; event: FDA approval; date: 1995-12-27; context: breast cancer","output":"Arimidex (anastrozole) was approved on December 27, 1995, for advanced breast cancer."}
+{"input":"entity: Femara; event: FDA approval; date: 1997-07-25; context: breast cancer","output":"Femara (letrozole) was approved on July 25, 1997, for advanced breast cancer."}
+{"input":"entity: Aromasin; event: FDA approval; date: 1999-10-21; context: breast cancer","output":"Aromasin (exemestane) was approved on October 21, 1999, for advanced breast cancer."}
+{"input":"entity: Faslodex; event: FDA approval; date: 2002-04-25; context: breast cancer","output":"Faslodex (fulvestrant) was approved on April 25, 2002, for hormone receptor-positive breast cancer."}
+{"input":"entity: Xeloda; event: FDA approval; date: 1998-04-30; context: cancer","output":"Xeloda (capecitabine) was approved on April 30, 1998, for metastatic breast cancer."}
+{"input":"entity: Gemzar; event: FDA approval; date: 1996-05-15; context: cancer","output":"Gemzar (gemcitabine) was approved on May 15, 1996, for pancreatic cancer."}
+{"input":"entity: Camptosar; event: FDA approval; date: 1996-06-14; context: cancer","output":"Camptosar (irinotecan) was approved on June 14, 1996, for colorectal cancer."}
+{"input":"entity: Eloxatin; event: FDA approval; date: 2002-08-09; context: cancer","output":"Eloxatin (oxaliplatin) was approved on August 9, 2002, for colorectal cancer."}
+{"input":"entity: Alimta; event: FDA approval; date: 2004-02-04; context: cancer","output":"Alimta (pemetrexed) was approved on February 4, 2004, for mesothelioma."}
+{"input":"entity: Avastin; event: FDA approval; date: 2004-02-26; context: angiogenesis inhibitor","output":"Avastin (bevacizumab) was approved on February 26, 2004, for colorectal cancer."}
+{"input":"entity: Erbitux; event: FDA approval; date: 2004-02-12; context: cancer","output":"Erbitux (cetuximab) was approved on February 12, 2004, for colorectal cancer."}
+{"input":"entity: Tarceva; event: FDA approval; date: 2004-11-18; context: lung cancer","output":"Tarceva (erlotinib) was approved on November 18, 2004, for non-small cell lung cancer."}
+{"input":"entity: Iressa; event: FDA approval; date: 2003-05-05; context: lung cancer","output":"Iressa (gefitinib) was approved on May 5, 2003, for NSCLC."}
+{"input":"entity: Sutent; event: FDA approval; date: 2006-01-26; context: kidney cancer","output":"Sutent (sunitinib) was approved on January 26, 2006, for renal cell carcinoma and GIST."}
+{"input":"entity: Nexavar; event: FDA approval; date: 2005-12-20; context: kidney cancer","output":"Nexavar (sorafenib) was approved on December 20, 2005, for advanced renal cell carcinoma."}
+{"input":"entity: Sprycel; event: FDA approval; date: 2006-06-28; context: leukemia","output":"Sprycel (dasatinib) was approved on June 28, 2006, for CML."}
+{"input":"entity: Tasigna; event: FDA approval; date: 2007-10-29; context: leukemia","output":"Tasigna (nilotinib) was approved on October 29, 2007, for CML."}
+{"input":"entity: Tykerb; event: FDA approval; date: 2007-03-13; context: breast cancer","output":"Tykerb (lapatinib) was approved on March 13, 2007, for HER2-positive breast cancer."}
+{"input":"entity: Velcade; event: FDA approval; date: 2003-05-13; context: myeloma","output":"Velcade (bortezomib) was approved on May 13, 2003, for multiple myeloma."}
+{"input":"entity: Revlimid; event: FDA approval; date: 2005-12-27; context: myeloma","output":"Revlimid (lenalidomide) was approved on December 27, 2005, for myelodysplastic syndromes."}
+{"input":"entity: Thalomid; event: FDA approval; date: 1998-07-16; context: leprosy/myeloma","output":"Thalomid (thalidomide) was approved on July 16, 1998, for leprosy, later for myeloma."}
+{"input":"entity: Lupron; event: FDA approval; date: 1985-04-09; context: prostate cancer","output":"Lupron (leuprolide) was approved on April 9, 1985, for advanced prostate cancer."}
+{"input":"entity: Zoladex; event: FDA approval; date: 1989-12-29; context: prostate cancer","output":"Zoladex (goserelin) was approved on December 29, 1989, for prostate cancer."}
+{"input":"entity: Casodex; event: FDA approval; date: 1995-10-04; context: prostate cancer","output":"Casodex (bicalutamide) was approved on October 4, 1995, for prostate cancer."}
+{"input":"entity: Proscar; event: FDA approval; date: 1992-06-19; context: BPH","output":"Proscar (finasteride) was approved on June 19, 1992, for benign prostatic hyperplasia."}
+{"input":"entity: Flomax; event: FDA approval; date: 1997-04-15; context: BPH","output":"Flomax (tamsulosin) was approved on April 15, 1997, for BPH symptoms."}
+{"input":"entity: Avodart; event: FDA approval; date: 2001-11-20; context: BPH","output":"Avodart (dutasteride) was approved on November 20, 2001, for BPH."}
+{"input":"entity: Detrol; event: FDA approval; date: 1998-03-25; context: bladder","output":"Detrol (tolterodine) was approved on March 25, 1998, for overactive bladder."}
+{"input":"entity: Ditropan XL; event: FDA approval; date: 1998-12-16; context: bladder","output":"Ditropan XL (oxybutynin) was approved on December 16, 1998, for overactive bladder."}
+{"input":"entity: Vesicare; event: FDA approval; date: 2004-11-19; context: bladder","output":"Vesicare (solifenacin) was approved on November 19, 2004, for overactive bladder."}
+{"input":"entity: Enablex; event: FDA approval; date: 2004-12-22; context: bladder","output":"Enablex (darifenacin) was approved on December 22, 2004, for overactive bladder."}
+{"input":"entity: Elmiron; event: FDA approval; date: 1996-09-26; context: bladder pain","output":"Elmiron was approved on September 26, 1996, for interstitial cystitis."}
+{"input":"entity: Pyridium; event: FDA approval; date: 1930s (pre-1938); context: grandfathered","output":"Pyridium (phenazopyridine) entered the market in the 1930s, pre-dating modern efficacy requirements."}
+{"input":"entity: Macrobid; event: FDA approval; date: 1991-12-24; context: UTI","output":"Macrobid (nitrofurantoin) was approved on December 24, 1991, for urinary tract infections."}
+{"input":"entity: Monurol; event: FDA approval; date: 1996-12-19; context: UTI","output":"Monurol (fosfomycin) was approved on December 19, 1996, as a single-dose UTI treatment."}
+{"input":"entity: Bactrim; event: FDA approval; date: 1973; context: antibiotic","output":"Bactrim (trimethoprim/sulfamethoxazole) was approved in 1973 for infections."}
+{"input":"entity: Augmentin; event: FDA approval; date: 1984-08-06; context: antibiotic","output":"Augmentin (amoxicillin/clavulanate) was approved on August 6, 1984."}
+{"input":"entity: Zithromax; event: FDA approval; date: 1991-11-01; context: antibiotic","output":"Zithromax (azithromycin) was approved on November 1, 1991, simplifying dosing."}
+{"input":"entity: Biaxin; event: FDA approval; date: 1991-10-31; context: antibiotic","output":"Biaxin (clarithromycin) was approved on October 31, 1991."}
+{"input":"entity: Levaquin; event: FDA approval; date: 1996-12-20; context: antibiotic","output":"Levaquin (levofloxacin) was approved on December 20, 1996."}
+{"input":"entity: Avelox; event: FDA approval; date: 1999-12-10; context: antibiotic","output":"Avelox (moxifloxacin) was approved on December 10, 1999."}
+{"input":"entity: Zyvox; event: FDA approval; date: 2000-04-18; context: antibiotic","output":"Zyvox (linezolid) was approved on April 18, 2000, for resistant infections."}
+{"input":"entity: Cubicin; event: FDA approval; date: 2003-09-12; context: antibiotic","output":"Cubicin (daptomycin) was approved on September 12, 2003, for skin infections."}
+{"input":"entity: Tygacil; event: FDA approval; date: 2005-06-15; context: antibiotic","output":"Tygacil (tigecycline) was approved on June 15, 2005."}
+{"input":"entity: Rocephin; event: FDA approval; date: 1984-12-21; context: antibiotic","output":"Rocephin (ceftriaxone) was approved on December 21, 1984."}
+{"input":"entity: Primaxin; event: FDA approval; date: 1985-11-26; context: antibiotic","output":"Primaxin (imipenem/cilastatin) was approved on November 26, 1985."}
+{"input":"entity: Merrem; event: FDA approval; date: 1996-06-21; context: antibiotic","output":"Merrem (meropenem) was approved on June 21, 1996."}
+{"input":"entity: Vancocin; event: FDA approval; date: 1958; context: antibiotic","output":"Vancocin (vancomycin) was approved in 1958 for severe staph infections."}
+{"input":"entity: Flagyl; event: FDA approval; date: 1963-07-18; context: antibiotic","output":"Flagyl (metronidazole) was approved on July 18, 1963."}
+{"input":"entity: Nystatin; event: FDA approval; date: 1954; context: antifungal","output":"Nystatin was approved in 1954 as the first antifungal antibiotic."}
+{"input":"entity: Sporanox; event: FDA approval; date: 1992-09-11; context: antifungal","output":"Sporanox (itraconazole) was approved on September 11, 1992."}
+{"input":"entity: Lamisil; event: FDA approval; date: 1992-12-30; context: antifungal","output":"Lamisil (terbinafine) was approved on December 30, 1992, for nail fungus."}
+{"input":"entity: Cancidas; event: FDA approval; date: 2001-01-26; context: antifungal","output":"Cancidas (caspofungin) was approved on January 26, 2001, the first echinocandin."}
+{"input":"entity: Vfend; event: FDA approval; date: 2002-05-24; context: antifungal","output":"Vfend (voriconazole) was approved on May 24, 2002."}
+{"input":"entity: Noxafil; event: FDA approval; date: 2006-09-15; context: antifungal","output":"Noxafil (posaconazole) was approved on September 15, 2006."}
+{"input":"entity: Zovirax; event: FDA approval; date: 1982-03-29; context: antiviral","output":"Zovirax (acyclovir) ointment was approved on March 29, 1982, for herpes."}
+{"input":"entity: Valtrex; event: FDA approval; date: 1995-06-23; context: antiviral","output":"Valtrex (valacyclovir) was approved on June 23, 1995."}
+{"input":"entity: Famvir; event: FDA approval; date: 1994-06-24; context: antiviral","output":"Famvir (famciclovir) was approved on June 24, 1994."}
+{"input":"entity: Abreva; event: FDA approval; date: 2000-07-25; context: antiviral OTC","output":"Abreva (docosanol) was approved as an OTC cold sore treatment on July 25, 2000."}
+{"input":"entity: Rebetol; event: FDA approval; date: 1998-06-03; context: HCV","output":"Rebetol (ribavirin) was approved on June 3, 1998, for use with interferon."}
+{"input":"entity: Peg-Intron; event: FDA approval; date: 2001-01-19; context: HCV","output":"Peg-Intron was approved on January 19, 2001, for hepatitis C."}
+{"input":"entity: Pegasys; event: FDA approval; date: 2002-10-16; context: HCV","output":"Pegasys was approved on October 16, 2002, for hepatitis C."}
+{"input":"entity: Victrelis; event: FDA approval; date: 2011-05-13; context: HCV","output":"Victrelis (boceprevir) was approved on May 13, 2011, for hepatitis C."}
+{"input":"entity: Incivek; event: FDA approval; date: 2011-05-23; context: HCV","output":"Incivek (telaprevir) was approved on May 23, 2011, for hepatitis C."}
+{"input":"entity: Daklinza; event: FDA approval; date: 2015-07-24; context: HCV","output":"Daklinza (daclatasvir) was approved on July 24, 2015."}
+{"input":"entity: Vosevi; event: FDA approval; date: 2017-07-18; context: HCV","output":"Vosevi was approved on July 18, 2017, as a salvage therapy for HCV."}
+{"input":"entity: Mavyret; event: FDA approval; date: 2017-08-03; context: HCV","output":"Mavyret was approved on August 3, 2017, for 8-week HCV treatment."}
+{"input":"entity: Baraclude; event: FDA approval; date: 2005-03-29; context: HBV","output":"Baraclude (entecavir) was approved on March 29, 2005, for hepatitis B."}
+{"input":"entity: Tyzeka; event: FDA approval; date: 2006-10-25; context: HBV","output":"Tyzeka (telbivudine) was approved on October 25, 2006, for hepatitis B."}
+{"input":"entity: Vemlidy; event: FDA approval; date: 2016-11-10; context: HBV","output":"Vemlidy (TAF) was approved on November 10, 2016, for hepatitis B."}
+{"input":"entity: Viread; event: FDA approval; date: 2001-10-26; context: HIV","output":"Viread (tenofovir DF) was approved on October 26, 2001, for HIV."}
+{"input":"entity: Emtriva; event: FDA approval; date: 2003-07-02; context: HIV","output":"Emtriva (emtricitabine) was approved on July 2, 2003."}
+{"input":"entity: Epzicom; event: FDA approval; date: 2004-08-02; context: HIV","output":"Epzicom (abacavir/lamivudine) was approved on August 2, 2004."}
+{"input":"entity: Truvada; event: FDA approval; date: 2004-08-02; context: HIV","output":"Truvada (TDF/FTC) was approved on August 2, 2004."}
+{"input":"entity: Reyataz; event: FDA approval; date: 2003-06-20; context: HIV","output":"Reyataz (atazanavir) was approved on June 20, 2003."}
+{"input":"entity: Lexiva; event: FDA approval; date: 2003-10-20; context: HIV","output":"Lexiva (fosamprenavir) was approved on October 20, 2003."}
+{"input":"entity: Prezista; event: FDA approval; date: 2006-06-23; context: HIV","output":"Prezista (darunavir) was approved on June 23, 2006."}
+{"input":"entity: Selzentry; event: FDA approval; date: 2007-08-06; context: HIV","output":"Selzentry (maraviroc) was approved on August 6, 2007."}
+{"input":"entity: Fuzeon; event: FDA approval; date: 2003-03-13; context: HIV","output":"Fuzeon (enfuvirtide) was approved on March 13, 2003, as a fusion inhibitor."}
+{"input":"entity: Intelence; event: FDA approval; date: 2008-01-18; context: HIV","output":"Intelence (etravirine) was approved on January 18, 2008."}
+{"input":"entity: Edurant; event: FDA approval; date: 2011-05-20; context: HIV","output":"Edurant (rilpivirine) was approved on May 20, 2011."}
+{"input":"entity: Complera; event: FDA approval; date: 2011-08-10; context: HIV","output":"Complera was approved on August 10, 2011."}
+{"input":"entity: Genvoya; event: FDA approval; date: 2015-11-05; context: HIV","output":"Genvoya was approved on November 5, 2015."}
+{"input":"entity: Odefsey; event: FDA approval; date: 2016-03-01; context: HIV","output":"Odefsey was approved on March 1, 2016."}
+{"input":"entity: Descovy; event: FDA approval; date: 2016-04-04; context: HIV","output":"Descovy was approved on April 4, 2016."}
+{"input":"entity: Juluca; event: FDA approval; date: 2017-11-21; context: HIV","output":"Juluca was approved on November 21, 2017, the first 2-drug regimen."}
+{"input":"entity: Delstrigo; event: FDA approval; date: 2018-08-30; context: HIV","output":"Delstrigo was approved on August 30, 2018."}
+{"input":"entity: Pifeltro; event: FDA approval; date: 2018-08-30; context: HIV","output":"Pifeltro (doravirine) was approved on August 30, 2018."}
+{"input":"entity: Dovato; event: FDA approval; date: 2019-04-08; context: HIV","output":"Dovato was approved on April 8, 2019."}
+{"input":"entity: Symtuza; event: FDA approval; date: 2018-07-20; context: HIV","output":"Symtuza was approved on July 20, 2018."}
+{"input":"entity: Cabenuva; event: FDA approval; date: 2021-01-21; context: HIV","output":"Cabenuva was approved on January 21, 2021, as the first monthly injectable regimen."}
+{"input":"sequence: entity: Xeljanz; phase1: rheumatoid arthritis approval 2012-11-06; phase2: psoriatic arthritis approval 2017-12-14; phase3: ulcerative colitis approval 2018-05-30; context: indication expansion","output":"Tofacitinib was approved as Xeljanz for rheumatoid arthritis in 2012, for psoriatic arthritis in 2017, and for ulcerative colitis in 2018."}
+{"input":"sequence: entity: Otezla; phase1: psoriasis approval 2014-03-21; phase2: psoriatic arthritis approval 2019-01-24; context: indication expansion","output":"Apremilast was approved as Otezla for psoriasis in 2014 and for psoriatic arthritis in 2019."}
+{"input":"sequence: entity: Stelara; phase1: psoriasis approval 2009-09-25; phase2: psoriatic arthritis approval 2013-12-20; phase3: Crohn's disease approval 2016-11-23; context: indication expansion","output":"Ustekinumab was approved as Stelara for psoriasis in 2009, for psoriatic arthritis in 2013, and for Crohn's disease in 2016."}
+{"input":"sequence: entity: Humira; phase1: rheumatoid arthritis approval 2002-12-31; phase2: Crohn's disease approval 2007-01-31; phase3: ulcerative colitis approval 2012-10-18; context: indication expansion","output":"Adalimumab was approved as Humira for rheumatoid arthritis in 2002, for Crohn's disease in 2007, and for ulcerative colitis in 2012."}
+{"input":"sequence: entity: Enbrel; phase1: rheumatoid arthritis approval 1998-11-13; phase2: psoriasis approval 2004-09-24; phase3: psoriatic arthritis approval 2005-12-20; context: indication expansion","output":"Etanercept was approved as Enbrel for rheumatoid arthritis in 1998, for psoriasis in 2004, and for psoriatic arthritis in 2005."}
+{"input":"sequence: entity: Cimzia; phase1: rheumatoid arthritis approval 2008-05-23; phase2: Crohn's disease approval 2008-09-26; phase3: psoriatic arthritis approval 2013-04-12; context: indication expansion","output":"Certolizumab pegol was approved as Cimzia for rheumatoid arthritis in 2008, for Crohn's disease in 2008, and for psoriatic arthritis in 2013."}
+{"input":"sequence: entity: Cosentyx; phase1: psoriasis approval 2015-01-21; phase2: psoriatic arthritis approval 2016-01-22; phase3: ankylosing spondylitis approval 2016-03-24; context: indication expansion","output":"Secukinumab was approved as Cosentyx for psoriasis in 2015, for psoriatic arthritis in 2016, and for ankylosing spondylitis in 2016."}
+{"input":"entity: Morphine; event: isolation; date: 1804; context: alkaloid chemistry","output":"Friedrich Sertürner isolated morphine from opium in 1804, marking the beginning of modern alkaloid chemistry."}
+{"input":"entity: Quinine; event: isolation; date: 1820; context: malaria treatment","output":"Quinine was successfully isolated from cinchona bark in 1820 by Pierre Joseph Pelletier and Joseph Bienaimé Caventou."}
+{"input":"entity: Caffeine; event: isolation; date: 1819; context: chemical discovery","output":"Friedlieb Ferdinand Runge first isolated pure caffeine in 1819, shortly before Pelletier's independent discovery."}
+{"input":"entity: United States Pharmacopeia; event: founding; date: 1820-01-01; context: drug standardization","output":"The United States Pharmacopeia (USP) was established in 1820 to create a system of standards for drug preparations."}
+{"input":"entity: Ether; event: first public demonstration; date: 1846-10-16; context: anesthesia","output":"William Morton publicly demonstrated the use of ether as an anesthetic on October 16, 1846, at Massachusetts General Hospital."}
+{"input":"entity: Chloroform; event: discovery; date: 1831; context: anesthesia","output":"Chloroform was independently discovered in 1831 by Samuel Guthrie, Eugène Soubeiran, and Justus von Liebig."}
+{"input":"entity: Codeine; event: isolation; date: 1832; context: opioid discovery","output":"Pierre Robiquet isolated codeine in 1832 while analyzing the components of opium."}
+{"input":"entity: Atropine; event: isolation; date: 1833; context: pharmacology","output":"Atropine was first isolated from belladonna plants in 1833 by chemists Mein, Geiger, and Hesse."}
+{"input":"entity: Drug Importation Act; event: enactment; date: 1848-06-26; context: early regulation","output":"The Drug Importation Act was signed on June 26, 1848, to stop the entry of adulterated drugs into the United States."}
+{"input":"entity: Pfizer; event: founding; date: 1849; context: pharmaceutical industry","output":"Charles Pfizer and Charles Erhart founded Pfizer in Brooklyn in 1849, initially producing santonin."}
+{"input":"entity: Squibb; event: founding; date: 1858; context: pharmaceutical purity","output":"Edward Robinson Squibb founded his laboratory in 1858, prioritizing the purity of medicines for the US Navy."}
+{"input":"entity: Cocaine; event: isolation; date: 1860; context: alkaloid chemistry","output":"Albert Niemann isolated pure cocaine from coca leaves in 1860 and noted its numbing effect on the tongue."}
+{"input":"entity: Salicylic Acid; event: synthesis; date: 1859; context: pain relief","output":"Hermann Kolbe developed a method to synthesize salicylic acid in 1859, making it widely available for pain relief."}
+{"input":"entity: Acetylsalicylic Acid; event: first synthesis; date: 1853; context: aspirin precursor","output":"Charles Frédéric Gerhardt first synthesized acetylsalicylic acid in 1853, though he did not market it."}
+{"input":"entity: Bureau of Chemistry; event: appointment of Chief Chemist; date: 1862; context: FDA precursor","output":"Charles Wetherill was appointed the first Chief Chemist of the Department of Agriculture in 1862, a role that evolved into the FDA."}
+{"input":"entity: Phenol; event: antiseptic use; date: 1865-08-12; context: surgery","output":"Joseph Lister first used phenol (carbolic acid) as an antiseptic in surgery on August 12, 1865."}
+{"input":"entity: Chloral Hydrate; event: medical introduction; date: 1869; context: sedative","output":"Chloral hydrate was introduced as the first synthetic sedative-hypnotic in 1869 by Oscar Liebreich."}
+{"input":"entity: Parke-Davis; event: founding; date: 1866-10-26; context: pharmaceutical manufacturing","output":"Parke, Davis & Co. was founded on October 26, 1866, and later standardized drug extracts."}
+{"input":"entity: Eli Lilly; event: founding; date: 1876-05-10; context: pharmaceutical industry","output":"Colonel Eli Lilly founded his pharmaceutical company on May 10, 1876, in Indianapolis."}
+{"input":"entity: Saccharin; event: discovery; date: 1879; context: artificial sweetener","output":"Constantin Fahlberg discovered saccharin in 1879 while working in Ira Remsen's laboratory."}
+{"input":"entity: Rabies Vaccine; event: first human use; date: 1885-07-06; context: immunology","output":"Louis Pasteur administered the first rabies vaccine to a human, Joseph Meister, on July 6, 1885."}
+{"input":"entity: Anthrax Vaccine; event: public demonstration; date: 1881-06-02; context: veterinary medicine","output":"Pasteur famously demonstrated his anthrax vaccine on sheep at Pouilly-le-Fort on June 2, 1881."}
+{"input":"entity: Phenacetin; event: introduction; date: 1887; context: analgesic","output":"Phenacetin was introduced in 1887 as one of the first synthetic fever-reducing drugs."}
+{"input":"entity: Diphtheria Antitoxin; event: discovery; date: 1890; context: serotherapy","output":"Emil von Behring and Shibasaburo Kitasato discovered the diphtheria antitoxin in 1890."}
+{"input":"entity: Thyroid Extract; event: treatment of myxedema; date: 1891; context: endocrinology","output":"George Redmayne Murray successfully treated myxedema with thyroid extract injections in 1891."}
+{"input":"entity: Aspirin; event: commercial synthesis; date: 1897-08-10; context: Bayer milestone","output":"Felix Hoffmann successfully synthesized a stable form of acetylsalicylic acid (Aspirin) on August 10, 1897."}
+{"input":"entity: Heroin; event: commercial launch; date: 1898; context: Bayer product","output":"Bayer launched Heroin (diacetylmorphine) commercially in 1898 as a cough suppressant."}
+{"input":"entity: Aspirin; event: market launch; date: 1899-03-06; context: analgesic","output":"Bayer trademarked Aspirin and launched it onto the market on March 6, 1899."}
+{"input":"entity: Merck & Co. (USA); event: establishment; date: 1891; context: pharmaceutical business","output":"George Merck established the US branch of Merck in 1891, which later became an independent American company."}
+{"input":"entity: Roche; event: founding; date: 1896; context: pharmaceutical industry","output":"Fritz Hoffmann-La Roche founded the company Roche in Basel, Switzerland, in 1896."}
+{"input":"entity: Nitrous Oxide; event: discovery; date: 1772; context: gas chemistry","output":"Joseph Priestley discovered nitrous oxide in 1772, though its anesthetic potential was realized later."}
+{"input":"entity: Digitalis; event: publication; date: 1785; context: heart failure","output":"William Withering published 'An Account of the Foxglove' in 1785, establishing digitalis for dropsy."}
+{"input":"entity: Smallpox Vaccine; event: first vaccination; date: 1796-05-14; context: immunology","output":"Edward Jenner performed the first smallpox vaccination using cowpox matter on May 14, 1796."}
+{"input":"entity: Oxygen; event: discovery; date: 1774; context: medical gas","output":"Joseph Priestley isolated oxygen in 1774, laying the groundwork for respiratory therapy."}
+{"input":"entity: Iodine; event: discovery; date: 1811; context: antiseptic","output":"Bernard Courtois discovered iodine in 1811 while treating seaweed ash with sulfuric acid."}
+{"input":"entity: Hydrogen Peroxide; event: discovery; date: 1818; context: antiseptic","output":"Louis Jacques Thénard discovered hydrogen peroxide in 1818."}
+{"input":"entity: Bromine; event: discovery; date: 1826; context: sedative chemistry","output":"Antoine Jérôme Balard discovered bromine in 1826, leading to the development of bromide sedatives."}
+{"input":"entity: Strychnine; event: isolation; date: 1818; context: toxicology","output":"Pelletier and Caventou isolated strychnine from Nux vomica in 1818."}
+{"input":"entity: Emetine; event: isolation; date: 1817; context: pharmacology","output":"Pelletier and Magendie isolated emetine from ipecacuanha root in 1817."}
+{"input":"entity: Veratrine; event: isolation; date: 1818; context: alkaloid","output":"Meissner isolated the alkaloid veratrine in 1818."}
+{"input":"entity: Colchicine; event: isolation; date: 1820; context: gout treatment","output":"Pelletier and Caventou isolated colchicine from the autumn crocus in 1820."}
+{"input":"entity: Nicotine; event: isolation; date: 1828; context: toxicology","output":"Posselt and Reimann first isolated pure nicotine from tobacco in 1828."}
+{"input":"entity: Aconitine; event: isolation; date: 1833; context: toxicology","output":"The potent toxin aconitine was isolated from monkshood in 1833."}
+{"input":"entity: Thebaine; event: isolation; date: 1835; context: opioid","output":"Pelletier isolated thebaine, a minor constituent of opium, in 1835."}
+{"input":"entity: Pepsin; event: discovery; date: 1836; context: enzymology","output":"Theodor Schwann discovered pepsin in 1836, the first enzyme to be isolated from animal tissue."}
+{"input":"entity: Amyl Nitrite; event: synthesis; date: 1844; context: angina treatment","output":"Antoine Balard synthesized amyl nitrite in 1844, later used to treat angina."}
+{"input":"entity: Nitroglycerin; event: discovery; date: 1847; context: vasodilator","output":"Ascanio Sobrero discovered nitroglycerin in 1847, though its medical use came later."}
+{"input":"entity: Hypodermic Needle; event: invention; date: 1853; context: drug delivery","output":"Alexander Wood and Charles Pravaz independently invented the hypodermic syringe in 1853."}
+{"input":"entity: Mauveine; event: synthesis; date: 1856; context: synthetic dye industry","output":"William Perkin synthesized mauveine in 1856, launching the chemical industry that birthed pharma."}
+{"input":"entity: Amyl Nitrite; event: medical use; date: 1867; context: angina","output":"Thomas Lauder Brunton first used amyl nitrite to treat angina pectoris in 1867."}
+{"input":"entity: Pilocarpine; event: isolation; date: 1874; context: ophthalmology","output":"Pilocarpine was isolated from jaborandi leaves in 1874 by Hardy and Gerrard."}
+{"input":"entity: Vaseline; event: patent; date: 1872-05-14; context: wound care","output":"Robert Chesebrough received a patent for Vaseline (petroleum jelly) on May 14, 1872."}
+{"input":"entity: Listerine; event: formulation; date: 1879; context: antiseptic","output":"Joseph Lawrence formulated Listerine in 1879 as a surgical antiseptic."}
+{"input":"entity: Antipyrine; event: synthesis; date: 1883; context: analgesic","output":"Ludwig Knorr synthesized antipyrine in 1883, one of the first synthetic analgesics."}
+{"input":"entity: Lanolin; event: patent; date: 1882; context: ointment base","output":"Oscar Liebreich patented the method for purifying lanolin in 1882."}
+{"input":"entity: Cocaine; event: anesthetic use; date: 1884; context: ophthalmology","output":"Carl Koller demonstrated cocaine's utility as a local anesthetic for eye surgery in 1884."}
+{"input":"entity: Strophanthin; event: isolation; date: 1885; context: cardiac glycoside","output":"Thomas Richard Fraser isolated strophanthin in 1885."}
+{"input":"entity: Salol; event: synthesis; date: 1886; context: analgesic","output":"Marceli Nencki synthesized Salol (phenyl salicylate) in 1886."}
+{"input":"entity: Sulfonal; event: synthesis; date: 1888; context: sedative","output":"Baumann discovered the sedative properties of Sulfonal in 1888."}
+{"input":"entity: Tuberculin; event: announcement; date: 1890; context: diagnostic","output":"Robert Koch announced the discovery of Tuberculin in 1890, initially hoping it was a cure."}
+{"input":"entity: Novocaine; event: synthesis; date: 1905 (pre-FDA Act); context: anesthetic","output":"Alfred Einhorn synthesized Novocaine (procaine) in 1905 as a safer alternative to cocaine."}
+{"input":"entity: Adrenaline; event: isolation; date: 1901 (pre-FDA Act); context: hormone","output":"Jokichi Takamine isolated adrenaline (epinephrine) in 1901."}
+{"input":"entity: Urotropin; event: introduction; date: 1894; context: urinary antiseptic","output":"Methenamine (Urotropin) was introduced as a urinary antiseptic in 1894."}
+{"input":"entity: Lydia Pinkham's Compound; event: commercial success; date: 1876; context: patent medicine","output":"Lydia Pinkham began selling her famous Vegetable Compound for 'female complaints' in 1876."}
+{"input":"entity: Coca-Cola; event: invention; date: 1886-05-08; context: patent medicine","output":"John Pemberton sold the first Coca-Cola as a patent medicine tonic on May 8, 1886."}
+{"input":"entity: Dr. Pepper; event: invention; date: 1885; context: patent medicine","output":"Charles Alderton created Dr. Pepper in 1885, predating Coca-Cola by one year."}
+{"input":"entity: Pepsi-Cola; event: invention; date: 1893; context: dysstasia remedy","output":"Caleb Bradham introduced 'Brad's Drink,' later Pepsi-Cola, in 1893 as a digestion aid."}
+{"input":"entity: Vicks VapoRub; event: invention; date: 1894; context: cold remedy","output":"Lunsford Richardson invented the salve that became Vicks VapoRub in 1894."}
+{"input":"entity: Mentholatum; event: founding; date: 1889; context: topical analgesic","output":"Albert Alexander Hyde founded The Mentholatum Company in 1889."}
+{"input":"entity: H.K. Mulford Company; event: founding; date: 1891; context: vaccine manufacturer","output":"H.K. Mulford Company, a pioneer in diphtheria antitoxin production, was founded in 1891."}
+{"input":"entity: Upjohn; event: founding; date: 1886; context: friable pills","output":"William E. Upjohn founded the Upjohn Pill and Granule Company in 1886 to make dissolvable pills."}
+{"input":"entity: Johnson & Johnson; event: founding; date: 1886; context: sterile dressings","output":"Johnson & Johnson was founded in 1886 to produce the first sterile surgical dressings."}
+{"input":"entity: Bristol-Myers; event: founding; date: 1887; context: pharmaceutical industry","output":"William McLaren Bristol and John Ripley Myers founded the company in 1887 in Clinton, New York."}
+{"input":"entity: Abbott Laboratories; event: founding; date: 1888; context: alkaloid granules","output":"Dr. Wallace C. Abbott founded the Abbott Alkaloidal Company in 1888."}
+{"input":"entity: Becton Dickinson; event: founding; date: 1897; context: medical devices","output":"Maxwell Becton and Fairleigh Dickinson founded BD in 1897."}
+{"input":"entity: Teva; event: founding; date: 1901 (pre-FDA Act); context: generic pioneer","output":"Teva was founded in Jerusalem in 1901 as a small drug wholesale business."}
+{"input":"entity: Sterling Drug; event: founding; date: 1901 (pre-FDA Act); context: aspirin marketing","output":"Sterling Drug was founded in 1901 and later bought the US rights to Bayer Aspirin."}
+{"input":"entity: Monsanto; event: founding; date: 1901 (pre-FDA Act); context: saccharin production","output":"John Francis Queeny founded Monsanto in 1901 to manufacture saccharin."}
+{"input":"entity: American Medical Association; event: founding; date: 1847-05-07; context: medical standards","output":"The AMA was founded on May 7, 1847, partly to expose quack medicines."}
+{"input":"entity: American Pharmaceutical Association; event: founding; date: 1852-10-06; context: pharmacy standards","output":"The APhA was founded on October 6, 1852, to improve the quality of drugs in the US."}
+{"input":"entity: National Formulary; event: publication; date: 1888; context: drug standards","output":"The first National Formulary (NF) was published in 1888 by the APhA."}
+{"input":"entity: Biologics Control Act; event: enactment; date: 1902-07-01; context: pre-FDA regulation","output":"The Biologics Control Act was enacted on July 1, 1902, following tetanus contamination incidents."}
+{"input":"entity: Pure Food and Drug Act; event: enactment; date: 1906-06-30; context: FDA origin","output":"President Theodore Roosevelt signed the Pure Food and Drug Act on June 30, 1906."}
+{"input":"entity: Harvey Washington Wiley; event: appointment; date: 1883; context: father of FDA","output":"Harvey Washington Wiley became Chief Chemist in 1883 and campaigned for the Pure Food and Drug Act."}
+{"input":"entity: Poison Squad; event: initiation; date: 1902; context: food safety","output":"Harvey Wiley began the 'Poison Squad' experiments in 1902 to test preservatives on human volunteers."}
+{"input":"entity: The Jungle; event: publication; date: 1906-02-26; context: regulatory catalyst","output":"Upton Sinclair published 'The Jungle' on February 26, 1906, spurring the passage of the Pure Food and Drug Act."}
+{"input":"entity: Great American Fraud; event: publication; date: 1905-10-07; context: patent medicine expose","output":"Samuel Hopkins Adams began publishing 'The Great American Fraud' series in Collier's on October 7, 1905."}
+{"input":"entity: Sherley Amendment; event: enactment; date: 1912 (context extension); context: false claims","output":"The Sherley Amendment was passed in 1912 to prohibit false therapeutic claims on labels."}
+{"input":"entity: Harrison Narcotics Tax Act; event: enactment; date: 1914 (context extension); context: opioid control","output":"The Harrison Act was passed in 1914 to regulate the sale of opiates and cocaine."}
+{"input":"cause: St. Louis tragedy; effect: Biologics Control Act; date: 1901; context: diphtheria contamination","output":"In 1901, 13 children in St. Louis died from tetanus-contaminated diphtheria antitoxin, leading to the 1902 Biologics Control Act."}
+{"input":"cause: Camden tragedy; effect: Biologics Control Act; date: 1901; context: smallpox contamination","output":"Tetanus outbreaks in Camden, NJ, linked to contaminated smallpox vaccine in 1901 accelerated federal regulation."}
+{"input":"cause: Mexican-American War; effect: Drug Importation Act; date: 1848; context: adulterated quinine","output":"Reports of adulterated quinine given to soldiers during the Mexican-American War led to the 1848 Drug Importation Act."}
+{"input":"cause: Civil War; effect: morphine addiction; date: 1861-1865; context: soldier's disease","output":"The massive use of morphine during the Civil War (1861–1865) led to widespread addiction known as 'Soldier's Disease'."}
+{"input":"cause: Civil War; effect: pharmaceutical expansion; date: 1860s; context: industry growth","output":"The Union Army's demand for painkillers and antiseptics in the 1860s drove the rapid expansion of Pfizer and Squibb."}
+{"input":"cause: Germ Theory; effect: antiseptic surgery; date: 1860s; context: medical shift","output":"Pasteur's Germ Theory in the 1860s directly influenced Lister to adopt carbolic acid for sterilization."}
+{"input":"cause: Spanish-American War; effect: Yellow Fever Commission; date: 1900; context: vector discovery","output":"The Spanish-American War prompted the creation of the Yellow Fever Commission in 1900."}
+{"input":"cause: London Cholera outbreak; effect: epidemiology; date: 1854; context: public health","output":"John Snow's tracing of cholera to the Broad Street pump in 1854 established modern epidemiology."}
+{"input":"cause: Smallpox epidemic; effect: Vaccination Act; date: 1813; context: US regulation","output":"The US passed the Vaccine Act of 1813 to encourage smallpox vaccination, the first federal health law."}
+{"input":"sequence: entity: Anesthesia; phase1: Long uses ether 1842; phase2: Wells uses nitrous oxide 1844; phase3: Morton demonstrates ether 1846; context: discovery timeline","output":"Crawford Long used ether in 1842, Horace Wells used nitrous oxide in 1844, but William Morton's 1846 demo gained global fame."}
+{"input":"sequence: entity: Aspirin; phase1: Gerhardt synthesis 1853; phase2: Hoffmann synthesis 1897; phase3: Bayer patent 1899; context: development","output":"Gerhardt synthesized unstable ASA in 1853; Hoffmann stabilized it in 1897, leading to Bayer's 1899 patent."}
+{"input":"sequence: entity: Malaria treatment; phase1: Cinchona bark use 1600s; phase2: Quinine isolation 1820; phase3: Methylene blue use 1891; context: evolution","output":"Cinchona bark was used for centuries before quinine was isolated in 1820, followed by Ehrlich's methylene blue trial in 1891."}
+{"input":"sequence: entity: Syphilis treatment; phase1: Mercury use 1500s; phase2: Potassium iodide 1836; phase3: Salvarsan 1910; context: pre-antibiotic","output":"Mercury was the standard for syphilis until potassium iodide in 1836, and finally Salvarsan in 1910."}
+{"input":"sequence: entity: Smallpox; phase1: Inoculation introduced to West 1721; phase2: Jenner vaccination 1796; phase3: Eradication 1980; context: vaccine history","output":"Variolation was introduced in 1721, superseded by Jenner's 1796 vaccine, leading to eradication in 1980."}
+{"input":"sequence: entity: Cocaine; phase1: Isolation 1860; phase2: Anesthetic use 1884; phase3: Freud publication 1884; context: stimulant history","output":"Niemann isolated cocaine in 1860, Koller used it for anesthesia in 1884, and Freud extolled it in 'Uber Coca' the same year."}
+{"input":"sequence: entity: Heroin; phase1: Synthesis 1874; phase2: Bayer commercialization 1898; phase3: US ban 1924; context: opiate regulation","output":"Wright synthesized heroin in 1874, Bayer marketed it in 1898, and it was eventually banned in 1924."}
+{"input":"sequence: entity: Regulation; phase1: 1848 Import Act; phase2: 1902 Biologics Act; phase3: 1906 Pure Food and Drug Act; context: US law","output":"US regulation evolved from the 1848 Import Act to the 1902 Biologics Act, culminating in the 1906 Pure Food and Drug Act."}
+{"input":"sequence: entity: Antisepsis; phase1: Semmelweis handwashing 1847; phase2: Lister carbolic acid 1865; phase3: Halsted rubber gloves 1890; context: sterile technique","output":"Semmelweis promoted handwashing in 1847, Lister introduced chemical antisepsis in 1865, and Halsted adopted gloves in 1890."}
+{"input":"sequence: entity: Tablet mass production; phase1: Brockedon compressor 1843; phase2: Upjohn friable pill 1886; phase3: Aspirin tablet 1900; context: dosage forms","output":"Brockedon invented the tablet compressor in 1843, Upjohn improved friability in 1886, and Bayer launched Aspirin tablets in 1900."}
+{"input":"overlap: event1: Ether demonstration 1846; event2: Chloroform obstetric use 1847; context: anesthesia wars","output":"Morton's 1846 ether demonstration was quickly followed by Simpson's controversial use of chloroform for childbirth in 1847."}
+{"input":"overlap: event1: Pasteur Anthrax vaccine 1881; event2: Koch tuberculosis bacteria discovery 1882; context: bacteriology golden age","output":"Pasteur's 1881 anthrax vaccine overlapped with Koch's identification of the tuberculosis bacillus in 1882."}
+{"input":"overlap: event1: US Civil War 1861-1865; event2: Geneva Convention 1864; context: wartime medicine","output":"The US Civil War was raging when the first Geneva Convention was signed in 1864 to protect the wounded."}
+{"input":"overlap: event1: X-ray discovery 1895; event2: Radioactivity discovery 1896; context: diagnostic revolution","output":"Roentgen's 1895 discovery of X-rays overlapped with Becquerel's 1896 discovery of radioactivity."}
+{"input":"overlap: event1: Aspirin synthesis 1897; event2: Heroin commercialization 1898; context: Bayer output","output":"Felix Hoffmann synthesized Aspirin in 1897 just before Bayer commercialized Heroin in 1898."}
+{"input":"overlap: event1: Coca-Cola invention 1886; event2: Dr. Pepper invention 1885; context: tonic wars","output":"Dr. Pepper was invented in 1885, slightly preceding Coca-Cola's 1886 debut as a medicinal tonic."}
+{"input":"overlap: event1: USP founding 1820; event2: Quinine isolation 1820; context: 1820 milestones","output":"The USP was founded in the same year, 1820, that quinine was isolated from cinchona bark."}
+{"input":"overlap: event1: Cholera pandemic 1832; event2: Codeine isolation 1832; context: medical events","output":"The 1832 cholera pandemic occurred simultaneously with Robiquet's isolation of codeine."}
+{"input":"overlap: event1: Hypodermic needle invention 1853; event2: Aspirin synthesis 1853; context: 1853 milestones","output":"The hypodermic needle was invented in 1853, the same year Gerhardt first synthesized acetylsalicylic acid."}
+{"input":"overlap: event1: Pure Food and Drug Act 1906; event2: The Jungle publication 1906; context: legislative speed","output":"The Jungle was published in early 1906, overlapping with the rapid passage of the Pure Food and Drug Act months later."}
+{"input":"entity: Foxglove; event: folk remedy use; date: 1775; context: herbal medicine","output":"William Withering began studying the folk remedy foxglove in 1775, leading to the standardization of digitalis."}
+{"input":"entity: Laudanum; event: Paracelsus formulation; date: 1527 (context); context: opioid baseline","output":"Though ancient, Laudanum was popularized by Paracelsus in the 16th century and remained standard until morphine's 1804 isolation."}
+{"input":"entity: Dover's Powder; event: creation; date: 1732; context: patent medicine","output":"Thomas Dover created his eponymous powder (ipecac and opium) in 1732, used widely through the 19th century."}
+{"input":"entity: Fowler's Solution; event: introduction; date: 1786; context: arsenic tonic","output":"Thomas Fowler introduced his potassium arsenite solution in 1786, used for various ailments for over a century."}
+{"input":"entity: Paregoric; event: standardization; date: 18th century; context: opioid","output":"Paregoric (camphorated tincture of opium) became a standard household remedy in the 18th and 19th centuries."}
+{"input":"entity: Epsom Salts; event: discovery; date: 1618 (context); context: saline laxative","output":"Nehemiah Grew identified the active ingredient in Epsom salts in 1695, which became a staple 19th-century laxative."}
+{"input":"entity: Glauber's Salt; event: discovery; date: 1625 (context); context: laxative","output":"Sodium sulfate, known as Glauber's Salt, was a common 19th-century purge discovered in the 17th century."}
+{"input":"entity: Calomel; event: decline; date: late 19th century; context: mercury toxicity","output":"The widespread use of Calomel (mercury chloride) as a purgative declined in the late 19th century due to toxicity."}
+{"input":"entity: Castor Oil; event: commercialization; date: 19th century; context: laxative","output":"Castor oil became a ubiquitous purgative and industrial lubricant throughout the 19th century."}
+{"input":"entity: Cod Liver Oil; event: medical recognition; date: 1841; context: rickets","output":"Hughes Bennett published a treatise in 1841 promoting cod liver oil for rickets and tuberculosis."}
+{"input":"entity: Nitrous Oxide; event: public failure; date: 1845-01; context: anesthesia","output":"Horace Wells failed a public demonstration of nitrous oxide anesthesia in January 1845."}
+{"input":"entity: Magnesium; event: isolation; date: 1808; context: antacid chemistry","output":"Humphry Davy isolated magnesium in 1808, leading to the later use of milk of magnesia."}
+{"input":"entity: Potassium; event: isolation; date: 1807; context: chemistry","output":"Humphry Davy isolated potassium in 1807, the first metal isolated by electrolysis."}
+{"input":"entity: Sodium; event: isolation; date: 1807; context: chemistry","output":"Davy isolated sodium in 1807, days after isolating potassium."}
+{"input":"entity: Calcium; event: isolation; date: 1808; context: supplement chemistry","output":"Davy isolated calcium in 1808 using a mercury amalgam."}
+{"input":"entity: Barium; event: isolation; date: 1808; context: chemistry","output":"Davy isolated barium in 1808, later used in medical imaging."}
+{"input":"entity: Strontium; event: isolation; date: 1808; context: chemistry","output":"Davy isolated strontium in 1808."}
+{"input":"entity: Lithium; event: discovery; date: 1817; context: psychiatric drug precursor","output":"Johan August Arfwedson discovered lithium in 1817, though its psychiatric use came in 1949."}
+{"input":"entity: Silicon; event: isolation; date: 1824; context: chemistry","output":"Jöns Jacob Berzelius isolated silicon in 1824."}
+{"input":"entity: Aluminum; event: isolation; date: 1825; context: antacid chemistry","output":"Hans Christian Ørsted isolated aluminum in 1825."}
+{"input":"entity: Thorium; event: discovery; date: 1828; context: chemistry","output":"Berzelius discovered thorium in 1828."}
+{"input":"entity: Vanadium; event: rediscovery; date: 1831; context: chemistry","output":"Nils Gabriel Sefström rediscovered vanadium in 1831."}
+{"input":"entity: Lanthanum; event: discovery; date: 1839; context: chemistry","output":"Carl Gustaf Mosander discovered lanthanum in 1839."}
+{"input":"entity: Didymium; event: discovery; date: 1841; context: chemistry","output":"Mosander discovered didymium in 1841, later found to be a mixture."}
+{"input":"entity: Erbium; event: discovery; date: 1843; context: chemistry","output":"Mosander discovered erbium in 1843."}
+{"input":"entity: Terbium; event: discovery; date: 1843; context: chemistry","output":"Mosander discovered terbium in 1843."}
+{"input":"entity: Ruthenium; event: discovery; date: 1844; context: chemistry","output":"Karl Karlovich Klaus discovered ruthenium in 1844."}
+{"input":"entity: Cesium; event: discovery; date: 1860; context: chemistry","output":"Bunsen and Kirchhoff discovered cesium in 1860 using spectroscopy."}
+{"input":"entity: Rubidium; event: discovery; date: 1861; context: chemistry","output":"Bunsen and Kirchhoff discovered rubidium in 1861."}
+{"input":"entity: Thallium; event: discovery; date: 1861; context: toxicology","output":"William Crookes discovered thallium in 1861."}
+{"input":"entity: Indium; event: discovery; date: 1863; context: chemistry","output":"Reich and Richter discovered indium in 1863."}
+{"input":"entity: Helium; event: discovery; date: 1868; context: medical gas","output":"Lockyer and Janssen observed helium in the solar spectrum in 1868."}
+{"input":"entity: Gallium; event: discovery; date: 1875; context: medical imaging precursor","output":"Paul-Émile Lecoq de Boisbaudran discovered gallium in 1875."}
+{"input":"entity: Ytterbium; event: discovery; date: 1878; context: chemistry","output":"Jean Charles Galissard de Marignac discovered ytterbium in 1878."}
+{"input":"entity: Holmium; event: discovery; date: 1878; context: laser medicine precursor","output":"Cleve and Soret discovered holmium in 1878."}
+{"input":"entity: Thulium; event: discovery; date: 1879; context: laser medicine precursor","output":"Per Teodor Cleve discovered thulium in 1879."}
+{"input":"entity: Scandium; event: discovery; date: 1879; context: chemistry","output":"Lars Fredrik Nilson discovered scandium in 1879."}
+{"input":"entity: Samarium; event: discovery; date: 1879; context: cancer drug precursor","output":"Lecoq de Boisbaudran discovered samarium in 1879."}
+{"input":"entity: Gadolinium; event: discovery; date: 1880; context: MRI contrast precursor","output":"Marignac discovered gadolinium in 1880."}
+{"input":"entity: Germanium; event: discovery; date: 1886; context: chemistry","output":"Clemens Winkler discovered germanium in 1886."}
+{"input":"entity: Fluorine; event: isolation; date: 1886; context: drug chemistry","output":"Henri Moissan isolated fluorine in 1886, a key element in modern pharmacology."}
+{"input":"entity: Argon; event: discovery; date: 1894; context: laser medicine precursor","output":"Rayleigh and Ramsay discovered argon in 1894."}
+{"input":"entity: Krypton; event: discovery; date: 1898; context: laser medicine precursor","output":"Ramsay and Travers discovered krypton in 1898."}
+{"input":"entity: Neon; event: discovery; date: 1898; context: laser medicine precursor","output":"Ramsay and Travers discovered neon in 1898."}
+{"input":"entity: Xenon; event: discovery; date: 1898; context: anesthetic gas","output":"Ramsay and Travers discovered xenon in 1898, later used as an anesthetic."}
+{"input":"entity: Polonium; event: discovery; date: 1898; context: radiology","output":"Pierre and Marie Curie discovered polonium in 1898."}
+{"input":"entity: Radium; event: discovery; date: 1898; context: oncology","output":"The Curies discovered radium in 1898, launching the field of radiation therapy."}
+{"input":"entity: Actinium; event: discovery; date: 1899; context: radiology","output":"André-Louis Debierne discovered actinium in 1899."}
+{"input":"entity: Radon; event: discovery; date: 1900; context: oncology","output":"Friedrich Ernst Dorn discovered radon in 1900."}
+{"input":"entity: Johns Hopkins Hospital; event: founding; date: 1889; context: medical education","output":"Johns Hopkins Hospital was founded in 1889, revolutionizing American medical training."}
+{"input":"entity: Mayo Clinic; event: founding; date: 1889; context: medical practice","output":"William Worrall Mayo and his sons founded the Mayo Clinic in 1889."}
+{"input":"entity: Merck Manual; event: first publication; date: 1899; context: medical reference","output":"The first edition of the Merck Manual was published in 1899."}
+{"input":"entity: British Medical Journal; event: founding; date: 1840; context: medical journal","output":"The BMJ began publication in 1840."}
+{"input":"entity: The Lancet; event: founding; date: 1823-10-05; context: medical journal","output":"Thomas Wakley founded The Lancet on October 5, 1823."}
+{"input":"entity: JAMA; event: founding; date: 1883; context: medical journal","output":"The Journal of the American Medical Association (JAMA) began publication in 1883."}
+{"input":"entity: New England Journal of Medicine; event: founding; date: 1812; context: medical journal","output":"The NEJM was founded in 1812 as the New England Journal of Medicine and Surgery."}
+{"input":"entity: Gray's Anatomy; event: publication; date: 1858; context: medical text","output":"Henry Gray published the first edition of his anatomy text in 1858."}
+{"input":"entity: Cell Theory; event: formulation; date: 1839; context: biology","output":"Schleiden and Schwann formulated cell theory in 1839, a foundation for modern medicine."}
+{"input":"entity: Evolution; event: Origin of Species; date: 1859-11-24; context: biology","output":"Darwin published 'On the Origin of Species' on November 24, 1859."}
+{"input":"entity: Mendelian Genetics; event: publication; date: 1866; context: genetics","output":"Gregor Mendel published his experiments on plant hybridization in 1866."}
+{"input":"entity: DNA; event: isolation; date: 1869; context: genetics","output":"Friedrich Miescher first isolated 'nuclein' (DNA) in 1869."}
+{"input":"entity: Phagocytosis; event: discovery; date: 1882; context: immunology","output":"Ilya Metchnikoff discovered phagocytosis in 1882."}
+{"input":"entity: Antibody; event: term coin; date: 1890; context: immunology","output":"Emil von Behring and Kitasato Shibasaburo described 'antitoxins' in 1890."}
+{"input":"entity: Virus; event: identification; date: 1892; context: virology","output":"Dmitri Ivanovsky described the tobacco mosaic virus in 1892, beginning virology."}
+{"input":"entity: Electrocardiogram; event: invention; date: 1895; context: cardiology","output":"Willem Einthoven developed the first practical ECG in 1895."}
+{"input":"entity: Sphygmomanometer; event: invention; date: 1881; context: cardiology","output":"Samuel Siegfried Karl von Basch invented the sphygmomanometer in 1881."}
+{"input":"entity: Stethoscope; event: invention; date: 1816; context: diagnostics","output":"René Laennec invented the stethoscope in 1816."}
+{"input":"entity: Ophthalmoscope; event: invention; date: 1851; context: diagnostics","output":"Hermann von Helmholtz invented the ophthalmoscope in 1851."}
+{"input":"entity: Laryngoscope; event: invention; date: 1854; context: diagnostics","output":"Manuel Garcia invented the laryngoscope in 1854."}
+{"input":"entity: Incubator; event: medical use; date: 1857; context: neonatology","output":"Jean-Louis-Paul Denucé described the first infant incubator in 1857."}
+{"input":"entity: Contact Lens; event: glass invention; date: 1887; context: optometry","output":"Adolf Fick fabricated the first successful glass contact lens in 1887."}
+{"input":"entity: Medical Rubber Gloves; event: introduction; date: 1890; context: surgery","output":"William Halsted introduced rubber gloves to surgery at Johns Hopkins in 1890."}
+{"input":"entity: C-Section; event: survival milestone; date: 1794; context: surgery","output":"Jesse Bennett performed the first successful C-section in America in 1794."}
+{"input":"entity: Ovariotomy; event: first success; date: 1809; context: surgery","output":"Ephraim McDowell performed the first successful ovariotomy in 1809."}
+{"input":"entity: Blood Transfusion; event: obstetric success; date: 1818; context: hematology","output":"James Blundell performed the first successful human blood transfusion in 1818."}
+{"input":"entity: Appendectomy; event: first success; date: 1885; context: surgery","output":"Ulrich Rudolph Krönlein performed the first appendectomy in 1885."}
+{"input":"entity: Heart Surgery; event: pericardium repair; date: 1893; context: surgery","output":"Daniel Hale Williams performed one of the first successful heart surgeries in 1893."}
+{"input":"entity: Mastectomy; event: radical procedure; date: 1882; context: oncology","output":"William Halsted performed the first radical mastectomy in 1882."}
+{"input":"entity: Gastrectomy; event: first success; date: 1881; context: surgery","output":"Theodor Billroth performed the first successful gastrectomy in 1881."}
+{"input":"entity: Cholecystectomy; event: first success; date: 1882; context: surgery","output":"Carl Langenbuch performed the first cholecystectomy in 1882."}
+{"input":"entity: Hernia Repair; event: Bassini technique; date: 1884; context: surgery","output":"Edoardo Bassini introduced his method for inguinal hernia repair in 1884."}
+{"input":"entity: Spinal Anesthesia; event: introduction; date: 1898; context: anesthesiology","output":"August Bier performed the first spinal anesthesia using cocaine in 1898."}
+{"input":"entity: Local Anesthesia; event: introduction; date: 1884; context: anesthesiology","output":"Koller's use of cocaine in 1884 marked the birth of local anesthesia."}
+{"input":"entity: Endotracheal Intubation; event: anesthesia use; date: 1878; context: anesthesiology","output":"William Macewen performed the first endotracheal intubation for anesthesia in 1878."}
+{"input":"entity: Salicylic Acid; event: isolation; date: 1838; context: aspirin history","output":"Raffaele Piria isolated salicylic acid from willow bark in 1838."}
+{"input":"entity: Acetanilide; event: discovery; date: 1886; context: analgesic","output":"Cahn and Hepp discovered the antipyretic properties of acetanilide in 1886."}
+{"input":"entity: Pyramidon; event: synthesis; date: 1896; context: analgesic","output":"Pyramidon (aminopyrine) was synthesized in 1896."}
+{"input":"entity: Guaiacol; event: medical use; date: 1887; context: expectorant","output":"Sahli introduced guaiacol as a tuberculosis treatment in 1887."}
+{"input":"entity: Creosote; event: isolation; date: 1832; context: antiseptic","output":"Reichenbach isolated creosote from wood tar in 1832."}
+{"input":"entity: Iodoform; event: synthesis; date: 1822; context: antiseptic","output":"Georges-Simon Serullas synthesized iodoform in 1822."}
+{"input":"entity: Paraldehyde; event: medical use; date: 1882; context: sedative","output":"Cervello introduced paraldehyde as a hypnotic in 1882."}
+{"input":"entity: Urethane; event: medical use; date: 1885; context: sedative","output":"Schmiedeberg introduced urethane as a hypnotic in 1885."}
+{"input":"entity: Amylene Hydrate; event: medical use; date: 1887; context: sedative","output":"Von Mering introduced amylene hydrate as a sedative in 1887."}
+{"input":"entity: Trional; event: introduction; date: 1890; context: sedative","output":"Trional was introduced as a sedative in 1890."}
+{"input":"entity: Veronal; event: synthesis; date: 1902 (context); context: barbiturate","output":"Emil Fischer synthesized Veronal (barbital) in 1902, the first barbiturate."}
+{"input":"entity: Barbital; event: market launch; date: 1903 (context); context: sedative","output":"Bayer launched Veronal (barbital) in 1903."}
+{"input":"entity: Procaine; event: synthesis; date: 1905 (context); context: anesthetic","output":"Einhorn synthesized procaine in 1905."}
+{"input":"entity: Salvarsan; event: discovery; date: 1909 (context); context: magic bullet","output":"Ehrlich discovered Salvarsan in 1909."}
+{"input":"entity: Prontosil; event: discovery; date: 1932 (context); context: sulfa drug","output":"Domagk discovered Prontosil in 1932."}
+{"input":"entity: Penicillin; event: discovery; date: 1928 (context); context: antibiotic","output":"Fleming discovered penicillin in 1928."}
+{"input":"entity: Insulin; event: isolation; date: 1921 (context); context: diabetes","output":"Banting and Best isolated insulin in 1921."}
+{"input":"entity: Homeopathy; event: founding; date: 1796; context: alternative medicine","output":"Samuel Hahnemann founded homeopathy in 1796."}
+{"input":"entity: Osteopathy; event: founding; date: 1874; context: alternative medicine","output":"Andrew Taylor Still founded osteopathy in 1874."}
+{"input":"entity: Chiropractic; event: founding; date: 1895; context: alternative medicine","output":"D.D. Palmer founded chiropractic in 1895."}
+{"input":"entity: Phrenology; event: establishment; date: 1796; context: pseudoscience","output":"Franz Joseph Gall established phrenology in 1796."}
+{"input":"entity: Mesmerism; event: theory; date: 1779; context: pseudoscience","output":"Franz Mesmer published his theory of animal magnetism in 1779."}
+{"input":"entity: Ether Dome; event: construction; date: 1821; context: medical history","output":"The Ether Dome at Mass General was built in 1821."}
+{"input":"entity: Bellevue Hospital; event: founding; date: 1736; context: hospital history","output":"Bellevue Hospital was founded in 1736, the oldest public hospital in the US."}
+{"input":"entity: Pennsylvania Hospital; event: founding; date: 1751; context: hospital history","output":"Benjamin Franklin helped found Pennsylvania Hospital in 1751."}
+{"input":"entity: Harvard Medical School; event: founding; date: 1782; context: education","output":"Harvard Medical School was founded in 1782."}
+{"input":"entity: University of Pennsylvania School of Medicine; event: founding; date: 1765; context: education","output":"The first medical school in the colonies was founded at Penn in 1765."}
+{"input":"entity: Columbia University College of Physicians and Surgeons; event: founding; date: 1767; context: education","output":"King's College (Columbia) medical school was founded in 1767."}
+{"input":"entity: Dartmouth Medical School; event: founding; date: 1797; context: education","output":"Dartmouth Medical School was founded in 1797."}
+{"input":"entity: American Journal of Pharmacy; event: founding; date: 1825; context: publication","output":"The first pharmacy journal in the English language was founded in 1825."}
+{"input":"entity: Massachusetts College of Pharmacy; event: founding; date: 1823; context: education","output":"MCPHS was founded in 1823."}
+{"input":"entity: Philadelphia College of Pharmacy; event: founding; date: 1821; context: education","output":"The first pharmacy college in North America was founded in 1821."}
+{"input":"entity: New York College of Pharmacy; event: founding; date: 1829; context: education","output":"The NY College of Pharmacy was founded in 1829."}
+{"input":"entity: Baltimore College of Dental Surgery; event: founding; date: 1840; context: dentistry","output":"The first dental college in the world was founded in 1840."}
+{"input":"entity: American Dental Association; event: founding; date: 1859; context: dentistry","output":"The ADA was founded in 1859."}
+{"input":"entity: American Nurses Association; event: founding; date: 1896; context: nursing","output":"The ANA was founded in 1896."}
+{"input":"entity: Red Cross; event: American founding; date: 1881-05-21; context: humanitarian","output":"Clara Barton founded the American Red Cross on May 21, 1881."}
+{"input":"entity: National Institutes of Health; event: origin; date: 1887; context: research","output":"The Laboratory of Hygiene, precursor to the NIH, was established in 1887."}
+{"input":"entity: U.S. Marine Hospital Service; event: founding; date: 1798; context: public health","output":"President John Adams signed the act creating the Marine Hospital Service in 1798."}
+{"input":"entity: Surgeon General; event: office creation; date: 1871; context: public health","output":"The office of the Supervising Surgeon General was created in 1871."}
+{"input":"entity: Quarantine Act; event: enactment; date: 1878; context: public health","output":"The National Quarantine Act was passed in 1878 to prevent epidemics."}
+{"input":"entity: Ellis Island; event: opening; date: 1892; context: medical screening","output":"Ellis Island opened in 1892, implementing mass medical screening of immigrants."}
+{"input":"entity: Cholera; event: pandemic reach US; date: 1832; context: epidemic","output":"The second cholera pandemic reached the US in 1832."}
+{"input":"entity: Yellow Fever; event: Philadelphia epidemic; date: 1793; context: epidemic","output":"The yellow fever epidemic of 1793 killed 10% of Philadelphia's population."}
+{"input":"entity: Influenza; event: pandemic; date: 1889; context: epidemic","output":"The 1889 'Russian Flu' pandemic was the first to be tracked by modern transport."}
+{"input":"entity: Bubonic Plague; event: third pandemic; date: 1855; context: epidemic","output":"The third plague pandemic began in China in 1855."}
+{"input":"entity: Kitasato Shibasaburo; event: plague bacillus discovery; date: 1894; context: bacteriology","output":"Kitasato and Yersin independently discovered the plague bacillus in 1894."}
+{"input":"entity: Mycobacterium leprae; event: discovery; date: 1873; context: bacteriology","output":"Gerhard Armauer Hansen discovered the leprosy bacterium in 1873."}
+{"input":"entity: Neisseria gonorrhoeae; event: discovery; date: 1879; context: bacteriology","output":"Albert Neisser discovered the gonorrhea pathogen in 1879."}
+{"input":"entity: Staphylococcus; event: identification; date: 1880; context: bacteriology","output":"Alexander Ogston identified Staphylococcus in 1880."}
+{"input":"entity: Streptococcus; event: identification; date: 1879; context: bacteriology","output":"Louis Pasteur identified Streptococcus in 1879."}
+{"input":"entity: Escherichia coli; event: discovery; date: 1885; context: bacteriology","output":"Theodor Escherich discovered E. coli in 1885."}
+{"input":"entity: Clostridium tetani; event: isolation; date: 1889; context: bacteriology","output":"Kitasato isolated the tetanus bacterium in 1889."}
+{"input":"entity: Corynebacterium diphtheriae; event: discovery; date: 1883; context: bacteriology","output":"Klebs and Löffler discovered the diphtheria bacterium in 1883."}
+{"input":"entity: Vibrio cholerae; event: isolation; date: 1883; context: bacteriology","output":"Robert Koch isolated the cholera vibrio in 1883."}
+{"input":"entity: Plasmodium; event: discovery; date: 1880; context: malaria","output":"Charles Laveran discovered the malaria parasite in 1880."}
+{"input":"entity: Mosquito Vector; event: confirmation; date: 1897; context: malaria","output":"Ronald Ross confirmed mosquitoes transmit malaria in 1897."}
+{"input":"entity: Tsetse Fly; event: vector confirmation; date: 1895; context: sleeping sickness","output":"David Bruce identified the tsetse fly as the vector for sleeping sickness in 1895."}
+{"input":"entity: Tick Vector; event: confirmation; date: 1893; context: Texas cattle fever","output":"Theobald Smith and Kilborne proved ticks transmit disease in 1893."}
+{"input":"entity: Vitamin B1; event: Eijkman observation; date: 1897; context: nutrition","output":"Christiaan Eijkman discovered the anti-beriberi factor in rice polishings in 1897."}
+{"input":"entity: Scurvy; event: Lind experiment; date: 1747; context: clinical trial","output":"James Lind's 1747 experiment with citrus fruit is considered the first clinical trial."}
+{"input":"entity: Pellagra; event: Casal description; date: 1735; context: nutrition","output":"Gaspar Casal described pellagra in 1735, though its nutritional cause was found later."}
+{"input":"entity: Protein; event: term coin; date: 1838; context: chemistry","output":"Jöns Jacob Berzelius coined the term 'protein' in 1838."}
+{"input":"entity: Amino Acid; event: discovery (asparagine); date: 1806; context: chemistry","output":"Vauquelin and Robiquet discovered the first amino acid, asparagine, in 1806."}
+{"input":"entity: Glycine; event: isolation; date: 1820; context: chemistry","output":"Henri Braconnot isolated glycine in 1820."}
+{"input":"entity: Leucine; event: isolation; date: 1819; context: chemistry","output":"Proust isolated leucine in 1819."}
+{"input":"entity: Periodic Table; event: formulation; date: 1869; context: chemistry","output":"Dmitri Mendeleev published the first periodic table in 1869."}
+{"input":"entity: Atomic Theory; event: formulation; date: 1803; context: chemistry","output":"John Dalton proposed modern atomic theory in 1803."}
+{"input":"entity: Urea; event: synthesis; date: 1828; context: organic chemistry","output":"Friedrich Wöhler synthesized urea in 1828, bridging organic and inorganic chemistry."}
+{"input":"entity: Benzene; event: structure proposal; date: 1865; context: chemistry","output":"Kekulé proposed the ring structure of benzene in 1865."}
+{"input":"entity: Pasteurization; event: invention; date: 1864; context: food safety","output":"Louis Pasteur and Claude Bernard invented pasteurization in 1864."}
+{"input":"entity: Petri Dish; event: invention; date: 1887; context: microbiology","output":"Julius Richard Petri invented the Petri dish in 1887."}
+{"input":"entity: Gram Stain; event: invention; date: 1884; context: microbiology","output":"Hans Christian Gram developed the Gram stain in 1884."}
+{"input":"entity: Autoclave; event: invention; date: 1879; context: sterilization","output":"Charles Chamberland invented the autoclave in 1879."}
+{"input":"entity: Bunsen Burner; event: invention; date: 1855; context: laboratory","output":"Robert Bunsen invented the Bunsen burner in 1855."}
+{"input":"entity: Centrifuge; event: invention; date: 1864; context: laboratory","output":"Antonin Prandtl invented the dairy centrifuge in 1864, precursor to lab use."}
+{"input":"entity: Microscope; event: achromatic lens; date: 1830; context: optics","output":"Joseph Jackson Lister developed the achromatic lens in 1830, improving microscopy."}
+{"input":"entity: Kymograph; event: invention; date: 1847; context: physiology","output":"Carl Ludwig invented the kymograph in 1847 to record blood pressure."}
+{"input":"entity: Spirometer; event: invention; date: 1846; context: physiology","output":"John Hutchinson invented the spirometer in 1846."}
+{"input":"entity: Electrometer; event: capillary invention; date: 1872; context: physics","output":"Gabriel Lippmann invented the capillary electrometer in 1872."}
+{"input":"entity: Cathode Rays; event: discovery; date: 1869; context: physics","output":"Johann Hittorf observed cathode rays in 1869."}
+{"input":"entity: Electron; event: discovery; date: 1897; context: physics","output":"J.J. Thomson discovered the electron in 1897."}
+{"input":"entity: Nobel Prize; event: establishment; date: 1895; context: award","output":"Alfred Nobel signed his will establishing the Nobel Prizes in 1895."}
+{"input":"entity: Dynamite; event: patent; date: 1867; context: Alfred Nobel","output":"Alfred Nobel patented dynamite in 1867."}
+{"input":"entity: Telephone; event: patent; date: 1876; context: communication","output":"Alexander Graham Bell patented the telephone in 1876."}
+{"input":"entity: Light Bulb; event: patent; date: 1879; context: technology","output":"Thomas Edison patented the light bulb in 1879."}
+{"input":"entity: Phonograph; event: invention; date: 1877; context: technology","output":"Edison invented the phonograph in 1877."}
+{"input":"entity: Automobile; event: Benz Patent-Motorwagen; date: 1886; context: transport","output":"Karl Benz patented the first automobile in 1886."}
+{"input":"entity: Airplane; event: Wright Flyer; date: 1903 (context); context: transport","output":"The Wright brothers made the first powered flight in 1903."}
+{"input":"entity: Radio; event: Marconi transmission; date: 1895; context: communication","output":"Guglielmo Marconi demonstrated radio transmission in 1895."}
+{"input":"entity: Kodak Camera; event: introduction; date: 1888; context: imaging","output":"George Eastman introduced the Kodak camera in 1888."}
+{"input":"entity: Braille; event: invention; date: 1824; context: disability","output":"Louis Braille invented his reading system in 1824."}
+{"input":"entity: Sign Language; event: Gallaudet founding; date: 1817; context: education","output":"Thomas Gallaudet founded the first American school for the deaf in 1817."}
+{"input":"entity: Psychology; event: Wundt lab; date: 1879; context: science","output":"Wilhelm Wundt founded the first psychology laboratory in 1879."}
+{"input":"entity: Psychoanalysis; event: term coin; date: 1896; context: Freud","output":"Sigmund Freud coined the term 'psychoanalysis' in 1896."}
+{"input":"entity: Hysteria; event: Studies on Hysteria; date: 1895; context: publication","output":"Breuer and Freud published 'Studies on Hysteria' in 1895."}
+{"input":"entity: Functionalism; event: James publication; date: 1890; context: psychology","output":"William James published 'The Principles of Psychology' in 1890."}
+{"input":"entity: Reflex; event: Pavlov observation; date: 1890s; context: behavior","output":"Ivan Pavlov began his research on conditional reflexes in the 1890s."}
+{"input":"entity: Neuron Doctrine; event: Cajal proposal; date: 1888; context: neuroscience","output":"Santiago Ramón y Cajal provided evidence for the neuron doctrine in 1888."}
+{"input":"entity: Synapse; event: term coin; date: 1897; context: neuroscience","output":"Charles Sherrington coined the term 'synapse' in 1897."}
+{"input":"entity: Chromosome; event: term coin; date: 1888; context: genetics","output":"Heinrich Wilhelm Waldeyer coined the term 'chromosome' in 1888."}
+{"input":"entity: Mitosis; event: description; date: 1882; context: biology","output":"Walther Flemming described mitosis in 1882."}
+{"input":"entity: Meiosis; event: description; date: 1876; context: biology","output":"Oscar Hertwig described meiosis in 1876."}
+{"input":"entity: Fertilization; event: observation; date: 1875; context: biology","output":"Oscar Hertwig observed the fertilization of a sea urchin egg in 1875."}
+{"input":"entity: Enzyme; event: term coin; date: 1877; context: biochemistry","output":"Wilhelm Kühne coined the term 'enzyme' in 1877."}
+{"input":"entity: Metabolism; event: concept; date: 1840s; context: biochemistry","output":"Justus von Liebig applied chemistry to physiology in the 1840s, defining metabolism."}
+{"input":"entity: Homeostasis; event: concept; date: 1865; context: physiology","output":"Claude Bernard introduced the concept of the 'milieu intérieur' in 1865."}
+{"input":"entity: Hormones; event: secretin discovery; date: 1902 (context); context: endocrinology","output":"Bayliss and Starling discovered secretin in 1902, leading to the term 'hormone'."}
+{"input":"entity: Antiseptic Surgery; event: Lister introduction; date: 1867; context: surgery","output":"Joseph Lister introduced antiseptic surgery using carbolic acid in 1867."}
+{"input":"entity: Germ Theory; event: Pasteur proposal; date: 1861; context: microbiology","output":"Louis Pasteur proposed the germ theory of disease in 1861."}
+{"input":"entity: Vaccination; event: rabies vaccine; date: 1885; context: immunology","output":"Louis Pasteur developed the rabies vaccine in 1885."}
+{"input":"entity: Tuberculosis Vaccine; event: BCG development; date: 1921 (context); context: immunology","output":"Calmette and Guérin developed the BCG vaccine for tuberculosis in 1921."}
+{"input":"entity: Smallpox Vaccine; event: Jenner development; date: 1796; context: immunology","output":"Edward Jenner developed the smallpox vaccine in 1796 using cowpox."}
+{"input":"entity: Antitoxin; event: diphtheria antitoxin; date: 1890; context: immunology","output":"Emil von Behring developed the diphtheria antitoxin in 1890."}
+{"input":"entity: Sulfonamides; event: Domagk discovery; date: 1932 (context); context: antibiotics","output":"Gerhard Domagk discovered sulfonamides in 1932."}
+{"input":"entity: Tetracycline; event: discovery; date: 1945 (context); context: antibiotic","output":"Tetracycline was discovered in 1945."}
+{"input":"entity: Chloramphenicol; event: discovery; date: 1947 (context); context: antibiotic","output":"Chloramphenicol was discovered in 1947."}
+{"input":"entity: Streptomycin; event: discovery; date: 1943 (context); context: antibiotic","output":"Streptomycin was discovered in 1943 by Selman Waksman and his team."}
+{"input":"entity: Erythromycin; event: discovery; date: 1952 (context); context: antibiotic","output":"Erythromycin was discovered in 1952."}
+{"input":"entity: Cephalosporins; event: discovery; date: 1948 (context); context: antibiotic","output":"Cephalosporins were discovered in 1948 by Giuseppe Brotzu."}
+{"input":"entity: Carbapenems; event: discovery; date: 1976 (context); context: antibiotic","output":"Carbapenems were discovered in 1976."}
+{"input":"entity: Fluoroquinolones; event: discovery; date: 1962 (context); context: antibiotic","output":"Fluoroquinolones were discovered in 1962."}
+{"input":"entity: Vancomycin; event: discovery; date: 1953 (context); context: antibiotic","output":"Vancomycin was discovered in 1953."}
+{"input":"entity: Rifampin; event: discovery; date: 1957 (context); context: antibiotic","output":"Rifampin was discovered in 1957."}
+{"input":"entity: Clindamycin; event: synthesis; date: 1966 (context); context: antibiotic","output":"Clindamycin was synthesized in 1966."}
+{"input":"entity: Linezolid; event: approval; date: 2000 (context); context: antibiotic","output":"Linezolid was approved for medical use in 2000."}
+{"input":"entity: Daptomycin; event: approval; date: 2003 (context); context: antibiotic","output":"Daptomycin was approved for medical use in 2003."}
+{"input":"entity: Tigecycline; event: approval; date: 2005 (context); context: antibiotic","output":"Tigecycline was approved for medical use in 2005."}
+{"input":"entity: Fidaxomicin; event: approval; date: 2011 (context); context: antibiotic","output":"Fidaxomicin was approved for medical use in 2011."}

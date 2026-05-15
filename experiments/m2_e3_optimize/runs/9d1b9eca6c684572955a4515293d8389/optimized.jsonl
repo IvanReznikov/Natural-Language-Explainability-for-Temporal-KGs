@@ -1,0 +1,894 @@
+{"id": "q001", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.1, "cost_after": 1.0}
+{"id": "q002", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.4, "cost_after": 1.0}
+{"id": "q003", "canonical_query": "CAUSAL(cause='supply chain disruption', effect='inventory shortage')", "optimized_query": "OPTIMIZED[CAUSAL(cause='supply chain disruption', effect='inventory shortage')]", "cost_before": 13.5, "cost_after": 3.16}
+{"id": "q004", "canonical_query": "COMPARE(metric='user churn', a='2021', b='2022')", "optimized_query": "OPTIMIZED[COMPARE(metric='user churn', a='2021', b='2022')]", "cost_before": 8.9, "cost_after": 2.36}
+{"id": "q005", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.1, "cost_after": 1.0}
+{"id": "q006", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.2, "cost_after": 1.0}
+{"id": "q007", "canonical_query": "PREDICT(metric='stock prices', date='2026')", "optimized_query": "OPTIMIZED[PREDICT(metric='stock prices', date='2026')]", "cost_before": 7.8, "cost_after": 2.16}
+{"id": "q008", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 14.2, "cost_after": 1.0}
+{"id": "q009", "canonical_query": "OVERLAP(event='outages', period='2024-Q4')", "optimized_query": "OPTIMIZED[OVERLAP(event='outages', period='2024-Q4')]", "cost_before": 12.8, "cost_after": 2.12}
+{"id": "q010", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 6.5, "cost_after": 1.0}
+{"id": "q011", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.3, "cost_after": 1.0}
+{"id": "q012", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.8, "cost_after": 1.0}
+{"id": "q013", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.4, "cost_after": 1.0}
+{"id": "q014", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.0, "cost_after": 1.0}
+{"id": "q015", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.7, "cost_after": 1.0}
+{"id": "q016", "canonical_query": "PREDICT(metric='', date='2027')", "optimized_query": "OPTIMIZED[PREDICT(metric='', date='2027')]", "cost_before": 8.1, "cost_after": 1.68}
+{"id": "q017", "canonical_query": "SEQUENCE(anchor='the holiday season', relation='after')", "optimized_query": "OPTIMIZED[SEQUENCE(anchor='the holiday season', relation='after')]", "cost_before": 13.9, "cost_after": 2.64}
+{"id": "q018", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.5, "cost_after": 1.0}
+{"id": "q019", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.5, "cost_after": 1.0}
+{"id": "q020", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.0, "cost_after": 1.0}
+{"id": "q021", "canonical_query": "INTERVAL(metric='ticket volume', period='2024-Q3')", "optimized_query": "OPTIMIZED[INTERVAL(metric='ticket volume', period='2024-Q3')]", "cost_before": 10.3, "cost_after": 2.44}
+{"id": "q022", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 7.5, "cost_after": 1.0}
+{"id": "q023", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.8, "cost_after": 1.0}
+{"id": "q024", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.6, "cost_after": 1.0}
+{"id": "q025", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.0, "cost_after": 1.0}
+{"id": "q026", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.2, "cost_after": 1.0}
+{"id": "q027", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.6, "cost_after": 1.0}
+{"id": "q028", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.3, "cost_after": 1.0}
+{"id": "q029", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.9, "cost_after": 1.0}
+{"id": "q030", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.7, "cost_after": 1.0}
+{"id": "q031", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 7.9, "cost_after": 1.0}
+{"id": "q032", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.9, "cost_after": 1.0}
+{"id": "q033", "canonical_query": "COMPARE(metric='', a='2020', b='2021')", "optimized_query": "OPTIMIZED[COMPARE(metric='', a='2020', b='2021')]", "cost_before": 9.1, "cost_after": 1.96}
+{"id": "q034", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.5, "cost_after": 1.0}
+{"id": "q035", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.7, "cost_after": 1.0}
+{"id": "q036", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.2, "cost_after": 1.0}
+{"id": "q037", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.4, "cost_after": 1.0}
+{"id": "q038", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.2, "cost_after": 1.0}
+{"id": "q039", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.0, "cost_after": 1.0}
+{"id": "q040", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.5, "cost_after": 1.0}
+{"id": "q041", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.4, "cost_after": 1.0}
+{"id": "q042", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.8, "cost_after": 1.0}
+{"id": "q043", "canonical_query": "PREDICT(metric='churn rate', date='2028')", "optimized_query": "OPTIMIZED[PREDICT(metric='churn rate', date='2028')]", "cost_before": 7.6, "cost_after": 2.08}
+{"id": "q044", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.0, "cost_after": 1.0}
+{"id": "q045", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.6, "cost_after": 1.0}
+{"id": "q046", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.1, "cost_after": 1.0}
+{"id": "q047", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.6, "cost_after": 1.0}
+{"id": "q048", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.9, "cost_after": 1.0}
+{"id": "q049", "canonical_query": "SEQUENCE(anchor='dot-com bubble', relation='followed')", "optimized_query": "OPTIMIZED[SEQUENCE(anchor='dot-com bubble', relation='followed')]", "cost_before": 8.3, "cost_after": 2.6}
+{"id": "q050", "canonical_query": "CAUSAL(cause='price cut', effect='sales spike')", "optimized_query": "OPTIMIZED[CAUSAL(cause='price cut', effect='sales spike')]", "cost_before": 11.5, "cost_after": 2.32}
+{"id": "q051", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.2, "cost_after": 1.0}
+{"id": "q052", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.8, "cost_after": 1.0}
+{"id": "q053", "canonical_query": "CAUSAL(cause='API change', effect='mobile crash')", "optimized_query": "OPTIMIZED[CAUSAL(cause='API change', effect='mobile crash')]", "cost_before": 12.1, "cost_after": 2.4}
+{"id": "q054", "canonical_query": "COMPARE(metric='latency', a='2023', b='2024')", "optimized_query": "OPTIMIZED[COMPARE(metric='latency', a='2023', b='2024')]", "cost_before": 8.5, "cost_after": 2.24}
+{"id": "q055", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.2, "cost_after": 1.0}
+{"id": "q056", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.0, "cost_after": 1.0}
+{"id": "q057", "canonical_query": "PREDICT(metric='', date='2027')", "optimized_query": "OPTIMIZED[PREDICT(metric='', date='2027')]", "cost_before": 7.9, "cost_after": 1.68}
+{"id": "q058", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.5, "cost_after": 1.0}
+{"id": "q059", "canonical_query": "OVERLAP(event='outages', period='2024-Q2')", "optimized_query": "OPTIMIZED[OVERLAP(event='outages', period='2024-Q2')]", "cost_before": 11.9, "cost_after": 2.12}
+{"id": "q060", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.8, "cost_after": 1.0}
+{"id": "q061", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.4, "cost_after": 1.0}
+{"id": "q062", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.5, "cost_after": 1.0}
+{"id": "q063", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.1, "cost_after": 1.0}
+{"id": "q064", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.3, "cost_after": 1.0}
+{"id": "q065", "canonical_query": "COMPARE(metric='', a='2019', b='2021')", "optimized_query": "OPTIMIZED[COMPARE(metric='', a='2019', b='2021')]", "cost_before": 8.8, "cost_after": 1.96}
+{"id": "q066", "canonical_query": "PREDICT(metric='quarterly revenue', date='2026')", "optimized_query": "OPTIMIZED[PREDICT(metric='quarterly revenue', date='2026')]", "cost_before": 7.6, "cost_after": 2.36}
+{"id": "q067", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 14.1, "cost_after": 1.0}
+{"id": "q068", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.4, "cost_after": 1.0}
+{"id": "q069", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.5, "cost_after": 1.0}
+{"id": "q070", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.3, "cost_after": 1.0}
+{"id": "q071", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.1, "cost_after": 1.0}
+{"id": "q072", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.0, "cost_after": 1.0}
+{"id": "q073", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.7, "cost_after": 1.0}
+{"id": "q074", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.0, "cost_after": 1.0}
+{"id": "q075", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.2, "cost_after": 1.0}
+{"id": "q076", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.8, "cost_after": 1.0}
+{"id": "q077", "canonical_query": "OVERLAP(event='outages', period='2025-Q1')", "optimized_query": "OPTIMIZED[OVERLAP(event='outages', period='2025-Q1')]", "cost_before": 12.0, "cost_after": 2.12}
+{"id": "q078", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.6, "cost_after": 1.0}
+{"id": "q079", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.5, "cost_after": 1.0}
+{"id": "q080", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.9, "cost_after": 1.0}
+{"id": "q081", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.0, "cost_after": 1.0}
+{"id": "q082", "canonical_query": "CAUSAL(cause='outage', effect='data loss')", "optimized_query": "OPTIMIZED[CAUSAL(cause='outage', effect='data loss')]", "cost_before": 12.3, "cost_after": 2.12}
+{"id": "q083", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.2, "cost_after": 1.0}
+{"id": "q084", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 7.8, "cost_after": 1.0}
+{"id": "q085", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 14.3, "cost_after": 1.0}
+{"id": "q086", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.8, "cost_after": 1.0}
+{"id": "q087", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.3, "cost_after": 1.0}
+{"id": "q088", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.7, "cost_after": 1.0}
+{"id": "q089", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.2, "cost_after": 1.0}
+{"id": "q090", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 7.7, "cost_after": 1.0}
+{"id": "q091", "canonical_query": "CAUSAL(cause='bad weather', effect='shipment delay')", "optimized_query": "OPTIMIZED[CAUSAL(cause='bad weather', effect='shipment delay')]", "cost_before": 11.6, "cost_after": 2.52}
+{"id": "q092", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.9, "cost_after": 1.0}
+{"id": "q093", "canonical_query": "PREDICT(metric='workforce size', date='2030')", "optimized_query": "OPTIMIZED[PREDICT(metric='workforce size', date='2030')]", "cost_before": 7.5, "cost_after": 2.24}
+{"id": "q094", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.6, "cost_after": 1.0}
+{"id": "q095", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.4, "cost_after": 1.0}
+{"id": "q096", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.6, "cost_after": 1.0}
+{"id": "q097", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.3, "cost_after": 1.0}
+{"id": "q098", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.7, "cost_after": 1.0}
+{"id": "q099", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.1, "cost_after": 1.0}
+{"id": "q100", "canonical_query": "CAUSAL(cause='algorithm update', effect='ranking drop')", "optimized_query": "OPTIMIZED[CAUSAL(cause='algorithm update', effect='ranking drop')]", "cost_before": 12.8, "cost_after": 2.64}
+{"id": "q101", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.5, "cost_after": 1.0}
+{"id": "q102", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.2, "cost_after": 1.0}
+{"id": "q103", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.8, "cost_after": 1.0}
+{"id": "q104", "canonical_query": "COMPARE(metric='gross revenue', a='2022', b='2023')", "optimized_query": "OPTIMIZED[COMPARE(metric='gross revenue', a='2022', b='2023')]", "cost_before": 8.7, "cost_after": 2.48}
+{"id": "q105", "canonical_query": "SEQUENCE(anchor='launch of Sputnik', relation='followed')", "optimized_query": "OPTIMIZED[SEQUENCE(anchor='launch of Sputnik', relation='followed')]", "cost_before": 9.5, "cost_after": 2.72}
+{"id": "q106", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.9, "cost_after": 1.0}
+{"id": "q107", "canonical_query": "PREDICT(metric='operating costs', date='2025')", "optimized_query": "OPTIMIZED[PREDICT(metric='operating costs', date='2025')]", "cost_before": 8.0, "cost_after": 2.28}
+{"id": "q108", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.2, "cost_after": 1.0}
+{"id": "q109", "canonical_query": "OVERLAP(event='outages', period='2024-Q3')", "optimized_query": "OPTIMIZED[OVERLAP(event='outages', period='2024-Q3')]", "cost_before": 12.5, "cost_after": 2.12}
+{"id": "q110", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.0, "cost_after": 1.0}
+{"id": "q111", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.6, "cost_after": 1.0}
+{"id": "q112", "canonical_query": "CAUSAL(cause='viral video', effect='traffic spike')", "optimized_query": "OPTIMIZED[CAUSAL(cause='viral video', effect='traffic spike')]", "cost_before": 11.4, "cost_after": 2.48}
+{"id": "q113", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.9, "cost_after": 1.0}
+{"id": "q114", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.4, "cost_after": 1.0}
+{"id": "q115", "canonical_query": "COMPARE(metric='', a='2021', b='2022')", "optimized_query": "OPTIMIZED[COMPARE(metric='', a='2021', b='2022')]", "cost_before": 8.6, "cost_after": 1.96}
+{"id": "q116", "canonical_query": "PREDICT(metric='', date='2026')", "optimized_query": "OPTIMIZED[PREDICT(metric='', date='2026')]", "cost_before": 7.7, "cost_after": 1.68}
+{"id": "q117", "canonical_query": "SEQUENCE(anchor='the database migration', relation='after')", "optimized_query": "OPTIMIZED[SEQUENCE(anchor='the database migration', relation='after')]", "cost_before": 13.8, "cost_after": 2.8}
+{"id": "q118", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.0, "cost_after": 1.0}
+{"id": "q119", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.9, "cost_after": 1.0}
+{"id": "q120", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.4, "cost_after": 1.0}
+{"id": "q121", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.8, "cost_after": 1.0}
+{"id": "q122", "canonical_query": "SEQUENCE(anchor='Ming Dynasty', relation='followed')", "optimized_query": "OPTIMIZED[SEQUENCE(anchor='Ming Dynasty', relation='followed')]", "cost_before": 8.2, "cost_after": 2.52}
+{"id": "q123", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.5, "cost_after": 1.0}
+{"id": "q124", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.1, "cost_after": 1.0}
+{"id": "q125", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 7.9, "cost_after": 1.0}
+{"id": "q126", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.6, "cost_after": 1.0}
+{"id": "q127", "canonical_query": "OVERLAP(event='outages', period='2025-Q1')", "optimized_query": "OPTIMIZED[OVERLAP(event='outages', period='2025-Q1')]", "cost_before": 11.7, "cost_after": 2.12}
+{"id": "q128", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.7, "cost_after": 1.0}
+{"id": "q129", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.0, "cost_after": 1.0}
+{"id": "q130", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.1, "cost_after": 1.0}
+{"id": "q131", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.3, "cost_after": 1.0}
+{"id": "q132", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.2, "cost_after": 1.0}
+{"id": "q133", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.8, "cost_after": 1.0}
+{"id": "q134", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 7.5, "cost_after": 1.0}
+{"id": "q135", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.9, "cost_after": 1.0}
+{"id": "q136", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.9, "cost_after": 1.0}
+{"id": "q137", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.1, "cost_after": 1.0}
+{"id": "q138", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.7, "cost_after": 1.0}
+{"id": "q139", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.0, "cost_after": 1.0}
+{"id": "q140", "canonical_query": "SEQUENCE(anchor='Iron Age', relation='followed')", "optimized_query": "OPTIMIZED[SEQUENCE(anchor='Iron Age', relation='followed')]", "cost_before": 8.1, "cost_after": 2.36}
+{"id": "q141", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.0, "cost_after": 1.0}
+{"id": "q142", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.9, "cost_after": 1.0}
+{"id": "q143", "canonical_query": "PREDICT(metric='website traffic', date='2028')", "optimized_query": "OPTIMIZED[PREDICT(metric='website traffic', date='2028')]", "cost_before": 7.6, "cost_after": 2.28}
+{"id": "q144", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.4, "cost_after": 1.0}
+{"id": "q145", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.6, "cost_after": 1.0}
+{"id": "q146", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.6, "cost_after": 1.0}
+{"id": "q147", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.4, "cost_after": 1.0}
+{"id": "q148", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.5, "cost_after": 1.0}
+{"id": "q149", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.2, "cost_after": 1.0}
+{"id": "q150", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.9, "cost_after": 1.0}
+{"id": "q151", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.8, "cost_after": 1.0}
+{"id": "q152", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.7, "cost_after": 1.0}
+{"id": "q153", "canonical_query": "CAUSAL(cause='new feature', effect='login bug')", "optimized_query": "OPTIMIZED[CAUSAL(cause='new feature', effect='login bug')]", "cost_before": 12.3, "cost_after": 2.32}
+{"id": "q154", "canonical_query": "COMPARE(metric='response times', a='2021', b='2024')", "optimized_query": "OPTIMIZED[COMPARE(metric='response times', a='2021', b='2024')]", "cost_before": 8.5, "cost_after": 2.52}
+{"id": "q155", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.1, "cost_after": 1.0}
+{"id": "q156", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.8, "cost_after": 1.0}
+{"id": "q157", "canonical_query": "PREDICT(metric='', date='2029')", "optimized_query": "OPTIMIZED[PREDICT(metric='', date='2029')]", "cost_before": 7.8, "cost_after": 1.68}
+{"id": "q158", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.5, "cost_after": 1.0}
+{"id": "q159", "canonical_query": "OVERLAP(event='outages', period='2023-Q4')", "optimized_query": "OPTIMIZED[OVERLAP(event='outages', period='2023-Q4')]", "cost_before": 11.8, "cost_after": 2.12}
+{"id": "q160", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.2, "cost_after": 1.0}
+{"id": "q161", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.4, "cost_after": 1.0}
+{"id": "q162", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.1, "cost_after": 1.0}
+{"id": "q163", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.0, "cost_after": 1.0}
+{"id": "q164", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.3, "cost_after": 1.0}
+{"id": "q165", "canonical_query": "COMPARE(metric='', a='2021', b='2023')", "optimized_query": "OPTIMIZED[COMPARE(metric='', a='2021', b='2023')]", "cost_before": 8.7, "cost_after": 1.96}
+{"id": "q166", "canonical_query": "PREDICT(metric='quarterly growth', date='2028')", "optimized_query": "OPTIMIZED[PREDICT(metric='quarterly growth', date='2028')]", "cost_before": 7.6, "cost_after": 2.32}
+{"id": "q167", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 14.0, "cost_after": 1.0}
+{"id": "q168", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.5, "cost_after": 1.0}
+{"id": "q169", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.4, "cost_after": 1.0}
+{"id": "q170", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.2, "cost_after": 1.0}
+{"id": "q171", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.1, "cost_after": 1.0}
+{"id": "q172", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 7.9, "cost_after": 1.0}
+{"id": "q173", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.7, "cost_after": 1.0}
+{"id": "q174", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.0, "cost_after": 1.0}
+{"id": "q175", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.2, "cost_after": 1.0}
+{"id": "q176", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.7, "cost_after": 1.0}
+{"id": "q177", "canonical_query": "OVERLAP(event='outages', period='2024-Q2')", "optimized_query": "OPTIMIZED[OVERLAP(event='outages', period='2024-Q2')]", "cost_before": 12.0, "cost_after": 2.12}
+{"id": "q178", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.5, "cost_after": 1.0}
+{"id": "q179", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.4, "cost_after": 1.0}
+{"id": "q180", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.9, "cost_after": 1.0}
+{"id": "q181", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.1, "cost_after": 1.0}
+{"id": "q182", "canonical_query": "CAUSAL(cause='layoff announcement', effect='stock drop')", "optimized_query": "OPTIMIZED[CAUSAL(cause='layoff announcement', effect='stock drop')]", "cost_before": 12.4, "cost_after": 2.68}
+{"id": "q183", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.3, "cost_after": 1.0}
+{"id": "q184", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 7.7, "cost_after": 1.0}
+{"id": "q185", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 14.2, "cost_after": 1.0}
+{"id": "q186", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.9, "cost_after": 1.0}
+{"id": "q187", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.3, "cost_after": 1.0}
+{"id": "q188", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.8, "cost_after": 1.0}
+{"id": "q189", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.2, "cost_after": 1.0}
+{"id": "q190", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 7.8, "cost_after": 1.0}
+{"id": "q191", "canonical_query": "CAUSAL(cause='promotion', effect='user spike')", "optimized_query": "OPTIMIZED[CAUSAL(cause='promotion', effect='user spike')]", "cost_before": 11.6, "cost_after": 2.28}
+{"id": "q192", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.9, "cost_after": 1.0}
+{"id": "q193", "canonical_query": "PREDICT(metric='team size', date='2030')", "optimized_query": "OPTIMIZED[PREDICT(metric='team size', date='2030')]", "cost_before": 7.5, "cost_after": 2.04}
+{"id": "q194", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.6, "cost_after": 1.0}
+{"id": "q195", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.4, "cost_after": 1.0}
+{"id": "q196", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.6, "cost_after": 1.0}
+{"id": "q197", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.3, "cost_after": 1.0}
+{"id": "q198", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.7, "cost_after": 1.0}
+{"id": "q199", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.1, "cost_after": 1.0}
+{"id": "q200", "canonical_query": "CAUSAL(cause='policy change', effect='hiring freeze')", "optimized_query": "OPTIMIZED[CAUSAL(cause='policy change', effect='hiring freeze')]", "cost_before": 12.8, "cost_after": 2.56}
+{"id": "q201", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.9, "cost_after": 1.0}
+{"id": "q202", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.6, "cost_after": 1.0}
+{"id": "q203", "canonical_query": "CAUSAL(cause='new CEO', effect='stock rally')", "optimized_query": "OPTIMIZED[CAUSAL(cause='new CEO', effect='stock rally')]", "cost_before": 12.2, "cost_after": 2.24}
+{"id": "q204", "canonical_query": "COMPARE(metric='net', a='2021', b='2023')", "optimized_query": "OPTIMIZED[COMPARE(metric='net', a='2021', b='2023')]", "cost_before": 8.7, "cost_after": 2.08}
+{"id": "q205", "canonical_query": "SEQUENCE(anchor='fall of Rome', relation='followed')", "optimized_query": "OPTIMIZED[SEQUENCE(anchor='fall of Rome', relation='followed')]", "cost_before": 9.3, "cost_after": 2.52}
+{"id": "q206", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.8, "cost_after": 1.0}
+{"id": "q207", "canonical_query": "PREDICT(metric='operating income', date='2025')", "optimized_query": "OPTIMIZED[PREDICT(metric='operating income', date='2025')]", "cost_before": 8.0, "cost_after": 2.32}
+{"id": "q208", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.4, "cost_after": 1.0}
+{"id": "q209", "canonical_query": "OVERLAP(event='outages', period='2024-Q3')", "optimized_query": "OPTIMIZED[OVERLAP(event='outages', period='2024-Q3')]", "cost_before": 11.7, "cost_after": 2.12}
+{"id": "q210", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.1, "cost_after": 1.0}
+{"id": "q211", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.5, "cost_after": 1.0}
+{"id": "q212", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.6, "cost_after": 1.0}
+{"id": "q213", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.0, "cost_after": 1.0}
+{"id": "q214", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.5, "cost_after": 1.0}
+{"id": "q215", "canonical_query": "COMPARE(metric='', a='2022', b='2023')", "optimized_query": "OPTIMIZED[COMPARE(metric='', a='2022', b='2023')]", "cost_before": 8.8, "cost_after": 1.96}
+{"id": "q216", "canonical_query": "PREDICT(metric='', date='2028')", "optimized_query": "OPTIMIZED[PREDICT(metric='', date='2028')]", "cost_before": 7.6, "cost_after": 1.68}
+{"id": "q217", "canonical_query": "SEQUENCE(anchor='the cache update', relation='after')", "optimized_query": "OPTIMIZED[SEQUENCE(anchor='the cache update', relation='after')]", "cost_before": 13.9, "cost_after": 2.56}
+{"id": "q218", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.1, "cost_after": 1.0}
+{"id": "q219", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.0, "cost_after": 1.0}
+{"id": "q220", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.4, "cost_after": 1.0}
+{"id": "q221", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.8, "cost_after": 1.0}
+{"id": "q222", "canonical_query": "SEQUENCE(anchor='Victorian Era', relation='followed')", "optimized_query": "OPTIMIZED[SEQUENCE(anchor='Victorian Era', relation='followed')]", "cost_before": 8.0, "cost_after": 2.56}
+{"id": "q223", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.8, "cost_after": 1.0}
+{"id": "q224", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.2, "cost_after": 1.0}
+{"id": "q225", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 7.9, "cost_after": 1.0}
+{"id": "q226", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.8, "cost_after": 1.0}
+{"id": "q227", "canonical_query": "OVERLAP(event='outages', period='2025-Q1')", "optimized_query": "OPTIMIZED[OVERLAP(event='outages', period='2025-Q1')]", "cost_before": 11.7, "cost_after": 2.12}
+{"id": "q228", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.7, "cost_after": 1.0}
+{"id": "q229", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.1, "cost_after": 1.0}
+{"id": "q230", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.0, "cost_after": 1.0}
+{"id": "q231", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.3, "cost_after": 1.0}
+{"id": "q232", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.3, "cost_after": 1.0}
+{"id": "q233", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.9, "cost_after": 1.0}
+{"id": "q234", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 7.5, "cost_after": 1.0}
+{"id": "q235", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.9, "cost_after": 1.0}
+{"id": "q236", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.9, "cost_after": 1.0}
+{"id": "q237", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.2, "cost_after": 1.0}
+{"id": "q238", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.7, "cost_after": 1.0}
+{"id": "q239", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.1, "cost_after": 1.0}
+{"id": "q240", "canonical_query": "SEQUENCE(anchor='Middle Ages', relation='followed')", "optimized_query": "OPTIMIZED[SEQUENCE(anchor='Middle Ages', relation='followed')]", "cost_before": 8.1, "cost_after": 2.48}
+{"id": "q241", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.0, "cost_after": 1.0}
+{"id": "q242", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.9, "cost_after": 1.0}
+{"id": "q243", "canonical_query": "PREDICT(metric='ad revenue', date='2028')", "optimized_query": "OPTIMIZED[PREDICT(metric='ad revenue', date='2028')]", "cost_before": 7.6, "cost_after": 2.08}
+{"id": "q244", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.5, "cost_after": 1.0}
+{"id": "q245", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.6, "cost_after": 1.0}
+{"id": "q246", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.6, "cost_after": 1.0}
+{"id": "q247", "canonical_query": "INTERVAL(metric='unemployment', period='2009')", "optimized_query": "OPTIMIZED[INTERVAL(metric='unemployment', period='2009')]", "cost_before": 10.4, "cost_after": 2.28}
+{"id": "q248", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.5, "cost_after": 1.0}
+{"id": "q249", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.2, "cost_after": 1.0}
+{"id": "q250", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.9, "cost_after": 1.0}
+{"id": "q251", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.8, "cost_after": 1.0}
+{"id": "q252", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.7, "cost_after": 1.0}
+{"id": "q253", "canonical_query": "CAUSAL(cause='code refactor', effect='regression')", "optimized_query": "OPTIMIZED[CAUSAL(cause='code refactor', effect='regression')]", "cost_before": 12.3, "cost_after": 2.44}
+{"id": "q254", "canonical_query": "COMPARE(metric='load times', a='2021', b='2024')", "optimized_query": "OPTIMIZED[COMPARE(metric='load times', a='2021', b='2024')]", "cost_before": 8.5, "cost_after": 2.36}
+{"id": "q255", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.1, "cost_after": 1.0}
+{"id": "q256", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.8, "cost_after": 1.0}
+{"id": "q257", "canonical_query": "PREDICT(metric='', date='2029')", "optimized_query": "OPTIMIZED[PREDICT(metric='', date='2029')]", "cost_before": 7.8, "cost_after": 1.68}
+{"id": "q258", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.5, "cost_after": 1.0}
+{"id": "q259", "canonical_query": "OVERLAP(event='outages', period='2023-Q4')", "optimized_query": "OPTIMIZED[OVERLAP(event='outages', period='2023-Q4')]", "cost_before": 11.8, "cost_after": 2.12}
+{"id": "q260", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.2, "cost_after": 1.0}
+{"id": "q261", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.4, "cost_after": 1.0}
+{"id": "q262", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.1, "cost_after": 1.0}
+{"id": "q263", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.0, "cost_after": 1.0}
+{"id": "q264", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.3, "cost_after": 1.0}
+{"id": "q265", "canonical_query": "COMPARE(metric='', a='2021', b='2023')", "optimized_query": "OPTIMIZED[COMPARE(metric='', a='2021', b='2023')]", "cost_before": 8.7, "cost_after": 1.96}
+{"id": "q266", "canonical_query": "PREDICT(metric='yearly growth', date='2028')", "optimized_query": "OPTIMIZED[PREDICT(metric='yearly growth', date='2028')]", "cost_before": 7.6, "cost_after": 2.2}
+{"id": "q267", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 14.0, "cost_after": 1.0}
+{"id": "q268", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.5, "cost_after": 1.0}
+{"id": "q269", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.4, "cost_after": 1.0}
+{"id": "q270", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.2, "cost_after": 1.0}
+{"id": "q271", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.1, "cost_after": 1.0}
+{"id": "q272", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 7.9, "cost_after": 1.0}
+{"id": "q273", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.7, "cost_after": 1.0}
+{"id": "q274", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.0, "cost_after": 1.0}
+{"id": "q275", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.2, "cost_after": 1.0}
+{"id": "q276", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.7, "cost_after": 1.0}
+{"id": "q277", "canonical_query": "OVERLAP(event='outages', period='2024-Q2')", "optimized_query": "OPTIMIZED[OVERLAP(event='outages', period='2024-Q2')]", "cost_before": 12.0, "cost_after": 2.12}
+{"id": "q278", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.5, "cost_after": 1.0}
+{"id": "q279", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.4, "cost_after": 1.0}
+{"id": "q280", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.9, "cost_after": 1.0}
+{"id": "q281", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.1, "cost_after": 1.0}
+{"id": "q282", "canonical_query": "CAUSAL(cause='CEO resignation', effect='stock fall')", "optimized_query": "OPTIMIZED[CAUSAL(cause='CEO resignation', effect='stock fall')]", "cost_before": 12.4, "cost_after": 2.52}
+{"id": "q283", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.3, "cost_after": 1.0}
+{"id": "q284", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 7.7, "cost_after": 1.0}
+{"id": "q285", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 14.2, "cost_after": 1.0}
+{"id": "q286", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.9, "cost_after": 1.0}
+{"id": "q287", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.3, "cost_after": 1.0}
+{"id": "q288", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.8, "cost_after": 1.0}
+{"id": "q289", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.2, "cost_after": 1.0}
+{"id": "q290", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 7.8, "cost_after": 1.0}
+{"id": "q291", "canonical_query": "CAUSAL(cause='coupon', effect='order spike')", "optimized_query": "OPTIMIZED[CAUSAL(cause='coupon', effect='order spike')]", "cost_before": 11.6, "cost_after": 2.2}
+{"id": "q292", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.9, "cost_after": 1.0}
+{"id": "q293", "canonical_query": "PREDICT(metric='workforce size', date='2030')", "optimized_query": "OPTIMIZED[PREDICT(metric='workforce size', date='2030')]", "cost_before": 7.5, "cost_after": 2.24}
+{"id": "q294", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.6, "cost_after": 1.0}
+{"id": "q295", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.4, "cost_after": 1.0}
+{"id": "q296", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.6, "cost_after": 1.0}
+{"id": "q297", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.3, "cost_after": 1.0}
+{"id": "q298", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.7, "cost_after": 1.0}
+{"id": "q299", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.1, "cost_after": 1.0}
+{"id": "q300", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.8, "cost_after": 1.0}
+{"id": "q301", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.9, "cost_after": 1.0}
+{"id": "q302", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.6, "cost_after": 1.0}
+{"id": "q303", "canonical_query": "CAUSAL(cause='layoff rumors', effect='stock drop')", "optimized_query": "OPTIMIZED[CAUSAL(cause='layoff rumors', effect='stock drop')]", "cost_before": 12.2, "cost_after": 2.44}
+{"id": "q304", "canonical_query": "COMPARE(metric='gross margin', a='2021', b='2023')", "optimized_query": "OPTIMIZED[COMPARE(metric='gross margin', a='2021', b='2023')]", "cost_before": 8.7, "cost_after": 2.44}
+{"id": "q305", "canonical_query": "SEQUENCE(anchor='fall of Constantinople', relation='followed')", "optimized_query": "OPTIMIZED[SEQUENCE(anchor='fall of Constantinople', relation='followed')]", "cost_before": 9.3, "cost_after": 2.92}
+{"id": "q306", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.8, "cost_after": 1.0}
+{"id": "q307", "canonical_query": "PREDICT(metric='net income', date='2025')", "optimized_query": "OPTIMIZED[PREDICT(metric='net income', date='2025')]", "cost_before": 8.0, "cost_after": 2.08}
+{"id": "q308", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.4, "cost_after": 1.0}
+{"id": "q309", "canonical_query": "OVERLAP(event='outages', period='2024-Q3')", "optimized_query": "OPTIMIZED[OVERLAP(event='outages', period='2024-Q3')]", "cost_before": 11.7, "cost_after": 2.12}
+{"id": "q310", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.1, "cost_after": 1.0}
+{"id": "q311", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.5, "cost_after": 1.0}
+{"id": "q312", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.6, "cost_after": 1.0}
+{"id": "q313", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.0, "cost_after": 1.0}
+{"id": "q314", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.5, "cost_after": 1.0}
+{"id": "q315", "canonical_query": "COMPARE(metric='', a='2022', b='2023')", "optimized_query": "OPTIMIZED[COMPARE(metric='', a='2022', b='2023')]", "cost_before": 8.8, "cost_after": 1.96}
+{"id": "q316", "canonical_query": "PREDICT(metric='', date='2028')", "optimized_query": "OPTIMIZED[PREDICT(metric='', date='2028')]", "cost_before": 7.6, "cost_after": 1.68}
+{"id": "q317", "canonical_query": "SEQUENCE(anchor='the cache update', relation='after')", "optimized_query": "OPTIMIZED[SEQUENCE(anchor='the cache update', relation='after')]", "cost_before": 13.9, "cost_after": 2.56}
+{"id": "q318", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.1, "cost_after": 1.0}
+{"id": "q319", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.0, "cost_after": 1.0}
+{"id": "q320", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.4, "cost_after": 1.0}
+{"id": "q321", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.8, "cost_after": 1.0}
+{"id": "q322", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.0, "cost_after": 1.0}
+{"id": "q323", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.8, "cost_after": 1.0}
+{"id": "q324", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.2, "cost_after": 1.0}
+{"id": "q325", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 7.9, "cost_after": 1.0}
+{"id": "q326", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.8, "cost_after": 1.0}
+{"id": "q327", "canonical_query": "OVERLAP(event='outages', period='2025-Q1')", "optimized_query": "OPTIMIZED[OVERLAP(event='outages', period='2025-Q1')]", "cost_before": 11.7, "cost_after": 2.12}
+{"id": "q328", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.7, "cost_after": 1.0}
+{"id": "q329", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.1, "cost_after": 1.0}
+{"id": "q330", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.0, "cost_after": 1.0}
+{"id": "q331", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.3, "cost_after": 1.0}
+{"id": "q332", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.3, "cost_after": 1.0}
+{"id": "q333", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.9, "cost_after": 1.0}
+{"id": "q334", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 7.5, "cost_after": 1.0}
+{"id": "q335", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.9, "cost_after": 1.0}
+{"id": "q336", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.9, "cost_after": 1.0}
+{"id": "q337", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.2, "cost_after": 1.0}
+{"id": "q338", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.7, "cost_after": 1.0}
+{"id": "q339", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.1, "cost_after": 1.0}
+{"id": "q340", "canonical_query": "SEQUENCE(anchor='Dark Ages', relation='followed')", "optimized_query": "OPTIMIZED[SEQUENCE(anchor='Dark Ages', relation='followed')]", "cost_before": 8.1, "cost_after": 2.4}
+{"id": "q341", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.0, "cost_after": 1.0}
+{"id": "q342", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.9, "cost_after": 1.0}
+{"id": "q343", "canonical_query": "PREDICT(metric='ad revenue', date='2028')", "optimized_query": "OPTIMIZED[PREDICT(metric='ad revenue', date='2028')]", "cost_before": 7.6, "cost_after": 2.08}
+{"id": "q344", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.5, "cost_after": 1.0}
+{"id": "q345", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.6, "cost_after": 1.0}
+{"id": "q346", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.6, "cost_after": 1.0}
+{"id": "q347", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.4, "cost_after": 1.0}
+{"id": "q348", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.5, "cost_after": 1.0}
+{"id": "q349", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.2, "cost_after": 1.0}
+{"id": "q350", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.9, "cost_after": 1.0}
+{"id": "q351", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.8, "cost_after": 1.0}
+{"id": "q352", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.7, "cost_after": 1.0}
+{"id": "q353", "canonical_query": "CAUSAL(cause='code refactor', effect='regression')", "optimized_query": "OPTIMIZED[CAUSAL(cause='code refactor', effect='regression')]", "cost_before": 12.3, "cost_after": 2.44}
+{"id": "q354", "canonical_query": "COMPARE(metric='load times', a='2021', b='2024')", "optimized_query": "OPTIMIZED[COMPARE(metric='load times', a='2021', b='2024')]", "cost_before": 8.5, "cost_after": 2.36}
+{"id": "q355", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.1, "cost_after": 1.0}
+{"id": "q356", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.8, "cost_after": 1.0}
+{"id": "q357", "canonical_query": "PREDICT(metric='', date='2029')", "optimized_query": "OPTIMIZED[PREDICT(metric='', date='2029')]", "cost_before": 7.8, "cost_after": 1.68}
+{"id": "q358", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.5, "cost_after": 1.0}
+{"id": "q359", "canonical_query": "OVERLAP(event='outages', period='2023-Q4')", "optimized_query": "OPTIMIZED[OVERLAP(event='outages', period='2023-Q4')]", "cost_before": 11.8, "cost_after": 2.12}
+{"id": "q360", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.2, "cost_after": 1.0}
+{"id": "q361", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.4, "cost_after": 1.0}
+{"id": "q362", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.1, "cost_after": 1.0}
+{"id": "q363", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.0, "cost_after": 1.0}
+{"id": "q364", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.3, "cost_after": 1.0}
+{"id": "q365", "canonical_query": "COMPARE(metric='', a='2021', b='2023')", "optimized_query": "OPTIMIZED[COMPARE(metric='', a='2021', b='2023')]", "cost_before": 8.7, "cost_after": 1.96}
+{"id": "q366", "canonical_query": "PREDICT(metric='yearly growth', date='2028')", "optimized_query": "OPTIMIZED[PREDICT(metric='yearly growth', date='2028')]", "cost_before": 7.6, "cost_after": 2.2}
+{"id": "q367", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 14.0, "cost_after": 1.0}
+{"id": "q368", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.5, "cost_after": 1.0}
+{"id": "q369", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.4, "cost_after": 1.0}
+{"id": "q370", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.2, "cost_after": 1.0}
+{"id": "q371", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.2, "cost_after": 1.0}
+{"id": "q372", "canonical_query": "SEQUENCE(anchor='Song Dynasty', relation='followed')", "optimized_query": "OPTIMIZED[SEQUENCE(anchor='Song Dynasty', relation='followed')]", "cost_before": 8.0, "cost_after": 2.52}
+{"id": "q373", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.7, "cost_after": 1.0}
+{"id": "q374", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.0, "cost_after": 1.0}
+{"id": "q375", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.2, "cost_after": 1.0}
+{"id": "q376", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.7, "cost_after": 1.0}
+{"id": "q377", "canonical_query": "OVERLAP(event='outages', period='2024-Q2')", "optimized_query": "OPTIMIZED[OVERLAP(event='outages', period='2024-Q2')]", "cost_before": 12.0, "cost_after": 2.12}
+{"id": "q378", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.5, "cost_after": 1.0}
+{"id": "q379", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.4, "cost_after": 1.0}
+{"id": "q380", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.9, "cost_after": 1.0}
+{"id": "q381", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.1, "cost_after": 1.0}
+{"id": "q382", "canonical_query": "CAUSAL(cause='merger announcement', effect='stock rise')", "optimized_query": "OPTIMIZED[CAUSAL(cause='merger announcement', effect='stock rise')]", "cost_before": 12.4, "cost_after": 2.68}
+{"id": "q383", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.3, "cost_after": 1.0}
+{"id": "q384", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 7.7, "cost_after": 1.0}
+{"id": "q385", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 14.2, "cost_after": 1.0}
+{"id": "q386", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.9, "cost_after": 1.0}
+{"id": "q387", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.3, "cost_after": 1.0}
+{"id": "q388", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.8, "cost_after": 1.0}
+{"id": "q389", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.2, "cost_after": 1.0}
+{"id": "q390", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 7.8, "cost_after": 1.0}
+{"id": "q391", "canonical_query": "CAUSAL(cause='discount', effect='sales spike')", "optimized_query": "OPTIMIZED[CAUSAL(cause='discount', effect='sales spike')]", "cost_before": 11.6, "cost_after": 2.28}
+{"id": "q392", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.9, "cost_after": 1.0}
+{"id": "q393", "canonical_query": "PREDICT(metric='employee count', date='2030')", "optimized_query": "OPTIMIZED[PREDICT(metric='employee count', date='2030')]", "cost_before": 7.5, "cost_after": 2.24}
+{"id": "q394", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.6, "cost_after": 1.0}
+{"id": "q395", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.4, "cost_after": 1.0}
+{"id": "q396", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.6, "cost_after": 1.0}
+{"id": "q397", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.3, "cost_after": 1.0}
+{"id": "q398", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.7, "cost_after": 1.0}
+{"id": "q399", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.1, "cost_after": 1.0}
+{"id": "q400", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.8, "cost_after": 1.0}
+{"id": "q401", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.9, "cost_after": 1.0}
+{"id": "q402", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.6, "cost_after": 1.0}
+{"id": "q403", "canonical_query": "CAUSAL(cause='scandal', effect='resignation')", "optimized_query": "OPTIMIZED[CAUSAL(cause='scandal', effect='resignation')]", "cost_before": 12.2, "cost_after": 2.24}
+{"id": "q404", "canonical_query": "COMPARE(metric='operating costs', a='2021', b='2023')", "optimized_query": "OPTIMIZED[COMPARE(metric='operating costs', a='2021', b='2023')]", "cost_before": 8.7, "cost_after": 2.56}
+{"id": "q405", "canonical_query": "SEQUENCE(anchor='Great Fire of London', relation='followed')", "optimized_query": "OPTIMIZED[SEQUENCE(anchor='Great Fire of London', relation='followed')]", "cost_before": 9.3, "cost_after": 2.84}
+{"id": "q406", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.8, "cost_after": 1.0}
+{"id": "q407", "canonical_query": "PREDICT(metric='quarterly profit', date='2025')", "optimized_query": "OPTIMIZED[PREDICT(metric='quarterly profit', date='2025')]", "cost_before": 8.0, "cost_after": 2.32}
+{"id": "q408", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.4, "cost_after": 1.0}
+{"id": "q409", "canonical_query": "OVERLAP(event='outages', period='2024-Q3')", "optimized_query": "OPTIMIZED[OVERLAP(event='outages', period='2024-Q3')]", "cost_before": 11.7, "cost_after": 2.12}
+{"id": "q410", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.1, "cost_after": 1.0}
+{"id": "q411", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.5, "cost_after": 1.0}
+{"id": "q412", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.6, "cost_after": 1.0}
+{"id": "q413", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.0, "cost_after": 1.0}
+{"id": "q414", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.5, "cost_after": 1.0}
+{"id": "q415", "canonical_query": "COMPARE(metric='', a='2022', b='2023')", "optimized_query": "OPTIMIZED[COMPARE(metric='', a='2022', b='2023')]", "cost_before": 8.8, "cost_after": 1.96}
+{"id": "q416", "canonical_query": "PREDICT(metric='', date='2028')", "optimized_query": "OPTIMIZED[PREDICT(metric='', date='2028')]", "cost_before": 7.6, "cost_after": 1.68}
+{"id": "q417", "canonical_query": "SEQUENCE(anchor='the release', relation='after')", "optimized_query": "OPTIMIZED[SEQUENCE(anchor='the release', relation='after')]", "cost_before": 13.9, "cost_after": 2.36}
+{"id": "q418", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.1, "cost_after": 1.0}
+{"id": "q419", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.0, "cost_after": 1.0}
+{"id": "q420", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.4, "cost_after": 1.0}
+{"id": "q421", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.8, "cost_after": 1.0}
+{"id": "q422", "canonical_query": "SEQUENCE(anchor='Elizabethan Era', relation='followed')", "optimized_query": "OPTIMIZED[SEQUENCE(anchor='Elizabethan Era', relation='followed')]", "cost_before": 8.0, "cost_after": 2.64}
+{"id": "q423", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.8, "cost_after": 1.0}
+{"id": "q424", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.2, "cost_after": 1.0}
+{"id": "q425", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 7.9, "cost_after": 1.0}
+{"id": "q426", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.8, "cost_after": 1.0}
+{"id": "q427", "canonical_query": "OVERLAP(event='outages', period='2025-Q1')", "optimized_query": "OPTIMIZED[OVERLAP(event='outages', period='2025-Q1')]", "cost_before": 11.7, "cost_after": 2.12}
+{"id": "q428", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.7, "cost_after": 1.0}
+{"id": "q429", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.1, "cost_after": 1.0}
+{"id": "q430", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.0, "cost_after": 1.0}
+{"id": "q431", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.3, "cost_after": 1.0}
+{"id": "q432", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.3, "cost_after": 1.0}
+{"id": "q433", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.9, "cost_after": 1.0}
+{"id": "q434", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 7.5, "cost_after": 1.0}
+{"id": "q435", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.9, "cost_after": 1.0}
+{"id": "q436", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.9, "cost_after": 1.0}
+{"id": "q437", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.2, "cost_after": 1.0}
+{"id": "q438", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.7, "cost_after": 1.0}
+{"id": "q439", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.1, "cost_after": 1.0}
+{"id": "q440", "canonical_query": "SEQUENCE(anchor='Age of Revolution', relation='followed')", "optimized_query": "OPTIMIZED[SEQUENCE(anchor='Age of Revolution', relation='followed')]", "cost_before": 8.1, "cost_after": 2.72}
+{"id": "q441", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.0, "cost_after": 1.0}
+{"id": "q442", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.9, "cost_after": 1.0}
+{"id": "q443", "canonical_query": "PREDICT(metric='churn', date='2028')", "optimized_query": "OPTIMIZED[PREDICT(metric='churn', date='2028')]", "cost_before": 7.6, "cost_after": 1.88}
+{"id": "q444", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.5, "cost_after": 1.0}
+{"id": "q445", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.6, "cost_after": 1.0}
+{"id": "q446", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.6, "cost_after": 1.0}
+{"id": "q447", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.4, "cost_after": 1.0}
+{"id": "q448", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.5, "cost_after": 1.0}
+{"id": "q449", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.2, "cost_after": 1.0}
+{"id": "q450", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.9, "cost_after": 1.0}
+{"id": "q451", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.8, "cost_after": 1.0}
+{"id": "q452", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.7, "cost_after": 1.0}
+{"id": "q453", "canonical_query": "CAUSAL(cause='rewrite', effect='regression')", "optimized_query": "OPTIMIZED[CAUSAL(cause='rewrite', effect='regression')]", "cost_before": 12.3, "cost_after": 2.2}
+{"id": "q454", "canonical_query": "COMPARE(metric='load times', a='2022', b='2024')", "optimized_query": "OPTIMIZED[COMPARE(metric='load times', a='2022', b='2024')]", "cost_before": 8.5, "cost_after": 2.36}
+{"id": "q455", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.1, "cost_after": 1.0}
+{"id": "q456", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.8, "cost_after": 1.0}
+{"id": "q457", "canonical_query": "PREDICT(metric='', date='2029')", "optimized_query": "OPTIMIZED[PREDICT(metric='', date='2029')]", "cost_before": 7.8, "cost_after": 1.68}
+{"id": "q458", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.5, "cost_after": 1.0}
+{"id": "q459", "canonical_query": "OVERLAP(event='outages', period='2023-Q4')", "optimized_query": "OPTIMIZED[OVERLAP(event='outages', period='2023-Q4')]", "cost_before": 11.8, "cost_after": 2.12}
+{"id": "q460", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.2, "cost_after": 1.0}
+{"id": "q461", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.4, "cost_after": 1.0}
+{"id": "q462", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.1, "cost_after": 1.0}
+{"id": "q463", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.0, "cost_after": 1.0}
+{"id": "q464", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.3, "cost_after": 1.0}
+{"id": "q465", "canonical_query": "COMPARE(metric='', a='2021', b='2022')", "optimized_query": "OPTIMIZED[COMPARE(metric='', a='2021', b='2022')]", "cost_before": 8.7, "cost_after": 1.96}
+{"id": "q466", "canonical_query": "PREDICT(metric='yearly growth', date='2029')", "optimized_query": "OPTIMIZED[PREDICT(metric='yearly growth', date='2029')]", "cost_before": 7.6, "cost_after": 2.2}
+{"id": "q467", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 14.0, "cost_after": 1.0}
+{"id": "q468", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.5, "cost_after": 1.0}
+{"id": "q469", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.4, "cost_after": 1.0}
+{"id": "q470", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.2, "cost_after": 1.0}
+{"id": "q471", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.1, "cost_after": 1.0}
+{"id": "q472", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 7.9, "cost_after": 1.0}
+{"id": "q473", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.7, "cost_after": 1.0}
+{"id": "q474", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.0, "cost_after": 1.0}
+{"id": "q475", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.2, "cost_after": 1.0}
+{"id": "q476", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.7, "cost_after": 1.0}
+{"id": "q477", "canonical_query": "OVERLAP(event='outages', period='2024-Q1')", "optimized_query": "OPTIMIZED[OVERLAP(event='outages', period='2024-Q1')]", "cost_before": 12.0, "cost_after": 2.12}
+{"id": "q478", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.5, "cost_after": 1.0}
+{"id": "q479", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.4, "cost_after": 1.0}
+{"id": "q480", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.9, "cost_after": 1.0}
+{"id": "q481", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.1, "cost_after": 1.0}
+{"id": "q482", "canonical_query": "CAUSAL(cause='CEO firing', effect='stock fall')", "optimized_query": "OPTIMIZED[CAUSAL(cause='CEO firing', effect='stock fall')]", "cost_before": 12.4, "cost_after": 2.32}
+{"id": "q483", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.3, "cost_after": 1.0}
+{"id": "q484", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 7.7, "cost_after": 1.0}
+{"id": "q485", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 14.2, "cost_after": 1.0}
+{"id": "q486", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.9, "cost_after": 1.0}
+{"id": "q487", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.3, "cost_after": 1.0}
+{"id": "q488", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.8, "cost_after": 1.0}
+{"id": "q489", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.2, "cost_after": 1.0}
+{"id": "q490", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 7.8, "cost_after": 1.0}
+{"id": "q491", "canonical_query": "CAUSAL(cause='coupon', effect='order drop')", "optimized_query": "OPTIMIZED[CAUSAL(cause='coupon', effect='order drop')]", "cost_before": 11.6, "cost_after": 2.16}
+{"id": "q492", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.9, "cost_after": 1.0}
+{"id": "q493", "canonical_query": "PREDICT(metric='workforce size', date='2028')", "optimized_query": "OPTIMIZED[PREDICT(metric='workforce size', date='2028')]", "cost_before": 7.5, "cost_after": 2.24}
+{"id": "q494", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.6, "cost_after": 1.0}
+{"id": "q495", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.4, "cost_after": 1.0}
+{"id": "q496", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.6, "cost_after": 1.0}
+{"id": "q497", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.3, "cost_after": 1.0}
+{"id": "q498", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.7, "cost_after": 1.0}
+{"id": "q499", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.1, "cost_after": 1.0}
+{"id": "q500", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.8, "cost_after": 1.0}
+{"id": "q501", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.9, "cost_after": 1.0}
+{"id": "q502", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.6, "cost_after": 1.0}
+{"id": "q503", "canonical_query": "CAUSAL(cause='layoff rumors', effect='strike')", "optimized_query": "OPTIMIZED[CAUSAL(cause='layoff rumors', effect='strike')]", "cost_before": 12.2, "cost_after": 2.28}
+{"id": "q504", "canonical_query": "COMPARE(metric='gross margin', a='2020', b='2022')", "optimized_query": "OPTIMIZED[COMPARE(metric='gross margin', a='2020', b='2022')]", "cost_before": 8.7, "cost_after": 2.44}
+{"id": "q505", "canonical_query": "SEQUENCE(anchor='fall of the Berlin Wall', relation='followed')", "optimized_query": "OPTIMIZED[SEQUENCE(anchor='fall of the Berlin Wall', relation='followed')]", "cost_before": 9.3, "cost_after": 2.96}
+{"id": "q506", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.8, "cost_after": 1.0}
+{"id": "q507", "canonical_query": "PREDICT(metric='net income', date='2026')", "optimized_query": "OPTIMIZED[PREDICT(metric='net income', date='2026')]", "cost_before": 8.0, "cost_after": 2.08}
+{"id": "q508", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.4, "cost_after": 1.0}
+{"id": "q509", "canonical_query": "OVERLAP(event='outages', period='2024-Q2')", "optimized_query": "OPTIMIZED[OVERLAP(event='outages', period='2024-Q2')]", "cost_before": 11.7, "cost_after": 2.12}
+{"id": "q510", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.1, "cost_after": 1.0}
+{"id": "q511", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.5, "cost_after": 1.0}
+{"id": "q512", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.6, "cost_after": 1.0}
+{"id": "q513", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.0, "cost_after": 1.0}
+{"id": "q514", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.5, "cost_after": 1.0}
+{"id": "q515", "canonical_query": "COMPARE(metric='', a='2021', b='2022')", "optimized_query": "OPTIMIZED[COMPARE(metric='', a='2021', b='2022')]", "cost_before": 8.8, "cost_after": 1.96}
+{"id": "q516", "canonical_query": "PREDICT(metric='', date='2029')", "optimized_query": "OPTIMIZED[PREDICT(metric='', date='2029')]", "cost_before": 7.6, "cost_after": 1.68}
+{"id": "q517", "canonical_query": "SEQUENCE(anchor='the fix', relation='after')", "optimized_query": "OPTIMIZED[SEQUENCE(anchor='the fix', relation='after')]", "cost_before": 13.9, "cost_after": 2.2}
+{"id": "q518", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.1, "cost_after": 1.0}
+{"id": "q519", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.0, "cost_after": 1.0}
+{"id": "q520", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.4, "cost_after": 1.0}
+{"id": "q521", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.8, "cost_after": 1.0}
+{"id": "q522", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.0, "cost_after": 1.0}
+{"id": "q523", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.8, "cost_after": 1.0}
+{"id": "q524", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.2, "cost_after": 1.0}
+{"id": "q525", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 7.9, "cost_after": 1.0}
+{"id": "q526", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.8, "cost_after": 1.0}
+{"id": "q527", "canonical_query": "OVERLAP(event='outages', period='2024-Q4')", "optimized_query": "OPTIMIZED[OVERLAP(event='outages', period='2024-Q4')]", "cost_before": 11.7, "cost_after": 2.12}
+{"id": "q528", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.7, "cost_after": 1.0}
+{"id": "q529", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.1, "cost_after": 1.0}
+{"id": "q530", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.0, "cost_after": 1.0}
+{"id": "q531", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.3, "cost_after": 1.0}
+{"id": "q532", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.3, "cost_after": 1.0}
+{"id": "q533", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.9, "cost_after": 1.0}
+{"id": "q534", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 7.5, "cost_after": 1.0}
+{"id": "q535", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.9, "cost_after": 1.0}
+{"id": "q536", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.9, "cost_after": 1.0}
+{"id": "q537", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.2, "cost_after": 1.0}
+{"id": "q538", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.7, "cost_after": 1.0}
+{"id": "q539", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.1, "cost_after": 1.0}
+{"id": "q540", "canonical_query": "SEQUENCE(anchor='Renaissance', relation='followed')", "optimized_query": "OPTIMIZED[SEQUENCE(anchor='Renaissance', relation='followed')]", "cost_before": 8.1, "cost_after": 2.48}
+{"id": "q541", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.0, "cost_after": 1.0}
+{"id": "q542", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.9, "cost_after": 1.0}
+{"id": "q543", "canonical_query": "PREDICT(metric='ad revenue', date='2029')", "optimized_query": "OPTIMIZED[PREDICT(metric='ad revenue', date='2029')]", "cost_before": 7.6, "cost_after": 2.08}
+{"id": "q544", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.5, "cost_after": 1.0}
+{"id": "q545", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.6, "cost_after": 1.0}
+{"id": "q546", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.6, "cost_after": 1.0}
+{"id": "q547", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.4, "cost_after": 1.0}
+{"id": "q548", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.5, "cost_after": 1.0}
+{"id": "q549", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.2, "cost_after": 1.0}
+{"id": "q550", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.9, "cost_after": 1.0}
+{"id": "q551", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.8, "cost_after": 1.0}
+{"id": "q552", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.7, "cost_after": 1.0}
+{"id": "q553", "canonical_query": "CAUSAL(cause='code refactor', effect='bug')", "optimized_query": "OPTIMIZED[CAUSAL(cause='code refactor', effect='bug')]", "cost_before": 12.3, "cost_after": 2.16}
+{"id": "q554", "canonical_query": "COMPARE(metric='load times', a='2023', b='2024')", "optimized_query": "OPTIMIZED[COMPARE(metric='load times', a='2023', b='2024')]", "cost_before": 8.5, "cost_after": 2.36}
+{"id": "q555", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.1, "cost_after": 1.0}
+{"id": "q556", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.8, "cost_after": 1.0}
+{"id": "q557", "canonical_query": "PREDICT(metric='', date='2030')", "optimized_query": "OPTIMIZED[PREDICT(metric='', date='2030')]", "cost_before": 7.8, "cost_after": 1.68}
+{"id": "q558", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.5, "cost_after": 1.0}
+{"id": "q559", "canonical_query": "OVERLAP(event='outages', period='2024-Q2')", "optimized_query": "OPTIMIZED[OVERLAP(event='outages', period='2024-Q2')]", "cost_before": 11.8, "cost_after": 2.12}
+{"id": "q560", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.2, "cost_after": 1.0}
+{"id": "q561", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.4, "cost_after": 1.0}
+{"id": "q562", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.1, "cost_after": 1.0}
+{"id": "q563", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.0, "cost_after": 1.0}
+{"id": "q564", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.3, "cost_after": 1.0}
+{"id": "q565", "canonical_query": "COMPARE(metric='', a='2022', b='2023')", "optimized_query": "OPTIMIZED[COMPARE(metric='', a='2022', b='2023')]", "cost_before": 8.7, "cost_after": 1.96}
+{"id": "q566", "canonical_query": "PREDICT(metric='yearly growth', date='2030')", "optimized_query": "OPTIMIZED[PREDICT(metric='yearly growth', date='2030')]", "cost_before": 7.6, "cost_after": 2.2}
+{"id": "q567", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 14.0, "cost_after": 1.0}
+{"id": "q568", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.5, "cost_after": 1.0}
+{"id": "q569", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.4, "cost_after": 1.0}
+{"id": "q570", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.2, "cost_after": 1.0}
+{"id": "q571", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.1, "cost_after": 1.0}
+{"id": "q572", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 7.9, "cost_after": 1.0}
+{"id": "q573", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.7, "cost_after": 1.0}
+{"id": "q574", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.0, "cost_after": 1.0}
+{"id": "q575", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.2, "cost_after": 1.0}
+{"id": "q576", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.7, "cost_after": 1.0}
+{"id": "q577", "canonical_query": "OVERLAP(event='outages', period='2024-Q2')", "optimized_query": "OPTIMIZED[OVERLAP(event='outages', period='2024-Q2')]", "cost_before": 12.0, "cost_after": 2.12}
+{"id": "q578", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.5, "cost_after": 1.0}
+{"id": "q579", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.4, "cost_after": 1.0}
+{"id": "q580", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.9, "cost_after": 1.0}
+{"id": "q581", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.1, "cost_after": 1.0}
+{"id": "q582", "canonical_query": "CAUSAL(cause='CEO change', effect='stock rise')", "optimized_query": "OPTIMIZED[CAUSAL(cause='CEO change', effect='stock rise')]", "cost_before": 12.4, "cost_after": 2.32}
+{"id": "q583", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.3, "cost_after": 1.0}
+{"id": "q584", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 7.7, "cost_after": 1.0}
+{"id": "q585", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 14.2, "cost_after": 1.0}
+{"id": "q586", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.9, "cost_after": 1.0}
+{"id": "q587", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.3, "cost_after": 1.0}
+{"id": "q588", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.8, "cost_after": 1.0}
+{"id": "q589", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.2, "cost_after": 1.0}
+{"id": "q590", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 7.8, "cost_after": 1.0}
+{"id": "q591", "canonical_query": "CAUSAL(cause='discount', effect='order spike')", "optimized_query": "OPTIMIZED[CAUSAL(cause='discount', effect='order spike')]", "cost_before": 11.6, "cost_after": 2.28}
+{"id": "q592", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.9, "cost_after": 1.0}
+{"id": "q593", "canonical_query": "PREDICT(metric='workforce size', date='2030')", "optimized_query": "OPTIMIZED[PREDICT(metric='workforce size', date='2030')]", "cost_before": 7.5, "cost_after": 2.24}
+{"id": "q594", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.6, "cost_after": 1.0}
+{"id": "q595", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.4, "cost_after": 1.0}
+{"id": "q596", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.6, "cost_after": 1.0}
+{"id": "q597", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.3, "cost_after": 1.0}
+{"id": "q598", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.7, "cost_after": 1.0}
+{"id": "q599", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.1, "cost_after": 1.0}
+{"id": "q600", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.8, "cost_after": 1.0}
+{"id": "q601", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.9, "cost_after": 1.0}
+{"id": "q602", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.6, "cost_after": 1.0}
+{"id": "q603", "canonical_query": "CAUSAL(cause='rumor', effect='stock drop')", "optimized_query": "OPTIMIZED[CAUSAL(cause='rumor', effect='stock drop')]", "cost_before": 12.2, "cost_after": 2.12}
+{"id": "q604", "canonical_query": "COMPARE(metric='gross margin', a='2021', b='2022')", "optimized_query": "OPTIMIZED[COMPARE(metric='gross margin', a='2021', b='2022')]", "cost_before": 8.7, "cost_after": 2.44}
+{"id": "q605", "canonical_query": "SEQUENCE(anchor='fall of the Roman Empire', relation='followed')", "optimized_query": "OPTIMIZED[SEQUENCE(anchor='fall of the Roman Empire', relation='followed')]", "cost_before": 9.3, "cost_after": 3.0}
+{"id": "q606", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.8, "cost_after": 1.0}
+{"id": "q607", "canonical_query": "PREDICT(metric='net income', date='2027')", "optimized_query": "OPTIMIZED[PREDICT(metric='net income', date='2027')]", "cost_before": 8.0, "cost_after": 2.08}
+{"id": "q608", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.4, "cost_after": 1.0}
+{"id": "q609", "canonical_query": "OVERLAP(event='outages', period='2024-Q1')", "optimized_query": "OPTIMIZED[OVERLAP(event='outages', period='2024-Q1')]", "cost_before": 11.7, "cost_after": 2.12}
+{"id": "q610", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.1, "cost_after": 1.0}
+{"id": "q611", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.5, "cost_after": 1.0}
+{"id": "q612", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.6, "cost_after": 1.0}
+{"id": "q613", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.0, "cost_after": 1.0}
+{"id": "q614", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.5, "cost_after": 1.0}
+{"id": "q615", "canonical_query": "COMPARE(metric='', a='2020', b='2021')", "optimized_query": "OPTIMIZED[COMPARE(metric='', a='2020', b='2021')]", "cost_before": 8.8, "cost_after": 1.96}
+{"id": "q616", "canonical_query": "PREDICT(metric='', date='2028')", "optimized_query": "OPTIMIZED[PREDICT(metric='', date='2028')]", "cost_before": 7.6, "cost_after": 1.68}
+{"id": "q617", "canonical_query": "SEQUENCE(anchor='the reboot', relation='after')", "optimized_query": "OPTIMIZED[SEQUENCE(anchor='the reboot', relation='after')]", "cost_before": 13.9, "cost_after": 2.32}
+{"id": "q618", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.1, "cost_after": 1.0}
+{"id": "q619", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.0, "cost_after": 1.0}
+{"id": "q620", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.4, "cost_after": 1.0}
+{"id": "q621", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.8, "cost_after": 1.0}
+{"id": "q622", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.0, "cost_after": 1.0}
+{"id": "q623", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.8, "cost_after": 1.0}
+{"id": "q624", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.2, "cost_after": 1.0}
+{"id": "q625", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 7.9, "cost_after": 1.0}
+{"id": "q626", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.8, "cost_after": 1.0}
+{"id": "q627", "canonical_query": "OVERLAP(event='outages', period='2024-Q3')", "optimized_query": "OPTIMIZED[OVERLAP(event='outages', period='2024-Q3')]", "cost_before": 11.7, "cost_after": 2.12}
+{"id": "q628", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.7, "cost_after": 1.0}
+{"id": "q629", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.1, "cost_after": 1.0}
+{"id": "q630", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.0, "cost_after": 1.0}
+{"id": "q631", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.3, "cost_after": 1.0}
+{"id": "q632", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.0, "cost_after": 1.0}
+{"id": "q633", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.9, "cost_after": 1.0}
+{"id": "q634", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 7.5, "cost_after": 1.0}
+{"id": "q635", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.9, "cost_after": 1.0}
+{"id": "q636", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.9, "cost_after": 1.0}
+{"id": "q637", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.2, "cost_after": 1.0}
+{"id": "q638", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.7, "cost_after": 1.0}
+{"id": "q639", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.1, "cost_after": 1.0}
+{"id": "q640", "canonical_query": "SEQUENCE(anchor='Renaissance', relation='followed')", "optimized_query": "OPTIMIZED[SEQUENCE(anchor='Renaissance', relation='followed')]", "cost_before": 8.1, "cost_after": 2.48}
+{"id": "q641", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.0, "cost_after": 1.0}
+{"id": "q642", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.9, "cost_after": 1.0}
+{"id": "q643", "canonical_query": "PREDICT(metric='ad revenue', date='2029')", "optimized_query": "OPTIMIZED[PREDICT(metric='ad revenue', date='2029')]", "cost_before": 7.6, "cost_after": 2.08}
+{"id": "q644", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.5, "cost_after": 1.0}
+{"id": "q645", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.6, "cost_after": 1.0}
+{"id": "q646", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.6, "cost_after": 1.0}
+{"id": "q647", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.4, "cost_after": 1.0}
+{"id": "q648", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.5, "cost_after": 1.0}
+{"id": "q649", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.2, "cost_after": 1.0}
+{"id": "q650", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.9, "cost_after": 1.0}
+{"id": "q651", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.8, "cost_after": 1.0}
+{"id": "q652", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.7, "cost_after": 1.0}
+{"id": "q653", "canonical_query": "CAUSAL(cause='code refactor', effect='bug')", "optimized_query": "OPTIMIZED[CAUSAL(cause='code refactor', effect='bug')]", "cost_before": 12.3, "cost_after": 2.16}
+{"id": "q654", "canonical_query": "COMPARE(metric='load times', a='2023', b='2024')", "optimized_query": "OPTIMIZED[COMPARE(metric='load times', a='2023', b='2024')]", "cost_before": 8.5, "cost_after": 2.36}
+{"id": "q655", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.1, "cost_after": 1.0}
+{"id": "q656", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.8, "cost_after": 1.0}
+{"id": "q657", "canonical_query": "PREDICT(metric='', date='2030')", "optimized_query": "OPTIMIZED[PREDICT(metric='', date='2030')]", "cost_before": 7.8, "cost_after": 1.68}
+{"id": "q658", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.5, "cost_after": 1.0}
+{"id": "q659", "canonical_query": "OVERLAP(event='outages', period='2024-Q2')", "optimized_query": "OPTIMIZED[OVERLAP(event='outages', period='2024-Q2')]", "cost_before": 11.8, "cost_after": 2.12}
+{"id": "q660", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.2, "cost_after": 1.0}
+{"id": "q661", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.4, "cost_after": 1.0}
+{"id": "q662", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.1, "cost_after": 1.0}
+{"id": "q663", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.0, "cost_after": 1.0}
+{"id": "q664", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.3, "cost_after": 1.0}
+{"id": "q665", "canonical_query": "COMPARE(metric='', a='2022', b='2023')", "optimized_query": "OPTIMIZED[COMPARE(metric='', a='2022', b='2023')]", "cost_before": 8.7, "cost_after": 1.96}
+{"id": "q666", "canonical_query": "PREDICT(metric='yearly growth', date='2030')", "optimized_query": "OPTIMIZED[PREDICT(metric='yearly growth', date='2030')]", "cost_before": 7.6, "cost_after": 2.2}
+{"id": "q667", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 14.0, "cost_after": 1.0}
+{"id": "q668", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.5, "cost_after": 1.0}
+{"id": "q669", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.4, "cost_after": 1.0}
+{"id": "q670", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.2, "cost_after": 1.0}
+{"id": "q671", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.1, "cost_after": 1.0}
+{"id": "q672", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 7.9, "cost_after": 1.0}
+{"id": "q673", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.7, "cost_after": 1.0}
+{"id": "q674", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.0, "cost_after": 1.0}
+{"id": "q675", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.2, "cost_after": 1.0}
+{"id": "q676", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.7, "cost_after": 1.0}
+{"id": "q677", "canonical_query": "OVERLAP(event='outages', period='2024-Q2')", "optimized_query": "OPTIMIZED[OVERLAP(event='outages', period='2024-Q2')]", "cost_before": 12.0, "cost_after": 2.12}
+{"id": "q678", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.5, "cost_after": 1.0}
+{"id": "q679", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.4, "cost_after": 1.0}
+{"id": "q680", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.9, "cost_after": 1.0}
+{"id": "q681", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.1, "cost_after": 1.0}
+{"id": "q682", "canonical_query": "CAUSAL(cause='CEO change', effect='stock rise')", "optimized_query": "OPTIMIZED[CAUSAL(cause='CEO change', effect='stock rise')]", "cost_before": 12.4, "cost_after": 2.32}
+{"id": "q683", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.3, "cost_after": 1.0}
+{"id": "q684", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 7.7, "cost_after": 1.0}
+{"id": "q685", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 14.2, "cost_after": 1.0}
+{"id": "q686", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.9, "cost_after": 1.0}
+{"id": "q687", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.3, "cost_after": 1.0}
+{"id": "q688", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.8, "cost_after": 1.0}
+{"id": "q689", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.2, "cost_after": 1.0}
+{"id": "q690", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 7.8, "cost_after": 1.0}
+{"id": "q691", "canonical_query": "CAUSAL(cause='discount', effect='order spike')", "optimized_query": "OPTIMIZED[CAUSAL(cause='discount', effect='order spike')]", "cost_before": 11.6, "cost_after": 2.28}
+{"id": "q692", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.9, "cost_after": 1.0}
+{"id": "q693", "canonical_query": "PREDICT(metric='workforce size', date='2030')", "optimized_query": "OPTIMIZED[PREDICT(metric='workforce size', date='2030')]", "cost_before": 7.5, "cost_after": 2.24}
+{"id": "q694", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.6, "cost_after": 1.0}
+{"id": "q695", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.4, "cost_after": 1.0}
+{"id": "q696", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.6, "cost_after": 1.0}
+{"id": "q697", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.3, "cost_after": 1.0}
+{"id": "q698", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.7, "cost_after": 1.0}
+{"id": "q699", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.1, "cost_after": 1.0}
+{"id": "q700", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.8, "cost_after": 1.0}
+{"id": "q701", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.9, "cost_after": 1.0}
+{"id": "q702", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.6, "cost_after": 1.0}
+{"id": "q703", "canonical_query": "CAUSAL(cause='rumor', effect='stock drop')", "optimized_query": "OPTIMIZED[CAUSAL(cause='rumor', effect='stock drop')]", "cost_before": 12.2, "cost_after": 2.12}
+{"id": "q704", "canonical_query": "COMPARE(metric='gross margin', a='2021', b='2022')", "optimized_query": "OPTIMIZED[COMPARE(metric='gross margin', a='2021', b='2022')]", "cost_before": 8.7, "cost_after": 2.44}
+{"id": "q705", "canonical_query": "SEQUENCE(anchor='fall of the Roman Empire', relation='followed')", "optimized_query": "OPTIMIZED[SEQUENCE(anchor='fall of the Roman Empire', relation='followed')]", "cost_before": 9.3, "cost_after": 3.0}
+{"id": "q706", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.8, "cost_after": 1.0}
+{"id": "q707", "canonical_query": "PREDICT(metric='net income', date='2027')", "optimized_query": "OPTIMIZED[PREDICT(metric='net income', date='2027')]", "cost_before": 8.0, "cost_after": 2.08}
+{"id": "q708", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.4, "cost_after": 1.0}
+{"id": "q709", "canonical_query": "OVERLAP(event='outages', period='2024-Q1')", "optimized_query": "OPTIMIZED[OVERLAP(event='outages', period='2024-Q1')]", "cost_before": 11.7, "cost_after": 2.12}
+{"id": "q710", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.1, "cost_after": 1.0}
+{"id": "q711", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.5, "cost_after": 1.0}
+{"id": "q712", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.6, "cost_after": 1.0}
+{"id": "q713", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.0, "cost_after": 1.0}
+{"id": "q714", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.5, "cost_after": 1.0}
+{"id": "q715", "canonical_query": "COMPARE(metric='', a='2020', b='2021')", "optimized_query": "OPTIMIZED[COMPARE(metric='', a='2020', b='2021')]", "cost_before": 8.8, "cost_after": 1.96}
+{"id": "q716", "canonical_query": "PREDICT(metric='', date='2028')", "optimized_query": "OPTIMIZED[PREDICT(metric='', date='2028')]", "cost_before": 7.6, "cost_after": 1.68}
+{"id": "q717", "canonical_query": "SEQUENCE(anchor='the reboot', relation='after')", "optimized_query": "OPTIMIZED[SEQUENCE(anchor='the reboot', relation='after')]", "cost_before": 13.9, "cost_after": 2.32}
+{"id": "q718", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.1, "cost_after": 1.0}
+{"id": "q719", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.0, "cost_after": 1.0}
+{"id": "q720", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.4, "cost_after": 1.0}
+{"id": "q721", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.8, "cost_after": 1.0}
+{"id": "q722", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.0, "cost_after": 1.0}
+{"id": "q723", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.8, "cost_after": 1.0}
+{"id": "q724", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.2, "cost_after": 1.0}
+{"id": "q725", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 7.9, "cost_after": 1.0}
+{"id": "q726", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.8, "cost_after": 1.0}
+{"id": "q727", "canonical_query": "OVERLAP(event='outages', period='2024-Q3')", "optimized_query": "OPTIMIZED[OVERLAP(event='outages', period='2024-Q3')]", "cost_before": 11.7, "cost_after": 2.12}
+{"id": "q728", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.7, "cost_after": 1.0}
+{"id": "q729", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.1, "cost_after": 1.0}
+{"id": "q730", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.0, "cost_after": 1.0}
+{"id": "q731", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.3, "cost_after": 1.0}
+{"id": "q732", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.3, "cost_after": 1.0}
+{"id": "q733", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.9, "cost_after": 1.0}
+{"id": "q734", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 7.5, "cost_after": 1.0}
+{"id": "q735", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.9, "cost_after": 1.0}
+{"id": "q736", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.9, "cost_after": 1.0}
+{"id": "q737", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.2, "cost_after": 1.0}
+{"id": "q738", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.7, "cost_after": 1.0}
+{"id": "q739", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.1, "cost_after": 1.0}
+{"id": "q740", "canonical_query": "SEQUENCE(anchor='Renaissance', relation='followed')", "optimized_query": "OPTIMIZED[SEQUENCE(anchor='Renaissance', relation='followed')]", "cost_before": 8.1, "cost_after": 2.48}
+{"id": "q741", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.0, "cost_after": 1.0}
+{"id": "q742", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.9, "cost_after": 1.0}
+{"id": "q743", "canonical_query": "PREDICT(metric='ad revenue', date='2029')", "optimized_query": "OPTIMIZED[PREDICT(metric='ad revenue', date='2029')]", "cost_before": 7.6, "cost_after": 2.08}
+{"id": "q744", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.5, "cost_after": 1.0}
+{"id": "q745", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.6, "cost_after": 1.0}
+{"id": "q746", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.6, "cost_after": 1.0}
+{"id": "q747", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.4, "cost_after": 1.0}
+{"id": "q748", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.5, "cost_after": 1.0}
+{"id": "q749", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.2, "cost_after": 1.0}
+{"id": "q750", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.9, "cost_after": 1.0}
+{"id": "q751", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.8, "cost_after": 1.0}
+{"id": "q752", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.7, "cost_after": 1.0}
+{"id": "q753", "canonical_query": "CAUSAL(cause='code refactor', effect='bug')", "optimized_query": "OPTIMIZED[CAUSAL(cause='code refactor', effect='bug')]", "cost_before": 12.3, "cost_after": 2.16}
+{"id": "q754", "canonical_query": "COMPARE(metric='load times', a='2023', b='2024')", "optimized_query": "OPTIMIZED[COMPARE(metric='load times', a='2023', b='2024')]", "cost_before": 8.5, "cost_after": 2.36}
+{"id": "q755", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.1, "cost_after": 1.0}
+{"id": "q756", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.8, "cost_after": 1.0}
+{"id": "q757", "canonical_query": "PREDICT(metric='', date='2030')", "optimized_query": "OPTIMIZED[PREDICT(metric='', date='2030')]", "cost_before": 7.8, "cost_after": 1.68}
+{"id": "q758", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.5, "cost_after": 1.0}
+{"id": "q759", "canonical_query": "OVERLAP(event='outages', period='2024-Q2')", "optimized_query": "OPTIMIZED[OVERLAP(event='outages', period='2024-Q2')]", "cost_before": 11.8, "cost_after": 2.12}
+{"id": "q760", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.2, "cost_after": 1.0}
+{"id": "q761", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.4, "cost_after": 1.0}
+{"id": "q762", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.1, "cost_after": 1.0}
+{"id": "q763", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.0, "cost_after": 1.0}
+{"id": "q764", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.3, "cost_after": 1.0}
+{"id": "q765", "canonical_query": "COMPARE(metric='', a='2022', b='2023')", "optimized_query": "OPTIMIZED[COMPARE(metric='', a='2022', b='2023')]", "cost_before": 8.7, "cost_after": 1.96}
+{"id": "q766", "canonical_query": "PREDICT(metric='yearly growth', date='2030')", "optimized_query": "OPTIMIZED[PREDICT(metric='yearly growth', date='2030')]", "cost_before": 7.6, "cost_after": 2.2}
+{"id": "q767", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 14.0, "cost_after": 1.0}
+{"id": "q768", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.5, "cost_after": 1.0}
+{"id": "q769", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.4, "cost_after": 1.0}
+{"id": "q770", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.2, "cost_after": 1.0}
+{"id": "q771", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.1, "cost_after": 1.0}
+{"id": "q772", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 7.9, "cost_after": 1.0}
+{"id": "q773", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.7, "cost_after": 1.0}
+{"id": "q774", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.0, "cost_after": 1.0}
+{"id": "q775", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.2, "cost_after": 1.0}
+{"id": "q776", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.7, "cost_after": 1.0}
+{"id": "q777", "canonical_query": "OVERLAP(event='outages', period='2024-Q2')", "optimized_query": "OPTIMIZED[OVERLAP(event='outages', period='2024-Q2')]", "cost_before": 12.0, "cost_after": 2.12}
+{"id": "q778", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.5, "cost_after": 1.0}
+{"id": "q779", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.4, "cost_after": 1.0}
+{"id": "q780", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.9, "cost_after": 1.0}
+{"id": "q781", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.1, "cost_after": 1.0}
+{"id": "q782", "canonical_query": "CAUSAL(cause='CEO change', effect='stock rise')", "optimized_query": "OPTIMIZED[CAUSAL(cause='CEO change', effect='stock rise')]", "cost_before": 12.4, "cost_after": 2.32}
+{"id": "q783", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.3, "cost_after": 1.0}
+{"id": "q784", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 7.7, "cost_after": 1.0}
+{"id": "q785", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 14.2, "cost_after": 1.0}
+{"id": "q786", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.9, "cost_after": 1.0}
+{"id": "q787", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.3, "cost_after": 1.0}
+{"id": "q788", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.8, "cost_after": 1.0}
+{"id": "q789", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.2, "cost_after": 1.0}
+{"id": "q790", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 7.8, "cost_after": 1.0}
+{"id": "q791", "canonical_query": "CAUSAL(cause='discount', effect='order spike')", "optimized_query": "OPTIMIZED[CAUSAL(cause='discount', effect='order spike')]", "cost_before": 11.6, "cost_after": 2.28}
+{"id": "q792", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.9, "cost_after": 1.0}
+{"id": "q793", "canonical_query": "PREDICT(metric='workforce size', date='2030')", "optimized_query": "OPTIMIZED[PREDICT(metric='workforce size', date='2030')]", "cost_before": 7.5, "cost_after": 2.24}
+{"id": "q794", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.6, "cost_after": 1.0}
+{"id": "q795", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.4, "cost_after": 1.0}
+{"id": "q796", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.6, "cost_after": 1.0}
+{"id": "q797", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.3, "cost_after": 1.0}
+{"id": "q798", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.7, "cost_after": 1.0}
+{"id": "q799", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.1, "cost_after": 1.0}
+{"id": "q800", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.8, "cost_after": 1.0}
+{"id": "q801", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.9, "cost_after": 1.0}
+{"id": "q802", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.6, "cost_after": 1.0}
+{"id": "q803", "canonical_query": "CAUSAL(cause='rumor', effect='stock drop')", "optimized_query": "OPTIMIZED[CAUSAL(cause='rumor', effect='stock drop')]", "cost_before": 12.2, "cost_after": 2.12}
+{"id": "q804", "canonical_query": "COMPARE(metric='gross margin', a='2021', b='2022')", "optimized_query": "OPTIMIZED[COMPARE(metric='gross margin', a='2021', b='2022')]", "cost_before": 8.7, "cost_after": 2.44}
+{"id": "q805", "canonical_query": "SEQUENCE(anchor='fall of the Roman Empire', relation='followed')", "optimized_query": "OPTIMIZED[SEQUENCE(anchor='fall of the Roman Empire', relation='followed')]", "cost_before": 9.3, "cost_after": 3.0}
+{"id": "q806", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.8, "cost_after": 1.0}
+{"id": "q807", "canonical_query": "PREDICT(metric='net income', date='2027')", "optimized_query": "OPTIMIZED[PREDICT(metric='net income', date='2027')]", "cost_before": 8.0, "cost_after": 2.08}
+{"id": "q808", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.4, "cost_after": 1.0}
+{"id": "q809", "canonical_query": "OVERLAP(event='outages', period='2024-Q1')", "optimized_query": "OPTIMIZED[OVERLAP(event='outages', period='2024-Q1')]", "cost_before": 11.7, "cost_after": 2.12}
+{"id": "q810", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.1, "cost_after": 1.0}
+{"id": "q811", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.5, "cost_after": 1.0}
+{"id": "q812", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.6, "cost_after": 1.0}
+{"id": "q813", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.0, "cost_after": 1.0}
+{"id": "q814", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.5, "cost_after": 1.0}
+{"id": "q815", "canonical_query": "COMPARE(metric='', a='2020', b='2021')", "optimized_query": "OPTIMIZED[COMPARE(metric='', a='2020', b='2021')]", "cost_before": 8.8, "cost_after": 1.96}
+{"id": "q816", "canonical_query": "PREDICT(metric='', date='2028')", "optimized_query": "OPTIMIZED[PREDICT(metric='', date='2028')]", "cost_before": 7.6, "cost_after": 1.68}
+{"id": "q817", "canonical_query": "SEQUENCE(anchor='the reboot', relation='after')", "optimized_query": "OPTIMIZED[SEQUENCE(anchor='the reboot', relation='after')]", "cost_before": 13.9, "cost_after": 2.32}
+{"id": "q818", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.1, "cost_after": 1.0}
+{"id": "q819", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.0, "cost_after": 1.0}
+{"id": "q820", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.4, "cost_after": 1.0}
+{"id": "q821", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.8, "cost_after": 1.0}
+{"id": "q822", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.0, "cost_after": 1.0}
+{"id": "q823", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.8, "cost_after": 1.0}
+{"id": "q824", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.2, "cost_after": 1.0}
+{"id": "q825", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 7.9, "cost_after": 1.0}
+{"id": "q826", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.8, "cost_after": 1.0}
+{"id": "q827", "canonical_query": "OVERLAP(event='outages', period='2024-Q3')", "optimized_query": "OPTIMIZED[OVERLAP(event='outages', period='2024-Q3')]", "cost_before": 11.7, "cost_after": 2.12}
+{"id": "q828", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.7, "cost_after": 1.0}
+{"id": "q829", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.1, "cost_after": 1.0}
+{"id": "q830", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.0, "cost_after": 1.0}
+{"id": "q831", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.3, "cost_after": 1.0}
+{"id": "q832", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.3, "cost_after": 1.0}
+{"id": "q833", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.9, "cost_after": 1.0}
+{"id": "q834", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 7.5, "cost_after": 1.0}
+{"id": "q835", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.9, "cost_after": 1.0}
+{"id": "q836", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.9, "cost_after": 1.0}
+{"id": "q837", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.2, "cost_after": 1.0}
+{"id": "q838", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.7, "cost_after": 1.0}
+{"id": "q839", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.1, "cost_after": 1.0}
+{"id": "q840", "canonical_query": "SEQUENCE(anchor='Renaissance', relation='followed')", "optimized_query": "OPTIMIZED[SEQUENCE(anchor='Renaissance', relation='followed')]", "cost_before": 8.1, "cost_after": 2.48}
+{"id": "q841", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.0, "cost_after": 1.0}
+{"id": "q842", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.9, "cost_after": 1.0}
+{"id": "q843", "canonical_query": "PREDICT(metric='ad revenue', date='2029')", "optimized_query": "OPTIMIZED[PREDICT(metric='ad revenue', date='2029')]", "cost_before": 7.6, "cost_after": 2.08}
+{"id": "q844", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.5, "cost_after": 1.0}
+{"id": "q845", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.6, "cost_after": 1.0}
+{"id": "q846", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.6, "cost_after": 1.0}
+{"id": "q847", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.4, "cost_after": 1.0}
+{"id": "q848", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.5, "cost_after": 1.0}
+{"id": "q849", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.2, "cost_after": 1.0}
+{"id": "q850", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.9, "cost_after": 1.0}
+{"id": "q851", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.8, "cost_after": 1.0}
+{"id": "q852", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.7, "cost_after": 1.0}
+{"id": "q853", "canonical_query": "CAUSAL(cause='code refactor', effect='bug')", "optimized_query": "OPTIMIZED[CAUSAL(cause='code refactor', effect='bug')]", "cost_before": 12.3, "cost_after": 2.16}
+{"id": "q854", "canonical_query": "COMPARE(metric='load times', a='2023', b='2024')", "optimized_query": "OPTIMIZED[COMPARE(metric='load times', a='2023', b='2024')]", "cost_before": 8.5, "cost_after": 2.36}
+{"id": "q855", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.1, "cost_after": 1.0}
+{"id": "q856", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.8, "cost_after": 1.0}
+{"id": "q857", "canonical_query": "PREDICT(metric='', date='2030')", "optimized_query": "OPTIMIZED[PREDICT(metric='', date='2030')]", "cost_before": 7.8, "cost_after": 1.68}
+{"id": "q858", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.5, "cost_after": 1.0}
+{"id": "q859", "canonical_query": "OVERLAP(event='outages', period='2024-Q2')", "optimized_query": "OPTIMIZED[OVERLAP(event='outages', period='2024-Q2')]", "cost_before": 11.8, "cost_after": 2.12}
+{"id": "q860", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.2, "cost_after": 1.0}
+{"id": "q861", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.4, "cost_after": 1.0}
+{"id": "q862", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 12.1, "cost_after": 1.0}
+{"id": "q863", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.0, "cost_after": 1.0}
+{"id": "q864", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.3, "cost_after": 1.0}
+{"id": "q865", "canonical_query": "COMPARE(metric='', a='2022', b='2023')", "optimized_query": "OPTIMIZED[COMPARE(metric='', a='2022', b='2023')]", "cost_before": 8.7, "cost_after": 1.96}
+{"id": "q866", "canonical_query": "PREDICT(metric='yearly growth', date='2030')", "optimized_query": "OPTIMIZED[PREDICT(metric='yearly growth', date='2030')]", "cost_before": 7.6, "cost_after": 2.2}
+{"id": "q867", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 14.0, "cost_after": 1.0}
+{"id": "q868", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.5, "cost_after": 1.0}
+{"id": "q869", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.4, "cost_after": 1.0}
+{"id": "q870", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.2, "cost_after": 1.0}
+{"id": "q871", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.1, "cost_after": 1.0}
+{"id": "q872", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 7.9, "cost_after": 1.0}
+{"id": "q873", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.7, "cost_after": 1.0}
+{"id": "q874", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.0, "cost_after": 1.0}
+{"id": "q875", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.2, "cost_after": 1.0}
+{"id": "q876", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.7, "cost_after": 1.0}
+{"id": "q877", "canonical_query": "OVERLAP(event='outages', period='2024-Q2')", "optimized_query": "OPTIMIZED[OVERLAP(event='outages', period='2024-Q2')]", "cost_before": 12.0, "cost_after": 2.12}
+{"id": "q878", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.5, "cost_after": 1.0}
+{"id": "q879", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.4, "cost_after": 1.0}
+{"id": "q880", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.9, "cost_after": 1.0}
+{"id": "q881", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.1, "cost_after": 1.0}
+{"id": "q882", "canonical_query": "CAUSAL(cause='CEO change', effect='stock rise')", "optimized_query": "OPTIMIZED[CAUSAL(cause='CEO change', effect='stock rise')]", "cost_before": 12.4, "cost_after": 2.32}
+{"id": "q883", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 9.3, "cost_after": 1.0}
+{"id": "q884", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 7.7, "cost_after": 1.0}
+{"id": "q885", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 14.2, "cost_after": 1.0}
+{"id": "q886", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.9, "cost_after": 1.0}
+{"id": "q887", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 11.3, "cost_after": 1.0}
+{"id": "q888", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.8, "cost_after": 1.0}
+{"id": "q889", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 10.2, "cost_after": 1.0}
+{"id": "q890", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 7.8, "cost_after": 1.0}
+{"id": "q891", "canonical_query": "CAUSAL(cause='discount', effect='order spike')", "optimized_query": "OPTIMIZED[CAUSAL(cause='discount', effect='order spike')]", "cost_before": 11.6, "cost_after": 2.28}
+{"id": "q892", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 8.9, "cost_after": 1.0}
+{"id": "q893", "canonical_query": "PREDICT(metric='workforce size', date='2030')", "optimized_query": "OPTIMIZED[PREDICT(metric='workforce size', date='2030')]", "cost_before": 7.5, "cost_after": 2.24}
+{"id": "q894", "canonical_query": "UNKNOWN()", "optimized_query": "OPTIMIZED[UNKNOWN()]", "cost_before": 13.6, "cost_after": 1.0}

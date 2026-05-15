@@ -1,0 +1,62 @@
+{
+  "dataset": "data\\jsonls\\temporal_graph.jsonl",
+  "predictions": null,
+  "n_per_type": 100,
+  "point_n": 363,
+  "point_per_domain": 20,
+  "seed": 13,
+  "missing_predictions": 0,
+  "aggregate_by_bucket": {
+    "point": {
+      "count": 363.0,
+      "confidence_signal": -0.0881542699724518,
+      "context_relevance": 0.7014364423455333,
+      "context_relevance_proxy": 0.7014364423455333,
+      "entity_coverage": 0.838613406795225,
+      "has_prediction": 1.0,
+      "timestamp_accuracy": 0.9862258953168044,
+      "unnecessary_detail_proxy": 0.7920110192837465,
+      "unnecessary_detail_ratio": 0.20798898071625344,
+      "unnecessary_detail_score": 0.7920110192837465
+    },
+    "interval": {
+      "count": 100.0,
+      "boundary_accuracy": 0.23,
+      "confidence_signal": -0.06,
+      "context_relevance": 0.54,
+      "duration_correctness": 0.24,
+      "entity_coverage": 0.6733333333333333,
+      "has_prediction": 1.0,
+      "interval_comparison_clarity": 0.03,
+      "interval_marker_presence": 0.81,
+      "overlap_representation": 0.01,
+      "unnecessary_detail_ratio": 0.45,
+      "unnecessary_detail_score": 0.55
+    },
+    "sequence": {
+      "count": 100.0,
+      "causal_coherence": 0.03,
+      "confidence_signal": -0.05,
+      "context_relevance": 0.5815790043290043,
+      "entity_coverage": 0.7016666666666667,
+      "has_prediction": 1.0,
+      "ordering_accuracy": 0.782608695652174,
+      "sequence_marker_presence": 0.24,
+      "step_completeness": 0.8360215053763441,
+      "unnecessary_detail_ratio": 0.47916666666666663,
+      "unnecessary_detail_score": 0.5208333333333334
+    },
+    "causal": {
+      "count": 100.0,
+      "alternative_cause_awareness": 0.05,
+      "causal_marker_presence": 0.32,
+      "confidence_signal": -0.01,
+      "context_relevance": 0.38355555555555554,
+      "entity_coverage": 0.3906666666666666,
+      "has_prediction": 1.0,
+      "temporal_constraint_correctness": 0.97,
+      "unnecessary_detail_ratio": 0.51,
+      "unnecessary_detail_score": 0.49
+    }
+  }
+}

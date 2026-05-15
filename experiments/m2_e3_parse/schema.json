@@ -1,0 +1,19 @@
+{
+  "id": "string",
+  "text": "string",
+  "intent_labels": ["string"],
+  "spans": [
+    {
+      "label": "string",
+      "start": "int (char index)",
+      "end": "int (char index, exclusive)",
+      "text": "string"
+    }
+  ],
+  "frame": {
+    "slots": "free-form dict of extracted arguments"
+  },
+  "canonical_query": "string (canonical form for construct/optimize)",
+  "cost_before": "float (mock cost/latency estimate)",
+  "cost_after": "float (optional, for optimization eval)"
+}

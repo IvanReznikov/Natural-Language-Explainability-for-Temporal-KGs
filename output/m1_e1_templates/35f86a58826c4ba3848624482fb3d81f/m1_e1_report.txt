@@ -1,0 +1,86 @@
+====================================================================================================
+M1-E1: TEMPLATE DEVELOPMENT EVALUATION REPORT (V3 - REVISED METRICS)
+====================================================================================================
+
+SUMMARY METRICS
+----------------------------------------------------------------------------------------------------
+Total Templates: 51
+Total Examples: 100
+Total Renders: 2000
+Successful Renders: 2000
+Failed Renders: 0
+
+QUALITY METRICS (REVISED TARGETS)
+----------------------------------------------------------------------------------------------------
+Overall Coverage: 100.0% (target >85%)
+Overall Flesch Score: 45.6 (target >45)
+Overall Clarity: 4.67/5.0 (target >4.0)
+Overall Success Rate: 100.0% (target >95%)
+Overall Information Density: 0.950 (target >0.5)
+Type Coverage (% passing Flesch >45): 40.0% (target >80%)
+
+PER-TEMPLATE-TYPE RESULTS
+----------------------------------------------------------------------------------------------------
+
+POINT IN TIME ✓ PASS:
+  Templates: 20
+  Examples: 20
+  Renders: 400
+  Success Rate: 100.0%
+  Flesch Score: 70.2 (target >50)
+  Clarity: 4.59/5.0
+  Information Density: 0.915
+  Coverage: 100.0%
+
+INTERVALS ✓ PASS:
+  Templates: 20
+  Examples: 20
+  Renders: 400
+  Success Rate: 100.0%
+  Flesch Score: 82.4 (target >50)
+  Clarity: 4.62/5.0
+  Information Density: 0.855
+  Coverage: 100.0%
+
+SEQUENCES ✗ FAIL:
+  Templates: 20
+  Examples: 20
+  Renders: 400
+  Success Rate: 100.0%
+  Flesch Score: 27.1 (target >50)
+  Clarity: 4.73/5.0
+  Information Density: 0.998
+  Coverage: 100.0%
+
+CAUSALITY ✗ FAIL:
+  Templates: 20
+  Examples: 20
+  Renders: 400
+  Success Rate: 100.0%
+  Flesch Score: 22.0 (target >50)
+  Clarity: 4.69/5.0
+  Information Density: 0.989
+  Coverage: 100.0%
+
+OVERLAPS ✗ FAIL:
+  Templates: 20
+  Examples: 20
+  Renders: 400
+  Success Rate: 100.0%
+  Flesch Score: 26.1 (target >50)
+  Clarity: 4.71/5.0
+  Information Density: 0.991
+  Coverage: 100.0%
+
+SUCCESS CRITERIA EVALUATION (V3)
+----------------------------------------------------------------------------------------------------
+✓ Coverage >85%: PASS (100.0%)
+✓ Flesch >45: PASS (45.6)
+✓ Clarity >4.0: PASS (4.67)
+✓ Success Rate >95%: PASS (100.0%)
+✓ Info Density >0.5: PASS (0.950)
+✗ Type Coverage >80%: FAIL (40.0%)
+
+====================================================================================================
+Report generated: 2025-12-28T14:15:05.779277
+====================================================================================================

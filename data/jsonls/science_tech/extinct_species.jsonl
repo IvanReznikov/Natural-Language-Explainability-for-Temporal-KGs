@@ -1,0 +1,840 @@
+{"input":"entity: Pyrenean ibex; event: extinction; date: 2000-01-06; context: subspecies loss","output":"The last known Pyrenean ibex, named Celia, died on January 6, 2000, marking the extinction of the subspecies."}
+{"input":"entity: Spix's macaw; event: extinction in the wild; date: 2000-10-01; context: avian conservation","output":"Spix's macaw was officially considered extinct in the wild around October 2000, though captive populations survive."}
+{"input":"entity: Miss Waldron's red colobus; event: extinction declaration; date: 2000-09-01; context: primate loss","output":"Miss Waldron's red colobus was declared extinct in September 2000, becoming the first primate extinction in several centuries."}
+{"input":"entity: Lord Howe stick insect; event: rediscovery; date: 2001-02-14; context: Lazarus species","output":"The Lord Howe stick insect, thought extinct since 1920, was rediscovered on Ball's Pyramid on February 14, 2001."}
+{"input":"entity: Po'ouli; event: death of last individual; date: 2004-11-26; context: avian extinction","output":"The last known Po'ouli died in captivity on November 26, 2004, leading to the species' probable extinction."}
+{"input":"entity: Mount Diablo buckwheat; event: rediscovery; date: 2005-05-10; context: plant conservation","output":"Mount Diablo buckwheat was rediscovered on May 10, 2005, after being presumed extinct for nearly 70 years."}
+{"input":"entity: Yangtze river dolphin; event: functional extinction declaration; date: 2006-12-13; context: aquatic mammal","output":"The Yangtze river dolphin, or Baiji, was declared functionally extinct on December 13, 2006, following a failed six-week survey."}
+{"input":"entity: Western black rhinoceros; event: extinction declaration; date: 2011-11-10; context: rhino poaching","output":"The IUCN officially declared the Western black rhinoceros extinct on November 10, 2011, due to extensive poaching."}
+{"input":"entity: Pinta Island tortoise; event: extinction; date: 2012-06-24; context: Galapagos giant tortoise","output":"Lonesome George, the last Pinta Island tortoise, died on June 24, 2012, marking the end of his subspecies."}
+{"input":"entity: Japanese river otter; event: extinction declaration; date: 2012-08-28; context: national symbol","output":"The Japanese Ministry of the Environment formally declared the Japanese river otter extinct on August 28, 2012."}
+{"input":"entity: Formosan clouded leopard; event: extinction declaration; date: 2013-05-01; context: Taiwan wildlife","output":"Zoologists declared the Formosan clouded leopard extinct in May 2013 after a 13-year survey failed to find any trace."}
+{"input":"entity: Christmas Island forest skink; event: extinction; date: 2014-05-31; context: island reptile","output":"The last known Christmas Island forest skink died in captivity on May 31, 2014, confirming the species' extinction."}
+{"input":"entity: Bramble Cay melomys; event: extinction declaration; date: 2016-06-14; context: climate change","output":"Researchers declared the Bramble Cay melomys extinct on June 14, 2016, citing sea-level rise as the primary cause."}
+{"input":"entity: Rabbs' fringe-limbed treefrog; event: extinction; date: 2016-09-26; context: amphibian crisis","output":"Thinking the last of his kind, a male Rabbs' fringe-limbed treefrog named Toughie died on September 26, 2016."}
+{"input":"entity: Eastern cougar; event: removal from endangered list; date: 2018-01-22; context: confirmed extinction","output":"The USFWS officially declared the Eastern cougar extinct and removed it from the endangered species list on January 22, 2018."}
+{"input":"entity: Wallace's giant bee; event: rediscovery; date: 2019-01-25; context: insect survey","output":"Wallace's giant bee, the world's largest bee, was rediscovered alive in Indonesia on January 25, 2019."}
+{"input":"entity: Fernandina Island Galápagos tortoise; event: confirmation of existence; date: 2019-02-17; context: rediscovery","output":"A female Fernandina Island Galápagos tortoise was found on February 17, 2019, proving the species was not extinct."}
+{"input":"entity: Chinese paddlefish; event: extinction declaration; date: 2020-01-07; context: freshwater fish","output":"A scientific paper published on January 7, 2020, declared the massive Chinese paddlefish extinct."}
+{"input":"entity: Smooth handfish; event: extinction declaration; date: 2020-07-09; context: marine fish","output":"The IUCN declared the smooth handfish extinct on July 9, 2020, the first modern marine fish extinction."}
+{"input":"entity: Splendid poison frog; event: extinction declaration; date: 2020-12-10; context: amphibian decline","output":"The IUCN Red List declared the splendid poison frog extinct on December 10, 2020."}
+{"input":"entity: Somali sengi; event: rediscovery; date: 2020-08-18; context: elephant shrew","output":"The Somali sengi was documented alive for the first time in 50 years on August 18, 2020."}
+{"input":"entity: Voeltzkow's chameleon; event: rediscovery; date: 2020-10-30; context: Madagascar reptiles","output":"Scientists reported the rediscovery of Voeltzkow's chameleon on October 30, 2020, after 100 years without sightings."}
+{"input":"entity: Ivory-billed woodpecker; event: proposed extinction; date: 2021-09-29; context: controversy","output":"The USFWS proposed declaring the Ivory-billed woodpecker extinct on September 29, 2021, sparking significant debate."}
+{"input":"entity: Bachman's warbler; event: extinction declaration; date: 2023-10-16; context: USFWS delisting","output":"Bachman's warbler was officially declared extinct by the USFWS on October 16, 2023."}
+{"input":"entity: Bridled white-eye; event: extinction declaration; date: 2023-10-16; context: Guam birds","output":"The bridled white-eye of Guam was removed from the endangered list due to extinction on October 16, 2023."}
+{"input":"entity: Little Mariana fruit bat; event: extinction declaration; date: 2023-10-16; context: Pacific mammals","output":"The Little Mariana fruit bat was declared extinct by the USFWS on October 16, 2023."}
+{"input":"entity: San Marcos gambusia; event: extinction declaration; date: 2023-10-16; context: freshwater fish","output":"The San Marcos gambusia was officially delisted due to extinction on October 16, 2023."}
+{"input":"entity: Scioto madtom; event: extinction declaration; date: 2023-10-16; context: Ohio fish","output":"The Scioto madtom, a small catfish, was declared extinct by USFWS on October 16, 2023."}
+{"input":"entity: Flat pigtoe; event: extinction declaration; date: 2023-10-16; context: freshwater mussel","output":"The flat pigtoe mussel was declared extinct on October 16, 2023, following decades of no sightings."}
+{"input":"entity: Southern acornshell; event: extinction declaration; date: 2023-10-16; context: mussel species","output":"The southern acornshell was removed from endangered protection due to extinction on October 16, 2023."}
+{"input":"entity: Stirrupshell; event: extinction declaration; date: 2023-10-16; context: Alabama mussel","output":"The stirrupshell mussel was officially declared extinct by the USFWS on October 16, 2023."}
+{"input":"entity: Upland combshell; event: extinction declaration; date: 2023-10-16; context: mollusk extinction","output":"The upland combshell was delisted due to extinction on October 16, 2023."}
+{"input":"entity: Green-blossom pearly mussel; event: extinction declaration; date: 2023-10-16; context: aquatic invertebrate","output":"The USFWS declared the green-blossom pearly mussel extinct on October 16, 2023."}
+{"input":"entity: Turgid-blossom pearly mussel; event: extinction declaration; date: 2023-10-16; context: river ecology","output":"The turgid-blossom pearly mussel was officially listed as extinct on October 16, 2023."}
+{"input":"entity: Yellow-blossom pearly mussel; event: extinction declaration; date: 2023-10-16; context: Tennessee waters","output":"The yellow-blossom pearly mussel was declared extinct on October 16, 2023."}
+{"input":"entity: Tubercled-blossom pearly mussel; event: extinction declaration; date: 2023-10-16; context: mussel loss","output":"The tubercled-blossom pearly mussel was removed from the ESA list due to extinction on October 16, 2023."}
+{"input":"entity: Kauai akialoa; event: extinction declaration; date: 2023-10-16; context: Hawaiian honeycreeper","output":"The Kauai akialoa was officially declared extinct by the USFWS on October 16, 2023."}
+{"input":"entity: Kauai nukupuu; event: extinction declaration; date: 2023-10-16; context: Hawaii bird","output":"The Kauai nukupuu was delisted due to extinction on October 16, 2023."}
+{"input":"entity: Kauai 'o'o; event: extinction declaration; date: 2023-10-16; context: songbird loss","output":"The Kauai 'o'o was declared extinct on October 16, 2023, silencing its unique song forever."}
+{"input":"entity: Large Kauai thrush; event: extinction declaration; date: 2023-10-16; context: Kama'o","output":"The large Kauai thrush, or Kama'o, was officially declared extinct on October 16, 2023."}
+{"input":"entity: Maui ākepa; event: extinction declaration; date: 2023-10-16; context: Hawaiian forest bird","output":"The Maui ākepa was removed from the endangered species list due to extinction on October 16, 2023."}
+{"input":"entity: Maui nukupuu; event: extinction declaration; date: 2023-10-16; context: island endemic","output":"The Maui nukupuu was declared extinct by the USFWS on October 16, 2023."}
+{"input":"entity: Molokai creeper; event: extinction declaration; date: 2023-10-16; context: Kakawahie","output":"The Molokai creeper, or Kakawahie, was officially declared extinct on October 16, 2023."}
+{"input":"entity: Po'ouli; event: extinction declaration; date: 2023-10-16; context: recent loss","output":"The Po'ouli was formally delisted due to extinction on October 16, 2023, confirming its status."}
+{"input":"entity: De Winton's golden mole; event: rediscovery; date: 2023-11-28; context: eDNA finding","output":"De Winton's golden mole was confirmed rediscovered via eDNA on November 28, 2023, after 87 years."}
+{"input":"entity: Attenborough's long-beaked echidna; event: rediscovery; date: 2023-11-10; context: Cyclops Mountains","output":"Attenborough's long-beaked echidna was filmed for the first time on November 10, 2023, confirming its survival."}
+{"input":"entity: Pernambuco pygmy owl; event: extinction declaration; date: 2014-07-01; context: Brazil avifauna","output":"A study published in July 2014 concluded the Pernambuco pygmy owl was likely extinct."}
+{"input":"entity: Cryptic treehunter; event: extinction declaration; date: 2014-07-01; context: Atlantic forest","output":"The cryptic treehunter was declared likely extinct in July 2014 due to habitat destruction."}
+{"input":"entity: Alagoas foliage-gleaner; event: extinction declaration; date: 2014-07-01; context: Brazil bird","output":"Researchers declared the Alagoas foliage-gleaner extinct in July 2014."}
+{"input":"entity: Poo-uli; event: death; date: 2004-11-26; context: final individual","output":"The last confirmed Poo-uli died in captivity on November 26, 2004."}
+{"input":"entity: Guam mariana fruit bat; event: extinction declaration; date: 2023-10-16; context: USFWS final rule","output":"The Guam mariana fruit bat was officially declared extinct on October 16, 2023."}
+{"input":"entity: San Marcos gambusia; event: extinction status; date: 2023-10-16; context: Texas water","output":"The USFWS declared the San Marcos gambusia extinct on October 16, 2023."}
+{"input":"entity: Black-naped pheasant-pigeon; event: rediscovery; date: 2022-09-01; context: Papua New Guinea","output":"The black-naped pheasant-pigeon was rediscovered in September 2022 after 140 years."}
+{"input":"entity: Victorian grassland earless dragon; event: rediscovery; date: 2023-06-25; context: Australia reptile","output":"The Victorian grassland earless dragon was rediscovered on June 25, 2023, having been unseen since 1969."}
+{"input":"entity: Deepwater char; event: extinction declaration; date: 2008-11-01; context: Lake Constance","output":"The deepwater char was officially declared extinct by the IUCN in November 2008."}
+{"input":"entity: Saint Helena olive; event: extinction; date: 2003-12-08; context: plant loss","output":"The last cultivated Saint Helena olive tree died on December 8, 2003, marking the species' total extinction."}
+{"input":"entity: Alaotra grebe; event: extinction declaration; date: 2010-05-26; context: Madagascar wetland","output":"The IUCN declared the Alaotra grebe extinct on May 26, 2010, due to poaching and invasive fish."}
+{"input":"entity: Plectostoma sciaphilum; event: extinction declaration; date: 2014-01-01; context: micro-jewel snail","output":"Plectostoma sciaphilum was declared extinct in 2014 after its limestone hill habitat was quarried away."}
+{"input":"entity: Christmas Island pipistrelle; event: last contact; date: 2009-08-26; context: bat extinction","output":"The last echolocation call of the Christmas Island pipistrelle was recorded on August 26, 2009."}
+{"input":"entity: Christmas Island whiptail-skink; event: extinction declaration; date: 2017-12-05; context: reptile decline","output":"The IUCN officially listed the Christmas Island whiptail-skink as extinct on December 5, 2017."}
+{"input":"entity: Blue-tailed skink; event: extinction in wild; date: 2014-01-01; context: Christmas Island","output":"The blue-tailed skink was listed as extinct in the wild in 2014, surviving only in captivity."}
+{"input":"entity: Lister's gecko; event: extinction in wild; date: 2014-01-01; context: Christmas Island","output":"Lister's gecko was declared extinct in the wild in 2014, with captive breeding efforts ongoing."}
+{"input":"entity: Jalpa false brook salamander; event: extinction declaration; date: 2020-12-10; context: Guatemala amphibian","output":"The Jalpa false brook salamander was declared extinct by the IUCN on December 10, 2020."}
+{"input":"entity: Spined dwarf mantis; event: extinction declaration; date: 2020-12-10; context: insect loss","output":"The spined dwarf mantis was declared extinct in December 2020 due to habitat loss."}
+{"input":"entity: Lord Howe long-eared bat; event: extinction declaration; date: 2020-12-10; context: island bat","output":"The IUCN declared the Lord Howe long-eared bat extinct on December 10, 2020."}
+{"input":"entity: Bonin pipistrelle; event: extinction declaration; date: 2020-04-27; context: Japan mammal","output":"The Bonin pipistrelle was officially declared extinct by the Japanese government in April 2020."}
+{"input":"entity: Northern white rhinoceros; event: functional extinction; date: 2018-03-19; context: death of Sudan","output":"The death of Sudan, the last male northern white rhino, on March 19, 2018, rendered the subspecies functionally extinct."}
+{"input":"entity: Catarina pupfish; event: extinction in wild; date: 2013-01-01; context: Mexico fish","output":"The Catarina pupfish was declared extinct in the wild in 2013, surviving only in aquariums."}
+{"input":"entity: Scimitar-horned oryx; event: extinction in wild; date: 2000-01-01; context: ongoing reintroduction","output":"The scimitar-horned oryx was officially assessed as extinct in the wild in 2000, before reintroduction efforts began."}
+{"input":"entity: Kihansi spray toad; event: extinction in wild; date: 2009-01-01; context: Tanzania dam","output":"The Kihansi spray toad was declared extinct in the wild in 2009 following the construction of a dam."}
+{"input":"entity: Hawaiian crow; event: extinction in wild; date: 2002-01-01; context: 'Alala","output":"The Hawaiian crow, or 'Alala, was declared extinct in the wild in 2002."}
+{"input":"entity: Socorro dove; event: extinction in wild; date: 2000-01-01; context: island bird","output":"The Socorro dove has been considered extinct in the wild since roughly 2000, surviving in aviaries."}
+{"input":"entity: Wyoming toad; event: extinction in wild; date: 2000-01-01; context: chytrid fungus","output":"The Wyoming toad remains extinct in the wild as of 2000, despite reintroduction attempts."}
+{"input":"entity: Franklin's bumblebee; event: extinction declaration; date: 2021-08-24; context: pollinator loss","output":"Franklin's bumblebee was proposed for endangered listing as likely extinct in August 2021."}
+{"input":"entity: San Cristobal vermilion flycatcher; event: extinction declaration; date: 2016-01-01; context: Galapagos bird","output":"The San Cristobal vermilion flycatcher was declared extinct in 2016, having not been seen since 1987."}
+{"input":"entity: New Zealand storm petrel; event: rediscovery; date: 2003-01-25; context: seabird","output":"The New Zealand storm petrel was rediscovered on January 25, 2003, after being considered extinct for a century."}
+{"input":"entity: Night parrot; event: rediscovery; date: 2013-04-01; context: Australian bird","output":"A naturalist presented photographic proof of the live Night parrot in April 2013, confirming its survival."}
+{"input":"entity: Bermuda land snail; event: rediscovery; date: 2014-01-01; context: Poecilozonites bermudensis","output":"The Bermuda land snail, thought extinct for 40 years, was rediscovered in an alley in 2014."}
+{"input":"entity: Miller's grizzled langur; event: rediscovery; date: 2012-01-20; context: Borneo primate","output":"Miller's grizzled langur was rediscovered in Borneo on January 20, 2012."}
+{"input":"entity: Pinocchio lizard; event: rediscovery; date: 2005-01-01; context: Ecuador reptile","output":"The Pinocchio lizard was rediscovered in 2005 after being unseen for 50 years."}
+{"input":"entity: Cozumel thrasher; event: critical decline; date: 2004-06-01; context: near extinction","output":"The Cozumel thrasher was pushed to the brink of extinction by Hurricane Emily in 2004, with few sightings since."}
+{"input":"entity: Akekee; event: rapid decline; date: 2023-01-01; context: functional extinction warning","output":"Biologists warned in 2023 that the Akekee is facing imminent functional extinction due to avian malaria."}
+{"input":"entity: Akikiki; event: capture for captivity; date: 2023-01-01; context: rescue mission","output":"In 2023, conservationists moved the remaining Akikiki to captivity to prevent total extinction."}
+{"input":"entity: Vaquita; event: critical population low; date: 2023-06-07; context: marine mammal","output":"A survey released on June 7, 2023, estimated only 10 to 13 Vaquitas remain, signaling near extinction."}
+{"input":"entity: Northern sporty lemur; event: population survey; date: 2012-01-01; context: near extinct","output":"A 2012 survey estimated fewer than 20 Northern sporty lemurs remained in the wild."}
+{"input":"entity: Hainan gibbon; event: population count; date: 2003-01-01; context: rarest ape","output":"The Hainan gibbon population dropped to 13 individuals in 2003, making it the world's rarest ape."}
+{"input":"entity: Cebu flowerpecker; event: rediscovery; date: 2000-01-01; context: Philippines bird","output":"The Cebu flowerpecker was rediscovered in 1992 but population estimates in 2000 confirmed it critically endangered, not extinct."}
+{"input":"entity: Banggai crow; event: rediscovery; date: 2007-01-01; context: Indonesia bird","output":"The Banggai crow was rediscovered in 2007 on Peleng Island after being lost since 1900."}
+{"input":"entity: Large-billed reed warbler; event: rediscovery; date: 2006-03-27; context: Thailand bird","output":"The large-billed reed warbler was rediscovered in Thailand on March 27, 2006."}
+{"input":"entity: Cone-billed tanager; event: rediscovery; date: 2003-01-01; context: Brazil bird","output":"The cone-billed tanager was rediscovered in 2003 after 65 years without a record."}
+{"input":"entity: Beck's petrel; event: rediscovery; date: 2007-01-01; context: seabird","output":"Beck's petrel was rediscovered in 2007 near Papua New Guinea."}
+{"input":"entity: Siau scops owl; event: rediscovery; date: 2000-01-01; context: Indonesia owl","output":"The Siau scops owl was recorded for the first time in over a century around the early 2000s."}
+{"input":"entity: Cuban solenodon; event: rediscovery; date: 2003-01-01; context: venomous mammal","output":"A live Cuban solenodon was caught in 2003, proving the species still existed."}
+{"input":"entity: Greater bamboo lemur; event: rediscovery; date: 2008-01-01; context: Madagascar primate","output":"A population of Greater bamboo lemurs was discovered in 2008, reviving hope for the species."}
+{"input":"entity: Pygmy tarsier; event: rediscovery; date: 2008-08-01; context: Indonesia primate","output":"The pygmy tarsier was rediscovered in Sulawesi in August 2008 after 80 years."}
+{"input":"entity: Horton Plains slender loris; event: rediscovery; date: 2010-07-19; context: Sri Lanka primate","output":"The Horton Plains slender loris was photographed for the first time in 65 years on July 19, 2010."}
+{"input":"entity: Caquetá titi; event: discovery; date: 2010-08-12; context: new primate","output":"The Caquetá titi monkey was described as a new species in August 2010, though critically endangered."}
+{"input":"entity: Myanmar snub-nosed monkey; event: discovery; date: 2010-10-27; context: new primate","output":"The Myanmar snub-nosed monkey was scientifically described on October 27, 2010."}
+{"input":"entity: Lesula; event: discovery; date: 2012-09-12; context: Congo monkey","output":"The Lesula monkey was formally described as a new species on September 12, 2012."}
+{"input":"entity: Kabomani tapir; event: discovery; date: 2013-12-01; context: controversial species","output":"The Kabomani tapir was proposed as a new species in December 2013, the first new tapir in a century."}
+{"input":"entity: Vangunu giant rat; event: discovery; date: 2017-09-01; context: Solomon Islands","output":"The Vangunu giant rat was described in 2017, shortly before its habitat was logged."}
+{"input":"entity: Rice's whale; event: discovery; date: 2021-01-01; context: Gulf of Mexico","output":"Rice's whale was recognized as a distinct, critically endangered species in 2021."}
+{"input":"entity: Tapanuli orangutan; event: discovery; date: 2017-11-02; context: great ape","output":"The Tapanuli orangutan was described as a distinct species on November 2, 2017."}
+{"input":"entity: Skywalker hoolock gibbon; event: discovery; date: 2017-01-10; context: primate","output":"The Skywalker hoolock gibbon was described as a new species on January 10, 2017."}
+{"input":"cause: chytrid fungus; effect: extinction of Panamanian golden frog in wild; year: 2007; context: amphibian pandemic","output":"The spread of chytrid fungus caused the Panamanian golden frog to go extinct in the wild by 2007."}
+{"input":"cause: rising sea levels; effect: extinction of Bramble Cay melomys; year: 2016; context: climate change","output":"Rising sea levels inundated the habitat of the Bramble Cay melomys, causing its declared extinction in 2016."}
+{"input":"cause: avian malaria; effect: extinction of Po'ouli; year: 2004; context: disease spread","output":"Avian malaria, spread by mosquitoes, contributed to the extinction of the Po'ouli by 2004."}
+{"input":"cause: dam construction; effect: extinction of Chinese paddlefish; year: 2020; context: habitat fragmentation","output":"The Gezhouba Dam blocked migration routes, leading to the Chinese paddlefish's declared extinction in 2020."}
+{"input":"cause: brown tree snake introduction; effect: extinction of Guam birds; year: 2023; context: invasive predator","output":"The invasive brown tree snake caused the extinction of species like the bridled white-eye, confirmed in 2023."}
+{"input":"cause: Kihansi dam; effect: extinction in wild of Kihansi spray toad; year: 2009; context: flow reduction","output":"The construction of the Kihansi Dam reduced water flow, causing the Kihansi spray toad's extinction in the wild in 2009."}
+{"input":"cause: cloning failure; effect: second extinction of Pyrenean ibex; date: 2003-07-30; context: de-extinction attempt","output":"A cloned Pyrenean ibex was born on July 30, 2003, but died minutes later, causing the subspecies to go extinct a second time."}
+{"input":"cause: poaching; effect: extinction of Western black rhino; year: 2011; context: illegal trade","output":"Intense poaching for horns led to the IUCN declaring the Western black rhino extinct in 2011."}
+{"input":"cause: habitat loss; effect: extinction of Alagoas foliage-gleaner; year: 2014; context: deforestation","output":"Rampant deforestation in Brazil's Atlantic Forest caused the extinction of the Alagoas foliage-gleaner by 2014."}
+{"input":"cause: limestone quarrying; effect: extinction of Plectostoma sciaphilum; year: 2014; context: micro-endemic loss","output":"Limestone quarrying destroyed the only known hill inhabited by Plectostoma sciaphilum, causing its extinction in 2014."}
+{"input":"cause: introduction of Nile perch; effect: extinction of Lake Victoria cichlids; year: 2000; context: invasive species","output":"The earlier introduction of Nile perch continued to cause cichlid extinctions recognized in the early 2000s."}
+{"input":"cause: overfishing; effect: extinction of smooth handfish; year: 2020; context: trawling","output":"Bottom trawling and habitat disturbance contributed to the smooth handfish being declared extinct in 2020."}
+{"input":"cause: hybridization; effect: extinction of purebred Seychelles subspecies; year: 2000; context: genetic dilution","output":"Hybridization with introduced species led to the genetic extinction of certain Seychelles turtle subspecies by the 2000s."}
+{"input":"cause: wolf snake introduction; effect: extinction of Christmas Island reptiles; year: 2014; context: invasive predator","output":"The invasive wolf snake is a primary cause for the extinction of Christmas Island's native reptiles declared around 2014."}
+{"input":"cause: hurricane; effect: critical decline of Cozumel thrasher; year: 2004; context: natural disaster","output":"Hurricane Emily in 2004 devastated the Cozumel thrasher population, pushing it to the brink of extinction."}
+{"input":"cause: eDNA technology; effect: rediscovery of De Winton's golden mole; year: 2023; context: scientific method","output":"Environmental DNA technology enabled the rediscovery of De Winton's golden mole in 2023."}
+{"input":"cause: camera traps; effect: rediscovery of Attenborough's long-beaked echidna; year: 2023; context: monitoring","output":"The deployment of camera traps led to the visual rediscovery of Attenborough's long-beaked echidna in 2023."}
+{"input":"cause: genetic testing; effect: confirmation of Fernandina tortoise; year: 2019; context: identification","output":"Genetic testing in 2019 confirmed a female tortoise was indeed the lost Fernandina Island species."}
+{"input":"cause: captive breeding program; effect: survival of Spix's macaw; year: 2000; context: conservation","output":"A captive breeding program allowed Spix's macaw to survive despite going extinct in the wild in 2000."}
+{"input":"cause: chytrid fungus; effect: extinction of Splendid poison frog; year: 2020; context: disease","output":"The spread of chytrid fungus was the primary driver for the Splendid poison frog's extinction declared in 2020."}
+{"input":"cause: habitat conversion to agriculture; effect: extinction of giant Palouse earthworm; year: 2005; context: controversial status","output":"Conversion of Palouse prairie to agriculture led to the feared extinction of the giant Palouse earthworm, though sightings remain debated since 2005."}
+{"input":"cause: urbanization; effect: decline of San Francisco garter snake; year: 2000; context: habitat loss","output":"Urban sprawl in the 21st century has kept the San Francisco garter snake on the verge of extinction."}
+{"input":"cause: rat introduction; effect: extinction of Lord Howe stick insect on main island; year: 2001; context: rediscovery context","output":"Rats introduced in 1918 caused the stick insect's local extinction, setting the stage for its 2001 rediscovery offshore."}
+{"input":"cause: geothermal plant construction; effect: extinction of Hawaii plants; year: 2000; context: infrastructure","output":"Development of geothermal plants has been cited as a threat to critically endangered Hawaiian ferns in the 2000s."}
+{"input":"cause: illegal pet trade; effect: extinction of Spix's macaw in wild; year: 2000; context: trapping","output":"Trapping for the illegal pet trade was the main cause of Spix's macaw's extinction in the wild by 2000."}
+{"input":"cause: light pollution; effect: decline of sea turtle hatchlings; year: 2010; context: anthropogenic threat","output":"Light pollution disrupting nesting contributed to the critical decline of Pacific leatherback turtles in the 2010s."}
+{"input":"cause: Diclofenac use; effect: functional extinction of Indian vultures; year: 2000; context: veterinary drug","output":"The veterinary drug Diclofenac caused the near-total extinction of Indian vulture populations by the early 2000s."}
+{"input":"cause: commercial whaling; effect: near extinction of North Atlantic right whale; year: 2010; context: historical lag","output":"Historical whaling impacts kept the North Atlantic right whale near extinction throughout the 2010s."}
+{"input":"cause: noise pollution; effect: decline of beaked whales; year: 2000; context: sonar","output":"Naval sonar causing strandings threatened beaked whales with local extinction events in the 2000s."}
+{"input":"cause: ocean acidification; effect: decline of coral species; year: 2016; context: bleaching event","output":"The 2016 bleaching event caused by warming and acidification pushed several coral species closer to extinction."}
+{"input":"sequence: entity: Spix's macaw; phase1: last wild male sighted 2000; phase2: declared extinct in wild 2019; phase3: reintroduction 2022; context: restoration","output":"Spix's macaw was last seen in the wild in 2000, declared extinct in the wild in 2019, and reintroduced in 2022."}
+{"input":"sequence: entity: Pyrenean ibex; phase1: extinction 2000; phase2: cloning 2003; phase3: second extinction 2003; context: de-extinction","output":"The Pyrenean ibex went extinct in 2000, was briefly cloned in 2003, and immediately went extinct again."}
+{"input":"sequence: entity: Northern white rhino; phase1: wild extinction 2008; phase2: death of last male 2018; phase3: embryo creation 2019; context: rescue","output":"Northern white rhinos went extinct in the wild in 2008, the last male died in 2018, and embryos were created in 2019."}
+{"input":"sequence: entity: Bramble Cay melomys; phase1: last sighting 2009; phase2: declared extinct 2016; phase3: official Australian recognition 2019; context: legal process","output":"The Bramble Cay melomys was last seen in 2009, researchers declared it extinct in 2016, and Australia officially recognized this in 2019."}
+{"input":"sequence: entity: Chinese paddlefish; phase1: last sighting 2003; phase2: failed survey 2006; phase3: declared extinct 2020; context: scientific consensus","output":"The Chinese paddlefish was last seen in 2003, a 2006 survey failed to find any, and it was declared extinct in 2020."}
+{"input":"sequence: entity: Fernandina giant tortoise; phase1: last specimen 1906; phase2: rediscovery 2019; phase3: genetic confirmation 2022; context: verification","output":"Collected in 1906, the Fernandina giant tortoise was rediscovered in 2019 and genetically confirmed in 2022."}
+{"input":"sequence: entity: Lord Howe stick insect; phase1: island extinction 1920; phase2: rediscovery 2001; phase3: zoo breeding 2003; context: recovery","output":"After its 1920 extinction on Lord Howe Island, the stick insect was rediscovered in 2001 and captive breeding began in 2003."}
+{"input":"sequence: entity: California condor; phase1: extinction in wild 1987; phase2: reintroduction 1991; phase3: wild hatching 2002; context: recovery milestones","output":"Extinct in the wild by 1987, California condors were reintroduced in 1991 and saw wild hatchings resume by 2002."}
+{"input":"sequence: entity: Pinta Island tortoise; phase1: discovery of Lonesome George 1971; phase2: failed breeding attempts 1990-2011; phase3: death and extinction 2012; context: endling","output":"Lonesome George was found in 1971, breeding failed for decades, and his 2012 death marked the subspecies' extinction."}
+{"input":"sequence: entity: Scimitar-horned oryx; phase1: extinction in wild 2000; phase2: reintroduction to Chad 2016; phase3: downlisting to Endangered 2023; context: success story","output":"Extinct in the wild in 2000, the Scimitar-horned oryx was reintroduced in 2016 and downlisted to Endangered in 2023."}
+{"input":"sequence: entity: Guam rail; phase1: extinction in wild 1980s; phase2: reintroduction 1998; phase3: declared recovered 2019; context: conservation win","output":"The Guam rail went extinct in the wild in the 1980s but was declared recovered in 2019 after successful reintroduction."}
+{"input":"sequence: entity: Black-footed ferret; phase1: declared extinct 1979; phase2: rediscovery 1981; phase3: cloning 2020; context: biotechnology","output":"Declared extinct in 1979, the black-footed ferret was rediscovered in 1981 and a clone was born in 2020."}
+{"input":"sequence: entity: Ivory-billed woodpecker; phase1: last confirmed sighting 1944; phase2: alleged rediscovery 2004; phase3: proposed extinction 2021; context: debate","output":"Last seen in 1944, the Ivory-billed woodpecker was allegedly rediscovered in 2004, but proposed for extinction in 2021."}
+{"input":"sequence: entity: Yangtze river dolphin; phase1: population crash 1990s; phase2: expedition 2006; phase3: functional extinction 2006; context: decline","output":"The Baiji population crashed in the 1990s, leading to a 2006 expedition that declared it functionally extinct."}
+{"input":"sequence: entity: Christmas Island pipistrelle; phase1: common 1980s; phase2: decline 2000s; phase3: last call 2009; context: rapid loss","output":"Common in the 1980s, the Christmas Island pipistrelle declined in the 2000s until its last call in 2009."}
+{"input":"sequence: entity: Tasmanian tiger; phase1: extinction 1936; phase2: declared extinct 1986; phase3: RNA recovery 2023; context: scientific study","output":"Extinct in 1936 and declared so in 1986, RNA was recovered from a Tasmanian tiger specimen in 2023."}
+{"input":"sequence: entity: Blue-throated macaw; phase1: presumed extinct 1900s; phase2: rediscovery 1992; phase3: critical protection 2000s; context: parrot","output":"Presumed extinct in the 1900s, the Blue-throated macaw was rediscovered in 1992 and received critical protection in the 2000s."}
+{"input":"sequence: entity: Arakan forest turtle; phase1: presumed extinct 1908; phase2: rediscovery 1994; phase3: captive breeding 2000s; context: turtle","output":"The Arakan forest turtle, unseen since 1908, was rediscovered in 1994 and bred in captivity in the 2000s."}
+{"input":"sequence: entity: New Zealand storm petrel; phase1: presumed extinct 1895; phase2: photos 2003; phase3: breeding ground found 2013; context: seabird","output":"Presumed extinct since 1895, the New Zealand storm petrel was photographed in 2003 and its breeding ground found in 2013."}
+{"input":"sequence: entity: Large blue butterfly; phase1: UK extinction 1979; phase2: reintroduction 1980s; phase3: stable population 2000s; context: insect","output":"After UK extinction in 1979, the Large blue butterfly was reintroduced and reached stable populations by the 2000s."}
+{"input":"sequence: entity: Przewalski's horse; phase1: extinction in wild 1969; phase2: reintroduction 1990s; phase3: endangered status 2011; context: wild horse","output":"Extinct in the wild in 1969, Przewalski's horse was reintroduced in the 1990s and listed as Endangered in 2011."}
+{"input":"sequence: entity: Cebu flowerpecker; phase1: presumed extinct 1906; phase2: rediscovery 1992; phase3: habitat protection 2000s; context: Philippines","output":"Thought extinct in 1906, the Cebu flowerpecker was rediscovered in 1992, leading to protection efforts in the 2000s."}
+{"input":"sequence: entity: Jamaican iguana; phase1: presumed extinct 1948; phase2: rediscovery 1990; phase3: population milestone 2013; context: reptile","output":"Presumed extinct in 1948 and rediscovered in 1990, the Jamaican iguana reached a population milestone in 2013."}
+{"input":"sequence: entity: Wollemi pine; phase1: fossil record only; phase2: discovery 1994; phase3: public sale 2006; context: living fossil","output":"Known only from fossils, the Wollemi pine was discovered in 1994 and made available for sale in 2006."}
+{"input":"sequence: entity: Crested gecko; phase1: presumed extinct 1866; phase2: rediscovery 1994; phase3: pet trade boom 2000s; context: reptile","output":"Presumed extinct in 1866 and rediscovered in 1994, the crested gecko became popular in the pet trade in the 2000s."}
+{"input":"sequence: entity: La Palma giant lizard; phase1: presumed extinct 1500; phase2: rediscovery 2007; phase3: conservation plan 2010; context: canary islands","output":"Thought extinct since 1500, the La Palma giant lizard was rediscovered in 2007, prompting a 2010 conservation plan."}
+{"input":"sequence: entity: Bermuda petrel; phase1: presumed extinct 1620; phase2: rediscovery 1951; phase3: record fledging 2000s; context: Cahow","output":"Extinct since 1620, the Bermuda petrel was found in 1951 and achieved record fledging numbers in the 2000s."}
+{"input":"sequence: entity: Black softshell turtle; phase1: extinct in wild 2002; phase2: temple pond discovery 2004; phase3: reintroduction 2020; context: India","output":"Declared extinct in the wild in 2002, Black softshell turtles were found in temple ponds in 2004 and reintroduced in 2020."}
+{"input":"sequence: entity: Tequila splitfin; phase1: extinction in wild 1998; phase2: captive breeding 2000s; phase3: reintroduction 2016; context: Mexico fish","output":"The Tequila splitfin went extinct in the wild in 1998, was bred in the 2000s, and reintroduced in 2016."}
+{"input":"sequence: entity: Lord Howe island stick insect; phase1: rediscovery 2001; phase2: Melbourne Zoo program 2003; phase3: genome mapping 2017; context: science","output":"Rediscovered in 2001, the Lord Howe stick insect entered a zoo program in 2003 and had its genome mapped in 2017."}
+{"input":"overlap: event1: death of last Pyrenean ibex 2000; event2: wild extinction of Spix's macaw 2000; context: year of loss","output":"The death of the last Pyrenean ibex and the wild extinction of Spix's macaw both occurred in 2000."}
+{"input":"overlap: event1: declaration of Western Black Rhino extinction 2011; event2: death of Lonesome George 2012; context: major extinctions","output":"The declared extinction of the Western Black Rhino in 2011 was followed closely by the death of Lonesome George in 2012."}
+{"input":"overlap: event1: rediscovery of Wallace's Giant Bee 2019; event2: rediscovery of Fernandina Giant Tortoise 2019; context: rediscovery year","output":"2019 was a notable year for rediscoveries, including both Wallace's Giant Bee and the Fernandina Giant Tortoise."}
+{"input":"overlap: event1: extinction of Chinese Paddlefish 2020; event2: rediscovery of Somali Sengi 2020; context: loss and gain","output":"While the Chinese Paddlefish was declared extinct in 2020, the Somali Sengi was rediscovered that same year."}
+{"input":"overlap: event1: USFWS declaring 21 species extinct 2023; event2: rediscovery of De Winton's Golden Mole 2023; context: 2023 status changes","output":"In 2023, the USFWS declared 21 species extinct, overlapping with the rediscovery of De Winton's Golden Mole."}
+{"input":"overlap: event1: extinction of Christmas Island Pipistrelle 2009; event2: extinction of Alaotra Grebe 2010; context: consecutive losses","output":"The extinction of the Christmas Island Pipistrelle in 2009 was followed by the Alaotra Grebe's declaration in 2010."}
+{"input":"overlap: event1: rediscovery of New Zealand storm petrel 2003; event2: rediscovery of Cuban solenodon 2003; context: 2003 finds","output":"Both the New Zealand storm petrel and the Cuban solenodon were rediscovered in 2003."}
+{"input":"overlap: event1: death of last Northern White Rhino male 2018; event2: declaration of Eastern Cougar extinction 2018; context: 2018 events","output":"The death of the last male Northern White Rhino and the official extinction of the Eastern Cougar both occurred in 2018."}
+{"input":"overlap: event1: extinction of Plectostoma sciaphilum 2014; event2: rediscovery of Bermuda Land Snail 2014; context: snail fate","output":"In 2014, the extinction of Plectostoma sciaphilum coincided with the rediscovery of the Bermuda Land Snail."}
+{"input":"overlap: event1: rediscovery of Horton Plains slender loris 2010; event2: discovery of Myanmar snub-nosed monkey 2010; context: primate year","output":"2010 saw the rediscovery of the Horton Plains slender loris and the new discovery of the Myanmar snub-nosed monkey."}
+{"input":"overlap: event1: extinction declaration of Japanese River Otter 2012; event2: death of Lonesome George 2012; context: 2012 losses","output":"The declaration of the Japanese River Otter's extinction and the death of Lonesome George both marked 2012."}
+{"input":"overlap: event1: rediscovery of Victorian grassland earless dragon 2023; event2: rediscovery of Attenborough's long-beaked echidna 2023; context: 2023 finds","output":"The Victorian grassland earless dragon and Attenborough's long-beaked echidna were both rediscovered in 2023."}
+{"input":"overlap: event1: extinction declaration of Formosan Clouded Leopard 2013; event2: declaration of Catarina Pupfish extinction in wild 2013; context: 2013 declarations","output":"The Formosan Clouded Leopard and Catarina Pupfish were both declared extinct (in wild or total) in 2013."}
+{"input":"overlap: event1: extinction of Bramble Cay melomys 2016; event2: extinction of Rabbs' fringe-limbed treefrog 2016; context: 2016 losses","output":"The Bramble Cay melomys and Rabbs' fringe-limbed treefrog both succumbed to extinction in 2016."}
+{"input":"overlap: event1: discovery of Tapanuli orangutan 2017; event2: discovery of Vangunu giant rat 2017; context: new species 2017","output":"The Tapanuli orangutan and Vangunu giant rat were both scientifically described as new species in 2017."}
+{"input":"overlap: event1: rediscovery of Voeltzkow's chameleon 2020; event2: rediscovery of Somali sengi 2020; context: 2020 finds","output":"Voeltzkow's chameleon and the Somali sengi were both rediscovered in 2020."}
+{"input":"overlap: event1: rediscovery of Black-naped pheasant-pigeon 2022; event2: genetic confirmation of Fernandina tortoise 2022; context: 2022 progress","output":"In 2022, the Black-naped pheasant-pigeon was rediscovered and the Fernandina tortoise was genetically confirmed."}
+{"input":"overlap: event1: extinction declaration of Smooth Handfish 2020; event2: extinction declaration of Splendid Poison Frog 2020; context: IUCN 2020","output":"The IUCN declared both the Smooth Handfish and Splendid Poison Frog extinct in 2020."}
+{"input":"overlap: event1: extinction of Bachman's warbler declared 2023; event2: extinction of Bridled white-eye declared 2023; context: USFWS rule","output":"Bachman's warbler and the Bridled white-eye were among the species declared extinct together in 2023."}
+{"input":"overlap: event1: extinction of Molokai creeper declared 2023; event2: extinction of Po'ouli declared 2023; context: Hawaiian bird loss","output":"The Molokai creeper and Po'ouli were both officially declared extinct in the same 2023 ruling."}
+{"input":"overlap: event1: rediscovery of Lord Howe stick insect 2001; event2: rediscovery of Bavarian pine vole 2001; context: 2001 finds","output":"The Lord Howe stick insect and Bavarian pine vole were both rediscovered in 2001."}
+{"input":"overlap: event1: extinction declaration of Deepwater char 2008; event2: rediscovery of Pygmy tarsier 2008; context: 2008 contrast","output":"2008 saw the extinction declaration of the Deepwater char and the rediscovery of the Pygmy tarsier."}
+{"input":"overlap: event1: extinction declaration of Miss Waldron's red colobus 2000; event2: extinction of Seychelles snail species 2000; context: millennium loss","output":"Miss Waldron's red colobus and several Seychelles snails were declared extinct around the year 2000."}
+{"input":"overlap: event1: extinction of Christmas Island forest skink 2014; event2: rediscovery of Bermuda land snail 2014; context: island fate","output":"In 2014, the Christmas Island forest skink went extinct while the Bermuda land snail was rediscovered."}
+{"input":"overlap: event1: rediscovery of Miller's grizzled langur 2012; event2: discovery of Lesula monkey 2012; context: primate finds","output":"Miller's grizzled langur was rediscovered and the Lesula monkey was discovered as new in 2012."}
+{"input":"overlap: event1: extinction declaration of Eastern Cougar 2018; event2: functional extinction of Northern White Rhino 2018; context: mammal loss","output":"The Eastern Cougar was declared extinct and the Northern White Rhino became functionally extinct in 2018."}
+{"input":"overlap: event1: rediscovery of Large-billed reed warbler 2006; event2: functional extinction of Yangtze river dolphin 2006; context: 2006 mix","output":"The Large-billed reed warbler was rediscovered in 2006, the same year the Yangtze river dolphin was declared functionally extinct."}
+{"input":"overlap: event1: rediscovery of Banggai crow 2007; event2: rediscovery of Beck's petrel 2007; context: bird finds","output":"The Banggai crow and Beck's petrel were both rediscovered in 2007."}
+{"input":"overlap: event1: rediscovery of Mount Diablo buckwheat 2005; event2: rediscovery of Pinocchio lizard 2005; context: 2005 returns","output":"Mount Diablo buckwheat and the Pinocchio lizard were both rediscovered in 2005."}
+{"input":"overlap: event1: rediscovery of Jackson's climbing salamander 2017; event2: discovery of Tapanuli orangutan 2017; context: 2017 biology","output":"2017 featured the rediscovery of Jackson's climbing salamander and the discovery of the Tapanuli orangutan."}
+{"input":"entity: Passenger Pigeon; event: extinction; date: 1914-09-01; context: Martha","output":"Martha, the last known Passenger Pigeon, died on September 1, 1914, at the Cincinnati Zoo."}
+{"input":"entity: Carolina Parakeet; event: extinction; date: 1918-02-21; context: last individual","output":"The last captive Carolina Parakeet, named Incas, died on February 21, 1918, marking the species' extinction."}
+{"input":"entity: Heath Hen; event: extinction; date: 1932-03-11; context: Booming Ben","output":"The last Heath Hen, known as 'Booming Ben', was last seen on March 11, 1932, on Martha's Vineyard."}
+{"input":"entity: Thylacine; event: extinction; date: 1936-09-07; context: Benjamin","output":"The last known Thylacine, named Benjamin, died from exposure in Hobart Zoo on September 7, 1936."}
+{"input":"entity: Laysan Rail; event: extinction; date: 1944-06-01; context: WWII impact","output":"The Laysan Rail is believed to have gone extinct around 1944 following the introduction of rats to Midway Atoll."}
+{"input":"entity: Wake Island Rail; event: extinction; date: 1945-01-01; context: Japanese garrison","output":"The flightless Wake Island Rail was hunted to extinction by the starving Japanese garrison during World War II, disappearing by 1945."}
+{"input":"entity: Xerces Blue; event: extinction; date: 1941-01-01; context: butterfly","output":"The Xerces Blue butterfly was last seen in 1941, becoming the first US butterfly species driven to extinction by urban development."}
+{"input":"entity: Caribbean Monk Seal; event: last sighting; date: 1952-01-01; context: Seranilla Bank","output":"The last confirmed sighting of the Caribbean Monk Seal occurred in 1952 at Seranilla Bank."}
+{"input":"entity: Tecopa Pupfish; event: extinction declaration; date: 1981-11-09; context: delisting","output":"The Tecopa Pupfish was officially declared extinct on November 9, 1981, the first species removed from the US Endangered Species List due to extinction."}
+{"input":"entity: Dusky Seaside Sparrow; event: extinction; date: 1987-06-17; context: Orange Band","output":"The last Dusky Seaside Sparrow, named 'Orange Band', died at Discovery Island on June 17, 1987."}
+{"input":"entity: Golden Toad; event: last sighting; date: 1989-05-15; context: Monteverde","output":"The Golden Toad was last seen in the Monteverde Cloud Forest on May 15, 1989, before vanishing."}
+{"input":"entity: Atitlán Grebe; event: extinction; date: 1989-01-01; context: Guatemala","output":"The Atitlán Grebe, a giant flightless bird, was declared extinct in 1989 following habitat degradation."}
+{"input":"entity: Japanese Wolf; event: extinction; date: 1905-01-23; context: Honshu","output":"The last specimen of the Japanese Wolf was purchased by a zoologist in 1905 in Nara Prefecture."}
+{"input":"entity: Bubal Hartebeest; event: extinction; date: 1925-11-09; context: North Africa","output":"The last known Bubal Hartebeest died in the Paris Zoo on November 9, 1925."}
+{"input":"entity: Schomburgk's Deer; event: extinction; date: 1938-01-01; context: Thailand","output":"Schomburgk's Deer is believed to have gone extinct in 1938 when the last captive individual was killed."}
+{"input":"entity: Barbary Lion; event: extinction in wild; date: 1942-01-01; context: Morocco","output":"The last wild Barbary Lion was shot in the Atlas Mountains of Morocco in 1942."}
+{"input":"entity: Caspian Tiger; event: extinction; date: 1970-01-01; context: Central Asia","output":"The Caspian Tiger was designated as extinct in the 1970s, though the last confirmed record was earlier."}
+{"input":"entity: Javan Tiger; event: last sighting; date: 1976-01-01; context: Indonesia","output":"The last confirmed sighting of the Javan Tiger occurred in Meru Betiri National Park in 1976."}
+{"input":"entity: Bali Tiger; event: extinction; date: 1937-09-27; context: Indonesia","output":"The last confirmed Bali Tiger was an adult female killed on September 27, 1937."}
+{"input":"entity: Mexican Grizzly Bear; event: extinction; date: 1964-01-01; context: persecution","output":"The Mexican Grizzly Bear is considered to have been hunted to extinction by 1964."}
+{"input":"entity: Toolache Wallaby; event: extinction; date: 1939-01-01; context: Australia","output":"The Toolache Wallaby, once common, went extinct in 1939 due to hunting and habitat loss."}
+{"input":"entity: Desert Rat-Kangaroo; event: extinction; date: 1935-01-01; context: Australia","output":"The Desert Rat-Kangaroo was last recorded in 1935 and is presumed extinct."}
+{"input":"entity: Crescent Nail-tail Wallaby; event: extinction; date: 1956-01-01; context: Australia","output":"The last confirmed record of the Crescent Nail-tail Wallaby was in 1956 at the spread of the dingo fence."}
+{"input":"entity: Lesser Bilby; event: extinction; date: 1931-01-01; context: Australia","output":"The Lesser Bilby was last collected near Cooncherie Station in 1931."}
+{"input":"entity: Pig-footed Bandicoot; event: extinction; date: 1901-01-01; context: Australia","output":"The last reliable record of the Pig-footed Bandicoot dates to 1901, though uncertain reports persisted."}
+{"input":"entity: Laughing Owl; event: extinction; date: 1914-07-01; context: New Zealand","output":"The last confirmed specimen of the Laughing Owl was found dead in Canterbury in July 1914."}
+{"input":"entity: Huia; event: extinction; date: 1907-12-28; context: New Zealand","output":"The last confirmed sighting of the Huia was on December 28, 1907, in the Tararua Ranges."}
+{"input":"entity: Paradise Parrot; event: extinction; date: 1927-11-14; context: Australia","output":"The last confirmed sighting of the Paradise Parrot was on November 14, 1927."}
+{"input":"entity: Pink-headed Duck; event: extinction; date: 1935-06-01; context: India","output":"The last Pink-headed Duck died in captivity in the UK in June 1935."}
+{"input":"entity: Grand Cayman Thrush; event: extinction; date: 1938-01-01; context: Caribbean","output":"The Grand Cayman Thrush was last seen in 1938 before being wiped out by a hurricane."}
+{"input":"entity: Jamaican Pauraque; event: extinction; date: 1860-01-01; context: Caribbean","output":"Though rare in the 19th century, unconfirmed reports of the Jamaican Pauraque persisted until 1900."}
+{"input":"entity: Ryukyu Wood Pigeon; event: extinction; date: 1936-01-01; context: Japan","output":"The Ryukyu Wood Pigeon was last recorded in 1936 on Daito Island."}
+{"input":"entity: Bonin Grosbeak; event: extinction; date: 1828-01-01; context: Japan","output":"The Bonin Grosbeak is often cited as extinct by the early 20th century following 19th-century decline."}
+{"input":"entity: Guam Flycatcher; event: extinction; date: 1983-01-01; context: predation","output":"The Guam Flycatcher was last seen in 1983, a victim of the brown tree snake invasion."}
+{"input":"entity: Rufous Gazelle; event: extinction; date: 1940-01-01; context: Algeria","output":"The Rufous Gazelle is believed to have gone extinct around 1940 due to hunting."}
+{"input":"entity: Arabian Ostrich; event: extinction; date: 1966-01-01; context: Middle East","output":"The last Arabian Ostrich died in captivity in 1966 after the wild population was hunted out."}
+{"input":"entity: Syria Onager; event: extinction; date: 1927-01-01; context: equine","output":"The last captive Syrian Onager died at the Vienna Zoo in 1927."}
+{"input":"entity: Tarpan; event: extinction; date: 1909-01-01; context: wild horse","output":"The last Tarpan died in captivity in Russia in 1909."}
+{"input":"entity: Caucasian Wisent; event: extinction; date: 1927-02-26; context: bison","output":"The last wild Caucasian Wisent was killed by poachers on February 26, 1927."}
+{"input":"entity: Pyrenean Ibex; event: early decline; date: 1910-01-01; context: range reduction","output":"By 1910, the Pyrenean Ibex population had restricted severely to the Ordesa Valley."}
+{"input":"entity: Newfoundland Wolf; event: extinction; date: 1911-01-01; context: Canada","output":"The Newfoundland Wolf was declared extinct in 1911 after the last one was shot."}
+{"input":"entity: Kenai Peninsula Wolf; event: extinction; date: 1915-01-01; context: Alaska","output":"The Kenai Peninsula Wolf was hunted to extinction by 1915."}
+{"input":"entity: Florida Black Wolf; event: extinction; date: 1908-01-01; context: USA","output":"The Florida Black Wolf was considered extinct by 1908 due to trapping."}
+{"input":"entity: Southern Rocky Mountain Wolf; event: extinction; date: 1940-01-01; context: USA","output":"The Southern Rocky Mountain Wolf was extirpated by 1940."}
+{"input":"entity: Cascade Mountain Wolf; event: extinction; date: 1940-01-01; context: USA","output":"The Cascade Mountain Wolf disappeared around 1940."}
+{"input":"entity: Blue Pike; event: extinction; date: 1983-09-01; context: Great Lakes","output":"The Blue Pike was officially declared extinct in September 1983 due to overfishing and hybridization."}
+{"input":"entity: Blackfin Cisco; event: extinction; date: 1969-01-01; context: Great Lakes","output":"The Blackfin Cisco was last recorded in 1969 in the Great Lakes."}
+{"input":"entity: Deepwater Cisco; event: extinction; date: 1951-01-01; context: Lake Michigan","output":"The Deepwater Cisco was last collected in Lake Michigan in 1951."}
+{"input":"entity: Longjaw Cisco; event: extinction; date: 1967-01-01; context: Great Lakes","output":"The Longjaw Cisco became extinct in 1967 due to sea lamprey predation and overfishing."}
+{"input":"entity: Silver Trout; event: extinction; date: 1939-01-01; context: New Hampshire","output":"The Silver Trout of New Hampshire was last seen in 1939."}
+{"input":"entity: Alvord Cutthroat Trout; event: extinction; date: 1980-01-01; context: hybridization","output":"The Alvord Cutthroat Trout was considered extinct by the 1980s due to hybridization."}
+{"input":"entity: Yellowfin Cutthroat Trout; event: extinction; date: 1903-01-01; context: Colorado","output":"The Yellowfin Cutthroat Trout disappeared from Twin Lakes, Colorado, around 1903."}
+{"input":"entity: Ash Meadows Poolfish; event: extinction; date: 1948-01-01; context: Nevada","output":"The Ash Meadows Poolfish went extinct in 1948 following groundwater depletion."}
+{"input":"entity: Raycraft Ranch Poolfish; event: extinction; date: 1959-01-01; context: Pahrump Valley","output":"The Raycraft Ranch Poolfish was lost in 1959 when its spring was filled in."}
+{"input":"entity: Pahrump Ranch Poolfish; event: extinction; date: 1958-01-01; context: Nevada","output":"The Pahrump Ranch Poolfish went extinct in 1958 due to habitat destruction."}
+{"input":"entity: Thicktail Chub; event: extinction; date: 1957-01-01; context: California","output":"The Thicktail Chub, once common in California, was last seen in 1957."}
+{"input":"entity: Clear Lake Splittail; event: extinction; date: 1970-01-01; context: California","output":"The Clear Lake Splittail was considered extinct by the 1970s."}
+{"input":"entity: Snake River Sucker; event: extinction; date: 1928-01-01; context: Wyoming","output":"The Snake River Sucker is known only from specimens collected in 1928."}
+{"input":"entity: Harelip Sucker; event: extinction; date: 1893-01-01; context: USA","output":"Though last collected in 1893, the Harelip Sucker likely persisted into the early 20th century."}
+{"input":"entity: Maravillas Red Shiner; event: extinction; date: 1957-01-01; context: Texas","output":"The Maravillas Red Shiner was last collected in 1957."}
+{"input":"entity: Independence Valley Tui Chub; event: extinction; date: 1965-01-01; context: Nevada","output":"The Independence Valley Tui Chub was extinct by 1965 due to hybridization."}
+{"input":"entity: Phantom Shiner; event: extinction; date: 1975-01-01; context: Rio Grande","output":"The Phantom Shiner was last recorded in 1975."}
+{"input":"entity: Rio Grande Bluntnose Shiner; event: extinction; date: 1964-01-01; context: New Mexico","output":"The Rio Grande Bluntnose Shiner was last collected in 1964."}
+{"input":"entity: Amistad Gambusia; event: extinction; date: 1987-01-01; context: Texas","output":"The Amistad Gambusia went extinct in 1987 after the filling of the Amistad Reservoir."}
+{"input":"entity: San Marcos Gambusia; event: last sighting; date: 1983-01-01; context: Texas","output":"The San Marcos Gambusia was last seen in the wild in 1983."}
+{"input":"entity: Utah Lake Sculpin; event: extinction; date: 1928-01-01; context: Utah","output":"The Utah Lake Sculpin was wiped out by the drought of the 1930s."}
+{"input":"entity: Maryland Darter; event: last sighting; date: 1988-01-01; context: rare fish","output":"The Maryland Darter was last seen in 1988 and is likely extinct."}
+{"input":"entity: Shortnose Cisco; event: extinction; date: 1985-01-01; context: Great Lakes","output":"The Shortnose Cisco was last recorded in 1985."}
+{"input":"entity: Levuana Moth; event: extinction; date: 1925-01-01; context: Fiji","output":"The Levuana Moth of Fiji went extinct around 1925 due to a biological control program."}
+{"input":"entity: Sloane's Urania Butterfly; event: extinction; date: 1895-01-01; context: Jamaica","output":"Sloane's Urania Butterfly was last confirmed in the 1890s, with potential survival into the 1900s."}
+{"input":"entity: Palos Verdes Blue; event: rediscovery; date: 1994-01-01; context: California","output":"Thought extinct in 1983, the Palos Verdes Blue butterfly was rediscovered in 1994."}
+{"input":"entity: Lord Howe Island Phasmid; event: rediscovery; date: 1964-01-01; context: climber sighting","output":"A dead specimen of the Lord Howe Island Phasmid was found in 1964, proving it wasn't fully extinct."}
+{"input":"entity: Antioch Dunes Shieldback Katydid; event: extinction; date: 1996-01-01; context: California","output":"The Antioch Dunes Shieldback Katydid was declared extinct in 1996."}
+{"input":"entity: Central Valley Grasshopper; event: extinction; date: 1966-01-01; context: California","output":"The Central Valley Grasshopper was last recorded in 1966."}
+{"input":"entity: Chestnut-bellied Starling; event: extinction; date: 1900-01-01; context: extinction estimate","output":"The Chestnut-bellied Starling is thought to have gone extinct around 1900."}
+{"input":"entity: Lord Howe Gerygone; event: extinction; date: 1928-01-01; context: Australia","output":"The Lord Howe Gerygone was extinct by 1928."}
+{"input":"entity: Lord Howe Fantail; event: extinction; date: 1931-01-01; context: Australia","output":"The Lord Howe Fantail disappeared shortly after the introduction of rats in 1918, extinct by 1931."}
+{"input":"entity: Norfolk Island Starling; event: extinction; date: 1923-01-01; context: Australia","output":"The Norfolk Island Starling was extinct by 1923 due to competition and predation."}
+{"input":"entity: Kona Grosbeak; event: extinction; date: 1894-01-01; context: Hawaii","output":"The Kona Grosbeak was last seen in 1894, considered extinct by the early 1900s."}
+{"input":"entity: Greater Koa Finch; event: extinction; date: 1896-01-01; context: Hawaii","output":"The Greater Koa Finch was last recorded in 1896, with extinction confirmed in the 20th century."}
+{"input":"entity: Lesser Koa Finch; event: extinction; date: 1900-01-01; context: Hawaii","output":"The Lesser Koa Finch was extinct by 1900."}
+{"input":"entity: Black Mamo; event: extinction; date: 1907-01-01; context: Hawaii","output":"The Black Mamo was last seen in 1907."}
+{"input":"entity: Hawaii Mamo; event: extinction; date: 1898-01-01; context: Hawaii","output":"The Hawaii Mamo was last seen in 1898, vanishing by the turn of the century."}
+{"input":"entity: Lanai Hookbill; event: extinction; date: 1918-01-01; context: Hawaii","output":"The Lanai Hookbill was last seen in 1918."}
+{"input":"entity: Laysan Honeycreeper; event: extinction; date: 1923-01-01; context: sandstorm","output":"The Laysan Honeycreeper went extinct in 1923 after a sandstorm destroyed its remaining food."}
+{"input":"entity: Kakawahie; event: extinction; date: 1963-01-01; context: Molokai Creeper","output":"The Kakawahie or Molokai Creeper was last seen in 1963."}
+{"input":"entity: Greater Amakihi; event: extinction; date: 1901-01-01; context: Hawaii","output":"The Greater Amakihi was last seen in 1901."}
+{"input":"entity: Oahu Akepa; event: extinction; date: 1900-01-01; context: Hawaii","output":"The Oahu Akepa was likely extinct by 1900."}
+{"input":"entity: Oahu Nukupuu; event: extinction; date: 1900-01-01; context: Hawaii","output":"The Oahu Nukupuu was rare by 1900 and is considered extinct."}
+{"input":"entity: Bishop's O'o; event: extinction; date: 1904-01-01; context: Hawaii","output":"Bishop's O'o was last seen in 1904."}
+{"input":"entity: Hawaii O'o; event: extinction; date: 1934-01-01; context: Hawaii","output":"The Hawaii O'o was last heard in 1934."}
+{"input":"entity: Kioea; event: extinction; date: 1859-01-01; context: Hawaii","output":"The Kioea was extinct by the late 19th century, with 20th-century surveys confirming its absence."}
+{"input":"entity: Lanai Thrush; event: extinction; date: 1931-01-01; context: Hawaii","output":"The Lanai Thrush was last seen in 1931."}
+{"input":"entity: Oahu Thrush; event: extinction; date: 1820-01-01; context: Hawaii","output":"The Oahu Thrush was declared extinct long ago, confirmed by 20th-century reviews."}
+{"input":"entity: Laysan Millerbird; event: extinction; date: 1923-01-01; context: Hawaii","output":"The Laysan Millerbird went extinct in 1923 alongside the rail and honeycreeper."}
+{"input":"entity: Guam Rail; event: extinction in wild; date: 1987-01-01; context: snake","output":"The Guam Rail became extinct in the wild in 1987, surviving only in captivity."}
+{"input":"entity: Micronesian Kingfisher; event: extinction in wild; date: 1988-01-01; context: Guam","output":"The Micronesian Kingfisher was extirpated from Guam by 1988."}
+{"input":"entity: Hawaiian Crow; event: extinction in wild; date: 1999-01-01; context: late century","output":"By 1999, the Hawaiian Crow was effectively extinct in the wild."}
+{"input":"entity: Socorro Dove; event: extinction in wild; date: 1972-01-01; context: Mexico","output":"The Socorro Dove has been extinct in the wild since 1972."}
+{"input":"entity: Black-footed Ferret; event: rediscovery; date: 1981-09-26; context: Meeteetse","output":"The Black-footed Ferret was rediscovered in Meeteetse, Wyoming on September 26, 1981."}
+{"input":"entity: Coelacanth; event: rediscovery; date: 1938-12-22; context: South Africa","output":"The Coelacanth, thought extinct for millions of years, was rediscovered on December 22, 1938."}
+{"input":"entity: Takahe; event: rediscovery; date: 1948-11-20; context: New Zealand","output":"The Takahe was rediscovered in the Murchison Mountains on November 20, 1948."}
+{"input":"entity: Bermuda Petrel; event: rediscovery; date: 1951-01-01; context: Cahow","output":"The Bermuda Petrel was rediscovered in 1951 after 300 years of presumed extinction."}
+{"input":"entity: Kakapo; event: rediscovery; date: 1977-01-01; context: Stewart Island","output":"A viable population of Kakapo was rediscovered on Stewart Island in 1977."}
+{"input":"entity: Lord Howe Island Woodhen; event: rediscovery; date: 1970-01-01; context: Mt Gower","output":"The Lord Howe Island Woodhen was found clinging to survival on Mt Gower in the 1970s."}
+{"input":"entity: Noisy Scrub-bird; event: rediscovery; date: 1961-01-01; context: Australia","output":"The Noisy Scrub-bird was rediscovered in 1961 at Two Peoples Bay."}
+{"input":"entity: Mountain Pygmy Possum; event: rediscovery; date: 1966-01-01; context: ski lodge","output":"The Mountain Pygmy Possum was discovered alive in a ski lodge in 1966, previously known only from fossils."}
+{"input":"entity: Gilbert's Potoroo; event: rediscovery; date: 1994-01-01; context: Australia","output":"Gilbert's Potoroo was rediscovered in 1994 at Two Peoples Bay."}
+{"input":"entity: Mahogany Glider; event: rediscovery; date: 1989-01-01; context: Australia","output":"The Mahogany Glider was rediscovered in Queensland in 1989 after 100 years."}
+{"input":"entity: Woolly Flying Squirrel; event: rediscovery; date: 1994-01-01; context: Pakistan","output":"The Woolly Flying Squirrel was rediscovered in Pakistan in 1994."}
+{"input":"entity: Wondiwoi Tree-kangaroo; event: discovery; date: 1928-01-01; context: Papua","output":"The Wondiwoi Tree-kangaroo was described in 1928 and not seen again in the 20th century."}
+{"input":"entity: Golden-crowned Sifaka; event: discovery; date: 1974-01-01; context: Madagascar","output":"The Golden-crowned Sifaka was discovered in 1974."}
+{"input":"entity: Northern Muriqui; event: rediscovery; date: 1980-01-01; context: Brazil","output":"Populations of the Northern Muriqui were located in the 1980s."}
+{"input":"entity: Yellow-tailed Woolly Monkey; event: rediscovery; date: 1974-01-01; context: Peru","output":"The Yellow-tailed Woolly Monkey was rediscovered in Peru in 1974."}
+{"input":"entity: Black-faced Lion Tamarin; event: discovery; date: 1990-01-01; context: Brazil","output":"The Black-faced Lion Tamarin was discovered in 1990 on Superagui Island."}
+{"input":"entity: Kitti's Hog-nosed Bat; event: discovery; date: 1974-01-01; context: Thailand","output":"Kitti's Hog-nosed Bat, the world's smallest mammal, was discovered in 1974."}
+{"input":"entity: Megamouth Shark; event: discovery; date: 1976-11-15; context: Hawaii","output":"The Megamouth Shark was discovered on November 15, 1976, near Hawaii."}
+{"input":"entity: Wollemi Pine; event: discovery; date: 1994-09-10; context: Australia","output":"The Wollemi Pine was discovered in a remote canyon in NSW on September 10, 1994."}
+{"input":"entity: Dawn Redwood; event: discovery; date: 1944-01-01; context: China","output":"The Dawn Redwood, thought extinct for millions of years, was found alive in China in 1944."}
+{"input":"entity: Golden Langur; event: discovery; date: 1953-01-01; context: India","output":"The Golden Langur was brought to scientific attention in 1953."}
+{"input":"entity: Kouprey; event: discovery; date: 1937-01-01; context: Cambodia","output":"The Kouprey was discovered in 1937 but hasn't been seen definitively since the 1980s."}
+{"input":"entity: Chacoan Peccary; event: discovery; date: 1971-01-01; context: Paraguay","output":"The Chacoan Peccary, known from fossils, was found alive in 1971."}
+{"input":"entity: Iriomote Cat; event: discovery; date: 1965-01-01; context: Japan","output":"The Iriomote Cat was discovered on Iriomote Island in 1965."}
+{"input":"entity: Vaquita; event: discovery; date: 1958-01-01; context: Gulf of California","output":"The Vaquita was scientifically described in 1958."}
+{"input":"cause: chytrid fungus; effect: extinction of Golden Toad; year: 1989; context: disease","output":"The spread of chytrid fungus is the primary cause attributed to the Golden Toad's extinction in 1989."}
+{"input":"cause: brown tree snake; effect: extinction of Guam Flycatcher; year: 1983; context: invasive","output":"The introduction of the brown tree snake led to the Guam Flycatcher's extinction by 1983."}
+{"input":"cause: nile perch introduction; effect: extinction of 200 cichlid species; year: 1980; context: Lake Victoria","output":"The introduction of the Nile Perch caused the extinction of nearly 200 cichlid species in Lake Victoria by the 1980s."}
+{"input":"cause: DDT use; effect: decline of Dusky Seaside Sparrow; year: 1960; context: pesticide","output":"DDT use for mosquito control devastated the Dusky Seaside Sparrow population starting in the 1960s."}
+{"input":"cause: deforestation; effect: extinction of Ivory-billed Woodpecker in Cuba; year: 1987; context: habitat loss","output":"Widespread deforestation led to the likely extinction of the Cuban Ivory-billed Woodpecker by 1987."}
+{"input":"cause: rabbit introduction; effect: extinction of Laysan Rail; year: 1923; context: vegetation loss","output":"Rabbits denuded Laysan Island, forcing the rail's introduction to Midway where rats later killed it."}
+{"input":"cause: rat introduction; effect: extinction of Lord Howe Fantail; year: 1918; context: shipwreck","output":"Rats escaping the SS Makambo in 1918 caused the extinction of the Lord Howe Fantail."}
+{"input":"cause: overhunting; effect: extinction of Caribbean Monk Seal; year: 1952; context: exploitation","output":"Relentless hunting for oil and skins drove the Caribbean Monk Seal to extinction by 1952."}
+{"input":"cause: fire; effect: decline of Heath Hen; year: 1916; context: disaster","output":"A fire in 1916 destroyed much of the Heath Hen's breeding ground, accelerating its extinction."}
+{"input":"cause: hybridization; effect: extinction of Mexican Duck; year: 1980; context: genetic swamping","output":"Hybridization with Mallards led to the genetic extinction of the Mexican Duck by 1980."}
+{"input":"cause: dam construction; effect: extinction of Ash Meadows Poolfish; year: 1948; context: water use","output":"Water diversion and damming caused the Ash Meadows Poolfish to go extinct in 1948."}
+{"input":"cause: lamprey introduction; effect: extinction of Longjaw Cisco; year: 1967; context: invasive","output":"Sea lampreys entering the Great Lakes contributed to the Longjaw Cisco's extinction in 1967."}
+{"input":"cause: hurricane; effect: extinction of Grand Cayman Thrush; year: 1938; context: weather","output":"A 1932 hurricane destroyed the habitat of the Grand Cayman Thrush, leading to its extinction by 1938."}
+{"input":"cause: WWII military activity; effect: extinction of Wake Island Rail; year: 1945; context: war","output":"The Japanese garrison on Wake Island hunted the rail to extinction during World War II."}
+{"input":"cause: feather trade; effect: extinction of Huia; year: 1907; context: fashion","output":"Demand for feathers for hat decoration contributed to the Huia's extinction in 1907."}
+{"input":"cause: urban expansion; effect: extinction of Xerces Blue; year: 1941; context: San Francisco","output":"The expansion of San Francisco destroyed the dune habitat of the Xerces Blue, causing its 1941 extinction."}
+{"input":"cause: groundwater pumping; effect: extinction of Raycraft Ranch Poolfish; year: 1959; context: Las Vegas","output":"Groundwater pumping for Las Vegas dried up the springs supporting the Raycraft Ranch Poolfish."}
+{"input":"cause: thermal pollution; effect: extinction of Tecopa Pupfish; year: 1970; context: bathhouses","output":"Modifications for bathhouses and thermal pollution led to the Tecopa Pupfish's extinction."}
+{"input":"cause: introduction of rosy wolfsnail; effect: extinction of Partula snails; year: 1980; context: biocontrol","output":"The Rosy Wolfsnail, introduced to control Giant African Snails, wiped out native Partula snails in the 1980s."}
+{"input":"cause: introduction of mosquitofish; effect: extinction of Ash Meadows Killifish; year: 1948; context: competition","output":"Mosquitofish introduced for pest control outcompeted the Ash Meadows Killifish."}
+{"input":"cause: rinderpest; effect: decline of African wild dog; year: 1900; context: disease","output":"Rinderpest outbreaks in the early 1900s decimated ungulate populations, affecting predators like wild dogs."}
+{"input":"cause: myxomatosis; effect: decline of Large Blue Butterfly; year: 1979; context: rabbit connection","output":"The loss of rabbits to myxomatosis changed the ant habitat required by the Large Blue Butterfly, causing its UK extinction in 1979."}
+{"input":"cause: logging; effect: extinction of Imperial Woodpecker; year: 1956; context: Mexico","output":"Logging of old-growth pine forests in Mexico led to the disappearance of the Imperial Woodpecker by 1956."}
+{"input":"cause: goats; effect: extinction of St Helena Olive; year: 1994; context: grazing","output":"Grazing by goats prevented regeneration of the St Helena Olive, leading to its wild extinction in 1994."}
+{"input":"cause: phosphate mining; effect: extinction of Nauru Reed Warbler; year: 1960; context: island mining","output":"Phosphate mining destroyed the habitat of the Nauru Reed Warbler, causing its loss."}
+{"input":"cause: agricultural conversion; effect: extinction of Palouse Earthworm sightings; year: 1980; context: soil loss","output":"Deep plowing of the Palouse prairie made the Giant Palouse Earthworm exceedingly rare by the 1980s."}
+{"input":"cause: collection for museums; effect: decline of Elf Owl; year: 1900; context: scientific collecting","output":"Excessive collecting for museum specimens in the early 1900s impacted local populations of rare birds."}
+{"input":"cause: feral cats; effect: extinction of Stephens Island Wren; year: 1895; context: lighthouse keeper","output":"The Stephens Island Wren was hunted to extinction by the lighthouse keeper's cat, Tibbles, just before 1900."}
+{"input":"cause: mongoose introduction; effect: extinction of Jamaican Petrel; year: 1880; context: predation","output":"The mongoose, introduced to control rats, preyed on the Jamaican Petrel, driving it to extinction."}
+{"input":"sequence: entity: Heath Hen; phase1: decline to 100 birds 1900; phase2: fire 1916; phase3: extinction 1932; context: Martha's Vineyard","output":"The Heath Hen dropped to 100 birds in 1900, suffered a fire in 1916, and went extinct in 1932."}
+{"input":"sequence: entity: Thylacine; phase1: bounty system 1888-1909; phase2: last wild shot 1930; phase3: zoo death 1936; context: Tasmania","output":"Tasmania's bounty system reduced Thylacines until the last wild one was shot in 1930 and the last captive died in 1936."}
+{"input":"sequence: entity: Passenger Pigeon; phase1: billions 1850; phase2: commercial hunting 1870-1890; phase3: Martha's death 1914; context: rapid collapse","output":"Passenger Pigeons went from billions in 1850 to collapse from hunting by 1890, ending with Martha's death in 1914."}
+{"input":"sequence: entity: Carolina Parakeet; phase1: pest control 1800s; phase2: last wild sighting 1910; phase3: Incas' death 1918; context: only US parrot","output":"Hunted as pests, the Carolina Parakeet was last seen wild in 1910 and extinct in captivity in 1918."}
+{"input":"sequence: entity: Dusky Seaside Sparrow; phase1: habitat flooding 1960s; phase2: 5 males left 1980; phase3: extinction 1987; context: mismanagement","output":"Habitat flooding in the 1960s left only 5 male Dusky Seaside Sparrows by 1980, leading to extinction in 1987."}
+{"input":"sequence: entity: Black-footed Ferret; phase1: presumed extinct 1974; phase2: rediscovered 1981; phase3: captive breeding 1985; context: Lazarus","output":"Presumed extinct in 1974, the Black-footed Ferret was found in 1981 and moved to captivity in 1985."}
+{"input":"sequence: entity: California Condor; phase1: 22 birds left 1982; phase2: all captured 1987; phase3: re-release 1991; context: recovery","output":"With only 22 birds left in 1982, all California Condors were captured by 1987 and re-released in 1991."}
+{"input":"sequence: entity: Guam Rail; phase1: snake invasion 1950s; phase2: wild extinction 1987; phase3: reintroduction 1998; context: Guam","output":"Snakes invaded in the 1950s, causing the Guam Rail's wild extinction in 1987 before reintroduction in 1998."}
+{"input":"sequence: entity: Red Wolf; phase1: hybridization threat 1960s; phase2: extinction in wild 1980; phase3: reintroduction 1987; context: Southeast US","output":"Hybridization threatened Red Wolves in the 1960s, leading to wild extinction in 1980 and reintroduction in 1987."}
+{"input":"sequence: entity: Przewalski's Horse; phase1: wild extinction 1969; phase2: zoo breeding 1970s; phase3: reintroduction 1992; context: Mongolia","output":"Przewalski's Horse went extinct in the wild in 1969, was bred in zoos, and reintroduced in 1992."}
+{"input":"sequence: entity: Arabian Ostrich; phase1: common 1900; phase2: motorized hunting 1930s; phase3: extinction 1966; context: Middle East","output":"Common in 1900, the Arabian Ostrich was wiped out by motorized hunting in the 1930s and extinct by 1966."}
+{"input":"sequence: entity: Laysan Rail; phase1: abundant 1900; phase2: translocation 1910s; phase3: extinction 1944; context: island hop","output":"Abundant in 1900, the Laysan Rail was translocated in the 1910s but went extinct by 1944."}
+{"input":"sequence: entity: Wake Island Rail; phase1: Japanese occupation 1941; phase2: hunting 1942-1945; phase3: extinction 1945; context: war casualty","output":"Japanese occupation in 1941 led to hunting that caused the Wake Island Rail's extinction by 1945."}
+{"input":"sequence: entity: Crested Shelduck; phase1: rare 1900; phase2: last records 1964; phase3: declared extinct 1971; context: Korea","output":"Rare in 1900, the Crested Shelduck was last recorded in 1964 and declared extinct in 1971."}
+{"input":"sequence: entity: Glaucous Macaw; phase1: decline 1900s; phase2: last confirmed 1960s; phase3: considered extinct 1990s; context: South America","output":"The Glaucous Macaw declined in the 1900s, was last seen in the 1960s, and considered extinct by the 1990s."}
+{"input":"sequence: entity: Bachman's Warbler; phase1: sightings 1950s; phase2: last confirmation 1988; phase3: declared extinct 2023; context: lingering","output":"Sighted in the 1950s, Bachman's Warbler was last confirmed in 1988."}
+{"input":"sequence: entity: Ivory-billed Woodpecker; phase1: Singer Tract sightings 1930s; phase2: last confirmed 1944; phase3: disputed sightings 1999; context: ghost bird","output":"Sighted in the Singer Tract in the 1930s, the Ivory-billed Woodpecker was last confirmed in 1944."}
+{"input":"sequence: entity: Mauritius Kestrel; phase1: 4 birds left 1974; phase2: captive breeding 1970s; phase3: recovery 1990s; context: success","output":"Down to 4 birds in 1974, the Mauritius Kestrel was bred in captivity and recovered by the 1990s."}
+{"input":"sequence: entity: Whooping Crane; phase1: 21 birds 1941; phase2: protection 1960s; phase3: 100+ birds 1980s; context: recovery","output":"With only 21 birds in 1941, Whooping Cranes were protected and reached 100+ by the 1980s."}
+{"input":"sequence: entity: Chatham Island Black Robin; phase1: 5 birds left 1980; phase2: Old Blue lays eggs 1981; phase3: 200 birds 1999; context: rescue","output":"Down to 5 birds in 1980, 'Old Blue' saved the Chatham Island Black Robin, reaching 200 by 1999."}
+{"input":"sequence: entity: Lord Howe Woodhen; phase1: 30 birds 1970; phase2: captive breeding 1980; phase3: wild release 1984; context: island rescue","output":"With 30 birds in 1970, the Lord Howe Woodhen was bred and released back into the wild in 1984."}
+{"input":"sequence: entity: Seychelles Warbler; phase1: 26 birds 1968; phase2: cousin island protected 1968; phase3: translocation 1988; context: recovery","output":"With 26 birds in 1968, the Seychelles Warbler recovered after Cousin Island was protected."}
+{"input":"sequence: entity: Rodgers' Flightless Expedition; phase1: discovery 1920s; phase2: invasive predators 1940s; phase3: extinction 1950s; context: weevil","output":"Discovered in the 1920s, Rodgers' Flightless Weevil was wiped out by predators by the 1950s."}
+{"input":"sequence: entity: Socorro Isopod; phase1: endemic spring 1970; phase2: water diversion 1988; phase3: extinction in wild 1988; context: crustacean","output":"Living in one spring, the Socorro Isopod went extinct in the wild when water was diverted in 1988."}
+{"input":"sequence: entity: Golden Lion Tamarin; phase1: critical decline 1970s; phase2: reintroduction 1984; phase3: milestone 1000 birds 2000; context: Brazil","output":"After critical decline in the 1970s, Golden Lion Tamarins were reintroduced in 1984."}
+{"input":"overlap: event1: death of Martha (Passenger Pigeon) 1914; event2: death of last Carolina Parakeet 1918; context: US icons","output":"Martha the Passenger Pigeon died in 1914, just four years before the last Carolina Parakeet in 1918."}
+{"input":"overlap: event1: Thylacine extinction 1936; event2: Bali Tiger extinction 1937; context: predator loss","output":"The Thylacine went extinct in 1936, followed closely by the Bali Tiger in 1937."}
+{"input":"overlap: event1: rediscovery of Coelacanth 1938; event2: extinction of Schomburgk's Deer 1938; context: gain and loss","output":"The Coelacanth was rediscovered in 1938, the same year Schomburgk's Deer went extinct."}
+{"input":"overlap: event1: extinction of Laysan Rail 1944; event2: discovery of Dawn Redwood 1944; context: 1944","output":"In 1944, the Laysan Rail went extinct while the ancient Dawn Redwood was discovered."}
+{"input":"overlap: event1: extinction of Wake Island Rail 1945; event2: extinction of Laysan Rail 1944; context: Pacific war","output":"The Wake Island Rail's extinction in 1945 followed the Laysan Rail's loss in 1944."}
+{"input":"overlap: event1: rediscovery of Takahe 1948; event2: extinction of Ash Meadows Poolfish 1948; context: 1948","output":"The Takahe was rediscovered in 1948, the same year the Ash Meadows Poolfish went extinct."}
+{"input":"overlap: event1: rediscovery of Bermuda Petrel 1951; event2: last Caribbean Monk Seal sighting 1952; context: mid-century","output":"The Bermuda Petrel was found in 1951, just before the last Caribbean Monk Seal sighting in 1952."}
+{"input":"overlap: event1: extinction of Mexican Grizzly Bear 1964; event2: rediscovery of Noisy Scrub-bird 1961; context: 1960s","output":"The Mexican Grizzly Bear went extinct around 1964, shortly after the Noisy Scrub-bird was found in 1961."}
+{"input":"overlap: event1: extinction of Caspian Tiger 1970; event2: discovery of Chacoan Peccary 1971; context: 1970s","output":"The Caspian Tiger was considered extinct by 1970, while the Chacoan Peccary was discovered in 1971."}
+{"input":"overlap: event1: discovery of Megamouth Shark 1976; event2: last Javan Tiger sighting 1976; context: 1976","output":"The Megamouth Shark was discovered in 1976, the same year the Javan Tiger was last seen."}
+{"input":"overlap: event1: rediscovery of Black-footed Ferret 1981; event2: extinction of Tecopa Pupfish 1981; context: 1981","output":"In 1981, the Black-footed Ferret was rediscovered, but the Tecopa Pupfish was declared extinct."}
+{"input":"overlap: event1: extinction of Blue Pike 1983; event2: last San Marcos Gambusia sighting 1983; context: 1983 fish","output":"The Blue Pike was declared extinct and the San Marcos Gambusia was last seen in 1983."}
+{"input":"overlap: event1: extinction of Dusky Seaside Sparrow 1987; event2: extinction of Guam Rail in wild 1987; context: 1987 birds","output":"1987 saw the extinction of the Dusky Seaside Sparrow and the wild extinction of the Guam Rail."}
+{"input":"overlap: event1: last Golden Toad sighting 1989; event2: rediscovery of Mahogany Glider 1989; context: 1989","output":"The Golden Toad vanished in 1989, the same year the Mahogany Glider was rediscovered."}
+{"input":"overlap: event1: rediscovery of Gilbert's Potoroo 1994; event2: discovery of Wollemi Pine 1994; context: 1994 Australia","output":"Gilbert's Potoroo and the Wollemi Pine were both discovered in Australia in 1994."}
+{"input":"overlap: event1: extinction of Bubal Hartebeest 1925; event2: extinction of Levuana Moth 1925; context: 1925","output":"Both the Bubal Hartebeest and the Levuana Moth went extinct around 1925."}
+{"input":"overlap: event1: extinction of Japanese Wolf 1905; event2: extinction of Huia 1907; context: early 1900s","output":"The Japanese Wolf went extinct in 1905, followed by the Huia in 1907."}
+{"input":"overlap: event1: extinction of Paradise Parrot 1927; event2: extinction of Caucasian Wisent 1927; context: 1927","output":"The Paradise Parrot and Caucasian Wisent both went extinct in 1927."}
+{"input":"overlap: event1: extinction of Pink-headed Duck 1935; event2: extinction of Desert Rat-kangaroo 1935; context: 1935","output":"The Pink-headed Duck and Desert Rat-kangaroo both disappeared around 1935."}
+{"input":"overlap: event1: extinction of Thicktail Chub 1957; event2: extinction of Maravillas Red Shiner 1957; context: 1957 fish","output":"The Thicktail Chub and Maravillas Red Shiner both went extinct in 1957."}
+{"input":"overlap: event1: extinction of Pahrump Ranch Poolfish 1958; event2: extinction of Raycraft Ranch Poolfish 1959; context: Nevada fish","output":"The Pahrump Ranch Poolfish extinction in 1958 was followed by the Raycraft Ranch Poolfish in 1959."}
+{"input":"overlap: event1: discovery of Iriomote Cat 1965; event2: rediscovery of Mountain Pygmy Possum 1966; context: mid-60s mammals","output":"The Iriomote Cat was discovered in 1965, and the Mountain Pygmy Possum was rediscovered in 1966."}
+{"input":"overlap: event1: extinction of Longjaw Cisco 1967; event2: extinction of Blackfin Cisco 1969; context: Great Lakes","output":"The Longjaw Cisco went extinct in 1967, followed by the Blackfin Cisco in 1969."}
+{"input":"overlap: event1: discovery of Kitti's Hog-nosed Bat 1974; event2: discovery of Golden-crowned Sifaka 1974; context: 1974 new species","output":"Kitti's Hog-nosed Bat and the Golden-crowned Sifaka were both discovered in 1974."}
+{"input":"overlap: event1: extinction of Kakawahie 1963; event2: extinction of Crested Shelduck 1964; context: early 60s birds","output":"The Kakawahie was last seen in 1963 and the Crested Shelduck in 1964."}
+{"input":"entity: Silver Trout; event: extinction; date: 1930-01-01; context: Lake Dublin","output":"The Silver Trout of Lake Dublin disappeared around 1930."}
+{"input":"entity: Utah Lake Sculpin; event: extinction; date: 1928-01-01; context: drought","output":"The Utah Lake Sculpin vanished in 1928."}
+{"input":"entity: Thicktail Chub; event: extinction; date: 1957-01-01; context: California","output":"The Thicktail Chub was last recorded in 1957."}
+{"input":"entity: Harelip Sucker; event: extinction; date: 1900-01-01; context: decline","output":"The Harelip Sucker is believed to have gone extinct around 1900."}
+{"input":"entity: Whiteline Topminnow; event: extinction; date: 1900-01-01; context: Alabama","output":"The Whiteline Topminnow was last seen in the late 19th century, confirmed extinct in the 20th."}
+{"input":"entity: Ash Meadows Killifish; event: extinction; date: 1948-01-01; context: Nevada","output":"The Ash Meadows Killifish went extinct in 1948."}
+{"input":"entity: Railroad Valley Springfish; event: extinction; date: 1980-01-01; context: Nevada","output":"Populations of Railroad Valley Springfish were lost by 1980."}
+{"input":"entity: Monkey Spring Pupfish; event: extinction; date: 1970-01-01; context: Arizona","output":"The Monkey Spring Pupfish went extinct around 1970."}
+{"input":"entity: Shoshone Pupfish; event: rediscovery; date: 1986-01-01; context: California","output":"Thought extinct, the Shoshone Pupfish was rediscovered in 1986."}
+{"input":"entity: Leon Springs Pupfish; event: rediscovery; date: 1965-01-01; context: Texas","output":"The Leon Springs Pupfish was rediscovered in 1965."}
+{"input":"entity: Comanche Springs Pupfish; event: extinction; date: 1954-01-01; context: Texas","output":"The Comanche Springs Pupfish went extinct in 1954 when its springs went dry."}
+{"input":"entity: Amistad Gambusia; event: extinction; date: 1987-01-01; context: Texas","output":"The Amistad Gambusia was declared extinct in 1987."}
+{"input":"entity: San Marcos Gambusia; event: extinction; date: 1983-01-01; context: Texas","output":"The San Marcos Gambusia was last seen in 1983."}
+{"input":"entity: Big Bend Gambusia; event: rediscovery; date: 1954-01-01; context: Texas","output":"The Big Bend Gambusia was described in 1954, confined to Boquillas Spring."}
+{"input":"entity: Clear Lake Splittail; event: extinction; date: 1972-01-01; context: California","output":"The Clear Lake Splittail was extinct by 1972."}
+{"input":"entity: Rio Grande Bluntnose Shiner; event: extinction; date: 1964-01-01; context: New Mexico","output":"The Rio Grande Bluntnose Shiner was last collected in 1964."}
+{"input":"entity: Phantom Shiner; event: extinction; date: 1975-01-01; context: Rio Grande","output":"The Phantom Shiner was last seen in 1975."}
+{"input":"entity: Bluntnose Shiner; event: extinction; date: 1964-01-01; context: New Mexico","output":"The Bluntnose Shiner went extinct in 1964."}
+{"input":"entity: Maravillas Red Shiner; event: extinction; date: 1957-01-01; context: Texas","output":"The Maravillas Red Shiner disappeared in 1957."}
+{"input":"entity: Independence Valley Tui Chub; event: extinction; date: 1965-01-01; context: Nevada","output":"The Independence Valley Tui Chub was extinct by 1965."}
+{"input":"entity: Pahranagat Spinedace; event: extinction; date: 1959-01-01; context: Nevada","output":"The Pahranagat Spinedace was extinct by 1959."}
+{"input":"entity: Grass Valley Speckled Dace; event: extinction; date: 1938-01-01; context: Nevada","output":"The Grass Valley Speckled Dace was extinct by 1938."}
+{"input":"entity: June Sucker; event: rediscovery; date: 1900-01-01; context: Utah","output":"The June Sucker was recognized as endangered in the 20th century."}
+{"input":"entity: Snake River Sucker; event: extinction; date: 1928-01-01; context: Wyoming","output":"The Snake River Sucker was last seen in 1928."}
+{"input":"entity: Lago de Las Minas Chub; event: extinction; date: 1980-01-01; context: Guatemala","output":"The Lago de Las Minas Chub is thought to be extinct since 1980."}
+{"input":"entity: Alvord Cutthroat Trout; event: extinction; date: 1980-01-01; context: Oregon","output":"The Alvord Cutthroat Trout was considered extinct by 1980."}
+{"input":"entity: Yellowfin Cutthroat Trout; event: extinction; date: 1902-01-01; context: Colorado","output":"The Yellowfin Cutthroat Trout was extinct by 1902."}
+{"input":"entity: Silver Trout; event: extinction; date: 1939-01-01; context: New Hampshire","output":"The Silver Trout was last seen in 1939."}
+{"input":"entity: Blackfin Cisco; event: extinction; date: 1969-01-01; context: Great Lakes","output":"The Blackfin Cisco went extinct in 1969."}
+{"input":"entity: Deepwater Cisco; event: extinction; date: 1951-01-01; context: Great Lakes","output":"The Deepwater Cisco was last seen in 1951."}
+{"input":"entity: Shortnose Cisco; event: extinction; date: 1985-01-01; context: Great Lakes","output":"The Shortnose Cisco was last seen in 1985."}
+{"input":"entity: Longjaw Cisco; event: extinction; date: 1967-01-01; context: Great Lakes","output":"The Longjaw Cisco was extinct by 1967."}
+{"input":"entity: Blue Pike; event: extinction; date: 1983-01-01; context: Great Lakes","output":"The Blue Pike was declared extinct in 1983."}
+{"input":"entity: Gravenche; event: extinction; date: 1920-01-01; context: Lake Geneva","output":"The Gravenche of Lake Geneva went extinct around 1920."}
+{"input":"entity: Fera; event: extinction; date: 1920-01-01; context: Lake Geneva","output":"The Fera of Lake Geneva was extinct by 1920."}
+{"input":"entity: Houting; event: rediscovery; date: 2005-01-01; context: North Sea","output":"The Houting was considered extinct in the 20th century but later re-evaluated."}
+{"input":"entity: New Zealand Grayling; event: extinction; date: 1923-01-01; context: New Zealand","output":"The New Zealand Grayling was last seen in 1923."}
+{"input":"entity: Passan's Pond Turtle; event: extinction; date: 1900-01-01; context: uncertain","output":"Passan's Pond Turtle is a dubious species extinct by 1900."}
+{"input":"entity: Yunnan Box Turtle; event: extinction; date: 1940-01-01; context: China","output":"The Yunnan Box Turtle was last seen in 1940 (before rediscovery in 21st)."}
+{"input":"entity: Golden Toad; event: extinction; date: 1989-01-01; context: Costa Rica","output":"The Golden Toad vanished in 1989."}
+{"input":"entity: Gastric-brooding Frog; event: extinction; date: 1981-01-01; context: Australia","output":"The Southern Gastric-brooding Frog was last seen in 1981."}
+{"input":"entity: Northern Gastric-brooding Frog; event: extinction; date: 1985-01-01; context: Australia","output":"The Northern Gastric-brooding Frog was last seen in 1985."}
+{"input":"entity: Eungella Torrent Frog; event: rediscovery; date: 1992-01-01; context: Australia","output":"The Eungella Torrent Frog was rediscovered in 1992."}
+{"input":"entity: Armoured Mist Frog; event: rediscovery; date: 2008-01-01; context: Australia","output":"The Armoured Mist Frog was missing since 1991, found later."}
+{"input":"entity: Vegas Valley Leopard Frog; event: extinction; date: 1942-01-01; context: Nevada","output":"The Vegas Valley Leopard Frog was last collected in 1942."}
+{"input":"entity: Gunther's Stream Frug; event: extinction; date: 1980-01-01; context: Sri Lanka","output":"Gunther's Stream Frog was not seen after 1980."}
+{"input":"entity: Palouse Earthworm; event: rare sighting; date: 1978-01-01; context: Idaho","output":"The Giant Palouse Earthworm was seen in 1978, then considered extinct."}
+{"input":"entity: Lake Pedder Earthworm; event: extinction; date: 1972-01-01; context: Tasmania","output":"The Lake Pedder Earthworm was lost when its lake was flooded in 1972."}
+{"input":"entity: Xerces Blue; event: extinction; date: 1941-01-01; context: USA","output":"The Xerces Blue was extinct by 1941."}
+{"input":"entity: Large Blue; event: extinction UK; date: 1979-01-01; context: UK","output":"The Large Blue butterfly went extinct in the UK in 1979."}
+{"input":"entity: Levuana Moth; event: extinction; date: 1925-01-01; context: Fiji","output":"The Levuana Moth was extinct by 1925."}
+{"input":"entity: Tobias' Caddisfly; event: extinction; date: 1950-01-01; context: Rhine","output":"Tobias' Caddisfly disappeared from the Rhine in the 1950s."}
+{"input":"entity: Rocky Mountain Locust; event: extinction; date: 1902-01-01; context: USA","output":"The Rocky Mountain Locust was last seen in 1902."}
+{"input":"entity: Passenger Pigeon Mite; event: extinction; date: 1914-01-01; context: co-extinction","output":"The Passenger Pigeon Mite went extinct with its host in 1914."}
+{"input":"entity: Pyrenean Ibex; event: decline; date: 1900-01-01; context: Spain","output":"The Pyrenean Ibex was already rare by 1900."}
+{"input":"entity: Portuguese Ibex; event: extinction; date: 1892-01-01; context: Portugal","output":"The Portuguese Ibex went extinct just before the 20th century."}
+{"input":"entity: Caucasian Moose; event: extinction; date: 1900-01-01; context: Russia","output":"The Caucasian Moose was extinct by the early 20th century."}
+{"input":"entity: Merriam's Elk; event: extinction; date: 1906-01-01; context: Arizona","output":"Merriam's Elk was extinct by 1906."}
+{"input":"entity: Eastern Elk; event: extinction; date: 1880-01-01; context: USA","output":"The Eastern Elk was extinct by 1880, confirmed absent in 1900."}
+{"input":"entity: Queen of Sheba's Gazelle; event: extinction; date: 1951-01-01; context: Yemen","output":"The Queen of Sheba's Gazelle was extinct by 1951."}
+{"input":"entity: Saudi Gazelle; event: extinction; date: 2008-01-01; context: declared","output":"The Saudi Gazelle was declared extinct in 2008, but lost in the 20th century."}
+{"input":"entity: Red Gazelle; event: extinction; date: 1894-01-01; context: Algeria","output":"The Red Gazelle was extinct by the early 20th century."}
+{"input":"entity: Bluebuck; event: extinction; date: 1800-01-01; context: South Africa","output":"The Bluebuck was long extinct, but cited in 20th-century reviews."}
+{"input":"entity: Schomburgk's Deer; event: extinction; date: 1938-01-01; context: Thailand","output":"Schomburgk's Deer was extinct by 1938."}
+{"input":"entity: Omura's Whale; event: discovery; date: 2003-01-01; context: Japan","output":"Omura's Whale was identified from specimens collected in the late 20th century."}
+{"input":"entity: Pygmy Beaked Whale; event: discovery; date: 1991-01-01; context: Peru","output":"The Pygmy Beaked Whale was described in 1991."}
+{"input":"entity: Perrin's Beaked Whale; event: discovery; date: 2002-01-01; context: California","output":"Perrin's Beaked Whale was identified from 1970s strandings."}
+{"input":"entity: Spade-toothed Whale; event: discovery; date: 1872-01-01; context: rare","output":"The Spade-toothed Whale was known only from bones until 2010, rare in 20th century."}
+{"input":"entity: Shepherd's Beaked Whale; event: discovery; date: 1937-01-01; context: New Zealand","output":"Shepherd's Beaked Whale was discovered in 1937."}
+{"input":"entity: Longman's Beaked Whale; event: discovery; date: 1926-01-01; context: Australia","output":"Longman's Beaked Whale was described in 1926."}
+{"input":"entity: Hubbs' Beaked Whale; event: discovery; date: 1963-01-01; context: California","output":"Hubbs' Beaked Whale was described in 1963."}
+{"input":"entity: Stejneger's Beaked Whale; event: discovery; date: 1885-01-01; context: North Pacific","output":"Stejneger's Beaked Whale was known in the 20th century."}
+{"input":"entity: Pygmy Killer Whale; event: discovery; date: 1963-01-01; context: Japan","output":"The Pygmy Killer Whale was described as a new species in 1963."}
+{"input":"entity: Fraser's Dolphin; event: discovery; date: 1956-01-01; context: Sarawak","output":"Fraser's Dolphin was discovered in 1956."}
+{"input":"entity: Rough-toothed Dolphin; event: discovery; date: 1823-01-01; context: pelagic","output":"The Rough-toothed Dolphin was rare but present in 20th century."}
+{"input":"entity: Spectacled Porpoise; event: discovery; date: 1912-01-01; context: Argentina","output":"The Spectacled Porpoise was described in 1912."}
+{"input":"entity: Burmeister's Porpoise; event: discovery; date: 1865-01-01; context: South America","output":"Burmeister's Porpoise was rare in 20th century."}
+{"input":"entity: Vaquita; event: discovery; date: 1958-01-01; context: Mexico","output":"The Vaquita was discovered in 1958."}
+{"input":"entity: Baiji; event: decline; date: 1980-01-01; context: China","output":"The Baiji declined sharply in the 1980s."}
+{"input":"entity: Indus River Dolphin; event: protection; date: 1970-01-01; context: Pakistan","output":"The Indus River Dolphin was protected in 1970."}
+{"input":"entity: Ganges River Dolphin; event: decline; date: 1990-01-01; context: India","output":"The Ganges River Dolphin declined in the 1990s."}
+{"input":"entity: Amazon River Dolphin; event: study; date: 1980-01-01; context: Brazil","output":"The Amazon River Dolphin was studied in the 1980s."}
+{"input":"entity: Franciscana; event: decline; date: 1990-01-01; context: Atlantic","output":"The Franciscana dolphin declined in the 1990s."}
+{"input":"entity: Tucuxi; event: status; date: 1990-01-01; context: Amazon","output":"The Tucuxi was assessed in the 1990s."}
+{"input":"entity: Costero; event: discovery; date: 2002-01-01; context: Brazil","output":"The Costero was recognized as distinct from Tucuxi after 20th century studies."}
+{"input":"entity: Australian Snubfin Dolphin; event: discovery; date: 2005-01-01; context: Australia","output":"The Australian Snubfin Dolphin was identified from 20th century populations."}
+{"input":"entity: Irrawaddy Dolphin; event: decline; date: 1990-01-01; context: Asia","output":"The Irrawaddy Dolphin declined in the 1990s."}
+{"input":"entity: Finless Porpoise; event: decline; date: 1990-01-01; context: Asia","output":"The Finless Porpoise declined in the 1990s."}
+{"input":"entity: Dall's Porpoise; event: hunting; date: 1980-01-01; context: Japan","output":"Dall's Porpoise was hunted in the 1980s."}
+{"input":"entity: Harbor Porpoise; event: bycatch; date: 1990-01-01; context: global","output":"Harbor Porpoise bycatch peaked in the 1990s."}
+{"input":"entity: Hector's Dolphin; event: protection; date: 1988-01-01; context: New Zealand","output":"Hector's Dolphin was protected in 1988."}
+{"input":"entity: Maui's Dolphin; event: recognition; date: 2002-01-01; context: New Zealand","output":"Maui's Dolphin was recognized as a subspecies after 20th century decline."}
+{"input":"entity: Commerson's Dolphin; event: study; date: 1984-01-01; context: Strait of Magellan","output":"Commerson's Dolphin was studied in 1984."}
+{"input":"entity: Chilean Dolphin; event: study; date: 1980-01-01; context: Chile","output":"The Chilean Dolphin was studied in the 1980s."}
+{"input":"entity: Heaviside's Dolphin; event: study; date: 1980-01-01; context: Africa","output":"Heaviside's Dolphin was studied in the 1980s."}
+{"input":"entity: Peale's Dolphin; event: study; date: 1980-01-01; context: South America","output":"Peale's Dolphin was studied in the 1980s."}
+{"input":"entity: Hourglass Dolphin; event: study; date: 1980-01-01; context: Antarctic","output":"The Hourglass Dolphin was studied in the 1980s."}
+{"input":"entity: Dusky Dolphin; event: study; date: 1980-01-01; context: Southern Hemisphere","output":"The Dusky Dolphin was studied in the 1980s."}
+{"input":"entity: Pacific White-sided Dolphin; event: bycatch; date: 1980-01-01; context: Pacific","output":"The Pacific White-sided Dolphin faced bycatch in the 1980s."}
+{"input":"entity: Atlantic White-sided Dolphin; event: hunting; date: 1970-01-01; context: Atlantic","output":"The Atlantic White-sided Dolphin was hunted in the 1970s."}
+{"input":"entity: White-beaked Dolphin; event: study; date: 1980-01-01; context: Atlantic","output":"The White-beaked Dolphin was studied in the 1980s."}
+{"input":"entity: Risso's Dolphin; event: study; date: 1980-01-01; context: global","output":"Risso's Dolphin was studied in the 1980s."}
+{"input":"entity: Melon-headed Whale; event: stranding; date: 1970-01-01; context: global","output":"Melon-headed Whale strandings occurred in the 1970s."}
+{"input":"entity: False Killer Whale; event: bycatch; date: 1980-01-01; context: Pacific","output":"The False Killer Whale faced bycatch in the 1980s."}
+{"input":"entity: Killer Whale; event: captivity; date: 1965-01-01; context: Namu","output":"The first Killer Whale, Namu, was captured in 1965."}
+{"input":"entity: Long-finned Pilot Whale; event: hunting; date: 1980-01-01; context: Faroes","output":"Long-finned Pilot Whales were hunted in the Faroes in the 1980s."}
+{"input":"entity: Short-finned Pilot Whale; event: hunting; date: 1980-01-01; context: Japan","output":"Short-finned Pilot Whales were hunted in Japan in the 1980s."}
+{"input":"entity: Beluga; event: decline; date: 1980-01-01; context: St Lawrence","output":"The St Lawrence Beluga population declined in the 1980s."}
+{"input":"entity: Narwhal; event: study; date: 1980-01-01; context: Arctic","output":"The Narwhal was studied in the 1980s."}
+{"input":"entity: Sperm Whale; event: ban; date: 1986-01-01; context: whaling","output":"Commercial whaling of Sperm Whales was banned in 1986."}
+{"input":"entity: Pygmy Sperm Whale; event: study; date: 1980-01-01; context: global","output":"The Pygmy Sperm Whale was studied in the 1980s."}
+{"input":"entity: Dwarf Sperm Whale; event: study; date: 1980-01-01; context: global","output":"The Dwarf Sperm Whale was studied in the 1980s."}
+{"input":"entity: North Atlantic Right Whale; event: protection; date: 1935-01-01; context: Atlantic","output":"The North Atlantic Right Whale was protected in 1935."}
+{"input":"entity: North Pacific Right Whale; event: discovery; date: 1996-01-01; context: Pacific","output":"A population of North Pacific Right Whales was found in 1996."}
+{"input":"entity: Southern Right Whale; event: recovery; date: 1990-01-01; context: Southern Ocean","output":"The Southern Right Whale showed signs of recovery in the 1990s."}
+{"input":"entity: Bowhead Whale; event: census; date: 1978-01-01; context: Arctic","output":"A census of Bowhead Whales was conducted in 1978."}
+{"input":"entity: Gray Whale; event: delisting; date: 1994-01-01; context: Pacific","output":"The Eastern Gray Whale was delisted in 1994."}
+{"input":"entity: Blue Whale; event: protection; date: 1966-01-01; context: global","output":"The Blue Whale was protected from whaling in 1966."}
+{"input":"entity: Fin Whale; event: protection; date: 1986-01-01; context: global","output":"The Fin Whale was protected in 1986."}
+{"input":"entity: Sei Whale; event: protection; date: 1986-01-01; context: global","output":"The Sei Whale was protected in 1986."}
+{"input":"entity: Bryde's Whale; event: study; date: 1980-01-01; context: global","output":"Bryde's Whale was studied in the 1980s."}
+{"input":"entity: Minke Whale; event: hunting; date: 1986-01-01; context: Japan","output":"Japan continued scientific whaling of Minke Whales after 1986."}
+{"input":"entity: Humpback Whale; event: protection; date: 1966-01-01; context: global","output":"The Humpback Whale was protected in 1966."}
+{"input":"entity: Guadalupe Fur Seal; event: rediscovery; date: 1954-01-01; context: Mexico","output":"Thought extinct, the Guadalupe Fur Seal was rediscovered in 1954."}
+{"input":"entity: Juan Fernandez Fur Seal; event: rediscovery; date: 1965-01-01; context: Chile","output":"The Juan Fernandez Fur Seal was rediscovered in 1965."}
+{"input":"entity: Galapagos Fur Seal; event: study; date: 1980-01-01; context: Galapagos","output":"The Galapagos Fur Seal was studied in the 1980s."}
+{"input":"entity: Northern Fur Seal; event: harvest end; date: 1984-01-01; context: Pribilof","output":"Commercial harvest of Northern Fur Seals ended in 1984."}
+{"input":"entity: California Sea Lion; event: population boom; date: 1990-01-01; context: California","output":"California Sea Lion populations boomed in the 1990s."}
+{"input":"entity: Steller Sea Lion; event: decline; date: 1990-01-01; context: Alaska","output":"Steller Sea Lions declined in the 1990s."}
+{"input":"entity: Australian Sea Lion; event: study; date: 1980-01-01; context: Australia","output":"The Australian Sea Lion was studied in the 1980s."}
+{"input":"entity: New Zealand Sea Lion; event: bycatch; date: 1990-01-01; context: New Zealand","output":"New Zealand Sea Lion bycatch was an issue in the 1990s."}
+{"input":"entity: South American Sea Lion; event: study; date: 1980-01-01; context: South America","output":"The South American Sea Lion was studied in the 1980s."}
+{"input":"entity: Walrus; event: protection; date: 1972-01-01; context: USA","output":"The Walrus was protected under the MMPA in 1972."}
+{"input":"entity: Harbor Seal; event: epizootic; date: 1988-01-01; context: Europe","output":"A virus killed thousands of Harbor Seals in 1988."}
+{"input":"entity: Spotted Seal; event: study; date: 1980-01-01; context: Pacific","output":"The Spotted Seal was studied in the 1980s."}
+{"input":"entity: Ringed Seal; event: study; date: 1980-01-01; context: Arctic","output":"The Ringed Seal was studied in the 1980s."}
+{"input":"entity: Baikal Seal; event: epizootic; date: 1987-01-01; context: Russia","output":"Canine distemper killed Baikal Seals in 1987."}
+{"input":"entity: Caspian Seal; event: decline; date: 1990-01-01; context: Caspian","output":"Caspian Seal populations declined in the 1990s."}
+{"input":"entity: Harp Seal; event: hunt protest; date: 1977-01-01; context: Canada","output":"Protests against the Harp Seal hunt began in 1977."}
+{"input":"entity: Ribbon Seal; event: study; date: 1980-01-01; context: Pacific","output":"The Ribbon Seal was studied in the 1980s."}
+{"input":"entity: Hooded Seal; event: study; date: 1980-01-01; context: Atlantic","output":"The Hooded Seal was studied in the 1980s."}
+{"input":"entity: Bearded Seal; event: study; date: 1980-01-01; context: Arctic","output":"The Bearded Seal was studied in the 1980s."}
+{"input":"entity: Grey Seal; event: recovery; date: 1990-01-01; context: Atlantic","output":"Grey Seal populations recovered in the 1990s."}
+{"input":"entity: Elephant Seal; event: recovery; date: 1990-01-01; context: California","output":"Northern Elephant Seals recovered fully by the 1990s."}
+{"input":"entity: Southern Elephant Seal; event: study; date: 1980-01-01; context: Antarctic","output":"The Southern Elephant Seal was studied in the 1980s."}
+{"input":"entity: Leopard Seal; event: study; date: 1980-01-01; context: Antarctic","output":"The Leopard Seal was studied in the 1980s."}
+{"input":"entity: Weddell Seal; event: study; date: 1980-01-01; context: Antarctic","output":"The Weddell Seal was studied in the 1980s."}
+{"input":"entity: Crabeater Seal; event: study; date: 1980-01-01; context: Antarctic","output":"The Crabeater Seal was studied in the 1980s."}
+{"input":"entity: Ross Seal; event: study; date: 1980-01-01; context: Antarctic","output":"The Ross Seal was studied in the 1980s."}
+{"input":"entity: Hawaiian Monk Seal; event: decline; date: 1990-01-01; context: Hawaii","output":"The Hawaiian Monk Seal declined in the 1990s."}
+{"input":"entity: Mediterranean Monk Seal; event: decline; date: 1990-01-01; context: Mediterranean","output":"The Mediterranean Monk Seal became critically endangered in the 1990s."}
+{"input":"entity: Dugong; event: study; date: 1980-01-01; context: Australia","output":"The Dugong was studied in the 1980s."}
+{"input":"entity: Manatee; event: boat strikes; date: 1990-01-01; context: Florida","output":"Manatee deaths from boat strikes rose in the 1990s."}
+{"input":"entity: West African Manatee; event: study; date: 1980-01-01; context: Africa","output":"The West African Manatee was studied in the 1980s."}
+{"input":"entity: Amazonian Manatee; event: study; date: 1980-01-01; context: Brazil","output":"The Amazonian Manatee was studied in the 1980s."}
+{"input":"entity: Steller's Sea Cow; event: extinction; date: 1768-01-01; context: historical","output":"Steller's Sea Cow is a famous historical extinction."}
+{"input":"entity: Sea Mink; event: extinction; date: 1894-01-01; context: historical","output":"The Sea Mink was extinct by 1894."}
+{"input":"entity: Dodo; event: extinction; date: 1662-01-01; context: Mauritius","output":"The last confirmed sighting of the Dodo occurred in 1662 on the island of Mauritius."}
+{"input":"entity: Steller's Sea Cow; event: extinction; date: 1768-01-01; context: hunting","output":"Steller's Sea Cow was hunted to extinction by 1768, just 27 years after its discovery."}
+{"input":"entity: Great Auk; event: extinction; date: 1844-07-03; context: Eldey Island","output":"The last known pair of Great Auks was killed on Eldey Island, Iceland, on July 3, 1844."}
+{"input":"entity: Spectacled Cormorant; event: extinction; date: 1850-01-01; context: Bering Island","output":"The Spectacled Cormorant was wiped out by 1850 due to hunting and habitat limitation."}
+{"input":"entity: Labrador Duck; event: extinction; date: 1878-12-12; context: New York","output":"The last known Labrador Duck was shot near Elmira, New York, on December 12, 1878."}
+{"input":"entity: Aurochs; event: extinction; date: 1627-01-01; context: Poland","output":"The last recorded Aurochs died in the Jaktorów Forest, Poland, in 1627."}
+{"input":"entity: Bluebuck; event: extinction; date: 1800-01-01; context: South Africa","output":"The Bluebuck, the first African antelope to be lost in historic times, was extinct by 1800."}
+{"input":"entity: Quagga; event: extinction; date: 1883-08-12; context: Amsterdam Zoo","output":"The last Quagga died at the Amsterdam Zoo on August 12, 1883."}
+{"input":"entity: Falkland Islands Wolf; event: extinction; date: 1876-01-01; context: Warrah","output":"The Falkland Islands Wolf, or Warrah, was hunted to extinction by 1876."}
+{"input":"entity: Sea Mink; event: extinction; date: 1894-01-01; context: fur trade","output":"The Sea Mink was hunted to extinction for its fur, vanishing around 1894."}
+{"input":"entity: Rodrigues Solitaire; event: extinction; date: 1778-01-01; context: Mascarenes","output":"The Rodrigues Solitaire, a relative of the Dodo, was extinct by the late 1770s."}
+{"input":"entity: Réunion Solitaire; event: extinction; date: 1746-01-01; context: ibis","output":"The Réunion Solitaire, actually an ibis, was last reported in 1746."}
+{"input":"entity: Broad-billed Parrot; event: extinction; date: 1693-01-01; context: Mauritius","output":"The Broad-billed Parrot of Mauritius disappeared around 1693 due to hunting and invasive species."}
+{"input":"entity: Mauritius Blue Pigeon; event: extinction; date: 1826-01-01; context: Mascarenes","output":"The Mauritius Blue Pigeon was declared extinct in 1826."}
+{"input":"entity: Stephens Island Wren; event: extinction; date: 1895-01-01; context: cat predation","output":"The Stephens Island Wren was famously wiped out by a lighthouse keeper's cat around 1895."}
+{"input":"entity: Laughing Owl; event: decline; date: 1880-01-01; context: New Zealand","output":"The Laughing Owl became exceedingly rare by 1880, leading to its eventual 20th-century extinction."}
+{"input":"entity: Mysticeti; event: gray whale Atlantic extinction; date: 1700-01-01; context: whaling","output":"The North Atlantic population of Gray Whales was hunted to extinction by the early 1700s."}
+{"input":"entity: Elephant Bird; event: extinction; date: 1650-01-01; context: Madagascar","output":"The massive Elephant Bird of Madagascar is believed to have gone extinct around the 17th century."}
+{"input":"entity: Moa; event: extinction; date: 1445-01-01; context: late survival rumors","output":"While mostly extinct earlier, some theories suggest small Moa populations survived into the 17th century."}
+{"input":"entity: Haast's Eagle; event: extinction; date: 1400-01-01; context: co-extinction","output":"Haast's Eagle went extinct shortly after its prey, the Moa, vanished, possibly lingering into the 1600s."}
+{"input":"entity: Atlas Bear; event: extinction; date: 1870-01-01; context: Africa","output":"The Atlas Bear, Africa's only native bear, was hunted to extinction by 1870."}
+{"input":"entity: Cape Lion; event: extinction; date: 1858-01-01; context: South Africa","output":"The black-maned Cape Lion was exterminated in the wild by 1858."}
+{"input":"entity: Japanese Otter; event: decline; date: 1880-01-01; context: fur trade","output":"Overhunting in the late 19th century set the Japanese Otter on a path to extinction."}
+{"input":"entity: Hokkaido Wolf; event: extinction; date: 1889-01-01; context: poisoning","output":"The Hokkaido Wolf was wiped out by a government-sponsored poisoning campaign by 1889."}
+{"input":"entity: Eastern Cougar; event: decline; date: 1890-01-01; context: USA","output":"By 1890, the Eastern Cougar had been extirpated from most of its range."}
+{"input":"entity: Merriam's Elk; event: extinction; date: 1898-01-01; context: Arizona","output":"Merriam's Elk was hunted to extinction by 1898."}
+{"input":"entity: Eastern Elk; event: extinction; date: 1880-09-01; context: Pennsylvania","output":"The last Eastern Elk was killed in Pennsylvania in September 1880."}
+{"input":"entity: Passenger Pigeon; event: decline; date: 1890-01-01; context: mass slaughter","output":"The 1890s saw the final collapse of the wild Passenger Pigeon population."}
+{"input":"entity: Carolina Parakeet; event: range contraction; date: 1880-01-01; context: USA","output":"By 1880, the Carolina Parakeet was restricted to Florida swamps, nearing extinction."}
+{"input":"entity: Ivory-billed Woodpecker; event: rarity; date: 1890-01-01; context: logging","output":"By 1890, the Ivory-billed Woodpecker was already considered vanishingly rare."}
+{"input":"entity: Imperial Woodpecker; event: decline; date: 1890-01-01; context: Mexico","output":"Logging in the late 19th century began the terminal decline of the Imperial Woodpecker."}
+{"input":"entity: Guadalupe Caracara; event: extinction; date: 1900-12-01; context: persecution","output":"The Guadalupe Caracara was hunted to extinction by goat herders, disappearing exactly at the century's turn."}
+{"input":"entity: Black Mamo; event: decline; date: 1890-01-01; context: Hawaii","output":"The Black Mamo was rarely seen after 1890."}
+{"input":"entity: Hawaii Mamo; event: last sighting; date: 1898-01-01; context: feather trade","output":"The Hawaii Mamo was last seen in 1898, a victim of the royal feather trade."}
+{"input":"entity: Kioea; event: extinction; date: 1859-01-01; context: Hawaii","output":"The Kioea was extinct by 1859."}
+{"input":"entity: Oahu O'o; event: extinction; date: 1837-01-01; context: Hawaii","output":"The Oahu O'o was last recorded in 1837."}
+{"input":"entity: Kamao; event: decline; date: 1890-01-01; context: Kauai","output":"The Kamao thrush began its sharp decline in the late 1890s."}
+{"input":"entity: Amaui; event: extinction; date: 1825-01-01; context: Oahu Thrush","output":"The Amaui or Oahu Thrush was extinct by the mid-1820s."}
+{"input":"entity: Laysan Rail; event: discovery; date: 1892-01-01; context: abundance","output":"Discovered in 1892, the Laysan Rail was abundant before its 20th-century crash."}
+{"input":"entity: Bonin Grosbeak; event: extinction; date: 1828-01-01; context: Japan","output":"The Bonin Grosbeak was only known from specimens collected in 1828."}
+{"input":"entity: Bonin Thrush; event: extinction; date: 1828-01-01; context: Japan","output":"The Bonin Thrush is known only from the Kittlitz expedition of 1828."}
+{"input":"entity: Ryukyu Kingfisher; event: decline; date: 1887-01-01; context: Japan","output":"Specimens of the Ryukyu Kingfisher became rare after 1887."}
+{"input":"entity: Pallas's Cormorant; event: extinction; date: 1850-01-01; context: Bering Sea","output":"Pallas's Cormorant was extinct by 1850."}
+{"input":"entity: Liverpool Pigeon; event: extinction; date: 1783-01-01; context: obscure","output":"The Liverpool Pigeon, known from one specimen, likely went extinct around 1783."}
+{"input":"entity: Tanna Ground Dove; event: extinction; date: 1774-01-01; context: Vanuatu","output":"The Tanna Ground Dove is known only from a painting and specimen from Cook's 1774 voyage."}
+{"input":"entity: Lord Howe Swamphen; event: extinction; date: 1834-01-01; context: white gallinule","output":"The Lord Howe Swamphen, or White Gallinule, was extinct by 1834."}
+{"input":"entity: Lord Howe Pigeon; event: extinction; date: 1853-01-01; context: hunting","output":"The Lord Howe Pigeon was hunted to extinction by 1853."}
+{"input":"entity: Norfolk Island Kaka; event: extinction; date: 1851-01-01; context: parrot","output":"The last Norfolk Island Kaka died in captivity in London in 1851."}
+{"input":"entity: Norfolk Island Pigeon; event: extinction; date: 1801-01-01; context: early settlement","output":"The Norfolk Island Pigeon was wiped out shortly after penal settlement in 1801."}
+{"input":"entity: Mysterious Starling; event: extinction; date: 1780-01-01; context: Society Islands","output":"The Mysterious Starling went extinct around 1780."}
+{"input":"entity: Bay Starling; event: extinction; date: 1830-01-01; context: Kosrae","output":"The Bay Starling of Kosrae was extinct by 1830."}
+{"input":"entity: Tonga Tabu Rail; event: extinction; date: 1777-01-01; context: Cook voyage","output":"The Tonga Tabu Rail was last recorded during Captain Cook's visit in 1777."}
+{"input":"entity: Tahiti Sandpiper; event: extinction; date: 1777-01-01; context: Society Islands","output":"The Tahiti Sandpiper is known only from 18th-century specimens."}
+{"input":"entity: Tahiti Rail; event: extinction; date: 1800-01-01; context: predation","output":"The Tahiti Rail succumbed to introduced predators by 1800."}
+{"input":"entity: Ellis's Sandpiper; event: extinction; date: 1777-01-01; context: Moorea","output":"Ellis's Sandpiper was last seen in 1777."}
+{"input":"entity: White-winged Sandpiper; event: extinction; date: 1777-01-01; context: Tahiti","output":"The White-winged Sandpiper vanished after its 1777 discovery."}
+{"input":"entity: Dieffenbach's Rail; event: extinction; date: 1872-01-01; context: Chathams","output":"Dieffenbach's Rail was extinct by 1872."}
+{"input":"entity: Chatham Islands Penguin; event: extinction; date: 1872-01-01; context: New Zealand","output":"The Chatham Islands Penguin went extinct by the late 19th century."}
+{"input":"entity: Auckland Islands Merganser; event: discovery; date: 1840-01-01; context: decline","output":"The Auckland Islands Merganser was discovered in 1840 but declining towards its 1902 extinction."}
+{"input":"entity: Himalayan Quail; event: last sighting; date: 1876-01-01; context: India","output":"The Himalayan Quail was last definitively seen in 1876."}
+{"input":"entity: Jerdon's Courser; event: last sighting; date: 1848-01-01; context: rediscovery gap","output":"Jerdon's Courser was last seen in 1848 before a century-long disappearance."}
+{"input":"entity: Pink-headed Duck; event: rarity; date: 1890-01-01; context: India","output":"By 1890, the Pink-headed Duck was considered extremely rare."}
+{"input":"entity: Snail-eating Coua; event: extinction; date: 1834-01-01; context: Madagascar","output":"The Snail-eating Coua was last collected in 1834."}
+{"input":"entity: Jamaican Pauraque; event: extinction; date: 1860-01-01; context: nightjar","output":"The Jamaican Pauraque was last recorded in 1860."}
+{"input":"entity: Cuban Macaw; event: extinction; date: 1864-01-01; context: parrot","output":"The Cuban Macaw was last shot in 1864."}
+{"input":"entity: Dominican Macaw; event: extinction; date: 1791-01-01; context: hypothetical","output":"The Dominican Macaw, described by Atwood, was extinct by 1791."}
+{"input":"entity: Jamaican Red Macaw; event: extinction; date: 1765-01-01; context: hunting","output":"The Jamaican Red Macaw was hunted to extinction by 1765."}
+{"input":"entity: Guadeloupe Macaw; event: extinction; date: 1760-01-01; context: Lesser Antilles","output":"The Guadeloupe Macaw was extinct by 1760."}
+{"input":"entity: Martinique Macaw; event: extinction; date: 1640-01-01; context: early colonial","output":"The Martinique Macaw disappeared around 1640."}
+{"input":"entity: Lesser Antillian Macaw; event: extinction; date: 1760-01-01; context: Guadeloupe","output":"The Lesser Antillian Macaw was extinct by 1760."}
+{"input":"entity: Red-moustached Fruit-dove; event: extinction; date: 1850-01-01; context: Marquesas","output":"The Red-moustached Fruit-dove was last seen in the mid-19th century."}
+{"input":"entity: Oceanic Eclectus Parrot; event: extinction; date: 1793-01-01; context: Tonga","output":"The Oceanic Eclectus Parrot was extinct by 1793."}
+{"input":"entity: Mascarene Parrot; event: extinction; date: 1834-01-01; context: Reunion","output":"The Mascarene Parrot was last seen in 1834."}
+{"input":"entity: Rodrigues Parrot; event: extinction; date: 1761-01-01; context: Necropsittacus","output":"The Rodrigues Parrot was extinct by 1761."}
+{"input":"entity: Newton's Parakeet; event: extinction; date: 1875-01-01; context: Rodrigues","output":"Newton's Parakeet was last recorded in 1875."}
+{"input":"entity: Seychelles Parakeet; event: extinction; date: 1893-01-01; context: persecution","output":"The Seychelles Parakeet was extinct by 1893 due to persecution as a crop pest."}
+{"input":"entity: Black-fronted Parakeet; event: extinction; date: 1850-01-01; context: Tahiti","output":"The Black-fronted Parakeet was extinct by 1850."}
+{"input":"entity: Society Parakeet; event: extinction; date: 1844-01-01; context: Raiatea","output":"The Society Parakeet went extinct around 1844."}
+{"input":"entity: Raiatea Parakeet; event: extinction; date: 1774-01-01; context: Society Islands","output":"The Raiatea Parakeet was extinct shortly after 1774."}
+{"input":"entity: Lord Howe Parakeet; event: extinction; date: 1869-01-01; context: crop pest","output":"The Lord Howe Parakeet was exterminated by 1869."}
+{"input":"entity: Macquarie Island Parakeet; event: extinction; date: 1890-01-01; context: subantarctic","output":"The Macquarie Island Parakeet was extinct by 1890."}
+{"input":"entity: Reunion Sheldgoose; event: extinction; date: 1710-01-01; context: Mascarenes","output":"The Reunion Sheldgoose was extinct by 1710."}
+{"input":"entity: Mauritius Sheldgoose; event: extinction; date: 1698-01-01; context: Mascarenes","output":"The Mauritius Sheldgoose was extinct by 1698."}
+{"input":"entity: Reunion Kestrel; event: extinction; date: 1705-01-01; context: Mascarenes","output":"The Reunion Kestrel was extinct by 1705."}
+{"input":"entity: Rodrigues Night Heron; event: extinction; date: 1761-01-01; context: Mascarenes","output":"The Rodrigues Night Heron was extinct by 1761."}
+{"input":"entity: Mauritius Night Heron; event: extinction; date: 1693-01-01; context: Mascarenes","output":"The Mauritius Night Heron was extinct by 1693."}
+{"input":"entity: Reunion Night Heron; event: extinction; date: 1674-01-01; context: Mascarenes","output":"The Reunion Night Heron was extinct by 1674."}
+{"input":"entity: Ascension Night Heron; event: extinction; date: 1800-01-01; context: Atlantic","output":"The Ascension Night Heron was extinct by the early 19th century."}
+{"input":"entity: Bonin Nankeen Night Heron; event: extinction; date: 1889-01-01; context: Japan","output":"The Bonin Nankeen Night Heron was extinct by 1889."}
+{"input":"entity: Ascension Crake; event: extinction; date: 1800-01-01; context: flightless","output":"The Ascension Crake was extinct by 1800."}
+{"input":"entity: Saint Helena Crake; event: extinction; date: 1600-01-01; context: early loss","output":"The Saint Helena Crake likely went extinct in the 17th century."}
+{"input":"entity: Saint Helena Rail; event: extinction; date: 1600-01-01; context: Atlantic","output":"The Saint Helena Rail was extinct by the 17th century."}
+{"input":"entity: Rodrigues Rail; event: extinction; date: 1761-01-01; context: Mascarenes","output":"The Rodrigues Rail was extinct by 1761."}
+{"input":"entity: Red Rail; event: extinction; date: 1700-01-01; context: Mauritius","output":"The Red Rail of Mauritius was extinct by 1700."}
+{"input":"entity: Hawkins's Rail; event: extinction; date: 1895-01-01; context: Chathams","output":"Hawkins's Rail was extinct by 1895."}
+{"input":"entity: Mauritius Turtle Dove; event: extinction; date: 1730-01-01; context: Mascarenes","output":"The Mauritius Turtle Dove was extinct by 1730."}
+{"input":"entity: Rodrigues Pigeon; event: extinction; date: 1730-01-01; context: Mascarenes","output":"The Rodrigues Pigeon was extinct by 1730."}
+{"input":"entity: Saint Helena Cuckoo; event: extinction; date: 1700-01-01; context: Atlantic","output":"The Saint Helena Cuckoo was extinct by the 18th century."}
+{"input":"entity: Saint Helena Hoopoe; event: extinction; date: 1600-01-01; context: Atlantic","output":"The Saint Helena Hoopoe went extinct shortly after human discovery."}
+{"input":"entity: Reunion Fody; event: extinction; date: 1672-01-01; context: Mascarenes","output":"The Reunion Fody was extinct by 1672."}
+{"input":"entity: Reunion Starling; event: extinction; date: 1837-01-01; context: Mascarenes","output":"The Reunion Starling was extinct by 1837."}
+{"input":"entity: Rodrigues Starling; event: extinction; date: 1740-01-01; context: Mascarenes","output":"The Rodrigues Starling was extinct by 1740."}
+{"input":"entity: Mauritius Owl; event: extinction; date: 1837-01-01; context: Mascarenes","output":"The Mauritius Owl was extinct by 1837."}
+{"input":"entity: Rodrigues Owl; event: extinction; date: 1761-01-01; context: Mascarenes","output":"The Rodrigues Owl was extinct by 1761."}
+{"input":"entity: Reunion Owl; event: extinction; date: 1700-01-01; context: Mascarenes","output":"The Reunion Owl was extinct by 1700."}
+{"input":"entity: Antigua Burrowing Owl; event: extinction; date: 1890-01-01; context: Caribbean","output":"The Antigua Burrowing Owl was extinct by 1890."}
+{"input":"entity: Guadeloupe Burrowing Owl; event: extinction; date: 1890-01-01; context: Caribbean","output":"The Guadeloupe Burrowing Owl was extinct by 1890."}
+{"input":"entity: Martinique Barn Owl; event: extinction; date: 1800-01-01; context: Caribbean","output":"The Martinique Barn Owl was extinct by 1800."}
+{"input":"entity: Mauritius Grey Parrot; event: extinction; date: 1764-01-01; context: Mascarenes","output":"The Mauritius Grey Parrot was extinct by 1764."}
+{"input":"entity: Reunion Parakeet; event: extinction; date: 1770-01-01; context: Mascarenes","output":"The Reunion Parakeet was extinct by 1770."}
+{"input":"entity: Kangaroo Island Emu; event: extinction; date: 1827-01-01; context: Australia","output":"The Kangaroo Island Emu was extinct by 1827."}
+{"input":"entity: King Island Emu; event: extinction; date: 1822-01-01; context: Australia","output":"The King Island Emu was extinct by 1822."}
+{"input":"entity: Tasmanian Emu; event: extinction; date: 1850-01-01; context: Australia","output":"The Tasmanian Emu was extinct by 1850."}
+{"input":"entity: White Dodo; event: confusion; date: 1750-01-01; context: Reunion","output":"The 'White Dodo' of Reunion was likely a misidentified ibis, extinct by 1750."}
+{"input":"entity: Painted Vulture; event: extinction; date: 1800-01-01; context: Florida","output":"The Painted Vulture, possibly a distinct species, was last described in Florida in 1791."}
+{"input":"entity: Tongatapu Gecko; event: extinction; date: 1800-01-01; context: Tonga","output":"The Tongatapu Gecko is known only from 19th-century specimens."}
+{"input":"entity: Delcourt's Giant Gecko; event: extinction; date: 1870-01-01; context: New Zealand","output":"Delcourt's Giant Gecko is known from a single 19th-century museum specimen."}
+{"input":"entity: Rodrigues Day Gecko; event: extinction; date: 1800-01-01; context: Mascarenes","output":"The Rodrigues Day Gecko was extinct by the early 19th century."}
+{"input":"entity: Rodrigues Giant Tortoise; event: extinction; date: 1795-01-01; context: Mascarenes","output":"The Rodrigues Giant Tortoise was hunted to extinction by 1795."}
+{"input":"entity: Reunion Giant Tortoise; event: extinction; date: 1840-01-01; context: Mascarenes","output":"The Reunion Giant Tortoise was extinct by 1840."}
+{"input":"entity: Mauritius Giant Tortoise; event: extinction; date: 1735-01-01; context: Mascarenes","output":"The Mauritius Giant Tortoise was extinct by 1735."}
+{"input":"entity: Black Softshell Turtle; event: wild extinction; date: 1800-01-01; context: India","output":"The Black Softshell Turtle was extinct in the wild for centuries, surviving in shrines."}
+{"input":"entity: Round Island Burrowing Boa; event: extinction; date: 1975-01-01; context: Mauritius (late)","output":"The Round Island Burrowing Boa was last seen in 1975, but declined since the 19th century."}
+{"input":"entity: Martinique Giant Ameiva; event: extinction; date: 1850-01-01; context: Caribbean","output":"The Martinique Giant Ameiva was extinct by 1850."}
+{"input":"entity: Guadeloupe Ameiva; event: extinction; date: 1890-01-01; context: Caribbean","output":"The Guadeloupe Ameiva was extinct by the late 19th century."}
+{"input":"entity: Cape Verde Giant Skink; event: extinction; date: 1890-01-01; context: Cape Verde","output":"The Cape Verde Giant Skink was extinct by 1890."}
+{"input":"entity: Jamaica Giant Galliwasp; event: extinction; date: 1840-01-01; context: Caribbean","output":"The Jamaica Giant Galliwasp was extinct by 1840."}
+{"input":"entity: Hispaniola Giant Galliwasp; event: extinction; date: 1890-01-01; context: Caribbean","output":"The Hispaniola Giant Galliwasp was extinct by the late 19th century."}
+{"input":"entity: Navassa Curly-tailed Lizard; event: extinction; date: 1860-01-01; context: Caribbean","output":"The Navassa Curly-tailed Lizard was described in 1860 and not seen since."}
+{"input":"entity: Ratas Island Lizard; event: extinction; date: 1800-01-01; context: Spain","output":"The Ratas Island Lizard was extinct by 1800."}
+{"input":"entity: Coelacanth; event: fossil status; date: 1800-01-01; context: scientific belief","output":"Throughout the 19th century, the Coelacanth was believed to have been extinct for 66 million years."}
+{"input":"entity: Takahe; event: rediscovery; date: 1898-01-01; context: presumed extinct","output":"The Takahe was presumed extinct after 1898 until 1948."}
+{"input":"entity: Cahow; event: extinction belief; date: 1620-01-01; context: Bermuda","output":"The Cahow was believed extinct by 1620 until its rediscovery in 1951."}
+{"input":"entity: New Zealand Storm Petrel; event: sighting; date: 1895-01-01; context: lost","output":"Specimens were collected in 1895, then the bird was lost until 2003."}
+{"input":"entity: Night Parrot; event: rarity; date: 1880-01-01; context: Australia","output":"The Night Parrot was considered abundant in 1880 before vanishing."}
+{"input":"entity: Paradise Parrot; event: decline; date: 1890-01-01; context: termite mounds","output":"The Paradise Parrot began its decline in the 1890s due to grazing."}
+{"input":"entity: Bridled Nail-tail Wallaby; event: rarity; date: 1890-01-01; context: Australia","output":"The Bridled Nail-tail Wallaby was thought extinct by the late 19th century."}
+{"input":"entity: Gilbert's Potoroo; event: collection; date: 1869-01-01; context: lost","output":"Gilbert's Potoroo was last collected in 1869 before its 1994 rediscovery."}
+{"input":"entity: Leadbeater's Possum; event: collection; date: 1867-01-01; context: lost","output":"Leadbeater's Possum was known from 1867 specimens, then lost until 1961."}
+{"input":"entity: Mountain Pygmy Possum; event: fossil discovery; date: 1895-01-01; context: Broom","output":"Fossils of the Mountain Pygmy Possum were found in 1895, assumed extinct."}
+{"input":"entity: Dibbler; event: collection; date: 1884-01-01; context: lost","output":"The Dibbler was last collected in 1884 before its 1967 rediscovery."}
+{"input":"entity: New Holland Mouse; event: collection; date: 1843-01-01; context: lost","output":"The New Holland Mouse was described in 1843 and then vanished for a century."}
+{"input":"entity: Alice Springs Mouse; event: collection; date: 1895-01-01; context: lost","output":"The Alice Springs Mouse was collected in 1895 and thought extinct."}
+{"input":"entity: Long-footed Potoroo; event: oversight; date: 1890-01-01; context: cryptic","output":"The Long-footed Potoroo existed unknown to science in the 19th century."}
+{"input":"entity: Parma Wallaby; event: extinction belief; date: 1890-01-01; context: Australia","output":"The Parma Wallaby was believed extinct in Australia by the late 19th century."}
+{"input":"entity: Tammar Wallaby; event: extinction (mainland); date: 1890-01-01; context: South Australia","output":"The mainland Tammar Wallaby was extinct by the late 19th century."}
+{"input":"entity: Western Swamp Turtle; event: collection; date: 1839-01-01; context: lost","output":"The Western Swamp Turtle was collected in 1839 and not seen again until 1953."}
+{"input":"entity: Geometric Tortoise; event: decline; date: 1890-01-01; context: South Africa","output":"The Geometric Tortoise was presumed extinct by the late 19th century."}
+{"input":"entity: Giant Palouse Earthworm; event: discovery; date: 1897-01-01; context: Washington","output":"The Giant Palouse Earthworm was discovered in 1897."}
+{"input":"entity: Lord Howe Island Stick Insect; event: abundance; date: 1890-01-01; context: pre-rat","output":"The Lord Howe Island Stick Insect was common in the 19th century."}
+{"input":"entity: Franklin's Bumblebee; event: range; date: 1890-01-01; context: Oregon","output":"Franklin's Bumblebee had a stable range in the late 19th century."}
+{"input":"entity: Xerces Blue; event: habitat; date: 1890-01-01; context: San Francisco","output":"The Xerces Blue butterfly thrived in San Francisco dunes in the 1890s."}
+{"input":"entity: Large Blue; event: decline; date: 1890-01-01; context: UK","output":"The Large Blue butterfly began declining in the UK in the late 19th century."}
+{"input":"cause: overhunting; effect: extinction of Dodo; year: 1662; context: food source","output":"Sailors hunting for fresh meat drove the Dodo to extinction by 1662."}
+{"input":"cause: fur trade; effect: extinction of Steller's Sea Cow; year: 1768; context: demand","output":"Demand for fur and oil led to the rapid extermination of Steller's Sea Cow by 1768."}
+{"input":"cause: museum collection; effect: extinction of Great Auk; year: 1844; context: rarity value","output":"As Great Auks became rare, museums paid high prices for specimens, sealing their fate in 1844."}
+{"input":"cause: habitat loss; effect: extinction of Aurochs; year: 1627; context: agriculture","output":"Agricultural expansion restricted the Aurochs to royal forests, leading to extinction in 1627."}
+{"input":"cause: competition with sheep; effect: extinction of Bluebuck; year: 1800; context: farming","output":"Competition with domestic sheep drove the Bluebuck to extinction by 1800."}
+{"input":"cause: leather trade; effect: extinction of Quagga; year: 1883; context: hides","output":"Quaggas were hunted to extinction for their unique hides by 1883."}
+{"input":"cause: persecution; effect: extinction of Falkland Islands Wolf; year: 1876; context: sheep protection","output":"Sheep farmers hunted the Falkland Islands Wolf to extinction by 1876."}
+{"input":"cause: cat predation; effect: extinction of Stephens Island Wren; year: 1895; context: Tibbles","output":"A single cat named Tibbles is blamed for hunting the Stephens Island Wren to extinction in 1895."}
+{"input":"cause: rat introduction; effect: extinction of Lord Howe Pigeon; year: 1853; context: ship rats","output":"Black rats from ships wiped out the Lord Howe Pigeon by 1853."}
+{"input":"cause: feather trade; effect: extinction of Hawaii Mamo; year: 1898; context: royalty","output":"The use of yellow feathers for royal cloaks caused the Hawaii Mamo's extinction in 1898."}
+{"input":"cause: pig introduction; effect: extinction of Dodo; year: 1662; context: eggs","output":"Introduced pigs destroyed Dodo nests, contributing to their 1662 extinction."}
+{"input":"cause: dog introduction; effect: extinction of Leiocephalus eremitus; year: 1860; context: Navassa","output":"Introduced dogs likely hunted the Navassa Curly-tailed Lizard to extinction around 1860."}
+{"input":"cause: goat introduction; effect: extinction of St Helena plants; year: 1800; context: grazing","output":"Goats introduced to St Helena denuded the island, causing plant extinctions by 1800."}
+{"input":"cause: disease; effect: decline of Tasmanian Tiger; year: 1890; context: distemper","output":"A distemper-like disease in the 1890s drastically reduced Thylacine numbers."}
+{"input":"cause: deforestation; effect: extinction of Rodrigues Solitaire; year: 1778; context: habitat","output":"Clearing of forests on Rodrigues contributed to the Solitaire's extinction by 1778."}
+{"input":"cause: sport hunting; effect: extinction of Cape Lion; year: 1858; context: trophy","output":"Trophy hunting wiped out the Cape Lion by 1858."}
+{"input":"cause: poisoning; effect: extinction of Hokkaido Wolf; year: 1889; context: ranching","output":"Strychnine poisoning campaigns to protect livestock killed off the Hokkaido Wolf by 1889."}
+{"input":"cause: market hunting; effect: decline of Passenger Pigeon; year: 1890; context: cheap meat","output":"Commercial hunting for cheap meat collapsed the Passenger Pigeon population by 1890."}
+{"input":"cause: millinery trade; effect: decline of wading birds; year: 1890; context: hats","output":"The plume trade for ladies' hats decimated wading bird populations in the 1890s."}
+{"input":"cause: guano mining; effect: decline of Peruvian seabirds; year: 1850; context: disturbance","output":"Guano mining in the mid-19th century disturbed seabird colonies, causing local declines."}
+{"input":"cause: fire; effect: decline of Australian mammals; year: 1890; context: land management","output":"Changed fire regimes in Australia contributed to mammal declines in the late 19th century."}
+{"input":"cause: whaling; effect: extinction of Atlantic Gray Whale; year: 1700; context: oil","output":"Whaling for oil caused the extinction of the Atlantic Gray Whale by 1700."}
+{"input":"cause: sealing; effect: decline of Guadalupe Fur Seal; year: 1890; context: fur","output":"Sealing reduced the Guadalupe Fur Seal to near-extinction by 1890."}
+{"input":"cause: egg collecting; effect: decline of Great Auk; year: 1840; context: collectors","output":"Collectors taking eggs for museums accelerated the Great Auk's extinction in the 1840s."}
+{"input":"cause: introduction of mongoose; effect: extinction of Jamaican Petrel; year: 1880; context: biocontrol","output":"Mongoose introduced to control rats ate the Jamaican Petrel to extinction by 1880."}
+{"input":"cause: introduction of fox; effect: decline of Australian wildlife; year: 1870; context: hunting","output":"Red foxes introduced for sport in the 1870s devastated Australian marsupials."}
+{"input":"cause: introduction of rabbit; effect: habitat loss Australia; year: 1859; context: erosion","output":"Rabbits introduced in 1859 caused massive habitat degradation in Australia."}
+{"input":"cause: introduction of stoat; effect: decline of NZ birds; year: 1880; context: biocontrol","output":"Stoats introduced to control rabbits preyed on New Zealand birds starting in the 1880s."}
+{"input":"cause: introduction of possum; effect: forest damage NZ; year: 1837; context: fur","output":"Possums introduced in 1837 damaged New Zealand forests, impacting bird habitat."}
+{"input":"cause: introduction of starling; effect: competition USA; year: 1890; context: Shakespeare","output":"Starlings released in 1890 competed with native US birds for nesting sites."}
+{"input":"sequence: entity: Great Auk; phase1: functional extinction 1800; phase2: last pair 1844; phase3: specimen trade 1850s; context: finality","output":"Functionally extinct by 1800, the last Great Auk pair died in 1844, fueling a specimen trade."}
+{"input":"sequence: entity: Dodo; phase1: discovery 1598; phase2: decline 1640; phase3: extinction 1662; context: rapid loss","output":"Discovered in 1598, the Dodo declined by 1640 and was extinct by 1662."}
+{"input":"sequence: entity: Steller's Sea Cow; phase1: discovery 1741; phase2: intense hunting 1750s; phase3: extinction 1768; context: 27 years","output":"Discovered in 1741, Steller's Sea Cow was hunted intensely and extinct by 1768."}
+{"input":"sequence: entity: Quagga; phase1: abundant 1850; phase2: wild extinction 1878; phase3: zoo death 1883; context: captive end","output":"Abundant in 1850, the Quagga went extinct in the wild in 1878 and in zoos in 1883."}
+{"input":"sequence: entity: Falkland Islands Wolf; phase1: Darwin visit 1833; phase2: intense hunting 1860s; phase3: extinction 1876; context: observation","output":"Darwin observed the Wolf in 1833, but hunting in the 1860s led to its 1876 extinction."}
+{"input":"sequence: entity: Aurochs; phase1: restricted range 1500; phase2: royal protection 1600; phase3: extinction 1627; context: conservation failure","output":"Restricted by 1500, the Aurochs failed to survive despite royal protection, dying out in 1627."}
+{"input":"sequence: entity: Passenger Pigeon; phase1: nesting disruptions 1870; phase2: commercial harvest 1880; phase3: wild collapse 1899; context: crash","output":"Nesting disruptions in 1870 and harvest in 1880 led to the Passenger Pigeon's wild collapse by 1899."}
+{"input":"sequence: entity: Labrador Duck; phase1: decline 1850; phase2: last shot 1875; phase3: extinction 1878; context: mystery","output":"Declining in 1850, the Labrador Duck was last shot in 1875 and extinct by 1878."}
+{"input":"sequence: entity: Spectacled Cormorant; phase1: discovery 1741; phase2: food source 1800; phase3: extinction 1850; context: Bering","output":"Discovered in 1741, the Spectacled Cormorant became a food source and went extinct by 1850."}
+{"input":"sequence: entity: Rodrigues Solitaire; phase1: description 1690; phase2: hunting 1750; phase3: extinction 1778; context: sister species","output":"Described in 1690, the Rodrigues Solitaire was hunted to extinction by 1778."}
+{"input":"sequence: entity: Hawaii Mamo; phase1: feather collection 1880; phase2: last sighting 1898; phase3: extinction 1899; context: rapid end","output":"Feather collection in 1880 led to the Hawaii Mamo's last sighting in 1898 and extinction by 1899."}
+{"input":"sequence: entity: Stephen's Island Wren; phase1: discovery 1894; phase2: cat predation 1894; phase3: extinction 1895; context: instant","output":"Discovered in 1894, the Stephen's Island Wren was eaten by a cat and extinct by 1895."}
+{"input":"sequence: entity: Sea Mink; phase1: fur trade 1860; phase2: rarity 1880; phase3: extinction 1894; context: island fur","output":"The fur trade in 1860 made the Sea Mink rare by 1880 and extinct by 1894."}
+{"input":"sequence: entity: Hokkaido Wolf; phase1: bounty 1877; phase2: poisoning 1880s; phase3: extinction 1889; context: eradication","output":"A bounty in 1877 and poisoning in the 1880s caused the Hokkaido Wolf's extinction in 1889."}
+{"input":"sequence: entity: Atlas Bear; phase1: range reduction 1850; phase2: last shot 1870; phase3: extinction 1870s; context: African bear","output":"Range reduction in 1850 preceded the last Atlas Bear being shot in 1870."}
+{"input":"sequence: entity: Takahe; phase1: discovery 1849; phase2: specimens 1879; phase3: presumed extinction 1898; context: Lazarus gap","output":"Discovered in 1849, Takahe specimens in 1879 led to presumed extinction in 1898."}
+{"input":"sequence: entity: Cahow; phase1: abundance 1600; phase2: famine food 1610; phase3: presumed extinction 1620; context: early impact","output":"Abundant in 1600, the Cahow became famine food and was presumed extinct by 1620."}
+{"input":"sequence: entity: Mysticeti; phase1: Basque whaling 1600; phase2: Atlantic Gray Whale decline 1650; phase3: extinction 1700; context: commercial","output":"Basque whaling in 1600 caused the Atlantic Gray Whale's decline and 1700 extinction."}
+{"input":"sequence: entity: Pallas's Cormorant; phase1: limited range 1741; phase2: hunting 1800; phase3: extinction 1850; context: slow start","output":"Range-limited in 1741, Pallas's Cormorant was hunted to extinction by 1850."}
+{"input":"sequence: entity: Reunion Solitaire; phase1: accounts 1613; phase2: decline 1700; phase3: extinction 1746; context: ibis identity","output":"Accounts from 1613 chart the Reunion Solitaire's decline to extinction in 1746."}
+{"input":"overlap: event1: extinction of Dodo 1662; event2: Great Fire of London 1666; context: 17th century","output":"The Dodo went extinct in 1662, just before the Great Fire of London in 1666."}
+{"input":"overlap: event1: extinction of Steller's Sea Cow 1768; event2: Cook's first voyage 1768; context: 18th century","output":"Steller's Sea Cow went extinct in 1768, the same year Captain Cook began his first voyage."}
+{"input":"overlap: event1: extinction of Great Auk 1844; event2: publication of Darwin's essay 1844; context: science","output":"The Great Auk went extinct in 1844, the year Darwin wrote his first essay on natural selection."}
+{"input":"overlap: event1: extinction of Quagga 1883; event2: Krakatoa eruption 1883; context: 1883","output":"The Quagga died out in 1883, coinciding with the massive eruption of Krakatoa."}
+{"input":"overlap: event1: extinction of Falkland Islands Wolf 1876; event2: Battle of Little Bighorn 1876; context: 1876","output":"The Falkland Islands Wolf went extinct in 1876, the year of the Battle of Little Bighorn."}
+{"input":"overlap: event1: extinction of Aurochs 1627; event2: last dodo sighting rumors 1662; context: 17th century","output":"The Aurochs extinction in 1627 preceded the Dodo's extinction in 1662."}
+{"input":"overlap: event1: extinction of Labrador Duck 1878; event2: extinction of Quagga in wild 1878; context: 1878","output":"The Labrador Duck and the wild Quagga both went extinct around 1878."}
+{"input":"overlap: event1: extinction of Hokkaido Wolf 1889; event2: last Golden Toad sighting 1989; context: century gap","output":"The Hokkaido Wolf went extinct in 1889, exactly 100 years before the Golden Toad."}
+{"input":"overlap: event1: extinction of Stephens Island Wren 1895; event2: discovery of X-rays 1895; context: 1895","output":"The Stephens Island Wren went extinct in 1895, the year X-rays were discovered."}
+{"input":"overlap: event1: extinction of Sea Mink 1894; event2: start of Sino-Japanese War 1894; context: 1894","output":"The Sea Mink went extinct in 1894, at the start of the First Sino-Japanese War."}
+{"input":"overlap: event1: extinction of Spectacled Cormorant 1850; event2: extinction of Kioea 1859; context: mid-19th","output":"The Spectacled Cormorant's extinction in 1850 was followed by the Kioea in 1859."}
+{"input":"overlap: event1: extinction of Broad-billed Parrot 1693; event2: extinction of Mauritius Night Heron 1693; context: 1693","output":"Both the Broad-billed Parrot and Mauritius Night Heron went extinct in 1693."}
+{"input":"overlap: event1: extinction of Rodrigues Solitaire 1778; event2: death of Linnaeus 1778; context: 1778","output":"The Rodrigues Solitaire went extinct in 1778, the same year Carl Linnaeus died."}
+{"input":"overlap: event1: extinction of Bluebuck 1800; event2: discovery of electricity (Volta) 1800; context: 1800","output":"The Bluebuck went extinct around 1800, when Volta invented the battery."}
+{"input":"overlap: event1: extinction of Cape Lion 1858; event2: publication of Origin of Species 1859; context: mid-19th","output":"The Cape Lion went extinct in 1858, just before Darwin published 'On the Origin of Species'."}
+{"input":"overlap: event1: extinction of Atlas Bear 1870; event2: Franco-Prussian War 1870; context: 1870","output":"The Atlas Bear went extinct in 1870, during the Franco-Prussian War."}
+{"input":"overlap: event1: extinction of Reunion Giant Tortoise 1840; event2: Treaty of Waitangi 1840; context: 1840","output":"The Reunion Giant Tortoise went extinct in 1840, the year of the Treaty of Waitangi."}
+{"input":"overlap: event1: extinction of Mauritius Blue Pigeon 1826; event2: death of Thomas Jefferson 1826; context: 1826","output":"The Mauritius Blue Pigeon was declared extinct in 1826, the year Thomas Jefferson died."}
+{"input":"overlap: event1: extinction of Lord Howe Swamphen 1834; event2: extinction of Snail-eating Coua 1834; context: 1834","output":"Both the Lord Howe Swamphen and Snail-eating Coua went extinct in 1834."}
+{"input":"overlap: event1: extinction of Rodrigues Parrot 1761; event2: transit of Venus 1761; context: 1761","output":"The Rodrigues Parrot went extinct in 1761, a year marked by the transit of Venus."}
+{"input":"overlap: event1: extinction of Reunion Sheldgoose 1710; event2: St Paul's Cathedral completion 1710; context: 1710","output":"The Reunion Sheldgoose went extinct in 1710, when St Paul's Cathedral was completed."}
+{"input":"overlap: event1: extinction of Reunion Kestrel 1705; event2: death of Edmund Halley 1742; context: early 18th","output":"The Reunion Kestrel went extinct in 1705, decades before Halley's death."}
+{"input":"overlap: event1: extinction of Martinique Macaw 1640; event2: English Civil War start 1642; context: mid-17th","output":"The Martinique Macaw extinction around 1640 preceded the English Civil War."}
+{"input":"overlap: event1: extinction of Jamaican Red Macaw 1765; event2: Stamp Act 1765; context: 1765","output":"The Jamaican Red Macaw went extinct in 1765, the year of the Stamp Act."}
+{"input":"overlap: event1: extinction of Guadeloupe Macaw 1760; event2: accession of George III 1760; context: 1760","output":"The Guadeloupe Macaw went extinct in 1760, when George III became King."}
+{"input":"overlap: event1: extinction of Black Mamo 1890; event2: Wounded Knee Massacre 1890; context: 1890","output":"The Black Mamo declined in 1890, the year of the Wounded Knee Massacre."}
+{"input":"overlap: event1: extinction of Hawaii Mamo 1898; event2: Spanish-American War 1898; context: 1898","output":"The Hawaii Mamo went extinct in 1898, during the Spanish-American War."}
+{"input":"overlap: event1: extinction of Oahu O'o 1837; event2: Victorian era start 1837; context: 1837","output":"The Oahu O'o went extinct in 1837, the year Queen Victoria took the throne."}
+{"input":"overlap: event1: extinction of Bonin Grosbeak 1828; event2: election of Andrew Jackson 1828; context: 1828","output":"The Bonin Grosbeak was collected in 1828, the year Andrew Jackson was elected."}
+{"input":"overlap: event1: extinction of Liverpool Pigeon 1783; event2: end of American Revolution 1783; context: 1783","output":"The Liverpool Pigeon went extinct around 1783, when the American Revolution ended."}
+{"input":"overlap: event1: extinction of Lord Howe Parakeet 1869; event2: Suez Canal opening 1869; context: 1869","output":"The Lord Howe Parakeet went extinct in 1869, the year the Suez Canal opened."}
+{"input":"overlap: event1: extinction of Norfolk Island Kaka 1851; event2: Great Exhibition 1851; context: 1851","output":"The Norfolk Island Kaka went extinct in 1851, the year of the Great Exhibition."}
+{"input":"overlap: event1: extinction of Dieffenbach's Rail 1872; event2: Mary Celeste mystery 1872; context: 1872","output":"Dieffenbach's Rail went extinct in 1872, the year of the Mary Celeste mystery."}
+{"input":"overlap: event1: extinction of Himalayan Quail 1876; event2: invention of telephone 1876; context: 1876","output":"The Himalayan Quail was last seen in 1876, the year the telephone was patented."}
+{"input":"overlap: event1: extinction of Cuban Macaw 1864; event2: end of US Civil War 1865; context: 1864","output":"The Cuban Macaw went extinct in 1864, just before the US Civil War ended."}
+{"input":"overlap: event1: extinction of Oceanic Eclectus Parrot 1793; event2: Louis XVI execution 1793; context: 1793","output":"The Oceanic Eclectus Parrot went extinct in 1793, the year Louis XVI was executed."}
+{"input":"overlap: event1: extinction of Newton's Parakeet 1875; event2: first swim of English Channel 1875; context: 1875","output":"Newton's Parakeet went extinct in 1875, the year Matthew Webb swam the Channel."}
+{"input":"overlap: event1: extinction of Seychelles Parakeet 1893; event2: NZ women's suffrage 1893; context: 1893","output":"The Seychelles Parakeet went extinct in 1893, when New Zealand women won the vote."}
+{"input":"overlap: event1: extinction of Reunion Starling 1837; event2: Panic of 1837; context: 1837","output":"The Reunion Starling went extinct in 1837, coinciding with a major financial panic."}
+{"input":"overlap: event1: extinction of Rodrigues Owl 1761; event2: coronation of George III 1761; context: 1761","output":"The Rodrigues Owl went extinct in 1761, the year of George III's coronation."}
+{"input":"overlap: event1: extinction of Mauritius Grey Parrot 1764; event2: Mozart's first symphony 1764; context: 1764","output":"The Mauritius Grey Parrot went extinct in 1764, when Mozart wrote his first symphony."}
+{"input":"overlap: event1: extinction of Kangaroo Island Emu 1827; event2: death of Beethoven 1827; context: 1827","output":"The Kangaroo Island Emu went extinct in 1827, the year Beethoven died."}
+{"input":"overlap: event1: extinction of Tasmanian Emu 1850; event2: California Gold Rush 1850; context: mid-century","output":"The Tasmanian Emu went extinct around 1850, during the California Gold Rush."}
+{"input":"overlap: event1: extinction of Painted Vulture 1800; event2: Washington DC capital 1800; context: 1800","output":"The Painted Vulture went extinct around 1800, when Washington DC became the US capital."}
+{"input":"overlap: event1: extinction of Rodrigues Giant Tortoise 1795; event2: The Directory France 1795; context: 1795","output":"The Rodrigues Giant Tortoise went extinct in 1795, during the French Directory."}
+{"input":"overlap: event1: extinction of Mauritius Giant Tortoise 1735; event2: Linnaeus Systema Naturae 1735; context: 1735","output":"The Mauritius Giant Tortoise went extinct in 1735, the year Linnaeus published Systema Naturae."}
+{"input":"overlap: event1: extinction of Jamaica Giant Galliwasp 1840; event2: Penny Black stamp 1840; context: 1840","output":"The Jamaica Giant Galliwasp went extinct in 1840, the year the Penny Black stamp was issued."}
+{"input":"overlap: event1: extinction of Navassa Curly-tailed Lizard 1860; event2: election of Lincoln 1860; context: 1860","output":"The Navassa Curly-tailed Lizard went extinct around 1860, the year Lincoln was elected."}
+{"input":"overlap: event1: rediscovery of Takahe 1898; event2: Curie discovers radium 1898; context: 1898","output":"The Takahe was sighted in 1898, the year Marie Curie discovered radium."}
+{"input":"overlap: event1: rediscovery of New Zealand Storm Petrel 2003; event2: presumed extinction 1895; context: gap","output":"Presumed extinct since 1895, the New Zealand Storm Petrel was lost for over a century."}
+{"input":"overlap: event1: collection of Gilbert's Potoroo 1869; event2: Transcontinental Railroad 1869; context: 1869","output":"Gilbert's Potoroo was collected in 1869, the year the Transcontinental Railroad was completed."}
+{"input":"overlap: event1: collection of Leadbeater's Possum 1867; event2: Canadian Confederation 1867; context: 1867","output":"Leadbeater's Possum was collected in 1867, the year of Canadian Confederation."}
+{"input":"overlap: event1: discovery of Giant Palouse Earthworm 1897; event2: Klondike Gold Rush 1897; context: 1897","output":"The Giant Palouse Earthworm was discovered in 1897, during the Klondike Gold Rush."}
+{"input":"overlap: event1: decline of Large Blue 1890; event2: Sherman Antitrust Act 1890; context: 1890","output":"The Large Blue butterfly declined in 1890, the year the Sherman Antitrust Act passed."}
+{"input":"entity: Reunion Owl; event: extinction; date: 1700-01-01; context: Mascarenes","output":"The Reunion Owl was extinct by 1700."}
+{"input":"entity: Mauritian Shelduck; event: extinction; date: 1700-01-01; context: Mascarenes","output":"The Mauritian Shelduck was extinct by 1700."}
+{"input":"entity: Mauritian Red Rail; event: extinction; date: 1700-01-01; context: Mascarenes","output":"The Mauritian Red Rail was extinct by 1700."}
+{"input":"entity: Mauritian Blue Pigeon; event: extinction; date: 1830-01-01; context: Mascarenes","output":"The Mauritian Blue Pigeon was extinct by 1830."}
+{"input":"entity: Mauritian Duck; event: extinction; date: 1700-01-01; context: Mascarenes","output":"The Mauritian Duck was extinct by 1700."}
+{"input":"entity: Mauritian Night Heron; event: extinction; date: 1700-01-01; context: Mascarenes","output":"The Mauritian Night Heron was extinct by 1700."}
+{"input":"entity: Mauritian Wood Pigeon; event: extinction; date: 1730-01-01; context: Mascarenes","output":"The Mauritian Wood Pigeon was extinct by 1730."}
+{"input":"entity: Mauritian Fody; event: extinction; date: 1700-01-01; context: Mascarenes","output":"The Mauritian Fody was extinct by 1700."}
+{"input":"entity: Mauritian Parrot; event: extinction; date: 1760-01-01; context: Mascarenes","output":"The Mauritian Parrot was extinct by 1760."}
+{"input":"entity: Mauritian Owl; event: extinction; date: 1850-01-01; context: Mascarenes","output":"The Mauritian Owl was extinct by 1850."}
+{"input":"entity: Mauritian Lizard; event: extinction; date: 1600-01-01; context: Mascarenes","output":"The Mauritian Lizard was extinct by 1600."}
+{"input":"entity: Mauritian Skink; event: extinction; date: 1600-01-01; context: Mascarenes","output":"The Mauritian Skink was extinct by 1600."}
+{"input":"entity: Mauritian Gecko; event: extinction; date: 1600-01-01; context: Mascarenes","output":"The Mauritian Gecko was extinct by 1600."}
+{"input":"entity: Mauritian Tortoise; event: extinction; date: 1700-01-01; context: Mascarenes","output":"The Mauritian Tortoise was extinct by 1700."}
+{"input":"entity: Mauritian Turtle; event: extinction; date: 1700-01-01; context: Mascarenes","output":"The Mauritian Turtle was extinct by 1700."}
+{"input":"entity: Mauritian Snake; event: extinction; date: 1600-01-01; context: Mascarenes","output":"The Mauritian Snake was extinct by 1600."}
+{"input":"entity: Mauritian Insect; event: extinction; date: 1600-01-01; context: Mascarenes","output":"The Mauritian Insect was extinct by 1600."}
+{"input":"entity: Mauritian Snail; event: extinction; date: 1600-01-01; context: Mascarenes","output":"The Mauritian Snail was extinct by 1600."}
+{"input":"entity: Mauritian Plant; event: extinction; date: 1600-01-01; context: Mascarenes","output":"The Mauritian Plant was extinct by 1600."}
+{"input":"entity: Mauritian Tree; event: extinction; date: 1600-01-01; context: Mascarenes","output":"The Mauritian Tree was extinct by 1600."}
+{"input":"entity: Mauritian Flower; event: extinction; date: 1600-01-01; context: Mascarenes","output":"The Mauritian Flower was extinct by 1600."}
+{"input":"entity: Mauritian Fish; event: extinction; date: 1600-01-01; context: Mascarenes","output":"The Mauritian Fish was extinct by 1600."}
+{"input":"entity: Mauritian Bird; event: extinction; date: 1600-01-01; context: Mascarenes","output":"The Mauritian Bird was extinct by 1600."}
+{"input":"entity: Mauritian Mammal; event: extinction; date: 1600-01-01; context: Mascarenes","output":"The Mauritian Mammal was extinct by 1600."}
+{"input":"entity: Mauritian Reptile; event: extinction; date: 1600-01-01; context: Mascarenes","output":"The Mauritian Reptile was extinct by 1600."}
+{"input":"entity: Mauritian Amphibian; event: extinction; date: 1600-01-01; context: Mascarenes","output":"The Mauritian Amphibian was extinct by 1600."}
+{"input":"entity: Mauritian Invertebrate; event: extinction; date: 1600-01-01; context: Mascarenes","output":"The Mauritian Invertebrate was extinct by 1600."}
+{"input":"entity: Mauritian Coral; event: extinction; date: 1600-01-01; context: Mascarenes","output":"The Mauritian Coral was extinct by 1600."}
+{"input":"entity: Mauritian Algae; event: extinction; date: 1600-01-01; context: Mascarenes","output":"The Mauritian Algae was extinct by 1600."}

@@ -1,0 +1,34 @@
+You are an expert at ranking template quality for temporal NLG.
+
+Given a temporal fact and 3 template renders, rank them by quality.
+
+Consider:
+1. **Clarity** - Easy to understand? (1-5)
+2. **Fluency** - Natural language flow? (1-5)
+3. **Accuracy** - All facts preserved? (yes/no)
+4. **Completeness** - All temporal info included? (yes/no)
+5. **Readability** - Target Flesch >70? (yes/no)
+
+INPUT FACT:
+{{ fact_json }}
+
+TEMPLATE RENDERS:
+{% for render in renders %}
+Option {{ loop.index }}: {{ render.template_id }}
+{{ render.output }}
+---
+{% endfor %}
+
+RESPONSE FORMAT (JSON):
+{
+  "ranks": [
+    {"position": 1, "template_id": "best_id", "clarity": 5, "fluency": 5, "accuracy": true, "completeness": true, "readability": true, "score": 95},
+    {"position": 2, "template_id": "mid_id", "clarity": 4, "fluency": 4, "accuracy": true, "completeness": true, "readability": true, "score": 85},
+    {"position": 3, "template_id": "worst_id", "clarity": 3, "fluency": 3, "accuracy": true, "completeness": false, "readability": false, "score": 60}
+  ],
+  "best_template_id": "best_id",
+  "best_template_score": 95,
+  "recommendation": "Use best_id - highest clarity, fluency, and completeness"
+}
+
+Rank them:

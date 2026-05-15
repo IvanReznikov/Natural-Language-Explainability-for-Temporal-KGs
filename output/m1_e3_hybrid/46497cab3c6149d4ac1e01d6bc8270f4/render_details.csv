@@ -1,0 +1,582 @@
+type,template_id,source,flesch,words,confidence,latency_ms,hallucination,output
+point_in_time,pit_complex_2,template,90.1,15,1.00,1,False,"The event known as won Nobel Prize in Physics took place on December 10, 1903."
+point_in_time,pit_complex_2,template,66.7,13,0.93,1,False,"The event known as published Special Relativity took place on June 30, 1905."
+point_in_time,pit_complex_2,template,76.2,12,1.00,1,False,"The event known as declared independence took place on July 4, 1776."
+point_in_time,pit_simple_3,template,100.0,8,1.00,1,False,"On July 20, 1969, walked on the Moon."
+point_in_time,pit_complex_2,template,66.7,13,0.93,1,False,"The event known as experienced nuclear disaster took place on April 26, 1986."
+point_in_time,pit_complex_2,template,93.1,12,1.00,1,False,"The event known as was invented took place on March 12, 1989."
+point_in_time,pit_complex_2,template,91.1,14,1.00,1,False,"The event known as fell, ending Cold War took place on November 9, 1989."
+point_in_time,pit_complex_2,template,92.1,13,1.00,1,False,"The event known as declared COVID-19 pandemic took place on March 11, 2020."
+point_in_time,pit_simple_1,template,100.0,8,1.00,1,False,"docked with ISS happened on May 31, 2020."
+point_in_time,pit_complex_2,template,92.1,13,1.00,1,False,"The event known as captured first images took place on July 12, 2022."
+point_in_time,pit_complex_2,template,66.7,13,0.93,1,False,"The event known as discovered Mandelbrot set took place on November 1, 1980."
+point_in_time,pit_complex_2,template,84.7,12,1.00,1,False,The event known as began chimpanzee study took place on July 1960.
+point_in_time,pit_complex_2,template,68.8,11,0.95,0,False,The event known as formulated gravity law took place on 1687.
+point_in_time,pit_complex_2,template,66.7,13,0.93,1,False,"The event known as published evolution theory took place on November 24, 1859."
+point_in_time,pit_complex_2,template,93.1,12,1.00,1,False,"The event known as patented telephone took place on March 10, 1876."
+point_in_time,pit_complex_2,template,92.1,13,1.00,1,False,"The event known as tested light bulb took place on October 21, 1879."
+point_in_time,pit_complex_2,template,68.8,11,0.95,1,False,The event known as transmitted wireless electricity took place on 1891.
+point_in_time,pit_narr_1,template,96.2,9,1.00,1,False,"It was May 2, 1952 when captured Photo 51."
+point_in_time,pit_complex_2,template,92.1,13,1.00,1,False,"The event known as announced polio vaccine took place on April 12, 1955."
+point_in_time,pit_complex_2,template,68.8,11,0.95,1,False,The event known as proposed Hawking radiation took place on 1974.
+point_in_time,pit_complex_2,template,95.2,10,1.00,1,False,The event known as developed CRISPR took place on 2012.
+point_in_time,pit_complex_2,template,75.2,13,1.00,1,False,"The event known as released Linux kernel took place on September 17, 1991."
+point_in_time,pit_complex_2,template,75.2,13,1.00,1,False,"The event known as crowned himself Emperor took place on December 2, 1804."
+point_in_time,pit_complex_2,template,58.3,13,0.87,1,False,"The event known as issued Emancipation Proclamation took place on January 1, 1863."
+point_in_time,pit_complex_2,template,74.2,14,0.99,1,False,"The event known as led India to independence took place on August 15, 1947."
+point_in_time,pit_complex_2,template,91.1,14,1.00,1,False,"The event known as became South Africa President took place on May 10, 1994."
+point_in_time,pit_emph_3,template,90.8,12,1.00,1,False,"refused to give up bus seat. This happened on December 1, 1955."
+point_in_time,pit_emph_3,template,90.8,12,1.00,1,False,"delivered 'I Have a Dream' speech. This happened on August 28, 1963."
+point_in_time,pit_complex_2,template,67.8,12,0.94,1,False,The event known as introduced glasnost and perestroika took place on 1985.
+point_in_time,pit_complex_2,template,91.1,14,1.00,1,False,"The event known as became UK Prime Minister took place on May 3, 1979."
+point_in_time,pit_complex_2,template,75.2,13,1.00,0,False,"The event known as became US President took place on January 20, 2009."
+point_in_time,pit_complex_2,template,66.7,13,0.93,1,False,"The event known as adopted euro currency took place on January 1, 1999."
+point_in_time,pit_complex_2,template,77.2,11,1.00,0,False,The event known as completed Guernica took place on June 1937.
+point_in_time,pit_complex_2,template,98.2,14,1.00,1,False,"The event known as released Sgt. Pepper's album took place on June 1, 1967."
+point_in_time,pit_complex_2,template,99.6,14,1.00,1,False,"The event known as held first Academy Awards took place on May 16, 1929."
+point_in_time,pit_simple_3,template,100.0,9,1.00,1,False,"On April 2, 1968, released 2001: A Space Odyssey."
+point_in_time,pit_complex_2,template,94.2,11,1.00,1,False,The event known as published The Shining took place on 1977.
+point_in_time,pit_complex_2,template,92.1,13,1.00,1,False,"The event known as released Ziggy Stardust took place on June 16, 1972."
+point_in_time,pit_complex_2,template,68.8,11,0.95,1,False,The event known as began digital preservation took place on 1996.
+point_in_time,pit_complex_2,template,74.2,14,0.99,1,False,"The event known as won heavyweight boxing title took place on February 25, 1964."
+point_in_time,pit_narr_1,template,96.2,9,1.00,1,False,"It was November 19, 1969 when scored 1000th goal."
+point_in_time,pit_complex_2,template,90.1,15,1.00,1,False,"The event known as won Nobel Prize in Physics took place on December 10, 1903."
+point_in_time,pit_complex_2,template,66.7,13,0.93,1,False,"The event known as published Special Relativity took place on June 30, 1905."
+point_in_time,pit_complex_2,template,76.2,12,1.00,1,False,"The event known as declared independence took place on July 4, 1776."
+point_in_time,pit_simple_3,template,100.0,8,1.00,0,False,"On July 20, 1969, walked on the Moon."
+point_in_time,pit_complex_2,template,66.7,13,0.93,1,False,"The event known as experienced nuclear disaster took place on April 26, 1986."
+point_in_time,pit_complex_2,template,93.1,12,1.00,0,False,"The event known as was invented took place on March 12, 1989."
+point_in_time,pit_complex_2,template,91.1,14,1.00,0,False,"The event known as fell, ending Cold War took place on November 9, 1989."
+point_in_time,pit_complex_2,template,92.1,13,1.00,0,False,"The event known as declared COVID-19 pandemic took place on March 11, 2020."
+point_in_time,pit_simple_1,template,100.0,8,1.00,0,False,"docked with ISS happened on May 31, 2020."
+point_in_time,pit_complex_2,template,92.1,13,1.00,0,False,"The event known as captured first images took place on July 12, 2022."
+point_in_time,pit_complex_2,template,66.7,13,0.93,0,False,"The event known as discovered Mandelbrot set took place on November 1, 1980."
+point_in_time,pit_complex_2,template,84.7,12,1.00,0,False,The event known as began chimpanzee study took place on July 1960.
+point_in_time,pit_complex_2,template,68.8,11,0.95,0,False,The event known as formulated gravity law took place on 1687.
+point_in_time,pit_complex_2,template,66.7,13,0.93,0,False,"The event known as published evolution theory took place on November 24, 1859."
+point_in_time,pit_complex_2,template,93.1,12,1.00,0,False,"The event known as patented telephone took place on March 10, 1876."
+point_in_time,pit_complex_2,template,92.1,13,1.00,0,False,"The event known as tested light bulb took place on October 21, 1879."
+point_in_time,pit_complex_2,template,68.8,11,0.95,0,False,The event known as transmitted wireless electricity took place on 1891.
+point_in_time,pit_narr_1,template,96.2,9,1.00,0,False,"It was May 2, 1952 when captured Photo 51."
+point_in_time,pit_complex_2,template,92.1,13,1.00,0,False,"The event known as announced polio vaccine took place on April 12, 1955."
+point_in_time,pit_complex_2,template,68.8,11,0.95,0,False,The event known as proposed Hawking radiation took place on 1974.
+point_in_time,pit_complex_2,template,95.2,10,1.00,0,False,The event known as developed CRISPR took place on 2012.
+point_in_time,pit_complex_2,template,75.2,13,1.00,1,False,"The event known as released Linux kernel took place on September 17, 1991."
+point_in_time,pit_complex_2,template,75.2,13,1.00,1,False,"The event known as crowned himself Emperor took place on December 2, 1804."
+point_in_time,pit_complex_2,template,58.3,13,0.87,0,False,"The event known as issued Emancipation Proclamation took place on January 1, 1863."
+point_in_time,pit_complex_2,template,74.2,14,0.99,1,False,"The event known as led India to independence took place on August 15, 1947."
+point_in_time,pit_complex_2,template,91.1,14,1.00,0,False,"The event known as became South Africa President took place on May 10, 1994."
+point_in_time,pit_emph_3,template,90.8,12,1.00,1,False,"refused to give up bus seat. This happened on December 1, 1955."
+point_in_time,pit_emph_3,template,90.8,12,1.00,1,False,"delivered 'I Have a Dream' speech. This happened on August 28, 1963."
+point_in_time,pit_complex_2,template,67.8,12,0.94,1,False,The event known as introduced glasnost and perestroika took place on 1985.
+point_in_time,pit_complex_2,template,91.1,14,1.00,0,False,"The event known as became UK Prime Minister took place on May 3, 1979."
+point_in_time,pit_complex_2,template,75.2,13,1.00,0,False,"The event known as became US President took place on January 20, 2009."
+point_in_time,pit_complex_2,template,66.7,13,0.93,0,False,"The event known as adopted euro currency took place on January 1, 1999."
+point_in_time,pit_complex_2,template,77.2,11,1.00,0,False,The event known as completed Guernica took place on June 1937.
+point_in_time,pit_complex_2,template,98.2,14,1.00,1,False,"The event known as released Sgt. Pepper's album took place on June 1, 1967."
+point_in_time,pit_complex_2,template,99.6,14,1.00,0,False,"The event known as held first Academy Awards took place on May 16, 1929."
+point_in_time,pit_simple_3,template,100.0,9,1.00,0,False,"On April 2, 1968, released 2001: A Space Odyssey."
+point_in_time,pit_complex_2,template,94.2,11,1.00,0,False,The event known as published The Shining took place on 1977.
+point_in_time,pit_complex_2,template,92.1,13,1.00,0,False,"The event known as released Ziggy Stardust took place on June 16, 1972."
+point_in_time,pit_complex_2,template,68.8,11,0.95,0,False,The event known as began digital preservation took place on 1996.
+point_in_time,pit_complex_2,template,74.2,14,0.99,0,False,"The event known as won heavyweight boxing title took place on February 25, 1964."
+point_in_time,pit_narr_1,template,96.2,9,1.00,1,False,"It was November 19, 1969 when scored 1000th goal."
+point_in_time,pit_complex_2,template,90.1,15,1.00,1,False,"The event known as won Nobel Prize in Physics took place on December 10, 1903."
+point_in_time,pit_complex_2,template,66.7,13,0.93,0,False,"The event known as published Special Relativity took place on June 30, 1905."
+point_in_time,pit_complex_2,template,76.2,12,1.00,0,False,"The event known as declared independence took place on July 4, 1776."
+point_in_time,pit_simple_3,template,100.0,8,1.00,0,False,"On July 20, 1969, walked on the Moon."
+point_in_time,pit_complex_2,template,66.7,13,0.93,0,False,"The event known as experienced nuclear disaster took place on April 26, 1986."
+point_in_time,pit_complex_2,template,93.1,12,1.00,0,False,"The event known as was invented took place on March 12, 1989."
+point_in_time,pit_complex_2,template,91.1,14,1.00,1,False,"The event known as fell, ending Cold War took place on November 9, 1989."
+point_in_time,pit_complex_2,template,92.1,13,1.00,1,False,"The event known as declared COVID-19 pandemic took place on March 11, 2020."
+point_in_time,pit_simple_1,template,100.0,8,1.00,0,False,"docked with ISS happened on May 31, 2020."
+point_in_time,pit_complex_2,template,92.1,13,1.00,1,False,"The event known as captured first images took place on July 12, 2022."
+point_in_time,pit_complex_2,template,66.7,13,0.93,0,False,"The event known as discovered Mandelbrot set took place on November 1, 1980."
+point_in_time,pit_complex_2,template,84.7,12,1.00,0,False,The event known as began chimpanzee study took place on July 1960.
+point_in_time,pit_complex_2,template,68.8,11,0.95,0,False,The event known as formulated gravity law took place on 1687.
+point_in_time,pit_complex_2,template,66.7,13,0.93,0,False,"The event known as published evolution theory took place on November 24, 1859."
+point_in_time,pit_complex_2,template,93.1,12,1.00,0,False,"The event known as patented telephone took place on March 10, 1876."
+point_in_time,pit_complex_2,template,92.1,13,1.00,0,False,"The event known as tested light bulb took place on October 21, 1879."
+point_in_time,pit_complex_2,template,68.8,11,0.95,0,False,The event known as transmitted wireless electricity took place on 1891.
+point_in_time,pit_narr_1,template,96.2,9,1.00,0,False,"It was May 2, 1952 when captured Photo 51."
+intervals,int_temporal_1,template,78.2,10,1.00,1,False,"lasted stretched across 6 years (September 1, 1939-September 2, 1945)."
+intervals,int_bracket_3,template,68.8,11,0.95,1,False,"In the 3 centuries from 14th century to 17th century, occurred."
+intervals,int_simple_2,template,100.0,6,1.00,0,False,spanned ran from 1890 to 1934.
+intervals,int_duration_1,template,84.7,12,1.00,1,False,"persisted spanned 42 years, from March 12, 1947 to December 3, 1989."
+intervals,int_simple_3,template,100.0,5,1.00,1,False,"From 1837 to 1901, defined."
+intervals,int_simple_3,template,100.0,5,1.00,0,False,"From 1760 to 1840, transformed."
+intervals,int_simple_2,template,100.0,6,1.00,0,False,shaped ran from 1685 to 1815.
+intervals,int_bracket_3,template,87.7,9,1.00,0,False,"In the 11 years from 1961 to 1972, operated."
+intervals,int_duration_1,template,87.7,9,1.00,1,False,"characterized tech spanned 5 years, from 1995 to 2000."
+intervals,int_bracket_3,template,87.7,9,1.00,0,False,"In the 10 years from 1929 to 1939, devastated."
+intervals,int_duration_1,template,51.9,11,0.81,1,False,"dominated Europe spanned 1000 years, from 5th century to 15th century."
+intervals,int_simple_2,template,100.0,8,1.00,1,False,flourished ran from 3100 BCE to 30 BCE.
+intervals,int_simple_2,template,100.0,8,1.00,1,False,governed ran from 27 BCE to 476 CE.
+intervals,int_simple_2,template,100.0,8,1.00,1,False,endured ran from 330 CE to 1453 CE.
+intervals,int_duration_1,template,69.8,10,0.96,1,False,"flourished spanned 600 years, from 8th century to 14th century."
+intervals,int_bracket_3,template,96.2,9,1.00,0,False,"In the 273 years from 793 to 1066, influenced."
+intervals,int_duration_1,template,69.8,10,0.96,0,False,"transformed spanned 300 years, from 14th century to 17th century."
+intervals,int_bracket_3,template,96.2,9,1.00,0,False,"In the 356 years from 1478 to 1834, persisted."
+intervals,int_bracket_3,template,51.9,11,0.81,1,False,"In the 200 years from 16th century to 18th century, revolutionized."
+intervals,int_bracket_3,template,87.7,9,1.00,0,False,"In the 9 years from 1920 to 1929, characterized."
+intervals,int_bracket_3,template,79.3,9,1.00,0,False,"In the 66 years from 1957 to present, revolutionized."
+intervals,int_simple_2,template,100.0,6,1.00,0,False,marked ran from 1942 to 1970s.
+intervals,int_simple_3,template,100.0,5,1.00,0,False,"From 1950 to present, transformed."
+intervals,int_simple_3,template,100.0,5,1.00,0,False,"From 1990 to present, defined."
+intervals,int_simple_3,template,100.0,5,1.00,1,False,"From 1980 to present, reshaped."
+intervals,int_duration_1,template,87.7,9,1.00,0,False,"influenced design spanned 20 years, from 1920 to 1940."
+intervals,int_duration_1,template,79.3,9,1.00,0,False,"dominated music spanned 9 years, from 1920 to 1929."
+intervals,int_simple_3,template,100.0,5,1.00,0,False,"From 1920 to 1930, flourished."
+intervals,int_simple_1,template,100.0,7,1.00,1,False,evolved lasted from late 1800s to mid-1900s.
+intervals,int_duration_1,template,87.7,9,1.00,1,False,"challenged society spanned 20 years, from 1960s to 1970s."
+intervals,int_temporal_1,template,78.2,10,1.00,1,False,"lasted stretched across 6 years (September 1, 1939-September 2, 1945)."
+intervals,int_bracket_3,template,68.8,11,0.95,0,False,"In the 3 centuries from 14th century to 17th century, occurred."
+intervals,int_simple_2,template,100.0,6,1.00,0,False,spanned ran from 1890 to 1934.
+intervals,int_duration_1,template,84.7,12,1.00,1,False,"persisted spanned 42 years, from March 12, 1947 to December 3, 1989."
+intervals,int_simple_3,template,100.0,5,1.00,0,False,"From 1837 to 1901, defined."
+intervals,int_simple_3,template,100.0,5,1.00,0,False,"From 1760 to 1840, transformed."
+intervals,int_simple_2,template,100.0,6,1.00,0,False,shaped ran from 1685 to 1815.
+intervals,int_bracket_3,template,87.7,9,1.00,0,False,"In the 11 years from 1961 to 1972, operated."
+intervals,int_duration_1,template,87.7,9,1.00,0,False,"characterized tech spanned 5 years, from 1995 to 2000."
+intervals,int_bracket_3,template,87.7,9,1.00,0,False,"In the 10 years from 1929 to 1939, devastated."
+intervals,int_duration_1,template,51.9,11,0.81,0,False,"dominated Europe spanned 1000 years, from 5th century to 15th century."
+intervals,int_simple_2,template,100.0,8,1.00,0,False,flourished ran from 3100 BCE to 30 BCE.
+intervals,int_simple_2,template,100.0,8,1.00,0,False,governed ran from 27 BCE to 476 CE.
+intervals,int_simple_2,template,100.0,8,1.00,0,False,endured ran from 330 CE to 1453 CE.
+intervals,int_duration_1,template,69.8,10,0.96,0,False,"flourished spanned 600 years, from 8th century to 14th century."
+intervals,int_bracket_3,template,96.2,9,1.00,0,False,"In the 273 years from 793 to 1066, influenced."
+intervals,int_duration_1,template,69.8,10,0.96,0,False,"transformed spanned 300 years, from 14th century to 17th century."
+intervals,int_bracket_3,template,96.2,9,1.00,0,False,"In the 356 years from 1478 to 1834, persisted."
+intervals,int_bracket_3,template,51.9,11,0.81,0,False,"In the 200 years from 16th century to 18th century, revolutionized."
+intervals,int_bracket_3,template,87.7,9,1.00,0,False,"In the 9 years from 1920 to 1929, characterized."
+intervals,int_bracket_3,template,79.3,9,1.00,0,False,"In the 66 years from 1957 to present, revolutionized."
+intervals,int_simple_2,template,100.0,6,1.00,0,False,marked ran from 1942 to 1970s.
+intervals,int_simple_3,template,100.0,5,1.00,0,False,"From 1950 to present, transformed."
+intervals,int_simple_3,template,100.0,5,1.00,0,False,"From 1990 to present, defined."
+intervals,int_simple_3,template,100.0,5,1.00,0,False,"From 1980 to present, reshaped."
+intervals,int_duration_1,template,87.7,9,1.00,0,False,"influenced design spanned 20 years, from 1920 to 1940."
+intervals,int_duration_1,template,79.3,9,1.00,0,False,"dominated music spanned 9 years, from 1920 to 1929."
+intervals,int_simple_3,template,100.0,5,1.00,0,False,"From 1920 to 1930, flourished."
+intervals,int_simple_1,template,100.0,7,1.00,0,False,evolved lasted from late 1800s to mid-1900s.
+intervals,int_duration_1,template,87.7,9,1.00,0,False,"challenged society spanned 20 years, from 1960s to 1970s."
+intervals,int_temporal_1,template,78.2,10,1.00,1,False,"lasted stretched across 6 years (September 1, 1939-September 2, 1945)."
+intervals,int_bracket_3,template,68.8,11,0.95,1,False,"In the 3 centuries from 14th century to 17th century, occurred."
+intervals,int_simple_2,template,100.0,6,1.00,0,False,spanned ran from 1890 to 1934.
+intervals,int_duration_1,template,84.7,12,1.00,1,False,"persisted spanned 42 years, from March 12, 1947 to December 3, 1989."
+intervals,int_simple_3,template,100.0,5,1.00,0,False,"From 1837 to 1901, defined."
+intervals,int_simple_3,template,100.0,5,1.00,0,False,"From 1760 to 1840, transformed."
+intervals,int_simple_2,template,100.0,6,1.00,0,False,shaped ran from 1685 to 1815.
+intervals,int_bracket_3,template,87.7,9,1.00,0,False,"In the 11 years from 1961 to 1972, operated."
+intervals,int_duration_1,template,87.7,9,1.00,0,False,"characterized tech spanned 5 years, from 1995 to 2000."
+intervals,int_bracket_3,template,87.7,9,1.00,0,False,"In the 10 years from 1929 to 1939, devastated."
+intervals,int_duration_1,template,51.9,11,0.81,0,False,"dominated Europe spanned 1000 years, from 5th century to 15th century."
+intervals,int_simple_2,template,100.0,8,1.00,0,False,flourished ran from 3100 BCE to 30 BCE.
+intervals,int_simple_2,template,100.0,8,1.00,0,False,governed ran from 27 BCE to 476 CE.
+intervals,int_simple_2,template,100.0,8,1.00,0,False,endured ran from 330 CE to 1453 CE.
+intervals,int_duration_1,template,69.8,10,0.96,0,False,"flourished spanned 600 years, from 8th century to 14th century."
+intervals,int_bracket_3,template,96.2,9,1.00,0,False,"In the 273 years from 793 to 1066, influenced."
+intervals,int_duration_1,template,69.8,10,0.96,0,False,"transformed spanned 300 years, from 14th century to 17th century."
+intervals,int_bracket_3,template,96.2,9,1.00,0,False,"In the 356 years from 1478 to 1834, persisted."
+intervals,int_bracket_3,template,51.9,11,0.81,0,False,"In the 200 years from 16th century to 18th century, revolutionized."
+intervals,int_bracket_3,template,87.7,9,1.00,0,False,"In the 9 years from 1920 to 1929, characterized."
+intervals,int_bracket_3,template,79.3,9,1.00,0,False,"In the 66 years from 1957 to present, revolutionized."
+intervals,int_simple_2,template,100.0,6,1.00,0,False,marked ran from 1942 to 1970s.
+intervals,int_simple_3,template,100.0,5,1.00,0,False,"From 1950 to present, transformed."
+intervals,int_simple_3,template,100.0,5,1.00,0,False,"From 1990 to present, defined."
+intervals,int_simple_3,template,100.0,5,1.00,0,False,"From 1980 to present, reshaped."
+intervals,int_duration_1,template,87.7,9,1.00,0,False,"influenced design spanned 20 years, from 1920 to 1940."
+intervals,int_duration_1,template,79.3,9,1.00,0,False,"dominated music spanned 9 years, from 1920 to 1929."
+intervals,int_simple_3,template,100.0,5,1.00,2,False,"From 1920 to 1930, flourished."
+intervals,int_simple_1,template,100.0,7,1.00,0,False,evolved lasted from late 1800s to mid-1900s.
+intervals,int_duration_1,template,87.7,9,1.00,0,False,"challenged society spanned 20 years, from 1960s to 1970s."
+intervals,int_temporal_1,template,78.2,10,1.00,1,False,"lasted stretched across 6 years (September 1, 1939-September 2, 1945)."
+intervals,int_bracket_3,template,68.8,11,0.95,0,False,"In the 3 centuries from 14th century to 17th century, occurred."
+intervals,int_simple_2,template,100.0,6,1.00,0,False,spanned ran from 1890 to 1934.
+intervals,int_duration_1,template,84.7,12,1.00,1,False,"persisted spanned 42 years, from March 12, 1947 to December 3, 1989."
+intervals,int_simple_3,template,100.0,5,1.00,0,False,"From 1837 to 1901, defined."
+intervals,int_simple_3,template,100.0,5,1.00,0,False,"From 1760 to 1840, transformed."
+intervals,int_simple_2,template,100.0,6,1.00,0,False,shaped ran from 1685 to 1815.
+intervals,int_bracket_3,template,87.7,9,1.00,0,False,"In the 11 years from 1961 to 1972, operated."
+intervals,int_duration_1,template,87.7,9,1.00,0,False,"characterized tech spanned 5 years, from 1995 to 2000."
+intervals,int_bracket_3,template,87.7,9,1.00,1,False,"In the 10 years from 1929 to 1939, devastated."
+sequences,seq_count_1,template,58.6,17,0.87,2,False,5 steps in all. First Archduke assassinated. Then Ultimatum issued to Serbia. Last War declared on S
+sequences,seq_way_1,template,99.5,17,1.00,2,False,The way it went was this: Berlin Wall erected. Then Kennedy visits Berlin. Then Cuban Missile Crisis
+sequences,seq_count_1,template,92.8,16,1.00,1,False,5 steps in all. First Ancient Egypt thrived. Then Roman Empire rose. Last Middle Ages began.
+sequences,seq_way_1,template,66.7,14,0.93,1,False,The way it went was this: Internet invented. Then Web created. Then Browsers commercialized.
+sequences,seq_count_1,template,76.6,13,1.00,1,False,5 steps in all. First COVID-19 emerges. Then Lockdowns implemented. Last Vaccines developed.
+sequences,seq_count_1,polished,72.1,46,0.74,1400,False,"There are five main steps.  
+First, the Industrial Revolution started in 1760.  
+Next, the steam eng"
+sequences,seq_way_1,template,91.8,15,1.00,1,False,The way it went was this: French Revolution erupted. Then Bastille stormed. Then Rights declared.
+sequences,seq_way_1,template,66.1,16,0.93,1,False,The way it went was this: Civil War started. Then Battle of Gettysburg. Then Emancipation Proclamati
+sequences,seq_count_1,template,92.3,18,1.00,1,False,5 steps in all. First World War I began. Then Trench warfare dominated. Last US joined the war.
+sequences,seq_count_1,template,92.5,17,1.00,1,False,5 steps in all. First Nazi Party rose. Then Hitler became Chancellor. Last World War II began.
+sequences,seq_count_1,template,50.7,15,0.81,1,False,5 steps in all. First Heliocentric theory proposed. Then Planetary laws discovered. Last Telescopes 
+sequences,seq_way_1,template,74.9,15,1.00,1,False,The way it went was this: Atoms proposed. Then Atomic structure discovered. Then Electrons identifie
+sequences,seq_count_1,polished,81.5,27,0.74,996,False,"Here are the three main steps. First, people proposed the idea of evolution. Next, they found out ab"
+sequences,seq_way_1,polished,72.5,44,0.79,1077,False,"Here is a simplified version of the text, following your guidelines:
+
+First, germ theory was propose"
+sequences,seq_way_1,polished,46.4,40,0.66,1143,False,"Here is a simplified version to improve readability:
+
+First, scientists found radioactivity in 1896."
+sequences,seq_count_1,template,59.5,14,0.88,2,False,5 steps in all. First Telegraph invented. Then Telegraph networks expanded. Last Telephone invented.
+sequences,seq_way_1,template,65.7,17,0.93,2,False,The way it went was this: First computers built. Then Programming languages developed. Then Personal
+sequences,seq_way_1,polished,63.4,40,0.73,1094,False,"Here is the rewritten text:
+
+First, photography was invented in 1839.  
+Next, color photography was "
+sequences,seq_count_1,template,58.6,17,0.87,5,False,5 steps in all. First Archduke assassinated. Then Ultimatum issued to Serbia. Last War declared on S
+sequences,seq_way_1,template,99.5,17,1.00,5,False,The way it went was this: Berlin Wall erected. Then Kennedy visits Berlin. Then Cuban Missile Crisis
+sequences,seq_count_1,template,92.8,16,1.00,4,False,5 steps in all. First Ancient Egypt thrived. Then Roman Empire rose. Last Middle Ages began.
+sequences,seq_way_1,template,66.7,14,0.93,7,False,The way it went was this: Internet invented. Then Web created. Then Browsers commercialized.
+sequences,seq_count_1,template,76.6,13,1.00,2,False,5 steps in all. First COVID-19 emerges. Then Lockdowns implemented. Last Vaccines developed.
+sequences,seq_count_1,polished,57.7,31,0.74,998,False,"There are five key steps. First, the Industrial Revolution started. Next, the steam engine was impro"
+sequences,seq_way_1,template,91.8,15,1.00,4,False,The way it went was this: French Revolution erupted. Then Bastille stormed. Then Rights declared.
+sequences,seq_way_1,template,66.1,16,0.93,5,False,The way it went was this: Civil War started. Then Battle of Gettysburg. Then Emancipation Proclamati
+sequences,seq_count_1,template,92.3,18,1.00,4,False,5 steps in all. First World War I began. Then Trench warfare dominated. Last US joined the war.
+sequences,seq_count_1,template,92.5,17,1.00,4,False,5 steps in all. First Nazi Party rose. Then Hitler became Chancellor. Last World War II began.
+sequences,seq_count_1,template,50.7,15,0.81,3,False,5 steps in all. First Heliocentric theory proposed. Then Planetary laws discovered. Last Telescopes 
+sequences,seq_way_1,template,74.9,15,1.00,3,False,The way it went was this: Atoms proposed. Then Atomic structure discovered. Then Electrons identifie
+sequences,seq_count_1,polished,88.4,58,0.74,1614,False,"Here are the 5 key steps:
+
+1. The idea of evolution was first proposed in 1859.  
+2. Natural selecti"
+sequences,seq_way_1,polished,64.6,41,0.79,886,False,"Here is a simplified version that follows your guidelines:
+
+First, germ theory was proposed.  
+Next,"
+sequences,seq_way_1,polished,63.4,48,0.66,1059,False,"Here is a simplified version that follows your guidelines:
+
+First, scientists found radioactivity in"
+sequences,seq_count_1,template,59.5,14,0.88,10,False,5 steps in all. First Telegraph invented. Then Telegraph networks expanded. Last Telephone invented.
+sequences,seq_way_1,template,65.7,17,0.93,6,False,The way it went was this: First computers built. Then Programming languages developed. Then Personal
+sequences,seq_way_1,polished,72.5,44,0.73,1305,False,"Here is the rewritten text:
+
+First, photography was invented in 1839.  
+Then, color photography was "
+sequences,seq_count_1,template,58.6,17,0.87,1,False,5 steps in all. First Archduke assassinated. Then Ultimatum issued to Serbia. Last War declared on S
+sequences,seq_way_1,template,99.5,17,1.00,1,False,The way it went was this: Berlin Wall erected. Then Kennedy visits Berlin. Then Cuban Missile Crisis
+sequences,seq_count_1,template,92.8,16,1.00,1,False,5 steps in all. First Ancient Egypt thrived. Then Roman Empire rose. Last Middle Ages began.
+sequences,seq_way_1,template,66.7,14,0.93,1,False,The way it went was this: Internet invented. Then Web created. Then Browsers commercialized.
+sequences,seq_count_1,template,76.6,13,1.00,1,False,5 steps in all. First COVID-19 emerges. Then Lockdowns implemented. Last Vaccines developed.
+sequences,seq_count_1,polished,72.5,44,0.74,1278,False,"There are five main steps.  
+First, the Industrial Revolution started in 1760.  
+Next, the steam eng"
+sequences,seq_way_1,template,91.8,15,1.00,3,False,The way it went was this: French Revolution erupted. Then Bastille stormed. Then Rights declared.
+sequences,seq_way_1,template,66.1,16,0.93,2,False,The way it went was this: Civil War started. Then Battle of Gettysburg. Then Emancipation Proclamati
+sequences,seq_count_1,template,92.3,18,1.00,3,False,5 steps in all. First World War I began. Then Trench warfare dominated. Last US joined the war.
+sequences,seq_count_1,template,92.5,17,1.00,2,False,5 steps in all. First Nazi Party rose. Then Hitler became Chancellor. Last World War II began.
+sequences,seq_count_1,template,50.7,15,0.81,2,False,5 steps in all. First Heliocentric theory proposed. Then Planetary laws discovered. Last Telescopes 
+sequences,seq_way_1,template,74.9,15,1.00,2,False,The way it went was this: Atoms proposed. Then Atomic structure discovered. Then Electrons identifie
+sequences,seq_count_1,polished,49.0,33,0.74,1366,False,"There are five steps in total. First, the theory of evolution was proposed. Next, scientists identif"
+sequences,seq_way_1,polished,56.9,36,0.79,922,False,"Here is the rewritten text following your guidelines:
+
+First, germ theory was proposed.  
+Next, scie"
+sequences,seq_way_1,polished,54.7,41,0.66,935,False,"Here is a simplified version to maximize readability:
+
+First, people found radioactivity in 1896.  
+"
+sequences,seq_count_1,template,59.5,14,0.88,7,False,5 steps in all. First Telegraph invented. Then Telegraph networks expanded. Last Telephone invented.
+sequences,seq_way_1,template,65.7,17,0.93,5,False,The way it went was this: First computers built. Then Programming languages developed. Then Personal
+sequences,seq_way_1,polished,79.9,42,0.73,1102,False,"Here is a simple version with a high reading ease:
+
+First, photography was invented in 1839.  
+Next,"
+sequences,seq_count_1,template,58.6,17,0.87,5,False,5 steps in all. First Archduke assassinated. Then Ultimatum issued to Serbia. Last War declared on S
+sequences,seq_way_1,template,99.5,17,1.00,4,False,The way it went was this: Berlin Wall erected. Then Kennedy visits Berlin. Then Cuban Missile Crisis
+sequences,seq_count_1,template,92.8,16,1.00,4,False,5 steps in all. First Ancient Egypt thrived. Then Roman Empire rose. Last Middle Ages began.
+sequences,seq_way_1,template,66.7,14,0.93,4,False,The way it went was this: Internet invented. Then Web created. Then Browsers commercialized.
+sequences,seq_count_1,template,76.6,13,1.00,2,False,5 steps in all. First COVID-19 emerges. Then Lockdowns implemented. Last Vaccines developed.
+sequences,seq_count_1,polished,72.1,46,0.74,1542,False,"There are five big steps. First, the Industrial Revolution began in 1760. Next, the steam engine was"
+sequences,seq_way_1,template,91.8,15,1.00,5,False,The way it went was this: French Revolution erupted. Then Bastille stormed. Then Rights declared.
+sequences,seq_way_1,template,66.1,16,0.93,5,False,The way it went was this: Civil War started. Then Battle of Gettysburg. Then Emancipation Proclamati
+sequences,seq_count_1,template,92.3,18,1.00,5,False,5 steps in all. First World War I began. Then Trench warfare dominated. Last US joined the war.
+sequences,seq_count_1,template,92.5,17,1.00,5,False,5 steps in all. First Nazi Party rose. Then Hitler became Chancellor. Last World War II began.
+sequences,seq_count_1,template,50.7,15,0.81,4,False,5 steps in all. First Heliocentric theory proposed. Then Planetary laws discovered. Last Telescopes 
+sequences,seq_way_1,template,74.9,15,1.00,5,False,The way it went was this: Atoms proposed. Then Atomic structure discovered. Then Electrons identifie
+sequences,seq_count_1,polished,81.5,34,0.74,1070,False,"There are five main steps. First, the idea of evolution was proposed. Next, scientists found out abo"
+sequences,seq_way_1,polished,64.7,40,0.79,1011,False,"Here is a rewritten version that maximizes the Flesch Reading Ease score:
+
+First, germ theory was pr"
+sequences,seq_way_1,polished,63.0,42,0.66,1639,False,"Here is a simplified version that follows your guidelines:
+
+First, scientists found radioactivity in"
+sequences,seq_count_1,template,59.5,14,0.88,9,False,5 steps in all. First Telegraph invented. Then Telegraph networks expanded. Last Telephone invented.
+sequences,seq_way_1,template,65.7,17,0.93,5,False,The way it went was this: First computers built. Then Programming languages developed. Then Personal
+sequences,seq_way_1,polished,71.1,52,0.73,1232,False,"Here is a version that follows your guidelines:
+
+First, photography was invented in 1839.  
+Next, co"
+sequences,seq_count_1,template,58.6,17,0.87,10,False,5 steps in all. First Archduke assassinated. Then Ultimatum issued to Serbia. Last War declared on S
+sequences,seq_way_1,template,99.5,17,1.00,5,False,The way it went was this: Berlin Wall erected. Then Kennedy visits Berlin. Then Cuban Missile Crisis
+sequences,seq_count_1,template,92.8,16,1.00,6,False,5 steps in all. First Ancient Egypt thrived. Then Roman Empire rose. Last Middle Ages began.
+sequences,seq_way_1,template,66.7,14,0.93,5,False,The way it went was this: Internet invented. Then Web created. Then Browsers commercialized.
+sequences,seq_count_1,template,76.6,13,1.00,3,False,5 steps in all. First COVID-19 emerges. Then Lockdowns implemented. Last Vaccines developed.
+sequences,seq_count_1,polished,74.2,40,0.74,1201,False,"There are five key steps.  
+
+First, the Industrial Revolution started.  
+
+Next, people made the stea"
+sequences,seq_way_1,template,91.8,15,1.00,2,False,The way it went was this: French Revolution erupted. Then Bastille stormed. Then Rights declared.
+sequences,seq_way_1,template,66.1,16,0.93,3,False,The way it went was this: Civil War started. Then Battle of Gettysburg. Then Emancipation Proclamati
+sequences,seq_count_1,template,92.3,18,1.00,2,False,5 steps in all. First World War I began. Then Trench warfare dominated. Last US joined the war.
+sequences,seq_count_1,template,92.5,17,1.00,2,False,5 steps in all. First Nazi Party rose. Then Hitler became Chancellor. Last World War II began.
+sequences,seq_count_1,template,50.7,15,0.81,2,False,5 steps in all. First Heliocentric theory proposed. Then Planetary laws discovered. Last Telescopes 
+sequences,seq_way_1,template,74.9,15,1.00,2,False,The way it went was this: Atoms proposed. Then Atomic structure discovered. Then Electrons identifie
+sequences,seq_count_1,polished,65.1,38,0.74,1109,False,"There are five steps in all. First, the idea of evolution was proposed. Next, scientists found out a"
+sequences,seq_way_1,polished,65.6,35,0.79,1121,False,"Here is a revised version following your guidelines:
+
+First, people proposed germ theory.  
+Next, th"
+sequences,seq_way_1,polished,63.9,45,0.66,1130,False,"Here is the simplified version:
+
+First, scientists found radioactivity in 1896.  
+Next, they isolate"
+sequences,seq_count_1,template,59.5,14,0.88,4,False,5 steps in all. First Telegraph invented. Then Telegraph networks expanded. Last Telephone invented.
+sequences,seq_way_1,template,65.7,17,0.93,4,False,The way it went was this: First computers built. Then Programming languages developed. Then Personal
+sequences,seq_way_1,polished,72.4,37,0.73,1053,False,"Here is the simplified version:
+
+First, photography was invented in 1839.  
+Next, color photography "
+sequences,seq_count_1,template,58.6,17,0.87,2,False,5 steps in all. First Archduke assassinated. Then Ultimatum issued to Serbia. Last War declared on S
+sequences,seq_way_1,template,99.5,17,1.00,3,False,The way it went was this: Berlin Wall erected. Then Kennedy visits Berlin. Then Cuban Missile Crisis
+sequences,seq_count_1,template,92.8,16,1.00,3,False,5 steps in all. First Ancient Egypt thrived. Then Roman Empire rose. Last Middle Ages began.
+sequences,seq_way_1,template,66.7,14,0.93,2,False,The way it went was this: Internet invented. Then Web created. Then Browsers commercialized.
+sequences,seq_count_1,template,76.6,13,1.00,2,False,5 steps in all. First COVID-19 emerges. Then Lockdowns implemented. Last Vaccines developed.
+sequences,seq_count_1,polished,80.6,46,0.74,1579,False,"There are five main steps.  
+First, the Industrial Revolution started in 1760.  
+Next, the steam eng"
+sequences,seq_way_1,template,91.8,15,1.00,1,False,The way it went was this: French Revolution erupted. Then Bastille stormed. Then Rights declared.
+sequences,seq_way_1,template,66.1,16,0.93,1,False,The way it went was this: Civil War started. Then Battle of Gettysburg. Then Emancipation Proclamati
+sequences,seq_count_1,template,92.3,18,1.00,1,False,5 steps in all. First World War I began. Then Trench warfare dominated. Last US joined the war.
+sequences,seq_count_1,template,92.5,17,1.00,1,False,5 steps in all. First Nazi Party rose. Then Hitler became Chancellor. Last World War II began.
+causality,caus_bare_2,polished,72.8,14,0.72,881,False,Archduke Franz Ferdinand was killed. This led Austria-Hungary to go to war with Serbia.
+causality,caus_bare_2,template,80.3,16,1.00,1,False,"Stock market crash on October 29, 1929. This made it so: Great Depression lasted throughout 1930s."
+causality,caus_bare_2,polished,89.1,38,0.72,1055,False,The printing press was invented around 1440. It helped knowledge spread fast. It made books and pamp
+causality,caus_bare_2,polished,91.3,22,0.72,758,False,Penicillin was found in 1928. It changed medicine a lot. Antibiotics then helped fight infections. T
+causality,caus_bare_2,polished,64.1,29,0.78,774,False,The Russian Revolution happened in 1917. It led to the rise of the Soviet Union. The new government 
+causality,caus_bare_2,polished,74.0,35,0.45,769,False,The Industrial Revolution happened in the 18th century. It caused cities to grow fast. More people m
+causality,caus_bare_2,polished,65.6,29,0.58,785,False,The steam engine was invented. It changed how we move and make things. Transportation and factories 
+causality,caus_bare_1,template,90.8,12,1.00,4,False,Berlin Wall fell in 1989. So Cold War ended and Germany reunified.
+causality,caus_this_1,template,72.8,14,0.98,5,False,Climate change from greenhouse emissions. This led to Rising sea levels threaten coastal regions.
+causality,caus_bare_2,polished,56.4,26,0.72,693,False,The Internet was invented. It changed how people talk and do business. It made global communication 
+causality,caus_bare_2,template,80.3,16,1.00,1,False,Treaty of Versailles imposed on Germany. This made it so: Nazi Party rise fueled by resentment.
+causality,caus_bare_2,polished,57.9,10,0.79,547,False,British taxed the American colonies. This caused the American Revolution.
+causality,caus_bare_2,template,55.9,14,0.85,2,False,French monarchy despotism and financial crisis. This made it so: French Revolution transformed Europ
+causality,caus_due_1,template,64.4,14,0.91,2,False,Alliance system pulled powers into World War I. This was due to Archduke assassinated.
+causality,caus_this_1,template,73.8,12,0.99,2,False,Nazi expansionist policies. This led to World War II triggered in Europe.
+causality,caus_bare_2,polished,89.5,29,0.58,694,False,"Scientists saw how genes are passed down.  
+This helped them improve the idea of evolution.  
+They n"
+causality,caus_bare_2,polished,82.6,17,0.71,1609,False,"Röntgen found X-rays in 1895. This changed medical scans. Now, doctors can see inside the body easil"
+causality,caus_bare_2,polished,65.4,24,0.45,637,False,Einstein created the theory of relativity. This changed how we see the world. It made physics better
+causality,caus_this_1,template,57.4,11,0.86,3,False,Transistor developed in 1947. This led to Modern computer age began.
+causality,caus_bare_2,polished,40.5,11,0.59,638,False,Scientists made synthetic insulin. This made diabetes treatment easier to get.
+causality,caus_this_1,template,72.8,14,0.98,4,False,Credit expansion and speculation in 1920s. This led to Stock market crashed in 1929.
+causality,caus_this_1,template,90.8,12,1.00,3,False,OPEC oil embargo in 1973. This led to Global oil prices quadrupled.
+causality,caus_bare_2,template,55.9,14,0.85,3,False,Housing market collapsed in 2008. This made it so: Global financial crisis devastated economies.
+causality,caus_bare_2,template,64.4,14,0.91,3,False,Trade opened between China and West. This made it so: Global manufacturing patterns shifted.
+causality,caus_bare_2,polished,57.1,23,0.64,810,False,E-commerce and digital markets grew. This changed how stores work. Online shopping made it easier an
+causality,caus_this_1,template,64.9,13,0.92,1,False,Uncle Tom's Cabin published. This led to Northern public opinion shifted against slavery.
+causality,caus_this_1,template,73.3,13,0.99,1,False,Workers treated poorly in factories. This led to Labor movements and unions emerged.
+causality,caus_this_1,template,64.4,14,0.91,1,False,Women gained education and empowerment. This led to Women gained voting rights and roles.
+causality,caus_bare_2,polished,64.9,13,0.72,657,False,Archduke Franz Ferdinand was killed. This led Austria-Hungary to declare war on Serbia.
+causality,caus_bare_2,template,80.3,16,1.00,5,False,"Stock market crash on October 29, 1929. This made it so: Great Depression lasted throughout 1930s."
+causality,caus_bare_2,polished,98.6,33,0.72,875,False,The printing press was invented around 1440. It helped ideas spread fast. Books and pamphlets could 
+causality,caus_bare_2,polished,83.5,19,0.72,686,False,Penicillin was found in 1928. It changed medicine forever. Antibiotics helped fight infections. This
+causality,caus_bare_2,polished,72.3,30,0.78,825,False,The Russian Revolution happened in 1917. It led to the rise of the Soviet Union. The new government 
+causality,caus_bare_2,polished,73.8,30,0.45,797,False,The Industrial Revolution happened in the 18th century. It caused cities to grow fast. Many people m
+causality,caus_bare_2,polished,74.0,29,0.58,818,False,The steam engine was invented. It changed how we move and make things. Transportation and factories 
+causality,caus_bare_1,template,90.8,12,1.00,4,False,Berlin Wall fell in 1989. So Cold War ended and Germany reunified.
+causality,caus_this_1,template,72.8,14,0.98,1,False,Climate change from greenhouse emissions. This led to Rising sea levels threaten coastal regions.
+causality,caus_bare_2,polished,73.8,24,0.72,596,False,"The Internet was invented. It changed how people talk and trade.  
+Global chat and business grew fas"
+causality,caus_bare_2,template,80.3,16,1.00,7,False,Treaty of Versailles imposed on Germany. This made it so: Nazi Party rise fueled by resentment.
+causality,caus_bare_2,polished,58.5,18,0.79,687,False,"British taxed the American colonies. This made the colonists angry. They wanted independence. Soon, "
+causality,caus_bare_2,template,55.9,14,0.85,1,False,French monarchy despotism and financial crisis. This made it so: French Revolution transformed Europ
+causality,caus_due_1,template,64.4,14,0.91,1,False,Alliance system pulled powers into World War I. This was due to Archduke assassinated.
+causality,caus_this_1,template,73.8,12,0.99,1,False,Nazi expansionist policies. This led to World War II triggered in Europe.
+causality,caus_bare_2,polished,72.1,23,0.58,626,False,"Scientists saw how traits are passed down.  
+This helped improve the theory of evolution.  
+Genetics"
+causality,caus_bare_2,polished,82.5,23,0.71,899,False,Röntgen found X-rays in 1895. This led to big changes. Doctors began to see inside the body. Medical
+causality,caus_bare_2,polished,64.4,21,0.45,858,False,Einstein made the theory of relativity. This changed modern physics a lot. It helped us understand s
+causality,caus_this_1,template,57.4,11,0.86,1,False,Transistor developed in 1947. This led to Modern computer age began.
+causality,caus_bare_2,polished,33.1,9,0.59,614,False,Scientists made synthetic insulin. This made diabetes care easier.
+causality,caus_this_1,template,72.8,14,0.98,1,False,Credit expansion and speculation in 1920s. This led to Stock market crashed in 1929.
+causality,caus_this_1,template,90.8,12,1.00,1,False,OPEC oil embargo in 1973. This led to Global oil prices quadrupled.
+causality,caus_bare_2,template,55.9,14,0.85,3,False,Housing market collapsed in 2008. This made it so: Global financial crisis devastated economies.
+causality,caus_bare_2,template,64.4,14,0.91,1,False,Trade opened between China and West. This made it so: Global manufacturing patterns shifted.
+causality,caus_bare_2,polished,90.8,24,0.64,659,False,E-commerce and digital markets grew. This changed how stores sell things. People found online shoppi
+causality,caus_this_1,template,64.9,13,0.92,1,False,Uncle Tom's Cabin published. This led to Northern public opinion shifted against slavery.
+causality,caus_this_1,template,73.3,13,0.99,1,False,Workers treated poorly in factories. This led to Labor movements and unions emerged.
+causality,caus_this_1,template,64.4,14,0.91,1,False,Women gained education and empowerment. This led to Women gained voting rights and roles.
+causality,caus_bare_2,polished,64.9,13,0.72,1032,False,Archduke Franz Ferdinand was killed. This caused Austria-Hungary to declare war on Serbia.
+causality,caus_bare_2,template,80.3,16,1.00,1,False,"Stock market crash on October 29, 1929. This made it so: Great Depression lasted throughout 1930s."
+causality,caus_bare_2,polished,89.8,28,0.72,674,False,The printing press was invented around 1440. This helped knowledge spread fast. It made books and pa
+causality,caus_bare_2,polished,91.1,17,0.72,651,False,Penicillin was found in 1928. This changed health care a lot. It made antibiotics help fight infecti
+causality,caus_bare_2,polished,63.4,24,0.78,753,False,The Russian Revolution happened in 1917. It led to the rise of the Soviet Union. The new communist g
+causality,caus_bare_2,polished,74.0,29,0.45,745,False,The Industrial Revolution happened in the 18th century. It caused cities to grow fast. Many people m
+causality,caus_bare_2,polished,81.5,27,0.58,859,False,The steam engine was invented. It made transport and making things much easier. This change led to b
+causality,caus_bare_1,template,90.8,12,1.00,2,False,Berlin Wall fell in 1989. So Cold War ended and Germany reunified.
+causality,caus_this_1,template,72.8,14,0.98,2,False,Climate change from greenhouse emissions. This led to Rising sea levels threaten coastal regions.
+causality,caus_bare_2,polished,82.3,24,0.72,759,False,"The Internet was invented. It changed how people talk and do business.  
+Global chat and trade grew "
+causality,caus_bare_2,template,80.3,16,1.00,4,False,Treaty of Versailles imposed on Germany. This made it so: Nazi Party rise fueled by resentment.
+causality,caus_bare_2,polished,74.7,26,0.79,530,False,British taxed the American colonies. This caused the American Revolution. The colonies felt angry. T
+causality,caus_bare_2,template,55.9,14,0.85,1,False,French monarchy despotism and financial crisis. This made it so: French Revolution transformed Europ
+causality,caus_due_1,template,64.4,14,0.91,1,False,Alliance system pulled powers into World War I. This was due to Archduke assassinated.
+causality,caus_this_1,template,73.8,12,0.99,1,False,Nazi expansionist policies. This led to World War II triggered in Europe.
+causality,caus_bare_2,polished,89.2,30,0.58,631,False,"Scientists saw how traits are passed down.  
+This helped improve the idea of how animals change over"
+causality,caus_bare_2,polished,74.2,17,0.71,921,False,Röntgen found X-rays in 1895. This changed medical images. Doctors can now see inside the body easil
+causality,caus_bare_2,polished,65.1,25,0.45,733,False,"Einstein made the theory of relativity. This changed physics a lot. It helped us understand space, t"
+causality,caus_this_1,template,57.4,11,0.86,1,False,Transistor developed in 1947. This led to Modern computer age began.
+causality,caus_bare_2,polished,74.3,11,0.59,649,False,Synthetic insulin was made. This made diabetes treatment easy to get.
+causality,caus_this_1,template,72.8,14,0.98,1,False,Credit expansion and speculation in 1920s. This led to Stock market crashed in 1929.
+causality,caus_this_1,template,90.8,12,1.00,1,False,OPEC oil embargo in 1973. This led to Global oil prices quadrupled.
+causality,caus_bare_2,template,55.9,14,0.85,1,False,Housing market collapsed in 2008. This made it so: Global financial crisis devastated economies.
+causality,caus_bare_2,template,64.4,14,0.91,1,False,Trade opened between China and West. This made it so: Global manufacturing patterns shifted.
+causality,caus_bare_2,polished,64.4,28,0.64,959,False,E-commerce and digital markets grew. This caused traditional retail stores to change. Online shoppin
+causality,caus_this_1,template,64.9,13,0.92,1,False,Uncle Tom's Cabin published. This led to Northern public opinion shifted against slavery.
+causality,caus_this_1,template,73.3,13,0.99,1,False,Workers treated poorly in factories. This led to Labor movements and unions emerged.
+causality,caus_this_1,template,64.4,14,0.91,1,False,Women gained education and empowerment. This led to Women gained voting rights and roles.
+causality,caus_bare_2,polished,64.9,13,0.72,648,False,Archduke Franz Ferdinand was killed. This led Austria-Hungary to declare war on Serbia.
+causality,caus_bare_2,template,80.3,16,1.00,1,False,"Stock market crash on October 29, 1929. This made it so: Great Depression lasted throughout 1930s."
+causality,caus_bare_2,polished,98.4,27,0.72,769,False,The printing press was invented around 1440. It helped ideas spread fast. It made books and pamphlet
+causality,caus_bare_2,polished,82.8,22,0.72,995,False,Penicillin was found in 1928. This made medicine much better. Doctors could now fight bacteria more 
+causality,caus_bare_2,polished,72.5,22,0.78,785,False,The Russian Revolution took place in 1917. It led to the birth of the Soviet Union. The new country 
+causality,caus_bare_2,polished,73.6,31,0.45,1163,False,The Industrial Revolution happened in the 18th century. It caused cities to grow fast. Many people m
+causality,caus_bare_2,polished,65.6,23,0.58,718,False,The steam engine was invented. It changed how people travel and make things. It used mechanical powe
+causality,caus_bare_1,template,90.8,12,1.00,3,False,Berlin Wall fell in 1989. So Cold War ended and Germany reunified.
+causality,caus_this_1,template,72.8,14,0.98,3,False,Climate change from greenhouse emissions. This led to Rising sea levels threaten coastal regions.
+causality,caus_bare_2,polished,65.1,25,0.72,602,False,"The Internet was invented. It changed how people talk and buy things.  
+Global communication and tra"
+causality,caus_bare_2,template,80.3,16,1.00,3,False,Treaty of Versailles imposed on Germany. This made it so: Nazi Party rise fueled by resentment.
+causality,caus_bare_2,polished,83.1,26,0.79,901,False,British taxed the American colonies. This caused the American Revolution. The taxes made the colonie
+causality,caus_bare_2,template,55.9,14,0.85,4,False,French monarchy despotism and financial crisis. This made it so: French Revolution transformed Europ
+causality,caus_due_1,template,64.4,14,0.91,5,False,Alliance system pulled powers into World War I. This was due to Archduke assassinated.
+causality,caus_this_1,template,73.8,12,0.99,4,False,Nazi expansionist policies. This led to World War II triggered in Europe.
+causality,caus_bare_2,polished,80.8,30,0.58,772,False,"Scientists saw how traits are passed down.  
+This helped improve the idea of how animals and plants "
+overlaps,ov_bare_1,template,84.7,12,1.00,4,False,Korean War and Cold War and Nuclear arms race at same time.
+overlaps,ov_same_1,template,54.2,17,0.83,4,False,All 4 at once: Shakespeare writing and Globe Theatre operating and Elizabethan era and Early modern 
+overlaps,ov_bare_1,template,62.7,17,0.90,4,False,Apollo 11 mission and Vietnam War and Civil Rights Movement and Computer Age beginning at same time.
+overlaps,ov_same_1,polished,74.5,27,0.77,852,False,"From 2020 to 2023, four things happened at once.  
+The COVID-19 pandemic spread.  
+People started wo"
+overlaps,ov_bare_1,polished,77.7,42,0.63,694,False,"Many big events happened at the same time. These are the Renaissance in Italy, the Age of Exploratio"
+overlaps,ov_same_1,template,55.2,16,0.84,1,False,All 4 at once: Berlin Blockade and NATO formation and Israel established and Korean War started.
+overlaps,ov_during_1,polished,74.5,38,0.62,863,False,"In the late 1700s, big events happened. Britain had its Industrial Revolution. The American Revoluti"
+overlaps,ov_bare_1,template,64.7,15,0.92,1,False,Dot-com boom and Mobile computing rise and Broadband expansion and E-commerce emerged at same time.
+overlaps,ov_bare_1,polished,72.8,28,0.66,1193,False,"The medieval period and the Renaissance started at the same time.  
+Feudalism was ending.  
+Humanism"
+overlaps,ov_during_1,polished,72.0,39,0.55,1044,False,"In the late 1700s, big changes happened. The Enlightenment and the start of the Industrial Revolutio"
+overlaps,ov_same_1,polished,77.5,32,0.71,852,False,"All four events happen at the same time. The Victorian Era, the Industrial Revolution, the peak of t"
+overlaps,ov_same_1,polished,81.1,36,0.62,920,False,All four events happened at the same time from 1870 to 1914. The Belle Époque was a time of growth. 
+overlaps,ov_same_1,polished,73.8,30,0.79,1089,False,"In the 1920s, four big things happened at once. The Roaring Twenties and Jazz Age made headlines. Pr"
+overlaps,ov_bare_2,template,78.6,18,1.00,1,False,World War II in Europe and World War II in Pacific and Holocaust and Science research both true.
+overlaps,ov_same_1,template,72.2,16,0.98,1,False,All 4 at once: Vietnam War and Space Race and Civil Rights Movement and Counterculture movement.
+overlaps,ov_same_1,polished,73.6,31,0.76,765,False,"In 1989, four big events happened at the same time. The Berlin Wall fell. Soviet communism broke dow"
+overlaps,ov_bare_1,polished,81.7,33,0.78,1202,False,"The Internet grew fast in the 1990s.  
+Mobile phones also became common then.  
+ At the same time, t"
+overlaps,ov_same_1,template,52.2,19,0.82,5,False,All 4 at once: September 11 attacks and War on Terror began and Afghanistan invaded and Security mea
+overlaps,ov_during_1,polished,57.1,35,0.36,940,False,"In the late 1700s and early 1800s, many big changes happened. The Romantic movement grew. The Indust"
+overlaps,ov_same_1,template,58.3,13,0.87,2,False,All 4 at once: Modernism in art and Cubism and Surrealism and Expressionism.
+overlaps,ov_same_1,polished,80.3,40,0.71,772,False,"Four movements happened at the same time. These are the Women's Liberation, Gay Rights, Environmenta"
+overlaps,ov_bare_1,template,84.7,12,1.00,4,False,Korean War and Cold War and Nuclear arms race at same time.
+overlaps,ov_same_1,template,54.2,17,0.83,4,False,All 4 at once: Shakespeare writing and Globe Theatre operating and Elizabethan era and Early modern 
+overlaps,ov_bare_1,template,62.7,17,0.90,5,False,Apollo 11 mission and Vietnam War and Civil Rights Movement and Computer Age beginning at same time.
+overlaps,ov_same_1,polished,89.8,35,0.77,1206,False,"In 2020 to 2023, four things happened at the same time.  
+The COVID-19 pandemic spread worldwide.  
+"
+overlaps,ov_bare_1,polished,72.1,46,0.63,888,False,"In the 1400s to 1600s, many big events happened at the same time. People called this the Renaissance"
+overlaps,ov_same_1,template,55.2,16,0.84,2,False,All 4 at once: Berlin Blockade and NATO formation and Israel established and Korean War started.
+overlaps,ov_during_1,polished,64.7,40,0.62,1119,False,"In the late 1700s, many big events happened at the same time. Britain had the Industrial Revolution."
+overlaps,ov_bare_1,template,64.7,15,0.92,4,False,Dot-com boom and Mobile computing rise and Broadband expansion and E-commerce emerged at same time.
+overlaps,ov_bare_1,polished,82.5,29,0.66,828,False,"In the 14th and 15th centuries, big changes happened. The Middle Ages ended. The Renaissance began. "
+overlaps,ov_during_1,polished,65.6,29,0.55,1145,False,"In the late 1700s, big changes happened. The Age of Enlightenment grew. The Industrial Revolution st"
+overlaps,ov_same_1,polished,69.8,30,0.71,829,False,"All four events happen at once. The Victorian Era, the Industrial Revolution, the peak of the Britis"
+overlaps,ov_same_1,polished,91.6,26,0.62,717,False,All four events happened at the same time. The Belle Époque was lively. Society grew and changed. Co
+overlaps,ov_same_1,polished,81.5,34,0.79,1080,False,All four happened at the same time. The Roaring Twenties and Jazz Age lasted from 1920 to 1929. Proh
+overlaps,ov_bare_2,template,78.6,18,1.00,6,False,World War II in Europe and World War II in Pacific and Holocaust and Science research both true.
+overlaps,ov_same_1,template,72.2,16,0.98,5,False,All 4 at once: Vietnam War and Space Race and Civil Rights Movement and Counterculture movement.
+overlaps,ov_same_1,polished,73.2,33,0.76,805,False,"In 1989, four big events happened at the same time. The Berlin Wall fell. Soviet communism ended. Ge"
+overlaps,ov_bare_1,polished,90.8,30,0.78,1165,False,"The internet grew fast in the 1990s.  
+Phones changed a lot in this time.  
+ The digital age started"
+overlaps,ov_same_1,template,52.2,19,0.82,7,False,All 4 at once: September 11 attacks and War on Terror began and Afghanistan invaded and Security mea
+overlaps,ov_during_1,polished,48.5,36,0.36,935,False,"In the late 1700s and early 1800s, many big changes happened. The Romantic movement grew. The Indust"
+overlaps,ov_same_1,template,58.3,13,0.87,6,False,All 4 at once: Modernism in art and Cubism and Surrealism and Expressionism.
+overlaps,ov_same_1,polished,81.1,36,0.71,608,False,"Four movements happen at once. They are women's rights, gay rights, the environment, and anti-war pr"
+overlaps,ov_bare_1,template,84.7,12,1.00,2,False,Korean War and Cold War and Nuclear arms race at same time.
+overlaps,ov_same_1,template,54.2,17,0.83,3,False,All 4 at once: Shakespeare writing and Globe Theatre operating and Elizabethan era and Early modern 
+overlaps,ov_bare_1,template,62.7,17,0.90,3,False,Apollo 11 mission and Vietnam War and Civil Rights Movement and Computer Age beginning at same time.
+overlaps,ov_same_1,polished,65.7,40,0.77,819,False,"All four events happen at once. From 2020 to 2023, these events occurred together. The COVID-19 pand"
+overlaps,ov_bare_1,polished,65.4,36,0.63,801,False,"In the 15th to 17th centuries, four big events happened at the same time. The Renaissance started in"
+overlaps,ov_same_1,template,55.2,16,0.84,6,False,All 4 at once: Berlin Blockade and NATO formation and Israel established and Korean War started.
+overlaps,ov_during_1,polished,74.2,40,0.62,875,False,"In the late 1700s, big changes happened. Britain had the Industrial Revolution. The American Revolut"
+overlaps,ov_bare_1,template,64.7,15,0.92,2,False,Dot-com boom and Mobile computing rise and Broadband expansion and E-commerce emerged at same time.
+overlaps,ov_bare_1,polished,73.8,30,0.66,841,False,The Medieval period was ending. The Renaissance was beginning. Feudalism was falling away. Humanism 
+overlaps,ov_during_1,polished,65.4,30,0.55,701,False,"In the late 1700s, many changes happened at once. The Age of Enlightenment grew. The Industrial Revo"
+overlaps,ov_same_1,polished,79.0,37,0.71,890,False,"All four events happened at the same time. The Victorian Era, the Industrial Revolution, the peak of"
+overlaps,ov_same_1,polished,82.3,30,0.62,730,False,All four events happened at the same time. The Belle Époque was a time of growth. Industry was getti
+overlaps,ov_same_1,polished,88.7,32,0.79,1122,False,"All four events happened at the same time. They are the Roaring Twenties, the Jazz Age, Prohibition,"
+overlaps,ov_bare_2,template,78.6,18,1.00,7,False,World War II in Europe and World War II in Pacific and Holocaust and Science research both true.
+overlaps,ov_same_1,template,72.2,16,0.98,4,False,All 4 at once: Vietnam War and Space Race and Civil Rights Movement and Counterculture movement.
+overlaps,ov_same_1,polished,65.6,29,0.76,826,False,"In 1989, four big events happened at the same time. The Berlin Wall fell. Soviet communism collapsed"
+overlaps,ov_bare_1,polished,81.9,32,0.78,957,False,"The Internet grew fast in the 1990s.  
+Mobile phones also became common then.  
+ At the same time, t"
+overlaps,ov_same_1,template,52.2,19,0.82,6,False,All 4 at once: September 11 attacks and War on Terror began and Afghanistan invaded and Security mea
+overlaps,ov_during_1,polished,65.6,35,0.36,863,False,"In the late 1700s and early 1800s, many big events happened. The Romantic movement grew. The Industr"
+overlaps,ov_same_1,template,58.3,13,0.87,1,False,All 4 at once: Modernism in art and Cubism and Surrealism and Expressionism.
+overlaps,ov_same_1,polished,81.1,36,0.71,669,False,"Four movements happen at the same time. They are the Women's Liberation, Gay Rights, Environmental, "
+overlaps,ov_bare_1,template,84.7,12,1.00,3,False,Korean War and Cold War and Nuclear arms race at same time.
+overlaps,ov_same_1,template,54.2,17,0.83,6,False,All 4 at once: Shakespeare writing and Globe Theatre operating and Elizabethan era and Early modern 
+overlaps,ov_bare_1,template,62.7,17,0.90,3,False,Apollo 11 mission and Vietnam War and Civil Rights Movement and Computer Age beginning at same time.
+overlaps,ov_same_1,polished,89.7,50,0.77,999,False,"All four events happened at the same time. From 2020 to 2023, these events took place together. The "
+overlaps,ov_bare_1,polished,72.5,44,0.63,721,False,"In the 1400s to 1600s, many big events happened at the same time. People started the Renaissance in "
+overlaps,ov_same_1,template,55.2,16,0.84,7,False,All 4 at once: Berlin Blockade and NATO formation and Israel established and Korean War started.
+overlaps,ov_during_1,polished,73.3,39,0.62,1307,False,"In the late 1700s, four big events happened at the same time. Britain had the Industrial Revolution."
+overlaps,ov_bare_1,template,64.7,15,0.92,5,False,Dot-com boom and Mobile computing rise and Broadband expansion and E-commerce emerged at same time.
+overlaps,ov_bare_1,polished,72.8,28,0.66,728,False,"The Medieval period and the Renaissance started at the same time.  
+Feudalism began to decline.  
+Hu"
+overlaps,ov_during_1,polished,72.4,37,0.55,846,False,"In the late 1700s, four big changes happened at once. The Age of Enlightenment was in full swing. Th"
+overlaps,ov_same_1,polished,78.5,39,0.71,961,False,"All four events happened at the same time. The Victorian Era, the Industrial Revolution, the peak of"
+overlaps,ov_same_1,polished,81.9,32,0.62,1203,False,All four events happened at the same time. The Belle Époque was a time of growth. The Industrial Age
+overlaps,ov_same_1,polished,87.9,35,0.79,1187,False,"All four events happened at the same time. They are the Roaring Twenties, the Jazz Age, Prohibition,"
+overlaps,ov_bare_2,template,78.6,18,1.00,5,False,World War II in Europe and World War II in Pacific and Holocaust and Science research both true.
+overlaps,ov_same_1,template,72.2,16,0.98,6,False,All 4 at once: Vietnam War and Space Race and Civil Rights Movement and Counterculture movement.
+overlaps,ov_same_1,polished,74.0,29,0.76,804,False,"In 1989, four big events happened at once. The Berlin Wall fell. Soviet communism ended. Germany reu"
+overlaps,ov_bare_1,polished,73.3,26,0.78,745,False,"The Internet grew fast in the 1990s.  
+Mobile phones also became popular then.  
+ At the same time, "
+overlaps,ov_same_1,template,52.2,19,0.82,4,False,All 4 at once: September 11 attacks and War on Terror began and Afghanistan invaded and Security mea
+overlaps,ov_during_1,polished,57.1,35,0.36,957,False,"In the late 1700s and early 1800s, many big events happened. The Romantic movement grew. The Industr"
+overlaps,ov_same_1,template,58.3,13,0.87,5,False,All 4 at once: Modernism in art and Cubism and Surrealism and Expressionism.
+overlaps,ov_same_1,polished,80.9,37,0.71,671,False,"All four movements happened at the same time.  
+These are Women's Liberation, Gay Rights, Environmen"
+overlaps,ov_bare_1,template,84.7,12,1.00,2,False,Korean War and Cold War and Nuclear arms race at same time.
+overlaps,ov_same_1,template,54.2,17,0.83,1,False,All 4 at once: Shakespeare writing and Globe Theatre operating and Elizabethan era and Early modern 
+overlaps,ov_bare_1,template,62.7,17,0.90,1,False,Apollo 11 mission and Vietnam War and Civil Rights Movement and Computer Age beginning at same time.
+overlaps,ov_same_1,polished,82.0,38,0.77,873,False,"From 2020 to 2023, four things happened at once. The COVID-19 pandemic spread worldwide. Many people"
+overlaps,ov_bare_1,polished,65.0,45,0.63,842,False,"Many events happened at the same time. 
+
+In the 15th to 17th centuries, four key events overlapped. "
+overlaps,ov_same_1,template,55.2,16,0.84,5,False,All 4 at once: Berlin Blockade and NATO formation and Israel established and Korean War started.
+overlaps,ov_during_1,polished,65.8,39,0.62,919,False,"In the late 1700s, many big events happened. Britain had the Industrial Revolution. The American Rev"
+overlaps,ov_bare_1,template,64.7,15,0.92,4,False,Dot-com boom and Mobile computing rise and Broadband expansion and E-commerce emerged at same time.
+overlaps,ov_bare_1,polished,74.7,31,0.66,813,False,The Medieval period was ending. The Renaissance was starting. Feudalism was falling. Humanism was gr
+overlaps,ov_during_1,polished,72.8,42,0.55,882,False,"In the late 1700s, big changes happened. The Age of Enlightenment was in full swing. The Industrial "
+overlaps,ov_same_1,polished,78.2,40,0.71,871,False,"All four events happen at the same time. The Victorian Era, the Industrial Revolution, the peak of t"
+overlaps,ov_same_1,polished,73.8,30,0.62,880,False,All four events happened at the same time. The Belle Époque was a time of growth. Industrial society
+overlaps,ov_same_1,polished,80.3,40,0.79,1876,False,"In the 1920s, four big events happened at once. The Roaring Twenties and Jazz Age brought new fun. P"
+overlaps,ov_bare_2,template,78.6,18,1.00,5,False,World War II in Europe and World War II in Pacific and Holocaust and Science research both true.
+overlaps,ov_same_1,template,72.2,16,0.98,3,False,All 4 at once: Vietnam War and Space Race and Civil Rights Movement and Counterculture movement.
+overlaps,ov_same_1,polished,65.8,28,0.76,904,False,"In 1989, four big events happened at the same time. The Berlin Wall fell. Soviet communism ended. Ge"

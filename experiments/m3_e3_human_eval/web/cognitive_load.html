@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>M3-E3c Cognitive Load</title>
+    <style>
+      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; max-width: 1000px; margin: 24px auto; padding: 0 16px; }
+      .row { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+      .card { border: 1px solid #ddd; border-radius: 8px; padding: 12px; margin: 12px 0; }
+      .muted { color: #666; font-size: 12px; }
+      pre { white-space: pre-wrap; word-break: break-word; background: #f7f7f7; padding: 10px; border-radius: 8px; }
+      button { padding: 8px 12px; }
+      input[type="text"], select { width: 100%; padding: 8px; box-sizing: border-box; }
+      .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+      @media (max-width: 720px) { .grid { grid-template-columns: 1fr; } }
+    </style>
+  </head>
+  <body>
+    <h1>M3-E3c — Cognitive Load (NASA TLX)</h1>
+    <p class="muted">Load <code>m3_e3c_scenarios.jsonl</code>, rate TLX, download response JSONL.</p>
+
+    <div class="card">
+      <div class="row">
+        <div style="flex:2; min-width: 260px;">
+          <label>Participant ID</label>
+          <input id="participantId" type="text" placeholder="e.g., c001" />
+        </div>
+        <div style="flex:3; min-width: 260px;">
+          <label>Scenarios JSONL</label>
+          <input id="scenariosFile" type="file" accept=".jsonl,.json" />
+        </div>
+        <div style="flex:1; min-width: 160px;">
+          <label>&nbsp;</label>
+          <button id="startBtn">Start</button>
+        </div>
+      </div>
+      <div id="status" class="muted" style="margin-top: 8px;"></div>
+    </div>
+
+    <div id="main" style="display:none;">
+      <div class="card">
+        <div class="row">
+          <div><strong>Progress:</strong> <span id="progress"></span></div>
+          <div class="muted" id="meta"></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2 id="query"></h2>
+        <div class="row" style="margin-top: 8px;">
+          <div style="flex:2; min-width: 260px;">
+            <label>Condition</label>
+            <select id="condition"></select>
+          </div>
+          <div style="flex:1; min-width: 160px;">
+            <label>&nbsp;</label>
+            <button id="loadCondition">Load text</button>
+          </div>
+        </div>
+        <h3 style="margin-top: 12px;">Explanation</h3>
+        <pre id="text"></pre>
+      </div>
+
+      <div class="card">
+        <h3>NASA TLX ratings (0-100)</h3>
+        <div class="grid">
+          <div><label>Mental demand</label><input id="tlx_mental" type="text" placeholder="0-100" /></div>
+          <div><label>Physical demand</label><input id="tlx_physical" type="text" placeholder="0-100" /></div>
+          <div><label>Temporal demand</label><input id="tlx_temporal" type="text" placeholder="0-100" /></div>
+          <div><label>Performance</label><input id="tlx_performance" type="text" placeholder="0-100" /></div>
+          <div><label>Effort</label><input id="tlx_effort" type="text" placeholder="0-100" /></div>
+          <div><label>Frustration</label><input id="tlx_frustration" type="text" placeholder="0-100" /></div>
+        </div>
+
+        <h3 style="margin-top: 14px;">Optional</h3>
+        <div class="grid">
+          <div><label>Mental effort (0-10)</label><input id="mental_effort_0_10" type="text" placeholder="0-10" /></div>
+          <div><label>Retention score (0-1)</label><input id="retention_score_0_1" type="text" placeholder="0-1" /></div>
+          <div><label>Attention on key ratio (0-1)</label><input id="attention_on_key_ratio_0_1" type="text" placeholder="0-1" /></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="row">
+          <button id="nextBtn">Next</button>
+          <button id="downloadBtn">Download responses</button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function parseJsonl(text) {
+        const lines = text.split(/\r?\n/).map(l => l.trim()).filter(Boolean);
+        const out = [];
+        for (const line of lines) {
+          try { out.push(JSON.parse(line)); } catch (e) { /* skip */ }
+        }
+        return out;
+      }
+
+      function downloadText(filename, text) {
+        const blob = new Blob([text], {type: 'text/plain'});
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = filename;
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        URL.revokeObjectURL(url);
+      }
+
+      let scenarios = [];
+      let idx = 0;
+      let responses = [];
+
+      const mainEl = document.getElementById('main');
+      const statusEl = document.getElementById('status');
+      const progressEl = document.getElementById('progress');
+      const metaEl = document.getElementById('meta');
+      const queryEl = document.getElementById('query');
+      const textEl = document.getElementById('text');
+      const conditionEl = document.getElementById('condition');
+
+      function clearInputs() {
+        for (const id of [
+          'tlx_mental','tlx_physical','tlx_temporal','tlx_performance','tlx_effort','tlx_frustration',
+          'mental_effort_0_10','retention_score_0_1','attention_on_key_ratio_0_1'
+        ]) {
+          document.getElementById(id).value = '';
+        }
+      }
+
+      function loadScenario() {
+        if (idx >= scenarios.length) {
+          progressEl.textContent = `${scenarios.length}/${scenarios.length} (done)`;
+          metaEl.textContent = 'All scenarios completed.';
+          queryEl.textContent = '';
+          textEl.textContent = '';
+          return;
+        }
+        const s = scenarios[idx];
+        progressEl.textContent = `${idx + 1}/${scenarios.length}`;
+        metaEl.textContent = `scenario_id=${s.scenario_id} | domain=${s.domain || 'unknown'}`;
+        queryEl.textContent = s.query || '';
+
+        conditionEl.innerHTML = '';
+        const conds = s.conditions || {};
+        for (const k of Object.keys(conds)) {
+          const opt = document.createElement('option');
+          opt.value = k;
+          opt.textContent = k;
+          conditionEl.appendChild(opt);
+        }
+
+        textEl.textContent = '';
+        clearInputs();
+      }
+
+      document.getElementById('loadCondition').addEventListener('click', () => {
+        const s = scenarios[idx];
+        const cond = conditionEl.value;
+        const text = (s.conditions && s.conditions[cond]) ? s.conditions[cond] : '';
+        textEl.textContent = text;
+      });
+
+      document.getElementById('startBtn').addEventListener('click', async () => {
+        const f = document.getElementById('scenariosFile').files && document.getElementById('scenariosFile').files[0];
+        if (!f) { alert('Select scenarios JSONL first.'); return; }
+        scenarios = parseJsonl(await f.text());
+        idx = 0;
+        responses = [];
+        mainEl.style.display = 'block';
+        statusEl.textContent = `Loaded ${scenarios.length} scenarios.`;
+        loadScenario();
+      });
+
+      document.getElementById('nextBtn').addEventListener('click', () => {
+        const pid = (document.getElementById('participantId').value || '').trim();
+        if (!pid) { alert('Participant ID is required.'); return; }
+        if (idx >= scenarios.length) return;
+
+        const cond = conditionEl.value;
+        responses.push({
+          participant_id: pid,
+          condition: cond,
+          tlx_mental: document.getElementById('tlx_mental').value || null,
+          tlx_physical: document.getElementById('tlx_physical').value || null,
+          tlx_temporal: document.getElementById('tlx_temporal').value || null,
+          tlx_performance: document.getElementById('tlx_performance').value || null,
+          tlx_effort: document.getElementById('tlx_effort').value || null,
+          tlx_frustration: document.getElementById('tlx_frustration').value || null,
+          mental_effort_0_10: document.getElementById('mental_effort_0_10').value || null,
+          retention_score_0_1: document.getElementById('retention_score_0_1').value || null,
+          attention_on_key_ratio_0_1: document.getElementById('attention_on_key_ratio_0_1').value || null,
+        });
+
+        idx += 1;
+        loadScenario();
+      });
+
+      document.getElementById('downloadBtn').addEventListener('click', () => {
+        const lines = responses.map(r => JSON.stringify(r));
+        downloadText('m3_e3c_responses.jsonl', lines.join('\n') + (lines.length ? '\n' : ''));
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+num_traces: 500
+rules_per_trace: 3
+mean_overhead_ms: 0.005082003306597471
+p95_overhead_ms: 0.006100162863731384
+max_overhead_ms: 0.025499844923615456
+mean_trace_bytes: 1387.238
+p95_trace_bytes: 1392
+max_trace_bytes: 1394
+wall_ms: 50.67109991796315

@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>M3-E3a Comprehension Assessment</title>
+    <style>
+      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; max-width: 1000px; margin: 24px auto; padding: 0 16px; }
+      .row { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+      .card { border: 1px solid #ddd; border-radius: 8px; padding: 12px; margin: 12px 0; }
+      .muted { color: #666; font-size: 12px; }
+      pre { white-space: pre-wrap; word-break: break-word; background: #f7f7f7; padding: 10px; border-radius: 8px; }
+      button { padding: 8px 12px; }
+      input[type="text"], textarea, select { width: 100%; padding: 8px; box-sizing: border-box; }
+      textarea { min-height: 90px; }
+      .q { margin-top: 12px; }
+      .q label { font-weight: 600; display: block; margin-bottom: 6px; }
+    </style>
+  </head>
+  <body>
+    <h1>M3-E3a — Comprehension Assessment</h1>
+    <p class="muted">
+      Load <code>m3_e3a_tasks.jsonl</code>, answer questions, then download a response JSONL.
+    </p>
+
+    <div class="card">
+      <div class="row">
+        <div style="flex: 2; min-width: 260px;">
+          <label>Participant ID</label>
+          <input id="participantId" type="text" placeholder="e.g., p001" />
+        </div>
+        <div style="flex: 3; min-width: 260px;">
+          <label>Tasks JSONL</label>
+          <input id="tasksFile" type="file" accept=".jsonl,.json" />
+        </div>
+        <div style="flex: 1; min-width: 160px;">
+          <label>&nbsp;</label>
+          <button id="startBtn">Start</button>
+        </div>
+      </div>
+      <div id="status" class="muted" style="margin-top: 8px;"></div>
+    </div>
+
+    <div id="main" style="display:none;">
+      <div class="card">
+        <div class="row">
+          <div><strong>Progress:</strong> <span id="progress"></span></div>
+          <div class="muted">(Timing is captured per question)</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="muted" id="meta"></div>
+        <h2 id="query"></h2>
+        <h3>Explanation</h3>
+        <pre id="explanation"></pre>
+      </div>
+
+      <div class="card" id="questionCard"></div>
+
+      <div class="card">
+        <div class="row">
+          <button id="nextBtn">Next</button>
+          <button id="downloadBtn">Download responses</button>
+        </div>
+        <div class="muted" style="margin-top: 8px;">Download at the end, or periodically.</div>
+      </div>
+    </div>
+
+    <script>
+      function parseJsonl(text) {
+        const lines = text.split(/\r?\n/).map(l => l.trim()).filter(Boolean);
+        const out = [];
+        for (const line of lines) {
+          try { out.push(JSON.parse(line)); } catch (e) { /* skip */ }
+        }
+        return out;
+      }
+
+      function nowMs() { return (new Date()).getTime(); }
+
+      function downloadText(filename, text) {
+        const blob = new Blob([text], {type: 'text/plain'});
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = filename;
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        URL.revokeObjectURL(url);
+      }
+
+      let tasks = [];
+      let idx = 0;
+      let responses = [];
+      let currentStartMs = null;
+
+      const statusEl = document.getElementById('status');
+      const mainEl = document.getElementById('main');
+      const progressEl = document.getElementById('progress');
+      const metaEl = document.getElementById('meta');
+      const queryEl = document.getElementById('query');
+      const explanationEl = document.getElementById('explanation');
+      const questionCardEl = document.getElementById('questionCard');
+
+      function render() {
+        if (idx >= tasks.length) {
+          progressEl.textContent = `${tasks.length}/${tasks.length} (done)`;
+          metaEl.textContent = 'All tasks completed.';
+          queryEl.textContent = '';
+          explanationEl.textContent = '';
+          questionCardEl.innerHTML = '<p><strong>Done.</strong> Please download your responses.</p>';
+          return;
+        }
+
+        const t = tasks[idx];
+        const item = t.item || {};
+        const questions = t.questions || [];
+
+        progressEl.textContent = `${idx + 1}/${tasks.length}`;
+        metaEl.textContent = `domain=${item.domain || 'unknown'} | bucket=${item.bucket || 'other'} | explanation_id=${item.explanation_id}`;
+        queryEl.textContent = item.query || '';
+        explanationEl.textContent = item.explanation_text || '';
+
+        questionCardEl.innerHTML = '';
+        for (const q of questions) {
+          const qDiv = document.createElement('div');
+          qDiv.className = 'q';
+
+          const label = document.createElement('label');
+          label.textContent = `${q.question_type.toUpperCase()}: ${q.prompt}`;
+          qDiv.appendChild(label);
+
+          if (q.question_type === 'mcq' && Array.isArray(q.options)) {
+            const sel = document.createElement('select');
+            sel.dataset.qid = q.question_id;
+            sel.dataset.qtype = q.question_type;
+            const empty = document.createElement('option');
+            empty.value = '';
+            empty.textContent = '— select —';
+            sel.appendChild(empty);
+            for (const opt of q.options) {
+              const o = document.createElement('option');
+              o.value = opt;
+              o.textContent = opt;
+              sel.appendChild(o);
+            }
+            qDiv.appendChild(sel);
+          } else {
+            const ta = document.createElement('textarea');
+            ta.dataset.qid = q.question_id;
+            ta.dataset.qtype = q.question_type;
+            qDiv.appendChild(ta);
+          }
+
+          const meta = document.createElement('div');
+          meta.className = 'muted';
+          meta.textContent = `question_id=${q.question_id}`;
+          qDiv.appendChild(meta);
+
+          questionCardEl.appendChild(qDiv);
+        }
+
+        currentStartMs = nowMs();
+      }
+
+      function collectCurrentResponses() {
+        if (idx >= tasks.length) return;
+
+        const participantId = (document.getElementById('participantId').value || '').trim();
+        if (!participantId) {
+          alert('Participant ID is required.');
+          return;
+        }
+
+        const t = tasks[idx];
+        const item = t.item || {};
+        const questions = t.questions || [];
+        const elapsedSec = currentStartMs ? (nowMs() - currentStartMs) / 1000.0 : null;
+
+        const inputs = questionCardEl.querySelectorAll('textarea, select');
+        const answerByQid = {};
+        for (const el of inputs) {
+          answerByQid[el.dataset.qid] = el.value;
+        }
+
+        for (const q of questions) {
+          responses.push({
+            participant_id: participantId,
+            explanation_id: item.explanation_id,
+            question_id: q.question_id,
+            question_type: q.question_type,
+            answer: (answerByQid[q.question_id] || '').trim(),
+            score: null, // filled during analysis for mcq/fill_blank when answer key is present
+            response_time_sec: elapsedSec,
+            domain: item.domain || null,
+            bucket: item.bucket || null,
+          });
+        }
+      }
+
+      document.getElementById('startBtn').addEventListener('click', async () => {
+        const fileInput = document.getElementById('tasksFile');
+        const f = fileInput.files && fileInput.files[0];
+        if (!f) {
+          alert('Select a tasks JSONL file first.');
+          return;
+        }
+        const text = await f.text();
+        tasks = parseJsonl(text);
+        idx = 0;
+        responses = [];
+        mainEl.style.display = 'block';
+        statusEl.textContent = `Loaded ${tasks.length} tasks.`;
+        render();
+      });
+
+      document.getElementById('nextBtn').addEventListener('click', () => {
+        if (idx >= tasks.length) return;
+        collectCurrentResponses();
+        idx += 1;
+        render();
+      });
+
+      document.getElementById('downloadBtn').addEventListener('click', () => {
+        const lines = responses.map(r => JSON.stringify(r));
+        downloadText('m3_e3a_responses.jsonl', lines.join('\n') + (lines.length ? '\n' : ''));
+      });
+    </script>
+  </body>
+</html>

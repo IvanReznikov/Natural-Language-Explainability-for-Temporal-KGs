@@ -1,0 +1,425 @@
+{"input":"entity: Saudi Aramco; event: IPO; date: 2019-12-05; context: energy sector","output":"Saudi Aramco conducted the largest IPO in history on December 5, 2019, listing on the Tadawul exchange."}
+{"input":"entity: Alibaba Group; event: IPO; date: 2014-09-19; context: e-commerce","output":"Alibaba Group held its record-breaking IPO on September 19, 2014, raising $25 billion on the NYSE."}
+{"input":"entity: Visa Inc.; event: IPO; date: 2008-03-19; context: financial services","output":"Visa Inc. went public on March 19, 2008, in what was then the largest U.S. IPO despite a volatile market."}
+{"input":"entity: General Motors; event: re-IPO; date: 2010-11-18; context: automotive recovery","output":"General Motors returned to the public markets on November 18, 2010, following its restructuring."}
+{"input":"entity: Facebook; event: IPO; date: 2012-05-18; context: social media","output":"Facebook's highly anticipated IPO took place on May 18, 2012, though it faced initial technical trading glitches."}
+{"input":"entity: Uber Technologies; event: IPO; date: 2019-05-10; context: ride-sharing","output":"Uber Technologies listed on the NYSE on May 10, 2019, marking a major milestone for the gig economy."}
+{"input":"entity: Airbnb; event: IPO; date: 2020-12-10; context: hospitality","output":"Airbnb completed its IPO on December 10, 2020, seeing its share price more than double on the first day."}
+{"input":"entity: DoorDash; event: IPO; date: 2020-12-09; context: food delivery","output":"DoorDash went public on December 9, 2020, capitalizing on the surge in delivery demand during the pandemic."}
+{"input":"entity: Snowflake; event: IPO; date: 2020-09-16; context: cloud computing","output":"Snowflake executed the largest software IPO to date on September 16, 2020."}
+{"input":"entity: Rivian Automotive; event: IPO; date: 2021-11-10; context: electric vehicles","output":"Rivian Automotive listed on November 10, 2021, raising nearly $12 billion in a massive EV debut."}
+{"input":"entity: Coinbase; event: Direct Listing; date: 2021-04-14; context: cryptocurrency","output":"Coinbase went public via a direct listing on April 14, 2021, a landmark event for the crypto industry."}
+{"input":"entity: Roblox; event: Direct Listing; date: 2021-03-10; context: gaming","output":"Gaming platform Roblox completed its direct listing on March 10, 2021."}
+{"input":"entity: Arm Holdings; event: IPO; date: 2023-09-14; context: semiconductor","output":"Arm Holdings returned to the public market on September 14, 2023, listing on the Nasdaq."}
+{"input":"entity: Instacart; event: IPO; date: 2023-09-19; context: grocery delivery","output":"Instacart priced its IPO on September 19, 2023, after a long period of anticipation."}
+{"input":"entity: Klaviyo; event: IPO; date: 2023-09-20; context: marketing automation","output":"Klaviyo listed on the NYSE on September 20, 2023, shortly after Arm and Instacart."}
+{"input":"entity: Birkenstock; event: IPO; date: 2023-10-11; context: footwear","output":"German shoemaker Birkenstock held its IPO on October 11, 2023."}
+{"input":"entity: Reddit; event: IPO; date: 2024-03-21; context: social media","output":"Reddit went public on March 21, 2024, listing under the ticker RDDT."}
+{"input":"entity: Lineage; event: IPO; date: 2024-07-24; context: logistics REIT","output":"Cold storage giant Lineage completed the largest IPO of 2024 thus far on July 24, 2024."}
+{"input":"entity: Google; event: IPO; date: 2004-08-19; context: search engine","output":"Google conducted its unconventional Dutch auction IPO on August 19, 2004."}
+{"input":"entity: Amazon.com; event: IPO; date: 1997-05-15; context: dot-com era","output":"Amazon.com went public on May 15, 1997, priced at just $18 per share."}
+{"input":"entity: Netflix; event: IPO; date: 2002-05-23; context: streaming media","output":"Netflix listed on the Nasdaq on May 23, 2002, initially as a DVD rental service."}
+{"input":"entity: Tesla Motors; event: IPO; date: 2010-06-29; context: automotive","output":"Tesla Motors held its IPO on June 29, 2010, the first American car company to do so since Ford."}
+{"input":"entity: Ford Motor Company; event: IPO; date: 1956-01-17; context: historic listing","output":"The Ford Motor Company went public on January 17, 1956, in what was then the largest IPO in U.S. history."}
+{"input":"entity: Apple Computer; event: IPO; date: 1980-12-12; context: personal computing","output":"Apple Computer went public on December 12, 1980, creating over 300 millionaires instantly."}
+{"input":"entity: Microsoft; event: IPO; date: 1986-03-13; context: software","output":"Microsoft's IPO took place on March 13, 1986, raising $61 million."}
+{"input":"entity: Netscape; event: IPO; date: 1995-08-09; context: internet browser","output":"Netscape's seminal IPO on August 9, 1995, is often cited as the spark for the dot-com boom."}
+{"input":"entity: Yahoo!; event: IPO; date: 1996-04-12; context: web portal","output":"Yahoo! went public on April 12, 1996, symbolizing the rise of internet portals."}
+{"input":"entity: eBay; event: IPO; date: 1998-09-24; context: online auctions","output":"eBay completed its IPO on September 24, 1998, during the height of the internet bubble."}
+{"input":"entity: PayPal; event: IPO; date: 2002-02-15; context: fintech","output":"PayPal went public on February 15, 2002, shortly before being acquired by eBay."}
+{"input":"entity: Salesforce; event: IPO; date: 2004-06-23; context: SaaS","output":"Salesforce listed on the NYSE on June 23, 2004, pioneering the cloud software model."}
+{"input":"entity: LinkedIn; event: IPO; date: 2011-05-19; context: professional networking","output":"LinkedIn went public on May 19, 2011, kicking off a wave of social media IPOs."}
+{"input":"entity: Twitter; event: IPO; date: 2013-11-07; context: microblogging","output":"Twitter held its IPO on November 7, 2013, on the NYSE."}
+{"input":"entity: Snap Inc.; event: IPO; date: 2017-03-02; context: social media","output":"Snap Inc. went public on March 2, 2017, known for its ephemeral messaging."}
+{"input":"entity: Pinterest; event: IPO; date: 2019-04-18; context: visual discovery","output":"Pinterest listed on the NYSE on April 18, 2019."}
+{"input":"entity: Zoom Video Communications; event: IPO; date: 2019-04-18; context: video conferencing","output":"Zoom listed on April 18, 2019, on the same day as Pinterest."}
+{"input":"entity: Slack Technologies; event: Direct Listing; date: 2019-06-20; context: enterprise software","output":"Slack went public via a direct listing on June 20, 2019."}
+{"input":"entity: Spotify; event: Direct Listing; date: 2018-04-03; context: music streaming","output":"Spotify pioneered the modern direct listing process on April 3, 2018."}
+{"input":"entity: Palantir Technologies; event: Direct Listing; date: 2020-09-30; context: big data","output":"Palantir went public via direct listing on September 30, 2020."}
+{"input":"entity: Asana; event: Direct Listing; date: 2020-09-30; context: productivity software","output":"Asana also completed a direct listing on September 30, 2020."}
+{"input":"entity: Lyft; event: IPO; date: 2019-03-29; context: ride-sharing","output":"Lyft beat rival Uber to the public market by listing on March 29, 2019."}
+{"input":"entity: Beyond Meat; event: IPO; date: 2019-05-02; context: food tech","output":"Beyond Meat went public on May 2, 2019, seeing massive initial volatility."}
+{"input":"entity: Peloton; event: IPO; date: 2019-09-26; context: fitness tech","output":"Peloton listed on September 26, 2019, as a connected fitness company."}
+{"input":"entity: Chewy; event: IPO; date: 2019-06-14; context: e-commerce","output":"Pet retailer Chewy went public on June 14, 2019."}
+{"input":"entity: Moderna; event: IPO; date: 2018-12-07; context: biotechnology","output":"Moderna held the largest biotech IPO in history at the time on December 7, 2018."}
+{"input":"entity: BioNTech; event: IPO; date: 2019-10-10; context: biotechnology","output":"German biotech firm BioNTech listed on the Nasdaq on October 10, 2019."}
+{"input":"entity: Robinhood; event: IPO; date: 2021-07-29; context: fintech","output":"Robinhood Markets went public on July 29, 2021, after redefining retail trading."}
+{"input":"entity: DiDi Global; event: IPO; date: 2021-06-30; context: chinese tech","output":"DiDi Global listed on the NYSE on June 30, 2021, before facing regulatory delisting."}
+{"input":"entity: Coupang; event: IPO; date: 2021-03-11; context: korean e-commerce","output":"South Korean e-commerce giant Coupang listed on the NYSE on March 11, 2021."}
+{"input":"entity: UiPath; event: IPO; date: 2021-04-21; context: automation","output":"UiPath went public on April 21, 2021, a major win for the RPA sector."}
+{"input":"entity: SentinelOne; event: IPO; date: 2021-06-30; context: cybersecurity","output":"SentinelOne listed on the NYSE on June 30, 2021."}
+{"input":"entity: Gitlab; event: IPO; date: 2021-10-14; context: devops","output":"Gitlab completed its IPO on October 14, 2021."}
+{"input":"entity: HashiCorp; event: IPO; date: 2021-12-09; context: cloud infrastructure","output":"HashiCorp went public on December 9, 2021."}
+{"input":"entity: Samsara; event: IPO; date: 2021-12-15; context: IoT","output":"Samsara listed on the NYSE on December 15, 2021."}
+{"input":"entity: Nubank; event: IPO; date: 2021-12-09; context: latin american fintech","output":"Brazilian digital bank Nubank went public on December 9, 2021."}
+{"input":"entity: Wise; event: Direct Listing; date: 2021-07-07; context: fintech","output":"Money transfer service Wise listed on the London Stock Exchange on July 7, 2021."}
+{"input":"entity: Deliveroo; event: IPO; date: 2021-03-31; context: food delivery","output":"Deliveroo listed in London on March 31, 2021, receiving a lukewarm reception."}
+{"input":"entity: Ferrari; event: IPO; date: 2015-10-21; context: luxury auto","output":"Ferrari spun off from Fiat Chrysler and listed on the NYSE on October 21, 2015."}
+{"input":"entity: Porsche AG; event: IPO; date: 2022-09-29; context: luxury auto","output":"Porsche AG completed a major listing in Frankfurt on September 29, 2022."}
+{"input":"entity: Aston Martin; event: IPO; date: 2018-10-03; context: luxury auto","output":"Aston Martin Lagonda listed on the London Stock Exchange on October 3, 2018."}
+{"input":"entity: Polestar; event: SPAC Merger; date: 2022-06-24; context: electric vehicles","output":"Polestar went public via a SPAC merger on June 24, 2022."}
+{"input":"entity: Lucid Motors; event: SPAC Merger; date: 2021-07-26; context: electric vehicles","output":"Lucid Motors listed on the Nasdaq on July 26, 2021, through a SPAC combination."}
+{"input":"entity: Nikola; event: SPAC Merger; date: 2020-06-04; context: electric trucking","output":"Nikola Corporation began trading on June 4, 2020, following its SPAC merger."}
+{"input":"entity: DraftKings; event: SPAC Merger; date: 2020-04-24; context: sports betting","output":"DraftKings went public on April 24, 2020, amidst a sports betting boom."}
+{"input":"entity: SoFi; event: SPAC Merger; date: 2021-06-01; context: fintech","output":"SoFi Technologies began trading on June 1, 2021, after its SPAC deal."}
+{"input":"entity: Grab; event: SPAC Merger; date: 2021-12-02; context: southeast asia superapp","output":"Grab completed the largest SPAC merger to date on December 2, 2021."}
+{"input":"entity: Buzzfeed; event: SPAC Merger; date: 2021-12-06; context: digital media","output":"Buzzfeed went public on December 6, 2021, via a SPAC."}
+{"input":"entity: Sweetgreen; event: IPO; date: 2021-11-18; context: fast casual","output":"Salad chain Sweetgreen listed on the NYSE on November 18, 2021."}
+{"input":"entity: Allbirds; event: IPO; date: 2021-11-03; context: sustainable footwear","output":"Allbirds went public on November 3, 2021."}
+{"input":"entity: Warby Parker; event: Direct Listing; date: 2021-09-29; context: eyewear","output":"Warby Parker completed its direct listing on September 29, 2021."}
+{"input":"entity: On Holding; event: IPO; date: 2021-09-15; context: athletic footwear","output":"Swiss running shoe brand On listed on the NYSE on September 15, 2021."}
+{"input":"entity: Crocs; event: IPO; date: 2006-02-08; context: footwear","output":"Crocs Inc. went public on February 8, 2006, creating a new footwear category."}
+{"input":"entity: Under Armour; event: IPO; date: 2005-11-18; context: athletic apparel","output":"Under Armour listed on November 18, 2005, doubling on its first trading day."}
+{"input":"entity: Lululemon; event: IPO; date: 2007-07-27; context: athleisure","output":"Lululemon Athletica went public on July 27, 2007."}
+{"input":"entity: GoPro; event: IPO; date: 2014-06-26; context: consumer electronics","output":"Action camera maker GoPro listed on June 26, 2014."}
+{"input":"entity: Fitbit; event: IPO; date: 2015-06-18; context: wearables","output":"Fitbit went public on June 18, 2015, before later being acquired by Google."}
+{"input":"entity: Roku; event: IPO; date: 2017-09-28; context: streaming hardware","output":"Roku Inc. held its IPO on September 28, 2017."}
+{"input":"entity: Dropbox; event: IPO; date: 2018-03-23; context: cloud storage","output":"Dropbox listed on the Nasdaq on March 23, 2018."}
+{"input":"entity: DocuSign; event: IPO; date: 2018-04-27; context: e-signature","output":"DocuSign went public on April 27, 2018."}
+{"input":"entity: Eventbrite; event: IPO; date: 2018-09-20; context: event management","output":"Eventbrite listed on the NYSE on September 20, 2018."}
+{"input":"entity: SurveyMonkey; event: IPO; date: 2018-09-26; context: software","output":"SurveyMonkey (SVMK) went public on September 26, 2018."}
+{"input":"entity: Farfetch; event: IPO; date: 2018-09-21; context: luxury e-commerce","output":"Farfetch listed on the NYSE on September 21, 2018."}
+{"input":"entity: Tencent Music; event: IPO; date: 2018-12-12; context: music streaming","output":"Tencent Music Entertainment listed on the NYSE on December 12, 2018."}
+{"input":"entity: iQIYI; event: IPO; date: 2018-03-29; context: video streaming","output":"Chinese streaming service iQIYI went public on March 29, 2018."}
+{"input":"entity: Bilibili; event: IPO; date: 2018-03-28; context: entertainment","output":"Bilibili listed on the Nasdaq on March 28, 2018."}
+{"input":"entity: Pinduoduo; event: IPO; date: 2018-07-26; context: e-commerce","output":"Pinduoduo went public on the Nasdaq on July 26, 2018."}
+{"input":"entity: JD.com; event: IPO; date: 2014-05-22; context: e-commerce","output":"JD.com listed on the Nasdaq on May 22, 2014."}
+{"input":"entity: Baidu; event: IPO; date: 2005-08-05; context: search engine","output":"Baidu went public on August 5, 2005, often called the 'Google of China'."}
+{"input":"entity: Trip.com Group; event: IPO; date: 2003-12-09; context: travel","output":"Trip.com (formerly Ctrip) listed on the Nasdaq on December 9, 2003."}
+{"input":"entity: Yandex; event: IPO; date: 2011-05-24; context: search engine","output":"Russian search giant Yandex went public on May 24, 2011."}
+{"input":"entity: MercadoLibre; event: IPO; date: 2007-08-10; context: latin american e-commerce","output":"MercadoLibre listed on the Nasdaq on August 10, 2007."}
+{"input":"entity: Jumia; event: IPO; date: 2019-04-12; context: african e-commerce","output":"Jumia Technologies became the first major African tech startup to list on the NYSE on April 12, 2019."}
+{"input":"entity: Glencore; event: IPO; date: 2011-05-19; context: commodities","output":"Commodities giant Glencore went public in London and Hong Kong on May 19, 2011."}
+{"input":"entity: Blackstone; event: IPO; date: 2007-06-22; context: private equity","output":"The Blackstone Group listed on June 22, 2007, just before the financial crisis peaked."}
+{"input":"entity: KKR; event: Listing; date: 2010-07-15; context: private equity","output":"KKR & Co. moved its listing to the NYSE on July 15, 2010."}
+{"input":"entity: Apollo Global Management; event: IPO; date: 2011-03-30; context: asset management","output":"Apollo Global Management went public on March 30, 2011."}
+{"input":"entity: Carlyle Group; event: IPO; date: 2012-05-03; context: private equity","output":"The Carlyle Group listed on the Nasdaq on May 3, 2012."}
+{"input":"entity: LendingClub; event: IPO; date: 2014-12-11; context: fintech","output":"LendingClub went public on December 11, 2014."}
+{"input":"entity: Square; event: IPO; date: 2015-11-19; context: payments","output":"Square (now Block) listed on the NYSE on November 19, 2015."}
+{"input":"entity: Twilio; event: IPO; date: 2016-06-23; context: cloud comms","output":"Twilio went public on June 23, 2016."}
+{"input":"entity: Okta; event: IPO; date: 2017-04-07; context: identity management","output":"Okta listed on the Nasdaq on April 7, 2017."}
+{"input":"entity: MongoDB; event: IPO; date: 2017-10-19; context: database","output":"MongoDB went public on October 19, 2017."}
+{"input":"entity: Zscaler; event: IPO; date: 2018-03-16; context: cybersecurity","output":"Zscaler listed on the Nasdaq on March 16, 2018."}
+{"input":"entity: CrowdStrike; event: IPO; date: 2019-06-12; context: cybersecurity","output":"CrowdStrike went public on June 12, 2019."}
+{"input":"entity: Datadog; event: IPO; date: 2019-09-19; context: monitoring","output":"Datadog listed on the Nasdaq on September 19, 2019."}
+{"input":"entity: Cloudflare; event: IPO; date: 2019-09-13; context: web infrastructure","output":"Cloudflare went public on September 13, 2019."}
+{"input":"entity: Bill.com; event: IPO; date: 2019-12-12; context: fintech","output":"Bill.com listed on the NYSE on December 12, 2019."}
+{"input":"entity: Lemonade; event: IPO; date: 2020-07-02; context: insurtech","output":"Lemonade went public on July 2, 2020."}
+{"input":"entity: Unity Software; event: IPO; date: 2020-09-18; context: game engine","output":"Unity Software listed on the NYSE on September 18, 2020."}
+{"input":"entity: C3.ai; event: IPO; date: 2020-12-09; context: enterprise AI","output":"C3.ai went public on December 9, 2020."}
+{"input":"entity: Affirm; event: IPO; date: 2021-01-13; context: buy now pay later","output":"Affirm listed on the Nasdaq on January 13, 2021."}
+{"input":"entity: Bumble; event: IPO; date: 2021-02-11; context: dating app","output":"Bumble went public on February 11, 2021."}
+{"input":"entity: Oatly; event: IPO; date: 2021-05-20; context: food and beverage","output":"Oatly Group listed on the Nasdaq on May 20, 2021."}
+{"input":"entity: Duolingo; event: IPO; date: 2021-07-28; context: edtech","output":"Language learning app Duolingo went public on July 28, 2021."}
+{"input":"entity: Toast; event: IPO; date: 2021-09-22; context: restaurant tech","output":"Toast listed on the NYSE on September 22, 2021."}
+{"input":"cause: Dot-com bubble burst; effect: Pets.com liquidation; year: 2000; context: market correction","output":"The collapse of the dot-com bubble in 2000 led to the swift liquidation of Pets.com less than a year after its IPO."}
+{"input":"cause: 2008 Financial Crisis; effect: IPO drought; period: 2008-2009; context: recession","output":"The 2008 Financial Crisis caused a severe drought in the IPO market throughout late 2008 and 2009."}
+{"input":"cause: JOBS Act 2012; effect: Emerging Growth Companies; date: 2012-04-05; context: regulation","output":"The JOBS Act signed on April 5, 2012, eased regulations, encouraging more 'Emerging Growth Companies' to go public."}
+{"input":"cause: COVID-19 pandemic; effect: Virtual roadshows; year: 2020; context: process change","output":"The COVID-19 pandemic in 2020 forced investment banks to shift from in-person to virtual IPO roadshows."}
+{"input":"cause: 2021 SPAC boom; effect: Record listings; year: 2021; context: market trend","output":"A frenzy of SPAC formations in early 2021 caused a record-breaking number of public listings that year."}
+{"input":"cause: Rising interest rates; effect: 2022 IPO slowdown; year: 2022; context: monetary policy","output":"Rapidly rising interest rates in 2022 caused a sharp slowdown in new IPO activity compared to 2021."}
+{"input":"cause: Government shutdown 2018-2019; effect: Delayed SEC reviews; period: 2018-12 to 2019-01; context: regulatory delay","output":"The U.S. government shutdown in late 2018 delayed SEC reviews, pushing several planned IPOs into 2019."}
+{"input":"cause: China tech crackdown; effect: Didi delisting; year: 2021; context: regulatory risk","output":"Regulatory crackdowns in China in 2021 caused Didi Global to delist from the NYSE shortly after its IPO."}
+{"input":"cause: WeWork failed IPO; effect: Scrutiny on profitability; date: 2019-09-30; context: market sentiment","output":"WeWork's withdrawn IPO in September 2019 caused increased investor scrutiny on the profitability of pre-IPO unicorns."}
+{"input":"cause: Direct Listing success; effect: Spotify precedent; year: 2018; context: alternative listing","output":"Spotify's successful direct listing in 2018 caused other tech firms like Slack and Palantir to adopt the model."}
+{"input":"cause: Netscape IPO; effect: Internet gold rush; date: 1995-08-09; context: industry catalyst","output":"Netscape's explosive IPO in August 1995 caused a rush of venture capital into internet startups."}
+{"input":"cause: Google Dutch Auction; effect: Pricing debate; year: 2004; context: IPO method","output":"Google's use of a Dutch Auction in 2004 caused a temporary debate about reforming traditional IPO pricing."}
+{"input":"cause: Facebook mobile pivot; effect: Post-IPO recovery; year: 2012; context: business strategy","output":"Facebook's successful pivot to mobile ads after its 2012 IPO caused its stock to recover from initial lows."}
+{"input":"cause: Sarbanes-Oxley Act; effect: Higher compliance costs; year: 2002; context: regulation","output":"The Sarbanes-Oxley Act of 2002 caused higher compliance costs, discouraging some smaller firms from IPOing."}
+{"input":"cause: 1987 Black Monday; effect: IPO cancellations; date: 1987-10-19; context: market crash","output":"The Black Monday crash on October 19, 1987, caused the immediate cancellation of numerous planned IPOs."}
+{"input":"cause: Snowden leaks; effect: Cybersecurity IPO interest; year: 2013; context: sector tailwind","output":"The 2013 Snowden leaks caused increased awareness of data privacy, benefiting subsequent cybersecurity IPOs."}
+{"input":"cause: Cryptocurrency boom; effect: Coinbase listing; year: 2021; context: asset class adoption","output":"The mainstream adoption of crypto caused Coinbase to successfully list in 2021."}
+{"input":"cause: Ant Group IPO suspension; effect: Fintech regulation; date: 2020-11-03; context: regulatory shock","output":"The suspension of Ant Group's massive IPO in November 2020 signaled a tighter regulatory era for Chinese fintech."}
+{"input":"cause: 2000 Tech Crash; effect: IPO window closure; period: 2000-2002; context: bear market","output":"The 2000 tech crash caused the IPO window to virtually close for internet companies for nearly three years."}
+{"input":"cause: Low interest rates; effect: Tech valuation surge; period: 2010-2021; context: macroeconomics","output":"A decade of low interest rates caused a surge in tech valuations, fueling the 'unicorn' IPO era."}
+{"input":"cause: GameStop short squeeze; effect: Robinhood volatility; date: 2021-01-28; context: pre-IPO event","output":"The GameStop short squeeze in January 2021 caused massive volatility for Robinhood months before its IPO."}
+{"input":"cause: ARM acquisition failure; effect: Arm IPO; year: 2023; context: deal fallout","output":"Nvidia's failed acquisition of Arm caused SoftBank to pursue an IPO for Arm instead."}
+{"input":"cause: Y2K fears; effect: Tech spending spike; year: 1999; context: pre-IPO revenue","output":"Y2K remediation fears caused a spike in tech spending, boosting revenues for companies IPOing in 1999."}
+{"input":"cause: 2022 Tech sell-off; effect: Instacart valuation cut; year: 2023; context: valuation adjustment","output":"The 2022 tech sell-off caused Instacart to slash its internal valuation prior to its 2023 IPO."}
+{"input":"cause: LinkedIn acquisition; effect: SaaS M&A boom; year: 2016; context: exit strategy","output":"Microsoft's acquisition of LinkedIn in 2016 caused renewed interest in SaaS companies, influencing IPO valuations."}
+{"input":"cause: Ukraine war; effect: Volatility spike; year: 2022; context: geopolitical risk","output":"The outbreak of war in Ukraine in early 2022 caused a spike in volatility that froze the European IPO market."}
+{"input":"cause: ChatGPT release; effect: AI hype; year: 2023; context: thematic investing","output":"The release of ChatGPT caused a surge in AI interest that supported IPOs like C3.ai (secondary effects) and Arm."}
+{"input":"cause: 2001 9/11 attacks; effect: Market closure; date: 2001-09-11; context: external shock","output":"The 9/11 attacks caused a market closure and a temporary freeze in IPO activity in late 2001."}
+{"input":"cause: Brexit vote; effect: London listings uncertainty; year: 2016; context: regional markets","output":"The 2016 Brexit vote caused uncertainty that dampened enthusiasm for London IPOs."}
+{"input":"cause: 1990s Telecom Deregulation; effect: Telecom IPO wave; year: 1996; context: industry shift","output":"The Telecommunications Act of 1996 caused a wave of IPOs among new telecom carriers and ISPs."}
+{"input":"overlap: event1: DoorDash IPO 2020-12-09; event2: Airbnb IPO 2020-12-10; context: consecutive blockbusters","output":"DoorDash and Airbnb held blockbuster IPOs on consecutive days in December 2020."}
+{"input":"overlap: event1: Zoom IPO 2019-04-18; event2: Pinterest IPO 2019-04-18; context: same day listing","output":"Zoom and Pinterest both went public on the same day, April 18, 2019, highlighting a strong tech market."}
+{"input":"overlap: event1: Asana Direct Listing 2020-09-30; event2: Palantir Direct Listing 2020-09-30; context: dual direct listings","output":"Asana and Palantir both executed direct listings on the exact same day, September 30, 2020."}
+{"input":"overlap: event1: Netscape IPO 1995-08-09; event2: Windows 95 Release 1995-08-24; context: browser wars","output":"The Netscape IPO in August 1995 overlapped closely with the retail release of Windows 95 later that month."}
+{"input":"overlap: event1: Visa IPO 2008-03-19; event2: Bear Stearns collapse 2008-03-16; context: financial crisis","output":"Visa's record IPO occurred just days after the emergency sale of Bear Stearns in March 2008."}
+{"input":"overlap: event1: Uber IPO 2019-05-10; event2: Trade war escalation 2019-05; context: market headwinds","output":"Uber's IPO in May 2019 overlapped with a sharp escalation in the U.S.-China trade war."}
+{"input":"overlap: event1: Snowflake IPO 2020-09-16; event2: Unity IPO 2020-09-18; context: software week","output":"Snowflake and Unity went public in the same week of September 2020, signaling strong software demand."}
+{"input":"overlap: event1: Arm IPO 2023-09-14; event2: Instacart IPO 2023-09-19; context: market reopening","output":"Arm and Instacart listed within a week of each other in September 2023, testing the IPO market's reopening."}
+{"input":"overlap: event1: Facebook IPO 2012-05-18; event2: Nasdaq technical glitch 2012-05-18; context: trading error","output":"Facebook's IPO listing overlapped with a severe technical glitch at the Nasdaq exchange on the same morning."}
+{"input":"overlap: event1: Alibaba IPO 2014-09-19; event2: iPhone 6 release 2014-09-19; context: tech milestones","output":"Alibaba's record IPO occurred on the same day Apple released the iPhone 6 in stores."}
+{"input":"overlap: event1: Pets.com IPO 2000-02; event2: Nasdaq peak 2000-03; context: bubble peak","output":"The Pets.com IPO in February 2000 overlapped with the final weeks before the Nasdaq peaked in March 2000."}
+{"input":"overlap: event1: Slack Direct Listing 2019-06-20; event2: CrowdStrike IPO 2019-06-12; context: enterprise boom","output":"Slack's direct listing and CrowdStrike's IPO occurred close together in June 2019."}
+{"input":"overlap: event1: Coinbase listing 2021-04-14; event2: Bitcoin all-time high 2021-04; context: crypto peak","output":"Coinbase's listing coincided with Bitcoin reaching a then all-time high of nearly $64,000."}
+{"input":"overlap: event1: Google IPO 2004-08-19; event2: Salesforce IPO 2004-06-23; context: tech recovery","output":"Google and Salesforce both went public in the summer of 2004, marking the tech sector's recovery."}
+{"input":"overlap: event1: GM IPO 2010-11-18; event2: Tesla IPO 2010-06-29; context: auto divergence","output":"GM's massive re-IPO in late 2010 followed Tesla's smaller debut earlier that same year."}
+{"input":"overlap: event1: Worldcom IPO 1989; event2: AOL IPO 1992; context: early connectivity","output":"While separated by a few years, the rise of Worldcom and AOL overlapped as key connectivity IPOs of the early 90s."}
+{"input":"overlap: event1: Rivian IPO 2021-11-10; event2: Lucid SPAC listing 2021-07-26; context: EV year","output":"Rivian and Lucid both entered the public markets in the second half of 2021, capitalizing on EV hype."}
+{"input":"overlap: event1: Blackstone IPO 2007-06-22; event2: Market top 2007-10; context: market timing","output":"Blackstone's IPO in June 2007 overlapped with the final months of the bull market before the October 2007 peak."}
+{"input":"overlap: event1: Robinhood IPO 2021-07-29; event2: Duolingo IPO 2021-07-28; context: consumer apps","output":"Robinhood and Duolingo went public on consecutive days in July 2021."}
+{"input":"overlap: event1: Lyft IPO 2019-03-29; event2: Uber IPO filing 2019-04; context: competitor race","output":"Lyft's IPO in March 2019 overlapped with Uber's public filing release just weeks later."}
+{"input":"overlap: event1: Wise listing 2021-07-07; event2: Deliveroo IPO 2021-03-31; context: London tech","output":"Wise's successful listing in July 2021 followed Deliveroo's difficult London IPO earlier that year."}
+{"input":"overlap: event1: Global Crossing IPO 1998-08; event2: LTCM crisis 1998-09; context: volatility","output":"Global Crossing went public just before the LTCM crisis caused market volatility in late 1998."}
+{"input":"overlap: event1: Saudi Aramco IPO 2019-12-05; event2: COVID-19 first cases 2019-12; context: global events","output":"Saudi Aramco's IPO occurred in the same month that the first COVID-19 cases were identified."}
+{"input":"overlap: event1: Reddit IPO 2024-03-21; event2: Truth Social SPAC merger 2024-03-25; context: social media week","output":"Reddit's IPO and the completion of Truth Social's SPAC merger occurred within days of each other in March 2024."}
+{"input":"overlap: event1: Beyond Meat IPO 2019-05-02; event2: Uber IPO 2019-05-10; context: May 2019","output":"Beyond Meat and Uber both went public in early May 2019, drawing significant media attention."}
+{"input":"overlap: event1: GoPro IPO 2014-06-26; event2: Alibaba IPO filing 2014-05; context: 2014 tech","output":"GoPro's IPO in June 2014 overlapped with the build-up to Alibaba's massive September offering."}
+{"input":"overlap: event1: Snap IPO 2017-03-02; event2: Blue Apron IPO 2017-06-29; context: 2017 unicorns","output":"Snap's IPO in early 2017 was followed by Blue Apron's IPO a few months later."}
+{"input":"overlap: event1: Spotify listing 2018-04-03; event2: Dropbox IPO 2018-03-23; context: spring 2018","output":"Spotify's direct listing and Dropbox's IPO occurred within two weeks of each other in spring 2018."}
+{"input":"overlap: event1: Twitter IPO 2013-11-07; event2: Fed Taper Tantrum 2013; context: market backdrop","output":"Twitter's IPO in late 2013 occurred as the market stabilized following the 'Taper Tantrum' earlier that year."}
+{"input":"overlap: event1: Birkenstock IPO 2023-10-11; event2: Instacart IPO 2023-09-19; context: autumn 2023","output":"Birkenstock's IPO followed closely after Instacart's, as the market tested valuation appetite in late 2023."}
+{"input":"sequence: entity: Facebook; phase1: Founded 2004; phase2: IPO 2012; phase3: Rebrand to Meta 2021; context: company evolution","output":"Facebook was founded in 2004, held its IPO in 2012, and rebranded to Meta in 2021."}
+{"input":"sequence: entity: Tesla; phase1: Founded 2003; phase2: IPO 2010; phase3: S&P 500 inclusion 2020; context: growth trajectory","output":"Tesla was founded in 2003, went public in 2010, and was added to the S&P 500 in 2020."}
+{"input":"sequence: entity: Amazon; phase1: Founded 1994; phase2: IPO 1997; phase3: AWS launch 2006; context: diversification","output":"Amazon was founded in 1994, went public in 1997, and launched AWS in 2006."}
+{"input":"sequence: entity: Google; phase1: Founded 1998; phase2: IPO 2004; phase3: Alphabet restructuring 2015; context: corporate structure","output":"Google was founded in 1998, went public in 2004, and restructured as Alphabet in 2015."}
+{"input":"sequence: entity: Netflix; phase1: Founded 1997; phase2: IPO 2002; phase3: Streaming launch 2007; context: business model pivot","output":"Netflix was founded in 1997, listed in 2002, and introduced streaming in 2007."}
+{"input":"sequence: entity: Apple; phase1: Founded 1976; phase2: IPO 1980; phase3: iPhone launch 2007; context: innovation timeline","output":"Apple was founded in 1976, went public in 1980, and launched the iPhone in 2007."}
+{"input":"sequence: entity: Microsoft; phase1: Founded 1975; phase2: IPO 1986; phase3: LinkedIn acquisition 2016; context: growth","output":"Microsoft was founded in 1975, went public in 1986, and acquired LinkedIn in 2016."}
+{"input":"sequence: entity: Nvidia; phase1: Founded 1993; phase2: IPO 1999; phase3: Trillion dollar cap 2023; context: valuation","output":"Nvidia was founded in 1993, went public in 1999, and hit a $1 trillion market cap in 2023."}
+{"input":"sequence: entity: PayPal; phase1: Founded 1998; phase2: Acquired by eBay 2002; phase3: Spinoff IPO 2015; context: corporate journey","output":"PayPal was founded in 1998, acquired by eBay in 2002, and spun off as a public company in 2015."}
+{"input":"sequence: entity: Starbucks; phase1: Founded 1971; phase2: IPO 1992; phase3: Howard Schultz return 2008; context: brand history","output":"Starbucks was founded in 1971, went public in 1992, and saw Howard Schultz return as CEO in 2008."}
+{"input":"sequence: entity: Salesforce; phase1: Founded 1999; phase2: IPO 2004; phase3: Slack acquisition 2021; context: SaaS expansion","output":"Salesforce was founded in 1999, listed in 2004, and acquired Slack in 2021."}
+{"input":"sequence: entity: Uber; phase1: Founded 2009; phase2: IPO 2019; phase3: S&P 500 inclusion 2023; context: ride-sharing maturation","output":"Uber was founded in 2009, went public in 2019, and joined the S&P 500 in 2023."}
+{"input":"sequence: entity: Airbnb; phase1: Founded 2008; phase2: IPO 2020; phase3: S&P 500 inclusion 2023; context: hospitality disruption","output":"Airbnb was founded in 2008, held its IPO in 2020, and was added to the S&P 500 in 2023."}
+{"input":"sequence: entity: Twitter; phase1: Founded 2006; phase2: IPO 2013; phase3: Privatization by Elon Musk 2022; context: public to private","output":"Twitter was founded in 2006, went public in 2013, and was taken private by Elon Musk in 2022."}
+{"input":"sequence: entity: Dell; phase1: IPO 1988; phase2: Privatization 2013; phase3: Relisting 2018; context: restructuring","output":"Dell went public in 1988, was taken private in 2013, and relisted on the public markets in 2018."}
+{"input":"sequence: entity: General Motors; phase1: Bankruptcy 2009; phase2: Re-IPO 2010; phase3: Cruise acquisition 2016; context: recovery","output":"GM filed for bankruptcy in 2009, re-IPO'd in 2010, and acquired Cruise in 2016."}
+{"input":"sequence: entity: WeWork; phase1: Founded 2010; phase2: Failed IPO 2019; phase3: SPAC listing 2021; context: volatile history","output":"WeWork was founded in 2010, failed its IPO in 2019, and eventually listed via SPAC in 2021."}
+{"input":"sequence: entity: Spotify; phase1: Founded 2006; phase2: US Launch 2011; phase3: Direct Listing 2018; context: streaming timeline","output":"Spotify was founded in 2006, launched in the US in 2011, and listed in 2018."}
+{"input":"sequence: entity: Visa; phase1: Founded 1958; phase2: IPO 2008; phase3: Plaid acquisition attempt 2020; context: payment history","output":"Visa was founded in 1958, held its IPO in 2008, and attempted to acquire Plaid in 2020."}
+{"input":"sequence: entity: AMD; phase1: Founded 1969; phase2: IPO 1972; phase3: Xilinx acquisition 2022; context: semiconductor history","output":"AMD was founded in 1969, went public in 1972, and acquired Xilinx in 2022."}
+{"input":"sequence: entity: Intel; phase1: Founded 1968; phase2: IPO 1971; phase3: Dow Jones inclusion 1999; context: chip giant","output":"Intel was founded in 1968, went public in 1971, and was added to the Dow Jones in 1999."}
+{"input":"sequence: entity: Cisco; phase1: Founded 1984; phase2: IPO 1990; phase3: Dot-com valuation peak 2000; context: networking","output":"Cisco was founded in 1984, went public in 1990, and became the most valuable company briefly in 2000."}
+{"input":"sequence: entity: Adobe; phase1: Founded 1982; phase2: IPO 1986; phase3: Shift to Creative Cloud 2013; context: software evolution","output":"Adobe was founded in 1982, went public in 1986, and shifted to a subscription model in 2013."}
+{"input":"sequence: entity: eBay; phase1: Founded 1995; phase2: IPO 1998; phase3: PayPal spinoff 2015; context: marketplace","output":"eBay was founded in 1995, went public in 1998, and spun off PayPal in 2015."}
+{"input":"sequence: entity: Moderna; phase1: Founded 2010; phase2: IPO 2018; phase3: COVID vaccine authorization 2020; context: biotech speed","output":"Moderna was founded in 2010, went public in 2018, and received authorization for its COVID vaccine in 2020."}
+{"input":"sequence: entity: Coinbase; phase1: Founded 2012; phase2: Direct Listing 2021; phase3: SEC lawsuit 2023; context: crypto regulation","output":"Coinbase was founded in 2012, listed in 2021, and faced an SEC lawsuit in 2023."}
+{"input":"sequence: entity: Robinhood; phase1: Founded 2013; phase2: IPO 2021; phase3: 24 Hour Market launch 2023; context: trading evolution","output":"Robinhood was founded in 2013, went public in 2021, and launched 24-hour trading in 2023."}
+{"input":"sequence: entity: Palantir; phase1: Founded 2003; phase2: Direct Listing 2020; phase3: GAAP profitability 2023; context: long road","output":"Palantir was founded in 2003, listed in 2020, and achieved its first GAAP profitable year in 2023."}
+{"input":"sequence: entity: Arm; phase1: Founded 1990; phase2: Acquired by SoftBank 2016; phase3: IPO 2023; context: ownership changes","output":"Arm was founded in 1990, acquired by SoftBank in 2016, and re-listed via IPO in 2023."}
+{"input":"sequence: entity: Slack; phase1: Founded 2009; phase2: Direct Listing 2019; phase3: Acquired by Salesforce 2021; context: lifecycle","output":"Slack was founded in 2009, listed in 2019, and was acquired by Salesforce in 2021."}
+{"input":"sequence: entity: Zoom; phase1: Founded 2011; phase2: IPO 2019; phase3: Pandemic growth 2020; context: video conferencing","output":"Zoom was founded in 2011, went public in 2019, and experienced explosive growth during the 2020 pandemic."}
+{"input":"sequence: entity: TikTok (ByteDance); phase1: Founded 2012; phase2: Global expansion 2016; phase3: IPO plans 2024; context: social media rise","output":"ByteDance was founded in 2012, expanded globally with TikTok in 2016, and announced IPO plans in 2024."}
+{"input":"sequence: entity: LinkedIn; phase1: Founded 2002; phase2: IPO 2011; phase3: Acquired by Microsoft 2016; context: professional networking","output":"LinkedIn was founded in 2002, went public in 2011, and was acquired by Microsoft in 2016."}
+{"input":"sequence: entity: ZoomInfo; phase1: Founded 2007; phase2: IPO 2020; phase3: Acquisition by Great Hill Partners 2023; context: data services","output":"ZoomInfo was founded in 2007, went public in 2020, and was acquired by Great Hill Partners in 2023."}
+{"input":"sequence: entity: Instacart; phase1: Founded 2012; phase2: SPAC merger 2023; phase3: IPO 2023; context: grocery delivery","output":"Instacart was founded in 2012, merged via SPAC in 2023, and completed its IPO later that year."}
+{"input":"sequence: entity: Birkenstock; phase1: Founded 1774; phase2: Family ownership; phase3: IPO 2023; context: heritage brand","output":"Birkenstock was founded in 1774, remained family-owned for centuries, and went public in 2023."}
+{"input":"sequence: entity: Truth Social; phase1: Founded 2021; phase2: SPAC merger 2024; phase3: Public trading 2024; context: social media","output":"Truth Social was founded in 2021, merged via SPAC in 2024, and began public trading the same year."}
+{"input":"sequence: entity: Reddit; phase1: Founded 2005; phase2: User growth 2010s; phase3: IPO 2024; context: online community","output":"Reddit was founded in 2005, experienced significant user growth throughout the 2010s, and went public in 2024."}
+{"input":"sequence: entity: OpenAI; phase1: Founded 2015; phase2: ChatGPT launch 2022; phase3: IPO plans 2024; context: AI development","output":"OpenAI was founded in 2015, launched ChatGPT in 2022, and announced IPO plans in 2024."}
+{"input":"sequence: entity: Canva; phase1: Founded 2012; phase2: Unicorn status 2018; phase3: IPO plans 2024; context: design software","output":"Canva was founded in 2012, achieved unicorn status in 2018, and announced IPO plans in 2024."}
+{"input":"sequence: entity: SpaceX; phase1: Founded 2002; phase2: Starship development 2016; phase3: IPO plans 2024; context: space exploration","output":"SpaceX was founded in 2002, began Starship development in 2016, and announced IPO plans in 2024."}
+{"input":"sequence: entity: ByteDance; phase1: Founded 2012; phase2: TikTok launch 2016; phase3: IPO plans 2024; context: tech giant","output":"ByteDance was founded in 2012, launched TikTok in 2016, and announced IPO plans in 2024."}
+{"input":"sequence: entity: Epic Games; phase1: Founded 1991; phase2: Fortnite launch 2017; phase3: IPO plans 2024; context: gaming industry","output":"Epic Games was founded in 1991, launched Fortnite in 2017, and announced IPO plans in 2024."}
+{"input":"sequence: entity: Stripe; phase1: Founded 2010; phase2: Unicorn status 2014; phase3: IPO plans 2024; context: payments","output":"Stripe was founded in 2010, achieved unicorn status in 2014, and announced IPO plans in 2024."}
+{"input":"sequence: entity: Discord; phase1: Founded 2015; phase2: User growth 2020s; phase3: IPO plans 2024; context: communication platform","output":"Discord was founded in 2015, saw significant user growth in the 2020s, and announced IPO plans in 2024."}
+{"input":"sequence: entity: Rivian; phase1: Founded 2009; phase2: EV launch 2021; phase3: IPO 2021; context: electric vehicles","output":"Rivian was founded in 2009, launched its EVs in 2021, and went public the same year."}
+{"input":"sequence: entity: Lucid Motors; phase1: Founded 2007; phase2: EV launch 2021; phase3: SPAC listing 2021; context: luxury EVs","output":"Lucid Motors was founded in 2007, launched its EVs in 2021, and listed via SPAC the same year."}
+{"input":"sequence: entity: Chime; phase1: Founded 2013; phase2: Unicorn status 2019; phase3: IPO plans 2024; context: neobanking","output":"Chime was founded in 2013, achieved unicorn status in 2019, and announced IPO plans in 2024."}
+{"input":"sequence: entity: Klarna; phase1: Founded 2005; phase2: Unicorn status 2019; phase3: IPO plans 2024; context: buy now pay later","output":"Klarna was founded in 2005, achieved unicorn status in 2019, and announced IPO plans in 2024."}
+{"input":"sequence: entity: Databricks; phase1: Founded 2013; phase2: Unicorn status 2019; phase3: IPO plans 2024; context: data analytics","output":"Databricks was founded in 2013, achieved unicorn status in 2019, and announced IPO plans in 2024."}
+{"input":"sequence: entity: GitLab; phase1: Founded 2011; phase2: Unicorn status 2018; phase3: IPO 2021; context: DevOps","output":"GitLab was founded in 2011, achieved unicorn status in 2018, and went public in 2021."}
+{"input":"sequence: entity: Snowflake; phase1: Founded 2012; phase2: Unicorn status 2018; phase3: IPO 2020; context: cloud data warehousing","output":"Snowflake was founded in 2012, achieved unicorn status in 2018, and went public in 2020."}
+{"input":"entity: Blue Apron; event: IPO; date: 2017-06-29; context: meal kit delivery","output":"Blue Apron became the first U.S. meal-kit company to go public on June 29, 2017."}
+{"input":"entity: Casper Sleep; event: IPO; date: 2020-02-06; context: direct-to-consumer","output":"Casper Sleep listed on the NYSE on February 6, 2020, testing the market for mattress-in-a-box brands."}
+{"input":"entity: Dutch Bros; event: IPO; date: 2021-09-15; context: coffee chain","output":"Oregon-based coffee chain Dutch Bros went public on September 15, 2021."}
+{"input":"entity: Krispy Kreme; event: re-IPO; date: 2021-07-01; context: doughnut chain","output":"Krispy Kreme returned to the public markets on July 1, 2021, after five years of private ownership."}
+{"input":"entity: Nutanix; event: IPO; date: 2016-09-30; context: cloud infrastructure","output":"Nutanix went public on September 30, 2016, following a delay due to market volatility."}
+{"input":"entity: Avalara; event: IPO; date: 2018-06-15; context: tax compliance software","output":"Avalara completed its IPO on June 15, 2018, capitalizing on the need for automated tax compliance."}
+{"input":"entity: Upwork; event: IPO; date: 2018-10-03; context: freelance marketplace","output":"Freelancing platform Upwork listed on the Nasdaq on October 3, 2018."}
+{"input":"entity: Fiverr; event: IPO; date: 2019-06-13; context: freelance marketplace","output":"Fiverr International went public on June 13, 2019, a year after competitor Upwork."}
+{"input":"entity: Lineage; event: IPO; date: 2024-07-25; context: industrial REIT","output":"Lineage, the world's largest cold storage REIT, held the biggest IPO of 2024 on July 25."}
+{"input":"entity: Tempus AI; event: IPO; date: 2024-06-14; context: healthcare AI","output":"Tempus AI listed on the Nasdaq on June 14, 2024, highlighting the intersection of AI and precision medicine."}
+{"input":"entity: Astera Labs; event: IPO; date: 2024-03-20; context: semiconductor connectivity","output":"Astera Labs went public on March 20, 2024, riding the wave of AI infrastructure investment."}
+{"input":"entity: Rubrik; event: IPO; date: 2024-04-25; context: cybersecurity","output":"Data security firm Rubrik listed on the NYSE on April 25, 2024."}
+{"input":"entity: Ibotta; event: IPO; date: 2024-04-18; context: digital marketing","output":"Digital rewards platform Ibotta went public on April 18, 2024."}
+{"input":"entity: Zeekr; event: IPO; date: 2024-05-10; context: electric vehicles","output":"Chinese EV maker Zeekr listed on the NYSE on May 10, 2024, a rare major Chinese listing in the U.S."}
+{"input":"entity: Viking Holdings; event: IPO; date: 2024-05-01; context: travel","output":"Viking Holdings, known for its river cruises, went public on May 1, 2024."}
+{"input":"entity: UL Solutions; event: IPO; date: 2024-04-12; context: safety certification","output":"Safety science leader UL Solutions completed its IPO on April 12, 2024."}
+{"input":"entity: PACS Group; event: IPO; date: 2024-04-11; context: healthcare services","output":"Post-acute care provider PACS Group listed on the NYSE on April 11, 2024."}
+{"input":"entity: Sovos Brands; event: IPO; date: 2021-09-23; context: consumer food","output":"Sovos Brands, parent of Rao's Homemade, went public on September 23, 2021."}
+{"input":"entity: Brilliant Earth; event: IPO; date: 2021-09-23; context: jewelry","output":"Ethical jewelry retailer Brilliant Earth listed on the Nasdaq on September 23, 2021."}
+{"input":"entity: Remitly; event: IPO; date: 2021-09-23; context: fintech","output":"Remittance firm Remitly went public on September 23, 2021."}
+{"input":"entity: EngageSmart; event: IPO; date: 2021-09-23; context: software","output":"Software company EngageSmart listed on the NYSE on September 23, 2021."}
+{"input":"entity: Clearwater Analytics; event: IPO; date: 2021-09-24; context: fintech","output":"Clearwater Analytics went public on September 24, 2021."}
+{"input":"entity: Sportradar; event: IPO; date: 2021-09-14; context: sports data","output":"Sports data firm Sportradar listed on the Nasdaq on September 14, 2021."}
+{"input":"entity: Definitive Healthcare; event: IPO; date: 2021-09-15; context: healthcare intelligence","output":"Definitive Healthcare went public on September 15, 2021."}
+{"input":"entity: Thoughtworks; event: IPO; date: 2021-09-15; context: IT consultancy","output":"Technology consultancy Thoughtworks listed on the Nasdaq on September 15, 2021."}
+{"input":"entity: Shake Shack; event: IPO; date: 2015-01-30; context: fast casual","output":"Shake Shack priced its IPO on January 29 and began trading on January 30, 2015."}
+{"input":"entity: Wingstop; event: IPO; date: 2015-06-12; context: fast casual","output":"Wingstop went public on June 12, 2015, continuing the fast-casual IPO trend."}
+{"input":"entity: El Pollo Loco; event: IPO; date: 2014-07-25; context: restaurant chain","output":"El Pollo Loco listed on the Nasdaq on July 25, 2014."}
+{"input":"entity: Noodles & Company; event: IPO; date: 2013-06-28; context: restaurant chain","output":"Noodles & Company went public on June 28, 2013."}
+{"input":"entity: Potbelly; event: IPO; date: 2013-10-04; context: sandwich shop","output":"Sandwich chain Potbelly listed on the Nasdaq on October 4, 2013."}
+{"input":"entity: Habit Restaurants; event: IPO; date: 2014-11-20; context: burger chain","output":"The Habit Burger Grill went public on November 20, 2014."}
+{"input":"entity: Portillo's; event: IPO; date: 2021-10-21; context: restaurant chain","output":"Chicago-style food chain Portillo's listed on the Nasdaq on October 21, 2021."}
+{"input":"entity: First Watch; event: IPO; date: 2021-10-01; context: breakfast chain","output":"Daytime dining chain First Watch went public on October 1, 2021."}
+{"input":"entity: Cava Group; event: IPO; date: 2023-06-15; context: mediterranean fast casual","output":"Cava Group listed on the NYSE on June 15, 2023, signaling a revival in restaurant IPOs."}
+{"input":"entity: Oddity Tech; event: IPO; date: 2023-07-19; context: beauty tech","output":"Oddity Tech, parent of Il Makiage, went public on July 19, 2023."}
+{"input":"entity: Savers Value Village; event: IPO; date: 2023-06-29; context: thrift retail","output":"Thrift retailer Savers Value Village listed on the NYSE on June 29, 2023."}
+{"input":"entity: Acelyrin; event: IPO; date: 2023-05-05; context: biotech","output":"Immunology biotech Acelyrin held the largest biotech IPO of early 2023 on May 5."}
+{"input":"entity: Kenvue; event: IPO; date: 2023-05-04; context: consumer health","output":"Johnson & Johnson spinoff Kenvue went public on May 4, 2023."}
+{"input":"entity: Nextracker; event: IPO; date: 2023-02-09; context: solar technology","output":"Solar tracker manufacturer Nextracker listed on the Nasdaq on February 9, 2023."}
+{"input":"entity: Mobileye; event: IPO; date: 2022-10-26; context: autonomous driving","output":"Intel spinoff Mobileye went public on October 26, 2022."}
+{"input":"entity: Corebridge Financial; event: IPO; date: 2022-09-15; context: insurance","output":"AIG spinoff Corebridge Financial listed on the NYSE on September 15, 2022."}
+{"input":"entity: TPG Inc.; event: IPO; date: 2022-01-13; context: private equity","output":"Asset manager TPG Inc. went public on January 13, 2022."}
+{"input":"entity: Credo Technology; event: IPO; date: 2022-01-27; context: semiconductor","output":"Credo Technology listed on the Nasdaq on January 27, 2022."}
+{"input":"entity: Samsara; event: IPO; date: 2021-12-15; context: industrial IoT","output":"Samsara went public on December 15, 2021."}
+{"input":"entity: Braze; event: IPO; date: 2021-11-17; context: customer engagement","output":"Braze listed on the Nasdaq on November 17, 2021."}
+{"input":"entity: UserTesting; event: IPO; date: 2021-11-17; context: ux research","output":"UserTesting went public on November 17, 2021."}
+{"input":"entity: Expensify; event: IPO; date: 2021-11-10; context: expense management","output":"Expensify listed on the Nasdaq on November 10, 2021."}
+{"input":"entity: Backblaze; event: IPO; date: 2021-11-11; context: cloud storage","output":"Backblaze went public on November 11, 2021."}
+{"input":"entity: Udemy; event: IPO; date: 2021-10-29; context: edtech","output":"Online learning platform Udemy listed on the Nasdaq on October 29, 2021."}
+{"input":"entity: Informatica; event: IPO; date: 2021-10-27; context: data management","output":"Informatica returned to the public markets on October 27, 2021."}
+{"input":"entity: Couchbase; event: IPO; date: 2021-07-22; context: database","output":"NoSQL database provider Couchbase listed on the Nasdaq on July 22, 2021."}
+{"input":"entity: CS Disco; event: IPO; date: 2021-07-21; context: legal tech","output":"Legal technology firm CS Disco went public on July 21, 2021."}
+{"input":"entity: Blend Labs; event: IPO; date: 2021-07-16; context: fintech","output":"Digital lending platform Blend Labs listed on the NYSE on July 16, 2021."}
+{"input":"entity: VTEX; event: IPO; date: 2021-07-21; context: e-commerce","output":"Latin American e-commerce platform VTEX went public on July 21, 2021."}
+{"input":"entity: WalkMe; event: IPO; date: 2021-06-16; context: digital adoption","output":"WalkMe listed on the Nasdaq on June 16, 2021."}
+{"input":"entity: Monday.com; event: IPO; date: 2021-06-10; context: project management","output":"Work OS platform Monday.com went public on June 10, 2021."}
+{"input":"entity: Marqeta; event: IPO; date: 2021-06-09; context: fintech","output":"Card issuing platform Marqeta listed on the Nasdaq on June 09, 2021."}
+{"input":"entity: FIGS; event: IPO; date: 2021-05-27; context: healthcare apparel","output":"DTC scrubs brand FIGS went public on May 27, 2021."}
+{"input":"entity: Flywire; event: IPO; date: 2021-05-26; context: payments","output":"Payment platform Flywire listed on the Nasdaq on May 26, 2021."}
+{"input":"entity: Paymentus; event: IPO; date: 2021-05-26; context: bill payments","output":"Paymentus went public on May 26, 2021."}
+{"input":"entity: ZipRecruiter; event: Direct Listing; date: 2021-05-26; context: employment","output":"ZipRecruiter listed via a direct listing on May 26, 2021."}
+{"input":"entity: Squarespace; event: Direct Listing; date: 2021-05-19; context: website builder","output":"Squarespace went public via direct listing on May 19, 2021."}
+{"input":"entity: Procore; event: IPO; date: 2021-05-20; context: construction software","output":"Construction management software Procore listed on the NYSE on May 20, 2021."}
+{"input":"entity: AppLovin; event: IPO; date: 2021-04-15; context: mobile marketing","output":"AppLovin went public on April 15, 2021."}
+{"input":"entity: TuSimple; event: IPO; date: 2021-04-15; context: autonomous trucking","output":"Autonomous trucking firm TuSimple listed on the Nasdaq on April 15, 2021."}
+{"input":"entity: Alkami Technology; event: IPO; date: 2021-04-14; context: banking software","output":"Alkami Technology went public on April 14, 2021."}
+{"input":"entity: Olo; event: IPO; date: 2021-03-17; context: restaurant software","output":"Restaurant SaaS provider Olo listed on the NYSE on March 17, 2021."}
+{"input":"entity: DigitalOcean; event: IPO; date: 2021-03-24; context: cloud hosting","output":"Cloud infrastructure provider DigitalOcean went public on March 24, 2021."}
+{"input":"entity: Vizio; event: IPO; date: 2021-03-25; context: consumer electronics","output":"TV manufacturer Vizio listed on the NYSE on March 25, 2021."}
+{"input":"entity: ThredUp; event: IPO; date: 2021-03-26; context: resale retail","output":"Resale platform ThredUp went public on March 26, 2021."}
+{"input":"entity: Poshmark; event: IPO; date: 2021-01-14; context: social commerce","output":"Social shopping marketplace Poshmark listed on the Nasdaq on January 14, 2021."}
+{"input":"entity: Petco; event: IPO; date: 2021-01-14; context: pet retail","output":"Petco returned to the public markets on January 14, 2021."}
+{"input":"entity: Wish; event: IPO; date: 2020-12-16; context: e-commerce","output":"ContextLogic, parent of Wish, went public on December 16, 2020."}
+{"input":"entity: Upstart; event: IPO; date: 2020-12-16; context: lending AI","output":"AI lending platform Upstart listed on the Nasdaq on December 16, 2020."}
+{"input":"entity: PubMatic; event: IPO; date: 2020-12-09; context: adtech","output":"PubMatic went public on December 9, 2020."}
+{"input":"entity: McAfee; event: re-IPO; date: 2020-10-22; context: cybersecurity","output":"McAfee returned to the public markets on October 22, 2020."}
+{"input":"entity: GoodRx; event: IPO; date: 2020-09-23; context: digital health","output":"GoodRx listed on the Nasdaq on September 23, 2020."}
+{"input":"entity: Amwell; event: IPO; date: 2020-09-17; context: telemedicine","output":"Telehealth provider Amwell went public on September 17, 2020."}
+{"input":"entity: Sumo Logic; event: IPO; date: 2020-09-17; context: data analytics","output":"Sumo Logic listed on the Nasdaq on September 17, 2020."}
+{"input":"entity: JFrog; event: IPO; date: 2020-09-16; context: devops","output":"JFrog went public on September 16, 2020."}
+{"input":"entity: BigCommerce; event: IPO; date: 2020-08-05; context: e-commerce","output":"BigCommerce listed on the Nasdaq on August 5, 2020."}
+{"input":"entity: Rackspace; event: re-IPO; date: 2020-08-05; context: cloud services","output":"Rackspace Technology returned to the public market on August 5, 2020."}
+{"input":"entity: Rocket Companies; event: IPO; date: 2020-08-06; context: mortgage","output":"Rocket Companies, parent of Quicken Loans, went public on August 6, 2020."}
+{"input":"entity: Jamf; event: IPO; date: 2020-07-22; context: apple enterprise","output":"Jamf Holding listed on the Nasdaq on July 22, 2020."}
+{"input":"entity: nCino; event: IPO; date: 2020-07-14; context: banking software","output":"Banking software firm nCino went public on July 14, 2020."}
+{"input":"entity: GoHealth; event: IPO; date: 2020-07-15; context: health insurance","output":"GoHealth listed on the Nasdaq on July 15, 2020."}
+{"input":"entity: Dun & Bradstreet; event: IPO; date: 2020-07-01; context: business data","output":"Dun & Bradstreet returned to the NYSE on July 1, 2020."}
+{"input":"entity: Albertsons; event: IPO; date: 2020-06-26; context: grocery","output":"Grocer Albertsons went public on June 26, 2020, after years of preparation."}
+{"input":"entity: Vroom; event: IPO; date: 2020-06-09; context: online auto","output":"Used car retailer Vroom listed on the Nasdaq on June 9, 2020."}
+{"input":"entity: ZoomInfo; event: IPO; date: 2020-06-04; context: sales intelligence","output":"ZoomInfo went public on June 4, 2020, reopening the tech IPO market after the initial COVID shock."}
+{"input":"entity: Warner Music Group; event: IPO; date: 2020-06-03; context: entertainment","output":"Warner Music Group listed on the Nasdaq on June 3, 2020."}
+{"input":"entity: SelectQuote; event: IPO; date: 2020-05-21; context: insurance","output":"SelectQuote went public on May 21, 2020."}
+{"input":"entity: Imago BioSciences; event: IPO; date: 2021-07-15; context: biotech","output":"Imago BioSciences went public on July 15, 2021."}
+{"input":"entity: TScan Therapeutics; event: IPO; date: 2021-07-15; context: biotech","output":"TScan Therapeutics listed on the Nasdaq on July 15, 2021."}
+{"input":"entity: Day One Biopharmaceuticals; event: IPO; date: 2021-05-26; context: pediatric oncology","output":"Day One Biopharmaceuticals went public on May 26, 2021."}
+{"input":"entity: Talaris Therapeutics; event: IPO; date: 2021-05-06; context: cell therapy","output":"Talaris Therapeutics listed on the Nasdaq on May 6, 2021."}
+{"input":"entity: Instil Bio; event: IPO; date: 2021-03-18; context: cell therapy","output":"Instil Bio went public on March 18, 2021."}
+{"input":"entity: Finch Therapeutics; event: IPO; date: 2021-03-18; context: microbiome","output":"Finch Therapeutics listed on the Nasdaq on March 18, 2021."}
+{"input":"entity: Foghorn Therapeutics; event: IPO; date: 2020-10-22; context: gene therapy","output":"Foghorn Therapeutics went public on October 22, 2020."}
+{"input":"entity: Kronos Bio; event: IPO; date: 2020-10-08; context: oncology","output":"Kronos Bio listed on the Nasdaq on October 8, 2020."}
+{"input":"entity: Shattuck Labs; event: IPO; date: 2020-10-08; context: biotech","output":"Shattuck Labs went public on October 8, 2020."}
+{"input":"entity: CureVac; event: IPO; date: 2020-08-13; context: mRNA vaccines","output":"CureVac listed on the Nasdaq on August 13, 2020."}
+{"input":"entity: Yeti Holdings; event: IPO; date: 2018-10-25; context: outdoor consumer","output":"Cooler manufacturer Yeti went public on October 25, 2018."}
+{"input":"entity: Canada Goose; event: IPO; date: 2017-03-16; context: luxury apparel","output":"Canada Goose listed on the NYSE and TSX on March 16, 2017."}
+{"input":"entity: Stitch Fix; event: IPO; date: 2017-11-17; context: personal styling","output":"Stitch Fix went public on November 17, 2017."}
+{"input":"entity: Carvana; event: IPO; date: 2017-04-28; context: online auto","output":"Carvana listed on the NYSE on April 28, 2017."}
+{"input":"entity: Cloudera; event: IPO; date: 2017-04-28; context: big data","output":"Cloudera went public on April 28, 2017."}
+{"input":"entity: Alteryx; event: IPO; date: 2017-03-24; context: data analytics","output":"Alteryx listed on the NYSE on March 24, 2017."}
+{"input":"entity: MuleSoft; event: IPO; date: 2017-03-17; context: integration software","output":"MuleSoft went public on March 17, 2017, a year before being acquired by Salesforce."}
+{"input":"entity: Okta; event: IPO; date: 2017-04-07; context: identity security","output":"Okta listed on the Nasdaq on April 07, 2017."}
+{"input":"entity: BlackLine; event: IPO; date: 2016-10-28; context: accounting software","output":"BlackLine went public on October 28, 2016."}
+{"input":"entity: Coupa Software; event: IPO; date: 2016-10-06; context: procurement","output":"Coupa Software listed on the Nasdaq on October 6, 2016."}
+{"input":"entity: The Trade Desk; event: IPO; date: 2016-09-21; context: adtech","output":"The Trade Desk went public on September 21, 2016."}
+{"input":"entity: Atlassian; event: IPO; date: 2015-12-10; context: collaboration software","output":"Atlassian listed on the Nasdaq on December 10, 2015."}
+{"input":"entity: Match Group; event: IPO; date: 2015-11-19; context: dating","output":"Match Group went public on November 19, 2015."}
+{"input":"entity: Pure Storage; event: IPO; date: 2015-10-07; context: flash storage","output":"Pure Storage listed on the NYSE on October 7, 2015."}
+{"input":"entity: Shopify; event: IPO; date: 2015-05-21; context: e-commerce","output":"Shopify went public on the NYSE and TSX on May 21, 2015."}
+{"input":"entity: Etsy; event: IPO; date: 2015-04-16; context: handmade marketplace","output":"Etsy listed on the Nasdaq on April 16, 2015."}
+{"input":"entity: Box; event: IPO; date: 2015-01-23; context: cloud content","output":"Box went public on January 23, 2015, after a long delay."}
+{"input":"entity: LendingClub; event: IPO; date: 2014-12-11; context: p2p lending","output":"LendingClub listed on the NYSE on December 11, 2014."}
+{"input":"entity: New Relic; event: IPO; date: 2014-12-12; context: observability","output":"New Relic went public on December 12, 2014."}
+{"input":"entity: Hortonworks; event: IPO; date: 2014-12-12; context: hadoop","output":"Hortonworks listed on the Nasdaq on December 12, 2014."}
+{"input":"entity: Wayfair; event: IPO; date: 2014-10-02; context: home goods","output":"Wayfair went public on October 2, 2014."}
+{"input":"entity: HubSpot; event: IPO; date: 2014-10-09; context: marketing","output":"HubSpot listed on the NYSE on October 9, 2014."}
+{"input":"entity: Zendesk; event: IPO; date: 2014-05-15; context: customer service","output":"Zendesk went public on May 15, 2014."}
+{"input":"entity: Grubhub; event: IPO; date: 2014-04-04; context: food delivery","output":"Grubhub listed on the NYSE on April 4, 2014."}
+{"input":"entity: Veeva Systems; event: IPO; date: 2013-10-16; context: life sciences cloud","output":"Veeva Systems went public on October 16, 2013."}
+{"input":"entity: FireEye; event: IPO; date: 2013-09-20; context: cybersecurity","output":"FireEye listed on the Nasdaq on September 20, 2013."}
+{"input":"entity: Tableau Software; event: IPO; date: 2013-05-17; context: data viz","output":"Tableau Software went public on May 17, 2013."}
+{"input":"entity: Workday; event: IPO; date: 2012-10-12; context: hr software","output":"Workday listed on the NYSE on October 12, 2012."}
+{"input":"entity: Palo Alto Networks; event: IPO; date: 2012-07-20; context: cybersecurity","output":"Palo Alto Networks went public on July 20, 2012."}
+{"input":"entity: ServiceNow; event: IPO; date: 2012-06-29; context: it service management","output":"ServiceNow listed on the NYSE on June 29, 2012."}
+{"input":"entity: Splunk; event: IPO; date: 2012-04-19; context: big data","output":"Splunk went public on April 19, 2012."}
+{"input":"entity: Yelp; event: IPO; date: 2012-03-02; context: reviews","output":"Yelp listed on the NYSE on March 2, 2012."}
+{"input":"entity: Zynga; event: IPO; date: 2011-12-16; context: social gaming","output":"Zynga went public on December 16, 2011."}
+{"input":"entity: Groupon; event: IPO; date: 2011-11-04; context: daily deals","output":"Groupon listed on the Nasdaq on November 4, 2011."}
+{"input":"entity: Zillow; event: IPO; date: 2011-07-20; context: real estate","output":"Zillow went public on July 20, 2011."}
+{"input":"entity: Pandora Media; event: IPO; date: 2011-06-15; context: music streaming","output":"Pandora Media listed on the NYSE on June 15, 2011."}
+{"input":"cause: WeWork failed IPO 2019; effect: Endeavor IPO cancellation; date: 2019-09-26; context: market sentiment","output":"The collapse of WeWork's IPO plans in September 2019 caused Endeavor Group to cancel its own IPO just a day later."}
+{"input":"cause: Blue Apron poor performance; effect: HelloFresh IPO delay; year: 2017; context: meal kit sector","output":"Blue Apron's poor post-IPO performance in mid-2017 caused rival HelloFresh to temporarily delay its own listing."}
+{"input":"cause: 2022 Interest Rate Hikes; effect: Stripe valuation cut; year: 2022; context: private valuation","output":"Rising interest rates in 2022 caused Stripe to cut its internal valuation, delaying any potential IPO."}
+{"input":"cause: FTX Collapse; effect: Crypto IPO freeze; date: 2022-11-11; context: industry fallout","output":"The collapse of FTX in November 2022 caused a complete freeze in cryptocurrency-related IPOs for the following year."}
+{"input":"cause: COVID-19 pandemic; effect: Biotech IPO boom; year: 2020; context: sector rotation","output":"The COVID-19 pandemic caused a massive surge in investor interest in healthcare, leading to a boom in biotech IPOs in 2020."}
+{"input":"cause: SPAC regulatory crackdown; effect: De-SPAC bankruptcies; year: 2023; context: regulatory impact","output":"Tighter SEC regulations and market shifts caused a wave of bankruptcies among companies that went public via SPAC, like Enjoy Technology."}
+{"input":"cause: 2016 Election volatility; effect: IPO quiet period; month: 2016-11; context: political uncertainty","output":"Uncertainty around the 2016 U.S. election caused a noticeable quiet period in IPO activity in November 2016."}
+{"input":"cause: 2008 Crisis; effect: Tesla delay; year: 2008; context: survival mode","output":"The 2008 financial crisis caused Tesla to delay public listing plans and focus on emergency private funding instead."}
+{"input":"cause: SVB Collapse; effect: Regional bank IPO halt; date: 2023-03-10; context: banking crisis","output":"The collapse of Silicon Valley Bank in March 2023 caused an immediate halt to regional bank listings."}
+{"input":"cause: AI Hype cycle; effect: Astera Labs valuation; year: 2024; context: market trend","output":"The 2023-2024 AI hype cycle caused semiconductor firm Astera Labs to achieve a premium valuation at its IPO."}
+{"input":"cause: GDPR implementation; effect: Adtech scrutiny; year: 2018; context: regulation","output":"The implementation of GDPR in 2018 caused increased scrutiny on adtech IPOs, affecting sentiment for companies like PubMatic."}
+{"input":"cause: China education crackdown; effect: US IPO cancellations; year: 2021; context: geopolitical","output":"China's regulatory crackdown on private tutoring in 2021 caused the cancellation of multiple planned US IPOs by Chinese edtech firms."}
+{"input":"cause: Meme stock phenomenon; effect: Robinhood scrutiny; year: 2021; context: retail trading","output":"The meme stock phenomenon of early 2021 caused intense regulatory scrutiny for Robinhood ahead of its July IPO."}
+{"input":"cause: Housing market crash; effect: Zillow timing; year: 2011; context: counter-cyclical","output":"The recovering housing market post-2008 caused Zillow to time its 2011 IPO to coincide with the sector's bottoming out."}
+{"input":"cause: Flash Crash 2010; effect: IPO pullbacks; date: 2010-05-06; context: market structure","output":"The Flash Crash of May 2010 caused several companies to postpone their roadshows due to market structure concerns."}
+{"input":"overlap: event1: Freshworks IPO 2021-09-22; event2: Toast IPO 2021-09-22; context: software wednesday","output":"Freshworks and Toast both listed on September 22, 2021, making it a massive day for software IPOs."}
+{"input":"overlap: event1: Sovos Brands IPO 2021-09-23; event2: Remitly IPO 2021-09-23; context: consumer and fintech","output":"Sovos Brands and Remitly went public on the same day, September 23, 2021."}
+{"input":"overlap: event1: EngageSmart IPO 2021-09-23; event2: Brilliant Earth IPO 2021-09-23; context: diversified listings","output":"Software firm EngageSmart and jeweler Brilliant Earth both listed on September 23, 2021."}
+{"input":"overlap: event1: Dutch Bros IPO 2021-09-15; event2: On Holding IPO 2021-09-15; context: consumer brands","output":"Coffee chain Dutch Bros and shoemaker On Holding both had blockbuster IPOs on September 15, 2021."}
+{"input":"overlap: event1: Thoughtworks IPO 2021-09-15; event2: Definitive Healthcare IPO 2021-09-15; context: tech and health","output":"Thoughtworks and Definitive Healthcare shared an IPO date of September 15, 2021."}
+{"input":"overlap: event1: Kronos Bio IPO 2020-10-08; event2: Shattuck Labs IPO 2020-10-08; context: biotech cluster","output":"Biotech firms Kronos Bio and Shattuck Labs both went public on October 8, 2020."}
+{"input":"overlap: event1: Imago BioSciences IPO 2021-07-15; event2: TScan Therapeutics IPO 2021-07-15; context: biotech summer","output":"Imago BioSciences and TScan Therapeutics listed on the same day, July 15, 2021."}
+{"input":"overlap: event1: Instil Bio IPO 2021-03-18; event2: Finch Therapeutics IPO 2021-03-18; context: march biotech","output":"Instil Bio and Finch Therapeutics both completed their IPOs on March 18, 2021."}
+{"input":"overlap: event1: Flywire IPO 2021-05-26; event2: Paymentus IPO 2021-05-26; context: payments day","output":"Payments companies Flywire and Paymentus both went public on May 26, 2021."}
+{"input":"overlap: event1: Carvana IPO 2017-04-28; event2: Cloudera IPO 2017-04-28; context: auto and data","output":"Online auto retailer Carvana and big data firm Cloudera shared an IPO date of April 28, 2017."}
+{"input":"overlap: event1: LendingClub IPO 2014-12-11; event2: New Relic IPO 2014-12-12; context: end of year","output":"LendingClub's IPO on December 11, 2014, was followed immediately by New Relic's debut on December 12."}
+{"input":"overlap: event1: Shopify IPO 2015-05-21; event2: Black Knight IPO 2015-05-20; context: may 2015","output":"Shopify's major IPO on May 21, 2015, occurred just a day after Black Knight Financial went public."}
+{"input":"overlap: event1: Match Group IPO 2015-11-19; event2: Square IPO 2015-11-19; context: consumer tech","output":"Match Group and Square (Block) both went public on the same day, November 19, 2015."}
+{"input":"overlap: event1: Rubrik IPO 2024-04-25; event2: Marex IPO 2024-04-25; context: 2024 reopening","output":"Cybersecurity firm Rubrik and financial platform Marex listed on the same day in April 2024."}
+{"input":"overlap: event1: Unity IPO 2020-09-18; event2: Amwell IPO 2020-09-17; context: sept 2020","output":"Unity Software's IPO followed just one day after telehealth provider Amwell listed in September 2020."}
+{"input":"sequence: entity: Blue Apron; phase1: IPO 2017; phase2: Reverse Split 2019; phase3: Acquisition by Wonder 2023; context: meal kit lifecycle","output":"Blue Apron went public in 2017, executed a reverse stock split in 2019, and was acquired by Wonder Group in 2023."}
+{"input":"sequence: entity: Fitbit; phase1: IPO 2015; phase2: Stock decline 2016-2019; phase3: Acquisition by Google 2021; context: wearable exit","output":"Fitbit went public in 2015, saw its stock decline, and was eventually acquired by Google in 2021."}
+{"input":"sequence: entity: Casper Sleep; phase1: Founded 2014; phase2: IPO 2020; phase3: Taken Private 2022; context: dtc struggles","output":"Casper Sleep was founded in 2014, went public in 2020, and was taken private again in 2022."}
+{"input":"sequence: entity: Weber Inc.; phase1: IPO 2021; phase2: Supply chain issues 2022; phase3: Taken Private 2023; context: grill maker","output":"Grill maker Weber went public in 2021 but was taken private by BDT Capital in 2023 after supply chain struggles."}
+{"input":"sequence: entity: Qualtrics; phase1: Acquired by SAP 2018; phase2: IPO 2021; phase3: Taken Private by Silver Lake 2023; context: spinout spinin","output":"Qualtrics was acquired by SAP in 2018, spun out via IPO in 2021, and taken private by Silver Lake in 2023."}
+{"input":"sequence: entity: Momentive (SurveyMonkey); phase1: IPO 2018; phase2: Rebrand 2021; phase3: Acquisition by Symphony 2023; context: software exit","output":"SurveyMonkey went public in 2018, rebranded to Momentive in 2021, and was acquired by Symphony Technology Group in 2023."}
+{"input":"sequence: entity: Coupa Software; phase1: IPO 2016; phase2: Growth 2017-2021; phase3: Thoma Bravo Acquisition 2023; context: pe buyout","output":"Coupa Software went public in 2016 and was acquired by Thoma Bravo in 2023."}
+{"input":"sequence: entity: Avalara; phase1: IPO 2018; phase2: Tax compliance boom; phase3: Vista Equity Acquisition 2022; context: pe buyout","output":"Avalara listed in 2018 and was taken private by Vista Equity Partners in 2022."}
+{"input":"sequence: entity: Dell Technologies; phase1: IPO 1988; phase2: Private 2013; phase3: Re-listing 2018; context: ownership saga","output":"Dell went public in 1988, was taken private by Michael Dell in 2013, and returned to public markets in 2018."}
+{"input":"sequence: entity: McAfee; phase1: Acquired by Intel 2011; phase2: IPO 2020; phase3: Taken Private 2022; context: security ownership","output":"McAfee was acquired by Intel in 2011, spun out via IPO in 2020, and taken private again in 2022."}
+{"input":"sequence: entity: Informatica; phase1: IPO 1999; phase2: Private 2015; phase3: Re-IPO 2021; context: legacy tech","output":"Informatica first went public in 1999, was taken private in 2015, and re-IPO'd in 2021."}
+{"input":"sequence: entity: Rackspace; phase1: IPO 2008; phase2: Private 2016; phase3: Re-IPO 2020; context: cloud evolution","output":"Rackspace listed in 2008, was taken private by Apollo in 2016, and re-listed in 2020."}
+{"input":"sequence: entity: Grubhub; phase1: IPO 2014; phase2: Merger with Seamless; phase3: Acquisition by JET 2021; context: delivery consolidation","output":"Grubhub went public in 2014 and was acquired by Just Eat Takeaway in 2021."}
+{"input":"sequence: entity: Slack; phase1: Direct Listing 2019; phase2: Teams competition 2020; phase3: Acquisition by Salesforce 2021; context: exit","output":"Slack listed in 2019, faced competition from Microsoft Teams, and was acquired by Salesforce in 2021."}
+{"input":"sequence: entity: Tableau; phase1: IPO 2013; phase2: Market leader 2014-2018; phase3: Acquisition by Salesforce 2019; context: visualization","output":"Tableau went public in 2013 and was acquired by Salesforce in 2019."}
+{"input":"sequence: entity: LinkedIn; phase1: IPO 2011; phase2: Social growth; phase3: Acquisition by Microsoft 2016; context: professional network","output":"LinkedIn listed in 2011 and was acquired by Microsoft in 2016."}
+{"input":"sequence: entity: NetSuite; phase1: IPO 2007; phase2: Cloud pioneer; phase3: Acquisition by Oracle 2016; context: erp","output":"NetSuite went public in 2007 and was acquired by Oracle in 2016."}
+{"input":"sequence: entity: MuleSoft; phase1: IPO 2017; phase2: Integration growth; phase3: Acquisition by Salesforce 2018; context: rapid exit","output":"MuleSoft went public in 2017 and was acquired by Salesforce just a year later in 2018."}
+{"input":"sequence: entity: Sunrun; phase1: Founded 2007; phase2: IPO 2015; phase3: Vivint Solar Acquisition 2020; context: solar consolidation","output":"Sunrun was founded in 2007, went public in 2015, and acquired competitor Vivint Solar in 2020."}
+{"input":"sequence: entity: Pandora; phase1: IPO 2011; phase2: Spotify competition; phase3: Acquisition by SiriusXM 2019; context: audio streaming","output":"Pandora went public in 2011 and was acquired by SiriusXM in 2019."}
+{"input":"sequence: entity: Whole Foods; phase1: IPO 1992; phase2: Organic boom; phase3: Acquisition by Amazon 2017; context: grocery","output":"Whole Foods went public in 1992 and was acquired by Amazon in 2017."}
+{"input":"sequence: entity: Virgin America; phase1: IPO 2014; phase2: Profitability; phase3: Acquisition by Alaska Air 2016; context: airline","output":"Virgin America went public in 2014 and was acquired by Alaska Airlines in 2016."}
+{"input":"sequence: entity: Zulily; phase1: IPO 2013; phase2: Growth stall; phase3: Acquisition by QVC 2015; context: flash sales","output":"Zulily went public in 2013 and was acquired by QVC in 2015."}
+{"input":"sequence: entity: King Digital (Candy Crush); phase1: IPO 2014; phase2: Mobile hit; phase3: Acquisition by Activision 2016; context: gaming","output":"King Digital went public in 2014 and was acquired by Activision Blizzard in 2016."}
+{"input":"sequence: entity: Mobileye; phase1: IPO 2014; phase2: Intel Acquisition 2017; phase3: Re-IPO 2022; context: autonomy","output":"Mobileye first listed in 2014, was acquired by Intel in 2017, and re-IPO'd in 2022."}
+{"input":"sequence: entity: Arm Holdings; phase1: IPO 1998; phase2: SoftBank Acquisition 2016; phase3: Re-IPO 2023; context: chip architecture","output":"Arm Holdings listed in 1998, was taken private by SoftBank in 2016, and re-listed in 2023."}
+{"input":"sequence: entity: Formula One; phase1: CVC Ownership; phase2: Liberty Media Acquisition 2017; phase3: FWONK Listing; context: sports rights","output":"Formula One was acquired by Liberty Media in 2017, leading to the creation of the FWONK tracking stock."}
+{"input":"sequence: entity: Sotheby's; phase1: IPO 1988; phase2: Private by Drahi 2019; phase3: Potential Re-IPO; context: auction house","output":"Sotheby's went public in 1988 and was taken private by Patrick Drahi in 2019."}
+{"input":"sequence: entity: Hertz; phase1: Bankruptcy 2020; phase2: Restructuring; phase3: Re-listing 2021; context: rental car","output":"Hertz filed for bankruptcy in 2020 and re-listed on the Nasdaq in 2021 after restructuring."}
+{"input":"sequence: entity: Mallinckrodt; phase1: IPO 2013; phase2: Opioid litigation; phase3: Bankruptcy 2020; context: pharma","output":"Mallinckrodt went public in 2013 but filed for bankruptcy in 2020 due to opioid litigation."}
+{"input":"sequence: entity: Chesapeake Energy; phase1: IPO 2001; phase2: Debt issues; phase3: Bankruptcy 2020; context: oil and gas","output":"Chesapeake Energy listed in 2001 and filed for bankruptcy in 2020 amid debt problems."}

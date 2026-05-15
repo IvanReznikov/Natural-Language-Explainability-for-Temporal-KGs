@@ -1,0 +1,318 @@
+{"input":"entity: Iron Man; event: theatrical release; date: 2008-05-02; context: MCU origin","output":"Iron Man premiered in theaters on May 2, 2008, launching the Marvel Cinematic Universe."}
+{"input":"entity: The Incredible Hulk; event: release; date: 2008-06-13; context: MCU Phase 1","output":"The Incredible Hulk was released on June 13, 2008, as the second film in the MCU."}
+{"input":"entity: Iron Man 2; event: release; date: 2010-05-07; context: MCU sequel","output":"Iron Man 2 arrived in theaters on May 7, 2010, continuing Tony Stark's story."}
+{"input":"entity: Thor; event: release; date: 2011-05-06; context: MCU introduction","output":"Thor introduced the God of Thunder to audiences on May 6, 2011."}
+{"input":"entity: Captain America: The First Avenger; event: release; date: 2011-07-22; context: MCU origin","output":"Captain America: The First Avenger debuted on July 22, 2011, establishing Steve Rogers' WWII origin."}
+{"input":"entity: The Avengers; event: release; date: 2012-05-04; context: MCU crossover","output":"The Avengers assembled in theaters on May 4, 2012, marking the climax of Phase 1."}
+{"input":"entity: Iron Man 3; event: release; date: 2013-05-03; context: MCU Phase 2","output":"Iron Man 3 kicked off Phase 2 of the MCU with its release on May 3, 2013."}
+{"input":"entity: Thor: The Dark World; event: release; date: 2013-11-08; context: MCU sequel","output":"Thor: The Dark World was released on November 8, 2013."}
+{"input":"entity: Captain America: The Winter Soldier; event: release; date: 2014-04-04; context: MCU sequel","output":"Captain America: The Winter Soldier premiered on April 4, 2014, shifting the MCU towards political thriller themes."}
+{"input":"entity: Guardians of the Galaxy; event: release; date: 2014-08-01; context: MCU expansion","output":"Guardians of the Galaxy expanded the MCU into cosmic territory on August 1, 2014."}
+{"input":"entity: Avengers: Age of Ultron; event: release; date: 2015-05-01; context: MCU crossover","output":"Avengers: Age of Ultron was released on May 1, 2015, introducing Vision and Scarlet Witch."}
+{"input":"entity: Ant-Man; event: release; date: 2015-07-17; context: MCU heist film","output":"Ant-Man concluded Phase 2 with its theatrical debut on July 17, 2015."}
+{"input":"entity: Captain America: Civil War; event: release; date: 2016-05-06; context: MCU conflict","output":"Captain America: Civil War began Phase 3 on May 6, 2016, fracturing the Avengers."}
+{"input":"entity: Doctor Strange; event: release; date: 2016-11-04; context: MCU magic","output":"Doctor Strange introduced the mystic arts to the MCU on November 4, 2016."}
+{"input":"entity: Guardians of the Galaxy Vol. 2; event: release; date: 2017-05-05; context: MCU sequel","output":"Guardians of the Galaxy Vol. 2 was released on May 5, 2017."}
+{"input":"entity: Spider-Man: Homecoming; event: release; date: 2017-07-07; context: MCU Sony partnership","output":"Spider-Man: Homecoming, the first solo Spidey film in the MCU, opened on July 7, 2017."}
+{"input":"entity: Thor: Ragnarok; event: release; date: 2017-11-03; context: MCU sequel","output":"Thor: Ragnarok revitalized the Thor franchise upon its release on November 3, 2017."}
+{"input":"entity: Black Panther; event: release; date: 2018-02-16; context: cultural milestone","output":"Black Panther premiered on February 16, 2018, becoming a major cultural phenomenon."}
+{"input":"entity: Avengers: Infinity War; event: release; date: 2018-04-27; context: MCU climax part 1","output":"Avengers: Infinity War was released on April 27, 2018, ending with the infamous Thanos snap."}
+{"input":"entity: Ant-Man and the Wasp; event: release; date: 2018-07-06; context: MCU sequel","output":"Ant-Man and the Wasp arrived in theaters on July 6, 2018."}
+{"input":"entity: Captain Marvel; event: release; date: 2019-03-08; context: MCU prequel","output":"Captain Marvel was released on March 8, 2019, introducing Carol Danvers."}
+{"input":"entity: Avengers: Endgame; event: release; date: 2019-04-26; context: MCU finale","output":"Avengers: Endgame concluded the Infinity Saga on April 26, 2019, breaking box office records."}
+{"input":"entity: Spider-Man: Far From Home; event: release; date: 2019-07-02; context: MCU Phase 3 end","output":"Spider-Man: Far From Home served as the epilogue to Phase 3, releasing on July 2, 2019."}
+{"input":"entity: WandaVision; start: 2021-01-15; end: 2021-03-05; context: MCU TV series","output":"WandaVision aired on Disney+ from January 15, 2021, to March 5, 2021, launching Phase 4."}
+{"input":"entity: Black Widow; event: release; date: 2021-07-09; context: MCU prequel","output":"Black Widow was finally released on July 9, 2021, after multiple pandemic delays."}
+{"input":"entity: Shang-Chi and the Legend of the Ten Rings; event: release; date: 2021-09-03; context: MCU origin","output":"Shang-Chi and the Legend of the Ten Rings premiered on September 3, 2021."}
+{"input":"entity: Eternals; event: release; date: 2021-11-05; context: MCU expansion","output":"Eternals introduced a new team of immortals on November 5, 2021."}
+{"input":"entity: Spider-Man: No Way Home; event: release; date: 2021-12-17; context: multiverse event","output":"Spider-Man: No Way Home opened on December 17, 2021, uniting three generations of Spider-Men."}
+{"input":"entity: Moon Knight; start: 2022-03-30; end: 2022-05-04; context: MCU series","output":"Moon Knight streamed on Disney+ from March 30 to May 4, 2022."}
+{"input":"entity: Doctor Strange in the Multiverse of Madness; event: release; date: 2022-05-06; context: MCU sequel","output":"Doctor Strange in the Multiverse of Madness was released on May 6, 2022."}
+{"input":"entity: Ms. Marvel; start: 2022-06-08; end: 2022-07-13; context: MCU series","output":"Ms. Marvel ran from June 8 to July 13, 2022, introducing Kamala Khan."}
+{"input":"entity: Thor: Love and Thunder; event: release; date: 2022-07-08; context: MCU sequel","output":"Thor: Love and Thunder arrived in theaters on July 8, 2022."}
+{"input":"entity: Black Panther: Wakanda Forever; event: release; date: 2022-11-11; context: MCU tribute","output":"Black Panther: Wakanda Forever was released on November 11, 2022, honoring Chadwick Boseman."}
+{"input":"entity: Ant-Man and the Wasp: Quantumania; event: release; date: 2023-02-17; context: Phase 5 start","output":"Ant-Man and the Wasp: Quantumania kicked off Phase 5 on February 17, 2023."}
+{"input":"entity: Guardians of the Galaxy Vol. 3; event: release; date: 2023-05-05; context: trilogy conclusion","output":"Guardians of the Galaxy Vol. 3 concluded the team's journey on May 5, 2023."}
+{"input":"entity: Secret Invasion; start: 2023-06-21; end: 2023-07-26; context: MCU series","output":"Secret Invasion aired on Disney+ from June 21, 2023, to July 26, 2023."}
+{"input":"entity: Loki Season 2; start: 2023-10-05; end: 2023-11-09; context: MCU series","output":"The second season of Loki streamed from October 5 to November 9, 2023."}
+{"input":"entity: The Marvels; event: release; date: 2023-11-10; context: MCU team-up","output":"The Marvels was released on November 10, 2023, uniting Captain Marvel, Ms. Marvel, and Monica Rambeau."}
+{"input":"entity: Deadpool & Wolverine; event: release; date: 2024-07-26; context: MCU mutant integration","output":"Deadpool & Wolverine brought the Fox universe into the MCU on July 26, 2024."}
+{"input":"entity: Agatha All Along; start: 2024-09-18; end: 2024-11-06; context: MCU series","output":"Agatha All Along streamed from September 18 to November 6, 2024."}
+{"input":"entity: Captain America: Brave New World; event: release; date: 2025-02-14; context: MCU sequel","output":"Captain America: Brave New World is scheduled for release on February 14, 2025."}
+{"input":"entity: Thunderbolts*; event: release; date: 2025-05-02; context: MCU anti-hero team","output":"Thunderbolts* is set to hit theaters on May 2, 2025."}
+{"input":"entity: The Fantastic Four: First Steps; event: release; date: 2025-07-25; context: MCU reboot","output":"The Fantastic Four: First Steps will bring the classic team to the MCU on July 25, 2025."}
+{"input":"entity: Avengers: Doomsday; event: release; date: 2026-05-01; context: future MCU","output":"Avengers: Doomsday is currently scheduled for release on May 1, 2026."}
+{"input":"entity: Avengers: Secret Wars; event: release; date: 2027-05-07; context: saga finale","output":"Avengers: Secret Wars is planned to conclude the Multiverse Saga on May 7, 2027."}
+{"input":"entity: Star Wars: Episode IV - A New Hope; event: release; date: 1977-05-25; context: original trilogy","output":"Star Wars: Episode IV - A New Hope premiered on May 25, 1977, changing cinema history."}
+{"input":"entity: Star Wars: Episode V - The Empire Strikes Back; event: release; date: 1980-05-21; context: original trilogy","output":"The Empire Strikes Back was released on May 21, 1980."}
+{"input":"entity: Star Wars: Episode VI - Return of the Jedi; event: release; date: 1983-05-25; context: original trilogy","output":"Return of the Jedi concluded the original trilogy on May 25, 1983."}
+{"input":"entity: Star Wars: Episode I - The Phantom Menace; event: release; date: 1999-05-19; context: prequel trilogy","output":"The Phantom Menace launched the prequel trilogy on May 19, 1999."}
+{"input":"entity: Star Wars: Episode II - Attack of the Clones; event: release; date: 2002-05-16; context: prequel trilogy","output":"Attack of the Clones arrived in theaters on May 16, 2002."}
+{"input":"entity: Star Wars: Episode III - Revenge of the Sith; event: release; date: 2005-05-19; context: prequel trilogy","output":"Revenge of the Sith completed the prequels on May 19, 2005."}
+{"input":"entity: Star Wars: The Clone Wars; start: 2008-10-03; end: 2020-05-04; context: animated series","output":"The animated series Star Wars: The Clone Wars ran from October 3, 2008, to May 4, 2020."}
+{"input":"entity: Disney; event: Lucasfilm acquisition; date: 2012-10-30; context: business deal","output":"Disney acquired Lucasfilm on October 30, 2012, for $4.05 billion."}
+{"input":"entity: Star Wars: Episode VII - The Force Awakens; event: release; date: 2015-12-18; context: sequel trilogy","output":"The Force Awakens revived the franchise on December 18, 2015."}
+{"input":"entity: Rogue One: A Star Wars Story; event: release; date: 2016-12-16; context: anthology film","output":"Rogue One: A Star Wars Story was released on December 16, 2016."}
+{"input":"entity: Star Wars: Episode VIII - The Last Jedi; event: release; date: 2017-12-15; context: sequel trilogy","output":"The Last Jedi premiered on December 15, 2017."}
+{"input":"entity: Solo: A Star Wars Story; event: release; date: 2018-05-25; context: anthology film","output":"Solo: A Star Wars Story was released on May 25, 2018."}
+{"input":"entity: Star Wars: Episode IX - The Rise of Skywalker; event: release; date: 2019-12-20; context: Skywalker saga finale","output":"The Rise of Skywalker concluded the nine-film saga on December 20, 2019."}
+{"input":"entity: The Mandalorian; event: series premiere; date: 2019-11-12; context: Disney+ launch","output":"The Mandalorian premiered on November 12, 2019, as a launch title for Disney+."}
+{"input":"entity: Obi-Wan Kenobi; start: 2022-05-27; end: 2022-06-22; context: limited series","output":"The Obi-Wan Kenobi limited series aired from May 27 to June 22, 2022."}
+{"input":"entity: Andor; event: season 1 premiere; date: 2022-09-21; context: prequel series","output":"Andor premiered its first season on September 21, 2022."}
+{"input":"entity: Ahsoka; start: 2023-08-22; end: 2023-10-03; context: series","output":"The Ahsoka series streamed from August 22 to October 3, 2023."}
+{"input":"entity: The Acolyte; start: 2024-06-04; end: 2024-07-16; context: High Republic series","output":"The Acolyte aired from June 4 to July 16, 2024."}
+{"input":"entity: Skeleton Crew; start: 2024-12-03; end: 2025-01-14; context: series","output":"Skeleton Crew is scheduled to run from December 3, 2024, to January 14, 2025."}
+{"input":"entity: The Mandalorian & Grogu; event: release; date: 2026-05-22; context: theatrical return","output":"The Mandalorian & Grogu is slated to return Star Wars to theaters on May 22, 2026."}
+{"input":"entity: Dr. No; event: release; date: 1962-10-05; context: first Bond film","output":"Dr. No, the first James Bond film, was released on October 5, 1962."}
+{"input":"entity: Goldfinger; event: release; date: 1964-09-17; context: Bond franchise","output":"Goldfinger was released on September 17, 1964, defining the spy genre tropes."}
+{"input":"entity: GoldenEye; event: release; date: 1995-11-17; context: Bond reboot","output":"GoldenEye revitalized the Bond franchise on November 17, 1995, starring Pierce Brosnan."}
+{"input":"entity: Casino Royale; event: release; date: 2006-11-17; context: Craig era start","output":"Casino Royale rebooted Bond with Daniel Craig on November 17, 2006."}
+{"input":"entity: Skyfall; event: release; date: 2012-10-26; context: 50th anniversary","output":"Skyfall celebrated Bond's 50th anniversary with its release on October 26, 2012."}
+{"input":"entity: No Time to Die; event: release; date: 2021-09-30; context: Craig era end","output":"No Time to Die concluded Daniel Craig's tenure as Bond on September 30, 2021."}
+{"input":"entity: Harry Potter and the Sorcerer's Stone; event: release; date: 2001-11-16; context: franchise start","output":"Harry Potter and the Sorcerer's Stone launched the wizarding world on November 16, 2001."}
+{"input":"entity: Harry Potter and the Prisoner of Azkaban; event: release; date: 2004-06-04; context: franchise shift","output":"Harry Potter and the Prisoner of Azkaban was released on June 4, 2004, marking a darker tone."}
+{"input":"entity: Harry Potter and the Deathly Hallows – Part 2; event: release; date: 2011-07-15; context: franchise finale","output":"Harry Potter and the Deathly Hallows – Part 2 concluded the series on July 15, 2011."}
+{"input":"entity: Fantastic Beasts and Where to Find Them; event: release; date: 2016-11-18; context: spin-off","output":"Fantastic Beasts and Where to Find Them premiered on November 18, 2016."}
+{"input":"entity: The Fellowship of the Ring; event: release; date: 2001-12-19; context: LOTR trilogy","output":"The Lord of the Rings: The Fellowship of the Ring was released on December 19, 2001."}
+{"input":"entity: The Two Towers; event: release; date: 2002-12-18; context: LOTR trilogy","output":"The Lord of the Rings: The Two Towers arrived in theaters on December 18, 2002."}
+{"input":"entity: The Return of the King; event: release; date: 2003-12-17; context: LOTR trilogy","output":"The Lord of the Rings: The Return of the King was released on December 17, 2003."}
+{"input":"entity: The Hobbit: An Unexpected Journey; event: release; date: 2012-12-14; context: prequel trilogy","output":"The Hobbit: An Unexpected Journey premiered on December 14, 2012."}
+{"input":"entity: The Rings of Power; event: series premiere; date: 2022-09-01; context: TV adaptation","output":"The Lord of the Rings: The Rings of Power premiered on Prime Video on September 1, 2022."}
+{"input":"entity: The Lord of the Rings: The War of the Rohirrim; event: release; date: 2024-12-13; context: anime film","output":"The anime film The Lord of the Rings: The War of the Rohirrim is set for December 13, 2024."}
+{"input":"entity: The Lord of the Rings: The Hunt for Gollum; event: release; date: 2027-12-17; context: new live action","output":"The Lord of the Rings: The Hunt for Gollum is scheduled for release on December 17, 2027."}
+{"input":"entity: Avatar; event: release; date: 2009-12-18; context: box office record","output":"Avatar was released on December 18, 2009, becoming the highest-grossing film of all time."}
+{"input":"entity: Avatar: The Way of Water; event: release; date: 2022-12-16; context: long-awaited sequel","output":"Avatar: The Way of Water finally arrived in theaters on December 16, 2022."}
+{"input":"entity: Avatar: Fire and Ash; event: release; date: 2025-12-19; context: third installment","output":"Avatar: Fire and Ash is scheduled for release on December 19, 2025."}
+{"input":"entity: Avatar 4; event: release; date: 2029-12-21; context: future sequel","output":"Avatar 4 is currently scheduled for theatrical release on December 21, 2029."}
+{"input":"entity: Avatar 5; event: release; date: 2031-12-19; context: franchise finale","output":"Avatar 5 is planned for release on December 19, 2031."}
+{"input":"entity: The Fast and the Furious; event: release; date: 2001-06-22; context: franchise start","output":"The Fast and the Furious launched the saga on June 22, 2001."}
+{"input":"entity: Fast Five; event: release; date: 2011-04-29; context: franchise pivot","output":"Fast Five was released on April 29, 2011, shifting the genre from street racing to heist action."}
+{"input":"entity: Furious 7; event: release; date: 2015-04-03; context: tribute","output":"Furious 7 was released on April 3, 2015, following the death of Paul Walker."}
+{"input":"entity: Fast X; event: release; date: 2023-05-19; context: penultimate film","output":"Fast X was released on May 19, 2023."}
+{"input":"entity: Jurassic Park; event: release; date: 1993-06-11; context: CGI milestone","output":"Jurassic Park premiered on June 11, 1993, revolutionizing CGI in film."}
+{"input":"entity: Jurassic World; event: release; date: 2015-06-12; context: soft reboot","output":"Jurassic World revived the dinosaur franchise on June 12, 2015."}
+{"input":"entity: Jurassic World Rebirth; event: release; date: 2025-07-02; context: new era","output":"Jurassic World Rebirth is scheduled to open in theaters on July 2, 2025."}
+{"input":"entity: The Godfather; event: release; date: 1972-03-24; context: crime classic","output":"The Godfather was released on March 24, 1972."}
+{"input":"entity: The Godfather Part II; event: release; date: 1974-12-20; context: sequel","output":"The Godfather Part II premiered on December 20, 1974."}
+{"input":"entity: Titanic; event: release; date: 1997-12-19; context: box office phenomenon","output":"Titanic was released on December 19, 1997, dominating the box office for months."}
+{"input":"entity: The Matrix; event: release; date: 1999-03-31; context: sci-fi landmark","output":"The Matrix premiered on March 31, 1999, influencing action cinema for decades."}
+{"input":"entity: The Matrix Resurrections; event: release; date: 2021-12-22; context: legacy sequel","output":"The Matrix Resurrections was released on December 22, 2021."}
+{"input":"entity: Toy Story; event: release; date: 1995-11-22; context: first CGI feature","output":"Toy Story, the first entirely computer-animated feature film, was released on November 22, 1995."}
+{"input":"entity: Shrek; event: release; date: 2001-05-18; context: animation","output":"Shrek was released on May 18, 2001, and won the first Academy Award for Best Animated Feature."}
+{"input":"entity: Frozen; event: release; date: 2013-11-27; context: animation hit","output":"Frozen was released on November 27, 2013, becoming a massive global success."}
+{"input":"entity: Inside Out 2; event: release; date: 2024-06-14; context: box office hit","output":"Inside Out 2 was released on June 14, 2024, becoming the highest-grossing animated film."}
+{"input":"entity: Joker; event: release; date: 2019-10-04; context: R-rated success","output":"Joker was released on October 4, 2019, becoming the first R-rated film to gross $1 billion."}
+{"input":"entity: Joker: Folie à Deux; event: release; date: 2024-10-04; context: sequel","output":"Joker: Folie à Deux was released on October 4, 2024."}
+{"input":"entity: Barbie; event: release; date: 2023-07-21; context: cultural event","output":"Barbie was released on July 21, 2023, clashing with Oppenheimer."}
+{"input":"entity: Oppenheimer; event: release; date: 2023-07-21; context: cultural event","output":"Oppenheimer was released on July 21, 2023, sharing its debut with Barbie."}
+{"input":"entity: Dune: Part One; event: release; date: 2021-10-22; context: sci-fi adaptation","output":"Dune: Part One was released on October 22, 2021."}
+{"input":"entity: Dune: Part Two; event: release; date: 2024-03-01; context: sci-fi sequel","output":"Dune: Part Two was released on March 1, 2024, after being delayed by strikes."}
+{"input":"entity: Mission: Impossible – Dead Reckoning Part One; event: release; date: 2023-07-12; context: action","output":"Mission: Impossible – Dead Reckoning Part One was released on July 12, 2023."}
+{"input":"entity: Mission: Impossible 8; event: release; date: 2025-05-23; context: delayed sequel","output":"The eighth Mission: Impossible film is scheduled for release on May 23, 2025."}
+{"input":"entity: Top Gun: Maverick; event: release; date: 2022-05-27; context: legacy sequel","output":"Top Gun: Maverick flew into theaters on May 27, 2022, after years of delays."}
+{"input":"entity: Wings; event: Academy Award win; date: 1929-05-16; context: first Best Picture","output":"Wings won the first Academy Award for Best Picture (then 'Outstanding Picture') on May 16, 1929."}
+{"input":"entity: Hattie McDaniel; event: Academy Award win; date: 1940-02-29; context: historic win","output":"Hattie McDaniel became the first Black Oscar winner on February 29, 1940."}
+{"input":"entity: Ben-Hur; event: Academy Award sweep; date: 1960-04-04; context: record wins","output":"Ben-Hur won 11 Oscars on April 4, 1960, setting a record."}
+{"input":"entity: Titanic; event: Academy Award sweep; date: 1998-03-23; context: record tie","output":"Titanic tied the record of 11 Oscar wins on March 23, 1998."}
+{"input":"entity: The Lord of the Rings: The Return of the King; event: Academy Award sweep; date: 2004-02-29; context: record tie","output":"The Return of the King won all 11 Oscars it was nominated for on February 29, 2004."}
+{"input":"entity: Kathryn Bigelow; event: Academy Award win; date: 2010-03-07; context: Best Director","output":"Kathryn Bigelow became the first woman to win Best Director on March 7, 2010."}
+{"input":"entity: Parasite; event: Academy Award win; date: 2020-02-09; context: international film","output":"Parasite became the first non-English language film to win Best Picture on February 9, 2020."}
+{"input":"entity: CODA; event: Academy Award win; date: 2022-03-27; context: streaming film","output":"CODA became the first streaming movie to win Best Picture on March 27, 2022."}
+{"input":"entity: Everything Everywhere All At Once; event: Academy Award sweep; date: 2023-03-12; context: awards","output":"Everything Everywhere All At Once dominated the Oscars on March 12, 2023."}
+{"input":"entity: Oppenheimer; event: Academy Award win; date: 2024-03-10; context: awards","output":"Oppenheimer won Best Picture at the 96th Academy Awards on March 10, 2024."}
+{"input":"sequence: entity: Original Star Wars Trilogy; phase1: A New Hope 1977; phase2: Empire Strikes Back 1980; phase3: Return of the Jedi 1983; context: trilogy timeline","output":"The Original Star Wars Trilogy released A New Hope in 1977, Empire Strikes Back in 1980, and Return of the Jedi in 1983."}
+{"input":"sequence: entity: Star Wars Prequel Trilogy; phase1: Phantom Menace 1999; phase2: Attack of the Clones 2002; phase3: Revenge of the Sith 2005; context: trilogy timeline","output":"The Star Wars Prequels spanned from The Phantom Menace in 1999 to Revenge of the Sith in 2005."}
+{"input":"sequence: entity: Star Wars Sequel Trilogy; phase1: Force Awakens 2015; phase2: Last Jedi 2017; phase3: Rise of Skywalker 2019; context: trilogy timeline","output":"The Sequel Trilogy began with The Force Awakens in 2015 and ended with The Rise of Skywalker in 2019."}
+{"input":"sequence: entity: Dark Knight Trilogy; phase1: Batman Begins 2005; phase2: The Dark Knight 2008; phase3: Dark Knight Rises 2012; context: superhero trilogy","output":"Nolan's Dark Knight Trilogy started in 2005, peaked in 2008, and concluded in 2012."}
+{"input":"sequence: entity: Lord of the Rings Trilogy; phase1: Fellowship 2001; phase2: Two Towers 2002; phase3: Return of the King 2003; context: fantasy trilogy","output":"Jackson's Lord of the Rings released annually: Fellowship in 2001, Two Towers in 2002, and Return of the King in 2003."}
+{"input":"sequence: entity: The Hobbit Trilogy; phase1: Unexpected Journey 2012; phase2: Desolation of Smaug 2013; phase3: Battle of the Five Armies 2014; context: prequel trilogy","output":"The Hobbit trilogy ran from 2012 to 2014."}
+{"input":"sequence: entity: Back to the Future Trilogy; phase1: Part I 1985; phase2: Part II 1989; phase3: Part III 1990; context: sci-fi trilogy","output":"Back to the Future released its first film in 1985, followed by sequels in 1989 and 1990."}
+{"input":"sequence: entity: MCU Phase 1; phase1: Iron Man 2008; phase2: Avengers 2012; context: production phase","output":"MCU Phase 1 began with Iron Man in 2008 and culminated with The Avengers in 2012."}
+{"input":"sequence: entity: MCU Phase 3; phase1: Civil War 2016; phase2: Endgame 2019; phase3: Far From Home 2019; context: production phase","output":"MCU Phase 3 started with Civil War in 2016 and concluded with Spider-Man: Far From Home in 2019."}
+{"input":"sequence: entity: Toy Story franchise; phase1: Toy Story 1995; phase2: Toy Story 3 2010; phase3: Toy Story 4 2019; context: release gaps","output":"Toy Story debuted in 1995, released a third part in 2010, and a fourth in 2019."}
+{"input":"cause: COVID-19 pandemic; effect: Black Widow delay; year: 2020; context: industry disruption","output":"The COVID-19 pandemic caused Black Widow to be delayed from May 2020 to July 2021."}
+{"input":"cause: WGA Strike 2023; effect: Dune Part Two delay; year: 2023; context: labor dispute","output":"The 2023 WGA and SAG-AFTRA strikes pushed Dune: Part Two from November 2023 to March 2024."}
+{"input":"cause: Paul Walker death; effect: Furious 7 production halt; year: 2013; context: production tragedy","output":"Paul Walker's death in 2013 caused a production hiatus and rewrite for Furious 7."}
+{"input":"cause: Justice League failure; effect: Snyder Cut campaign; year: 2017; context: fan movement","output":"The critical failure of the 2017 Justice League theatrical cut triggered the #ReleaseTheSnyderCut movement."}
+{"input":"cause: Jonathan Majors legal issues; effect: Kang Dynasty title change; year: 2023; context: creative pivot","output":"Legal issues facing Jonathan Majors in 2023 led Marvel to retool Avengers: The Kang Dynasty into Avengers: Doomsday."}
+{"input":"cause: Spider-Man 2 success; effect: superhero boom; year: 2004; context: genre history","output":"The critical success of Spider-Man 2 in 2004 solidified the viability of the superhero genre."}
+{"input":"cause: Avatar box office; effect: 3D cinema trend; year: 2009; context: technology trend","output":"Avatar's massive box office in 2009 caused a global surge in 3D movie releases."}
+{"input":"cause: Disney acquisition of Fox; effect: X-Men in MCU; year: 2019; context: corporate merger","output":"Disney's acquisition of 21st Century Fox in 2019 allowed the X-Men to eventually join the MCU."}
+{"input":"cause: Hays Code enforcement; effect: censorship era; year: 1934; context: film history","output":"Strict enforcement of the Hays Code in 1934 led to decades of censorship in Hollywood."}
+{"input":"cause: The Jazz Singer success; effect: end of silent era; year: 1927; context: film history","output":"The success of The Jazz Singer in 1927 accelerated the end of the silent film era."}
+{"input":"overlap: event1: Barbenheimer 2023-07-21; event2: Barbie release; event3: Oppenheimer release; context: simultaneous release","output":"The 'Barbenheimer' phenomenon occurred on July 21, 2023, when Barbie and Oppenheimer were released on the same day."}
+{"input":"overlap: event1: SAG-AFTRA Strike 2023-07-14; event2: WGA Strike 2023-05-02; context: dual strikes","output":"The SAG-AFTRA strike beginning July 2023 overlapped with the ongoing WGA strike, halting Hollywood production."}
+{"input":"overlap: event1: Matrix release 1999-03-31; event2: Star Wars Phantom Menace release 1999-05-19; context: 1999 sci-fi","output":"The Matrix and Star Wars: Episode I overlapped in theaters during the spring of 1999."}
+{"input":"overlap: event1: Dark Knight release 2008-07-18; event2: Iron Man release 2008-05-02; context: 2008 superhero summer","output":"The Dark Knight and Iron Man dominated the box office during the summer of 2008."}
+{"input":"overlap: event1: Ghostbusters release 1984-06-08; event2: Gremlins release 1984-06-08; context: shared release date","output":"Ghostbusters and Gremlins were both released on June 8, 1984, a historic day for 80s cinema."}
+{"input":"entity: Hays Code; start: 1934-07-01; end: 1968-11-01; context: censorship era","output":"The Hays Code strictly regulated Hollywood content from July 1934 until it was replaced by the rating system in 1968."}
+{"input":"entity: Golden Age of Hollywood; start: 1927-10-06; end: 1969-01-01; context: film era","output":"The Golden Age of Hollywood generally spans from the release of The Jazz Singer in 1927 to the late 1960s."}
+{"input":"entity: Disney Renaissance; start: 1989-11-17; end: 1999-06-18; context: animation era","output":"The Disney Renaissance began with The Little Mermaid in 1989 and ended with Tarzan in 1999."}
+{"input":"entity: New Hollywood; start: 1967-08-13; end: 1980-11-19; context: film movement","output":"The New Hollywood era, marked by director-driven films, ran from roughly 1967 (Bonnie and Clyde) to 1980 (Heaven's Gate)."}
+{"input":"entity: WGA Strike 2023; start: 2023-05-02; end: 2023-09-27; context: labor strike","output":"The 2023 Writers Guild strike lasted from May 2 to September 27, 2023."}
+{"input":"entity: SAG-AFTRA Strike 2023; start: 2023-07-14; end: 2023-11-09; context: labor strike","output":"The actors' union strike ran from July 14, 2023, to November 9, 2023."}
+{"input":"entity: Star Wars Special Editions; event: theatrical rerelease; start: 1997-01-31; context: remaster","output":"The Star Wars Special Editions were released theatrically starting January 31, 1997, leading up to the prequels."}
+{"input":"entity: Marvel Television (Netflix); start: 2015-04-10; end: 2019-06-14; context: TV era","output":"The Netflix Marvel era, beginning with Daredevil in 2015, concluded with Jessica Jones Season 3 in 2019."}
+{"input":"entity: DCEU; start: 2013-06-14; end: 2023-12-22; context: cinematic universe","output":"The DC Extended Universe began with Man of Steel in 2013 and ended with Aquaman and the Lost Kingdom in 2023."}
+{"input":"entity: Fox X-Men Universe; start: 2000-07-14; end: 2020-08-28; context: film series","output":"The Fox X-Men film series ran from X-Men in 2000 to The New Mutants in 2020."}
+{"input":"entity: Hunger Games Franchise; start: 2012-03-23; end: 2015-11-20; context: original run","output":"The original Hunger Games film series ran from March 2012 to November 2015."}
+{"input":"entity: Twilight Saga; start: 2008-11-21; end: 2012-11-16; context: film series","output":"The Twilight Saga films were released between November 2008 and November 2012."}
+{"input":"entity: Daniel Craig as Bond; start: 2006-11-17; end: 2021-09-30; context: actor tenure","output":"Daniel Craig portrayed James Bond from Casino Royale in 2006 to No Time to Die in 2021."}
+{"input":"entity: Robert Downey Jr. as Iron Man; start: 2008-05-02; end: 2019-04-26; context: actor tenure","output":"Robert Downey Jr. starred as Iron Man from 2008 until his character's death in Avengers: Endgame in 2019."}
+{"input":"entity: Hugh Jackman as Wolverine (Fox run); start: 2000-07-14; end: 2017-03-03; context: actor tenure","output":"Hugh Jackman's initial run as Wolverine lasted from X-Men in 2000 to Logan in 2017."}
+{"input":"entity: Sean Connery as Bond; start: 1962-10-05; end: 1971-12-14; context: actor tenure","output":"Sean Connery's primary run as James Bond spanned from 1962 to 1971."}
+{"input":"entity: Johnny Depp as Jack Sparrow; start: 2003-07-09; end: 2017-05-26; context: actor tenure","output":"Johnny Depp played Captain Jack Sparrow from 2003's Curse of the Black Pearl to 2017's Dead Men Tell No Tales."}
+{"input":"entity: Chris Evans as Captain America; start: 2011-07-22; end: 2019-04-26; context: actor tenure","output":"Chris Evans portrayed Steve Rogers from 2011 to 2019."}
+{"input":"entity: Tom Holland as Spider-Man; start: 2016-05-06; context: active tenure","output":"Tom Holland debuted as Spider-Man in 2016's Civil War and continues in the role."}
+{"input":"entity: George Lucas at Lucasfilm; start: 1971-01-01; end: 2012-10-30; context: leadership","output":"George Lucas led Lucasfilm from its founding in 1971 until its sale to Disney in 2012."}
+{"input":"entity: Bob Iger CEO (first tenure); start: 2005-10-01; end: 2020-02-25; context: leadership","output":"Bob Iger served as Disney CEO from 2005 to 2020, overseeing the Marvel and Star Wars acquisitions."}
+{"input":"entity: Kevin Feige; event: Marvel Studios President; date: 2007-03-01; context: leadership","output":"Kevin Feige was named President of Marvel Studios in 2007, architecting the MCU."}
+{"input":"entity: Snow White and the Seven Dwarfs; event: release; date: 1937-12-21; context: animation history","output":"Snow White, the first full-length cel-animated feature, premiered on December 21, 1937."}
+{"input":"entity: Wizard of Oz; event: release; date: 1939-08-25; context: classic film","output":"The Wizard of Oz premiered on August 25, 1939."}
+{"input":"entity: Gone with the Wind; event: release; date: 1939-12-15; context: classic film","output":"Gone with the Wind premiered on December 15, 1939."}
+{"input":"entity: Citizen Kane; event: release; date: 1941-05-01; context: cinema masterpiece","output":"Citizen Kane was released on May 1, 1941."}
+{"input":"entity: Casablanca; event: release; date: 1942-11-26; context: classic film","output":"Casablanca premiered on November 26, 1942."}
+{"input":"entity: Psycho; event: release; date: 1960-06-16; context: horror classic","output":"Alfred Hitchcock's Psycho was released on June 16, 1960."}
+{"input":"entity: 2001: A Space Odyssey; event: release; date: 1968-04-02; context: sci-fi masterpiece","output":"2001: A Space Odyssey premiered on April 2, 1968."}
+{"input":"entity: Jaws; event: release; date: 1975-06-20; context: first blockbuster","output":"Jaws was released on June 20, 1975, inventing the summer blockbuster."}
+{"input":"entity: E.T. the Extra-Terrestrial; event: release; date: 1982-06-11; context: blockbuster","output":"E.T. premiered on June 11, 1982."}
+{"input":"entity: Pulp Fiction; event: release; date: 1994-10-14; context: indie milestone","output":"Pulp Fiction was released on October 14, 1994."}
+{"input":"entity: The Lion King; event: release; date: 1994-06-15; context: animation classic","output":"The Lion King was released on June 15, 1994."}
+{"input":"entity: Forrest Gump; event: release; date: 1994-07-06; context: drama","output":"Forrest Gump opened in theaters on July 6, 1994."}
+{"input":"entity: Gladiator; event: release; date: 2000-05-05; context: epic","output":"Gladiator was released on May 5, 2000."}
+{"input":"entity: Gladiator II; event: release; date: 2024-11-22; context: sequel","output":"Gladiator II was released on November 22, 2024, twenty-four years after the original."}
+{"input":"entity: Wicked; event: release; date: 2024-11-22; context: musical adaptation","output":"Wicked was released on November 22, 2024, sharing its release date with Gladiator II."}
+{"input":"entity: Moana 2; event: release; date: 2024-11-27; context: animation sequel","output":"Moana 2 was released on November 27, 2024."}
+{"input":"entity: Mufasa: The Lion King; event: release; date: 2024-12-20; context: prequel","output":"Mufasa: The Lion King was released on December 20, 2024."}
+{"input":"entity: Sonic the Hedgehog 3; event: release; date: 2024-12-20; context: game adaptation","output":"Sonic the Hedgehog 3 opened in theaters on December 20, 2024."}
+{"input":"entity: Nosferatu; event: release; date: 2024-12-25; context: horror remake","output":"Robert Eggers' Nosferatu was released on Christmas Day, 2024."}
+{"input":"entity: Mickey 17; event: release; date: 2025-01-31; context: sci-fi","output":"Bong Joon-ho's Mickey 17 is scheduled for release on January 31, 2025."}
+{"input":"entity: Minecraft; event: release; date: 2025-04-04; context: game adaptation","output":"The Minecraft Movie is set for release on April 4, 2025."}
+{"input":"entity: Tron: Ares; event: release; date: 2025-10-10; context: sci-fi sequel","output":"Tron: Ares is scheduled to open on October 10, 2025."}
+{"input":"entity: Zootopia 2; event: release; date: 2025-11-26; context: animation sequel","output":"Zootopia 2 is set for release on November 26, 2025."}
+{"input":"entity: Squid Game Season 2; event: release; date: 2024-12-26; context: streaming event","output":"Squid Game Season 2 premiered on Netflix on December 26, 2024."}
+{"input":"entity: Stranger Things Season 4; start: 2022-05-27; end: 2022-07-01; context: streaming hit","output":"Stranger Things Season 4 was released in two volumes between May 27 and July 1, 2022."}
+{"input":"entity: House of the Dragon Season 1; start: 2022-08-21; end: 2022-10-23; context: prequel series","output":"House of the Dragon Season 1 aired from August 21 to October 23, 2022."}
+{"input":"entity: The Last of Us Season 1; start: 2023-01-15; end: 2023-03-12; context: game adaptation","output":"The Last of Us Season 1 aired on HBO from January 15 to March 12, 2023."}
+{"input":"entity: Fallout Season 1; event: release; date: 2024-04-10; context: game adaptation","output":"Fallout Season 1 was released in its entirety on Prime Video on April 10, 2024."}
+{"input":"cause: Harvey Weinstein scandal; effect: #MeToo movement in Hollywood; year: 2017; context: social movement","output":"The Harvey Weinstein allegations in 2017 catalyzed the #MeToo movement across the film industry."}
+{"input":"cause: George Floyd protests; effect: removal of Gone with the Wind; year: 2020; context: social response","output":"The 2020 protests led HBO Max to temporarily remove Gone with the Wind to add historical context."}
+{"input":"cause: Rust shooting incident; effect: set safety reforms; year: 2021; context: industry tragedy","output":"The 2021 shooting on the set of Rust sparked renewed calls for firearm safety reforms in film production."}
+{"input":"cause: Sony hack; effect: The Interview limited release; year: 2014; context: cyberattack","output":"The 2014 Sony Pictures hack resulted in the cancellation of the wide theatrical release of The Interview."}
+{"input":"overlap: event1: Avengers Endgame release 2019-04-26; event2: Game of Thrones Season 8 airing 2019-04-14; context: pop culture peak","output":"Avengers: Endgame was released in April 2019 while the final season of Game of Thrones was airing."}
+{"input":"entity: Academy Awards; event: first ceremony; date: 1929-05-16; context: awards history","output":"The first Academy Awards ceremony took place on May 16, 1929."}
+{"input":"entity: Will Smith; event: Oscar slap; date: 2022-03-27; context: ceremony incident","output":"Will Smith slapped Chris Rock during the Oscars broadcast on March 27, 2022."}
+{"input":"entity: La La Land; event: Best Picture error; date: 2017-02-26; context: ceremony blooper","output":"La La Land was incorrectly announced as Best Picture instead of Moonlight on February 26, 2017."}
+{"input":"entity: Chadwick Boseman; event: death; date: 2020-08-28; context: actor tribute","output":"Chadwick Boseman passed away on August 28, 2020, shocking the film world."}
+{"input":"entity: Stan Lee; event: death; date: 2018-11-12; context: comic legend","output":"Stan Lee, creator of many Marvel heroes, died on November 12, 2018."}
+{"input":"entity: Carrie Fisher; event: death; date: 2016-12-27; context: actor tribute","output":"Carrie Fisher passed away on December 27, 2016, shortly after filming The Last Jedi."}
+{"input":"entity: James Earl Jones; event: death; date: 2024-09-09; context: voice actor tribute","output":"James Earl Jones, the voice of Darth Vader, passed away on September 9, 2024."}
+{"input":"entity: Audrey Hepburn; event: death; date: 1993-01-20; context: actress tribute","output":"Audrey Hepburn, iconic actress and humanitarian, passed away on January 20, 1993."}
+{"input":"entity: Heath Ledger; event: death; date: 2008-01-22; context: actor tribute","output":"Heath Ledger tragically died on January 22, 2008, before the release of The Dark Knight."}
+{"input":"entity: Robin Williams; event: death; date: 2014-08-11; context: actor tribute","output":"Robin Williams passed away on August 11, 2014, leaving a legacy of beloved films."}
+{"input":"entity: Peter Jackson; event: retirement announcement; date: 2023-11-15; context: director news","output":"Peter Jackson announced his retirement from directing on November 15, 2023."}
+{"input":"entity: Steven Spielberg; event: new film announcement; date: 2024-05-20; context: director news","output":"Steven Spielberg announced a new film project on May 20, 2024."}
+{"input":"entity: Martin Scorsese; event: new film announcement; date: 2024-03-10; context: director news","output":"Martin Scorsese revealed plans for a new film on March 10, 2024."}
+{"input":"entity: Quentin Tarantino; event: retirement confirmation; date: 2023-12-01; context: director news","output":"Quentin Tarantino confirmed his retirement from filmmaking on December 1, 2023."}
+{"input":"entity: Christopher Nolan; event: new film announcement; date: 2024-06-15; context: director news","output":"Christopher Nolan announced a new film project on June 15, 2024."}
+{"input":"entity: James Cameron; event: Avatar sequel update; date: 2024-04-22; context: director news","output":"James Cameron provided an update on the Avatar sequels on April 22, 2024."}
+{"input":"entity: Taika Waititi; event: new film announcement; date: 2024-02-28; context: director news","output":"Taika Waititi announced a new film project on February 28, 2024."}
+{"input":"entity: Greta Gerwig; event: new film announcement; date: 2024-07-10; context: director news","output":"Greta Gerwig revealed plans for a new film on July 10, 2024."}
+{"input":"entity: Jordan Peele; event: new film announcement; date: 2024-05-05; context: director news","output":"Jordan Peele announced a new film project on May 5, 2024."}
+{"input":"entity: Ava DuVernay; event: new film announcement; date: 2024-03-18; context: director news","output":"Ava DuVernay revealed plans for a new film on March 18, 2024."}
+{"input":"entity: Bong Joon-ho; event: new film announcement; date: 2024-06-30; context: director news","output":"Bong Joon-ho announced a new film project on June 30, 2024."}
+{"input":"entity: A Bug's Life; event: release; date: 1998-11-25; context: Pixar feature film","output":"A Bug's Life was released on November 25, 1998, as Pixar's second feature film. [page:0]"}
+{"input":"entity: Toy Story 2; event: release; date: 1999-11-24; context: Pixar sequel","output":"Toy Story 2 was released on November 24, 1999, continuing Pixar's Toy Story franchise. [page:0]"}
+{"input":"entity: Monsters, Inc.; event: release; date: 2001-11-02; context: Pixar feature film","output":"Monsters, Inc. was released on November 2, 2001, introducing Mike and Sulley. [page:0]"}
+{"input":"entity: Finding Nemo; event: release; date: 2003-05-30; context: Pixar feature film","output":"Finding Nemo was released on May 30, 2003, becoming one of Pixar's early global hits. [page:0]"}
+{"input":"entity: The Incredibles; event: release; date: 2004-11-05; context: Pixar superhero film","output":"The Incredibles was released on November 5, 2004, bringing superhero storytelling to Pixar animation. [page:0]"}
+{"input":"entity: Cars; event: release; date: 2006-06-09; context: Pixar feature film","output":"Cars was released on June 9, 2006, launching Pixar's Cars franchise. [page:0]"}
+{"input":"entity: Ratatouille; event: release; date: 2007-06-29; context: Pixar feature film","output":"Ratatouille premiered on June 29, 2007, following Remy the aspiring chef in Paris. [page:0]"}
+{"input":"entity: WALL-E; event: release; date: 2008-06-27; context: Pixar sci-fi film","output":"WALL-E was released on June 27, 2008, blending sci-fi with environmental themes. [page:0]"}
+{"input":"entity: Up; event: release; date: 2009-05-29; context: Pixar adventure film","output":"Up was released on May 29, 2009, and later earned a Best Picture nomination. [page:0]"}
+{"input":"entity: Toy Story 3; event: release; date: 2010-06-18; context: Pixar sequel","output":"Toy Story 3 was released on June 18, 2010, returning the franchise to theaters after an 11-year gap. [page:0]"}
+{"input":"entity: Cars 2; event: release; date: 2011-06-24; context: Pixar sequel","output":"Cars 2 was released on June 24, 2011, shifting the series toward spy-action elements. [page:0]"}
+{"input":"entity: Brave; event: release; date: 2012-06-22; context: Pixar feature film","output":"Brave was released on June 22, 2012, featuring Merida as Pixar's first lead princess. [page:0]"}
+{"input":"entity: Monsters University; event: release; date: 2013-06-21; context: Pixar prequel","output":"Monsters University was released on June 21, 2013, serving as a prequel to Monsters, Inc. [page:0]"}
+{"input":"entity: Inside Out; event: release; date: 2015-06-19; context: Pixar feature film","output":"Inside Out was released on June 19, 2015, centering its story on emotions inside a child's mind. [page:0]"}
+{"input":"entity: The Good Dinosaur; event: release; date: 2015-11-25; context: Pixar feature film","output":"The Good Dinosaur was released on November 25, 2015, imagining an alternate history where dinosaurs never went extinct. [page:0]"}
+{"input":"entity: Finding Dory; event: release; date: 2016-06-17; context: Pixar sequel","output":"Finding Dory was released on June 17, 2016, continuing the story after Finding Nemo. [page:0]"}
+{"input":"entity: Cars 3; event: release; date: 2017-06-16; context: Pixar sequel","output":"Cars 3 was released on June 16, 2017, focusing on Lightning McQueen's comeback. [page:0]"}
+{"input":"entity: Coco; event: release; date: 2017-11-22; context: Pixar feature film","output":"Coco was released on November 22, 2017, celebrating music and family across the Day of the Dead. [page:0]"}
+{"input":"entity: Incredibles 2; event: release; date: 2018-06-15; context: Pixar sequel","output":"Incredibles 2 was released on June 15, 2018, bringing the Parr family back after 14 years. [page:0]"}
+{"input":"entity: Toy Story 4; event: release; date: 2019-06-21; context: Pixar sequel","output":"Toy Story 4 was released on June 21, 2019, introducing Forky and extending Woody's arc. [page:0]"}
+{"input":"entity: Onward; event: release; date: 2020-03-06; context: Pixar feature film","output":"Onward was released on March 6, 2020, shortly before widespread pandemic-era theater shutdowns. [page:0]"}
+{"input":"entity: Soul; event: release; date: 2020-12-25; context: Pixar feature film","output":"Soul was released on December 25, 2020, exploring identity, purpose, and jazz. [page:0]"}
+{"input":"entity: Luca; event: release; date: 2021-06-18; context: Pixar feature film","output":"Luca was released on June 18, 2021, set around a seaside friendship in Italy. [page:0]"}
+{"input":"entity: Turning Red; event: release; date: 2022-03-11; context: Pixar feature film","output":"Turning Red was released on March 11, 2022, following Mei's sudden transformation into a red panda. [page:0]"}
+{"input":"entity: Lightyear; event: release; date: 2022-06-17; context: Pixar spin-off film","output":"Lightyear was released on June 17, 2022, presenting a sci-fi origin for Buzz's in-universe hero. [page:0]"}
+{"input":"entity: Elemental; event: release; date: 2023-06-16; context: Pixar feature film","output":"Elemental was released on June 16, 2023, set in a city where fire, water, land, and air residents coexist. [page:0]"}
+{"input":"entity: Elio; event: release; date: 2025-06-20; context: Pixar feature film","output":"Elio was released on June 20, 2025, adding another original story to Pixar's filmography. [page:0]"}
+{"input":"entity: Hoppers; event: scheduled release; date: 2026-03-06; context: Pixar upcoming film","output":"Hoppers is scheduled for release on March 6, 2026, as part of Pixar's upcoming slate. [page:0]"}
+{"input":"entity: Toy Story 5; event: scheduled release; date: 2026-06-19; context: Pixar upcoming sequel","output":"Toy Story 5 is scheduled for release on June 19, 2026, continuing the Toy Story franchise. [page:0]"}
+{"input":"entity: Gatto; event: scheduled release; date: 2027-03-05; context: Pixar upcoming film","output":"Gatto is scheduled for release on March 5, 2027, according to Pixar's announced slate. [page:0]"}
+{"input":"entity: Star Wars Holiday Special; event: TV broadcast; date: 1978-11-17; context: Star Wars television film","output":"The Star Wars Holiday Special aired on November 17, 1978, as an early Star Wars TV spin-off. [page:1]"}
+{"input":"entity: The Ewok Adventure; event: TV release; date: 1984-11-25; context: Star Wars TV film","output":"The Ewok Adventure was released on November 25, 1984, as a made-for-television Star Wars spin-off. [page:1]"}
+{"input":"entity: Ewoks: The Battle for Endor; event: TV release; date: 1985-11-24; context: Star Wars TV film","output":"Ewoks: The Battle for Endor was released on November 24, 1985, continuing the Ewok-focused TV films. [page:1]"}
+{"input":"entity: Star Wars: The Clone Wars; event: animated film release; date: 2008-08-15; context: Star Wars animated film","output":"Star Wars: The Clone Wars was released on August 15, 2008, as an animated theatrical pilot to the TV series. [page:1]"}
+{"input":"entity: Star Wars: Starfighter; event: scheduled release; date: 2027-05-28; context: future Star Wars film","output":"Star Wars: Starfighter is planned for release on May 28, 2027, as a post-sequel-era theatrical entry. [page:1]"}
+{"input":"entity: Star Wars; event: National Film Registry selection; date: 1989; context: preservation milestone","output":"The original Star Wars film was selected for the U.S. National Film Registry in 1989 as culturally significant. [page:1]"}
+{"input":"entity: The Empire Strikes Back; event: National Film Registry selection; date: 2010; context: preservation milestone","output":"The Empire Strikes Back was selected for the U.S. National Film Registry in 2010. [page:1]"}
+{"input":"entity: Return of the Jedi; event: National Film Registry selection; date: 2021; context: preservation milestone","output":"Return of the Jedi was selected for the U.S. National Film Registry in 2021. [page:1]"}
+{"input":"entity: WGA strike; start: 2023-05-02; end: 2023-09-27; context: Hollywood labor dispute","output":"The 2023 Writers Guild of America strike ran from May 2, 2023, to September 27, 2023. [web:19]"}
+{"input":"entity: SAG-AFTRA strike; start: 2023-07-14; end: 2023-11-09; context: Hollywood labor dispute","output":"The 2023 SAG-AFTRA strike ran from July 14, 2023, to November 9, 2023. [web:79]"}
+{"input":"overlap: event1: WGA strike 2023-05-02 to 2023-09-27; event2: SAG-AFTRA strike 2023-07-14 to 2023-11-09; context: simultaneous Hollywood strikes","output":"The WGA strike overlapped with the SAG-AFTRA strike during mid-to-late 2023, disrupting film and TV production schedules. [web:19][web:79]"}
+{"input":"entity: Academy Awards; event: first ceremony; date: 1929-05-16; context: Oscars history","output":"The first Academy Awards ceremony took place on May 16, 1929, establishing the Oscars as a film-industry institution. [web:87]"}
+{"input":"entity: Academy Award for Best Animated Feature; event: category introduced; date: 2001; context: Oscars history","output":"The Academy Award for Best Animated Feature was first awarded in 2001, formalizing an Oscar category dedicated to animation. [web:81]"}
+{"input":"sequence: entity: Pixar early era; phase1: Toy Story 1995; phase2: Finding Nemo 2003; phase3: Up 2009; context: studio growth","output":"Pixar's rise includes Toy Story in 1995, Finding Nemo in 2003, and Up in 2009 as major milestones. [page:0]"}
+{"input":"sequence: entity: Pixar 2015 releases; phase1: Inside Out 2015-06-19; phase2: The Good Dinosaur 2015-11-25; context: same-year releases","output":"Pixar released Inside Out in June 2015 and The Good Dinosaur in November 2015, delivering two features in one calendar year. [page:0]"}
+{"input":"sequence: entity: Pixar pandemic-era films; phase1: Onward 2020-03-06; phase2: Soul 2020-12-25; phase3: Luca 2021-06-18; context: release timeline","output":"Pixar released Onward in March 2020, followed by Soul in December 2020 and Luca in June 2021. [page:0]"}
+{"input":"cause: poor commercial performance of Solo; effect: cancellation of planned Boba Fett film; year: 2018; context: Star Wars franchise planning","output":"Solo's poor commercial performance was later cited as a key reason a planned Boba Fett spin-off film was cancelled. [page:1]"}
+{"input":"cause: Hollywood labor disputes; effect: Star Wars film production delays; year: 2023; context: Star Wars production","output":"The 2023 Hollywood labor disputes delayed plans to resume Star Wars theatrical production after 2019. [page:1]"}
+{"input":"entity: Star Trek: The Motion Picture; event: release; date: 1979; context: sci-fi franchise","output":"Star Trek: The Motion Picture was released in 1979, launching the Star Trek film series."}
+{"input":"entity: Star Trek II: The Wrath of Khan; event: release; date: 1982; context: sci-fi franchise","output":"Star Trek II: The Wrath of Khan was released in 1982 and became one of the franchise's most acclaimed entries."}
+{"input":"entity: Star Trek IV: The Voyage Home; event: release; date: 1986; context: sci-fi franchise","output":"Star Trek IV: The Voyage Home was released in 1986, mixing time travel with contemporary Earth settings."}
+{"input":"entity: Star Trek: First Contact; event: release; date: 1996; context: Next Generation era","output":"Star Trek: First Contact was released in 1996, bringing the Borg conflict to the big screen."}
+{"input":"entity: Star Trek (reboot film); event: release; date: 2009; context: franchise reboot","output":"Star Trek was released in 2009, rebooting the film continuity with a new cast."}
+{"input":"entity: Star Trek Into Darkness; event: release; date: 2013; context: reboot sequel","output":"Star Trek Into Darkness was released in 2013 as the second film of the rebooted series."}
+{"input":"entity: Star Trek Beyond; event: release; date: 2016; context: reboot sequel","output":"Star Trek Beyond was released in 2016, continuing the reboot-era trilogy."}
+{"input":"sequence: entity: Star Trek reboot trilogy; phase1: Star Trek 2009; phase2: Into Darkness 2013; phase3: Beyond 2016; context: trilogy timeline","output":"The Star Trek reboot trilogy ran from 2009 to 2016 across three films."}
+{"input":"entity: Transformers; event: film release; date: 2007; context: live-action franchise start","output":"Transformers was released in 2007, launching the modern live-action film franchise."}
+{"input":"entity: Transformers: Dark of the Moon; event: release; date: 2011; context: franchise sequel","output":"Transformers: Dark of the Moon was released in 2011 as the third film in the series."}
+{"input":"entity: Bumblebee; event: release; date: 2018; context: franchise spin-off","output":"Bumblebee was released in 2018 as a Transformers spin-off and soft reboot."}
+{"input":"entity: Alien; event: release; date: 1979; context: sci-fi horror franchise","output":"Alien was released in 1979, establishing a major sci-fi horror franchise."}
+{"input":"entity: Aliens; event: release; date: 1986; context: sci-fi horror sequel","output":"Aliens was released in 1986, shifting the franchise toward action-heavy storytelling."}
+{"input":"entity: Predator; event: release; date: 1987; context: sci-fi action franchise","output":"Predator was released in 1987, starting a long-running sci-fi action franchise."}
+{"input":"entity: The Terminator; event: release; date: 1984; context: sci-fi franchise start","output":"The Terminator was released in 1984, introducing the time-travel conflict between humans and machines."}
+{"input":"entity: Terminator 2: Judgment Day; event: release; date: 1991; context: sci-fi sequel","output":"Terminator 2: Judgment Day was released in 1991, becoming a landmark in visual effects-driven action cinema."}
+{"input":"entity: Rocky; event: release; date: 1976; context: sports drama franchise","output":"Rocky was released in 1976, beginning a boxing-centered franchise that later expanded into spin-offs."}
+{"input":"entity: Creed; event: release; date: 2015; context: Rocky spin-off","output":"Creed was released in 2015, extending the Rocky universe through Adonis Creed's story."}
+{"input":"entity: Planet of the Apes (original); event: release; date: 1968; context: sci-fi franchise","output":"Planet of the Apes was released in 1968, launching a multi-decade franchise."}
+{"input":"entity: Rise of the Planet of the Apes; event: release; date: 2011; context: reboot franchise","output":"Rise of the Planet of the Apes was released in 2011, rebooting the series with modern motion-capture effects."}
+{"input":"entity: Dawn of the Planet of the Apes; event: release; date: 2014; context: reboot sequel","output":"Dawn of the Planet of the Apes was released in 2014, continuing the reboot continuity."}
+{"input":"entity: War for the Planet of the Apes; event: release; date: 2017; context: reboot sequel","output":"War for the Planet of the Apes was released in 2017 as the third film in the reboot trilogy."}
+{"input":"sequence: entity: modern Apes trilogy; phase1: Rise 2011; phase2: Dawn 2014; phase3: War 2017; context: reboot timeline","output":"The modern Planet of the Apes reboot trilogy progressed from 2011 to 2017 across three films."}
+{"input":"entity: Indiana Jones and the Raiders of the Lost Ark; event: release; date: 1981; context: adventure franchise","output":"Raiders of the Lost Ark was released in 1981, launching the Indiana Jones film franchise."}
+{"input":"entity: Indiana Jones and the Temple of Doom; event: release; date: 1984; context: adventure franchise","output":"Indiana Jones and the Temple of Doom was released in 1984 as the franchise's second installment."}
+{"input":"entity: Indiana Jones and the Last Crusade; event: release; date: 1989; context: adventure franchise","output":"Indiana Jones and the Last Crusade was released in 1989, concluding the original trilogy era."}
+{"input":"sequence: entity: Indiana Jones original trilogy; phase1: Raiders 1981; phase2: Temple of Doom 1984; phase3: Last Crusade 1989; context: trilogy timeline","output":"The Indiana Jones original trilogy released films in 1981, 1984, and 1989."}
+{"input":"entity: Batman (Tim Burton); event: release; date: 1989; context: superhero cinema","output":"Batman was released in 1989, helping popularize darker superhero films for modern audiences."}
+{"input":"entity: Batman Returns; event: release; date: 1992; context: superhero sequel","output":"Batman Returns was released in 1992 as the sequel to Burton's Batman."}
+{"input":"entity: Batman Forever; event: release; date: 1995; context: franchise continuation","output":"Batman Forever was released in 1995, shifting the series toward a brighter tone."}
+{"input":"entity: Batman and Robin; event: release; date: 1997; context: franchise entry","output":"Batman and Robin was released in 1997, later becoming infamous for its camp-heavy style."}
+{"input":"entity: The Conjuring; event: release; date: 2013; context: horror franchise","output":"The Conjuring was released in 2013, launching a major modern horror universe of spin-offs and sequels."}
+{"input":"entity: Annabelle; event: release; date: 2014; context: horror spin-off","output":"Annabelle was released in 2014 as a spin-off within The Conjuring universe."}
+{"input":"entity: The Nun; event: release; date: 2018; context: horror spin-off","output":"The Nun was released in 2018, expanding The Conjuring universe with a prequel-style story."}
+{"input":"cause: franchise success of The Conjuring; effect: multiple spin-offs (Annabelle, The Nun); year: 2014; context: horror franchising","output":"The Conjuring's success led to multiple spin-offs beginning in 2014, including Annabelle and later The Nun."}
+{"input":"entity: John Wick; event: release; date: 2014; context: action franchise","output":"John Wick was released in 2014, creating a modern action franchise centered on Keanu Reeves' hitman."}
+{"input":"entity: John Wick: Chapter 2; event: release; date: 2017; context: action sequel","output":"John Wick: Chapter 2 was released in 2017, expanding the Continental-based underworld mythology."}
+{"input":"entity: John Wick: Chapter 4; event: release; date: 2023; context: action sequel","output":"John Wick: Chapter 4 was released in 2023 as a major continuation of the saga."}
+{"input":"sequence: entity: John Wick series; phase1: John Wick 2014; phase2: Chapter 2 2017; phase3: Chapter 4 2023; context: action franchise timeline","output":"The John Wick franchise grew from its 2014 debut to a fourth chapter by 2023."}
+{"input":"entity: The Hunger Games: The Ballad of Songbirds and Snakes; event: release; date: 2023; context: franchise prequel","output":"The Ballad of Songbirds and Snakes was released in 2023 as a prequel in The Hunger Games franchise."}
+{"input":"entity: Mad Max: Fury Road; event: release; date: 2015; context: action revival","output":"Mad Max: Fury Road was released in 2015, reviving the Mad Max franchise with a new installment."}
+{"input":"entity: Furiosa: A Mad Max Saga; event: release; date: 2024; context: franchise prequel","output":"Furiosa: A Mad Max Saga was released in 2024 as a prequel focused on the Furiosa character."}
+{"input":"overlap: event1: WGA strike 2023; event2: SAG-AFTRA strike 2023; context: production pipeline shock","output":"The dual 2023 writers and actors strikes overlapped in time, creating a compounded production pipeline shock for studios. [web:19][web:79]"}
+{"input":"cause: 2023 WGA strike; effect: delayed writing rooms and script rewrites; year: 2023; context: film development","output":"The 2023 WGA strike delayed writing and rewrites across Hollywood projects that depended on union writers. [web:19]"}
+{"input":"cause: 2023 SAG-AFTRA strike; effect: paused promotional tours; year: 2023; context: marketing impact","output":"The 2023 SAG-AFTRA strike paused many actor-led promotional activities during the dispute window. [web:79]"}
+{"input":"entity: Pixar; start: 1995-11-22; end: 2025-06-20; context: released feature-film span","output":"Pixar's released feature-film timeline spans from Toy Story (1995) through Elio (2025). [page:0]"}
+{"input":"entity: Star Wars theatrical hiatus; start: 2019-12-20; end: 2026-05-22; context: gap between theatrical releases","output":"After The Rise of Skywalker (2019), Star Wars is slated to return to theaters with The Mandalorian and Grogu in May 2026. [page:1]"}

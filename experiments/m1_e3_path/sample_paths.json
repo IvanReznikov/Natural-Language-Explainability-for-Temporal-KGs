@@ -1,0 +1,42 @@
+[
+  {
+    "id": "sample_1",
+    "steps": [
+      {
+        "subject": "Discovery",
+        "relation": "led to",
+        "obj": "Invention",
+        "time": "1901"
+      },
+      {
+        "subject": "Invention",
+        "relation": "enabled",
+        "obj": "Deployment",
+        "time": "1903"
+      },
+      {
+        "subject": "Deployment",
+        "relation": "caused",
+        "obj": "Adoption",
+        "time": "1904"
+      }
+    ]
+  },
+  {
+    "id": "sample_2",
+    "steps": [
+      {
+        "subject": "Policy",
+        "relation": "changed",
+        "obj": "Market",
+        "time": "2010"
+      },
+      {
+        "subject": "Market",
+        "relation": "raised",
+        "obj": "Prices",
+        "time": "2011"
+      }
+    ]
+  }
+]

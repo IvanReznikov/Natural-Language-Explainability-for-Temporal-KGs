@@ -1,0 +1,28 @@
+You are a temporal NLG routing specialist.
+
+Analyze this temporal fact and recommend the best generation strategy.
+
+FACT TYPE: {{ fact_type }}
+FACT DETAILS:
+  Event: {{ event }}
+  Date(s): {{ dates }}
+  Context: {{ context }}
+  Complexity: {{ complexity }} (0-1 scale)
+
+AVAILABLE TEMPLATES:
+{% for template in available_templates %}
+  - {{ template.id }}: {{ template.description }}
+{% endfor %}
+
+ROUTING RULES:
+1. Simple facts (1-2 fields) → TEMPLATE ONLY
+2. Moderate facts (3-4 fields) → TEMPLATE + OPTIONAL POLISH
+3. Complex facts (5+ fields or unusual patterns) → LLM GENERATION
+
+Your recommendation (JSON):
+{
+  "strategy": "template|polish|llm",
+  "confidence": 0.0-1.0,
+  "top_templates": ["id1", "id2", "id3"],
+  "reasoning": "explanation"
+}

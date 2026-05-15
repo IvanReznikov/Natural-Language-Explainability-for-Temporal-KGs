@@ -1,0 +1,101 @@
+type,template_id,source,flesch,words,confidence,latency_ms,hallucination,output
+point_in_time,pit_narr_1,template,80.3,11,1.00,638,False,"It was December 10, 1903 when won Nobel Prize in Physics."
+point_in_time,pit_complex_2,template,63.5,13,0.91,1,False,"The event known as published Special Relativity took place on June 30, 1905."
+point_in_time,pit_complex_2,template,67.8,12,0.94,1,False,"The event known as declared independence took place on July 4, 1776."
+point_in_time,pit_simple_3,template,100.0,8,1.00,1,False,"On July 20, 1969, walked on the Moon."
+point_in_time,pit_complex_2,template,50.5,13,0.80,1,False,"The event known as experienced nuclear disaster took place on April 26, 1986."
+point_in_time,pit_narr_1,template,93.0,8,1.00,1,False,"It was March 12, 1989 when was invented."
+point_in_time,pit_narr_1,template,86.7,10,1.00,1,False,"It was November 9, 1989 when fell, ending Cold War."
+point_in_time,pit_narr_1,template,84.9,9,1.00,1,False,"It was March 11, 2020 when declared COVID-19 pandemic."
+point_in_time,pit_simple_1,template,100.0,8,1.00,1,True,"docked with ISS happened on May 31, 2020."
+point_in_time,pit_complex_2,template,76.5,13,1.00,1,False,"The event known as captured first images took place on July 12, 2022."
+point_in_time,pit_complex_2,template,63.5,13,0.91,1,False,"The event known as discovered Mandelbrot set took place on November 1, 1980."
+point_in_time,pit_complex_2,template,67.8,12,0.94,1,False,The event known as began chimpanzee study took place on July 1960.
+point_in_time,pit_complex_2,template,64.9,11,0.92,1,False,The event known as formulated gravity law took place on 1687.
+point_in_time,pit_complex_2,template,57.0,13,0.86,1,False,"The event known as published evolution theory took place on November 24, 1859."
+point_in_time,pit_complex_2,template,74.8,12,1.00,1,False,"The event known as patented telephone took place on March 10, 1876."
+point_in_time,pit_narr_1,template,84.9,9,1.00,1,False,"It was October 21, 1879 when tested light bulb."
+point_in_time,pit_complex_2,template,49.5,11,0.80,1,False,The event known as transmitted wireless electricity took place on 1891.
+point_in_time,pit_narr_1,template,94.3,9,1.00,1,False,"It was May 2, 1952 when captured Photo 51."
+point_in_time,pit_complex_2,template,70.0,13,0.96,0,False,"The event known as announced polio vaccine took place on April 12, 1955."
+point_in_time,pit_complex_2,template,64.9,11,0.92,0,False,The event known as proposed Hawking radiation took place on 1974.
+intervals,int_bracket_3,template,76.5,13,1.00,1,False,"In the 6 years from September 1, 1939 to September 2, 1945, lasted."
+intervals,int_simple_2,template,61.2,8,0.89,1,False,occurred ran from 14th century to 17th century.
+intervals,int_duration_1,template,100.0,8,1.00,1,False,"spanned spanned 44 years, from 1890 to 1934."
+intervals,int_bracket_3,template,83.0,13,1.00,1,False,"In the 42 years from March 12, 1947 to December 3, 1989, persisted."
+intervals,int_duration_1,template,100.0,8,1.00,1,False,"defined spanned 63 years, from 1837 to 1901."
+intervals,int_duration_1,template,100.0,8,1.00,1,False,"transformed spanned 80 years, from 1760 to 1840."
+intervals,int_duration_1,template,100.0,8,1.00,1,False,"shaped spanned 130 years, from 1685 to 1815."
+intervals,int_bracket_3,template,84.9,9,1.00,2,False,"In the 11 years from 1961 to 1972, operated."
+intervals,int_bracket_3,template,86.7,10,1.00,1,False,"In the 5 years from 1995 to 2000, characterized tech."
+intervals,int_bracket_3,template,84.9,9,1.00,1,False,"In the 10 years from 1929 to 1939, devastated."
+intervals,int_bracket_3,template,53.7,12,0.83,1,False,"In the 1000 years from 5th century to 15th century, dominated Europe."
+intervals,int_duration_1,template,100.0,10,1.00,1,False,"flourished spanned 3000 years, from 3100 BCE to 30 BCE."
+intervals,int_duration_1,template,100.0,10,1.00,0,False,"governed spanned 500 years, from 27 BCE to 476 CE."
+intervals,int_duration_1,template,100.0,10,1.00,0,False,"endured spanned 1100 years, from 330 CE to 1453 CE."
+intervals,int_bracket_3,template,72.6,11,0.98,1,False,"In the 600 years from 8th century to 14th century, flourished."
+intervals,int_bracket_3,template,94.3,9,1.00,0,False,"In the 273 years from 793 to 1066, influenced."
+intervals,int_bracket_3,template,72.6,11,0.98,0,False,"In the 300 years from 14th century to 17th century, transformed."
+intervals,int_bracket_3,template,94.3,9,1.00,0,False,"In the 356 years from 1478 to 1834, persisted."
+intervals,int_bracket_3,template,49.5,11,0.80,1,False,"In the 200 years from 16th century to 18th century, revolutionized."
+intervals,int_bracket_3,template,84.9,9,1.00,0,False,"In the 9 years from 1920 to 1929, characterized."
+sequences,seq_way_1,template,43.6,22,0.75,2,True,The way it went was this: Archduke assassinated. Then Ultimatum issued to Serbia. Then War declared 
+sequences,seq_way_1,template,66.7,22,0.93,2,True,The way it went was this: Berlin Wall erected. Then Kennedy visits Berlin. Then Cuban Missile Crisis
+sequences,seq_way_1,template,78.2,22,1.00,2,True,The way it went was this: Ancient Egypt thrived. Then Roman Empire rose. Then Middle Ages began. Key
+sequences,seq_way_1,template,51.9,18,0.81,2,True,The way it went was this: Internet invented. Then Web created. Then Browsers commercialized. Key fac
+sequences,seq_way_1,template,66.0,18,0.93,2,True,The way it went was this: COVID-19 emerges. Then Lockdowns implemented. Then Vaccines developed. Key
+sequences,seq_way_1,template,32.3,21,0.66,2,True,The way it went was this: Industrial Revolution began. Then Steam engine perfected. Then Factories m
+sequences,seq_way_1,template,66.4,20,0.93,1,True,The way it went was this: French Revolution erupted. Then Bastille stormed. Then Rights declared. Ke
+sequences,seq_way_1,template,60.5,21,0.88,3,True,The way it went was this: Civil War started. Then Battle of Gettysburg. Then Emancipation Proclamati
+sequences,seq_count_1,template,96.2,24,1.00,2,True,5 steps in all. First World War I began. Then Trench warfare dominated. Last US joined the war. Key 
+sequences,seq_way_1,template,83.3,23,1.00,2,True,The way it went was this: Nazi Party rose. Then Hitler became Chancellor. Then World War II began. K
+sequences,seq_way_1,template,44.4,21,0.76,4,True,The way it went was this: Heliocentric theory proposed. Then Planetary laws discovered. Then Telesco
+sequences,seq_way_1,template,55.1,19,0.84,2,True,The way it went was this: Atoms proposed. Then Atomic structure discovered. Then Electrons identifie
+sequences,seq_way_1,template,36.3,21,0.69,2,True,The way it went was this: Evolution theory proposed. Then Natural selection identified. Then Fossils
+sequences,seq_way_1,template,48.4,21,0.79,2,True,The way it went was this: Germ theory proposed. Then Bacteria identified. Then Antiseptic practices 
+sequences,seq_in_1,template,0.0,20,0.39,2,True,"In 49 years, this is what happened: Radioactivity discovered. Then Radium isolated. Then Atomic ener"
+sequences,seq_way_1,template,41.7,19,0.73,2,True,The way it went was this: Telegraph invented. Then Telegraph networks expanded. Then Telephone inven
+sequences,seq_way_1,template,59.0,22,0.87,2,True,The way it went was this: First computers built. Then Programming languages developed. Then Personal
+sequences,seq_way_1,template,32.6,20,0.66,2,True,The way it went was this: Photography invented. Then Color photography developed. Then Motion pictur
+sequences,seq_way_1,template,43.6,22,0.75,3,True,The way it went was this: Archduke assassinated. Then Ultimatum issued to Serbia. Then War declared 
+sequences,seq_way_1,template,66.7,22,0.93,3,True,The way it went was this: Berlin Wall erected. Then Kennedy visits Berlin. Then Cuban Missile Crisis
+causality,caus_bare_2,template,26.8,19,0.61,1,False,Archduke Franz Ferdinand assassinated. This made it so: Austria-Hungary declared war on Serbia. Key 
+causality,caus_bare_2,template,78.9,24,1.00,1,False,"Stock market crash on October 29, 1929. This made it so: Great Depression lasted throughout 1930s. K"
+causality,caus_bare_2,template,47.8,20,0.78,1,False,Printing press invented around 1440. This made it so: Knowledge spread accelerated dramatically. Key
+causality,caus_bare_2,template,17.4,18,0.54,1,False,Penicillin discovered in 1928. This made it so: Antibiotic medicine revolutionized healthcare. Key f
+causality,caus_bare_2,template,43.6,20,0.75,1,False,Russian Revolution occurred in 1917. This made it so: Soviet Union became superpower. Key facts: Rus
+causality,caus_bare_2,template,5.5,20,0.44,1,False,Industrial Revolution in 18th century. This made it so: Urbanization and migration accelerated. Key 
+causality,caus_bare_2,template,36.2,18,0.69,1,False,Steam engine was invented. This made it so: Transportation and manufacturing revolutionized. Key fac
+causality,caus_bare_2,template,84.0,22,1.00,1,False,Berlin Wall fell in 1989. This made it so: Cold War ended and Germany reunified. Key facts: Berlin W
+causality,caus_bare_2,template,64.8,22,0.92,1,False,Climate change from greenhouse emissions. This made it so: Rising sea levels threaten coastal region
+causality,caus_bare_2,template,41.8,17,0.73,2,False,Internet was invented. This made it so: Global communication and commerce transformed. Key facts: In
+causality,caus_bare_2,template,61.2,24,0.89,1,False,Treaty of Versailles imposed on Germany. This made it so: Nazi Party rise fueled by resentment. Key 
+causality,caus_bare_2,template,8.9,19,0.47,1,False,British taxation on American colonies. This made it so: American Revolution erupted. Key facts: Brit
+causality,caus_bare_2,template,34.0,22,0.67,1,False,French monarchy despotism and financial crisis. This made it so: French Revolution transformed Europ
+causality,caus_due_1,template,45.6,18,0.77,2,False,Alliance system pulled powers into World War I. This was due to Archduke assassinated. Key facts: Ar
+causality,caus_bare_2,template,50.3,18,0.80,2,False,Nazi expansionist policies. This made it so: World War II triggered in Europe. Key facts: Nazi expan
+causality,caus_bare_2,template,22.3,19,0.58,1,False,Genetic inheritance patterns observed. This made it so: Evolution theory refined with genetics. Key 
+causality,caus_bare_2,template,49.4,22,0.80,2,False,X-rays discovered by Röntgen in 1895. This made it so: Medical imaging revolutionized diagnosis. Key
+causality,caus_bare_2,template,0.0,18,0.39,2,False,Einstein formulated relativity theory. This made it so: Modern physics fundamentally transformed. Ke
+causality,caus_bare_2,template,59.7,18,0.88,2,False,Transistor developed in 1947. This made it so: Modern computer age began. Key facts: Transistor deve
+causality,caus_bare_2,template,11.1,16,0.49,2,False,Synthetic insulin synthesized. This made it so: Diabetes treatment became accessible. Key facts: Syn
+overlaps,ov_during_1,template,83.7,17,1.00,2,False,"In 1950-1953, Korean War and Cold War and Nuclear arms race were on. Key facts: Korean War."
+overlaps,ov_during_1,template,44.4,23,0.75,2,False,"In late 1500s-early 1600s, Shakespeare writing and Globe Theatre operating and Elizabethan era and E"
+overlaps,ov_during_1,template,59.1,23,0.87,2,False,"In 1969, Apollo 11 mission and Vietnam War and Civil Rights Movement and Computer Age beginning were"
+overlaps,ov_during_1,template,55.2,21,0.84,1,False,"In 2020-2023, COVID-19 pandemic and Remote work mainstream and Digital transformation and Supply cha"
+overlaps,ov_same_1,template,22.3,23,0.58,1,False,All 4 at once: Renaissance in Italy and Age of Exploration and Protestant Reformation and Scientific
+overlaps,ov_during_1,template,52.9,20,0.82,1,False,"In 1948-1950, Berlin Blockade and NATO formation and Israel established and Korean War started were "
+overlaps,ov_during_1,template,18.4,24,0.55,1,False,"In late 1700s, Industrial Revolution in Britain and American Revolution and French Enlightenment and"
+overlaps,ov_during_1,template,69.8,20,0.96,1,False,"In 1995-2000, Dot-com boom and Mobile computing rise and Broadband expansion and E-commerce emerged "
+overlaps,ov_same_1,template,19.1,19,0.55,1,False,All 4 at once: Medieval period and Renaissance emerging and Feudalism declining and Humanism spreadi
+overlaps,ov_during_1,template,25.5,24,0.60,2,False,"In late 1700s, Age of Enlightenment and Industrial Revolution beginning and Aristocratic power wanin"
+overlaps,ov_during_1,template,23.3,20,0.59,2,False,"In 1837-1901, Victorian Era and Industrial Revolution and British Empire peak and Socialism rising w"
+overlaps,ov_during_1,template,33.3,23,0.67,2,False,"In 1870-1914, Belle Époque flourishing and Industrial society maturing and Imperialism expanding and"
+overlaps,ov_during_1,template,52.0,18,0.82,1,False,"In 1920-1929, Roaring Twenties and Jazz Age and Prohibition and Economic prosperity were on. Key fac"
+overlaps,ov_during_1,template,83.5,27,0.80,1,False,"In 1939-1945, World War II in Europe and World War II in Pacific and Holocaust and Science research "
+overlaps,ov_same_1,template,69.8,20,0.96,1,False,All 4 at once: Vietnam War and Space Race and Civil Rights Movement and Counterculture movement. Key
+overlaps,ov_during_1,template,44.4,23,0.75,1,False,"In 1989-1991, Berlin Wall fell and Soviet communism collapsed and Germany reunified and Eastern Euro"
+overlaps,ov_same_1,template,52.9,20,0.82,1,False,All 4 at once: Internet rise and Mobile phones developed and Digital revolution and E-commerce emerg
+overlaps,ov_during_1,template,46.6,24,0.77,1,False,"In 2001-2003, September 11 attacks and War on Terror began and Afghanistan invaded and Security meas"
+overlaps,ov_during_1,template,10.9,21,0.49,1,False,"In late 1700s-early 1800s, Romantic movement and Industrial Revolution and Political revolutions and"
+overlaps,ov_same_1,template,42.6,18,0.74,1,False,All 4 at once: Modernism in art and Cubism and Surrealism and Expressionism. Key facts: Modernism in

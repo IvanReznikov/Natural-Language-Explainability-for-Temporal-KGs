@@ -1,0 +1,38 @@
+{
+    "run_id":  "llm_4b__pure_llm",
+    "llm_id":  "llm_4b",
+    "emb_id":  null,
+    "mode":  "pure_llm",
+    "dataset":  "data/jsonls/temporal_evaluation_set_v2.jsonl",
+    "n_questions":  295,
+    "created_at":  "2026-05-12T10:33:29.4534857Z",
+    "status":  "completed",
+    "metrics":  {
+                    "n":  295,
+                    "exact":  0.44067796610169491,
+                    "contains":  0.44067796610169491,
+                    "latency_sec_mean":  0.86031911932202976,
+                    "by_difficulty":  {
+                                          "easy":  {
+                                                       "n":  108,
+                                                       "exact":  0.5925925925925926,
+                                                       "contains":  0.5925925925925926
+                                                   },
+                                          "hard":  {
+                                                       "n":  62,
+                                                       "exact":  0.3548387096774194,
+                                                       "contains":  0.3548387096774194
+                                                   },
+                                          "medium":  {
+                                                         "n":  125,
+                                                         "exact":  0.352,
+                                                         "contains":  0.352
+                                                     }
+                                      },
+                    "by_domain":  {
+
+                                  }
+                },
+    "provenance":  "migrated_from_noncanonical_qwen_pure",
+    "source_run_folder":  "output/m3e5/runs/g_pure_qwen3_5-4b"
+}

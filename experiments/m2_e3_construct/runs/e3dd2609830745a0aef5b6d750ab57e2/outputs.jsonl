@@ -1,0 +1,10 @@
+{"id": "q1", "canonical_query": "POINT(event='Apollo 11 moon landing', date='1969-07-20')"}
+{"id": "q2", "canonical_query": "INTERVAL(metric='gdp_growth', start='20', end='20')"}
+{"id": "q3", "canonical_query": "SEQUENCE(anchor='2001 recession', relation='followed')"}
+{"id": "q4", "canonical_query": "CAUSAL(cause='drought', effect='2010 crop failure')"}
+{"id": "q5", "canonical_query": "COMPARE(metric='inflation', a='20', b='20')"}
+{"id": "q6", "canonical_query": "INTERVAL(metric='sales', period='Q12024')"}
+{"id": "q7", "canonical_query": "INTERVAL(metric='unemployment', period='2009')"}
+{"id": "q8", "canonical_query": "PREDICT(metric='revenue', date='2025')"}
+{"id": "q9", "canonical_query": "SEQUENCE(anchor='black friday 2022', relation='after')"}
+{"id": "q10", "canonical_query": "OVERLAP(event='outages', period='Q22023')"}

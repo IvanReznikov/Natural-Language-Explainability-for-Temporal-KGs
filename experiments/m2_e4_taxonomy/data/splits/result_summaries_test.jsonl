@@ -1,0 +1,145 @@
+{"id": "g159", "query": "Pipeline coverage ratio", "result_struct": {"ratio": 3}, "summary": "The pipeline coverage ratio is 3x."}
+{"id": "g1224", "query": "Charity donation", "result_struct": {"amount": 50, "currency": "USD"}, "summary": "Donated $50 to charity."}
+{"id": "g1371", "query": "Library visitor count", "result_struct": {"count": 150}, "summary": "150 visitors at the library."}
+{"id": "g551", "query": "Voltage fluctuation avg", "result_struct": {"pct": 1}, "summary": "Average voltage fluctuation is 1%."}
+{"id": "g618", "query": "Pest control visit", "result_struct": {"date": "2024-01-01"}, "summary": "The last pest control visit was on 2024-01-01."}
+{"id": "g836", "query": "Tracking number format", "result_struct": {"format": "1Z..."}, "summary": "Tracking numbers use the 1Z... format."}
+{"id": "g249", "query": "Coffee consumption", "result_struct": {"lbs": 2}, "summary": "2 lbs of coffee were consumed."}
+{"id": "g637", "query": "Desk cleanliness", "result_struct": {"status": "Clean"}, "summary": "Desks are Clean."}
+{"id": "g260", "query": "Delivery truck count", "result_struct": {"count": 3}, "summary": "3 delivery trucks arrived."}
+{"id": "g007", "query": "Anomalies in daily signups last 30d", "result_struct": {"baseline": 1100, "spikes": [{"date": "2024-05-12", "value": 2100}]}, "summary": "A spike occurred on 2024-05-12 with 2.1k signups versus a 1.1k baseline."}
+{"id": "g1079", "query": "Vacation mode", "result_struct": {"active": false}, "summary": "Vacation mode is off."}
+{"id": "g190", "query": "On-time delivery rate", "result_struct": {"pct": 95}, "summary": "95% of deliveries are on time."}
+{"id": "g703", "query": "Bottom 3 performing products", "result_struct": {"products": ["Item X", "Item Y", "Item Z"]}, "summary": "The worst performing products are Item X, Item Y, and Item Z."}
+{"id": "g901", "query": "Restaurant table turnover", "result_struct": {"times": 3}, "summary": "Restaurant table turnover is 3 times."}
+{"id": "g1364", "query": "New acquisition count", "result_struct": {"count": 1}, "summary": "1 new acquisition."}
+{"id": "g1113", "query": "Navigation destination", "result_struct": {"name": "Home"}, "summary": "Navigation is set to 'Home'."}
+{"id": "g1140", "query": "Water intake", "result_struct": {"ml": 1500}, "summary": "Water intake is 1500 ml."}
+{"id": "g1219", "query": "Guitar practice", "result_struct": {"minutes": 30}, "summary": "30 minutes of guitar practice."}
+{"id": "g1318", "query": "Newsletter open rate", "result_struct": {"pct": 40}, "summary": "Newsletter open rate is 40%."}
+{"id": "g879", "query": "Pharmacy prescription count", "result_struct": {"count": 200}, "summary": "The pharmacy filled 200 prescriptions."}
+{"id": "g142", "query": "Organic traffic growth YoY", "result_struct": {"pct": 20}, "summary": "Organic traffic grew 20% year-over-year."}
+{"id": "g343", "query": "Working capital", "result_struct": {"amount": 500000, "currency": "USD"}, "summary": "Working capital is $500,000."}
+{"id": "g1436", "query": "Filter status aquarium", "result_struct": {"status": "Good"}, "summary": "Filter status is Good."}
+{"id": "g230", "query": "Penetration test result", "result_struct": {"status": "Passed"}, "summary": "The penetration test was passed."}
+{"id": "g1138", "query": "Body fat percentage", "result_struct": {"pct": 18}, "summary": "Body fat is 18%."}
+{"id": "g337", "query": "Rule of 40 score", "result_struct": {"value": 45}, "summary": "The Rule of 40 score is 45."}
+{"id": "g396", "query": "Concurrent users peak", "result_struct": {"count": 5000}, "summary": "Concurrent users peaked at 5,000."}
+{"id": "g605", "query": "Evacuation time avg", "result_struct": {"minutes": 2}, "summary": "Average evacuation time is 2 minutes."}
+{"id": "g374", "query": "First contact resolution (FCR)", "result_struct": {"pct": 75}, "summary": "First contact resolution rate is 75%."}
+{"id": "g700", "query": "Cloud vs On-prem cost", "result_struct": {"Cloud": 5000, "On-prem": 3000}, "summary": "Cloud costs ($5k) are currently higher than on-prem ($3k)."}
+{"id": "g1168", "query": "Sponge condition", "result_struct": {"status": "Old"}, "summary": "The sponge status is Old."}
+{"id": "g1195", "query": "Focus time avg", "result_struct": {"hours": 20}, "summary": "Average focus time is 20 hours."}
+{"id": "g736", "query": "HRIS system", "result_struct": {"name": "Workday"}, "summary": "Workday is the HRIS system."}
+{"id": "g080", "query": "User retention day 30", "result_struct": {"retention_pct": 45}, "summary": "Day 30 retention is holding at 45%."}
+{"id": "g1211", "query": "Steps to goal", "result_struct": {"steps": 500}, "summary": "500 steps remaining to goal."}
+{"id": "g1190", "query": "Blocker count", "result_struct": {"count": 2}, "summary": "There are 2 active blockers."}
+{"id": "g088", "query": "Email bounce rate", "result_struct": {"rate_pct": 1.2}, "summary": "The email bounce rate is 1.2%."}
+{"id": "g1265", "query": "Database queries/sec", "result_struct": {"qps": 100}, "summary": "Database is processing 100 queries/sec."}
+{"id": "g434", "query": "Server refresh cycle", "result_struct": {"years": 3}, "summary": "The server refresh cycle is 3 years."}
+{"id": "g1017", "query": "Brand sentiment", "result_struct": {"score": 0.8}, "summary": "Brand sentiment score is 0.8."}
+{"id": "g487", "query": "Opportunity cost", "result_struct": {"amount": 1000, "currency": "USD"}, "summary": "The opportunity cost is estimated at $1,000."}
+{"id": "g1236", "query": "Car washed", "result_struct": {"done": false}, "summary": "Car has not been washed."}
+{"id": "g281", "query": "Deal registration count", "result_struct": {"count": 5}, "summary": "There were 5 deal registrations."}
+{"id": "g1066", "query": "Fan speed", "result_struct": {"level": 2}, "summary": "Fan speed is level 2."}
+{"id": "g768", "query": "Database management", "result_struct": {"name": "PostgreSQL"}, "summary": "PostgreSQL is the database management system."}
+{"id": "g1292", "query": "League rank Home", "result_struct": {"rank": 3}, "summary": "Home team is ranked 3rd."}
+{"id": "g416", "query": "Test execution time", "result_struct": {"minutes": 10}, "summary": "Test execution takes 10 minutes."}
+{"id": "g719", "query": "Are all services healthy?", "result_struct": {"healthy": true}, "summary": "All services are reporting as healthy."}
+{"id": "g515", "query": "E-commerce adoption", "result_struct": {"pct": 50}, "summary": "E-commerce adoption is 50%."}
+{"id": "g847", "query": "Packaging type", "result_struct": {"type": "Box"}, "summary": "The packaging type is Box."}
+{"id": "g328", "query": "Revenue churn rate", "result_struct": {"pct": 0.5}, "summary": "Revenue churn rate is 0.5%."}
+{"id": "g520", "query": "Cloud adoption", "result_struct": {"pct": 60}, "summary": "Cloud adoption is 60%."}
+{"id": "g1309", "query": "Monthly donation revenue", "result_struct": {"amount": 100, "currency": "USD"}, "summary": "Monthly donations total $100."}
+{"id": "g912", "query": "Gate departure delay avg", "result_struct": {"minutes": 15}, "summary": "Average gate departure delay is 15 minutes."}
+{"id": "g1020", "query": "Customer loyalty index", "result_struct": {"score": 80}, "summary": "Customer loyalty index is 80."}
+{"id": "g291", "query": "Open source contribution count", "result_struct": {"count": 5}, "summary": "There were 5 open source contributions."}
+{"id": "g461", "query": "Operating profit", "result_struct": {"amount": 2000, "currency": "USD"}, "summary": "Operating profit was $2,000."}
+{"id": "g089", "query": "Most common support tag", "result_struct": {"tag": "login_issue"}, "summary": "'login_issue' is the most frequently used support tag."}
+{"id": "g869", "query": "Alumni association members", "result_struct": {"count": 1000}, "summary": "The alumni association has 1,000 members."}
+{"id": "g005", "query": "Compare Q1 vs Q2 revenue 2024", "result_struct": {"Q1": 3.1, "Q2": 3.6, "unit": "M"}, "summary": "Revenue rose from 3.1M in Q1 2024 to 3.6M in Q2 2024."}
+{"id": "g799", "query": "Orientation", "result_struct": {"name": "Portrait"}, "summary": "The orientation is Portrait."}
+{"id": "g950", "query": "Accessibility lift usage", "result_struct": {"count": 10}, "summary": "The accessibility lift was used 10 times."}
+{"id": "g1289", "query": "Attendance stadium", "result_struct": {"count": 50000}, "summary": "Stadium attendance is 50,000."}
+{"id": "g1334", "query": "Material delivery status", "result_struct": {"status": "Delayed"}, "summary": "Material delivery is Delayed."}
+{"id": "g882", "query": "Infection rate hospital", "result_struct": {"pct": 1}, "summary": "The hospital infection rate is 1%."}
+{"id": "g151", "query": "Cost per click (CPC) Facebook", "result_struct": {"cpc": 0.8, "currency": "USD"}, "summary": "Facebook CPC is currently $0.80."}
+{"id": "g269", "query": "Legal case count", "result_struct": {"count": 1}, "summary": "There is 1 active legal case."}
+{"id": "g751", "query": "Social media scheduler", "result_struct": {"name": "Buffer"}, "summary": "Buffer is the social media scheduler."}
+{"id": "g399", "query": "CPU load avg", "result_struct": {"load": 1.5}, "summary": "CPU load average is 1.5."}
+{"id": "g1372", "query": "Book checkout count", "result_struct": {"count": 300}, "summary": "300 books checked out."}
+{"id": "g1158", "query": "Rice supply", "result_struct": {"kg": 5}, "summary": "5 kg of rice in supply."}
+{"id": "g483", "query": "Break-even point", "result_struct": {"units": 1000}, "summary": "The break-even point is 1,000 units."}
+{"id": "g1127", "query": "Resting heart rate", "result_struct": {"bpm": 60}, "summary": "Resting heart rate is 60 bpm."}
+{"id": "g1006", "query": "Game downloads", "result_struct": {"count": 100000}, "summary": "Game downloads reached 100,000."}
+{"id": "g1183", "query": "Tasks remaining", "result_struct": {"count": 12}, "summary": "12 tasks remain."}
+{"id": "g268", "query": "Whistleblower reports", "result_struct": {"count": 0}, "summary": "There were zero whistleblower reports."}
+{"id": "g811", "query": "Grid columns", "result_struct": {"count": 12}, "summary": "The grid has 12 columns."}
+{"id": "g574", "query": "Thermal efficiency", "result_struct": {"pct": 35}, "summary": "Thermal efficiency is 35%."}
+{"id": "g1241", "query": "Server CPU temp", "result_struct": {"celsius": 55}, "summary": "Server CPU temperature is 55°C."}
+{"id": "g537", "query": "Nuclear energy share", "result_struct": {"pct": 5}, "summary": "Nuclear energy provides 5% of power."}
+{"id": "g941", "query": "Bus fleet availability", "result_struct": {"pct": 90}, "summary": "Bus fleet availability is 90%."}
+{"id": "g761", "query": "Logging tool", "result_struct": {"name": "Splunk"}, "summary": "Splunk is the logging tool."}
+{"id": "g519", "query": "IoT adoption", "result_struct": {"pct": 30}, "summary": "IoT adoption is 30%."}
+{"id": "g730", "query": "Communication tool", "result_struct": {"name": "Slack"}, "summary": "Slack is the primary communication tool."}
+{"id": "g1071", "query": "Network strength avg", "result_struct": {"dbm": -60}, "summary": "Average network strength is -60 dBm."}
+{"id": "g368", "query": "Dropout rate", "result_struct": {"pct": 20}, "summary": "The dropout rate is 20%."}
+{"id": "g415", "query": "Build time avg", "result_struct": {"minutes": 5}, "summary": "Average build time is 5 minutes."}
+{"id": "g601", "query": "Perimeter fence status", "result_struct": {"status": "Secure"}, "summary": "The perimeter fence is Secure."}
+{"id": "g362", "query": "P-value", "result_struct": {"value": 0.04}, "summary": "The P-value is 0.04."}
+{"id": "g1098", "query": "Charging status", "result_struct": {"status": "Not Charging"}, "summary": "The vehicle is not charging."}
+{"id": "g909", "query": "Luggage storage count", "result_struct": {"bags": 30}, "summary": "30 bags are in luggage storage."}
+{"id": "g1387", "query": "Volunteer hours library", "result_struct": {"hours": 15}, "summary": "15 volunteer hours at the library."}
+{"id": "g902", "query": "Bar revenue", "result_struct": {"amount": 2000, "currency": "USD"}, "summary": "Bar revenue was $2,000."}
+{"id": "g277", "query": "Channel conflict count", "result_struct": {"count": 0}, "summary": "There were zero channel conflicts."}
+{"id": "g1252", "query": "ISP latency", "result_struct": {"ms": 15}, "summary": "ISP latency is 15ms."}
+{"id": "g1136", "query": "Weight measurement", "result_struct": {"kg": 75.5}, "summary": "Weight recorded as 75.5 kg."}
+{"id": "g919", "query": "Catering meal count flight", "result_struct": {"count": 150}, "summary": "150 catering meals were loaded."}
+{"id": "g539", "query": "Grid reliability", "result_struct": {"pct": 99.9}, "summary": "Grid reliability is 99.9%."}
+{"id": "g1298", "query": "Betting odds Away win", "result_struct": {"odds": 4.2}, "summary": "Odds for Away win are 4.2."}
+{"id": "g1218", "query": "Coding streak", "result_struct": {"days": 10}, "summary": "Coding streak is 10 days."}
+{"id": "g709", "query": "List of integrations", "result_struct": {"integrations": ["Slack", "Jira", "Salesforce"]}, "summary": "Integrations include Slack, Jira, and Salesforce."}
+{"id": "g241", "query": "VOIP call quality MOS", "result_struct": {"score": 4.2}, "summary": "VOIP call quality (MOS) is 4.2."}
+{"id": "g1342", "query": "Permit status", "result_struct": {"active": true}, "summary": "Permit is active."}
+{"id": "g643", "query": "Headset condition", "result_struct": {"status": "Good"}, "summary": "Headsets are in Good condition."}
+{"id": "g1308", "query": "Patreon supporter count", "result_struct": {"count": 20}, "summary": "There are 20 Patreon supporters."}
+{"id": "g881", "query": "Vaccination rate local", "result_struct": {"pct": 70}, "summary": "The local vaccination rate is 70%."}
+{"id": "g746", "query": "Payment gateway", "result_struct": {"name": "Stripe"}, "summary": "Stripe is the payment gateway."}
+{"id": "g1374", "query": "Overdue book count", "result_struct": {"count": 50}, "summary": "50 books are overdue."}
+{"id": "g880", "query": "Lab test turnaround", "result_struct": {"hours": 24}, "summary": "Lab test turnaround is 24 hours."}
+{"id": "g1156", "query": "Vegetable bin status", "result_struct": {"status": "Full"}, "summary": "The vegetable bin is Full."}
+{"id": "g1126", "query": "Heart rate current", "result_struct": {"bpm": 72}, "summary": "Current heart rate is 72 bpm."}
+{"id": "g997", "query": "Oil price (WTI)", "result_struct": {"price": 75, "unit": "barrel"}, "summary": "WTI crude oil is $75 per barrel."}
+{"id": "g480", "query": "Internal rate of return (IRR)", "result_struct": {"pct": 15}, "summary": "The Internal Rate of Return (IRR) is 15%."}
+{"id": "g729", "query": "Documentation tool", "result_struct": {"name": "Confluence"}, "summary": "Confluence is the documentation tool."}
+{"id": "g526", "query": "Solar power adoption", "result_struct": {"pct": 15}, "summary": "Solar power adoption is 15%."}
+{"id": "g286", "query": "Community forum post count", "result_struct": {"count": 10}, "summary": "10 posts were made on the community forum."}
+{"id": "g895", "query": "Check-out count today", "result_struct": {"count": 35}, "summary": "There were 35 check-outs today."}
+{"id": "g924", "query": "No-show count flight", "result_struct": {"count": 3}, "summary": "There were 3 no-shows."}
+{"id": "g538", "query": "Energy efficiency improvement", "result_struct": {"pct": 2}, "summary": "Energy efficiency improved by 2%."}
+{"id": "g174", "query": "Number of compliance audits", "result_struct": {"count": 2}, "summary": "There have been 2 compliance audits so far."}
+{"id": "g301", "query": "Duplicate record count", "result_struct": {"count": 5}, "summary": "5 duplicate records were found."}
+{"id": "g565", "query": "Connected load", "result_struct": {"kw": 1000}, "summary": "The connected load is 1,000 kW."}
+{"id": "g030", "query": "API latency trend last hour", "result_struct": {"minutes": [0, 15, 30, 45], "latency_ms": [120, 125, 118, 200]}, "summary": "Latency was stable around 120ms until a jump to 200ms at minute 45."}
+{"id": "g1247", "query": "UPS load", "result_struct": {"pct": 20}, "summary": "UPS load is 20%."}
+{"id": "g1402", "query": "Train ride count", "result_struct": {"riders": 200}, "summary": "200 riders on the zoo train."}
+{"id": "g259", "query": "Visitor count", "result_struct": {"count": 5}, "summary": "There were 5 visitors."}
+{"id": "g884", "query": "Readmission rate", "result_struct": {"pct": 10}, "summary": "The readmission rate is 10%."}
+{"id": "g062", "query": "Marketing budget utilization", "result_struct": {"spent": 45000, "allocated": 50000}, "summary": "Marketing has spent $45k of the allocated $50k budget."}
+{"id": "g604", "query": "Drill completion status", "result_struct": {"status": "Completed"}, "summary": "The safety drill was Completed."}
+{"id": "g439", "query": "Shadow IT applications", "result_struct": {"count": 5}, "summary": "5 shadow IT applications were detected."}
+{"id": "g1089", "query": "Average fuel economy", "result_struct": {"mpg": 28.5}, "summary": "Average fuel economy is 28.5 MPG."}
+{"id": "g146", "query": "Video completion rate", "result_struct": {"pct": 60}, "summary": "60% of viewers complete the video."}
+{"id": "g267", "query": "Policy violation count", "result_struct": {"count": 0}, "summary": "There were zero policy violations."}
+{"id": "g384", "query": "Chatbot deflection rate", "result_struct": {"pct": 30}, "summary": "The chatbot deflection rate is 30%."}
+{"id": "g1313", "query": "Recording schedule", "result_struct": {"day": "Tuesday"}, "summary": "Recording is scheduled for Tuesday."}
+{"id": "g462", "query": "Net profit", "result_struct": {"amount": 1000, "currency": "USD"}, "summary": "Net profit was $1,000."}
+{"id": "g302", "query": "Schema change count", "result_struct": {"count": 1}, "summary": "There was 1 schema change."}
+{"id": "g1365", "query": "Loaned item count", "result_struct": {"count": 5}, "summary": "5 items are on loan."}
+{"id": "g473", "query": "Debt ratio", "result_struct": {"ratio": 0.3}, "summary": "The debt ratio is 0.3."}
+{"id": "g1336", "query": "Equipment usage excavator", "result_struct": {"hours": 8}, "summary": "Excavator used for 8 hours."}
+{"id": "g381", "query": "Average speed of answer (ASA)", "result_struct": {"seconds": 20}, "summary": "Average speed of answer is 20 seconds."}
+{"id": "g1401", "query": "Concession revenue zoo", "result_struct": {"amount": 4000, "currency": "USD"}, "summary": "Zoo concession revenue was $4,000."}
+{"id": "g1404", "query": "Show attendance zoo", "result_struct": {"count": 300}, "summary": "300 people attended zoo shows."}
+{"id": "g596", "query": "Emergency diesel generator status", "result_struct": {"status": "Standby"}, "summary": "The emergency diesel generator is on Standby."}
+{"id": "g531", "query": "Forest cover change", "result_struct": {"pct": -1}, "summary": "Forest cover decreased by 1%."}

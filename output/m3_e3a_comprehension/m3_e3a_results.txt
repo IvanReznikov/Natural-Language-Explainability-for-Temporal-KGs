@@ -1,0 +1,1048 @@
+{"participant_id": "llm_sim_p01", "explanation_id": "infra_000038", "question_id": "infra_000038.q01", "question_type": "mcq", "answer": "2016", "score": 1.0, "response_time_sec": 6.6, "domain": "business", "bucket": "point"}
+{"participant_id": "llm_sim_p01", "explanation_id": "infra_000038", "question_id": "infra_000038.q02", "question_type": "fill_blank", "answer": "Zhengzhou–Xuzhou High-Speed Railway", "score": 1.0, "response_time_sec": 10.9, "domain": "business", "bucket": "point"}
+## AUTHORED: infra_000038.q03
+A: The Zhengzhou–Xuzhou High-Speed Railway opened on September 10, 2016.
+B: The Zhengzhou–Xuzhou High-Speed Railway opened on September 10, 2015.
+C: The Xuzhou–Zhengzhou Expressway opened on September 10, 2016.
+D: The Zhengzhou–Xuzhou High-Speed Railway was closed in September 2016.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "infra_000038", "question_id": "infra_000038.q03", "question_type": "mcq", "answer": "The Zhengzhou–Xuzhou High-Speed Railway opened on September 10, 2016.", "score": 1.0, "response_time_sec": 20.9, "domain": "business", "bucket": "point"}
+## AUTHORED: infra_000038.q04
+A: The Zhengzhou–Xuzhou High-Speed Railway opened on September 10, 2016.
+B: The Zhengzhou–Xuzhou High-Speed Railway opened in September 2017.
+C: The Zhengzhou–Xuzhou Metro opened on September 10, 2016.
+D: The Zhengzhou–Xuzhou High-Speed Railway opened on October 10, 2016.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "infra_000038", "question_id": "infra_000038.q04", "question_type": "mcq", "answer": "The Zhengzhou–Xuzhou High-Speed Railway opened in September 2017.", "score": 0.0, "response_time_sec": 19.0, "domain": "business", "bucket": "point"}
+## AUTHORED: infra_000038.q05
+A: The opening date of the Zhengzhou–Xuzhou High-Speed Railway was September 10, 2016.
+B: The opening date of the Zhengzhou–Xuzhou High-Speed Railway was September 10, 2018.
+C: The Zhengzhou–Xuzhou High-Speed Railway opened on September 10, 2016, serving freight only.
+D: The Zhengzhou–Xuzhou High-Speed Railway opened on September 1, 2016.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "infra_000038", "question_id": "infra_000038.q05", "question_type": "mcq", "answer": "The opening date of the Zhengzhou–Xuzhou High-Speed Railway was September 10, 2016.", "score": 1.0, "response_time_sec": 8.1, "domain": "business", "bucket": "point"}
+{"participant_id": "llm_sim_p01", "explanation_id": "fin_000209", "question_id": "fin_000209.q01", "question_type": "mcq", "answer": "2014", "score": 1.0, "response_time_sec": 19.2, "domain": "financial", "bucket": "point"}
+{"participant_id": "llm_sim_p01", "explanation_id": "fin_000209", "question_id": "fin_000209.q02", "question_type": "fill_blank", "answer": "Zendesk", "score": 1.0, "response_time_sec": 21.8, "domain": "financial", "bucket": "point"}
+## AUTHORED: fin_000209.q03
+A: Zendesk went public on May 15, 2014.
+B: Zendesk went public on May 15, 2013.
+C: Zendesk went public on June 15, 2014.
+D: Zendesk was acquired by a private equity firm on May 15, 2014.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "fin_000209", "question_id": "fin_000209.q03", "question_type": "mcq", "answer": "Zendesk went public on May 15, 2014.", "score": 1.0, "response_time_sec": 15.2, "domain": "financial", "bucket": "point"}
+## AUTHORED: fin_000209.q04
+A: Zendesk's IPO occurred on May 15, 2014.
+B: Zendesk's IPO occurred on May 15, 2015.
+C: Salesforce went public on May 15, 2014.
+D: Zendesk went private on May 15, 2014.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "fin_000209", "question_id": "fin_000209.q04", "question_type": "mcq", "answer": "Zendesk's IPO occurred on May 15, 2014.", "score": 1.0, "response_time_sec": 12.1, "domain": "financial", "bucket": "point"}
+## AUTHORED: fin_000209.q05
+A: Zendesk became a publicly traded company in May 2014.
+B: Zendesk became a publicly traded company in May 2016.
+C: Zendesk became a publicly traded company in May 2014 through a merger.
+D: Zendesk filed for bankruptcy in May 2014.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "fin_000209", "question_id": "fin_000209.q05", "question_type": "mcq", "answer": "Zendesk became a publicly traded company in May 2016.", "score": 0.0, "response_time_sec": 21.4, "domain": "financial", "bucket": "point"}
+{"participant_id": "llm_sim_p01", "explanation_id": "biz_energy_100", "question_id": "biz_energy_100.q01", "question_type": "mcq", "answer": "2019", "score": 1.0, "response_time_sec": 9.4, "domain": "technical", "bucket": "overlap"}
+{"participant_id": "llm_sim_p01", "explanation_id": "biz_energy_100", "question_id": "biz_energy_100.q02", "question_type": "fill_blank", "answer": "Hornsea", "score": 0.5, "response_time_sec": 13.4, "domain": "technical", "bucket": "overlap"}
+## AUTHORED: biz_energy_100.q03
+A: Hornsea One's turbine installation deadline in October 2019 overlapped with commissioning completion by December 2019.
+B: Hornsea One's turbine installation deadline in October 2018 overlapped with commissioning completion by December 2019.
+C: Hornsea One's turbine installation was completed after commissioning in December 2019.
+D: Hornsea One's commissioning was completed by October 2019, before turbine installation finished.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "biz_energy_100", "question_id": "biz_energy_100.q03", "question_type": "mcq", "answer": "Hornsea One's turbine installation deadline in October 2019 overlapped with commissioning completion by December 2019.", "score": 1.0, "response_time_sec": 8.1, "domain": "technical", "bucket": "overlap"}
+## AUTHORED: biz_energy_100.q04
+A: The commissioning of Hornsea One was completed by December 2019.
+B: The commissioning of Hornsea One was completed by December 2020.
+C: The commissioning of Hornsea One was completed by October 2019.
+D: The turbine installation for Hornsea One was completed by December 2019.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "biz_energy_100", "question_id": "biz_energy_100.q04", "question_type": "mcq", "answer": "The commissioning of Hornsea One was completed by December 2019.", "score": 1.0, "response_time_sec": 19.3, "domain": "technical", "bucket": "overlap"}
+## AUTHORED: biz_energy_100.q05
+A: Turbine installation and commissioning at Hornsea One occurred in overlapping periods within 2019.
+B: Turbine installation at Hornsea One was completed in 2020 after commissioning ended.
+C: Commissioning at Hornsea One concluded in October 2019, before turbine installation was complete.
+D: Turbine installation at Hornsea One overlapped with commissioning, both completing by October 2019.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "biz_energy_100", "question_id": "biz_energy_100.q05", "question_type": "mcq", "answer": "Turbine installation and commissioning at Hornsea One occurred in overlapping periods within 2019.", "score": 1.0, "response_time_sec": 22.1, "domain": "technical", "bucket": "overlap"}
+{"participant_id": "llm_sim_p01", "explanation_id": "hist_infra_013", "question_id": "hist_infra_013.q01", "question_type": "mcq", "answer": "1848", "score": 1.0, "response_time_sec": 27.4, "domain": "historical", "bucket": "point"}
+{"participant_id": "llm_sim_p01", "explanation_id": "hist_infra_013", "question_id": "hist_infra_013.q02", "question_type": "fill_blank", "answer": "Standedge Railway Tunnel", "score": 1.0, "response_time_sec": 18.1, "domain": "historical", "bucket": "point"}
+## AUTHORED: hist_infra_013.q03
+A: The Standedge Railway Tunnel opened in 1848, running parallel to the existing canal tunnel.
+B: The Standedge Railway Tunnel opened in 1849, running parallel to the existing canal tunnel.
+C: The Standedge Canal Tunnel opened in 1848, running parallel to a new railway tunnel.
+D: The Standedge Railway Tunnel opened in 1848, replacing the existing canal tunnel.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "hist_infra_013", "question_id": "hist_infra_013.q03", "question_type": "mcq", "answer": "The Standedge Railway Tunnel opened in 1848, running parallel to the existing canal tunnel.", "score": 1.0, "response_time_sec": 19.6, "domain": "historical", "bucket": "point"}
+## AUTHORED: hist_infra_013.q04
+A: In 1848, a railway tunnel was opened at Standedge alongside an existing canal tunnel.
+B: In 1853, a railway tunnel was opened at Standedge alongside an existing canal tunnel.
+C: In 1848, a canal tunnel was opened at Standedge alongside an existing railway tunnel.
+D: In 1848, the Standedge Railway Tunnel was closed due to construction issues.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "hist_infra_013", "question_id": "hist_infra_013.q04", "question_type": "mcq", "answer": "In 1848, the Standedge Railway Tunnel was closed due to construction issues.", "score": 0.0, "response_time_sec": 10.2, "domain": "historical", "bucket": "point"}
+## AUTHORED: hist_infra_013.q05
+A: The Standedge Railway Tunnel was built parallel to an already existing canal tunnel.
+B: The Standedge Canal Tunnel was built parallel to an already existing railway tunnel.
+C: The Standedge Railway Tunnel was built to replace the canal tunnel in 1848.
+D: The Standedge Railway Tunnel opened in 1847, running parallel to the existing canal tunnel.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "hist_infra_013", "question_id": "hist_infra_013.q05", "question_type": "mcq", "answer": "The Standedge Railway Tunnel was built parallel to an already existing canal tunnel.", "score": 1.0, "response_time_sec": 20.5, "domain": "historical", "bucket": "point"}
+{"participant_id": "llm_sim_p01", "explanation_id": "cri_000002", "question_id": "cri_000002.q01", "question_type": "mcq", "answer": "2019", "score": 1.0, "response_time_sec": 27.7, "domain": "financial", "bucket": "overlap"}
+{"participant_id": "llm_sim_p01", "explanation_id": "cri_000002", "question_id": "cri_000002.q02", "question_type": "fill_blank", "answer": "Repo market turmoil", "score": 1.0, "response_time_sec": 14.3, "domain": "financial", "bucket": "overlap"}
+## AUTHORED: cri_000002.q03
+A: The repo turmoil in September 2019 coincided with Treasury securities settling on September 16, 2019.
+B: The repo turmoil in September 2018 coincided with Treasury securities settling on September 16, 2019.
+C: The repo turmoil in September 2019 was caused solely by Federal Reserve policy changes.
+D: The Treasury securities settlement on September 16, 2019 occurred after the repo turmoil had subsided.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "cri_000002", "question_id": "cri_000002.q03", "question_type": "mcq", "answer": "The repo turmoil in September 2019 coincided with Treasury securities settling on September 16, 2019.", "score": 1.0, "response_time_sec": 16.5, "domain": "financial", "bucket": "overlap"}
+## AUTHORED: cri_000002.q04
+A: Treasury securities settlement on September 16, 2019 intensified funding needs during the repo turmoil.
+B: Treasury securities settlement on September 16, 2020 intensified funding needs during the repo turmoil.
+C: Equity market settlement on September 16, 2019 intensified funding needs during the repo turmoil.
+D: Treasury securities settlement reduced funding pressures during the September 2019 repo turmoil.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "cri_000002", "question_id": "cri_000002.q04", "question_type": "mcq", "answer": "Treasury securities settlement on September 16, 2019 intensified funding needs during the repo turmoil.", "score": 1.0, "response_time_sec": 11.8, "domain": "financial", "bucket": "overlap"}
+## AUTHORED: cri_000002.q05
+A: The overlap of repo market stress and Treasury settlement on September 16, 2019 worsened funding conditions.
+B: The overlap of repo market stress and Treasury settlement on September 16, 2020 worsened funding conditions.
+C: The repo turmoil in September 2019 was unrelated to Treasury securities settlement.
+D: Treasury securities settled on September 16, 2019, easing the September repo turmoil.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "cri_000002", "question_id": "cri_000002.q05", "question_type": "mcq", "answer": "The overlap of repo market stress and Treasury settlement on September 16, 2019 worsened funding conditions.", "score": 1.0, "response_time_sec": 9.2, "domain": "financial", "bucket": "overlap"}
+{"participant_id": "llm_sim_p01", "explanation_id": "hist_000336", "question_id": "hist_000336.q01", "question_type": "mcq", "answer": "1854", "score": 1.0, "response_time_sec": 13.7, "domain": "historical", "bucket": "sequence"}
+{"participant_id": "llm_sim_p01", "explanation_id": "hist_000336", "question_id": "hist_000336.q02", "question_type": "fill_blank", "answer": "Suez Canal", "score": 1.0, "response_time_sec": 7.3, "domain": "historical", "bucket": "sequence"}
+{"participant_id": "llm_sim_p01", "explanation_id": "hist_000336", "question_id": "hist_000336.q03", "question_type": "timeline", "answer": "1. Suez concession granted (1854)\n2. Construction of the Suez Canal began (1859)\n3. Suez Canal opened (1869)", "score": null, "response_time_sec": 18.4, "domain": "historical", "bucket": "sequence"}
+## AUTHORED: hist_000336.q04
+A: The Suez Canal concession was granted in 1854, five years before construction began.
+B: The Suez Canal concession was granted in 1859, the same year construction began.
+C: The Suez Canal concession was granted in 1854, and the canal opened the following year.
+D: Construction of the Suez Canal began in 1854, shortly after the concession was granted.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "hist_000336", "question_id": "hist_000336.q04", "question_type": "mcq", "answer": "The Suez Canal concession was granted in 1854, five years before construction began.", "score": 1.0, "response_time_sec": 22.6, "domain": "historical", "bucket": "sequence"}
+## AUTHORED: hist_000336.q05
+A: The Suez Canal opened in 1869, ten years after construction began in 1859.
+B: The Suez Canal opened in 1869, ten years after construction began in 1860.
+C: The Suez Canal opened in 1870, ten years after construction began in 1859.
+D: The Suez Canal opened in 1869, five years after construction began in 1859.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "hist_000336", "question_id": "hist_000336.q05", "question_type": "mcq", "answer": "The Suez Canal opened in 1869, ten years after construction began in 1859.", "score": 1.0, "response_time_sec": 14.9, "domain": "historical", "bucket": "sequence"}
+{"participant_id": "llm_sim_p01", "explanation_id": "energy_000016", "question_id": "energy_000016.q01", "question_type": "mcq", "answer": "2010", "score": 1.0, "response_time_sec": 8.9, "domain": "historical", "bucket": "sequence"}
+{"participant_id": "llm_sim_p01", "explanation_id": "energy_000016", "question_id": "energy_000016.q02", "question_type": "fill_blank", "answer": "Deepwater Horizon", "score": 1.0, "response_time_sec": 11.5, "domain": "historical", "bucket": "sequence"}
+{"participant_id": "llm_sim_p01", "explanation_id": "energy_000016", "question_id": "energy_000016.q03", "question_type": "timeline", "answer": "1. Deepwater Horizon explosion (April 20, 2010)\n2. Deepwater Horizon sinking (April 22, 2010)\n3. Well sealed declaration (September 19, 2010)", "score": null, "response_time_sec": 20.3, "domain": "historical", "bucket": "sequence"}
+## AUTHORED: energy_000016.q04
+A: The Deepwater Horizon exploded on April 20, 2010 and sank two days later on April 22, 2010.
+B: The Deepwater Horizon exploded on April 22, 2010 and sank two days later on April 24, 2010.
+C: The Deepwater Horizon exploded on April 20, 2010 and sank the following day on April 21, 2010.
+D: The Deepwater Horizon sank on April 20, 2010, triggering an explosion on April 22, 2010.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "energy_000016", "question_id": "energy_000016.q04", "question_type": "mcq", "answer": "The Deepwater Horizon exploded on April 20, 2010 and sank two days later on April 22, 2010.", "score": 1.0, "response_time_sec": 17.2, "domain": "historical", "bucket": "sequence"}
+## AUTHORED: energy_000016.q05
+A: The Deepwater Horizon well was declared sealed on September 19, 2010.
+B: The Deepwater Horizon well was declared sealed on September 19, 2011.
+C: The Deepwater Horizon well was declared sealed on August 19, 2010.
+D: The Deepwater Horizon well was declared sealed before the rig sank in April 2010.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "energy_000016", "question_id": "energy_000016.q05", "question_type": "mcq", "answer": "The Deepwater Horizon well was declared sealed on September 19, 2010.", "score": 1.0, "response_time_sec": 13.6, "domain": "historical", "bucket": "sequence"}
+{"participant_id": "llm_sim_p01", "explanation_id": "corp_0040", "question_id": "corp_0040.q01", "question_type": "mcq", "answer": "1990", "score": 1.0, "response_time_sec": 9.7, "domain": "business", "bucket": "point"}
+{"participant_id": "llm_sim_p01", "explanation_id": "corp_0040", "question_id": "corp_0040.q02", "question_type": "fill_blank", "answer": "Apollo Global Management", "score": 1.0, "response_time_sec": 15.6, "domain": "business", "bucket": "point"}
+## AUTHORED: corp_0040.q03
+A: Leon Black founded Apollo Global Management in 1990.
+B: Leon Black founded Apollo Global Management in 1991.
+C: Leon Black co-founded Blackstone Group in 1990.
+D: Apollo Global Management was founded in 1990 by Joshua Harris.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "corp_0040", "question_id": "corp_0040.q03", "question_type": "mcq", "answer": "Leon Black founded Apollo Global Management in 1990.", "score": 1.0, "response_time_sec": 12.4, "domain": "business", "bucket": "point"}
+## AUTHORED: corp_0040.q04
+A: Apollo Global Management was founded by Leon Black in 1990.
+B: Apollo Global Management was founded by Leon Black in 1985.
+C: Apollo Global Management was founded by Marc Rowan in 1990.
+D: Leon Black founded Apollo Global Management in 1990 as a nonprofit.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "corp_0040", "question_id": "corp_0040.q04", "question_type": "mcq", "answer": "Apollo Global Management was founded by Leon Black in 1990.", "score": 1.0, "response_time_sec": 16.8, "domain": "business", "bucket": "point"}
+## AUTHORED: corp_0040.q05
+A: Leon Black established Apollo Global Management in the year 1990.
+B: Leon Black established Apollo Global Management in the year 1995.
+C: Steve Schwarzman established Apollo Global Management in the year 1990.
+D: Leon Black established Apollo Investment Corporation in the year 1990.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "corp_0040", "question_id": "corp_0040.q05", "question_type": "mcq", "answer": "Leon Black established Apollo Global Management in the year 1990.", "score": 1.0, "response_time_sec": 7.9, "domain": "business", "bucket": "point"}
+{"participant_id": "llm_sim_p01", "explanation_id": "fin_0012", "question_id": "fin_0012.q01", "question_type": "mcq", "answer": "2022", "score": 1.0, "response_time_sec": 11.3, "domain": "['financial', 'business']", "bucket": "sequence"}
+{"participant_id": "llm_sim_p01", "explanation_id": "fin_0012", "question_id": "fin_0012.q02", "question_type": "fill_blank", "answer": "Celsius Network", "score": 1.0, "response_time_sec": 18.7, "domain": "['financial', 'business']", "bucket": "sequence"}
+{"participant_id": "llm_sim_p01", "explanation_id": "fin_0012", "question_id": "fin_0012.q03", "question_type": "timeline", "answer": "1. Celsius Network filed for bankruptcy (July 13, 2022)\n2. Celsius Network accepted bid from Fahrenheit consortium (May 2023)\n3. Celsius Network emerged as a mining firm (January 31, 2024)", "score": null, "response_time_sec": 24.1, "domain": "['financial', 'business']", "bucket": "sequence"}
+## AUTHORED: fin_0012.q04
+A: Celsius Network filed for bankruptcy on July 13, 2022 and later accepted a bid from the Fahrenheit consortium in May 2023.
+B: Celsius Network filed for bankruptcy on July 13, 2023 and later accepted a bid from the Fahrenheit consortium in May 2023.
+C: Celsius Network filed for bankruptcy on July 13, 2022 and later accepted a bid from the BlockFi consortium in May 2023.
+D: Celsius Network filed for bankruptcy on July 13, 2022 and rejected the bid from the Fahrenheit consortium in May 2023.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "fin_0012", "question_id": "fin_0012.q04", "question_type": "mcq", "answer": "Celsius Network filed for bankruptcy on July 13, 2022 and later accepted a bid from the Fahrenheit consortium in May 2023.", "score": 1.0, "response_time_sec": 19.4, "domain": "['financial', 'business']", "bucket": "sequence"}
+## AUTHORED: fin_0012.q05
+A: Celsius Network emerged from bankruptcy as a mining firm on January 31, 2024.
+B: Celsius Network emerged from bankruptcy as a lending firm on January 31, 2024.
+C: Celsius Network emerged from bankruptcy as a mining firm on January 31, 2025.
+D: Celsius Network was liquidated on January 31, 2024.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "fin_0012", "question_id": "fin_0012.q05", "question_type": "mcq", "answer": "Celsius Network emerged from bankruptcy as a mining firm on January 31, 2024.", "score": 1.0, "response_time_sec": 22.8, "domain": "['financial', 'business']", "bucket": "sequence"}
+{"participant_id": "llm_sim_p01", "explanation_id": "cult_exh_065", "question_id": "cult_exh_065.q01", "question_type": "mcq", "answer": "2017", "score": 1.0, "response_time_sec": 8.3, "domain": "cultural", "bucket": "point"}
+{"participant_id": "llm_sim_p01", "explanation_id": "cult_exh_065", "question_id": "cult_exh_065.q02", "question_type": "fill_blank", "answer": "Tomorrow Is Another Day", "score": 1.0, "response_time_sec": 14.6, "domain": "cultural", "bucket": "point"}
+## AUTHORED: cult_exh_065.q03
+A: Mark Bradford's exhibition 'Tomorrow Is Another Day' opened at the Venice Biennale on May 13, 2017.
+B: Mark Bradford's exhibition 'Tomorrow Is Another Day' opened at the Venice Biennale on May 13, 2018.
+C: Kara Walker's exhibition 'Tomorrow Is Another Day' opened at the Venice Biennale on May 13, 2017.
+D: Mark Bradford's exhibition 'Tomorrow Is Another Day' opened at the Whitney Biennial on May 13, 2017.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "cult_exh_065", "question_id": "cult_exh_065.q03", "question_type": "mcq", "answer": "Mark Bradford's exhibition 'Tomorrow Is Another Day' opened at the Venice Biennale on May 13, 2017.", "score": 1.0, "response_time_sec": 16.2, "domain": "cultural", "bucket": "point"}
+## AUTHORED: cult_exh_065.q04
+A: Mark Bradford represented the United States at the 2017 Venice Biennale.
+B: Mark Bradford represented the United Kingdom at the 2017 Venice Biennale.
+C: Mark Bradford represented the United States at the 2016 Venice Biennale.
+D: Mark Bradford represented the United States at the 2017 Venice Biennale through a group exhibition.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "cult_exh_065", "question_id": "cult_exh_065.q04", "question_type": "mcq", "answer": "Mark Bradford represented the United States at the 2017 Venice Biennale.", "score": 1.0, "response_time_sec": 10.7, "domain": "cultural", "bucket": "point"}
+## AUTHORED: cult_exh_065.q05
+A: The exhibition 'Tomorrow Is Another Day' opened on May 13, 2017 as the US pavilion at Venice.
+B: The exhibition 'Tomorrow Is Another Day' opened on May 13, 2022 as the US pavilion at Venice.
+C: The exhibition 'Tomorrow Is Another Day' opened on May 13, 2017 as the Italian pavilion at Venice.
+D: The exhibition 'Tomorrow Is Another Day' opened on June 13, 2017 as the US pavilion at Venice.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "cult_exh_065", "question_id": "cult_exh_065.q05", "question_type": "mcq", "answer": "The exhibition 'Tomorrow Is Another Day' opened on May 13, 2017 as the US pavilion at Venice.", "score": 1.0, "response_time_sec": 23.5, "domain": "cultural", "bucket": "point"}
+{"participant_id": "llm_sim_p01", "explanation_id": "infra_056", "question_id": "infra_056.q01", "question_type": "mcq", "answer": "1990", "score": 1.0, "response_time_sec": 10.4, "domain": "technical", "bucket": "causal"}
+{"participant_id": "llm_sim_p01", "explanation_id": "infra_056", "question_id": "infra_056.q02", "question_type": "fill_blank", "answer": "Air travel competition", "score": 1.0, "response_time_sec": 11.5, "domain": "technical", "bucket": "causal"}
+{"participant_id": "llm_sim_p01", "explanation_id": "infra_056", "question_id": "infra_056.q03", "question_type": "inference", "answer": "Without competition from air travel, the impetus to build high-speed rail tunnels like the Gotthard Base Tunnel would likely have been much weaker, and construction between 1990 and 2020 might not have occurred or would have been substantially delayed.", "score": null, "response_time_sec": 22.7, "domain": "technical", "bucket": "causal"}
+## AUTHORED: infra_056.q04
+A: Competition with air travel drove the construction of high-speed rail tunnels like the Gotthard Base Tunnel from 1990 to 2020.
+B: Competition with road transport drove the construction of high-speed rail tunnels like the Gotthard Base Tunnel from 1990 to 2020.
+C: Competition with air travel drove the construction of high-speed rail tunnels like the Brenner Base Tunnel from 1990 to 2020.
+D: Competition with air travel drove the construction of high-speed rail tunnels like the Gotthard Base Tunnel from 2000 to 2020.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "infra_056", "question_id": "infra_056.q04", "question_type": "mcq", "answer": "Competition with air travel drove the construction of high-speed rail tunnels like the Gotthard Base Tunnel from 1990 to 2020.", "score": 1.0, "response_time_sec": 14.4, "domain": "technical", "bucket": "causal"}
+## AUTHORED: infra_056.q05
+A: Air travel competition was the driving force behind high-speed rail tunnel construction from 1990 to 2020.
+B: Government subsidies were the driving force behind high-speed rail tunnel construction from 1990 to 2020.
+C: Air travel competition was the driving force behind high-speed rail tunnel construction from 1995 to 2025.
+D: Air travel competition drove the construction of conventional rail tunnels from 1990 to 2020.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "infra_056", "question_id": "infra_056.q05", "question_type": "mcq", "answer": "Air travel competition was the driving force behind high-speed rail tunnel construction from 1990 to 2020.", "score": 1.0, "response_time_sec": 17.8, "domain": "technical", "bucket": "causal"}
+{"participant_id": "llm_sim_p01", "explanation_id": "fin_000157", "question_id": "fin_000157.q01", "question_type": "mcq", "answer": "1993", "score": 0.0, "response_time_sec": 10.4, "domain": "financial", "bucket": "sequence"}
+{"participant_id": "llm_sim_p01", "explanation_id": "fin_000157", "question_id": "fin_000157.q02", "question_type": "fill_blank", "answer": "Whole Foods", "score": 1.0, "response_time_sec": 18.9, "domain": "financial", "bucket": "sequence"}
+{"participant_id": "llm_sim_p01", "explanation_id": "fin_000157", "question_id": "fin_000157.q03", "question_type": "timeline", "answer": "1. Whole Foods went public (1992)\n2. Whole Foods was acquired by Amazon (2017)", "score": null, "response_time_sec": 23.4, "domain": "financial", "bucket": "sequence"}
+## AUTHORED: fin_000157.q04
+A: Whole Foods went public in 1992 and was later acquired by Amazon in 2017.
+B: Whole Foods went public in 1993 and was later acquired by Amazon in 2017.
+C: Whole Foods went public in 1992 and was later acquired by Walmart in 2017.
+D: Whole Foods went public in 1992 and was later acquired by Amazon in 2016.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "fin_000157", "question_id": "fin_000157.q04", "question_type": "mcq", "answer": "Whole Foods went public in 1992 and was later acquired by Amazon in 2017.", "score": 1.0, "response_time_sec": 24.1, "domain": "financial", "bucket": "sequence"}
+## AUTHORED: fin_000157.q05
+A: Amazon acquired Whole Foods in 2017, twenty-five years after its IPO.
+B: Amazon acquired Whole Foods in 2018, twenty-five years after its IPO.
+C: Amazon acquired Whole Foods in 2017, ten years after its IPO.
+D: Google acquired Whole Foods in 2017, twenty-five years after its IPO.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "fin_000157", "question_id": "fin_000157.q05", "question_type": "mcq", "answer": "Amazon acquired Whole Foods in 2018, twenty-five years after its IPO.", "score": 0.0, "response_time_sec": 9.4, "domain": "financial", "bucket": "sequence"}
+{"participant_id": "llm_sim_p01", "explanation_id": "av_000311", "question_id": "av_000311.q01", "question_type": "mcq", "answer": "1996", "score": 1.0, "response_time_sec": 24.7, "domain": "historical", "bucket": "sequence"}
+{"participant_id": "llm_sim_p01", "explanation_id": "av_000311", "question_id": "av_000311.q02", "question_type": "fill_blank", "answer": "TWA 800", "score": 1.0, "response_time_sec": 26.8, "domain": "historical", "bucket": "sequence"}
+{"participant_id": "llm_sim_p01", "explanation_id": "av_000311", "question_id": "av_000311.q03", "question_type": "timeline", "answer": "1. TWA 800 (July 17, 1996)\n2. Swissair 111 (September 2, 1998)\n3. Alaska 261 (January 31, 2000)", "score": null, "response_time_sec": 17.6, "domain": "historical", "bucket": "sequence"}
+## AUTHORED: av_000311.q04
+A: TWA 800 on July 17, 1996 was one of the accidents that drove the late-1990s aviation safety focus.
+B: TWA 800 on July 17, 1997 was one of the accidents that drove the late-1990s aviation safety focus.
+C: TWA 800 on July 17, 1996 was the only accident that drove the late-1990s aviation safety focus.
+D: Swissair 111 on September 2, 1996 was one of the accidents that drove the late-1990s aviation safety focus.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "av_000311", "question_id": "av_000311.q04", "question_type": "mcq", "answer": "TWA 800 on July 17, 1996 was one of the accidents that drove the late-1990s aviation safety focus.", "score": 1.0, "response_time_sec": 16.3, "domain": "historical", "bucket": "sequence"}
+## AUTHORED: av_000311.q05
+A: Alaska 261 occurred on January 31, 2000, completing a trio of accidents that drove safety improvements.
+B: Alaska 261 occurred on January 31, 2001, completing a trio of accidents that drove safety improvements.
+C: Alaska 261 occurred on January 31, 2000, and was the first of the trio of accidents mentioned.
+D: Swissair 111 occurred on January 31, 2000, completing a trio of accidents that drove safety improvements.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "av_000311", "question_id": "av_000311.q05", "question_type": "mcq", "answer": "Alaska 261 occurred on January 31, 2000, completing a trio of accidents that drove safety improvements.", "score": 1.0, "response_time_sec": 11.9, "domain": "historical", "bucket": "sequence"}
+{"participant_id": "llm_sim_p01", "explanation_id": "hist_sport_007", "question_id": "hist_sport_007.q01", "question_type": "mcq", "answer": "2023", "score": 1.0, "response_time_sec": 10.5, "domain": "historical", "bucket": "sequence"}
+{"participant_id": "llm_sim_p01", "explanation_id": "hist_sport_007", "question_id": "hist_sport_007.q02", "question_type": "fill_blank", "answer": "Final", "score": 0.5, "response_time_sec": 17.8, "domain": "historical", "bucket": "sequence"}
+{"participant_id": "llm_sim_p01", "explanation_id": "hist_sport_007", "question_id": "hist_sport_007.q03", "question_type": "timeline", "answer": "1. FIFA announced the 2026 final date (March 16, 2023)\n2. MetLife Stadium named as final venue (February 4, 2024)\n3. 2026 World Cup Final scheduled (July 19, 2026)", "score": null, "response_time_sec": 16.2, "domain": "historical", "bucket": "sequence"}
+## AUTHORED: hist_sport_007.q04
+A: FIFA named MetLife Stadium as the 2026 World Cup final venue on February 4, 2024.
+B: FIFA named MetLife Stadium as the 2026 World Cup final venue on February 4, 2023.
+C: FIFA named SoFi Stadium as the 2026 World Cup final venue on February 4, 2024.
+D: FIFA named MetLife Stadium as the 2026 World Cup final venue on March 16, 2023.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "hist_sport_007", "question_id": "hist_sport_007.q04", "question_type": "mcq", "answer": "FIFA named MetLife Stadium as the 2026 World Cup final venue on March 16, 2023.", "score": 0.0, "response_time_sec": 16.2, "domain": "historical", "bucket": "sequence"}
+## AUTHORED: hist_sport_007.q05
+A: The 2026 World Cup Final is scheduled for July 19, 2026 at MetLife Stadium.
+B: The 2026 World Cup Final is scheduled for July 19, 2025 at MetLife Stadium.
+C: The 2026 World Cup Final is scheduled for July 19, 2026 at SoFi Stadium.
+D: The 2026 World Cup Final was scheduled on March 16, 2023 to take place on July 19, 2026.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "hist_sport_007", "question_id": "hist_sport_007.q05", "question_type": "mcq", "answer": "The 2026 World Cup Final is scheduled for July 19, 2026 at MetLife Stadium.", "score": 1.0, "response_time_sec": 8.8, "domain": "historical", "bucket": "sequence"}
+{"participant_id": "llm_sim_p01", "explanation_id": "corp_000078", "question_id": "corp_000078.q01", "question_type": "mcq", "answer": "2017", "score": 0.0, "response_time_sec": 22.4, "domain": "financial", "bucket": "point"}
+{"participant_id": "llm_sim_p01", "explanation_id": "corp_000078", "question_id": "corp_000078.q02", "question_type": "fill_blank", "answer": "Warner Bros. Discovery", "score": 1.0, "response_time_sec": 26.3, "domain": "financial", "bucket": "point"}
+## AUTHORED: corp_000078.q03
+A: Warner Bros. Discovery was formed on April 8, 2022, through the merger of Discovery and WarnerMedia.
+B: Warner Bros. Discovery was formed on April 8, 2021, through the merger of Discovery and WarnerMedia.
+C: Warner Bros. Discovery was formed on April 8, 2022, through the merger of Discovery and NBCUniversal.
+D: Warner Bros. Discovery was formed on April 8, 2022, through the acquisition of Discovery by WarnerMedia.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "corp_000078", "question_id": "corp_000078.q03", "question_type": "mcq", "answer": "Warner Bros. Discovery was formed on April 8, 2022, through the merger of Discovery and WarnerMedia.", "score": 1.0, "response_time_sec": 18.1, "domain": "financial", "bucket": "point"}
+## AUTHORED: corp_000078.q04
+A: The merger of Discovery and WarnerMedia created Warner Bros. Discovery in 2022.
+B: The merger of Discovery and WarnerMedia created Warner Bros. Discovery in 2023.
+C: The merger of Comcast and WarnerMedia created Warner Bros. Discovery in 2022.
+D: The merger of Discovery and WarnerMedia created WarnerMedia Discovery in 2022.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "corp_000078", "question_id": "corp_000078.q04", "question_type": "mcq", "answer": "The merger of Discovery and WarnerMedia created Warner Bros. Discovery in 2022.", "score": 1.0, "response_time_sec": 9.7, "domain": "financial", "bucket": "point"}
+## AUTHORED: corp_000078.q05
+A: Warner Bros. Discovery was established on April 8, 2022.
+B: Warner Bros. Discovery was established on April 8, 2023.
+C: Warner Bros. Discovery was established on April 8, 2022, as a streaming-only company.
+D: Warner Media Discovery was established on April 8, 2022.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "corp_000078", "question_id": "corp_000078.q05", "question_type": "mcq", "answer": "Warner Bros. Discovery was established on April 8, 2022.", "score": 1.0, "response_time_sec": 13.3, "domain": "financial", "bucket": "point"}
+{"participant_id": "llm_sim_p01", "explanation_id": "cult_awards_0096", "question_id": "cult_awards_0096.q01", "question_type": "mcq", "answer": "1975", "score": 1.0, "response_time_sec": 15.7, "domain": "cultural", "bucket": "point"}
+{"participant_id": "llm_sim_p01", "explanation_id": "cult_awards_0096", "question_id": "cult_awards_0096.q02", "question_type": "fill_blank", "answer": "Mohammed Lakhdar-Hamina", "score": 1.0, "response_time_sec": 12.4, "domain": "cultural", "bucket": "point"}
+## AUTHORED: cult_awards_0096.q03
+A: Mohammed Lakhdar-Hamina won the Palme d'Or in 1975 for Chronicle of the Years of Fire.
+B: Mohammed Lakhdar-Hamina won the Palme d'Or in 1976 for Chronicle of the Years of Fire.
+C: Mohammed Lakhdar-Hamina won the Grand Prix in 1975 for Chronicle of the Years of Fire.
+D: Youssef Chahine won the Palme d'Or in 1975 for Chronicle of the Years of Fire.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "cult_awards_0096", "question_id": "cult_awards_0096.q03", "question_type": "mcq", "answer": "Mohammed Lakhdar-Hamina won the Palme d'Or in 1975 for Chronicle of the Years of Fire.", "score": 1.0, "response_time_sec": 20.6, "domain": "cultural", "bucket": "point"}
+## AUTHORED: cult_awards_0096.q04
+A: Chronicle of the Years of Fire earned Mohammed Lakhdar-Hamina the Palme d'Or in 1975.
+B: Chronicle of the Years of Fire earned Mohammed Lakhdar-Hamina the Palme d'Or in 1974.
+C: Chronicle of the Years of Fire earned Mohammed Lakhdar-Hamina the Golden Lion in 1975.
+D: Chronicle of the Years of Fire earned Youssef Chahine the Palme d'Or in 1975.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "cult_awards_0096", "question_id": "cult_awards_0096.q04", "question_type": "mcq", "answer": "Chronicle of the Years of Fire earned Mohammed Lakhdar-Hamina the Palme d'Or in 1975.", "score": 1.0, "response_time_sec": 7.9, "domain": "cultural", "bucket": "point"}
+## AUTHORED: cult_awards_0096.q05
+A: The 1975 Palme d'Or was awarded to Mohammed Lakhdar-Hamina.
+B: The 1976 Palme d'Or was awarded to Mohammed Lakhdar-Hamina.
+C: The 1975 Grand Prix was awarded to Mohammed Lakhdar-Hamina.
+D: The 1975 Palme d'Or was awarded to Mohammed Lakhdar-Hamina for a documentary film.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "cult_awards_0096", "question_id": "cult_awards_0096.q05", "question_type": "mcq", "answer": "The 1975 Palme d'Or was awarded to Mohammed Lakhdar-Hamina.", "score": 1.0, "response_time_sec": 24.9, "domain": "cultural", "bucket": "point"}
+{"participant_id": "llm_sim_p01", "explanation_id": "av_009", "question_id": "av_009.q01", "question_type": "mcq", "answer": "1991", "score": 1.0, "response_time_sec": 19.3, "domain": "historical", "bucket": "overlap"}
+{"participant_id": "llm_sim_p01", "explanation_id": "av_009", "question_id": "av_009.q02", "question_type": "fill_blank", "answer": "Gulf War start", "score": 1.0, "response_time_sec": 21.1, "domain": "historical", "bucket": "overlap"}
+## AUTHORED: av_009.q03
+A: The Gulf War started on January 17, 1991, overlapping with the early-1990s growth of long-haul fleets.
+B: The Gulf War started on January 17, 1990, overlapping with the early-1990s growth of long-haul fleets.
+C: The Gulf War started on January 17, 1991, overlapping with the late-1980s decline of long-haul fleets.
+D: The Gulf War started on January 17, 1991, and ended the early-1990s growth of long-haul fleets.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "av_009", "question_id": "av_009.q03", "question_type": "mcq", "answer": "The Gulf War started on January 17, 1991, overlapping with the early-1990s growth of long-haul fleets.", "score": 1.0, "response_time_sec": 14.8, "domain": "historical", "bucket": "overlap"}
+## AUTHORED: av_009.q04
+A: The overlap of the Gulf War and long-haul fleet growth in the early 1990s complicated airspace risk management.
+B: The overlap of the Gulf War and long-haul fleet growth in the early 1990s simplified airspace risk management.
+C: The overlap of the Gulf War and long-haul fleet growth in the late 1990s complicated airspace risk management.
+D: The Gulf War's overlap with short-haul fleet growth in the early 1990s complicated airspace risk management.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "av_009", "question_id": "av_009.q04", "question_type": "mcq", "answer": "The overlap of the Gulf War and long-haul fleet growth in the early 1990s complicated airspace risk management.", "score": 1.0, "response_time_sec": 11.2, "domain": "historical", "bucket": "overlap"}
+## AUTHORED: av_009.q05
+A: Long-haul fleet growth in the early 1990s coincided with the start of the Gulf War on January 17, 1991.
+B: Long-haul fleet growth in the early 1990s coincided with the end of the Gulf War on January 17, 1991.
+C: Long-haul fleet growth in the early 1990s coincided with the start of the Gulf War on January 17, 1992.
+D: Short-haul fleet growth in the early 1990s coincided with the start of the Gulf War on January 17, 1991.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "av_009", "question_id": "av_009.q05", "question_type": "mcq", "answer": "Long-haul fleet growth in the early 1990s coincided with the start of the Gulf War on January 17, 1991.", "score": 1.0, "response_time_sec": 8.4, "domain": "historical", "bucket": "overlap"}
+{"participant_id": "llm_sim_p01", "explanation_id": "fin_ipo_0090", "question_id": "fin_ipo_0090.q01", "question_type": "mcq", "answer": "2021", "score": 1.0, "response_time_sec": 7.6, "domain": "financial", "bucket": "point"}
+{"participant_id": "llm_sim_p01", "explanation_id": "fin_ipo_0090", "question_id": "fin_ipo_0090.q02", "question_type": "fill_blank", "answer": "Affirm", "score": 1.0, "response_time_sec": 9.2, "domain": "financial", "bucket": "point"}
+## AUTHORED: fin_ipo_0090.q03
+A: Affirm listed on the Nasdaq on January 13, 2021.
+B: Affirm listed on the NYSE on January 13, 2021.
+C: Affirm listed on the Nasdaq on January 13, 2020.
+D: Klarna listed on the Nasdaq on January 13, 2021.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "fin_ipo_0090", "question_id": "fin_ipo_0090.q03", "question_type": "mcq", "answer": "Affirm listed on the Nasdaq on January 13, 2021.", "score": 1.0, "response_time_sec": 16.5, "domain": "financial", "bucket": "point"}
+## AUTHORED: fin_ipo_0090.q04
+A: Affirm's IPO was on the Nasdaq on January 13, 2021.
+B: Affirm's IPO was on the Nasdaq on January 13, 2022.
+C: Affirm's IPO was on the NYSE on January 13, 2021.
+D: Affirm's IPO was on the Nasdaq in early 2020.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "fin_ipo_0090", "question_id": "fin_ipo_0090.q04", "question_type": "mcq", "answer": "Affirm's IPO was on the Nasdaq on January 13, 2021.", "score": 1.0, "response_time_sec": 21.0, "domain": "financial", "bucket": "point"}
+## AUTHORED: fin_ipo_0090.q05
+A: Affirm became a publicly listed company on January 13, 2021.
+B: Affirm became a publicly listed company on January 13, 2022.
+C: Affirm became a publicly listed company on the Nasdaq in late 2021.
+D: Affirm became a publicly listed company on January 13, 2021 on the London Stock Exchange.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "fin_ipo_0090", "question_id": "fin_ipo_0090.q05", "question_type": "mcq", "answer": "Affirm became a publicly listed company on January 13, 2021.", "score": 1.0, "response_time_sec": 13.8, "domain": "financial", "bucket": "point"}
+{"participant_id": "llm_sim_p01", "explanation_id": "crises_000095", "question_id": "crises_000095.q01", "question_type": "mcq", "answer": "1907", "score": 1.0, "response_time_sec": 22.1, "domain": "financial", "bucket": "causal"}
+{"participant_id": "llm_sim_p01", "explanation_id": "crises_000095", "question_id": "crises_000095.q02", "question_type": "fill_blank", "answer": "Knickerbocker Trust suspension", "score": 1.0, "response_time_sec": 15.4, "domain": "financial", "bucket": "causal"}
+{"participant_id": "llm_sim_p01", "explanation_id": "crises_000095", "question_id": "crises_000095.q03", "question_type": "inference", "answer": "If the Knickerbocker Trust had not been suspended on October 22, 1907, the Panic of 1907 may not have ignited — or at least would have lacked its primary trigger, possibly resulting in a milder or delayed financial crisis.", "score": null, "response_time_sec": 27.3, "domain": "financial", "bucket": "causal"}
+## AUTHORED: crises_000095.q04
+A: The suspension of the Knickerbocker Trust on October 22, 1907 ignited the Panic of 1907.
+B: The suspension of the Knickerbocker Trust on October 22, 1908 ignited the Panic of 1907.
+C: The failure of the Knickerbocker Bank on October 22, 1907 ignited the Panic of 1907.
+D: The suspension of the Knickerbocker Trust on October 22, 1907 ended the Panic of 1907.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "crises_000095", "question_id": "crises_000095.q04", "question_type": "mcq", "answer": "The suspension of the Knickerbocker Trust on October 22, 1907 ignited the Panic of 1907.", "score": 1.0, "response_time_sec": 19.7, "domain": "financial", "bucket": "causal"}
+## AUTHORED: crises_000095.q05
+A: The Knickerbocker Trust suspension was the event that triggered the Panic of 1907.
+B: The Knickerbocker Trust suspension was one of several causes of the Panic of 1908.
+C: The Knickerbocker Trust suspension resolved the Panic of 1907.
+D: The Panic of 1907 ignited the suspension of the Knickerbocker Trust on October 22, 1907.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "crises_000095", "question_id": "crises_000095.q05", "question_type": "mcq", "answer": "The Knickerbocker Trust suspension was the event that triggered the Panic of 1907.", "score": 1.0, "response_time_sec": 8.9, "domain": "financial", "bucket": "causal"}
+{"participant_id": "llm_sim_p01", "explanation_id": "hist_000371", "question_id": "hist_000371.q01", "question_type": "mcq", "answer": "1882", "score": 1.0, "response_time_sec": 14.6, "domain": "historical", "bucket": "sequence"}
+{"participant_id": "llm_sim_p01", "explanation_id": "hist_000371", "question_id": "hist_000371.q02", "question_type": "fill_blank", "answer": "Corinth Canal", "score": 1.0, "response_time_sec": 23.7, "domain": "historical", "bucket": "sequence"}
+{"participant_id": "llm_sim_p01", "explanation_id": "hist_000371", "question_id": "hist_000371.q03", "question_type": "timeline", "answer": "1. Work on the Corinth Canal began (1882)\n2. The Corinth Canal opened (1893)", "score": null, "response_time_sec": 18.8, "domain": "historical", "bucket": "sequence"}
+## AUTHORED: hist_000371.q04
+A: Construction of the Corinth Canal started in 1882 and was completed when the canal opened in 1893.
+B: Construction of the Corinth Canal started in 1883 and was completed when the canal opened in 1893.
+C: Construction of the Corinth Canal started in 1882 and was completed when the canal opened in 1890.
+D: Construction of the Corinth Canal started in 1882 and took only five years to complete.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "hist_000371", "question_id": "hist_000371.q04", "question_type": "mcq", "answer": "Construction of the Corinth Canal started in 1882 and was completed when the canal opened in 1893.", "score": 1.0, "response_time_sec": 11.2, "domain": "historical", "bucket": "sequence"}
+## AUTHORED: hist_000371.q05
+A: The Corinth Canal opened in 1893, eleven years after work began.
+B: The Corinth Canal opened in 1893, six years after work began.
+C: The Corinth Canal opened in 1895, eleven years after work began.
+D: The Corinth Canal opened in 1893, eleven years after it was first proposed.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "hist_000371", "question_id": "hist_000371.q05", "question_type": "mcq", "answer": "The Corinth Canal opened in 1893, eleven years after work began.", "score": 1.0, "response_time_sec": 7.4, "domain": "historical", "bucket": "sequence"}
+{"participant_id": "llm_sim_p01", "explanation_id": "infra_000094", "question_id": "infra_000094.q01", "question_type": "mcq", "answer": "2020", "score": 1.0, "response_time_sec": 16.9, "domain": "business", "bucket": "causal"}
+{"participant_id": "llm_sim_p01", "explanation_id": "infra_000094", "question_id": "infra_000094.q02", "question_type": "fill_blank", "answer": "HS2 construction", "score": 1.0, "response_time_sec": 20.4, "domain": "business", "bucket": "causal"}
+{"participant_id": "llm_sim_p01", "explanation_id": "infra_000094", "question_id": "infra_000094.q03", "question_type": "inference", "answer": "If HS2 construction had not proceeded in 2020, the significant disruption and protests in affected communities would likely not have occurred, or at least would have been substantially reduced in scale.", "score": null, "response_time_sec": 24.5, "domain": "business", "bucket": "causal"}
+## AUTHORED: infra_000094.q04
+A: HS2 construction in 2020 caused significant disruption and protests in affected communities.
+B: HS2 construction in 2021 caused significant disruption and protests in affected communities.
+C: HS2 construction in 2020 caused minor inconvenience but no notable protests.
+D: HS2 construction in 2020 caused disruption in communities, but no protests were reported.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "infra_000094", "question_id": "infra_000094.q04", "question_type": "mcq", "answer": "HS2 construction in 2020 caused significant disruption and protests in affected communities.", "score": 1.0, "response_time_sec": 12.3, "domain": "business", "bucket": "causal"}
+## AUTHORED: infra_000094.q05
+A: The construction of HS2 led to disruption and community protests in 2020.
+B: The cancellation of HS2 led to disruption and community protests in 2020.
+C: The construction of HS2 led to disruption and community protests in 2019.
+D: The construction of HS1 led to disruption and community protests in 2020.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "infra_000094", "question_id": "infra_000094.q05", "question_type": "mcq", "answer": "The construction of HS2 led to disruption and community protests in 2020.", "score": 1.0, "response_time_sec": 9.6, "domain": "business", "bucket": "causal"}
+{"participant_id": "llm_sim_p01", "explanation_id": "sport_000040", "question_id": "sport_000040.q01", "question_type": "fill_blank", "answer": "Ancient Olympic Games", "score": 1.0, "response_time_sec": 13.5, "domain": "historical", "bucket": "point"}
+## AUTHORED: sport_000040.q02
+A: Olympedia records an Ancient Olympic Games edition held at Olympia in 377 CE.
+B: Olympedia records an Ancient Olympic Games edition held at Olympia in 376 CE.
+C: Olympedia records an Ancient Olympic Games edition held at Athens in 377 CE.
+D: Olympedia records a Modern Olympic Games edition held at Olympia in 377 CE.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "sport_000040", "question_id": "sport_000040.q02", "question_type": "mcq", "answer": "Olympedia records an Ancient Olympic Games edition held at Olympia in 377 CE.", "score": 1.0, "response_time_sec": 17.4, "domain": "historical", "bucket": "point"}
+## AUTHORED: sport_000040.q03
+A: According to Olympedia, the Ancient Olympic Games were held at Olympia in 377 CE.
+B: According to Olympedia, the Ancient Olympic Games were held at Olympia in 378 CE.
+C: According to Olympedia, the Ancient Olympic Games were held at Delphi in 377 CE.
+D: According to Olympedia, the Ancient Olympic Games were first held at Olympia in 377 CE.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "sport_000040", "question_id": "sport_000040.q03", "question_type": "mcq", "answer": "According to Olympedia, the Ancient Olympic Games were held at Olympia in 377 CE.", "score": 1.0, "response_time_sec": 21.6, "domain": "historical", "bucket": "point"}
+## AUTHORED: sport_000040.q04
+A: The 377 CE edition of the Ancient Olympic Games was held at Olympia.
+B: The 377 CE edition of the Ancient Olympic Games was held at Athens.
+C: The 380 CE edition of the Ancient Olympic Games was held at Olympia.
+D: The 377 CE edition of the Modern Olympic Games was held at Olympia.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "sport_000040", "question_id": "sport_000040.q04", "question_type": "mcq", "answer": "The 377 CE edition of the Ancient Olympic Games was held at Olympia.", "score": 1.0, "response_time_sec": 9.1, "domain": "historical", "bucket": "point"}
+## AUTHORED: sport_000040.q05
+A: Olympedia documents that the Ancient Olympics took place at Olympia in 377 CE.
+B: Olympedia documents that the Ancient Olympics took place at Olympia in 477 CE.
+C: Olympedia documents that the Ancient Olympics took place at Corinth in 377 CE.
+D: Wikipedia documents that the Ancient Olympics took place at Olympia in 377 CE.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "sport_000040", "question_id": "sport_000040.q05", "question_type": "mcq", "answer": "Olympedia documents that the Ancient Olympics took place at Olympia in 377 CE.", "score": 1.0, "response_time_sec": 14.2, "domain": "historical", "bucket": "point"}
+{"participant_id": "llm_sim_p01", "explanation_id": "hist_sport_091", "question_id": "hist_sport_091.q01", "question_type": "mcq", "answer": "1940", "score": 1.0, "response_time_sec": 18.3, "domain": "historical", "bucket": "causal"}
+{"participant_id": "llm_sim_p01", "explanation_id": "hist_sport_091", "question_id": "hist_sport_091.q02", "question_type": "fill_blank", "answer": "WWII", "score": 1.0, "response_time_sec": 10.7, "domain": "historical", "bucket": "causal"}
+{"participant_id": "llm_sim_p01", "explanation_id": "hist_sport_091", "question_id": "hist_sport_091.q03", "question_type": "inference", "answer": "If World War II had not occurred, the Olympic Games planned for 1940 and 1944 would likely have taken place as scheduled, maintaining the four-year Olympic cycle without interruption.", "score": null, "response_time_sec": 25.6, "domain": "historical", "bucket": "causal"}
+## AUTHORED: hist_sport_091.q04
+A: World War II caused the cancellation of the Olympic Games planned for 1940 and 1944.
+B: World War I caused the cancellation of the Olympic Games planned for 1940 and 1944.
+C: World War II caused the cancellation of the Olympic Games planned for 1936 and 1940.
+D: World War II caused the postponement (not cancellation) of the Olympic Games in 1940 and 1944.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "hist_sport_091", "question_id": "hist_sport_091.q04", "question_type": "mcq", "answer": "World War II caused the cancellation of the Olympic Games planned for 1940 and 1944.", "score": 1.0, "response_time_sec": 16.5, "domain": "historical", "bucket": "causal"}
+## AUTHORED: hist_sport_091.q05
+A: Both the 1940 and 1944 Olympic editions were cancelled due to World War II.
+B: Both the 1940 and 1948 Olympic editions were cancelled due to World War II.
+C: Only the 1940 Olympic edition was cancelled due to World War II.
+D: The 1940 and 1944 Olympic Games were cancelled due to the Great Depression.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "hist_sport_091", "question_id": "hist_sport_091.q05", "question_type": "mcq", "answer": "Both the 1940 and 1944 Olympic editions were cancelled due to World War II.", "score": 1.0, "response_time_sec": 22.9, "domain": "historical", "bucket": "causal"}
+{"participant_id": "llm_sim_p01", "explanation_id": "crises_000091", "question_id": "crises_000091.q01", "question_type": "mcq", "answer": "1792", "score": 1.0, "response_time_sec": 8.3, "domain": "financial", "bucket": "point"}
+{"participant_id": "llm_sim_p01", "explanation_id": "crises_000091", "question_id": "crises_000091.q02", "question_type": "fill_blank", "answer": "Panic of 1792", "score": 1.0, "response_time_sec": 17.6, "domain": "financial", "bucket": "point"}
+## AUTHORED: crises_000091.q03
+A: The Panic of 1792 featured the first de facto central bank bailout, conducted by Alexander Hamilton in March 1792.
+B: The Panic of 1792 featured the first de facto central bank bailout, conducted by Thomas Jefferson in March 1792.
+C: The Panic of 1793 featured the first de facto central bank bailout, conducted by Alexander Hamilton in March 1792.
+D: The Panic of 1792 featured the first de facto central bank bailout, conducted by Alexander Hamilton in April 1792.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "crises_000091", "question_id": "crises_000091.q03", "question_type": "mcq", "answer": "The Panic of 1792 featured the first de facto central bank bailout, conducted by Alexander Hamilton in March 1792.", "score": 1.0, "response_time_sec": 22.8, "domain": "financial", "bucket": "point"}
+## AUTHORED: crises_000091.q04
+A: Alexander Hamilton conducted the first de facto central bank bailout during the Panic of 1792.
+B: Alexander Hamilton conducted the first de facto central bank bailout during the Panic of 1793.
+C: Thomas Jefferson conducted the first de facto central bank bailout during the Panic of 1792.
+D: Alexander Hamilton conducted the first formal congressional bailout during the Panic of 1792.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "crises_000091", "question_id": "crises_000091.q04", "question_type": "mcq", "answer": "Alexander Hamilton conducted the first de facto central bank bailout during the Panic of 1792.", "score": 1.0, "response_time_sec": 14.1, "domain": "financial", "bucket": "point"}
+## AUTHORED: crises_000091.q05
+A: In March 1792, Alexander Hamilton's intervention during the Panic of 1792 marked the first de facto central bank bailout.
+B: In April 1792, Alexander Hamilton's intervention during the Panic of 1792 marked the first de facto central bank bailout.
+C: In March 1792, Thomas Hamilton's intervention during the Panic of 1792 marked the first de facto central bank bailout.
+D: In March 1793, Alexander Hamilton's intervention during the Panic of 1793 marked the first de facto central bank bailout.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "crises_000091", "question_id": "crises_000091.q05", "question_type": "mcq", "answer": "In March 1792, Alexander Hamilton's intervention during the Panic of 1792 marked the first de facto central bank bailout.", "score": 1.0, "response_time_sec": 9.4, "domain": "financial", "bucket": "point"}
+{"participant_id": "llm_sim_p01", "explanation_id": "infra_000212", "question_id": "infra_000212.q01", "question_type": "mcq", "answer": "2018", "score": 1.0, "response_time_sec": 11.7, "domain": "['technical', 'geopolitical']", "bucket": "point"}
+{"participant_id": "llm_sim_p01", "explanation_id": "infra_000212", "question_id": "infra_000212.q02", "question_type": "fill_blank", "answer": "Guangzhou–Shenzhen–Hong Kong Express Rail Link", "score": 1.0, "response_time_sec": 20.3, "domain": "['technical', 'geopolitical']", "bucket": "point"}
+## AUTHORED: infra_000212.q03
+A: The Hong Kong section of the Guangzhou–Shenzhen–Hong Kong Express Rail Link opened on September 23, 2018.
+B: The Hong Kong section of the Guangzhou–Shenzhen–Hong Kong Express Rail Link opened on September 23, 2019.
+C: The Shenzhen section of the Guangzhou–Shenzhen–Hong Kong Express Rail Link opened on September 23, 2018.
+D: The Hong Kong section of the Beijing–Hong Kong Express Rail Link opened on September 23, 2018.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "infra_000212", "question_id": "infra_000212.q03", "question_type": "mcq", "answer": "The Hong Kong section of the Guangzhou–Shenzhen–Hong Kong Express Rail Link opened on September 23, 2018.", "score": 1.0, "response_time_sec": 15.9, "domain": "['technical', 'geopolitical']", "bucket": "point"}
+## AUTHORED: infra_000212.q04
+A: The Guangzhou–Shenzhen–Hong Kong Express Rail Link's Hong Kong section opened in September 2018.
+B: The Guangzhou–Shenzhen–Hong Kong Express Rail Link's Hong Kong section opened in September 2017.
+C: The Guangzhou–Shenzhen–Hong Kong Express Rail Link's Shenzhen section opened in September 2018.
+D: The Guangzhou–Shenzhen–Hong Kong Express Rail Link's Hong Kong section opened in September 2018 for freight only.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "infra_000212", "question_id": "infra_000212.q04", "question_type": "mcq", "answer": "The Guangzhou–Shenzhen–Hong Kong Express Rail Link's Hong Kong section opened in September 2018.", "score": 1.0, "response_time_sec": 27.1, "domain": "['technical', 'geopolitical']", "bucket": "point"}
+## AUTHORED: infra_000212.q05
+A: On September 23, 2018, the Hong Kong section of the Express Rail Link connecting Guangzhou, Shenzhen, and Hong Kong opened.
+B: On September 23, 2019, the Hong Kong section of the Express Rail Link connecting Guangzhou, Shenzhen, and Hong Kong opened.
+C: On September 23, 2018, the Shenzhen section of the Express Rail Link connecting Guangzhou, Shenzhen, and Hong Kong opened.
+D: On September 23, 2018, the Hong Kong section of the Express Rail Link connecting Beijing and Hong Kong opened.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "infra_000212", "question_id": "infra_000212.q05", "question_type": "mcq", "answer": "On September 23, 2018, the Hong Kong section of the Express Rail Link connecting Guangzhou, Shenzhen, and Hong Kong opened.", "score": 1.0, "response_time_sec": 13.6, "domain": "['technical', 'geopolitical']", "bucket": "point"}
+{"participant_id": "llm_sim_p01", "explanation_id": "monu_000086", "question_id": "monu_000086.q01", "question_type": "mcq", "answer": "2008", "score": 1.0, "response_time_sec": 7.8, "domain": "historical", "bucket": "causal"}
+{"participant_id": "llm_sim_p01", "explanation_id": "monu_000086", "question_id": "monu_000086.q02", "question_type": "fill_blank", "answer": "Fracking boom", "score": 1.0, "response_time_sec": 19.6, "domain": "historical", "bucket": "causal"}
+{"participant_id": "llm_sim_p01", "explanation_id": "monu_000086", "question_id": "monu_000086.q03", "question_type": "inference", "answer": "If the fracking boom had not occurred, Devon Energy would likely not have accumulated the wealth needed to construct the Devon Energy Center, meaning the building might not have been built, or would have been significantly scaled back or delayed.", "score": null, "response_time_sec": 23.4, "domain": "historical", "bucket": "causal"}
+## AUTHORED: monu_000086.q04
+A: The fracking boom generated the wealth that funded the construction of the Devon Energy Center.
+B: The shale oil boom generated the wealth that funded the construction of the Devon Energy Center.
+C: The fracking boom generated the wealth that funded the construction of the Devon Energy Tower.
+D: The fracking boom generated the wealth that funded the renovation of the Devon Energy Center.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "monu_000086", "question_id": "monu_000086.q04", "question_type": "mcq", "answer": "The fracking boom generated the wealth that funded the construction of the Devon Energy Center.", "score": 1.0, "response_time_sec": 12.7, "domain": "historical", "bucket": "causal"}
+## AUTHORED: monu_000086.q05
+A: Devon Energy Center's construction was made possible by wealth from the fracking boom.
+B: Devon Energy Center's construction was made possible by wealth from the natural gas boom.
+C: Chesapeake Energy Center's construction was made possible by wealth from the fracking boom.
+D: Devon Energy Center's construction caused the fracking boom to accelerate.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "monu_000086", "question_id": "monu_000086.q05", "question_type": "mcq", "answer": "Devon Energy Center's construction was made possible by wealth from the fracking boom.", "score": 1.0, "response_time_sec": 8.1, "domain": "historical", "bucket": "causal"}
+{"participant_id": "llm_sim_p01", "explanation_id": "hist_infra_070", "question_id": "hist_infra_070.q01", "question_type": "mcq", "answer": "2022", "score": 1.0, "response_time_sec": 13.0, "domain": "historical", "bucket": "point"}
+{"participant_id": "llm_sim_p01", "explanation_id": "hist_infra_070", "question_id": "hist_infra_070.q02", "question_type": "fill_blank", "answer": "Padma Bridge", "score": 1.0, "response_time_sec": 21.5, "domain": "historical", "bucket": "point"}
+## AUTHORED: hist_infra_070.q03
+A: The Padma Bridge opened on June 25, 2022.
+B: The Padma Bridge opened on June 25, 2021.
+C: The Padma Dam opened on June 25, 2022.
+D: The Padma Bridge opened on July 25, 2022.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "hist_infra_070", "question_id": "hist_infra_070.q03", "question_type": "mcq", "answer": "The Padma Bridge opened on June 25, 2022.", "score": 1.0, "response_time_sec": 16.8, "domain": "historical", "bucket": "point"}
+## AUTHORED: hist_infra_070.q04
+A: The Padma Bridge was inaugurated on June 25, 2022.
+B: The Padma Bridge was inaugurated on June 25, 2023.
+C: The Meghna Bridge was inaugurated on June 25, 2022.
+D: The Padma Bridge was inaugurated on June 25, 2022, for railway traffic only.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "hist_infra_070", "question_id": "hist_infra_070.q04", "question_type": "mcq", "answer": "The Padma Bridge was inaugurated on June 25, 2022.", "score": 1.0, "response_time_sec": 9.5, "domain": "historical", "bucket": "point"}
+## AUTHORED: hist_infra_070.q05
+A: June 25, 2022 was the opening date of the Padma Bridge.
+B: June 25, 2021 was the opening date of the Padma Bridge.
+C: June 25, 2022 was the opening date of the Padma Tunnel.
+D: June 25, 2022 was the closing date of the Padma Bridge.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "hist_infra_070", "question_id": "hist_infra_070.q05", "question_type": "mcq", "answer": "June 25, 2022 was the opening date of the Padma Bridge.", "score": 1.0, "response_time_sec": 6.9, "domain": "historical", "bucket": "point"}
+{"participant_id": "llm_sim_p01", "explanation_id": "cult_arch_005", "question_id": "cult_arch_005.q01", "question_type": "mcq", "answer": "2004", "score": 1.0, "response_time_sec": 15.0, "domain": "cultural", "bucket": "point"}
+{"participant_id": "llm_sim_p01", "explanation_id": "cult_arch_005", "question_id": "cult_arch_005.q02", "question_type": "fill_blank", "answer": "Burj", "score": 0.5, "response_time_sec": 11.1, "domain": "cultural", "bucket": "point"}
+## AUTHORED: cult_arch_005.q03
+A: Excavation for the Burj Khalifa officially began on January 6, 2004.
+B: Excavation for the Burj Khalifa officially began on January 6, 2003.
+C: Construction of the Burj Khalifa officially began on January 6, 2004.
+D: Excavation for the Burj Khalifa officially began on January 6, 2004, and was completed that same year.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "cult_arch_005", "question_id": "cult_arch_005.q03", "question_type": "mcq", "answer": "Excavation for the Burj Khalifa officially began on January 6, 2004.", "score": 1.0, "response_time_sec": 24.1, "domain": "cultural", "bucket": "point"}
+## AUTHORED: cult_arch_005.q04
+A: The Burj Khalifa excavation started on January 6, 2004.
+B: The Burj Khalifa excavation started on January 6, 2005.
+C: The Burj Dubai excavation started on January 6, 2004.
+D: The Burj Khalifa excavation started on June 1, 2004.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "cult_arch_005", "question_id": "cult_arch_005.q04", "question_type": "mcq", "answer": "The Burj Khalifa excavation started on June 1, 2004.", "score": 0.0, "response_time_sec": 13.1, "domain": "cultural", "bucket": "point"}
+## AUTHORED: cult_arch_005.q05
+A: On January 6, 2004, excavation for the Burj Khalifa officially commenced.
+B: On January 6, 2005, excavation for the Burj Khalifa officially commenced.
+C: On January 6, 2004, construction of the Burj Khalifa officially commenced.
+D: On January 6, 2004, excavation for the Petronas Towers officially commenced.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "cult_arch_005", "question_id": "cult_arch_005.q05", "question_type": "mcq", "answer": "On January 6, 2004, excavation for the Burj Khalifa officially commenced.", "score": 1.0, "response_time_sec": 24.3, "domain": "cultural", "bucket": "point"}
+{"participant_id": "llm_sim_p01", "explanation_id": "cult_art_000044", "question_id": "cult_art_000044.q01", "question_type": "mcq", "answer": "1960", "score": 1.0, "response_time_sec": 27.8, "domain": "cultural", "bucket": "sequence"}
+{"participant_id": "llm_sim_p01", "explanation_id": "cult_art_000044", "question_id": "cult_art_000044.q02", "question_type": "fill_blank", "answer": "Eva Hesse", "score": 1.0, "response_time_sec": 13.3, "domain": "cultural", "bucket": "sequence"}
+{"participant_id": "llm_sim_p01", "explanation_id": "cult_art_000044", "question_id": "cult_art_000044.q03", "question_type": "timeline", "answer": "1. Eva Hesse's drawings period (1960–1964)\n2. Eva Hesse's relief sculpture work (1965)\n3. Eva Hesse's latex and fiberglass works (1966–1970)", "score": null, "response_time_sec": 19.4, "domain": "cultural", "bucket": "sequence"}
+## AUTHORED: cult_art_000044.q04
+A: Eva Hesse worked with relief sculpture in 1965, between her drawings and her latex and fiberglass works.
+B: Eva Hesse worked with relief sculpture in 1966, between her drawings and her latex and fiberglass works.
+C: Eva Hesse worked with relief sculpture in 1965, after her latex and fiberglass works.
+D: Eva Hesse worked with paintings in 1965, between her drawings and her latex and fiberglass works.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "cult_art_000044", "question_id": "cult_art_000044.q04", "question_type": "mcq", "answer": "Eva Hesse worked with relief sculpture in 1965, between her drawings and her latex and fiberglass works.", "score": 1.0, "response_time_sec": 21.1, "domain": "cultural", "bucket": "sequence"}
+## AUTHORED: cult_art_000044.q05
+A: Eva Hesse's signature latex and fiberglass works spanned from 1966 to 1970.
+B: Eva Hesse's signature latex and fiberglass works spanned from 1965 to 1970.
+C: Eva Hesse's signature bronze and fiberglass works spanned from 1966 to 1970.
+D: Eva Hesse's signature latex and fiberglass works spanned from 1966 to 1972.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "cult_art_000044", "question_id": "cult_art_000044.q05", "question_type": "mcq", "answer": "Eva Hesse's signature latex and fiberglass works spanned from 1966 to 1970.", "score": 1.0, "response_time_sec": 13.9, "domain": "cultural", "bucket": "sequence"}
+{"participant_id": "llm_sim_p01", "explanation_id": "cult_000158", "question_id": "cult_000158.q01", "question_type": "mcq", "answer": "1780", "score": 1.0, "response_time_sec": 11.4, "domain": "cultural", "bucket": "sequence"}
+{"participant_id": "llm_sim_p01", "explanation_id": "cult_000158", "question_id": "cult_000158.q02", "question_type": "fill_blank", "answer": "Jacques-Louis David", "score": 1.0, "response_time_sec": 14.5, "domain": "cultural", "bucket": "sequence"}
+{"participant_id": "llm_sim_p01", "explanation_id": "cult_000158", "question_id": "cult_000158.q03", "question_type": "timeline", "answer": "1. Jacques-Louis David accepted royal commissions (1780s)\n2. Jacques-Louis David supported Jacobin revolutionary politics (1789–1794)\n3. Jacques-Louis David served Napoleon (1799–1815)", "score": null, "response_time_sec": 13.2, "domain": "cultural", "bucket": "sequence"}
+## AUTHORED: cult_000158.q04
+A: Jacques-Louis David moved from royal commissions to Jacobin revolutionary politics between 1789 and 1794.
+B: Jacques-Louis David moved from royal commissions to Napoleonic service between 1789 and 1794.
+C: Jacques-Louis David moved from Jacobin politics to royal commissions between 1789 and 1794.
+D: Jacques-Louis David moved from royal commissions to Jacobin revolutionary politics between 1795 and 1800.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "cult_000158", "question_id": "cult_000158.q04", "question_type": "mcq", "answer": "Jacques-Louis David moved from royal commissions to Jacobin revolutionary politics between 1789 and 1794.", "score": 1.0, "response_time_sec": 21.3, "domain": "cultural", "bucket": "sequence"}
+## AUTHORED: cult_000158.q05
+A: Jacques-Louis David served Napoleon from 1799 to 1815.
+B: Jacques-Louis David served Napoleon from 1794 to 1815.
+C: Jacques-Louis David served Napoleon from 1799 to 1821.
+D: Jacques-Louis David served Louis XVI from 1799 to 1815.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "cult_000158", "question_id": "cult_000158.q05", "question_type": "mcq", "answer": "Jacques-Louis David served Napoleon from 1799 to 1815.", "score": 1.0, "response_time_sec": 22.0, "domain": "cultural", "bucket": "sequence"}
+{"participant_id": "llm_sim_p01", "explanation_id": "sport_040", "question_id": "sport_040.q01", "question_type": "mcq", "answer": "2025", "score": 1.0, "response_time_sec": 8.6, "domain": "historical", "bucket": "overlap"}
+{"participant_id": "llm_sim_p01", "explanation_id": "sport_040", "question_id": "sport_040.q02", "question_type": "fill_blank", "answer": "2025 Champions League Final", "score": 1.0, "response_time_sec": 13.1, "domain": "historical", "bucket": "overlap"}
+## AUTHORED: sport_040.q03
+A: The 2025 UEFA Champions League final was held on May 31, 2025.
+B: The 2025 UEFA Champions League final was held on May 31, 2024.
+C: The 2025 UEFA Europa League final was held on May 31, 2025.
+D: The 2025 UEFA Champions League final was held on June 1, 2025.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "sport_040", "question_id": "sport_040.q03", "question_type": "mcq", "answer": "The 2025 UEFA Champions League final was held on June 1, 2025.", "score": 0.0, "response_time_sec": 18.1, "domain": "historical", "bucket": "overlap"}
+## AUTHORED: sport_040.q04
+A: The 2025 Champions League final fits the typical late-spring scheduling of European football season-ending matches.
+B: The 2025 Champions League final fits the typical mid-winter scheduling of European football season-ending matches.
+C: The 2025 Champions League final on May 31, 2026 fits the typical late-spring scheduling.
+D: The 2025 Champions League final on May 31, 2025 broke from the typical scheduling pattern for European finals.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "sport_040", "question_id": "sport_040.q04", "question_type": "mcq", "answer": "The 2025 Champions League final fits the typical late-spring scheduling of European football season-ending matches.", "score": 1.0, "response_time_sec": 6.8, "domain": "historical", "bucket": "overlap"}
+## AUTHORED: sport_040.q05
+A: May 31, 2025 is consistent with European football's late-spring scheduling for season-ending finals.
+B: May 31, 2025 is inconsistent with European football's late-spring scheduling for season-ending finals.
+C: May 31, 2024 is consistent with European football's late-spring scheduling for the 2025 Champions League final.
+D: May 31, 2025 is consistent with European football's early-autumn scheduling for season-ending finals.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "sport_040", "question_id": "sport_040.q05", "question_type": "mcq", "answer": "May 31, 2025 is consistent with European football's late-spring scheduling for season-ending finals.", "score": 1.0, "response_time_sec": 8.2, "domain": "historical", "bucket": "overlap"}
+{"participant_id": "llm_sim_p01", "explanation_id": "pat_000012", "question_id": "pat_000012.q01", "question_type": "mcq", "answer": "1965", "score": 1.0, "response_time_sec": 23.8, "domain": "technical", "bucket": "point"}
+{"participant_id": "llm_sim_p01", "explanation_id": "pat_000012", "question_id": "pat_000012.q02", "question_type": "fill_blank", "answer": "Nick Holonyak Jr.", "score": 1.0, "response_time_sec": 21.8, "domain": "technical", "bucket": "point"}
+## AUTHORED: pat_000012.q03
+A: Nick Holonyak Jr. received US Patent 3,249,953 for the visible-spectrum LED on July 6, 1965.
+B: Nick Holonyak Jr. received US Patent 3,249,953 for the visible-spectrum LED on July 6, 1964.
+C: Nick Holonyak Jr. received US Patent 3,249,953 for the infrared LED on July 6, 1965.
+D: Robert Hall received US Patent 3,249,953 for the visible-spectrum LED on July 6, 1965.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "pat_000012", "question_id": "pat_000012.q03", "question_type": "mcq", "answer": "Nick Holonyak Jr. received US Patent 3,249,953 for the visible-spectrum LED on July 6, 1965.", "score": 1.0, "response_time_sec": 7.4, "domain": "technical", "bucket": "point"}
+## AUTHORED: pat_000012.q04
+A: US Patent 3,249,953, awarded to Nick Holonyak Jr. on July 6, 1965, covers the visible-spectrum LED.
+B: US Patent 3,249,953, awarded to Nick Holonyak Jr. on July 6, 1966, covers the visible-spectrum LED.
+C: US Patent 3,249,852, awarded to Nick Holonyak Jr. on July 6, 1965, covers the visible-spectrum LED.
+D: US Patent 3,249,953, awarded to Nick Holonyak Jr. on July 6, 1965, covers the infrared LED.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "pat_000012", "question_id": "pat_000012.q04", "question_type": "mcq", "answer": "US Patent 3,249,953, awarded to Nick Holonyak Jr. on July 6, 1965, covers the visible-spectrum LED.", "score": 1.0, "response_time_sec": 12.6, "domain": "technical", "bucket": "point"}
+## AUTHORED: pat_000012.q05
+A: The visible-spectrum LED patent (US 3,249,953) was granted to Nick Holonyak Jr. in 1965.
+B: The visible-spectrum LED patent (US 3,249,953) was granted to Nick Holonyak Jr. in 1960.
+C: The visible-spectrum laser patent (US 3,249,953) was granted to Nick Holonyak Jr. in 1965.
+D: The visible-spectrum LED patent (US 3,249,953) was filed by Nick Holonyak Jr. in 1965.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "pat_000012", "question_id": "pat_000012.q05", "question_type": "mcq", "answer": "The visible-spectrum LED patent (US 3,249,953) was granted to Nick Holonyak Jr. in 1965.", "score": 1.0, "response_time_sec": 16.4, "domain": "technical", "bucket": "point"}
+{"participant_id": "llm_sim_p01", "explanation_id": "sport_044", "question_id": "sport_044.q01", "question_type": "fill_blank", "answer": "Fairness preservation", "score": 1.0, "response_time_sec": 9.7, "domain": "historical", "bucket": "overlap"}
+## AUTHORED: sport_044.q02
+A: The World Cup schedules the final group matches simultaneously to preserve fairness in group play.
+B: The World Cup schedules the final group matches simultaneously to maximize television revenue.
+C: The World Cup schedules the quarter-final matches simultaneously to preserve fairness.
+D: The World Cup schedules the final group matches on different days to preserve fairness in group play.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "sport_044", "question_id": "sport_044.q02", "question_type": "mcq", "answer": "The World Cup schedules the final group matches simultaneously to preserve fairness in group play.", "score": 1.0, "response_time_sec": 15.3, "domain": "historical", "bucket": "overlap"}
+## AUTHORED: sport_044.q03
+A: Fairness in group play is the reason World Cup final group-stage matches are played at the same time.
+B: Increased viewership is the reason World Cup final group-stage matches are played at the same time.
+C: Fairness in group play is the reason World Cup quarter-final matches are played at the same time.
+D: Fairness in group play is the reason World Cup final group-stage matches are played on different days.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "sport_044", "question_id": "sport_044.q03", "question_type": "mcq", "answer": "Fairness in group play is the reason World Cup final group-stage matches are played at the same time.", "score": 1.0, "response_time_sec": 22.4, "domain": "historical", "bucket": "overlap"}
+## AUTHORED: sport_044.q04
+A: Simultaneous final group matches in the World Cup are a measure to ensure fair competition.
+B: Simultaneous final group matches in the World Cup are a measure to ensure maximum broadcast revenue.
+C: Sequential final group matches in the World Cup are a measure to ensure fair competition.
+D: Simultaneous quarter-final matches in the World Cup are a measure to ensure fair competition.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "sport_044", "question_id": "sport_044.q04", "question_type": "mcq", "answer": "Simultaneous final group matches in the World Cup are a measure to ensure fair competition.", "score": 1.0, "response_time_sec": 19.8, "domain": "historical", "bucket": "overlap"}
+## AUTHORED: sport_044.q05
+A: The World Cup uses simultaneous final group-stage scheduling to prevent teams from gaining an unfair advantage.
+B: The World Cup uses simultaneous final group-stage scheduling to prevent fixture congestion.
+C: FIFA uses simultaneous knockout-stage scheduling to prevent teams from gaining an unfair advantage.
+D: The World Cup uses sequential final group-stage scheduling to prevent teams from gaining an unfair advantage.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "sport_044", "question_id": "sport_044.q05", "question_type": "mcq", "answer": "The World Cup uses simultaneous final group-stage scheduling to prevent teams from gaining an unfair advantage.", "score": 1.0, "response_time_sec": 7.1, "domain": "historical", "bucket": "overlap"}
+{"participant_id": "llm_sim_p01", "explanation_id": "biz_000033", "question_id": "biz_000033.q01", "question_type": "mcq", "answer": "2007", "score": 1.0, "response_time_sec": 14.7, "domain": "['financial', 'technical']", "bucket": "overlap"}
+{"participant_id": "llm_sim_p01", "explanation_id": "biz_000033", "question_id": "biz_000033.q02", "question_type": "fill_blank", "answer": "Google", "score": 1.0, "response_time_sec": 20.5, "domain": "['financial', 'technical']", "bucket": "overlap"}
+## AUTHORED: biz_000033.q03
+A: Google acquired Postini on July 9, 2007, and Microsoft acquired aQuantive on August 13, 2007.
+B: Google acquired Postini on July 9, 2008, and Microsoft acquired aQuantive on August 13, 2007.
+C: Google acquired aQuantive on July 9, 2007, and Microsoft acquired Postini on August 13, 2007.
+D: Google acquired Postini on July 9, 2007, and Microsoft acquired aQuantive on August 13, 2008.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "biz_000033", "question_id": "biz_000033.q03", "question_type": "mcq", "answer": "Google acquired Postini on July 9, 2007, and Microsoft acquired aQuantive on August 13, 2007.", "score": 1.0, "response_time_sec": 17.2, "domain": "['financial', 'technical']", "bucket": "overlap"}
+## AUTHORED: biz_000033.q04
+A: Both acquisitions — Google's of Postini and Microsoft's of aQuantive — occurred in 2007.
+B: Both acquisitions — Google's of Postini and Microsoft's of aQuantive — occurred in 2008.
+C: Both acquisitions — Google's of aQuantive and Microsoft's of Postini — occurred in 2007.
+D: Both acquisitions occurred in 2007, with Google's deal closing first.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "biz_000033", "question_id": "biz_000033.q04", "question_type": "mcq", "answer": "Both acquisitions — Google's of Postini and Microsoft's of aQuantive — occurred in 2007.", "score": 1.0, "response_time_sec": 25.9, "domain": "['financial', 'technical']", "bucket": "overlap"}
+## AUTHORED: biz_000033.q05
+A: Microsoft acquired aQuantive in August 2007, about a month after Google's acquisition of Postini.
+B: Microsoft acquired aQuantive in August 2007, about a month before Google's acquisition of Postini.
+C: Microsoft acquired aQuantive in August 2008, about a month after Google's acquisition of Postini.
+D: Google acquired aQuantive in August 2007, about a month after Microsoft's acquisition of Postini.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "biz_000033", "question_id": "biz_000033.q05", "question_type": "mcq", "answer": "Microsoft acquired aQuantive in August 2007, about a month after Google's acquisition of Postini.", "score": 1.0, "response_time_sec": 9.9, "domain": "['financial', 'technical']", "bucket": "overlap"}
+{"participant_id": "llm_sim_p01", "explanation_id": "biz_000035", "question_id": "biz_000035.q01", "question_type": "mcq", "answer": "2013", "score": 1.0, "response_time_sec": 18.3, "domain": "business", "bucket": "point"}
+{"participant_id": "llm_sim_p01", "explanation_id": "biz_000035", "question_id": "biz_000035.q02", "question_type": "fill_blank", "answer": "AbbVie", "score": 1.0, "response_time_sec": 23.6, "domain": "business", "bucket": "point"}
+## AUTHORED: biz_000035.q03
+A: AbbVie spun off from Abbott Laboratories and became independent on January 1, 2013.
+B: AbbVie spun off from Abbott Laboratories and became independent on January 1, 2014.
+C: AbbVie was acquired by Abbott Laboratories and became independent on January 1, 2013.
+D: AbbVie spun off from AstraZeneca and became independent on January 1, 2013.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "biz_000035", "question_id": "biz_000035.q03", "question_type": "mcq", "answer": "AbbVie spun off from Abbott Laboratories and became independent on January 1, 2013.", "score": 1.0, "response_time_sec": 14.0, "domain": "business", "bucket": "point"}
+## AUTHORED: biz_000035.q04
+A: AbbVie became an independent company on January 1, 2013, following its spin-off from Abbott Laboratories.
+B: AbbVie became an independent company on January 1, 2012, following its spin-off from Abbott Laboratories.
+C: AbbVie became an independent company on January 1, 2013, following its merger with Abbott Laboratories.
+D: Abbott Laboratories became an independent company on January 1, 2013, following its spin-off from AbbVie.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "biz_000035", "question_id": "biz_000035.q04", "question_type": "mcq", "answer": "AbbVie became an independent company on January 1, 2013, following its spin-off from Abbott Laboratories.", "score": 1.0, "response_time_sec": 10.8, "domain": "business", "bucket": "point"}
+## AUTHORED: biz_000035.q05
+A: Abbott Laboratories spun off AbbVie on the first day of 2013.
+B: Abbott Laboratories spun off AbbVie on the first day of 2014.
+C: AbbVie spun off Abbott Laboratories on the first day of 2013.
+D: Abbott Laboratories spun off AbbVie on the first day of 2013, after a bankruptcy process.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "biz_000035", "question_id": "biz_000035.q05", "question_type": "mcq", "answer": "Abbott Laboratories spun off AbbVie on the first day of 2013.", "score": 1.0, "response_time_sec": 7.3, "domain": "business", "bucket": "point"}
+{"participant_id": "llm_sim_p01", "explanation_id": "hist_000339", "question_id": "hist_000339.q01", "question_type": "mcq", "answer": "2004", "score": 1.0, "response_time_sec": 11.5, "domain": "historical", "bucket": "point"}
+{"participant_id": "llm_sim_p01", "explanation_id": "hist_000339", "question_id": "hist_000339.q02", "question_type": "fill_blank", "answer": "Abraj Al Bait", "score": 1.0, "response_time_sec": 19.7, "domain": "historical", "bucket": "point"}
+## AUTHORED: hist_000339.q03
+A: Construction of the Abraj Al Bait complex in Mecca began in 2004.
+B: Construction of the Abraj Al Bait complex in Mecca began in 2005.
+C: Construction of the Abraj Al Bait complex in Medina began in 2004.
+D: Completion of the Abraj Al Bait complex in Mecca occurred in 2004.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "hist_000339", "question_id": "hist_000339.q03", "question_type": "mcq", "answer": "Construction of the Abraj Al Bait complex in Mecca began in 2004.", "score": 1.0, "response_time_sec": 16.6, "domain": "historical", "bucket": "point"}
+## AUTHORED: hist_000339.q04
+A: The Abraj Al Bait complex construction in Mecca started in 2004.
+B: The Abraj Al Bait complex construction in Mecca started in 2003.
+C: The Burj Khalifa complex construction in Mecca started in 2004.
+D: The Abraj Al Bait complex construction in Dubai started in 2004.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "hist_000339", "question_id": "hist_000339.q04", "question_type": "mcq", "answer": "The Abraj Al Bait complex construction in Mecca started in 2004.", "score": 1.0, "response_time_sec": 24.9, "domain": "historical", "bucket": "point"}
+## AUTHORED: hist_000339.q05
+A: In 2004, work began on the Abraj Al Bait complex located in Mecca.
+B: In 2009, work began on the Abraj Al Bait complex located in Mecca.
+C: In 2004, work began on the Abraj Al Bait complex located in Riyadh.
+D: In 2004, work concluded on the Abraj Al Bait complex located in Mecca.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "hist_000339", "question_id": "hist_000339.q05", "question_type": "mcq", "answer": "In 2004, work began on the Abraj Al Bait complex located in Mecca.", "score": 1.0, "response_time_sec": 8.9, "domain": "historical", "bucket": "point"}
+{"participant_id": "llm_sim_p01", "explanation_id": "cult_000408", "question_id": "cult_000408.q01", "question_type": "mcq", "answer": "2002", "score": 1.0, "response_time_sec": 20.4, "domain": "cultural", "bucket": "point"}
+{"participant_id": "llm_sim_p01", "explanation_id": "cult_000408", "question_id": "cult_000408.q02", "question_type": "fill_blank", "answer": "Adrien Brody", "score": 1.0, "response_time_sec": 17.1, "domain": "cultural", "bucket": "point"}
+## AUTHORED: cult_000408.q03
+A: Adrien Brody won Best Actor at the 2002 awards ceremony for his role in The Pianist at age 29.
+B: Adrien Brody won Best Actor at the 2003 awards ceremony for his role in The Pianist at age 29.
+C: Adrien Brody won Best Actor at the 2002 awards ceremony for his role in The Pianist at age 30.
+D: Jake Gyllenhaal won Best Actor at the 2002 awards ceremony for his role in The Pianist at age 29.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "cult_000408", "question_id": "cult_000408.q03", "question_type": "mcq", "answer": "Adrien Brody won Best Actor at the 2002 awards ceremony for his role in The Pianist at age 29.", "score": 1.0, "response_time_sec": 13.4, "domain": "cultural", "bucket": "point"}
+## AUTHORED: cult_000408.q04
+A: Adrien Brody holds the record as the youngest Best Actor winner, having won in 2002 for The Pianist.
+B: Adrien Brody holds the record as the youngest Best Actor winner, having won in 2001 for The Pianist.
+C: Adrien Brody holds the record as the youngest Best Supporting Actor winner, having won in 2002 for The Pianist.
+D: Adrien Brody holds the record as the youngest Best Actor winner, having won in 2002 for The Pianist at age 25.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "cult_000408", "question_id": "cult_000408.q04", "question_type": "mcq", "answer": "Adrien Brody holds the record as the youngest Best Actor winner, having won in 2002 for The Pianist.", "score": 1.0, "response_time_sec": 9.2, "domain": "cultural", "bucket": "point"}
+## AUTHORED: cult_000408.q05
+A: At 29, Adrien Brody became the youngest person to win the Academy Award for Best Actor, in the awards year 2002.
+B: At 29, Adrien Brody became the youngest person to win the Academy Award for Best Actor, in the awards year 2003.
+C: At 27, Adrien Brody became the youngest person to win the Academy Award for Best Actor, in the awards year 2002.
+D: At 29, Adrien Brody became the youngest person to win the Academy Award for Best Director, in the awards year 2002.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "cult_000408", "question_id": "cult_000408.q05", "question_type": "mcq", "answer": "At 29, Adrien Brody became the youngest person to win the Academy Award for Best Actor, in the awards year 2002.", "score": 1.0, "response_time_sec": 26.7, "domain": "cultural", "bucket": "point"}
+{"participant_id": "llm_sim_p01", "explanation_id": "infra_00102", "question_id": "infra_00102.q01", "question_type": "mcq", "answer": "2021", "score": 1.0, "response_time_sec": 15.6, "domain": "business", "bucket": "causal"}
+{"participant_id": "llm_sim_p01", "explanation_id": "infra_00102", "question_id": "infra_00102.q02", "question_type": "fill_blank", "answer": "Sound Transit Link extensions opening", "score": 1.0, "response_time_sec": 22.0, "domain": "business", "bucket": "causal"}
+{"participant_id": "llm_sim_p01", "explanation_id": "infra_00102", "question_id": "infra_00102.q03", "question_type": "inference", "answer": "If the Sound Transit Link extensions had not opened in 2021, Northgate and other Seattle suburbs would likely have remained without light rail access, leaving residents dependent on buses or cars for transit into the city.", "score": null, "response_time_sec": 25.3, "domain": "business", "bucket": "causal"}
+## AUTHORED: infra_00102.q04
+A: The 2021 opening of Sound Transit Link extensions brought light rail to Northgate and other Seattle suburbs.
+B: The 2022 opening of Sound Transit Link extensions brought light rail to Northgate and other Seattle suburbs.
+C: The 2021 opening of Sound Transit Link extensions brought bus rapid transit to Northgate and other Seattle suburbs.
+D: The 2021 opening of Sound Transit Link extensions brought light rail exclusively to Northgate.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "infra_00102", "question_id": "infra_00102.q04", "question_type": "mcq", "answer": "The 2021 opening of Sound Transit Link extensions brought light rail to Northgate and other Seattle suburbs.", "score": 1.0, "response_time_sec": 11.4, "domain": "business", "bucket": "causal"}
+## AUTHORED: infra_00102.q05
+A: Sound Transit Link extensions opened in 2021 and connected Northgate and other suburbs to the light rail network.
+B: Sound Transit Link extensions opened in 2020 and connected Northgate and other suburbs to the light rail network.
+C: Sound Transit Link extensions opened in 2021 and connected Bellevue and other suburbs to the light rail network.
+D: Sound Transit Bus extensions opened in 2021 and connected Northgate and other suburbs to the light rail network.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "infra_00102", "question_id": "infra_00102.q05", "question_type": "mcq", "answer": "Sound Transit Link extensions opened in 2021 and connected Northgate and other suburbs to the light rail network.", "score": 1.0, "response_time_sec": 8.7, "domain": "business", "bucket": "causal"}
+{"participant_id": "llm_sim_p01", "explanation_id": "sport_092", "question_id": "sport_092.q01", "question_type": "mcq", "answer": "2018", "score": 1.0, "response_time_sec": 13.9, "domain": "historical", "bucket": "sequence"}
+{"participant_id": "llm_sim_p01", "explanation_id": "sport_092", "question_id": "sport_092.q02", "question_type": "fill_blank", "answer": "2018 FIFA World Cup Final", "score": 1.0, "response_time_sec": 21.3, "domain": "historical", "bucket": "sequence"}
+{"participant_id": "llm_sim_p01", "explanation_id": "sport_092", "question_id": "sport_092.q03", "question_type": "timeline", "answer": "1. 2018 FIFA World Cup Final (July 15, 2018)\n2. Euro 2020 Final (July 11, 2021)\n3. 2022 FIFA World Cup Final (December 18, 2022)", "score": null, "response_time_sec": 18.6, "domain": "historical", "bucket": "sequence"}
+## AUTHORED: sport_092.q04
+A: The Euro 2020 final was held on July 11, 2021, between the two World Cup finals of 2018 and 2022.
+B: The Euro 2020 final was held on July 11, 2020, between the two World Cup finals of 2018 and 2022.
+C: The Euro 2020 final was held on July 11, 2021, after both the 2018 and 2022 World Cup finals.
+D: The Euro 2020 final was held on July 11, 2021, before both the 2018 and 2022 World Cup finals.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "sport_092", "question_id": "sport_092.q04", "question_type": "mcq", "answer": "The Euro 2020 final was held on July 11, 2021, between the two World Cup finals of 2018 and 2022.", "score": 1.0, "response_time_sec": 16.1, "domain": "historical", "bucket": "sequence"}
+## AUTHORED: sport_092.q05
+A: The 2022 FIFA World Cup Final took place on December 18, 2022.
+B: The 2022 FIFA World Cup Final took place on December 18, 2021.
+C: The 2022 FIFA World Cup Final took place on July 18, 2022.
+D: The 2022 UEFA Champions League Final took place on December 18, 2022.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "sport_092", "question_id": "sport_092.q05", "question_type": "mcq", "answer": "The 2022 FIFA World Cup Final took place on December 18, 2022.", "score": 1.0, "response_time_sec": 7.5, "domain": "historical", "bucket": "sequence"}
+{"participant_id": "llm_sim_p01", "explanation_id": "cult_000305", "question_id": "cult_000305.q01", "question_type": "mcq", "answer": "1956", "score": 1.0, "response_time_sec": 22.3, "domain": "cultural", "bucket": "causal"}
+{"participant_id": "llm_sim_p01", "explanation_id": "cult_000305", "question_id": "cult_000305.q02", "question_type": "fill_blank", "answer": "This Is Tomorrow exhibition", "score": 1.0, "response_time_sec": 25.4, "domain": "cultural", "bucket": "causal"}
+{"participant_id": "llm_sim_p01", "explanation_id": "cult_000305", "question_id": "cult_000305.q03", "question_type": "inference", "answer": "Without the 1956 'This Is Tomorrow' exhibition and Richard Hamilton's collage, the Pop Art aesthetic might have taken longer to gain mainstream recognition, potentially delaying or altering the movement's development in Britain.", "score": null, "response_time_sec": 19.9, "domain": "cultural", "bucket": "causal"}
+## AUTHORED: cult_000305.q04
+A: The 1956 'This Is Tomorrow' exhibition helped popularize Pop Art through Richard Hamilton's collage.
+B: The 1957 'This Is Tomorrow' exhibition helped popularize Pop Art through Richard Hamilton's collage.
+C: The 1956 'This Is Tomorrow' exhibition helped popularize Surrealism through Richard Hamilton's collage.
+D: The 1956 'Pop Art' exhibition helped popularize Pop Art through Richard Hamilton's collage.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "cult_000305", "question_id": "cult_000305.q04", "question_type": "mcq", "answer": "The 1956 'This Is Tomorrow' exhibition helped popularize Pop Art through Richard Hamilton's collage.", "score": 1.0, "response_time_sec": 24.6, "domain": "cultural", "bucket": "causal"}
+## AUTHORED: cult_000305.q05
+A: Richard Hamilton's collage at the 1956 'This Is Tomorrow' exhibition was instrumental in spreading the Pop Art aesthetic.
+B: Richard Hamilton's painting at the 1956 'This Is Tomorrow' exhibition was instrumental in spreading the Pop Art aesthetic.
+C: Andy Warhol's collage at the 1956 'This Is Tomorrow' exhibition was instrumental in spreading the Pop Art aesthetic.
+D: Richard Hamilton's collage at the 1966 'This Is Tomorrow' exhibition was instrumental in spreading the Pop Art aesthetic.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "cult_000305", "question_id": "cult_000305.q05", "question_type": "mcq", "answer": "Richard Hamilton's collage at the 1956 'This Is Tomorrow' exhibition was instrumental in spreading the Pop Art aesthetic.", "score": 1.0, "response_time_sec": 23.6, "domain": "cultural", "bucket": "causal"}
+{"participant_id": "llm_sim_p01", "explanation_id": "crises_000015", "question_id": "crises_000015.q01", "question_type": "mcq", "answer": "2000", "score": 1.0, "response_time_sec": 8.9, "domain": "financial", "bucket": "point"}
+{"participant_id": "llm_sim_p01", "explanation_id": "crises_000015", "question_id": "crises_000015.q02", "question_type": "fill_blank", "answer": "AOL", "score": 1.0, "response_time_sec": 19.1, "domain": "financial", "bucket": "point"}
+## AUTHORED: crises_000015.q03
+A: AOL announced its merger with Time Warner on January 10, 2000, symbolizing dot-com excess.
+B: AOL announced its merger with Time Warner on January 10, 2001, symbolizing dot-com excess.
+C: Time Warner announced its merger with AOL on January 10, 2000, symbolizing dot-com excess.
+D: AOL announced its merger with NBC on January 10, 2000, symbolizing dot-com excess.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "crises_000015", "question_id": "crises_000015.q03", "question_type": "mcq", "answer": "AOL announced its merger with Time Warner on January 10, 2000, symbolizing dot-com excess.", "score": 1.0, "response_time_sec": 24.3, "domain": "financial", "bucket": "point"}
+## AUTHORED: crises_000015.q04
+A: The AOL-Time Warner merger, announced on January 10, 2000, is often seen as a symbol of dot-com excess.
+B: The AOL-Time Warner merger, announced on January 10, 1999, is often seen as a symbol of dot-com excess.
+C: The AOL-Time Warner merger, announced on January 10, 2000, is often seen as a symbol of sound internet investment.
+D: The AOL-Disney merger, announced on January 10, 2000, is often seen as a symbol of dot-com excess.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "crises_000015", "question_id": "crises_000015.q04", "question_type": "mcq", "answer": "The AOL-Time Warner merger, announced on January 10, 2000, is often seen as a symbol of dot-com excess.", "score": 1.0, "response_time_sec": 19.4, "domain": "financial", "bucket": "point"}
+## AUTHORED: crises_000015.q05
+A: AOL's merger with Time Warner was announced on January 10, 2000.
+B: AOL's merger with Time Warner was announced on January 10, 2002.
+C: AOL's acquisition of Time Warner was completed on January 10, 2000.
+D: Netflix's merger with Time Warner was announced on January 10, 2000.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "crises_000015", "question_id": "crises_000015.q05", "question_type": "mcq", "answer": "AOL's merger with Time Warner was announced on January 10, 2002.", "score": 0.0, "response_time_sec": 14.1, "domain": "financial", "bucket": "point"}
+{"participant_id": "llm_sim_p01", "explanation_id": "sport_054", "question_id": "sport_054.q01", "question_type": "mcq", "answer": "1968", "score": 1.0, "response_time_sec": 17.3, "domain": "historical", "bucket": "sequence"}
+{"participant_id": "llm_sim_p01", "explanation_id": "sport_054", "question_id": "sport_054.q02", "question_type": "fill_blank", "answer": "Mexico City", "score": 1.0, "response_time_sec": 22.9, "domain": "historical", "bucket": "sequence"}
+{"participant_id": "llm_sim_p01", "explanation_id": "sport_054", "question_id": "sport_054.q03", "question_type": "timeline", "answer": "1. Mexico City hosted the 1968 Summer Olympics (1968)\n2. Estadio Azteca hosted the 1970 FIFA World Cup Final (1970)\n3. Estadio Azteca hosted the 1986 FIFA World Cup Final (1986)", "score": null, "response_time_sec": 13.9, "domain": "historical", "bucket": "sequence"}
+## AUTHORED: sport_054.q04
+A: Estadio Azteca hosted FIFA World Cup finals in both 1970 and 1986.
+B: Estadio Azteca hosted FIFA World Cup finals in both 1970 and 1982.
+C: Estadio Azteca hosted the FIFA World Cup final only once, in 1970.
+D: Estadio Olimpico hosted FIFA World Cup finals in both 1970 and 1986.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "sport_054", "question_id": "sport_054.q04", "question_type": "mcq", "answer": "Estadio Azteca hosted FIFA World Cup finals in both 1970 and 1986.", "score": 1.0, "response_time_sec": 15.8, "domain": "historical", "bucket": "sequence"}
+## AUTHORED: sport_054.q05
+A: Mexico City hosted the 1968 Summer Olympics before Estadio Azteca hosted two World Cup finals.
+B: Mexico City hosted the 1972 Summer Olympics before Estadio Azteca hosted two World Cup finals.
+C: Mexico City hosted the 1968 Summer Olympics after Estadio Azteca hosted two World Cup finals.
+D: Guadalajara hosted the 1968 Summer Olympics before Estadio Azteca hosted two World Cup finals.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "sport_054", "question_id": "sport_054.q05", "question_type": "mcq", "answer": "Mexico City hosted the 1968 Summer Olympics before Estadio Azteca hosted two World Cup finals.", "score": 1.0, "response_time_sec": 25.9, "domain": "historical", "bucket": "sequence"}
+{"participant_id": "llm_sim_p01", "explanation_id": "sport_010", "question_id": "sport_010.q01", "question_type": "mcq", "answer": "1928", "score": 1.0, "response_time_sec": 16.4, "domain": "historical", "bucket": "overlap"}
+{"participant_id": "llm_sim_p01", "explanation_id": "sport_010", "question_id": "sport_010.q02", "question_type": "fill_blank", "answer": "St.", "score": 0.5, "response_time_sec": 18.5, "domain": "historical", "bucket": "overlap"}
+## AUTHORED: sport_010.q03
+A: In 1928, both the St. Moritz Winter Olympics and the Amsterdam Summer Olympics were held.
+B: In 1928, both the Oslo Winter Olympics and the Amsterdam Summer Olympics were held.
+C: In 1928, both the St. Moritz Winter Olympics and the Paris Summer Olympics were held.
+D: In 1929, both the St. Moritz Winter Olympics and the Amsterdam Summer Olympics were held.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "sport_010", "question_id": "sport_010.q03", "question_type": "mcq", "answer": "In 1928, both the St. Moritz Winter Olympics and the Amsterdam Summer Olympics were held.", "score": 1.0, "response_time_sec": 13.3, "domain": "historical", "bucket": "overlap"}
+## AUTHORED: sport_010.q04
+A: The 1928 St. Moritz Winter Olympics ran from February 11 to 19.
+B: The 1928 St. Moritz Winter Olympics ran from February 11 to 29.
+C: The 1928 St. Moritz Winter Olympics ran from January 11 to 19.
+D: The 1928 Innsbruck Winter Olympics ran from February 11 to 19.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "sport_010", "question_id": "sport_010.q04", "question_type": "mcq", "answer": "The 1928 St. Moritz Winter Olympics ran from February 11 to 19.", "score": 1.0, "response_time_sec": 14.4, "domain": "historical", "bucket": "overlap"}
+## AUTHORED: sport_010.q05
+A: The 1928 Amsterdam Summer Olympics ran from July 28 to August 12.
+B: The 1928 Amsterdam Summer Olympics ran from July 28 to August 22.
+C: The 1928 Amsterdam Summer Olympics ran from June 28 to August 12.
+D: The 1928 Rotterdam Summer Olympics ran from July 28 to August 12.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "sport_010", "question_id": "sport_010.q05", "question_type": "mcq", "answer": "The 1928 Amsterdam Summer Olympics ran from July 28 to August 12.", "score": 1.0, "response_time_sec": 20.5, "domain": "historical", "bucket": "overlap"}
+{"participant_id": "llm_sim_p01", "explanation_id": "cult_art_000040", "question_id": "cult_art_000040.q01", "question_type": "mcq", "answer": "2013", "score": 1.0, "response_time_sec": 24.1, "domain": "cultural", "bucket": "point"}
+{"participant_id": "llm_sim_p01", "explanation_id": "cult_art_000040", "question_id": "cult_art_000040.q02", "question_type": "fill_blank", "answer": "Hahn/Cock", "score": 1.0, "response_time_sec": 16.9, "domain": "cultural", "bucket": "point"}
+## AUTHORED: cult_art_000040.q03
+A: Katharina Fritsch's Hahn/Cock was installed on Trafalgar Square's Fourth Plinth on July 25, 2013.
+B: Katharina Fritsch's Hahn/Cock was installed on Trafalgar Square's Fourth Plinth on July 25, 2014.
+C: Katharina Fritsch's Hahn/Cock was installed on Trafalgar Square's Fourth Plinth on July 25, 2012.
+D: Katharina Fritsch's Hahn/Cock was installed on Trafalgar Square's Third Plinth on July 25, 2013.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "cult_art_000040", "question_id": "cult_art_000040.q03", "question_type": "mcq", "answer": "Katharina Fritsch's Hahn/Cock was installed on Trafalgar Square's Fourth Plinth on July 25, 2013.", "score": 1.0, "response_time_sec": 19.1, "domain": "cultural", "bucket": "point"}
+## AUTHORED: cult_art_000040.q04
+A: Hahn/Cock, a work by Katharina Fritsch, occupied Trafalgar Square's Fourth Plinth from July 25, 2013.
+B: Hahn/Cock, a work by Katharina Fritsch, occupied Trafalgar Square's Fourth Plinth from July 25, 2012.
+C: Hahn/Cock, a work by Marc Quinn, occupied Trafalgar Square's Fourth Plinth from July 25, 2013.
+D: Hahn/Cock, a work by Katharina Fritsch, occupied Trafalgar Square's Fourth Plinth from July 25, 2014.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "cult_art_000040", "question_id": "cult_art_000040.q04", "question_type": "mcq", "answer": "Hahn/Cock, a work by Katharina Fritsch, occupied Trafalgar Square's Fourth Plinth from July 25, 2013.", "score": 1.0, "response_time_sec": 22.4, "domain": "cultural", "bucket": "point"}
+## AUTHORED: cult_art_000040.q05
+A: On July 25, 2013, Katharina Fritsch's blue cockerel sculpture was unveiled on Trafalgar Square's Fourth Plinth.
+B: On July 25, 2014, Katharina Fritsch's blue cockerel sculpture was unveiled on Trafalgar Square's Fourth Plinth.
+C: On July 25, 2013, Katharina Fritsch's blue cockerel sculpture was unveiled on Trafalgar Square's Third Plinth.
+D: On July 25, 2013, Damien Hirst's blue cockerel sculpture was unveiled on Trafalgar Square's Fourth Plinth.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "cult_art_000040", "question_id": "cult_art_000040.q05", "question_type": "mcq", "answer": "On July 25, 2013, Katharina Fritsch's blue cockerel sculpture was unveiled on Trafalgar Square's Fourth Plinth.", "score": 1.0, "response_time_sec": 16.3, "domain": "cultural", "bucket": "point"}
+{"participant_id": "llm_sim_p01", "explanation_id": "curr_000080", "question_id": "curr_000080.q01", "question_type": "mcq", "answer": "1993", "score": 1.0, "response_time_sec": 7.6, "domain": "financial", "bucket": "causal"}
+{"participant_id": "llm_sim_p01", "explanation_id": "curr_000080", "question_id": "curr_000080.q02", "question_type": "fill_blank", "answer": "Inflation/Large", "score": 0.5, "response_time_sec": 13.5, "domain": "financial", "bucket": "causal"}
+{"participant_id": "llm_sim_p01", "explanation_id": "curr_000080", "question_id": "curr_000080.q03", "question_type": "inference", "answer": "If inflation had not made the old peso denominations unwieldy, Mexico would likely not have redenominated its currency in 1993, and the 1,000-to-1 conversion would not have occurred.", "score": null, "response_time_sec": 20.8, "domain": "financial", "bucket": "causal"}
+## AUTHORED: curr_000080.q04
+A: Mexico redenominated in 1993 because inflation had made large nominal denominations unwieldy, converting 1,000 old pesos to 1 new peso.
+B: Mexico redenominated in 1994 because inflation had made large nominal denominations unwieldy, converting 1,000 old pesos to 1 new peso.
+C: Mexico redenominated in 1993 because deflation had made large nominal denominations unwieldy, converting 1,000 old pesos to 1 new peso.
+D: Mexico redenominated in 1993 because inflation had made large nominal denominations unwieldy, converting 100 old pesos to 1 new peso.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "curr_000080", "question_id": "curr_000080.q04", "question_type": "mcq", "answer": "Mexico redenominated in 1993 because inflation had made large nominal denominations unwieldy, converting 1,000 old pesos to 1 new peso.", "score": 1.0, "response_time_sec": 11.5, "domain": "financial", "bucket": "causal"}
+## AUTHORED: curr_000080.q05
+A: The 1993 Mexican redenomination replaced 1,000 old pesos with 1 new peso due to inflation-driven unwieldy denominations.
+B: The 1993 Mexican redenomination replaced 10,000 old pesos with 1 new peso due to inflation-driven unwieldy denominations.
+C: The 1993 Mexican redenomination replaced 1,000 old pesos with 1 new peso due to government fiscal reform.
+D: The 1994 Mexican redenomination replaced 1,000 old pesos with 1 new peso due to inflation-driven unwieldy denominations.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "curr_000080", "question_id": "curr_000080.q05", "question_type": "mcq", "answer": "The 1993 Mexican redenomination replaced 1,000 old pesos with 1 new peso due to inflation-driven unwieldy denominations.", "score": 1.0, "response_time_sec": 9.3, "domain": "financial", "bucket": "causal"}
+{"participant_id": "llm_sim_p01", "explanation_id": "fin_000135", "question_id": "fin_000135.q01", "question_type": "mcq", "answer": "2024", "score": 1.0, "response_time_sec": 22.3, "domain": "financial", "bucket": "overlap"}
+{"participant_id": "llm_sim_p01", "explanation_id": "fin_000135", "question_id": "fin_000135.q02", "question_type": "fill_blank", "answer": "Rubrik IPO", "score": 1.0, "response_time_sec": 16.2, "domain": "financial", "bucket": "overlap"}
+## AUTHORED: fin_000135.q03
+A: Rubrik and Marex both had their IPOs on April 25, 2024.
+B: Rubrik and Marex both had their IPOs on April 25, 2023.
+C: Rubrik and Snowflake both had their IPOs on April 25, 2024.
+D: Rubrik listed on April 25, 2024, one day before Marex.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "fin_000135", "question_id": "fin_000135.q03", "question_type": "mcq", "answer": "Rubrik and Marex both had their IPOs on April 25, 2024.", "score": 1.0, "response_time_sec": 14.1, "domain": "financial", "bucket": "overlap"}
+## AUTHORED: fin_000135.q04
+A: Both Rubrik and Marex listed on the same day, April 25, 2024.
+B: Both Rubrik and Marex listed on the same day, April 25, 2023.
+C: Both Rubrik and Marex listed on the same day, April 26, 2024.
+D: Both Rubrik and Marex listed on the same day in April 2024, with Marex going first.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "fin_000135", "question_id": "fin_000135.q04", "question_type": "mcq", "answer": "Both Rubrik and Marex listed on the same day, April 25, 2024.", "score": 1.0, "response_time_sec": 22.8, "domain": "financial", "bucket": "overlap"}
+## AUTHORED: fin_000135.q05
+A: April 25, 2024 was the IPO date for both Rubrik and Marex.
+B: April 25, 2025 was the IPO date for both Rubrik and Marex.
+C: April 25, 2024 was the IPO date for Rubrik alone; Marex listed a week later.
+D: April 25, 2024 was the IPO date for both Rubrik and Palantir.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "fin_000135", "question_id": "fin_000135.q05", "question_type": "mcq", "answer": "April 25, 2024 was the IPO date for both Rubrik and Marex.", "score": 1.0, "response_time_sec": 14.6, "domain": "financial", "bucket": "overlap"}
+{"participant_id": "llm_sim_p01", "explanation_id": "infra_000122", "question_id": "infra_000122.q01", "question_type": "mcq", "answer": "1988", "score": 1.0, "response_time_sec": 17.7, "domain": "historical", "bucket": "point"}
+{"participant_id": "llm_sim_p01", "explanation_id": "infra_000122", "question_id": "infra_000122.q02", "question_type": "fill_blank", "answer": "Great Belt Bridge", "score": 1.0, "response_time_sec": 10.5, "domain": "historical", "bucket": "point"}
+## AUTHORED: infra_000122.q03
+A: Construction of the Great Belt Bridge began in 1988.
+B: Construction of the Great Belt Bridge began in 1989.
+C: Completion of the Great Belt Bridge occurred in 1988.
+D: Construction of the Øresund Bridge began in 1988.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "infra_000122", "question_id": "infra_000122.q03", "question_type": "mcq", "answer": "Construction of the Great Belt Bridge began in 1988.", "score": 1.0, "response_time_sec": 25.7, "domain": "historical", "bucket": "point"}
+## AUTHORED: infra_000122.q04
+A: The Great Belt Bridge's construction started in 1988.
+B: The Great Belt Bridge's construction started in 1987.
+C: The Great Belt Bridge's construction started in 1993.
+D: The Great Belt Tunnel's construction started in 1988.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "infra_000122", "question_id": "infra_000122.q04", "question_type": "mcq", "answer": "The Great Belt Bridge's construction started in 1988.", "score": 1.0, "response_time_sec": 8.1, "domain": "historical", "bucket": "point"}
+## AUTHORED: infra_000122.q05
+A: In 1988, work began on the Great Belt Bridge in Denmark.
+B: In 1993, work began on the Great Belt Bridge in Denmark.
+C: In 1988, work began on the Great Belt Bridge in Sweden.
+D: In 1988, work was completed on the Great Belt Bridge in Denmark.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "infra_000122", "question_id": "infra_000122.q05", "question_type": "mcq", "answer": "In 1988, work began on the Great Belt Bridge in Denmark.", "score": 1.0, "response_time_sec": 6.7, "domain": "historical", "bucket": "point"}
+{"participant_id": "llm_sim_p01", "explanation_id": "tech_000126", "question_id": "tech_000126.q01", "question_type": "mcq", "answer": "2010", "score": 1.0, "response_time_sec": 8.9, "domain": "technical", "bucket": "point"}
+{"participant_id": "llm_sim_p01", "explanation_id": "tech_000126", "question_id": "tech_000126.q02", "question_type": "fill_blank", "answer": "Gansu Wind Farm Phase 1", "score": 1.0, "response_time_sec": 25.7, "domain": "technical", "bucket": "point"}
+## AUTHORED: tech_000126.q03
+A: The first phase of the Gansu Wind Farm was completed in November 2010.
+B: The first phase of the Gansu Wind Farm was completed in November 2011.
+C: The first phase of the Gansu Wind Farm was completed in November 2009.
+D: The second phase of the Gansu Wind Farm was completed in November 2010.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "tech_000126", "question_id": "tech_000126.q03", "question_type": "mcq", "answer": "The first phase of the Gansu Wind Farm was completed in November 2010.", "score": 1.0, "response_time_sec": 27.3, "domain": "technical", "bucket": "point"}
+## AUTHORED: tech_000126.q04
+A: Gansu Wind Farm Phase 1 completion was announced in November 2010.
+B: Gansu Wind Farm Phase 1 completion was announced in November 2015.
+C: Gansu Wind Farm Phase 2 completion was announced in November 2010.
+D: Gansu Wind Farm Phase 1 construction began in November 2010.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "tech_000126", "question_id": "tech_000126.q04", "question_type": "mcq", "answer": "Gansu Wind Farm Phase 1 completion was announced in November 2010.", "score": 1.0, "response_time_sec": 20.0, "domain": "technical", "bucket": "point"}
+## AUTHORED: tech_000126.q05
+A: In November 2010, the first phase of China's Gansu Wind Farm was announced as complete.
+B: In November 2011, the first phase of China's Gansu Wind Farm was announced as complete.
+C: In November 2010, the first phase of China's Inner Mongolia Wind Farm was announced as complete.
+D: In November 2010, the entire Gansu Wind Farm was announced as complete.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "tech_000126", "question_id": "tech_000126.q05", "question_type": "mcq", "answer": "In November 2010, the first phase of China's Gansu Wind Farm was announced as complete.", "score": 1.0, "response_time_sec": 16.6, "domain": "technical", "bucket": "point"}
+{"participant_id": "llm_sim_p01", "explanation_id": "cult_art_000048", "question_id": "cult_art_000048.q01", "question_type": "mcq", "answer": "1920", "score": 1.0, "response_time_sec": 12.3, "domain": "cultural", "bucket": "interval"}
+{"participant_id": "llm_sim_p01", "explanation_id": "cult_art_000048", "question_id": "cult_art_000048.q02", "question_type": "fill_blank", "answer": "Mexican Muralism", "score": 1.0, "response_time_sec": 27.6, "domain": "cultural", "bucket": "interval"}
+## AUTHORED: cult_art_000048.q03
+A: Mexican Muralism rose in the 1920s and remained influential into 1940.
+B: Mexican Muralism rose in the 1930s and remained influential into 1940.
+C: Mexican Muralism rose in the 1920s and remained influential into 1950.
+D: Mexican Modernism rose in the 1920s and remained influential into 1940.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "cult_art_000048", "question_id": "cult_art_000048.q03", "question_type": "mcq", "answer": "Mexican Muralism rose in the 1920s and remained influential into 1940.", "score": 1.0, "response_time_sec": 9.7, "domain": "cultural", "bucket": "interval"}
+## AUTHORED: cult_art_000048.q04
+A: Mexican Muralism was active from the 1920s through 1940.
+B: Mexican Muralism was active from the 1910s through 1940.
+C: Mexican Muralism was active from the 1920s through 1930.
+D: Mexican Realism was active from the 1920s through 1940.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "cult_art_000048", "question_id": "cult_art_000048.q04", "question_type": "mcq", "answer": "Mexican Muralism was active from the 1920s through 1940.", "score": 1.0, "response_time_sec": 17.3, "domain": "cultural", "bucket": "interval"}
+## AUTHORED: cult_art_000048.q05
+A: The peak influence of Mexican Muralism spanned roughly 1920 to 1940.
+B: The peak influence of Mexican Muralism spanned roughly 1930 to 1940.
+C: The peak influence of Mexican Muralism spanned roughly 1920 to 1960.
+D: The peak influence of Mexican Impressionism spanned roughly 1920 to 1940.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "cult_art_000048", "question_id": "cult_art_000048.q05", "question_type": "mcq", "answer": "The peak influence of Mexican Muralism spanned roughly 1920 to 1940.", "score": 1.0, "response_time_sec": 21.0, "domain": "cultural", "bucket": "interval"}
+{"participant_id": "llm_sim_p01", "explanation_id": "monu_004", "question_id": "monu_004.q01", "question_type": "mcq", "answer": "1926", "score": 1.0, "response_time_sec": 7.3, "domain": "['historical', 'construction']", "bucket": "overlap"}
+{"participant_id": "llm_sim_p01", "explanation_id": "monu_004", "question_id": "monu_004.q02", "question_type": "fill_blank", "answer": "Terminal Tower construction", "score": 1.0, "response_time_sec": 11.3, "domain": "['historical', 'construction']", "bucket": "overlap"}
+## AUTHORED: monu_004.q03
+A: Terminal Tower was under construction in 1927, the same year Charles Lindbergh completed his transatlantic flight.
+B: Terminal Tower was under construction in 1928, the same year Charles Lindbergh completed his transatlantic flight.
+C: Terminal Tower had already been completed in 1927, when Charles Lindbergh made his transatlantic flight.
+D: Terminal Tower was under construction in 1927, the same year Amelia Earhart completed her transatlantic flight.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "monu_004", "question_id": "monu_004.q03", "question_type": "mcq", "answer": "Terminal Tower was under construction in 1927, the same year Charles Lindbergh completed his transatlantic flight.", "score": 1.0, "response_time_sec": 21.8, "domain": "['historical', 'construction']", "bucket": "overlap"}
+## AUTHORED: monu_004.q04
+A: Terminal Tower's construction (1926–1927) overlapped with Charles Lindbergh's 1927 transatlantic flight.
+B: Terminal Tower's construction (1926–1928) overlapped with Charles Lindbergh's 1927 transatlantic flight.
+C: Terminal Tower's construction (1926–1927) overlapped with Charles Lindbergh's 1928 transatlantic flight.
+D: Terminal Tower's construction (1926–1927) overlapped with the Wright Brothers' 1927 transatlantic flight.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "monu_004", "question_id": "monu_004.q04", "question_type": "mcq", "answer": "Terminal Tower's construction (1926–1927) overlapped with Charles Lindbergh's 1927 transatlantic flight.", "score": 1.0, "response_time_sec": 14.4, "domain": "['historical', 'construction']", "bucket": "overlap"}
+## AUTHORED: monu_004.q05
+A: Charles Lindbergh flew across the Atlantic in 1927 while Terminal Tower was still being built.
+B: Charles Lindbergh flew across the Atlantic in 1929 while Terminal Tower was still being built.
+C: Charles Lindbergh flew across the Atlantic in 1927, several years after Terminal Tower was completed.
+D: Charles Lindbergh flew across the Pacific in 1927 while Terminal Tower was still being built.
+CORRECT: A
+{"participant_id": "llm_sim_p01", "explanation_id": "monu_004", "question_id": "monu_004.q05", "question_type": "mcq", "answer": "Charles Lindbergh flew across the Atlantic in 1927 while Terminal Tower was still being built.", "score": 1.0, "response_time_sec": 25.1, "domain": "['historical', 'construction']", "bucket": "overlap"}

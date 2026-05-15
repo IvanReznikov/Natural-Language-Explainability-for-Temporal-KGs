@@ -1,0 +1,51 @@
+FROM debian:bookworm-slim AS builder
+
+ENV DEBIAN_FRONTEND=noninteractive
+
+RUN apt-get update \
+  && apt-get install -y --no-install-recommends \
+    ca-certificates \
+    build-essential \
+    cmake \
+    git \
+    libopenblas-dev \
+  && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /opt
+
+RUN git clone --depth 1 https://github.com/ggml-org/llama.cpp.git
+
+RUN cmake -S /opt/llama.cpp -B /opt/llama.cpp/build \
+  -DBUILD_SHARED_LIBS=OFF \
+  -DGGML_BLAS=ON \
+  -DGGML_BLAS_VENDOR=OpenBLAS \
+  -DGGML_NATIVE=ON \
+  -DLLAMA_BUILD_SERVER=ON \
+  && cmake --build /opt/llama.cpp/build --config Release -j
+
+FROM debian:bookworm-slim
+
+ENV DEBIAN_FRONTEND=noninteractive
+
+RUN apt-get update \
+  && apt-get install -y --no-install-recommends \
+    ca-certificates \
+    curl \
+    libgomp1 \
+    libopenblas0 \
+  && rm -rf /var/lib/apt/lists/*
+
+COPY --from=builder /opt/llama.cpp/build/bin/llama-server /usr/local/bin/llama-server
+COPY docker/start_llama_server.sh /usr/local/bin/start_llama_server.sh
+
+RUN chmod +x /usr/local/bin/start_llama_server.sh
+
+WORKDIR /workspace
+
+ENV HF_HOME=/workspace/.hf_cache
+ENV LLAMA_CACHE=/workspace/.llama_cache
+ENV HF_HUB_ENABLE_HF_TRANSFER=1
+
+EXPOSE 8000
+
+ENTRYPOINT ["/usr/local/bin/start_llama_server.sh"]

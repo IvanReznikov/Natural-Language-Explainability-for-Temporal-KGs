@@ -1,0 +1,6 @@
+{
+  "run_id": "15afb30e5f7d452e9abddbe9f670fe92",
+  "examples": 10,
+  "template_accuracy": 0.3,
+  "notes": "Stub constructor uses simple rule patterns; replace with real templater."
+}

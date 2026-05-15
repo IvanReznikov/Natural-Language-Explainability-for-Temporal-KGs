@@ -1,0 +1,54 @@
+services:
+  qwen-llm:
+    image: ghcr.io/ggml-org/llama.cpp:server
+    entrypoint: ["/bin/sh", "/usr/local/bin/start_llama_server.sh"]
+    environment:
+      - HF_HOME=/workspace/.hf_cache
+      - LLAMA_CACHE=/workspace/.llama_cache
+      - HF_HUB_ENABLE_HF_TRANSFER=1
+      - QWEN_LLM_GGUF_REPO=${QWEN_LLM_GGUF_REPO:-unsloth/Qwen3.5-0.8B-GGUF}
+      - QWEN_LLM_GGUF_TAG=${QWEN_LLM_GGUF_TAG:-UD-Q4_K_XL}
+      - QWEN_LLM_ALIAS=${QWEN_LLM_ALIAS:-Qwen/Qwen3.5-0.8B}
+      - QWEN_LLM_PRESET=${QWEN_LLM_PRESET:-fast}
+      - QWEN_LLM_CTX_SIZE=${QWEN_LLM_CTX_SIZE:-4096}
+      - QWEN_LLM_BATCH_SIZE=${QWEN_LLM_BATCH_SIZE:-1024}
+      - QWEN_LLM_UBATCH_SIZE=${QWEN_LLM_UBATCH_SIZE:-256}
+      - QWEN_LLM_THREADS=${QWEN_LLM_THREADS:-8}
+      - QWEN_LLM_PARALLEL=${QWEN_LLM_PARALLEL:-1}
+      - QWEN_LLM_PORT=8000
+      - QWEN_ENABLE_THINKING=${QWEN_ENABLE_THINKING:-false}
+      - OMP_NUM_THREADS=${QWEN_LLM_THREADS:-8}
+      - OPENBLAS_NUM_THREADS=${QWEN_LLM_THREADS:-8}
+    volumes:
+      - ./.hf_cache:/workspace/.hf_cache
+      - ./.llama_cache:/workspace/.llama_cache
+      - ./docker/start_llama_server.sh:/usr/local/bin/start_llama_server.sh:ro
+    ports:
+      - "8000:8000"
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS http://127.0.0.1:8000/health >/dev/null || exit 1"]
+      interval: 20s
+      timeout: 5s
+      retries: 20
+      start_period: 60s
+    restart: unless-stopped
+
+  qwen-embed:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    image: qwen-runtime:latest
+    environment:
+      - HF_HOME=/workspace/.hf_cache
+    volumes:
+      - ./.hf_cache:/workspace/.hf_cache
+    ports:
+      - "8001:8001"
+    command: ["services.embeddings_server:app", "--host", "0.0.0.0", "--port", "8001"]
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS http://127.0.0.1:8001/health >/dev/null || exit 1"]
+      interval: 20s
+      timeout: 5s
+      retries: 20
+      start_period: 60s
+    restart: unless-stopped

@@ -1,0 +1,10 @@
+{"id": "q1", "canonical_query": "POINT(event='apollo_11_landing', date='1969-07-20')", "optimized_query": "OPTIMIZED[POINT(event='apollo_11_landing', date='1969-07-20')]", "cost_before": 12.5, "cost_after": 2.48}
+{"id": "q2", "canonical_query": "INTERVAL(metric='gdp_growth', start='2008', end='2012')", "optimized_query": "OPTIMIZED[INTERVAL(metric='gdp_growth', start='2008', end='2012')]", "cost_before": 10.2, "cost_after": 2.64}
+{"id": "q3", "canonical_query": "SEQUENCE(anchor='2001_recession', relation='followed')", "optimized_query": "OPTIMIZED[SEQUENCE(anchor='2001_recession', relation='followed')]", "cost_before": 9.8, "cost_after": 2.6}
+{"id": "q4", "canonical_query": "CAUSAL(cause='drought', effect='2010_crop_failure')", "optimized_query": "OPTIMIZED[CAUSAL(cause='drought', effect='2010_crop_failure')]", "cost_before": 11.0, "cost_after": 2.48}
+{"id": "q5", "canonical_query": "COMPARE(metric='inflation', a='2019', b='2023')", "optimized_query": "OPTIMIZED[COMPARE(metric='inflation', a='2019', b='2023')]", "cost_before": 8.4, "cost_after": 2.32}
+{"id": "q6", "canonical_query": "AGG(metric='sales', period='2024-Q1', region='Europe')", "optimized_query": "OPTIMIZED[AGG(metric='sales', period='2024-Q1', region='Europe')]", "cost_before": 9.1, "cost_after": 2.6}
+{"id": "q7", "canonical_query": "INTERVAL(metric='unemployment', period='2009')", "optimized_query": "OPTIMIZED[INTERVAL(metric='unemployment', period='2009')]", "cost_before": 9.9, "cost_after": 2.28}
+{"id": "q8", "canonical_query": "PREDICT(metric='revenue', date='2025')", "optimized_query": "OPTIMIZED[PREDICT(metric='revenue', date='2025')]", "cost_before": 7.7, "cost_after": 1.96}
+{"id": "q9", "canonical_query": "SEQUENCE(metric='sales', anchor='Black_Friday_2022', relation='after')", "optimized_query": "OPTIMIZED[SEQUENCE(metric='sales', anchor='Black_Friday_2022', relation='after')]", "cost_before": 10.7, "cost_after": 3.24}
+{"id": "q10", "canonical_query": "OVERLAP(event='outages', period='2023-Q2')", "optimized_query": "OPTIMIZED[OVERLAP(event='outages', period='2023-Q2')]", "cost_before": 11.3, "cost_after": 2.12}

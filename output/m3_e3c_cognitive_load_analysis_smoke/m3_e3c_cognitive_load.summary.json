@@ -1,0 +1,10 @@
+{
+  "n_responses": 0,
+  "tlx_mean_by_condition": {},
+  "mental_effort_mean_by_condition": {},
+  "retention_mean_by_condition": {},
+  "attention_on_key_mean_by_condition": {},
+  "success_criteria": {
+    "tlx_lt_50_by_condition": {}
+  }
+}

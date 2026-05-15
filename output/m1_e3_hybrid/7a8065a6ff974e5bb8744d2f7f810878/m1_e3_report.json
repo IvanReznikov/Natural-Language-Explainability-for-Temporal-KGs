@@ -1,0 +1,19 @@
+{
+  "timestamp": "2025-12-15T01:36:57.701076",
+  "model": "deterministic_compact_only",
+  "examples_per_type": 100,
+  "metrics": {
+    "flesch_mean": 67.76958000000005,
+    "flesch_std": 24.668514783496807,
+    "success_rate": 1.0,
+    "latency_p50": 1.0257429967168719,
+    "latency_p95": 2.0252399990567937,
+    "latency_p99": 4.62863299617311,
+    "accuracy": 1.0,
+    "type_coverage": 0.4,
+    "template_hit_rate": 1.0,
+    "polishing_rate": 0.0,
+    "hallucination_rate": 0.0
+  },
+  "duration_seconds": 0.63398
+}

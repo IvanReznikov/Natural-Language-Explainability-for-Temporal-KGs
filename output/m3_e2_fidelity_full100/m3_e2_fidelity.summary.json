@@ -1,0 +1,63 @@
+{
+  "dataset": "data\\jsonls\\temporal_graph.jsonl",
+  "predictions": null,
+  "n_per_type": 100,
+  "point_n": 100,
+  "point_per_domain": 20,
+  "max_domains": 5,
+  "seed": 13,
+  "missing_predictions": 0,
+  "aggregate_by_bucket": {
+    "point": {
+      "count": 100.0,
+      "confidence_signal": -0.11,
+      "context_relevance": 0.7033095238095238,
+      "context_relevance_proxy": 0.7033095238095238,
+      "entity_coverage": 0.8016666666666667,
+      "has_prediction": 1.0,
+      "timestamp_accuracy": 0.975,
+      "unnecessary_detail_proxy": 0.82,
+      "unnecessary_detail_ratio": 0.18,
+      "unnecessary_detail_score": 0.82
+    },
+    "interval": {
+      "count": 100.0,
+      "boundary_accuracy": 0.29,
+      "confidence_signal": -0.06,
+      "context_relevance": 0.5244047619047619,
+      "duration_correctness": 0.3,
+      "entity_coverage": 0.6266666666666666,
+      "has_prediction": 1.0,
+      "interval_comparison_clarity": 0.05,
+      "interval_marker_presence": 0.77,
+      "overlap_representation": 0.02,
+      "unnecessary_detail_ratio": 0.42,
+      "unnecessary_detail_score": 0.58
+    },
+    "sequence": {
+      "count": 100.0,
+      "causal_coherence": 0.05,
+      "confidence_signal": -0.08,
+      "context_relevance": 0.5677997835497836,
+      "entity_coverage": 0.6753333333333333,
+      "has_prediction": 1.0,
+      "ordering_accuracy": 0.5882352941176471,
+      "sequence_marker_presence": 0.23,
+      "step_completeness": 0.825268817204301,
+      "unnecessary_detail_ratio": 0.4525,
+      "unnecessary_detail_score": 0.5475
+    },
+    "causal": {
+      "count": 100.0,
+      "alternative_cause_awareness": 0.01,
+      "causal_marker_presence": 0.36,
+      "confidence_signal": -0.04,
+      "context_relevance": 0.4094761904761905,
+      "entity_coverage": 0.3865,
+      "has_prediction": 1.0,
+      "temporal_constraint_correctness": 0.955,
+      "unnecessary_detail_ratio": 0.505,
+      "unnecessary_detail_score": 0.495
+    }
+  }
+}

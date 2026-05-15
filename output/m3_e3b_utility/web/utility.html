@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>M3-E3b Utility Study</title>
+    <style>
+      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; max-width: 1000px; margin: 24px auto; padding: 0 16px; }
+      .row { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+      .card { border: 1px solid #ddd; border-radius: 8px; padding: 12px; margin: 12px 0; }
+      .muted { color: #666; font-size: 12px; }
+      pre { white-space: pre-wrap; word-break: break-word; background: #f7f7f7; padding: 10px; border-radius: 8px; }
+      button { padding: 8px 12px; }
+      input[type="text"], textarea, select { width: 100%; padding: 8px; box-sizing: border-box; }
+      textarea { min-height: 110px; }
+    </style>
+  </head>
+  <body>
+    <h1>M3-E3b — Utility Study</h1>
+    <p class="muted">
+      Load <code>m3_e3b_tasks.jsonl</code> and an assignment CSV (optional). The UI records responses
+      as JSONL for later analysis.
+    </p>
+
+    <div class="card">
+      <div class="row">
+        <div style="flex:2; min-width: 260px;">
+          <label>Participant ID</label>
+          <input id="participantId" type="text" placeholder="e.g., u001" />
+        </div>
+        <div style="flex:3; min-width: 260px;">
+          <label>Tasks JSONL</label>
+          <input id="tasksFile" type="file" accept=".jsonl,.json" />
+        </div>
+        <div style="flex:3; min-width: 260px;">
+          <label>Assignments CSV (optional)</label>
+          <input id="assignFile" type="file" accept=".csv" />
+        </div>
+        <div style="flex:1; min-width: 160px;">
+          <label>&nbsp;</label>
+          <button id="startBtn">Start</button>
+        </div>
+      </div>
+      <div id="status" class="muted" style="margin-top: 8px;"></div>
+    </div>
+
+    <div id="main" style="display:none;">
+      <div class="card">
+        <div class="row">
+          <div><strong>Progress:</strong> <span id="progress"></span></div>
+          <div class="muted">Condition drives what context is shown.</div>
+        </div>
+        <div class="muted" id="meta"></div>
+      </div>
+
+      <div class="card">
+        <h2 id="prompt"></h2>
+        <div id="contextBlock" style="margin-top: 10px;"></div>
+      </div>
+
+      <div class="card">
+        <label>Your answer</label>
+        <textarea id="answer"></textarea>
+
+        <div class="row" style="margin-top: 10px;">
+          <div style="flex:1; min-width: 220px;">
+            <label>Confidence (1-5)</label>
+            <select id="confidence">
+              <option value="">— select —</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+          <div style="flex:1; min-width: 220px;">
+            <label>Expert agreement (0-1, optional)</label>
+            <input id="expertAgreement" type="text" placeholder="e.g., 0.8" />
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="row">
+          <button id="nextBtn">Next</button>
+          <button id="downloadBtn">Download responses</button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function parseJsonl(text) {
+        const lines = text.split(/\r?\n/).map(l => l.trim()).filter(Boolean);
+        const out = [];
+        for (const line of lines) {
+          try { out.push(JSON.parse(line)); } catch (e) { /* skip */ }
+        }
+        return out;
+      }
+
+      function parseCsv(text) {
+        const lines = text.split(/\r?\n/).filter(l => l.trim().length);
+        if (!lines.length) return [];
+        const header = lines[0].split(',').map(s => s.trim());
+        const out = [];
+        for (let i = 1; i < lines.length; i++) {
+          const cols = lines[i].split(',');
+          const row = {};
+          for (let j = 0; j < header.length; j++) row[header[j]] = (cols[j] || '').trim();
+          out.push(row);
+        }
+        return out;
+      }
+
+      function nowMs() { return (new Date()).getTime(); }
+
+      function downloadText(filename, text) {
+        const blob = new Blob([text], {type: 'text/plain'});
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = filename;
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        URL.revokeObjectURL(url);
+      }
+
+      let tasks = [];
+      let plan = null;
+      let idx = 0;
+      let responses = [];
+      let startMs = null;
+
+      const statusEl = document.getElementById('status');
+      const mainEl = document.getElementById('main');
+      const progressEl = document.getElementById('progress');
+      const metaEl = document.getElementById('meta');
+      const promptEl = document.getElementById('prompt');
+      const contextBlockEl = document.getElementById('contextBlock');
+
+      function getParticipantPlan(pid) {
+        if (!plan) return null;
+        const row = plan.find(r => (r.participant_id || '').trim() === pid);
+        if (!row) return null;
+        const ids = (row.task_ids || '').split('|').map(s => s.trim()).filter(Boolean);
+        return {
+          domain: (row.domain || '').trim() || 'unknown',
+          condition: (row.condition || '').trim() || 'control',
+          taskIds: ids,
+        };
+      }
+
+      function render() {
+        const pid = (document.getElementById('participantId').value || '').trim();
+        const p = getParticipantPlan(pid);
+
+        const list = p ? tasks.filter(t => p.taskIds.includes(String(t.task_id))) : tasks;
+        if (idx >= list.length) {
+          progressEl.textContent = `${list.length}/${list.length} (done)`;
+          metaEl.textContent = 'All tasks completed.';
+          promptEl.textContent = '';
+          contextBlockEl.innerHTML = '<p><strong>Done.</strong> Please download your responses.</p>';
+          return;
+        }
+
+        const t = list[idx];
+        const condition = p ? p.condition : 'control';
+
+        progressEl.textContent = `${idx + 1}/${list.length}`;
+        metaEl.textContent = `domain=${t.domain} | condition=${condition} | task_id=${t.task_id}`;
+
+        promptEl.textContent = t.prompt || '';
+
+        contextBlockEl.innerHTML = '';
+        if (condition === 'with_explanation') {
+          contextBlockEl.innerHTML = '<h3>Explanation</h3>';
+          const pre = document.createElement('pre');
+          pre.textContent = t.explanation_text || '';
+          contextBlockEl.appendChild(pre);
+        } else if (condition === 'without_explanation') {
+          contextBlockEl.innerHTML = '<h3>Underlying facts</h3>';
+          const pre = document.createElement('pre');
+          pre.textContent = JSON.stringify(t.gold_facts || [], null, 2);
+          contextBlockEl.appendChild(pre);
+        } else {
+          contextBlockEl.innerHTML = '<p class="muted">(No additional context for control condition.)</p>';
+        }
+
+        document.getElementById('answer').value = '';
+        document.getElementById('confidence').value = '';
+        document.getElementById('expertAgreement').value = '';
+        startMs = nowMs();
+      }
+
+      function collect() {
+        const pid = (document.getElementById('participantId').value || '').trim();
+        if (!pid) { alert('Participant ID is required.'); return false; }
+        const p = getParticipantPlan(pid);
+        const list = p ? tasks.filter(t => p.taskIds.includes(String(t.task_id))) : tasks;
+        if (idx >= list.length) return true;
+
+        const t = list[idx];
+        const condition = p ? p.condition : 'control';
+        const elapsed = startMs ? (nowMs() - startMs) / 1000.0 : null;
+
+        responses.push({
+          participant_id: pid,
+          task_id: String(t.task_id),
+          domain: String(t.domain || 'unknown'),
+          condition: condition,
+          answer: (document.getElementById('answer').value || '').trim(),
+          confidence_1_5: document.getElementById('confidence').value || null,
+          time_sec: elapsed,
+          expert_agreement: (document.getElementById('expertAgreement').value || '').trim() || null,
+          success: null, // computed in analyzer vs gold_answer
+        });
+        return true;
+      }
+
+      document.getElementById('startBtn').addEventListener('click', async () => {
+        const tasksF = document.getElementById('tasksFile').files && document.getElementById('tasksFile').files[0];
+        if (!tasksF) { alert('Select tasks JSONL first.'); return; }
+        tasks = parseJsonl(await tasksF.text());
+
+        const assignF = document.getElementById('assignFile').files && document.getElementById('assignFile').files[0];
+        plan = assignF ? parseCsv(await assignF.text()) : null;
+
+        idx = 0;
+        responses = [];
+        mainEl.style.display = 'block';
+        statusEl.textContent = `Loaded ${tasks.length} tasks.`;
+        render();
+      });
+
+      document.getElementById('nextBtn').addEventListener('click', () => {
+        if (!collect()) return;
+        idx += 1;
+        render();
+      });
+
+      document.getElementById('downloadBtn').addEventListener('click', () => {
+        const lines = responses.map(r => JSON.stringify(r));
+        downloadText('m3_e3b_responses.jsonl', lines.join('\n') + (lines.length ? '\n' : ''));
+      });
+    </script>
+  </body>
+</html>

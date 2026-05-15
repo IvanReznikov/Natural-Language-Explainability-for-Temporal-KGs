@@ -1,0 +1,31 @@
+{
+  "shift": {
+    "desc": "If time shifted by earlier, belief b_market would become cf_b_market.",
+    "new_belief": "cf_b_market",
+    "payload": {
+      "event": "Market rose",
+      "date": "2010",
+      "counterfactual_time_shift": "earlier"
+    }
+  },
+  "swaps": [
+    {
+      "desc": "If time shifted by earlier, belief b_market would become cf_b_market.",
+      "new_belief": "cf_b_market",
+      "payload": {
+        "event": "Market rose",
+        "date": "2010",
+        "counterfactual_time_shift": "earlier"
+      }
+    },
+    {
+      "desc": "If time shifted by later, belief b_policy would become cf_b_policy.",
+      "new_belief": "cf_b_policy",
+      "payload": {
+        "event": "Policy changed",
+        "date": "2009",
+        "counterfactual_time_shift": "later"
+      }
+    }
+  ]
+}

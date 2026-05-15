@@ -1,0 +1,68 @@
+[
+  {
+    "question": "what was the reason of Model T price drop in 1913?",
+    "intent": "reason_of",
+    "answer_text": "Likely reasons for 'Model T price drop' in 1913: moving assembly line implementation.",
+    "confidence": 0.55,
+    "evidence": [
+      {
+        "edge_uid": "e_00000002",
+        "source": "moving assembly line implementation",
+        "target": "Model T price drop",
+        "relation": "caused",
+        "start": "1913",
+        "end": null,
+        "edge_type": "base",
+        "support_count": 1,
+        "source_row_ids": [
+          "hist_000001"
+        ]
+      }
+    ],
+    "mermaid": "graph TD\n    moving_assembly_line_implementation[\"moving assembly line implementation\"] -->|\"caused (1913 \u2192 ?)\"| Model_T_price_drop[\"Model T price drop\"]"
+  },
+  {
+    "question": "If 1973 Oil Crisis happened to increased US demand for Japanese compacts in 1973, will same happen to California ZEV mandate?",
+    "intent": "analogical_transfer",
+    "answer_text": "No direct evidence that '1973 Oil Crisis' causing 'increased US demand for Japanese compacts' in 1973 also happened to 'California ZEV mandate'.",
+    "confidence": 0.3,
+    "evidence": [
+      {
+        "edge_uid": "e_00000008",
+        "source": "1973 Oil Crisis",
+        "target": "increased US demand for Japanese compacts",
+        "relation": "caused",
+        "start": "1973",
+        "end": null,
+        "edge_type": "base",
+        "support_count": 1,
+        "source_row_ids": [
+          "hist_000002"
+        ]
+      }
+    ],
+    "mermaid": "graph TD\n    n_1973_Oil_Crisis[\"1973 Oil Crisis\"] -->|\"caused (1973 \u2192 ?)\"| increased_US_demand_for_Japanese_compacts[\"increased US demand for Japanese compacts\"]"
+  },
+  {
+    "question": "When did 2008 Financial Crisis start affecting GM and Chrysler bankruptcy restructuring?",
+    "intent": "start_affecting",
+    "answer_text": "'2008 Financial Crisis' appears to start affecting 'GM and Chrysler bankruptcy restructuring' around 2008.",
+    "confidence": 0.75,
+    "evidence": [
+      {
+        "edge_uid": "e_00000020",
+        "source": "2008 Financial Crisis",
+        "target": "GM and Chrysler bankruptcy restructuring",
+        "relation": "led_to",
+        "start": "2008",
+        "end": "2009",
+        "edge_type": "base",
+        "support_count": 1,
+        "source_row_ids": [
+          "fina_000004"
+        ]
+      }
+    ],
+    "mermaid": "graph TD\n    n_2008_Financial_Crisis[\"2008 Financial Crisis\"] -->|\"led_to (2008 \u2192 2009)\"| GM_and_Chrysler_bankruptcy_restructuring[\"GM and Chrysler bankruptcy restructuring\"]"
+  }
+]

@@ -1,0 +1,894 @@
+{"id": "q001", "canonical_query": "UNKNOWN()"}
+{"id": "q002", "canonical_query": "UNKNOWN()"}
+{"id": "q003", "canonical_query": "CAUSAL(cause='supply chain disruption', effect='inventory shortage')"}
+{"id": "q004", "canonical_query": "COMPARE(metric='user churn', a='2021', b='2022')"}
+{"id": "q005", "canonical_query": "UNKNOWN()"}
+{"id": "q006", "canonical_query": "UNKNOWN()"}
+{"id": "q007", "canonical_query": "PREDICT(metric='stock prices', date='2026')"}
+{"id": "q008", "canonical_query": "UNKNOWN()"}
+{"id": "q009", "canonical_query": "OVERLAP(event='outages', period='2024-Q4')"}
+{"id": "q010", "canonical_query": "UNKNOWN()"}
+{"id": "q011", "canonical_query": "UNKNOWN()"}
+{"id": "q012", "canonical_query": "UNKNOWN()"}
+{"id": "q013", "canonical_query": "UNKNOWN()"}
+{"id": "q014", "canonical_query": "UNKNOWN()"}
+{"id": "q015", "canonical_query": "UNKNOWN()"}
+{"id": "q016", "canonical_query": "PREDICT(metric='', date='2027')"}
+{"id": "q017", "canonical_query": "SEQUENCE(anchor='the holiday season', relation='after')"}
+{"id": "q018", "canonical_query": "UNKNOWN()"}
+{"id": "q019", "canonical_query": "UNKNOWN()"}
+{"id": "q020", "canonical_query": "UNKNOWN()"}
+{"id": "q021", "canonical_query": "INTERVAL(metric='ticket volume', period='2024-Q3')"}
+{"id": "q022", "canonical_query": "UNKNOWN()"}
+{"id": "q023", "canonical_query": "UNKNOWN()"}
+{"id": "q024", "canonical_query": "UNKNOWN()"}
+{"id": "q025", "canonical_query": "UNKNOWN()"}
+{"id": "q026", "canonical_query": "UNKNOWN()"}
+{"id": "q027", "canonical_query": "UNKNOWN()"}
+{"id": "q028", "canonical_query": "UNKNOWN()"}
+{"id": "q029", "canonical_query": "UNKNOWN()"}
+{"id": "q030", "canonical_query": "UNKNOWN()"}
+{"id": "q031", "canonical_query": "UNKNOWN()"}
+{"id": "q032", "canonical_query": "UNKNOWN()"}
+{"id": "q033", "canonical_query": "COMPARE(metric='', a='2020', b='2021')"}
+{"id": "q034", "canonical_query": "UNKNOWN()"}
+{"id": "q035", "canonical_query": "UNKNOWN()"}
+{"id": "q036", "canonical_query": "UNKNOWN()"}
+{"id": "q037", "canonical_query": "UNKNOWN()"}
+{"id": "q038", "canonical_query": "UNKNOWN()"}
+{"id": "q039", "canonical_query": "UNKNOWN()"}
+{"id": "q040", "canonical_query": "UNKNOWN()"}
+{"id": "q041", "canonical_query": "UNKNOWN()"}
+{"id": "q042", "canonical_query": "UNKNOWN()"}
+{"id": "q043", "canonical_query": "PREDICT(metric='churn rate', date='2028')"}
+{"id": "q044", "canonical_query": "UNKNOWN()"}
+{"id": "q045", "canonical_query": "UNKNOWN()"}
+{"id": "q046", "canonical_query": "UNKNOWN()"}
+{"id": "q047", "canonical_query": "UNKNOWN()"}
+{"id": "q048", "canonical_query": "UNKNOWN()"}
+{"id": "q049", "canonical_query": "SEQUENCE(anchor='dot-com bubble', relation='followed')"}
+{"id": "q050", "canonical_query": "CAUSAL(cause='price cut', effect='sales spike')"}
+{"id": "q051", "canonical_query": "UNKNOWN()"}
+{"id": "q052", "canonical_query": "UNKNOWN()"}
+{"id": "q053", "canonical_query": "CAUSAL(cause='API change', effect='mobile crash')"}
+{"id": "q054", "canonical_query": "COMPARE(metric='latency', a='2023', b='2024')"}
+{"id": "q055", "canonical_query": "UNKNOWN()"}
+{"id": "q056", "canonical_query": "UNKNOWN()"}
+{"id": "q057", "canonical_query": "PREDICT(metric='', date='2027')"}
+{"id": "q058", "canonical_query": "UNKNOWN()"}
+{"id": "q059", "canonical_query": "OVERLAP(event='outages', period='2024-Q2')"}
+{"id": "q060", "canonical_query": "UNKNOWN()"}
+{"id": "q061", "canonical_query": "UNKNOWN()"}
+{"id": "q062", "canonical_query": "UNKNOWN()"}
+{"id": "q063", "canonical_query": "UNKNOWN()"}
+{"id": "q064", "canonical_query": "UNKNOWN()"}
+{"id": "q065", "canonical_query": "COMPARE(metric='', a='2019', b='2021')"}
+{"id": "q066", "canonical_query": "PREDICT(metric='quarterly revenue', date='2026')"}
+{"id": "q067", "canonical_query": "UNKNOWN()"}
+{"id": "q068", "canonical_query": "UNKNOWN()"}
+{"id": "q069", "canonical_query": "UNKNOWN()"}
+{"id": "q070", "canonical_query": "UNKNOWN()"}
+{"id": "q071", "canonical_query": "UNKNOWN()"}
+{"id": "q072", "canonical_query": "UNKNOWN()"}
+{"id": "q073", "canonical_query": "UNKNOWN()"}
+{"id": "q074", "canonical_query": "UNKNOWN()"}
+{"id": "q075", "canonical_query": "UNKNOWN()"}
+{"id": "q076", "canonical_query": "UNKNOWN()"}
+{"id": "q077", "canonical_query": "OVERLAP(event='outages', period='2025-Q1')"}
+{"id": "q078", "canonical_query": "UNKNOWN()"}
+{"id": "q079", "canonical_query": "UNKNOWN()"}
+{"id": "q080", "canonical_query": "UNKNOWN()"}
+{"id": "q081", "canonical_query": "UNKNOWN()"}
+{"id": "q082", "canonical_query": "CAUSAL(cause='outage', effect='data loss')"}
+{"id": "q083", "canonical_query": "UNKNOWN()"}
+{"id": "q084", "canonical_query": "UNKNOWN()"}
+{"id": "q085", "canonical_query": "UNKNOWN()"}
+{"id": "q086", "canonical_query": "UNKNOWN()"}
+{"id": "q087", "canonical_query": "UNKNOWN()"}
+{"id": "q088", "canonical_query": "UNKNOWN()"}
+{"id": "q089", "canonical_query": "UNKNOWN()"}
+{"id": "q090", "canonical_query": "UNKNOWN()"}
+{"id": "q091", "canonical_query": "CAUSAL(cause='bad weather', effect='shipment delay')"}
+{"id": "q092", "canonical_query": "UNKNOWN()"}
+{"id": "q093", "canonical_query": "PREDICT(metric='workforce size', date='2030')"}
+{"id": "q094", "canonical_query": "UNKNOWN()"}
+{"id": "q095", "canonical_query": "UNKNOWN()"}
+{"id": "q096", "canonical_query": "UNKNOWN()"}
+{"id": "q097", "canonical_query": "UNKNOWN()"}
+{"id": "q098", "canonical_query": "UNKNOWN()"}
+{"id": "q099", "canonical_query": "UNKNOWN()"}
+{"id": "q100", "canonical_query": "CAUSAL(cause='algorithm update', effect='ranking drop')"}
+{"id": "q101", "canonical_query": "UNKNOWN()"}
+{"id": "q102", "canonical_query": "UNKNOWN()"}
+{"id": "q103", "canonical_query": "UNKNOWN()"}
+{"id": "q104", "canonical_query": "COMPARE(metric='gross revenue', a='2022', b='2023')"}
+{"id": "q105", "canonical_query": "SEQUENCE(anchor='launch of Sputnik', relation='followed')"}
+{"id": "q106", "canonical_query": "UNKNOWN()"}
+{"id": "q107", "canonical_query": "PREDICT(metric='operating costs', date='2025')"}
+{"id": "q108", "canonical_query": "UNKNOWN()"}
+{"id": "q109", "canonical_query": "OVERLAP(event='outages', period='2024-Q3')"}
+{"id": "q110", "canonical_query": "UNKNOWN()"}
+{"id": "q111", "canonical_query": "UNKNOWN()"}
+{"id": "q112", "canonical_query": "CAUSAL(cause='viral video', effect='traffic spike')"}
+{"id": "q113", "canonical_query": "UNKNOWN()"}
+{"id": "q114", "canonical_query": "UNKNOWN()"}
+{"id": "q115", "canonical_query": "COMPARE(metric='', a='2021', b='2022')"}
+{"id": "q116", "canonical_query": "PREDICT(metric='', date='2026')"}
+{"id": "q117", "canonical_query": "SEQUENCE(anchor='the database migration', relation='after')"}
+{"id": "q118", "canonical_query": "UNKNOWN()"}
+{"id": "q119", "canonical_query": "UNKNOWN()"}
+{"id": "q120", "canonical_query": "UNKNOWN()"}
+{"id": "q121", "canonical_query": "UNKNOWN()"}
+{"id": "q122", "canonical_query": "SEQUENCE(anchor='Ming Dynasty', relation='followed')"}
+{"id": "q123", "canonical_query": "UNKNOWN()"}
+{"id": "q124", "canonical_query": "UNKNOWN()"}
+{"id": "q125", "canonical_query": "UNKNOWN()"}
+{"id": "q126", "canonical_query": "UNKNOWN()"}
+{"id": "q127", "canonical_query": "OVERLAP(event='outages', period='2025-Q1')"}
+{"id": "q128", "canonical_query": "UNKNOWN()"}
+{"id": "q129", "canonical_query": "UNKNOWN()"}
+{"id": "q130", "canonical_query": "UNKNOWN()"}
+{"id": "q131", "canonical_query": "UNKNOWN()"}
+{"id": "q132", "canonical_query": "UNKNOWN()"}
+{"id": "q133", "canonical_query": "UNKNOWN()"}
+{"id": "q134", "canonical_query": "UNKNOWN()"}
+{"id": "q135", "canonical_query": "UNKNOWN()"}
+{"id": "q136", "canonical_query": "UNKNOWN()"}
+{"id": "q137", "canonical_query": "UNKNOWN()"}
+{"id": "q138", "canonical_query": "UNKNOWN()"}
+{"id": "q139", "canonical_query": "UNKNOWN()"}
+{"id": "q140", "canonical_query": "SEQUENCE(anchor='Iron Age', relation='followed')"}
+{"id": "q141", "canonical_query": "UNKNOWN()"}
+{"id": "q142", "canonical_query": "UNKNOWN()"}
+{"id": "q143", "canonical_query": "PREDICT(metric='website traffic', date='2028')"}
+{"id": "q144", "canonical_query": "UNKNOWN()"}
+{"id": "q145", "canonical_query": "UNKNOWN()"}
+{"id": "q146", "canonical_query": "UNKNOWN()"}
+{"id": "q147", "canonical_query": "UNKNOWN()"}
+{"id": "q148", "canonical_query": "UNKNOWN()"}
+{"id": "q149", "canonical_query": "UNKNOWN()"}
+{"id": "q150", "canonical_query": "UNKNOWN()"}
+{"id": "q151", "canonical_query": "UNKNOWN()"}
+{"id": "q152", "canonical_query": "UNKNOWN()"}
+{"id": "q153", "canonical_query": "CAUSAL(cause='new feature', effect='login bug')"}
+{"id": "q154", "canonical_query": "COMPARE(metric='response times', a='2021', b='2024')"}
+{"id": "q155", "canonical_query": "UNKNOWN()"}
+{"id": "q156", "canonical_query": "UNKNOWN()"}
+{"id": "q157", "canonical_query": "PREDICT(metric='', date='2029')"}
+{"id": "q158", "canonical_query": "UNKNOWN()"}
+{"id": "q159", "canonical_query": "OVERLAP(event='outages', period='2023-Q4')"}
+{"id": "q160", "canonical_query": "UNKNOWN()"}
+{"id": "q161", "canonical_query": "UNKNOWN()"}
+{"id": "q162", "canonical_query": "UNKNOWN()"}
+{"id": "q163", "canonical_query": "UNKNOWN()"}
+{"id": "q164", "canonical_query": "UNKNOWN()"}
+{"id": "q165", "canonical_query": "COMPARE(metric='', a='2021', b='2023')"}
+{"id": "q166", "canonical_query": "PREDICT(metric='quarterly growth', date='2028')"}
+{"id": "q167", "canonical_query": "UNKNOWN()"}
+{"id": "q168", "canonical_query": "UNKNOWN()"}
+{"id": "q169", "canonical_query": "UNKNOWN()"}
+{"id": "q170", "canonical_query": "UNKNOWN()"}
+{"id": "q171", "canonical_query": "UNKNOWN()"}
+{"id": "q172", "canonical_query": "UNKNOWN()"}
+{"id": "q173", "canonical_query": "UNKNOWN()"}
+{"id": "q174", "canonical_query": "UNKNOWN()"}
+{"id": "q175", "canonical_query": "UNKNOWN()"}
+{"id": "q176", "canonical_query": "UNKNOWN()"}
+{"id": "q177", "canonical_query": "OVERLAP(event='outages', period='2024-Q2')"}
+{"id": "q178", "canonical_query": "UNKNOWN()"}
+{"id": "q179", "canonical_query": "UNKNOWN()"}
+{"id": "q180", "canonical_query": "UNKNOWN()"}
+{"id": "q181", "canonical_query": "UNKNOWN()"}
+{"id": "q182", "canonical_query": "CAUSAL(cause='layoff announcement', effect='stock drop')"}
+{"id": "q183", "canonical_query": "UNKNOWN()"}
+{"id": "q184", "canonical_query": "UNKNOWN()"}
+{"id": "q185", "canonical_query": "UNKNOWN()"}
+{"id": "q186", "canonical_query": "UNKNOWN()"}
+{"id": "q187", "canonical_query": "UNKNOWN()"}
+{"id": "q188", "canonical_query": "UNKNOWN()"}
+{"id": "q189", "canonical_query": "UNKNOWN()"}
+{"id": "q190", "canonical_query": "UNKNOWN()"}
+{"id": "q191", "canonical_query": "CAUSAL(cause='promotion', effect='user spike')"}
+{"id": "q192", "canonical_query": "UNKNOWN()"}
+{"id": "q193", "canonical_query": "PREDICT(metric='team size', date='2030')"}
+{"id": "q194", "canonical_query": "UNKNOWN()"}
+{"id": "q195", "canonical_query": "UNKNOWN()"}
+{"id": "q196", "canonical_query": "UNKNOWN()"}
+{"id": "q197", "canonical_query": "UNKNOWN()"}
+{"id": "q198", "canonical_query": "UNKNOWN()"}
+{"id": "q199", "canonical_query": "UNKNOWN()"}
+{"id": "q200", "canonical_query": "CAUSAL(cause='policy change', effect='hiring freeze')"}
+{"id": "q201", "canonical_query": "UNKNOWN()"}
+{"id": "q202", "canonical_query": "UNKNOWN()"}
+{"id": "q203", "canonical_query": "CAUSAL(cause='new CEO', effect='stock rally')"}
+{"id": "q204", "canonical_query": "COMPARE(metric='net', a='2021', b='2023')"}
+{"id": "q205", "canonical_query": "SEQUENCE(anchor='fall of Rome', relation='followed')"}
+{"id": "q206", "canonical_query": "UNKNOWN()"}
+{"id": "q207", "canonical_query": "PREDICT(metric='operating income', date='2025')"}
+{"id": "q208", "canonical_query": "UNKNOWN()"}
+{"id": "q209", "canonical_query": "OVERLAP(event='outages', period='2024-Q3')"}
+{"id": "q210", "canonical_query": "UNKNOWN()"}
+{"id": "q211", "canonical_query": "UNKNOWN()"}
+{"id": "q212", "canonical_query": "UNKNOWN()"}
+{"id": "q213", "canonical_query": "UNKNOWN()"}
+{"id": "q214", "canonical_query": "UNKNOWN()"}
+{"id": "q215", "canonical_query": "COMPARE(metric='', a='2022', b='2023')"}
+{"id": "q216", "canonical_query": "PREDICT(metric='', date='2028')"}
+{"id": "q217", "canonical_query": "SEQUENCE(anchor='the cache update', relation='after')"}
+{"id": "q218", "canonical_query": "UNKNOWN()"}
+{"id": "q219", "canonical_query": "UNKNOWN()"}
+{"id": "q220", "canonical_query": "UNKNOWN()"}
+{"id": "q221", "canonical_query": "UNKNOWN()"}
+{"id": "q222", "canonical_query": "SEQUENCE(anchor='Victorian Era', relation='followed')"}
+{"id": "q223", "canonical_query": "UNKNOWN()"}
+{"id": "q224", "canonical_query": "UNKNOWN()"}
+{"id": "q225", "canonical_query": "UNKNOWN()"}
+{"id": "q226", "canonical_query": "UNKNOWN()"}
+{"id": "q227", "canonical_query": "OVERLAP(event='outages', period='2025-Q1')"}
+{"id": "q228", "canonical_query": "UNKNOWN()"}
+{"id": "q229", "canonical_query": "UNKNOWN()"}
+{"id": "q230", "canonical_query": "UNKNOWN()"}
+{"id": "q231", "canonical_query": "UNKNOWN()"}
+{"id": "q232", "canonical_query": "UNKNOWN()"}
+{"id": "q233", "canonical_query": "UNKNOWN()"}
+{"id": "q234", "canonical_query": "UNKNOWN()"}
+{"id": "q235", "canonical_query": "UNKNOWN()"}
+{"id": "q236", "canonical_query": "UNKNOWN()"}
+{"id": "q237", "canonical_query": "UNKNOWN()"}
+{"id": "q238", "canonical_query": "UNKNOWN()"}
+{"id": "q239", "canonical_query": "UNKNOWN()"}
+{"id": "q240", "canonical_query": "SEQUENCE(anchor='Middle Ages', relation='followed')"}
+{"id": "q241", "canonical_query": "UNKNOWN()"}
+{"id": "q242", "canonical_query": "UNKNOWN()"}
+{"id": "q243", "canonical_query": "PREDICT(metric='ad revenue', date='2028')"}
+{"id": "q244", "canonical_query": "UNKNOWN()"}
+{"id": "q245", "canonical_query": "UNKNOWN()"}
+{"id": "q246", "canonical_query": "UNKNOWN()"}
+{"id": "q247", "canonical_query": "INTERVAL(metric='unemployment', period='2009')"}
+{"id": "q248", "canonical_query": "UNKNOWN()"}
+{"id": "q249", "canonical_query": "UNKNOWN()"}
+{"id": "q250", "canonical_query": "UNKNOWN()"}
+{"id": "q251", "canonical_query": "UNKNOWN()"}
+{"id": "q252", "canonical_query": "UNKNOWN()"}
+{"id": "q253", "canonical_query": "CAUSAL(cause='code refactor', effect='regression')"}
+{"id": "q254", "canonical_query": "COMPARE(metric='load times', a='2021', b='2024')"}
+{"id": "q255", "canonical_query": "UNKNOWN()"}
+{"id": "q256", "canonical_query": "UNKNOWN()"}
+{"id": "q257", "canonical_query": "PREDICT(metric='', date='2029')"}
+{"id": "q258", "canonical_query": "UNKNOWN()"}
+{"id": "q259", "canonical_query": "OVERLAP(event='outages', period='2023-Q4')"}
+{"id": "q260", "canonical_query": "UNKNOWN()"}
+{"id": "q261", "canonical_query": "UNKNOWN()"}
+{"id": "q262", "canonical_query": "UNKNOWN()"}
+{"id": "q263", "canonical_query": "UNKNOWN()"}
+{"id": "q264", "canonical_query": "UNKNOWN()"}
+{"id": "q265", "canonical_query": "COMPARE(metric='', a='2021', b='2023')"}
+{"id": "q266", "canonical_query": "PREDICT(metric='yearly growth', date='2028')"}
+{"id": "q267", "canonical_query": "UNKNOWN()"}
+{"id": "q268", "canonical_query": "UNKNOWN()"}
+{"id": "q269", "canonical_query": "UNKNOWN()"}
+{"id": "q270", "canonical_query": "UNKNOWN()"}
+{"id": "q271", "canonical_query": "UNKNOWN()"}
+{"id": "q272", "canonical_query": "UNKNOWN()"}
+{"id": "q273", "canonical_query": "UNKNOWN()"}
+{"id": "q274", "canonical_query": "UNKNOWN()"}
+{"id": "q275", "canonical_query": "UNKNOWN()"}
+{"id": "q276", "canonical_query": "UNKNOWN()"}
+{"id": "q277", "canonical_query": "OVERLAP(event='outages', period='2024-Q2')"}
+{"id": "q278", "canonical_query": "UNKNOWN()"}
+{"id": "q279", "canonical_query": "UNKNOWN()"}
+{"id": "q280", "canonical_query": "UNKNOWN()"}
+{"id": "q281", "canonical_query": "UNKNOWN()"}
+{"id": "q282", "canonical_query": "CAUSAL(cause='CEO resignation', effect='stock fall')"}
+{"id": "q283", "canonical_query": "UNKNOWN()"}
+{"id": "q284", "canonical_query": "UNKNOWN()"}
+{"id": "q285", "canonical_query": "UNKNOWN()"}
+{"id": "q286", "canonical_query": "UNKNOWN()"}
+{"id": "q287", "canonical_query": "UNKNOWN()"}
+{"id": "q288", "canonical_query": "UNKNOWN()"}
+{"id": "q289", "canonical_query": "UNKNOWN()"}
+{"id": "q290", "canonical_query": "UNKNOWN()"}
+{"id": "q291", "canonical_query": "CAUSAL(cause='coupon', effect='order spike')"}
+{"id": "q292", "canonical_query": "UNKNOWN()"}
+{"id": "q293", "canonical_query": "PREDICT(metric='workforce size', date='2030')"}
+{"id": "q294", "canonical_query": "UNKNOWN()"}
+{"id": "q295", "canonical_query": "UNKNOWN()"}
+{"id": "q296", "canonical_query": "UNKNOWN()"}
+{"id": "q297", "canonical_query": "UNKNOWN()"}
+{"id": "q298", "canonical_query": "UNKNOWN()"}
+{"id": "q299", "canonical_query": "UNKNOWN()"}
+{"id": "q300", "canonical_query": "UNKNOWN()"}
+{"id": "q301", "canonical_query": "UNKNOWN()"}
+{"id": "q302", "canonical_query": "UNKNOWN()"}
+{"id": "q303", "canonical_query": "CAUSAL(cause='layoff rumors', effect='stock drop')"}
+{"id": "q304", "canonical_query": "COMPARE(metric='gross margin', a='2021', b='2023')"}
+{"id": "q305", "canonical_query": "SEQUENCE(anchor='fall of Constantinople', relation='followed')"}
+{"id": "q306", "canonical_query": "UNKNOWN()"}
+{"id": "q307", "canonical_query": "PREDICT(metric='net income', date='2025')"}
+{"id": "q308", "canonical_query": "UNKNOWN()"}
+{"id": "q309", "canonical_query": "OVERLAP(event='outages', period='2024-Q3')"}
+{"id": "q310", "canonical_query": "UNKNOWN()"}
+{"id": "q311", "canonical_query": "UNKNOWN()"}
+{"id": "q312", "canonical_query": "UNKNOWN()"}
+{"id": "q313", "canonical_query": "UNKNOWN()"}
+{"id": "q314", "canonical_query": "UNKNOWN()"}
+{"id": "q315", "canonical_query": "COMPARE(metric='', a='2022', b='2023')"}
+{"id": "q316", "canonical_query": "PREDICT(metric='', date='2028')"}
+{"id": "q317", "canonical_query": "SEQUENCE(anchor='the cache update', relation='after')"}
+{"id": "q318", "canonical_query": "UNKNOWN()"}
+{"id": "q319", "canonical_query": "UNKNOWN()"}
+{"id": "q320", "canonical_query": "UNKNOWN()"}
+{"id": "q321", "canonical_query": "UNKNOWN()"}
+{"id": "q322", "canonical_query": "UNKNOWN()"}
+{"id": "q323", "canonical_query": "UNKNOWN()"}
+{"id": "q324", "canonical_query": "UNKNOWN()"}
+{"id": "q325", "canonical_query": "UNKNOWN()"}
+{"id": "q326", "canonical_query": "UNKNOWN()"}
+{"id": "q327", "canonical_query": "OVERLAP(event='outages', period='2025-Q1')"}
+{"id": "q328", "canonical_query": "UNKNOWN()"}
+{"id": "q329", "canonical_query": "UNKNOWN()"}
+{"id": "q330", "canonical_query": "UNKNOWN()"}
+{"id": "q331", "canonical_query": "UNKNOWN()"}
+{"id": "q332", "canonical_query": "UNKNOWN()"}
+{"id": "q333", "canonical_query": "UNKNOWN()"}
+{"id": "q334", "canonical_query": "UNKNOWN()"}
+{"id": "q335", "canonical_query": "UNKNOWN()"}
+{"id": "q336", "canonical_query": "UNKNOWN()"}
+{"id": "q337", "canonical_query": "UNKNOWN()"}
+{"id": "q338", "canonical_query": "UNKNOWN()"}
+{"id": "q339", "canonical_query": "UNKNOWN()"}
+{"id": "q340", "canonical_query": "SEQUENCE(anchor='Dark Ages', relation='followed')"}
+{"id": "q341", "canonical_query": "UNKNOWN()"}
+{"id": "q342", "canonical_query": "UNKNOWN()"}
+{"id": "q343", "canonical_query": "PREDICT(metric='ad revenue', date='2028')"}
+{"id": "q344", "canonical_query": "UNKNOWN()"}
+{"id": "q345", "canonical_query": "UNKNOWN()"}
+{"id": "q346", "canonical_query": "UNKNOWN()"}
+{"id": "q347", "canonical_query": "UNKNOWN()"}
+{"id": "q348", "canonical_query": "UNKNOWN()"}
+{"id": "q349", "canonical_query": "UNKNOWN()"}
+{"id": "q350", "canonical_query": "UNKNOWN()"}
+{"id": "q351", "canonical_query": "UNKNOWN()"}
+{"id": "q352", "canonical_query": "UNKNOWN()"}
+{"id": "q353", "canonical_query": "CAUSAL(cause='code refactor', effect='regression')"}
+{"id": "q354", "canonical_query": "COMPARE(metric='load times', a='2021', b='2024')"}
+{"id": "q355", "canonical_query": "UNKNOWN()"}
+{"id": "q356", "canonical_query": "UNKNOWN()"}
+{"id": "q357", "canonical_query": "PREDICT(metric='', date='2029')"}
+{"id": "q358", "canonical_query": "UNKNOWN()"}
+{"id": "q359", "canonical_query": "OVERLAP(event='outages', period='2023-Q4')"}
+{"id": "q360", "canonical_query": "UNKNOWN()"}
+{"id": "q361", "canonical_query": "UNKNOWN()"}
+{"id": "q362", "canonical_query": "UNKNOWN()"}
+{"id": "q363", "canonical_query": "UNKNOWN()"}
+{"id": "q364", "canonical_query": "UNKNOWN()"}
+{"id": "q365", "canonical_query": "COMPARE(metric='', a='2021', b='2023')"}
+{"id": "q366", "canonical_query": "PREDICT(metric='yearly growth', date='2028')"}
+{"id": "q367", "canonical_query": "UNKNOWN()"}
+{"id": "q368", "canonical_query": "UNKNOWN()"}
+{"id": "q369", "canonical_query": "UNKNOWN()"}
+{"id": "q370", "canonical_query": "UNKNOWN()"}
+{"id": "q371", "canonical_query": "UNKNOWN()"}
+{"id": "q372", "canonical_query": "SEQUENCE(anchor='Song Dynasty', relation='followed')"}
+{"id": "q373", "canonical_query": "UNKNOWN()"}
+{"id": "q374", "canonical_query": "UNKNOWN()"}
+{"id": "q375", "canonical_query": "UNKNOWN()"}
+{"id": "q376", "canonical_query": "UNKNOWN()"}
+{"id": "q377", "canonical_query": "OVERLAP(event='outages', period='2024-Q2')"}
+{"id": "q378", "canonical_query": "UNKNOWN()"}
+{"id": "q379", "canonical_query": "UNKNOWN()"}
+{"id": "q380", "canonical_query": "UNKNOWN()"}
+{"id": "q381", "canonical_query": "UNKNOWN()"}
+{"id": "q382", "canonical_query": "CAUSAL(cause='merger announcement', effect='stock rise')"}
+{"id": "q383", "canonical_query": "UNKNOWN()"}
+{"id": "q384", "canonical_query": "UNKNOWN()"}
+{"id": "q385", "canonical_query": "UNKNOWN()"}
+{"id": "q386", "canonical_query": "UNKNOWN()"}
+{"id": "q387", "canonical_query": "UNKNOWN()"}
+{"id": "q388", "canonical_query": "UNKNOWN()"}
+{"id": "q389", "canonical_query": "UNKNOWN()"}
+{"id": "q390", "canonical_query": "UNKNOWN()"}
+{"id": "q391", "canonical_query": "CAUSAL(cause='discount', effect='sales spike')"}
+{"id": "q392", "canonical_query": "UNKNOWN()"}
+{"id": "q393", "canonical_query": "PREDICT(metric='employee count', date='2030')"}
+{"id": "q394", "canonical_query": "UNKNOWN()"}
+{"id": "q395", "canonical_query": "UNKNOWN()"}
+{"id": "q396", "canonical_query": "UNKNOWN()"}
+{"id": "q397", "canonical_query": "UNKNOWN()"}
+{"id": "q398", "canonical_query": "UNKNOWN()"}
+{"id": "q399", "canonical_query": "UNKNOWN()"}
+{"id": "q400", "canonical_query": "UNKNOWN()"}
+{"id": "q401", "canonical_query": "UNKNOWN()"}
+{"id": "q402", "canonical_query": "UNKNOWN()"}
+{"id": "q403", "canonical_query": "CAUSAL(cause='scandal', effect='resignation')"}
+{"id": "q404", "canonical_query": "COMPARE(metric='operating costs', a='2021', b='2023')"}
+{"id": "q405", "canonical_query": "SEQUENCE(anchor='Great Fire of London', relation='followed')"}
+{"id": "q406", "canonical_query": "UNKNOWN()"}
+{"id": "q407", "canonical_query": "PREDICT(metric='quarterly profit', date='2025')"}
+{"id": "q408", "canonical_query": "UNKNOWN()"}
+{"id": "q409", "canonical_query": "OVERLAP(event='outages', period='2024-Q3')"}
+{"id": "q410", "canonical_query": "UNKNOWN()"}
+{"id": "q411", "canonical_query": "UNKNOWN()"}
+{"id": "q412", "canonical_query": "UNKNOWN()"}
+{"id": "q413", "canonical_query": "UNKNOWN()"}
+{"id": "q414", "canonical_query": "UNKNOWN()"}
+{"id": "q415", "canonical_query": "COMPARE(metric='', a='2022', b='2023')"}
+{"id": "q416", "canonical_query": "PREDICT(metric='', date='2028')"}
+{"id": "q417", "canonical_query": "SEQUENCE(anchor='the release', relation='after')"}
+{"id": "q418", "canonical_query": "UNKNOWN()"}
+{"id": "q419", "canonical_query": "UNKNOWN()"}
+{"id": "q420", "canonical_query": "UNKNOWN()"}
+{"id": "q421", "canonical_query": "UNKNOWN()"}
+{"id": "q422", "canonical_query": "SEQUENCE(anchor='Elizabethan Era', relation='followed')"}
+{"id": "q423", "canonical_query": "UNKNOWN()"}
+{"id": "q424", "canonical_query": "UNKNOWN()"}
+{"id": "q425", "canonical_query": "UNKNOWN()"}
+{"id": "q426", "canonical_query": "UNKNOWN()"}
+{"id": "q427", "canonical_query": "OVERLAP(event='outages', period='2025-Q1')"}
+{"id": "q428", "canonical_query": "UNKNOWN()"}
+{"id": "q429", "canonical_query": "UNKNOWN()"}
+{"id": "q430", "canonical_query": "UNKNOWN()"}
+{"id": "q431", "canonical_query": "UNKNOWN()"}
+{"id": "q432", "canonical_query": "UNKNOWN()"}
+{"id": "q433", "canonical_query": "UNKNOWN()"}
+{"id": "q434", "canonical_query": "UNKNOWN()"}
+{"id": "q435", "canonical_query": "UNKNOWN()"}
+{"id": "q436", "canonical_query": "UNKNOWN()"}
+{"id": "q437", "canonical_query": "UNKNOWN()"}
+{"id": "q438", "canonical_query": "UNKNOWN()"}
+{"id": "q439", "canonical_query": "UNKNOWN()"}
+{"id": "q440", "canonical_query": "SEQUENCE(anchor='Age of Revolution', relation='followed')"}
+{"id": "q441", "canonical_query": "UNKNOWN()"}
+{"id": "q442", "canonical_query": "UNKNOWN()"}
+{"id": "q443", "canonical_query": "PREDICT(metric='churn', date='2028')"}
+{"id": "q444", "canonical_query": "UNKNOWN()"}
+{"id": "q445", "canonical_query": "UNKNOWN()"}
+{"id": "q446", "canonical_query": "UNKNOWN()"}
+{"id": "q447", "canonical_query": "UNKNOWN()"}
+{"id": "q448", "canonical_query": "UNKNOWN()"}
+{"id": "q449", "canonical_query": "UNKNOWN()"}
+{"id": "q450", "canonical_query": "UNKNOWN()"}
+{"id": "q451", "canonical_query": "UNKNOWN()"}
+{"id": "q452", "canonical_query": "UNKNOWN()"}
+{"id": "q453", "canonical_query": "CAUSAL(cause='rewrite', effect='regression')"}
+{"id": "q454", "canonical_query": "COMPARE(metric='load times', a='2022', b='2024')"}
+{"id": "q455", "canonical_query": "UNKNOWN()"}
+{"id": "q456", "canonical_query": "UNKNOWN()"}
+{"id": "q457", "canonical_query": "PREDICT(metric='', date='2029')"}
+{"id": "q458", "canonical_query": "UNKNOWN()"}
+{"id": "q459", "canonical_query": "OVERLAP(event='outages', period='2023-Q4')"}
+{"id": "q460", "canonical_query": "UNKNOWN()"}
+{"id": "q461", "canonical_query": "UNKNOWN()"}
+{"id": "q462", "canonical_query": "UNKNOWN()"}
+{"id": "q463", "canonical_query": "UNKNOWN()"}
+{"id": "q464", "canonical_query": "UNKNOWN()"}
+{"id": "q465", "canonical_query": "COMPARE(metric='', a='2021', b='2022')"}
+{"id": "q466", "canonical_query": "PREDICT(metric='yearly growth', date='2029')"}
+{"id": "q467", "canonical_query": "UNKNOWN()"}
+{"id": "q468", "canonical_query": "UNKNOWN()"}
+{"id": "q469", "canonical_query": "UNKNOWN()"}
+{"id": "q470", "canonical_query": "UNKNOWN()"}
+{"id": "q471", "canonical_query": "UNKNOWN()"}
+{"id": "q472", "canonical_query": "UNKNOWN()"}
+{"id": "q473", "canonical_query": "UNKNOWN()"}
+{"id": "q474", "canonical_query": "UNKNOWN()"}
+{"id": "q475", "canonical_query": "UNKNOWN()"}
+{"id": "q476", "canonical_query": "UNKNOWN()"}
+{"id": "q477", "canonical_query": "OVERLAP(event='outages', period='2024-Q1')"}
+{"id": "q478", "canonical_query": "UNKNOWN()"}
+{"id": "q479", "canonical_query": "UNKNOWN()"}
+{"id": "q480", "canonical_query": "UNKNOWN()"}
+{"id": "q481", "canonical_query": "UNKNOWN()"}
+{"id": "q482", "canonical_query": "CAUSAL(cause='CEO firing', effect='stock fall')"}
+{"id": "q483", "canonical_query": "UNKNOWN()"}
+{"id": "q484", "canonical_query": "UNKNOWN()"}
+{"id": "q485", "canonical_query": "UNKNOWN()"}
+{"id": "q486", "canonical_query": "UNKNOWN()"}
+{"id": "q487", "canonical_query": "UNKNOWN()"}
+{"id": "q488", "canonical_query": "UNKNOWN()"}
+{"id": "q489", "canonical_query": "UNKNOWN()"}
+{"id": "q490", "canonical_query": "UNKNOWN()"}
+{"id": "q491", "canonical_query": "CAUSAL(cause='coupon', effect='order drop')"}
+{"id": "q492", "canonical_query": "UNKNOWN()"}
+{"id": "q493", "canonical_query": "PREDICT(metric='workforce size', date='2028')"}
+{"id": "q494", "canonical_query": "UNKNOWN()"}
+{"id": "q495", "canonical_query": "UNKNOWN()"}
+{"id": "q496", "canonical_query": "UNKNOWN()"}
+{"id": "q497", "canonical_query": "UNKNOWN()"}
+{"id": "q498", "canonical_query": "UNKNOWN()"}
+{"id": "q499", "canonical_query": "UNKNOWN()"}
+{"id": "q500", "canonical_query": "UNKNOWN()"}
+{"id": "q501", "canonical_query": "UNKNOWN()"}
+{"id": "q502", "canonical_query": "UNKNOWN()"}
+{"id": "q503", "canonical_query": "CAUSAL(cause='layoff rumors', effect='strike')"}
+{"id": "q504", "canonical_query": "COMPARE(metric='gross margin', a='2020', b='2022')"}
+{"id": "q505", "canonical_query": "SEQUENCE(anchor='fall of the Berlin Wall', relation='followed')"}
+{"id": "q506", "canonical_query": "UNKNOWN()"}
+{"id": "q507", "canonical_query": "PREDICT(metric='net income', date='2026')"}
+{"id": "q508", "canonical_query": "UNKNOWN()"}
+{"id": "q509", "canonical_query": "OVERLAP(event='outages', period='2024-Q2')"}
+{"id": "q510", "canonical_query": "UNKNOWN()"}
+{"id": "q511", "canonical_query": "UNKNOWN()"}
+{"id": "q512", "canonical_query": "UNKNOWN()"}
+{"id": "q513", "canonical_query": "UNKNOWN()"}
+{"id": "q514", "canonical_query": "UNKNOWN()"}
+{"id": "q515", "canonical_query": "COMPARE(metric='', a='2021', b='2022')"}
+{"id": "q516", "canonical_query": "PREDICT(metric='', date='2029')"}
+{"id": "q517", "canonical_query": "SEQUENCE(anchor='the fix', relation='after')"}
+{"id": "q518", "canonical_query": "UNKNOWN()"}
+{"id": "q519", "canonical_query": "UNKNOWN()"}
+{"id": "q520", "canonical_query": "UNKNOWN()"}
+{"id": "q521", "canonical_query": "UNKNOWN()"}
+{"id": "q522", "canonical_query": "UNKNOWN()"}
+{"id": "q523", "canonical_query": "UNKNOWN()"}
+{"id": "q524", "canonical_query": "UNKNOWN()"}
+{"id": "q525", "canonical_query": "UNKNOWN()"}
+{"id": "q526", "canonical_query": "UNKNOWN()"}
+{"id": "q527", "canonical_query": "OVERLAP(event='outages', period='2024-Q4')"}
+{"id": "q528", "canonical_query": "UNKNOWN()"}
+{"id": "q529", "canonical_query": "UNKNOWN()"}
+{"id": "q530", "canonical_query": "UNKNOWN()"}
+{"id": "q531", "canonical_query": "UNKNOWN()"}
+{"id": "q532", "canonical_query": "UNKNOWN()"}
+{"id": "q533", "canonical_query": "UNKNOWN()"}
+{"id": "q534", "canonical_query": "UNKNOWN()"}
+{"id": "q535", "canonical_query": "UNKNOWN()"}
+{"id": "q536", "canonical_query": "UNKNOWN()"}
+{"id": "q537", "canonical_query": "UNKNOWN()"}
+{"id": "q538", "canonical_query": "UNKNOWN()"}
+{"id": "q539", "canonical_query": "UNKNOWN()"}
+{"id": "q540", "canonical_query": "SEQUENCE(anchor='Renaissance', relation='followed')"}
+{"id": "q541", "canonical_query": "UNKNOWN()"}
+{"id": "q542", "canonical_query": "UNKNOWN()"}
+{"id": "q543", "canonical_query": "PREDICT(metric='ad revenue', date='2029')"}
+{"id": "q544", "canonical_query": "UNKNOWN()"}
+{"id": "q545", "canonical_query": "UNKNOWN()"}
+{"id": "q546", "canonical_query": "UNKNOWN()"}
+{"id": "q547", "canonical_query": "UNKNOWN()"}
+{"id": "q548", "canonical_query": "UNKNOWN()"}
+{"id": "q549", "canonical_query": "UNKNOWN()"}
+{"id": "q550", "canonical_query": "UNKNOWN()"}
+{"id": "q551", "canonical_query": "UNKNOWN()"}
+{"id": "q552", "canonical_query": "UNKNOWN()"}
+{"id": "q553", "canonical_query": "CAUSAL(cause='code refactor', effect='bug')"}
+{"id": "q554", "canonical_query": "COMPARE(metric='load times', a='2023', b='2024')"}
+{"id": "q555", "canonical_query": "UNKNOWN()"}
+{"id": "q556", "canonical_query": "UNKNOWN()"}
+{"id": "q557", "canonical_query": "PREDICT(metric='', date='2030')"}
+{"id": "q558", "canonical_query": "UNKNOWN()"}
+{"id": "q559", "canonical_query": "OVERLAP(event='outages', period='2024-Q2')"}
+{"id": "q560", "canonical_query": "UNKNOWN()"}
+{"id": "q561", "canonical_query": "UNKNOWN()"}
+{"id": "q562", "canonical_query": "UNKNOWN()"}
+{"id": "q563", "canonical_query": "UNKNOWN()"}
+{"id": "q564", "canonical_query": "UNKNOWN()"}
+{"id": "q565", "canonical_query": "COMPARE(metric='', a='2022', b='2023')"}
+{"id": "q566", "canonical_query": "PREDICT(metric='yearly growth', date='2030')"}
+{"id": "q567", "canonical_query": "UNKNOWN()"}
+{"id": "q568", "canonical_query": "UNKNOWN()"}
+{"id": "q569", "canonical_query": "UNKNOWN()"}
+{"id": "q570", "canonical_query": "UNKNOWN()"}
+{"id": "q571", "canonical_query": "UNKNOWN()"}
+{"id": "q572", "canonical_query": "UNKNOWN()"}
+{"id": "q573", "canonical_query": "UNKNOWN()"}
+{"id": "q574", "canonical_query": "UNKNOWN()"}
+{"id": "q575", "canonical_query": "UNKNOWN()"}
+{"id": "q576", "canonical_query": "UNKNOWN()"}
+{"id": "q577", "canonical_query": "OVERLAP(event='outages', period='2024-Q2')"}
+{"id": "q578", "canonical_query": "UNKNOWN()"}
+{"id": "q579", "canonical_query": "UNKNOWN()"}
+{"id": "q580", "canonical_query": "UNKNOWN()"}
+{"id": "q581", "canonical_query": "UNKNOWN()"}
+{"id": "q582", "canonical_query": "CAUSAL(cause='CEO change', effect='stock rise')"}
+{"id": "q583", "canonical_query": "UNKNOWN()"}
+{"id": "q584", "canonical_query": "UNKNOWN()"}
+{"id": "q585", "canonical_query": "UNKNOWN()"}
+{"id": "q586", "canonical_query": "UNKNOWN()"}
+{"id": "q587", "canonical_query": "UNKNOWN()"}
+{"id": "q588", "canonical_query": "UNKNOWN()"}
+{"id": "q589", "canonical_query": "UNKNOWN()"}
+{"id": "q590", "canonical_query": "UNKNOWN()"}
+{"id": "q591", "canonical_query": "CAUSAL(cause='discount', effect='order spike')"}
+{"id": "q592", "canonical_query": "UNKNOWN()"}
+{"id": "q593", "canonical_query": "PREDICT(metric='workforce size', date='2030')"}
+{"id": "q594", "canonical_query": "UNKNOWN()"}
+{"id": "q595", "canonical_query": "UNKNOWN()"}
+{"id": "q596", "canonical_query": "UNKNOWN()"}
+{"id": "q597", "canonical_query": "UNKNOWN()"}
+{"id": "q598", "canonical_query": "UNKNOWN()"}
+{"id": "q599", "canonical_query": "UNKNOWN()"}
+{"id": "q600", "canonical_query": "UNKNOWN()"}
+{"id": "q601", "canonical_query": "UNKNOWN()"}
+{"id": "q602", "canonical_query": "UNKNOWN()"}
+{"id": "q603", "canonical_query": "CAUSAL(cause='rumor', effect='stock drop')"}
+{"id": "q604", "canonical_query": "COMPARE(metric='gross margin', a='2021', b='2022')"}
+{"id": "q605", "canonical_query": "SEQUENCE(anchor='fall of the Roman Empire', relation='followed')"}
+{"id": "q606", "canonical_query": "UNKNOWN()"}
+{"id": "q607", "canonical_query": "PREDICT(metric='net income', date='2027')"}
+{"id": "q608", "canonical_query": "UNKNOWN()"}
+{"id": "q609", "canonical_query": "OVERLAP(event='outages', period='2024-Q1')"}
+{"id": "q610", "canonical_query": "UNKNOWN()"}
+{"id": "q611", "canonical_query": "UNKNOWN()"}
+{"id": "q612", "canonical_query": "UNKNOWN()"}
+{"id": "q613", "canonical_query": "UNKNOWN()"}
+{"id": "q614", "canonical_query": "UNKNOWN()"}
+{"id": "q615", "canonical_query": "COMPARE(metric='', a='2020', b='2021')"}
+{"id": "q616", "canonical_query": "PREDICT(metric='', date='2028')"}
+{"id": "q617", "canonical_query": "SEQUENCE(anchor='the reboot', relation='after')"}
+{"id": "q618", "canonical_query": "UNKNOWN()"}
+{"id": "q619", "canonical_query": "UNKNOWN()"}
+{"id": "q620", "canonical_query": "UNKNOWN()"}
+{"id": "q621", "canonical_query": "UNKNOWN()"}
+{"id": "q622", "canonical_query": "UNKNOWN()"}
+{"id": "q623", "canonical_query": "UNKNOWN()"}
+{"id": "q624", "canonical_query": "UNKNOWN()"}
+{"id": "q625", "canonical_query": "UNKNOWN()"}
+{"id": "q626", "canonical_query": "UNKNOWN()"}
+{"id": "q627", "canonical_query": "OVERLAP(event='outages', period='2024-Q3')"}
+{"id": "q628", "canonical_query": "UNKNOWN()"}
+{"id": "q629", "canonical_query": "UNKNOWN()"}
+{"id": "q630", "canonical_query": "UNKNOWN()"}
+{"id": "q631", "canonical_query": "UNKNOWN()"}
+{"id": "q632", "canonical_query": "UNKNOWN()"}
+{"id": "q633", "canonical_query": "UNKNOWN()"}
+{"id": "q634", "canonical_query": "UNKNOWN()"}
+{"id": "q635", "canonical_query": "UNKNOWN()"}
+{"id": "q636", "canonical_query": "UNKNOWN()"}
+{"id": "q637", "canonical_query": "UNKNOWN()"}
+{"id": "q638", "canonical_query": "UNKNOWN()"}
+{"id": "q639", "canonical_query": "UNKNOWN()"}
+{"id": "q640", "canonical_query": "SEQUENCE(anchor='Renaissance', relation='followed')"}
+{"id": "q641", "canonical_query": "UNKNOWN()"}
+{"id": "q642", "canonical_query": "UNKNOWN()"}
+{"id": "q643", "canonical_query": "PREDICT(metric='ad revenue', date='2029')"}
+{"id": "q644", "canonical_query": "UNKNOWN()"}
+{"id": "q645", "canonical_query": "UNKNOWN()"}
+{"id": "q646", "canonical_query": "UNKNOWN()"}
+{"id": "q647", "canonical_query": "UNKNOWN()"}
+{"id": "q648", "canonical_query": "UNKNOWN()"}
+{"id": "q649", "canonical_query": "UNKNOWN()"}
+{"id": "q650", "canonical_query": "UNKNOWN()"}
+{"id": "q651", "canonical_query": "UNKNOWN()"}
+{"id": "q652", "canonical_query": "UNKNOWN()"}
+{"id": "q653", "canonical_query": "CAUSAL(cause='code refactor', effect='bug')"}
+{"id": "q654", "canonical_query": "COMPARE(metric='load times', a='2023', b='2024')"}
+{"id": "q655", "canonical_query": "UNKNOWN()"}
+{"id": "q656", "canonical_query": "UNKNOWN()"}
+{"id": "q657", "canonical_query": "PREDICT(metric='', date='2030')"}
+{"id": "q658", "canonical_query": "UNKNOWN()"}
+{"id": "q659", "canonical_query": "OVERLAP(event='outages', period='2024-Q2')"}
+{"id": "q660", "canonical_query": "UNKNOWN()"}
+{"id": "q661", "canonical_query": "UNKNOWN()"}
+{"id": "q662", "canonical_query": "UNKNOWN()"}
+{"id": "q663", "canonical_query": "UNKNOWN()"}
+{"id": "q664", "canonical_query": "UNKNOWN()"}
+{"id": "q665", "canonical_query": "COMPARE(metric='', a='2022', b='2023')"}
+{"id": "q666", "canonical_query": "PREDICT(metric='yearly growth', date='2030')"}
+{"id": "q667", "canonical_query": "UNKNOWN()"}
+{"id": "q668", "canonical_query": "UNKNOWN()"}
+{"id": "q669", "canonical_query": "UNKNOWN()"}
+{"id": "q670", "canonical_query": "UNKNOWN()"}
+{"id": "q671", "canonical_query": "UNKNOWN()"}
+{"id": "q672", "canonical_query": "UNKNOWN()"}
+{"id": "q673", "canonical_query": "UNKNOWN()"}
+{"id": "q674", "canonical_query": "UNKNOWN()"}
+{"id": "q675", "canonical_query": "UNKNOWN()"}
+{"id": "q676", "canonical_query": "UNKNOWN()"}
+{"id": "q677", "canonical_query": "OVERLAP(event='outages', period='2024-Q2')"}
+{"id": "q678", "canonical_query": "UNKNOWN()"}
+{"id": "q679", "canonical_query": "UNKNOWN()"}
+{"id": "q680", "canonical_query": "UNKNOWN()"}
+{"id": "q681", "canonical_query": "UNKNOWN()"}
+{"id": "q682", "canonical_query": "CAUSAL(cause='CEO change', effect='stock rise')"}
+{"id": "q683", "canonical_query": "UNKNOWN()"}
+{"id": "q684", "canonical_query": "UNKNOWN()"}
+{"id": "q685", "canonical_query": "UNKNOWN()"}
+{"id": "q686", "canonical_query": "UNKNOWN()"}
+{"id": "q687", "canonical_query": "UNKNOWN()"}
+{"id": "q688", "canonical_query": "UNKNOWN()"}
+{"id": "q689", "canonical_query": "UNKNOWN()"}
+{"id": "q690", "canonical_query": "UNKNOWN()"}
+{"id": "q691", "canonical_query": "CAUSAL(cause='discount', effect='order spike')"}
+{"id": "q692", "canonical_query": "UNKNOWN()"}
+{"id": "q693", "canonical_query": "PREDICT(metric='workforce size', date='2030')"}
+{"id": "q694", "canonical_query": "UNKNOWN()"}
+{"id": "q695", "canonical_query": "UNKNOWN()"}
+{"id": "q696", "canonical_query": "UNKNOWN()"}
+{"id": "q697", "canonical_query": "UNKNOWN()"}
+{"id": "q698", "canonical_query": "UNKNOWN()"}
+{"id": "q699", "canonical_query": "UNKNOWN()"}
+{"id": "q700", "canonical_query": "UNKNOWN()"}
+{"id": "q701", "canonical_query": "UNKNOWN()"}
+{"id": "q702", "canonical_query": "UNKNOWN()"}
+{"id": "q703", "canonical_query": "CAUSAL(cause='rumor', effect='stock drop')"}
+{"id": "q704", "canonical_query": "COMPARE(metric='gross margin', a='2021', b='2022')"}
+{"id": "q705", "canonical_query": "SEQUENCE(anchor='fall of the Roman Empire', relation='followed')"}
+{"id": "q706", "canonical_query": "UNKNOWN()"}
+{"id": "q707", "canonical_query": "PREDICT(metric='net income', date='2027')"}
+{"id": "q708", "canonical_query": "UNKNOWN()"}
+{"id": "q709", "canonical_query": "OVERLAP(event='outages', period='2024-Q1')"}
+{"id": "q710", "canonical_query": "UNKNOWN()"}
+{"id": "q711", "canonical_query": "UNKNOWN()"}
+{"id": "q712", "canonical_query": "UNKNOWN()"}
+{"id": "q713", "canonical_query": "UNKNOWN()"}
+{"id": "q714", "canonical_query": "UNKNOWN()"}
+{"id": "q715", "canonical_query": "COMPARE(metric='', a='2020', b='2021')"}
+{"id": "q716", "canonical_query": "PREDICT(metric='', date='2028')"}
+{"id": "q717", "canonical_query": "SEQUENCE(anchor='the reboot', relation='after')"}
+{"id": "q718", "canonical_query": "UNKNOWN()"}
+{"id": "q719", "canonical_query": "UNKNOWN()"}
+{"id": "q720", "canonical_query": "UNKNOWN()"}
+{"id": "q721", "canonical_query": "UNKNOWN()"}
+{"id": "q722", "canonical_query": "UNKNOWN()"}
+{"id": "q723", "canonical_query": "UNKNOWN()"}
+{"id": "q724", "canonical_query": "UNKNOWN()"}
+{"id": "q725", "canonical_query": "UNKNOWN()"}
+{"id": "q726", "canonical_query": "UNKNOWN()"}
+{"id": "q727", "canonical_query": "OVERLAP(event='outages', period='2024-Q3')"}
+{"id": "q728", "canonical_query": "UNKNOWN()"}
+{"id": "q729", "canonical_query": "UNKNOWN()"}
+{"id": "q730", "canonical_query": "UNKNOWN()"}
+{"id": "q731", "canonical_query": "UNKNOWN()"}
+{"id": "q732", "canonical_query": "UNKNOWN()"}
+{"id": "q733", "canonical_query": "UNKNOWN()"}
+{"id": "q734", "canonical_query": "UNKNOWN()"}
+{"id": "q735", "canonical_query": "UNKNOWN()"}
+{"id": "q736", "canonical_query": "UNKNOWN()"}
+{"id": "q737", "canonical_query": "UNKNOWN()"}
+{"id": "q738", "canonical_query": "UNKNOWN()"}
+{"id": "q739", "canonical_query": "UNKNOWN()"}
+{"id": "q740", "canonical_query": "SEQUENCE(anchor='Renaissance', relation='followed')"}
+{"id": "q741", "canonical_query": "UNKNOWN()"}
+{"id": "q742", "canonical_query": "UNKNOWN()"}
+{"id": "q743", "canonical_query": "PREDICT(metric='ad revenue', date='2029')"}
+{"id": "q744", "canonical_query": "UNKNOWN()"}
+{"id": "q745", "canonical_query": "UNKNOWN()"}
+{"id": "q746", "canonical_query": "UNKNOWN()"}
+{"id": "q747", "canonical_query": "UNKNOWN()"}
+{"id": "q748", "canonical_query": "UNKNOWN()"}
+{"id": "q749", "canonical_query": "UNKNOWN()"}
+{"id": "q750", "canonical_query": "UNKNOWN()"}
+{"id": "q751", "canonical_query": "UNKNOWN()"}
+{"id": "q752", "canonical_query": "UNKNOWN()"}
+{"id": "q753", "canonical_query": "CAUSAL(cause='code refactor', effect='bug')"}
+{"id": "q754", "canonical_query": "COMPARE(metric='load times', a='2023', b='2024')"}
+{"id": "q755", "canonical_query": "UNKNOWN()"}
+{"id": "q756", "canonical_query": "UNKNOWN()"}
+{"id": "q757", "canonical_query": "PREDICT(metric='', date='2030')"}
+{"id": "q758", "canonical_query": "UNKNOWN()"}
+{"id": "q759", "canonical_query": "OVERLAP(event='outages', period='2024-Q2')"}
+{"id": "q760", "canonical_query": "UNKNOWN()"}
+{"id": "q761", "canonical_query": "UNKNOWN()"}
+{"id": "q762", "canonical_query": "UNKNOWN()"}
+{"id": "q763", "canonical_query": "UNKNOWN()"}
+{"id": "q764", "canonical_query": "UNKNOWN()"}
+{"id": "q765", "canonical_query": "COMPARE(metric='', a='2022', b='2023')"}
+{"id": "q766", "canonical_query": "PREDICT(metric='yearly growth', date='2030')"}
+{"id": "q767", "canonical_query": "UNKNOWN()"}
+{"id": "q768", "canonical_query": "UNKNOWN()"}
+{"id": "q769", "canonical_query": "UNKNOWN()"}
+{"id": "q770", "canonical_query": "UNKNOWN()"}
+{"id": "q771", "canonical_query": "UNKNOWN()"}
+{"id": "q772", "canonical_query": "UNKNOWN()"}
+{"id": "q773", "canonical_query": "UNKNOWN()"}
+{"id": "q774", "canonical_query": "UNKNOWN()"}
+{"id": "q775", "canonical_query": "UNKNOWN()"}
+{"id": "q776", "canonical_query": "UNKNOWN()"}
+{"id": "q777", "canonical_query": "OVERLAP(event='outages', period='2024-Q2')"}
+{"id": "q778", "canonical_query": "UNKNOWN()"}
+{"id": "q779", "canonical_query": "UNKNOWN()"}
+{"id": "q780", "canonical_query": "UNKNOWN()"}
+{"id": "q781", "canonical_query": "UNKNOWN()"}
+{"id": "q782", "canonical_query": "CAUSAL(cause='CEO change', effect='stock rise')"}
+{"id": "q783", "canonical_query": "UNKNOWN()"}
+{"id": "q784", "canonical_query": "UNKNOWN()"}
+{"id": "q785", "canonical_query": "UNKNOWN()"}
+{"id": "q786", "canonical_query": "UNKNOWN()"}
+{"id": "q787", "canonical_query": "UNKNOWN()"}
+{"id": "q788", "canonical_query": "UNKNOWN()"}
+{"id": "q789", "canonical_query": "UNKNOWN()"}
+{"id": "q790", "canonical_query": "UNKNOWN()"}
+{"id": "q791", "canonical_query": "CAUSAL(cause='discount', effect='order spike')"}
+{"id": "q792", "canonical_query": "UNKNOWN()"}
+{"id": "q793", "canonical_query": "PREDICT(metric='workforce size', date='2030')"}
+{"id": "q794", "canonical_query": "UNKNOWN()"}
+{"id": "q795", "canonical_query": "UNKNOWN()"}
+{"id": "q796", "canonical_query": "UNKNOWN()"}
+{"id": "q797", "canonical_query": "UNKNOWN()"}
+{"id": "q798", "canonical_query": "UNKNOWN()"}
+{"id": "q799", "canonical_query": "UNKNOWN()"}
+{"id": "q800", "canonical_query": "UNKNOWN()"}
+{"id": "q801", "canonical_query": "UNKNOWN()"}
+{"id": "q802", "canonical_query": "UNKNOWN()"}
+{"id": "q803", "canonical_query": "CAUSAL(cause='rumor', effect='stock drop')"}
+{"id": "q804", "canonical_query": "COMPARE(metric='gross margin', a='2021', b='2022')"}
+{"id": "q805", "canonical_query": "SEQUENCE(anchor='fall of the Roman Empire', relation='followed')"}
+{"id": "q806", "canonical_query": "UNKNOWN()"}
+{"id": "q807", "canonical_query": "PREDICT(metric='net income', date='2027')"}
+{"id": "q808", "canonical_query": "UNKNOWN()"}
+{"id": "q809", "canonical_query": "OVERLAP(event='outages', period='2024-Q1')"}
+{"id": "q810", "canonical_query": "UNKNOWN()"}
+{"id": "q811", "canonical_query": "UNKNOWN()"}
+{"id": "q812", "canonical_query": "UNKNOWN()"}
+{"id": "q813", "canonical_query": "UNKNOWN()"}
+{"id": "q814", "canonical_query": "UNKNOWN()"}
+{"id": "q815", "canonical_query": "COMPARE(metric='', a='2020', b='2021')"}
+{"id": "q816", "canonical_query": "PREDICT(metric='', date='2028')"}
+{"id": "q817", "canonical_query": "SEQUENCE(anchor='the reboot', relation='after')"}
+{"id": "q818", "canonical_query": "UNKNOWN()"}
+{"id": "q819", "canonical_query": "UNKNOWN()"}
+{"id": "q820", "canonical_query": "UNKNOWN()"}
+{"id": "q821", "canonical_query": "UNKNOWN()"}
+{"id": "q822", "canonical_query": "UNKNOWN()"}
+{"id": "q823", "canonical_query": "UNKNOWN()"}
+{"id": "q824", "canonical_query": "UNKNOWN()"}
+{"id": "q825", "canonical_query": "UNKNOWN()"}
+{"id": "q826", "canonical_query": "UNKNOWN()"}
+{"id": "q827", "canonical_query": "OVERLAP(event='outages', period='2024-Q3')"}
+{"id": "q828", "canonical_query": "UNKNOWN()"}
+{"id": "q829", "canonical_query": "UNKNOWN()"}
+{"id": "q830", "canonical_query": "UNKNOWN()"}
+{"id": "q831", "canonical_query": "UNKNOWN()"}
+{"id": "q832", "canonical_query": "UNKNOWN()"}
+{"id": "q833", "canonical_query": "UNKNOWN()"}
+{"id": "q834", "canonical_query": "UNKNOWN()"}
+{"id": "q835", "canonical_query": "UNKNOWN()"}
+{"id": "q836", "canonical_query": "UNKNOWN()"}
+{"id": "q837", "canonical_query": "UNKNOWN()"}
+{"id": "q838", "canonical_query": "UNKNOWN()"}
+{"id": "q839", "canonical_query": "UNKNOWN()"}
+{"id": "q840", "canonical_query": "SEQUENCE(anchor='Renaissance', relation='followed')"}
+{"id": "q841", "canonical_query": "UNKNOWN()"}
+{"id": "q842", "canonical_query": "UNKNOWN()"}
+{"id": "q843", "canonical_query": "PREDICT(metric='ad revenue', date='2029')"}
+{"id": "q844", "canonical_query": "UNKNOWN()"}
+{"id": "q845", "canonical_query": "UNKNOWN()"}
+{"id": "q846", "canonical_query": "UNKNOWN()"}
+{"id": "q847", "canonical_query": "UNKNOWN()"}
+{"id": "q848", "canonical_query": "UNKNOWN()"}
+{"id": "q849", "canonical_query": "UNKNOWN()"}
+{"id": "q850", "canonical_query": "UNKNOWN()"}
+{"id": "q851", "canonical_query": "UNKNOWN()"}
+{"id": "q852", "canonical_query": "UNKNOWN()"}
+{"id": "q853", "canonical_query": "CAUSAL(cause='code refactor', effect='bug')"}
+{"id": "q854", "canonical_query": "COMPARE(metric='load times', a='2023', b='2024')"}
+{"id": "q855", "canonical_query": "UNKNOWN()"}
+{"id": "q856", "canonical_query": "UNKNOWN()"}
+{"id": "q857", "canonical_query": "PREDICT(metric='', date='2030')"}
+{"id": "q858", "canonical_query": "UNKNOWN()"}
+{"id": "q859", "canonical_query": "OVERLAP(event='outages', period='2024-Q2')"}
+{"id": "q860", "canonical_query": "UNKNOWN()"}
+{"id": "q861", "canonical_query": "UNKNOWN()"}
+{"id": "q862", "canonical_query": "UNKNOWN()"}
+{"id": "q863", "canonical_query": "UNKNOWN()"}
+{"id": "q864", "canonical_query": "UNKNOWN()"}
+{"id": "q865", "canonical_query": "COMPARE(metric='', a='2022', b='2023')"}
+{"id": "q866", "canonical_query": "PREDICT(metric='yearly growth', date='2030')"}
+{"id": "q867", "canonical_query": "UNKNOWN()"}
+{"id": "q868", "canonical_query": "UNKNOWN()"}
+{"id": "q869", "canonical_query": "UNKNOWN()"}
+{"id": "q870", "canonical_query": "UNKNOWN()"}
+{"id": "q871", "canonical_query": "UNKNOWN()"}
+{"id": "q872", "canonical_query": "UNKNOWN()"}
+{"id": "q873", "canonical_query": "UNKNOWN()"}
+{"id": "q874", "canonical_query": "UNKNOWN()"}
+{"id": "q875", "canonical_query": "UNKNOWN()"}
+{"id": "q876", "canonical_query": "UNKNOWN()"}
+{"id": "q877", "canonical_query": "OVERLAP(event='outages', period='2024-Q2')"}
+{"id": "q878", "canonical_query": "UNKNOWN()"}
+{"id": "q879", "canonical_query": "UNKNOWN()"}
+{"id": "q880", "canonical_query": "UNKNOWN()"}
+{"id": "q881", "canonical_query": "UNKNOWN()"}
+{"id": "q882", "canonical_query": "CAUSAL(cause='CEO change', effect='stock rise')"}
+{"id": "q883", "canonical_query": "UNKNOWN()"}
+{"id": "q884", "canonical_query": "UNKNOWN()"}
+{"id": "q885", "canonical_query": "UNKNOWN()"}
+{"id": "q886", "canonical_query": "UNKNOWN()"}
+{"id": "q887", "canonical_query": "UNKNOWN()"}
+{"id": "q888", "canonical_query": "UNKNOWN()"}
+{"id": "q889", "canonical_query": "UNKNOWN()"}
+{"id": "q890", "canonical_query": "UNKNOWN()"}
+{"id": "q891", "canonical_query": "CAUSAL(cause='discount', effect='order spike')"}
+{"id": "q892", "canonical_query": "UNKNOWN()"}
+{"id": "q893", "canonical_query": "PREDICT(metric='workforce size', date='2030')"}
+{"id": "q894", "canonical_query": "UNKNOWN()"}

@@ -1,0 +1,72 @@
+{
+  "dataset": "data\\jsonls\\temporal_graph.jsonl",
+  "predictions": null,
+  "n_per_type": 100,
+  "point_n": 100,
+  "point_per_domain": 20,
+  "max_domains": 5,
+  "seed": 13,
+  "missing_predictions": 0,
+  "human_loop": "llm",
+  "llm": {
+    "model": "gpt-5-nano",
+    "temperature": 0.0,
+    "max_tokens": 200
+  },
+  "human_export_path": null,
+  "merged_human": 0,
+  "llm_scored": 0,
+  "aggregate_by_bucket": {
+    "point": {
+      "count": 100.0,
+      "confidence_signal": -0.11,
+      "context_relevance": 0.7033095238095238,
+      "context_relevance_proxy": 0.7033095238095238,
+      "entity_coverage": 0.8016666666666667,
+      "has_prediction": 1.0,
+      "timestamp_accuracy": 0.975,
+      "unnecessary_detail_proxy": 0.82,
+      "unnecessary_detail_ratio": 0.18,
+      "unnecessary_detail_score": 0.82
+    },
+    "interval": {
+      "count": 100.0,
+      "boundary_accuracy": 0.26,
+      "confidence_signal": -0.07,
+      "context_relevance": 0.5062619047619047,
+      "duration_correctness": 0.28,
+      "entity_coverage": 0.6333333333333333,
+      "has_prediction": 1.0,
+      "interval_comparison_clarity": 0.05,
+      "interval_marker_presence": 0.81,
+      "overlap_representation": 0.02,
+      "unnecessary_detail_ratio": 0.465,
+      "unnecessary_detail_score": 0.535
+    },
+    "sequence": {
+      "count": 100.0,
+      "causal_coherence": 0.02,
+      "confidence_signal": -0.07,
+      "context_relevance": 0.5880808080808081,
+      "entity_coverage": 0.7175,
+      "has_prediction": 1.0,
+      "ordering_accuracy": 0.7142857142857143,
+      "sequence_marker_presence": 0.21,
+      "step_completeness": 0.8700980392156863,
+      "unnecessary_detail_ratio": 0.3975,
+      "unnecessary_detail_score": 0.6025
+    },
+    "causal": {
+      "count": 100.0,
+      "alternative_cause_awareness": 0.01,
+      "causal_marker_presence": 0.36,
+      "confidence_signal": -0.07,
+      "context_relevance": 0.39844047619047623,
+      "entity_coverage": 0.38233333333333336,
+      "has_prediction": 1.0,
+      "temporal_constraint_correctness": 0.96,
+      "unnecessary_detail_ratio": 0.485,
+      "unnecessary_detail_score": 0.515
+    }
+  }
+}

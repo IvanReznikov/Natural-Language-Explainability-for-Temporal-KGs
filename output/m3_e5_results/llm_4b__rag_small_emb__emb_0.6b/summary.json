@@ -1,0 +1,38 @@
+{
+    "run_id":  "llm_4b__rag_small_emb__emb_0.6b",
+    "llm_id":  "llm_4b",
+    "emb_id":  "emb_0.6b",
+    "mode":  "rag_small_emb",
+    "dataset":  "data/jsonls/temporal_evaluation_set_v2.jsonl",
+    "n_questions":  295,
+    "created_at":  "2026-05-11T12:16:32.2137364Z",
+    "status":  "completed",
+    "metrics":  {
+                    "n":  295,
+                    "exact":  0.43728813559322033,
+                    "contains":  0.43728813559322033,
+                    "latency_sec_mean":  1.62670806912205,
+                    "by_difficulty":  {
+                                          "easy":  {
+                                                       "n":  108,
+                                                       "exact":  0.4444444444444444,
+                                                       "contains":  0.4444444444444444
+                                                   },
+                                          "hard":  {
+                                                       "n":  62,
+                                                       "exact":  0.43548387096774194,
+                                                       "contains":  0.43548387096774194
+                                                   },
+                                          "medium":  {
+                                                         "n":  125,
+                                                         "exact":  0.432,
+                                                         "contains":  0.432
+                                                     }
+                                      },
+                    "by_domain":  {
+
+                                  }
+                },
+    "provenance":  "migrated_from_output/m3e5",
+    "source_run_folder":  "output/m3e5/runs/h_rag_qwen3_5-4b"
+}

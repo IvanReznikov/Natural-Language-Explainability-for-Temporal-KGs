@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "title": "M3-E5 Run Summary Schema",
+  "description": "Schema for output/m3_e5_results/<run_id>/summary.json",
+  "type": "object",
+  "required": ["run_id", "llm_id", "mode", "dataset", "n_questions", "metrics"],
+  "properties": {
+    "run_id": {
+      "type": "string",
+      "description": "Unique run identifier: <llm_id>__<mode>[__<emb_id>]",
+      "examples": ["llm_9b__graph_large_emb__emb_4b", "llm_2b__pure_llm"]
+    },
+    "llm_id": {
+      "type": "string",
+      "enum": ["llm_0.8b", "llm_2b", "llm_4b", "llm_9b"]
+    },
+    "emb_id": {
+      "type": ["string", "null"],
+      "enum": ["emb_0.6b", "emb_4b", null],
+      "description": "null for pure_llm mode"
+    },
+    "mode": {
+      "type": "string",
+      "enum": ["pure_llm", "rag_small_emb", "rag_large_emb", "graph_small_emb", "graph_large_emb"]
+    },
+    "dataset": {
+      "type": "string",
+      "description": "Path to eval JSONL used"
+    },
+    "n_questions": {
+      "type": "integer"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["in_progress", "completed", "failed"]
+    },
+    "metrics": {
+      "type": "object",
+      "required": ["exact", "contains", "latency_sec_mean"],
+      "properties": {
+        "exact": {"type": "number", "minimum": 0, "maximum": 1},
+        "contains": {"type": "number", "minimum": 0, "maximum": 1},
+        "latency_sec_mean": {"type": "number"},
+        "by_difficulty": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "properties": {
+              "n": {"type": "integer"},
+              "exact": {"type": "number"},
+              "contains": {"type": "number"}
+            }
+          }
+        },
+        "by_domain": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "properties": {
+              "n": {"type": "integer"},
+              "exact": {"type": "number"},
+              "contains": {"type": "number"}
+            }
+          }
+        }
+      }
+    }
+  }
+}

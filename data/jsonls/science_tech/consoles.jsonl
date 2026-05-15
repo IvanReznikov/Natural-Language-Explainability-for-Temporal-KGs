@@ -1,0 +1,270 @@
+{"input":"entity: Magnavox Odyssey; event: introduced; date: 1972; context: first-generation home console","output":"The Magnavox Odyssey was introduced in 1972 as an early first-generation home video game console."}
+{"input":"entity: Magnavox Odyssey; event: discontinued; date: 1975; context: first-generation home console","output":"The Magnavox Odyssey was discontinued in 1975, ending its initial commercial run."}
+{"input":"entity: Magnavox Odyssey; start: 1972; end: 1975; context: console lifespan","output":"The Magnavox Odyssey’s lifespan ran from 1972 to 1975."}
+{"input":"entity: Home Pong series; event: introduced; date: 1975; context: dedicated Pong-era consoles","output":"The Home Pong series was introduced in 1975 during the era of dedicated Pong-style consoles."}
+{"input":"entity: Home Pong series; event: discontinued; date: 1977; context: dedicated Pong-era consoles","output":"The Home Pong series was discontinued in 1977."}
+{"input":"entity: Home Pong series; start: 1975; end: 1977; context: console lifespan","output":"The Home Pong series ran from 1975 to 1977 as a dedicated home console line."}
+{"input":"entity: TV Tennis Electrotennis; event: introduced; date: 1975; context: Japan home console market","output":"TV Tennis Electrotennis was introduced in 1975 in Japan’s early home console market."}
+{"input":"entity: TV Tennis Electrotennis; event: discontinued; date: 1977; context: Japan home console market","output":"TV Tennis Electrotennis was discontinued in 1977."}
+{"input":"entity: TV Tennis Electrotennis; start: 1975; end: 1977; context: console lifespan","output":"TV Tennis Electrotennis lasted from 1975 to 1977."}
+{"input":"entity: Coleco Telstar; event: introduced; date: 1976; context: first-generation home consoles","output":"Coleco Telstar was introduced in 1976 as part of the first-generation home console wave."}
+{"input":"entity: Coleco Telstar; event: discontinued; date: 1978; context: first-generation home consoles","output":"Coleco Telstar was discontinued in 1978."}
+{"input":"entity: Coleco Telstar; start: 1976; end: 1978; context: console lifespan","output":"Coleco Telstar’s commercial lifespan ran from 1976 to 1978."}
+{"input":"entity: Color TV-Game; event: introduced; date: 1977; context: Nintendo early consoles","output":"Nintendo’s Color TV-Game line was introduced in 1977."}
+{"input":"entity: Color TV-Game; event: discontinued; date: 1983; context: Nintendo early consoles","output":"Nintendo’s Color TV-Game line was discontinued in 1983."}
+{"input":"entity: Color TV-Game; start: 1977; end: 1983; context: console lifespan","output":"Color TV-Game spanned 1977 to 1983 as an early Nintendo home console series."}
+{"input":"entity: Fairchild Channel F; event: introduced; date: 1976; context: cartridge-based consoles","output":"The Fairchild Channel F was introduced in 1976 as an early cartridge-based home console."}
+{"input":"entity: Fairchild Channel F; event: discontinued; date: 1983; context: cartridge-based consoles","output":"The Fairchild Channel F was discontinued in 1983."}
+{"input":"entity: Fairchild Channel F; start: 1976; end: 1983; context: console lifespan","output":"The Fairchild Channel F ran from 1976 to 1983."}
+{"input":"entity: Atari 2600; event: introduced; date: 1977; context: second-generation consoles","output":"The Atari 2600 was introduced in 1977 as a major second-generation console."}
+{"input":"entity: Atari 2600; event: discontinued; date: 1992; context: second-generation consoles","output":"The Atari 2600 stayed in production until 1992, when it was discontinued."}
+{"input":"entity: Atari 2600; start: 1977; end: 1992; context: console lifespan","output":"The Atari 2600’s lifespan ran from 1977 to 1992."}
+{"input":"entity: Magnavox Odyssey²; event: introduced; date: 1978; context: second-generation consoles","output":"The Magnavox Odyssey² was introduced in 1978 as a second-generation home console."}
+{"input":"entity: Magnavox Odyssey²; event: discontinued; date: 1984; context: second-generation consoles","output":"The Magnavox Odyssey² was discontinued in 1984."}
+{"input":"entity: Magnavox Odyssey²; start: 1978; end: 1984; context: console lifespan","output":"The Magnavox Odyssey² ran from 1978 to 1984."}
+{"input":"entity: Intellivision; event: introduced; date: 1980; context: second-generation consoles","output":"Intellivision was introduced in 1980 as a second-generation home console."}
+{"input":"entity: Intellivision; event: discontinued; date: 1990; context: second-generation consoles","output":"Intellivision was discontinued in 1990."}
+{"input":"entity: Intellivision; start: 1980; end: 1990; context: console lifespan","output":"Intellivision spanned 1980 to 1990 as a second-generation console platform."}
+{"input":"entity: ColecoVision; event: introduced; date: 1982; context: second-generation consoles","output":"ColecoVision was introduced in 1982 as a home console platform."}
+{"input":"entity: ColecoVision; event: discontinued; date: 1985; context: second-generation consoles","output":"ColecoVision was discontinued in 1985."}
+{"input":"entity: ColecoVision; start: 1982; end: 1985; context: console lifespan","output":"ColecoVision ran from 1982 to 1985."}
+{"input":"entity: Atari 5200; event: introduced; date: 1982; context: Atari consoles","output":"The Atari 5200 was introduced in 1982."}
+{"input":"entity: Atari 5200; event: discontinued; date: 1984; context: Atari consoles","output":"The Atari 5200 was discontinued in 1984."}
+{"input":"entity: Atari 5200; start: 1982; end: 1984; context: console lifespan","output":"The Atari 5200’s lifespan ran from 1982 to 1984."}
+{"input":"entity: Famicom/NES; event: introduced; date: 1983; context: third-generation Nintendo console","output":"The Famicom/NES was introduced in 1983 as a key third-generation console."}
+{"input":"entity: Famicom/NES; event: discontinued; date: 2003; context: third-generation Nintendo console","output":"The Famicom/NES was discontinued in 2003."}
+{"input":"entity: Famicom/NES; start: 1983; end: 2003; context: console lifespan","output":"The Famicom/NES remained in production from 1983 to 2003."}
+{"input":"entity: Mark III/Master System; event: introduced; date: 1985; context: Sega third-generation console","output":"Sega’s Mark III/Master System was introduced in 1985."}
+{"input":"entity: Mark III/Master System; event: discontinued; date: 1996; context: Sega third-generation console","output":"The Mark III/Master System was discontinued in 1996."}
+{"input":"entity: Mark III/Master System; start: 1985; end: 1996; context: console lifespan","output":"The Mark III/Master System ran from 1985 to 1996."}
+{"input":"entity: Atari 7800; event: introduced; date: 1986; context: third-generation consoles","output":"The Atari 7800 was introduced in 1986."}
+{"input":"entity: Atari 7800; event: discontinued; date: 1992; context: third-generation consoles","output":"The Atari 7800 was discontinued in 1992."}
+{"input":"entity: Atari 7800; start: 1986; end: 1992; context: console lifespan","output":"The Atari 7800 spanned 1986 to 1992."}
+{"input":"entity: Atari XEGS; event: introduced; date: 1987; context: third-generation consoles","output":"The Atari XEGS was introduced in 1987."}
+{"input":"entity: Atari XEGS; event: discontinued; date: 1992; context: third-generation consoles","output":"The Atari XEGS was discontinued in 1992."}
+{"input":"entity: Atari XEGS; start: 1987; end: 1992; context: console lifespan","output":"The Atari XEGS ran from 1987 to 1992."}
+{"input":"entity: Famicom Disk System; event: introduced; date: 1986; context: Nintendo add-on platform","output":"The Famicom Disk System was introduced in 1986 as a Nintendo platform add-on."}
+{"input":"entity: Famicom Disk System; event: discontinued; date: 1992; context: Nintendo add-on platform","output":"The Famicom Disk System was discontinued in 1992."}
+{"input":"entity: Famicom Disk System; start: 1986; end: 1992; context: platform lifespan","output":"The Famicom Disk System ran from 1986 to 1992."}
+{"input":"entity: PC Engine/TurboGrafx-16; event: introduced; date: 1987; context: fourth-generation consoles","output":"The PC Engine/TurboGrafx-16 was introduced in 1987."}
+{"input":"entity: PC Engine/TurboGrafx-16; event: discontinued; date: 1994; context: fourth-generation consoles","output":"The PC Engine/TurboGrafx-16 was discontinued in 1994."}
+{"input":"entity: PC Engine/TurboGrafx-16; start: 1987; end: 1994; context: console lifespan","output":"The PC Engine/TurboGrafx-16 spanned 1987 to 1994."}
+{"input":"entity: CD-ROM²/TurboGrafx-CD; event: introduced; date: 1988; context: optical add-ons","output":"The CD-ROM²/TurboGrafx-CD add-on was introduced in 1988."}
+{"input":"entity: CD-ROM²/TurboGrafx-CD; event: discontinued; date: 1995; context: optical add-ons","output":"The CD-ROM²/TurboGrafx-CD was discontinued in 1995."}
+{"input":"entity: CD-ROM²/TurboGrafx-CD; start: 1988; end: 1995; context: platform lifespan","output":"The CD-ROM²/TurboGrafx-CD ran from 1988 to 1995."}
+{"input":"entity: Mega Drive/Genesis; event: introduced; date: 1988; context: Sega 16-bit era","output":"The Mega Drive/Genesis was introduced in 1988 during the 16-bit era."}
+{"input":"entity: Mega Drive/Genesis; event: discontinued; date: 1997; context: Sega 16-bit era","output":"The Mega Drive/Genesis was discontinued in 1997."}
+{"input":"entity: Mega Drive/Genesis; start: 1988; end: 1997; context: console lifespan","output":"The Mega Drive/Genesis ran from 1988 to 1997."}
+{"input":"entity: Neo Geo; event: introduced; date: 1990; context: SNK home console","output":"SNK’s Neo Geo home console was introduced in 1990."}
+{"input":"entity: Neo Geo; event: discontinued; date: 1997; context: SNK home console","output":"The Neo Geo home console was discontinued in 1997."}
+{"input":"entity: Neo Geo; start: 1990; end: 1997; context: console lifespan","output":"The Neo Geo spanned 1990 to 1997 as a home console platform."}
+{"input":"entity: Super Famicom/Super NES; event: introduced; date: 1990; context: Nintendo 16-bit era","output":"The Super Famicom/Super NES was introduced in 1990."}
+{"input":"entity: Super Famicom/Super NES; event: discontinued; date: 2003; context: Nintendo 16-bit era","output":"The Super Famicom/Super NES was discontinued in 2003."}
+{"input":"entity: Super Famicom/Super NES; start: 1990; end: 2003; context: console lifespan","output":"The Super Famicom/Super NES ran from 1990 to 2003."}
+{"input":"entity: Sega CD/Mega-CD; event: introduced; date: 1991; context: Sega optical add-on","output":"The Sega CD/Mega-CD was introduced in 1991 as an optical add-on for Sega’s platform."}
+{"input":"entity: Sega CD/Mega-CD; event: discontinued; date: 1996; context: Sega optical add-on","output":"The Sega CD/Mega-CD was discontinued in 1996."}
+{"input":"entity: Sega CD/Mega-CD; start: 1991; end: 1996; context: platform lifespan","output":"The Sega CD/Mega-CD ran from 1991 to 1996."}
+{"input":"entity: CD-i; event: introduced; date: 1992; context: CD-based consoles","output":"The CD-i entered the console market in the early 1990s and is listed as introduced in 1992 in console timelines."}
+{"input":"entity: CD-i; event: discontinued; date: 1998; context: CD-based consoles","output":"The CD-i was discontinued in 1998."}
+{"input":"entity: CD-i; start: 1992; end: 1998; context: console lifespan","output":"The CD-i ran from 1992 to 1998."}
+{"input":"entity: Neo Geo CD; event: introduced; date: 1994; context: SNK optical console","output":"The Neo Geo CD was introduced in 1994."}
+{"input":"entity: Neo Geo CD; event: discontinued; date: 1997; context: SNK optical console","output":"The Neo Geo CD was discontinued in 1997."}
+{"input":"entity: Neo Geo CD; start: 1994; end: 1997; context: console lifespan","output":"The Neo Geo CD spanned 1994 to 1997."}
+{"input":"entity: FM Towns Marty; event: introduced; date: 1993; context: Japan console market","output":"FM Towns Marty was introduced in 1993."}
+{"input":"entity: FM Towns Marty; event: discontinued; date: 1995; context: Japan console market","output":"FM Towns Marty was discontinued in 1995."}
+{"input":"entity: FM Towns Marty; start: 1993; end: 1995; context: console lifespan","output":"FM Towns Marty ran from 1993 to 1995."}
+{"input":"entity: Amiga CD32; event: introduced; date: 1993; context: CD-based consoles","output":"The Amiga CD32 was introduced in 1993."}
+{"input":"entity: Amiga CD32; event: discontinued; date: 1994; context: CD-based consoles","output":"The Amiga CD32 was discontinued in 1994."}
+{"input":"entity: Amiga CD32; start: 1993; end: 1994; context: console lifespan","output":"The Amiga CD32 ran from 1993 to 1994."}
+{"input":"entity: Atari Jaguar; event: introduced; date: 1993; context: fifth-generation consoles","output":"The Atari Jaguar was introduced in 1993."}
+{"input":"entity: Atari Jaguar; event: discontinued; date: 1996; context: fifth-generation consoles","output":"The Atari Jaguar was discontinued in 1996."}
+{"input":"entity: Atari Jaguar; start: 1993; end: 1996; context: console lifespan","output":"The Atari Jaguar ran from 1993 to 1996."}
+{"input":"entity: 3DO; event: introduced; date: 1993; context: fifth-generation consoles","output":"The 3DO platform was introduced in 1993."}
+{"input":"entity: 3DO; event: discontinued; date: 1996; context: fifth-generation consoles","output":"The 3DO platform was discontinued in 1996."}
+{"input":"entity: 3DO; start: 1993; end: 1996; context: console lifespan","output":"The 3DO ran from 1993 to 1996."}
+{"input":"entity: PC-FX; event: introduced; date: 1994; context: Japan fifth-generation consoles","output":"The PC-FX was introduced in 1994."}
+{"input":"entity: PC-FX; event: discontinued; date: 1998; context: Japan fifth-generation consoles","output":"The PC-FX was discontinued in 1998."}
+{"input":"entity: PC-FX; start: 1994; end: 1998; context: console lifespan","output":"The PC-FX spanned 1994 to 1998."}
+{"input":"entity: Sega 32X; event: introduced; date: 1994; context: Sega add-on hardware","output":"The Sega 32X was introduced in 1994 as Sega add-on hardware."}
+{"input":"entity: Sega 32X; event: discontinued; date: 1996; context: Sega add-on hardware","output":"The Sega 32X was discontinued in 1996."}
+{"input":"entity: Sega 32X; start: 1994; end: 1996; context: platform lifespan","output":"The Sega 32X ran from 1994 to 1996."}
+{"input":"entity: Sega Saturn; event: introduced; date: 1994; context: fifth-generation consoles","output":"The Sega Saturn was introduced in 1994."}
+{"input":"entity: Sega Saturn; event: discontinued; date: 2000; context: fifth-generation consoles","output":"The Sega Saturn was discontinued in 2000."}
+{"input":"entity: Sega Saturn; start: 1994; end: 2000; context: console lifespan","output":"The Sega Saturn ran from 1994 to 2000."}
+{"input":"entity: PlayStation; event: introduced; date: 1994; context: Sony home consoles","output":"Sony’s PlayStation was introduced in 1994."}
+{"input":"entity: PlayStation; event: discontinued; date: 2006; context: Sony home consoles","output":"The original PlayStation remained in production until 2006, when it was discontinued."}
+{"input":"entity: PlayStation; start: 1994; end: 2006; context: console lifespan","output":"The original PlayStation ran from 1994 to 2006."}
+{"input":"entity: Nintendo 64; event: introduced; date: 1996; context: Nintendo fifth-generation console","output":"The Nintendo 64 was introduced in 1996."}
+{"input":"entity: Nintendo 64; event: discontinued; date: 2002; context: Nintendo fifth-generation console","output":"The Nintendo 64 was discontinued in 2002."}
+{"input":"entity: Nintendo 64; start: 1996; end: 2002; context: console lifespan","output":"The Nintendo 64 ran from 1996 to 2002."}
+{"input":"entity: Apple Pippin; event: introduced; date: 1996; context: multimedia/game console hybrids","output":"The Apple Pippin was introduced in 1996."}
+{"input":"entity: Apple Pippin; event: discontinued; date: 1997; context: multimedia/game console hybrids","output":"The Apple Pippin was discontinued in 1997."}
+{"input":"entity: Apple Pippin; start: 1996; end: 1997; context: console lifespan","output":"The Apple Pippin ran from 1996 to 1997."}
+{"input":"entity: Dreamcast; event: introduced; date: 1998; context: Sega sixth-generation consoles","output":"Sega’s Dreamcast was introduced in 1998."}
+{"input":"entity: Dreamcast; event: discontinued; date: 2001; context: Sega sixth-generation consoles","output":"The Dreamcast was discontinued in 2001."}
+{"input":"entity: Dreamcast; start: 1998; end: 2001; context: console lifespan","output":"The Dreamcast ran from 1998 to 2001."}
+{"input":"entity: PlayStation 2; event: introduced; date: 2000; context: Sony sixth-generation consoles","output":"The PlayStation 2 was introduced in 2000."}
+{"input":"entity: PlayStation 2; event: discontinued; date: 2013; context: Sony sixth-generation consoles","output":"The PlayStation 2 was discontinued in 2013."}
+{"input":"entity: PlayStation 2; start: 2000; end: 2013; context: console lifespan","output":"The PlayStation 2 ran from 2000 to 2013."}
+{"input":"entity: GameCube; event: introduced; date: 2001; context: Nintendo sixth-generation consoles","output":"Nintendo’s GameCube was introduced in 2001."}
+{"input":"entity: GameCube; event: discontinued; date: 2007; context: Nintendo sixth-generation consoles","output":"The GameCube was discontinued in 2007."}
+{"input":"entity: GameCube; start: 2001; end: 2007; context: console lifespan","output":"The GameCube ran from 2001 to 2007."}
+{"input":"entity: Xbox; event: introduced; date: 2001; context: Microsoft first console","output":"Microsoft’s original Xbox was introduced in 2001."}
+{"input":"entity: Xbox; event: discontinued; date: 2006; context: Microsoft first console","output":"The original Xbox was discontinued in 2006."}
+{"input":"entity: Xbox; start: 2001; end: 2006; context: console lifespan","output":"The original Xbox ran from 2001 to 2006."}
+{"input":"entity: Xbox 360; event: introduced; date: 2005; context: seventh-generation consoles","output":"The Xbox 360 was introduced in 2005 as a seventh-generation console."}
+{"input":"entity: Xbox 360; event: discontinued; date: 2016; context: seventh-generation consoles","output":"The Xbox 360 was discontinued in 2016."}
+{"input":"entity: Xbox 360; start: 2005; end: 2016; context: console lifespan","output":"The Xbox 360 ran from 2005 to 2016."}
+{"input":"entity: PlayStation 3; event: introduced; date: 2006; context: seventh-generation consoles","output":"The PlayStation 3 was introduced in 2006 as a seventh-generation console."}
+{"input":"entity: PlayStation 3; event: discontinued; date: 2017; context: seventh-generation consoles","output":"The PlayStation 3 was discontinued in 2017."}
+{"input":"entity: PlayStation 3; start: 2006; end: 2017; context: console lifespan","output":"The PlayStation 3 ran from 2006 to 2017."}
+{"input":"entity: Wii; event: introduced; date: 2006; context: seventh-generation Nintendo console","output":"Nintendo’s Wii was introduced in 2006."}
+{"input":"entity: Wii; event: discontinued; date: 2017; context: seventh-generation Nintendo console","output":"The Wii was discontinued in 2017."}
+{"input":"entity: Wii; start: 2006; end: 2017; context: console lifespan","output":"The Wii ran from 2006 to 2017."}
+{"input":"entity: Game Boy; event: introduced; date: 1989; context: Nintendo handhelds","output":"Nintendo’s Game Boy was introduced in 1989."}
+{"input":"entity: Game Boy; event: discontinued; date: 2003; context: Nintendo handhelds","output":"The Game Boy was discontinued in 2003."}
+{"input":"entity: Game Boy; start: 1989; end: 2003; context: handheld lifespan","output":"The Game Boy spanned 1989 to 2003 as a handheld platform."}
+{"input":"entity: Atari Lynx; event: introduced; date: 1989; context: handheld consoles","output":"The Atari Lynx was introduced in 1989."}
+{"input":"entity: Atari Lynx; event: discontinued; date: 1995; context: handheld consoles","output":"The Atari Lynx was discontinued in 1995."}
+{"input":"entity: Atari Lynx; start: 1989; end: 1995; context: handheld lifespan","output":"The Atari Lynx ran from 1989 to 1995."}
+{"input":"entity: Game Gear; event: introduced; date: 1990; context: Sega handhelds","output":"Sega’s Game Gear was introduced in 1990."}
+{"input":"entity: Game Gear; event: discontinued; date: 1997; context: Sega handhelds","output":"The Game Gear was discontinued in 1997."}
+{"input":"entity: Game Gear; start: 1990; end: 1997; context: handheld lifespan","output":"The Game Gear spanned 1990 to 1997."}
+{"input":"entity: TurboExpress; event: introduced; date: 1990; context: NEC handhelds","output":"The TurboExpress was introduced in 1990."}
+{"input":"entity: TurboExpress; event: discontinued; date: 1994; context: NEC handhelds","output":"The TurboExpress was discontinued in 1994."}
+{"input":"entity: TurboExpress; start: 1990; end: 1994; context: handheld lifespan","output":"The TurboExpress ran from 1990 to 1994."}
+{"input":"entity: Genesis Nomad; event: introduced; date: 1995; context: Sega handheld hardware","output":"The Genesis Nomad was introduced in 1995."}
+{"input":"entity: Genesis Nomad; event: discontinued; date: 1999; context: Sega handheld hardware","output":"The Genesis Nomad was discontinued in 1999."}
+{"input":"entity: Genesis Nomad; start: 1995; end: 1999; context: handheld lifespan","output":"The Genesis Nomad ran from 1995 to 1999."}
+{"input":"entity: Game.com; event: introduced; date: 1997; context: handheld consoles","output":"Tiger’s Game.com was introduced in 1997."}
+{"input":"entity: Game.com; event: discontinued; date: 2000; context: handheld consoles","output":"Game.com was discontinued in 2000."}
+{"input":"entity: Game.com; start: 1997; end: 2000; context: handheld lifespan","output":"Game.com ran from 1997 to 2000."}
+{"input":"entity: Game Boy Color; event: introduced; date: 1998; context: Nintendo handhelds","output":"The Game Boy Color was introduced in 1998."}
+{"input":"entity: Game Boy Color; event: discontinued; date: 2003; context: Nintendo handhelds","output":"The Game Boy Color was discontinued in 2003."}
+{"input":"entity: Game Boy Color; start: 1998; end: 2003; context: handheld lifespan","output":"The Game Boy Color ran from 1998 to 2003."}
+{"input":"entity: Neo Geo Pocket; event: introduced; date: 1998; context: SNK handhelds","output":"The Neo Geo Pocket was introduced in 1998."}
+{"input":"entity: Neo Geo Pocket; event: discontinued; date: 1999; context: SNK handhelds","output":"The Neo Geo Pocket was discontinued in 1999."}
+{"input":"entity: Neo Geo Pocket; start: 1998; end: 1999; context: handheld lifespan","output":"The Neo Geo Pocket ran from 1998 to 1999."}
+{"input":"entity: WonderSwan; event: introduced; date: 1999; context: Bandai handhelds","output":"Bandai’s WonderSwan was introduced in 1999."}
+{"input":"entity: WonderSwan; event: discontinued; date: 2000; context: Bandai handhelds","output":"The WonderSwan was discontinued in 2000."}
+{"input":"entity: WonderSwan; start: 1999; end: 2000; context: handheld lifespan","output":"The WonderSwan ran from 1999 to 2000."}
+{"input":"entity: Neo Geo Pocket Color; event: introduced; date: 1999; context: SNK handhelds","output":"The Neo Geo Pocket Color was introduced in 1999."}
+{"input":"entity: Neo Geo Pocket Color; event: discontinued; date: 2001; context: SNK handhelds","output":"The Neo Geo Pocket Color was discontinued in 2001."}
+{"input":"entity: Neo Geo Pocket Color; start: 1999; end: 2001; context: handheld lifespan","output":"The Neo Geo Pocket Color ran from 1999 to 2001."}
+{"input":"entity: WonderSwan Color; event: introduced; date: 2000; context: Bandai handhelds","output":"The WonderSwan Color was introduced in 2000."}
+{"input":"entity: WonderSwan Color; event: discontinued; date: 2003; context: Bandai handhelds","output":"The WonderSwan Color was discontinued in 2003."}
+{"input":"entity: WonderSwan Color; start: 2000; end: 2003; context: handheld lifespan","output":"The WonderSwan Color ran from 2000 to 2003."}
+{"input":"entity: Game Boy Advance; event: introduced; date: 2001; context: Nintendo handhelds","output":"The Game Boy Advance was introduced in 2001."}
+{"input":"entity: Game Boy Advance; event: discontinued; date: 2010; context: Nintendo handhelds","output":"The Game Boy Advance was discontinued in 2010."}
+{"input":"entity: Game Boy Advance; start: 2001; end: 2010; context: handheld lifespan","output":"The Game Boy Advance ran from 2001 to 2010."}
+{"input":"entity: N-Gage; event: introduced; date: 2003; context: phone-console hybrids","output":"Nokia’s N-Gage was introduced in 2003 as a phone-console hybrid."}
+{"input":"entity: N-Gage; event: discontinued; date: 2005; context: phone-console hybrids","output":"The N-Gage was discontinued in 2005."}
+{"input":"entity: N-Gage; start: 2003; end: 2005; context: device lifespan","output":"The N-Gage ran from 2003 to 2005."}
+{"input":"entity: Dendy; event: first release; date: 1992-12-17; context: Russia Famiclone market","output":"The Dendy console was first released on December 17, 1992, for the Russian market."}
+{"input":"entity: Dendy; event: production ceased; date: 1998; context: Russia Famiclone market","output":"Production of the original Dendy ceased in 1998."}
+{"input":"entity: Dendy; start: 1992-12-17; end: 1998; context: production lifespan","output":"Dendy’s production lifespan ran from its release on December 17, 1992, until production ceased in 1998."}
+{"input":"entity: First generation consoles; start: 1972; end: 1983; context: console generations","output":"The first generation of home consoles is described as spanning 1972 to 1983."}
+{"input":"entity: Second generation consoles; start: 1976; end: 1992; context: console generations","output":"The second generation of home consoles is described as spanning 1976 to 1992."}
+{"input":"entity: Third generation consoles; start: 1983; end: 2003; context: console generations","output":"The third (8-bit) generation is described as spanning 1983 to 2003."}
+{"input":"entity: Fourth generation consoles; start: 1987; end: 2004; context: console generations","output":"The fourth (16-bit) generation is described as spanning 1987 to 2004."}
+{"input":"entity: Fifth generation consoles; start: 1993; end: 2006; context: console generations","output":"The fifth (32-bit) generation is described as spanning 1993 to 2006."}
+{"input":"entity: Sixth generation consoles; start: 1998; end: 2013; context: console generations","output":"The sixth generation is described as spanning 1998 to 2013."}
+{"input":"entity: Seventh generation consoles; start: 2005; end: 2017; context: console generations","output":"The seventh generation is described as spanning 2005 to 2017."}
+{"input":"entity: Eighth generation consoles; start: 2012; end: present; context: console generations","output":"The eighth generation is described as beginning in 2012 and continuing into the present."}
+{"input":"entity: Ninth generation consoles; start: 2020; end: present; context: console generations","output":"The ninth generation is described as beginning in 2020 and continuing into the present."}
+{"input":"sequence: entity: Sega home consoles; phase1: Mega Drive/Genesis introduced 1988; phase2: Sega Saturn introduced 1994; phase3: Dreamcast introduced 1998; context: Sega timeline","output":"Sega introduced the Mega Drive/Genesis in 1988, followed by the Sega Saturn in 1994, and then the Dreamcast in 1998."}
+{"input":"sequence: entity: Sony home consoles; phase1: PlayStation introduced 1994; phase2: PlayStation 2 introduced 2000; context: Sony console timeline","output":"Sony introduced the PlayStation in 1994 and followed it with the PlayStation 2 in 2000."}
+{"input":"sequence: entity: Nintendo home consoles; phase1: Famicom/NES introduced 1983; phase2: Super Famicom/SNES introduced 1990; phase3: Nintendo 64 introduced 1996; context: Nintendo timeline","output":"Nintendo introduced the Famicom/NES in 1983, the Super Famicom/SNES in 1990, and the Nintendo 64 in 1996."}
+{"input":"sequence: entity: Sixth-generation leaders; phase1: Dreamcast introduced 1998; phase2: PlayStation 2 introduced 2000; phase3: GameCube introduced 2001; context: sixth-gen launch order","output":"In the sixth generation, Dreamcast arrived in 1998, PlayStation 2 followed in 2000, and GameCube was introduced in 2001."}
+{"input":"sequence: entity: Microsoft consoles; phase1: Xbox introduced 2001; phase2: Xbox 360 introduced 2005; context: Xbox lineage","output":"Microsoft introduced the original Xbox in 2001 and followed with the Xbox 360 in 2005."}
+{"input":"sequence: entity: Nintendo handheld line; phase1: Game Boy introduced 1989; phase2: Game Boy Color introduced 1998; phase3: Game Boy Advance introduced 2001; context: handheld evolution","output":"Nintendo’s handheld line introduced Game Boy in 1989, Game Boy Color in 1998, and Game Boy Advance in 2001."}
+{"input":"sequence: entity: SNK handhelds; phase1: Neo Geo Pocket introduced 1998; phase2: Neo Geo Pocket Color introduced 1999; context: SNK handheld timeline","output":"SNK introduced the Neo Geo Pocket in 1998 and then the Neo Geo Pocket Color in 1999."}
+{"input":"sequence: entity: Bandai WonderSwan line; phase1: WonderSwan introduced 1999; phase2: WonderSwan Color introduced 2000; context: Bandai handheld timeline","output":"Bandai introduced WonderSwan in 1999 and followed with WonderSwan Color in 2000."}
+{"input":"sequence: entity: Sega handhelds; phase1: Game Gear introduced 1990; phase2: Genesis Nomad introduced 1995; context: Sega handheld timeline","output":"Sega introduced the Game Gear in 1990 and later introduced the Genesis Nomad in 1995."}
+{"input":"sequence: entity: Early first-gen systems; phase1: Magnavox Odyssey introduced 1972; phase2: Home Pong series introduced 1975; phase3: Coleco Telstar introduced 1976; context: early home console rollout","output":"Early home consoles included the Magnavox Odyssey in 1972, the Home Pong series in 1975, and Coleco Telstar in 1976."}
+{"input":"overlap: event1: Atari 2600 lifespan 1977-1992; event2: Famicom/NES lifespan 1983-2003; context: cross-generation overlap","output":"The Atari 2600 (1977–1992) overlapped in time with the Famicom/NES (1983–2003)."}
+{"input":"overlap: event1: Mega Drive/Genesis lifespan 1988-1997; event2: Super Famicom/SNES lifespan 1990-2003; context: 16-bit era competition","output":"The Mega Drive/Genesis (1988–1997) overlapped with the Super Famicom/SNES (1990–2003) during the broader 16-bit era."}
+{"input":"overlap: event1: PlayStation lifespan 1994-2006; event2: Nintendo 64 lifespan 1996-2002; context: fifth-generation competition","output":"The original PlayStation (1994–2006) overlapped with the Nintendo 64 (1996–2002) during the fifth generation."}
+{"input":"overlap: event1: Dreamcast lifespan 1998-2001; event2: PlayStation 2 lifespan 2000-2013; context: sixth-generation transition","output":"The Dreamcast (1998–2001) overlapped with the PlayStation 2 (2000–2013) at the start of the sixth generation."}
+{"input":"overlap: event1: GameCube lifespan 2001-2007; event2: Xbox lifespan 2001-2006; context: sixth-generation rivals","output":"GameCube (2001–2007) and the original Xbox (2001–2006) overlapped as sixth-generation rivals."}
+{"input":"overlap: event1: Xbox 360 lifespan 2005-2016; event2: PlayStation 3 lifespan 2006-2017; context: seventh-generation rivals","output":"Xbox 360 (2005–2016) and PlayStation 3 (2006–2017) overlapped for most of the seventh generation."}
+{"input":"overlap: event1: Wii lifespan 2006-2017; event2: Xbox 360 lifespan 2005-2016; context: seventh-generation market","output":"The Wii (2006–2017) overlapped with the Xbox 360 (2005–2016) during the seventh generation."}
+{"input":"overlap: event1: Game Boy lifespan 1989-2003; event2: Game Gear lifespan 1990-1997; context: handheld competition","output":"Game Boy (1989–2003) overlapped with Sega’s Game Gear (1990–1997) in the handheld market."}
+{"input":"overlap: event1: Atari Lynx lifespan 1989-1995; event2: Game Boy lifespan 1989-2003; context: handheld competition","output":"Atari Lynx (1989–1995) overlapped with Game Boy (1989–2003) from their shared 1989 start."}
+{"input":"overlap: event1: Game Boy Color lifespan 1998-2003; event2: Neo Geo Pocket Color lifespan 1999-2001; context: late-1990s handhelds","output":"Game Boy Color (1998–2003) overlapped with Neo Geo Pocket Color (1999–2001) in the late 1990s and early 2000s."}
+{"input":"overlap: event1: WonderSwan Color lifespan 2000-2003; event2: Game Boy Advance lifespan 2001-2010; context: early-2000s handhelds","output":"WonderSwan Color (2000–2003) overlapped with Game Boy Advance (2001–2010) in the early 2000s."}
+{"input":"overlap: event1: Dendy production 1992-1998; event2: PlayStation introduced 1994; context: 1990s console market","output":"Dendy production (ending in 1998) overlapped with the original PlayStation era that began in 1994."}
+{"input":"overlap: event1: Sega Saturn lifespan 1994-2000; event2: PlayStation lifespan 1994-2006; context: mid-1990s rivals","output":"Sega Saturn (1994–2000) overlapped with the original PlayStation (1994–2006) as mid-1990s rivals."}
+{"input":"overlap: event1: Sega 32X lifespan 1994-1996; event2: Sega Saturn lifespan 1994-2000; context: Sega hardware overlap","output":"The Sega 32X (1994–1996) overlapped with the Sega Saturn (1994–2000) during the mid-1990s."}
+{"input":"overlap: event1: CD-i lifespan 1992-1998; event2: PlayStation introduced 1994; context: CD-based consoles","output":"The CD-i (discontinued in 1998) overlapped with the PlayStation era that began in 1994."}
+{"input":"overlap: event1: Atari Jaguar lifespan 1993-1996; event2: 3DO lifespan 1993-1996; context: early-1990s CD-era systems","output":"Atari Jaguar (1993–1996) and the 3DO (1993–1996) overlapped completely in their listed lifespans."}
+{"input":"overlap: event1: FM Towns Marty lifespan 1993-1995; event2: PlayStation introduced 1994; context: mid-1990s transition","output":"FM Towns Marty (1993–1995) overlapped with the PlayStation’s introduction in 1994."}
+{"input":"overlap: event1: Amiga CD32 lifespan 1993-1994; event2: PlayStation introduced 1994; context: fifth-generation onset","output":"Amiga CD32 (1993–1994) overlapped with the PlayStation’s introduction year in 1994."}
+{"input":"overlap: event1: TurboExpress lifespan 1990-1994; event2: Game Gear lifespan 1990-1997; context: early-1990s handhelds","output":"TurboExpress (1990–1994) overlapped with Game Gear (1990–1997) among early-1990s handhelds."}
+{"input":"overlap: event1: Neo Geo lifespan 1990-1997; event2: Mega Drive/Genesis lifespan 1988-1997; context: 1990s home consoles","output":"Neo Geo (1990–1997) overlapped with the Mega Drive/Genesis (1988–1997) during the 1990s."}
+{"input":"overlap: event1: Master System lifespan 1985-1996; event2: Mega Drive/Genesis lifespan 1988-1997; context: Sega platform overlap","output":"Master System (1985–1996) overlapped with Mega Drive/Genesis (1988–1997) in Sega’s lineup."}
+{"input":"overlap: event1: Atari 7800 lifespan 1986-1992; event2: Atari 2600 lifespan 1977-1992; context: Atari overlap","output":"Atari 7800 (1986–1992) overlapped with Atari 2600 (1977–1992) through 1992."}
+{"input":"overlap: event1: Famicom Disk System lifespan 1986-1992; event2: Famicom/NES lifespan 1983-2003; context: Nintendo ecosystem","output":"Famicom Disk System (1986–1992) overlapped with the broader Famicom/NES era (1983–2003)."}
+{"input":"overlap: event1: PC Engine/TurboGrafx-16 lifespan 1987-1994; event2: Super Famicom/SNES introduced 1990; context: early-1990s consoles","output":"PC Engine/TurboGrafx-16 (1987–1994) overlapped with the Super Famicom/SNES era that began in 1990."}
+{"input":"overlap: event1: PlayStation 2 lifespan 2000-2013; event2: Xbox 360 introduced 2005; context: long-tail consoles","output":"PlayStation 2’s long production run through 2013 overlapped with the Xbox 360 era that began in 2005."}
+{"input":"overlap: event1: Game Boy Advance lifespan 2001-2010; event2: GameCube lifespan 2001-2007; context: Nintendo 2000s hardware","output":"Game Boy Advance (2001–2010) overlapped with GameCube (2001–2007) in Nintendo’s early-2000s hardware era."}
+{"input":"overlap: event1: N-Gage lifespan 2003-2005; event2: Game Boy Advance lifespan 2001-2010; context: early-2000s handheld devices","output":"N-Gage (2003–2005) overlapped with the Game Boy Advance platform (2001–2010) in the early 2000s."}
+{"input":"overlap: event1: ColecoVision lifespan 1982-1985; event2: Atari 2600 lifespan 1977-1992; context: early-1980s consoles","output":"ColecoVision (1982–1985) overlapped with the Atari 2600’s long run (1977–1992) in the early 1980s."}
+{"input":"cause: Atari 2600 stayed in production until 1992; effect: second generation end marker; year: 1992; context: console generations","output":"Because the Atari 2600 stayed in production until 1992, that year is used as the end marker for the second console generation."}
+{"input":"cause: Sega could not compete with Sony; effect: Dreamcast discontinued; year: 2001; context: Sega hardware exit","output":"Unable to compete effectively, Sega discontinued the Dreamcast in 2001 and exited the hardware market."}
+{"input":"cause: PlayStation 2 introduced 2000; effect: Dreamcast outperformed shortly after; year: 2000-2001; context: sixth-generation shift","output":"After the PlayStation 2 was introduced in 2000, the Dreamcast was soon outperformed and was discontinued in 2001."}
+{"input":"cause: PlayStation remained in production until 2006; effect: fifth-generation long tail; year: 2006; context: console lifecycle","output":"Because the original PlayStation remained in production until 2006, it contributed to the long tail overlap between console generations."}
+{"input":"cause: PlayStation 2 included DVD playback and backward compatibility; effect: consumer adoption; year: 2000; context: sixth-generation features","output":"The PlayStation 2’s 2000 release paired DVD playback with backward compatibility, which helped drive consumer adoption."}
+{"input":"cause: Xbox was designed with PC-like features; effect: Xbox Live creation; year: 2001; context: online console services","output":"With the original Xbox introduced in 2001, Microsoft built toward an online ecosystem that included Xbox Live."}
+{"input":"cause: CD-ROM costs fell in the 1990s; effect: fifth-generation shift to optical media; year: 1993; context: media transition","output":"As optical media became attractive in the 1990s, fifth-generation consoles introduced from 1993 onward strongly shifted toward disc-based formats."}
+{"input":"cause: Sega released the Dreamcast first in Japan in 1998; effect: early sixth-gen lead; year: 1998; context: sixth-generation start","output":"Because Dreamcast arrived in 1998, Sega briefly gained an early start in the sixth-generation timeline."}
+{"input":"cause: PlayStation 2 sold through 2013; effect: sixth-generation end year; year: 2013; context: generation boundaries","output":"Because the PlayStation 2 continued until 2013, that year is used as the end boundary for the sixth console generation."}
+{"input":"cause: Nintendo produced the Game Boy from 1989 to 2003; effect: long-lived handheld era; year: 1989-2003; context: handheld dominance","output":"With the Game Boy running from 1989 to 2003, Nintendo maintained a long-lived handheld platform era."}
+{"input":"entity: Microvision; event: release year; date: 1979; context: handheld game consoles","output":"Microvision is listed as releasing in 1979 as an early handheld game console."}
+{"input":"entity: Entex Select-A-Game; event: release year; date: 1981; context: handheld game consoles","output":"Entex Select-A-Game is listed as releasing in 1981 as a handheld console."}
+{"input":"entity: Entex Adventure Vision; event: release year; date: 1982; context: handheld game consoles","output":"Entex Adventure Vision is listed as releasing in 1982 as a handheld console."}
+{"input":"entity: Palmtex Portable Videogame System; event: release year; date: 1984; context: handheld game consoles","output":"Palmtex Portable Videogame System is listed as releasing in 1984."}
+{"input":"entity: Digi Casse; event: release year; date: 1984; context: handheld game consoles","output":"Digi Casse is listed as releasing in 1984."}
+{"input":"entity: Epoch Game Pocket Computer; event: release year; date: 1984; context: handheld game consoles","output":"Epoch Game Pocket Computer is listed as releasing in 1984."}
+{"input":"entity: Etch A Sketch Animator 2000; event: release year; date: 1988; context: handheld game consoles","output":"Etch A Sketch Animator 2000 is listed as releasing in 1988."}
+{"input":"entity: Gamate; event: release year; date: 1990; context: handheld game consoles","output":"Gamate is listed as releasing in 1990 as a handheld console."}
+{"input":"entity: Game Master (Hartung); event: release year; date: 1990; context: handheld game consoles","output":"Game Master (Hartung) is listed as releasing in 1990."}
+{"input":"entity: Watara Supervision; event: release year; date: 1992; context: handheld game consoles","output":"Watara Supervision is listed as releasing in 1992."}
+{"input":"entity: Mega Duck; event: release year; date: 1993; context: handheld game consoles","output":"Mega Duck is listed as releasing in 1993 as a handheld console."}
+{"input":"entity: Design Master Senshi Mangajukuu; event: release year; date: 1995; context: handheld game consoles","output":"Design Master Senshi Mangajukuu is listed as releasing in 1995."}
+{"input":"entity: Nomad (Sega); event: release year; date: 1995; context: handheld game consoles","output":"Nomad (Sega) is listed as releasing in 1995 as a handheld console."}
+{"input":"entity: Tapwave Zodiac; event: release year; date: 2003; context: handheld game consoles","output":"Tapwave Zodiac is listed as releasing in 2003."}
+{"input":"entity: GameKing; event: release year; date: 2003; context: handheld game consoles","output":"GameKing is listed as releasing in 2003."}
+{"input":"entity: Nintendo DS; event: release year; date: 2004; context: handheld game consoles","output":"Nintendo DS is listed as releasing in 2004."}
+{"input":"entity: PlayStation Portable; event: release year; date: 2004; context: handheld game consoles","output":"PlayStation Portable is listed as releasing in 2004."}
+{"input":"entity: Gizmondo; event: release year; date: 2005; context: handheld game consoles","output":"Gizmondo is listed as releasing in 2005."}
+{"input":"entity: GP2X; event: release year; date: 2005; context: handheld game consoles","output":"GP2X is listed as releasing in 2005."}
+{"input":"entity: Dingoo A320; event: release year; date: 2009; context: handheld game consoles","output":"Dingoo A320 is listed as releasing in 2009."}
+{"input":"entity: GP2X Wiz; event: release year; date: 2009; context: handheld game consoles","output":"GP2X Wiz is listed as releasing in 2009."}
+{"input":"entity: Pandora (OpenPandora); event: release year; date: 2010; context: handheld game consoles","output":"Pandora (OpenPandora) is listed as releasing in 2010."}
+{"input":"entity: CAANOO; event: release year; date: 2010; context: handheld game consoles","output":"CAANOO is listed as releasing in 2010."}
+{"input":"entity: Nintendo 3DS; event: release year; date: 2011; context: handheld game consoles","output":"Nintendo 3DS is listed as releasing in 2011."}
+{"input":"entity: PlayStation Vita; event: release year; date: 2011; context: handheld game consoles","output":"PlayStation Vita is listed as releasing in 2011."}
+{"input":"entity: Nvidia Shield Portable; event: release year; date: 2012; context: handheld game consoles","output":"Nvidia Shield Portable is listed as releasing in 2012."}
+{"input":"entity: Neo Geo X; event: release year; date: 2012; context: handheld/hybrid consoles","output":"Neo Geo X is listed as releasing in 2012."}
+{"input":"entity: Game Gadget; event: release year; date: 2012; context: handheld game consoles","output":"Game Gadget is listed as releasing in 2012."}
+{"input":"entity: GCW Zero; event: release year; date: 2013; context: handheld game consoles","output":"GCW Zero is listed as releasing in 2013."}
+{"input":"entity: GPD XD; event: release year; date: 2015; context: handheld game consoles","output":"GPD XD is listed as releasing in 2015."}
+{"input":"entity: Arduboy; event: release year; date: 2016; context: handheld game consoles","output":"Arduboy is listed as releasing in 2016."}
+{"input":"entity: GPD Win; event: release year; date: 2016; context: handheld PC/console hybrids","output":"GPD Win is listed as releasing in 2016."}
+{"input":"entity: Nintendo Switch; event: release year; date: 2017; context: hybrid handheld/home console","output":"Nintendo Switch is listed as releasing in 2017 as a hybrid console."}
+{"input":"entity: Evercade; event: release year; date: 2020; context: handheld game consoles","output":"Evercade is listed as releasing in 2020."}
+{"input":"entity: Analogue Pocket; event: release year; date: 2021; context: handheld game consoles","output":"Analogue Pocket is listed as releasing in 2021."}
+{"input":"entity: Ayaneo; event: release year; date: 2021; context: handheld PC-style consoles","output":"Ayaneo is listed as releasing in 2021."}
+{"input":"entity: Steam Deck; event: release year; date: 2022; context: handheld consoles","output":"Steam Deck is listed as releasing in 2022."}
+{"input":"entity: Playdate; event: release year; date: 2022; context: handheld consoles","output":"Playdate is listed as releasing in 2022."}
+{"input":"entity: Thumby; event: release year; date: 2022; context: handheld consoles","output":"Thumby is listed as releasing in 2022."}
+{"input":"entity: Ayaneo 2; event: release year; date: 2022; context: handheld PC-style consoles","output":"Ayaneo 2 is listed as releasing in 2022."}
+{"input":"entity: ROG Ally; event: release year; date: 2023; context: handheld consoles","output":"ROG Ally is listed as releasing in 2023."}
+{"input":"entity: Nintendo Switch 2; event: release year; date: 2025; context: handheld list entry","output":"Nintendo Switch 2 is listed with a 2025 release year entry in the handheld console list."}
+{"input":"sequence: entity: Handheld milestones; phase1: Microvision release 1979; phase2: Game Boy release 1989; phase3: Nintendo DS release 2004; context: handheld timeline","output":"Handheld milestones include Microvision in 1979, Game Boy in 1989, and Nintendo DS in 2004."}
+{"input":"sequence: entity: Modern handhelds; phase1: Nintendo Switch release 2017; phase2: Steam Deck release 2022; phase3: ROG Ally release 2023; context: modern handheld timeline","output":"Modern handheld timelines include Nintendo Switch in 2017, Steam Deck in 2022, and ROG Ally in 2023."}
+{"input":"overlap: event1: Game Boy lifespan 1989-2003; event2: Nintendo DS release year 2004; context: Nintendo handheld transition","output":"Game Boy production through 2003 was closely followed by the Nintendo DS release year of 2004 in handheld timelines."}
+{"input":"cause: handheld LCD era maturation; effect: cartridge-based handhelds emerged; year: 1979-1989; context: handheld history","output":"With early LCD handhelds like Microvision (1979), cartridge-style handheld platforms later culminated in major releases like Game Boy (1989)."}
+{"input":"overlap: event1: seventh generation 2005-2017; event2: PlayStation 2 lifespan 2000-2013; context: generation overlap","output":"The seventh-generation era (2005–2017) overlapped with the PlayStation 2’s continued production through 2013."}
+{"input":"cause: Nintendo Switch hybrid design; effect: handheld and home console markets combined; year: 2017; context: console market evolution","output":"With the 2017 release of the Nintendo Switch, handheld and home console markets were effectively combined into a single hybrid platform."}

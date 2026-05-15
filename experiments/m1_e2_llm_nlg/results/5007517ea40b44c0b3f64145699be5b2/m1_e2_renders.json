@@ -1,0 +1,4502 @@
+[
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Nobel prize in physics awarded on december 10, 1903.",
+    "flesch_score": 75.50000000000003,
+    "information_density": 0.9629629629629629,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Special relativity was published on june 30, 1905.",
+    "flesch_score": 61.24000000000001,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "The united states declared independence on july 4, 1776.",
+    "flesch_score": 47.30000000000004,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Moon landing occurred on july 20, 1969.",
+    "flesch_score": 100.0,
+    "information_density": 0.7619047619047619,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Chernobyl nuclear disaster occurred on april 26, 1986.",
+    "flesch_score": 61.24000000000001,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "The invention date was march 12, 1989.",
+    "flesch_score": 100.0,
+    "information_density": 0.7619047619047619,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "The cold war ended on november 9, 1989.",
+    "flesch_score": 100.0,
+    "information_density": 0.75,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Covid-19 pandemic declared on march 11, 2020.",
+    "flesch_score": 78.87285714285717,
+    "information_density": 0.9523809523809523,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Docked with iss on may 31, 2020.",
+    "flesch_score": 100.0,
+    "information_density": 0.5714285714285714,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "First images captured on july 12, 2022.",
+    "flesch_score": 90.95857142857145,
+    "information_density": 0.8571428571428571,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Mandelbrot set discovered november 1, 1980.",
+    "flesch_score": 45.64500000000001,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 6
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Chimpanzee study began in july 1960.",
+    "flesch_score": 87.94500000000002,
+    "information_density": 0.8888888888888888,
+    "success": true,
+    "word_count": 6
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Formulated gravity law was published in 1687.",
+    "flesch_score": 54.70142857142861,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Evolution theory was published on november 24, 1859.",
+    "flesch_score": 61.24000000000001,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "The patented telephone was on march 10, 1876.",
+    "flesch_score": 82.39000000000001,
+    "information_density": 0.9166666666666666,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Tested light bulb october 21, 1879.",
+    "flesch_score": 100.0,
+    "information_density": 0.7777777777777778,
+    "success": true,
+    "word_count": 6
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Wireless electricity transmission was first documented in 1891.",
+    "flesch_score": 18.940000000000026,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Photo 51 was captured on may 2, 1952.",
+    "flesch_score": 100.0,
+    "information_density": 0.6666666666666666,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Polio vaccine announced april 12, 1955.",
+    "flesch_score": 59.745000000000005,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 6
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Proposed hawking radiation in 1974.",
+    "flesch_score": 49.48000000000002,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 5
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Crispr was developed in 2012.",
+    "flesch_score": 83.32000000000004,
+    "information_density": 0.9333333333333333,
+    "success": true,
+    "word_count": 5
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Linux kernel was released on september 17, 1991.",
+    "flesch_score": 71.81500000000001,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "He crowned himself emperor on december 2, 1804.",
+    "flesch_score": 71.81500000000001,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Emancipation proclamation issued january 1, 1863.",
+    "flesch_score": 17.44500000000002,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 6
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "India gained independence on august 15, 1947.",
+    "flesch_score": 54.70142857142861,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Nelson mandela became south africa president on may 10, 1994.",
+    "flesch_score": 52.86500000000001,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Rosa parks refused to give up her bus seat december 1, 1955.",
+    "flesch_score": 81.85500000000002,
+    "information_density": 0.8888888888888888,
+    "success": true,
+    "word_count": 12
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "\"i have a dream\" speech delivered august 28, 1963.",
+    "flesch_score": 84.90000000000003,
+    "information_density": 0.8888888888888888,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Gorbachev introduced glasnost and perestroika in 1985.",
+    "flesch_score": 18.44428571428574,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "James callaghan became uk prime minister on may 3, 1979.",
+    "flesch_score": 61.32500000000002,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Barack obama became us president on january 20, 2009.",
+    "flesch_score": 56.70000000000002,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Euro currency adopted january 1, 1999.",
+    "flesch_score": 73.84500000000001,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 6
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Guernica completed june 1937.",
+    "flesch_score": 33.57500000000002,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 4
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Sgt. pepper's album was released on june 1, 1967.",
+    "flesch_score": 89.46750000000003,
+    "information_density": 0.8888888888888888,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "The first academy awards were held on may 16, 1929.",
+    "flesch_score": 95.165,
+    "information_density": 0.8,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "2001: a space odyssey was released on april 2, 1968.",
+    "flesch_score": 95.165,
+    "information_density": 0.8,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "The shining was published in 1977.",
+    "flesch_score": 87.94500000000002,
+    "information_density": 0.8888888888888888,
+    "success": true,
+    "word_count": 6
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Ziggy stardust was released on june 16, 1972.",
+    "flesch_score": 92.965,
+    "information_density": 0.8333333333333334,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Digital preservation began in 1996.",
+    "flesch_score": 32.56000000000003,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 5
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Muhammad ali won heavyweight boxing title february 25, 1964.",
+    "flesch_score": 66.10000000000002,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Pel\u00e9 scored his 1000th goal on november 19, 1969.",
+    "flesch_score": 100.0,
+    "information_density": 0.6666666666666666,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Nobel prize in physics awarded on december 10, 1903.",
+    "flesch_score": 75.50000000000003,
+    "information_density": 0.9629629629629629,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Special relativity was published on june 30, 1905.",
+    "flesch_score": 61.24000000000001,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "The united states declared independence on july 4, 1776.",
+    "flesch_score": 47.30000000000004,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Moon landing july 20 1969.",
+    "flesch_score": 100.0,
+    "information_density": 0.5333333333333333,
+    "success": true,
+    "word_count": 5
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Chernobyl nuclear disaster occurred on april 26, 1986.",
+    "flesch_score": 61.24000000000001,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "The invention date was march 12, 1989.",
+    "flesch_score": 100.0,
+    "information_density": 0.7619047619047619,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "The cold war ended on november 9, 1989.",
+    "flesch_score": 100.0,
+    "information_density": 0.75,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Covid-19 pandemic declared on march 11, 2020.",
+    "flesch_score": 78.87285714285717,
+    "information_density": 0.9523809523809523,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Docked with iss on may 31, 2020.",
+    "flesch_score": 100.0,
+    "information_density": 0.5714285714285714,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "First images captured on july 12, 2022.",
+    "flesch_score": 90.95857142857145,
+    "information_density": 0.8571428571428571,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Mandelbrot set discovered november 1, 1980.",
+    "flesch_score": 45.64500000000001,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 6
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Chimpanzee study began in july 1960.",
+    "flesch_score": 87.94500000000002,
+    "information_density": 0.8888888888888888,
+    "success": true,
+    "word_count": 6
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Formulated gravity law in 1687 by isaac newton.",
+    "flesch_score": 71.81500000000001,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Evolution theory was published on november 24, 1859.",
+    "flesch_score": 61.24000000000001,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Patented telephone on march 10, 1876.",
+    "flesch_score": 73.84500000000001,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 6
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Tested light bulb october 21, 1879.",
+    "flesch_score": 100.0,
+    "information_density": 0.7777777777777778,
+    "success": true,
+    "word_count": 6
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Wireless electricity transmission was first documented in 1891.",
+    "flesch_score": 18.940000000000026,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Photo 51 was captured on may 2, 1952.",
+    "flesch_score": 100.0,
+    "information_density": 0.6666666666666666,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Polio vaccine announced april 12, 1955.",
+    "flesch_score": 59.745000000000005,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 6
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Proposed hawking radiation in 1974.",
+    "flesch_score": 49.48000000000002,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 5
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Crispr was developed in 2012.",
+    "flesch_score": 83.32000000000004,
+    "information_density": 0.9333333333333333,
+    "success": true,
+    "word_count": 5
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Linux kernel was released on september 17, 1991.",
+    "flesch_score": 71.81500000000001,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "He crowned himself emperor on december 2, 1804.",
+    "flesch_score": 71.81500000000001,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Emancipation proclamation issued january 1, 1863.",
+    "flesch_score": 17.44500000000002,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 6
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "India gained independence on august 15, 1947.",
+    "flesch_score": 54.70142857142861,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Nelson mandela became south africa president on may 10, 1994.",
+    "flesch_score": 52.86500000000001,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Rosa parks refused to give up her bus seat december 1, 1955.",
+    "flesch_score": 81.85500000000002,
+    "information_density": 0.8888888888888888,
+    "success": true,
+    "word_count": 12
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "\"i have a dream\" speech delivered august 28, 1963.",
+    "flesch_score": 84.90000000000003,
+    "information_density": 0.8888888888888888,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Gorbachev introduced glasnost and perestroika in 1985.",
+    "flesch_score": 18.44428571428574,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "James callaghan became uk prime minister on may 3, 1979.",
+    "flesch_score": 61.32500000000002,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Barack obama became us president on january 20, 2009.",
+    "flesch_score": 56.70000000000002,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Euro currency adopted january 1, 1999.",
+    "flesch_score": 73.84500000000001,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 6
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Guernica completed june 1937.",
+    "flesch_score": 33.57500000000002,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 4
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Sgt. pepper's album was released on june 1, 1967.",
+    "flesch_score": 89.46750000000003,
+    "information_density": 0.8888888888888888,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "The first academy awards were held on may 16, 1929.",
+    "flesch_score": 95.165,
+    "information_density": 0.8,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "2001: a space odyssey was released on april 2, 1968.",
+    "flesch_score": 95.165,
+    "information_density": 0.8,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "The shining was published in 1977.",
+    "flesch_score": 87.94500000000002,
+    "information_density": 0.8888888888888888,
+    "success": true,
+    "word_count": 6
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Ziggy stardust was released on june 16, 1972.",
+    "flesch_score": 92.965,
+    "information_density": 0.8333333333333334,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Digital preservation began in 1996.",
+    "flesch_score": 32.56000000000003,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 5
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Muhammad ali won heavyweight boxing title february 25, 1964.",
+    "flesch_score": 66.10000000000002,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Pel\u00e9 scored his 1000th goal on november 19, 1969.",
+    "flesch_score": 100.0,
+    "information_density": 0.6666666666666666,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Nobel prize in physics awarded on december 10, 1903.",
+    "flesch_score": 75.50000000000003,
+    "information_density": 0.9629629629629629,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Special relativity was published on june 30, 1905.",
+    "flesch_score": 61.24000000000001,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "The united states declared independence on july 4, 1776.",
+    "flesch_score": 47.30000000000004,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Moon landing occurred on july 20, 1969.",
+    "flesch_score": 100.0,
+    "information_density": 0.7619047619047619,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Chernobyl nuclear disaster occurred on april 26, 1986.",
+    "flesch_score": 61.24000000000001,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "The invention date was march 12, 1989.",
+    "flesch_score": 100.0,
+    "information_density": 0.7619047619047619,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "The cold war ended on november 9, 1989.",
+    "flesch_score": 100.0,
+    "information_density": 0.75,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Covid-19 pandemic declared on march 11, 2020.",
+    "flesch_score": 78.87285714285717,
+    "information_density": 0.9523809523809523,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Docked with iss on may 31, 2020.",
+    "flesch_score": 100.0,
+    "information_density": 0.5714285714285714,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "First images captured on july 12, 2022.",
+    "flesch_score": 90.95857142857145,
+    "information_density": 0.8571428571428571,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Mandelbrot set discovered november 1, 1980.",
+    "flesch_score": 45.64500000000001,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 6
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Chimpanzee study began in july 1960.",
+    "flesch_score": 87.94500000000002,
+    "information_density": 0.8888888888888888,
+    "success": true,
+    "word_count": 6
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Formulated gravity law in 1687 by isaac newton.",
+    "flesch_score": 71.81500000000001,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Evolution theory was published on november 24, 1859.",
+    "flesch_score": 61.24000000000001,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Patented telephone on march 10, 1876.",
+    "flesch_score": 73.84500000000001,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 6
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Tested light bulb october 21, 1879.",
+    "flesch_score": 100.0,
+    "information_density": 0.7777777777777778,
+    "success": true,
+    "word_count": 6
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Wireless electricity transmission was first demonstrated in 1891.",
+    "flesch_score": 18.940000000000026,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "point_in_time",
+    "template_id": "production_llm",
+    "rendered_output": "Photo 51 was captured on may 2, 1952.",
+    "flesch_score": 100.0,
+    "information_density": 0.6666666666666666,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "World war ii lasted from september 1, 1939, to september 2, 1945.",
+    "flesch_score": 100.0,
+    "information_density": 0.7222222222222222,
+    "success": true,
+    "word_count": 12
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Event occurred from the 14th to the 17th century.",
+    "flesch_score": 94.30000000000001,
+    "information_density": 0.8148148148148148,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "The event spanned from 1890 to 1934.",
+    "flesch_score": 100.0,
+    "information_density": 0.6666666666666666,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Persisted from march 12, 1947, to december 3, 1989.",
+    "flesch_score": 100.0,
+    "information_density": 0.6666666666666666,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Queen victoria reigned from 1837 to 1901.",
+    "flesch_score": 100.0,
+    "information_density": 0.7619047619047619,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "transformed occurred.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 2
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Shaped from 1685 to 1815.",
+    "flesch_score": 100.0,
+    "information_density": 0.5333333333333333,
+    "success": true,
+    "word_count": 5
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Operated from 1961 to 1972.",
+    "flesch_score": 100.0,
+    "information_density": 0.8,
+    "success": true,
+    "word_count": 5
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "The characterized tech event occurred from 1995 to 2000.",
+    "flesch_score": 66.10000000000002,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "The great depression devastated the world from 1929 to 1939.",
+    "flesch_score": 86.70500000000001,
+    "information_density": 0.8666666666666667,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Europe was dominated from the 5th to the 15th century.",
+    "flesch_score": 78.24500000000002,
+    "information_density": 0.9333333333333333,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "The civilization flourished from 3100 bce to 30 bce.",
+    "flesch_score": 75.50000000000003,
+    "information_density": 0.9629629629629629,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Governed from 27 bce to 476 ce.",
+    "flesch_score": 100.0,
+    "information_density": 0.6666666666666666,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Endured from 330 ce to 1453 ce.",
+    "flesch_score": 100.0,
+    "information_density": 0.6666666666666666,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Flourished from the 8th to the 14th century.",
+    "flesch_score": 100.0,
+    "information_density": 0.75,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "The influenced period was from 793 to 1066.",
+    "flesch_score": 100.0,
+    "information_density": 0.75,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Transformed 14th century-17th century.",
+    "flesch_score": 54.72500000000002,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 4
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Persisted from 1478 to 1834.",
+    "flesch_score": 100.0,
+    "information_density": 0.6666666666666666,
+    "success": true,
+    "word_count": 5
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Revolutionized 16th century-18th century.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 4
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "The roaring twenties characterized 1920-1929.",
+    "flesch_score": 32.56000000000003,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 5
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "The revolution has been ongoing from 1957 to the present.",
+    "flesch_score": 78.24500000000002,
+    "information_density": 0.9333333333333333,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Marked from 1942 to the 1970s.",
+    "flesch_score": 100.0,
+    "information_density": 0.5555555555555556,
+    "success": true,
+    "word_count": 6
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Transformed data spans from 1950 to the present.",
+    "flesch_score": 82.39000000000001,
+    "information_density": 0.9166666666666666,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "The interval \"event start-end\" is defined from 1990 to present.",
+    "flesch_score": 61.32500000000002,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "reshaped occurred.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 2
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Design was influenced between 1920 and 1940.",
+    "flesch_score": 90.95857142857145,
+    "information_density": 0.8571428571428571,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Music dominated the 1920s.",
+    "flesch_score": 54.72500000000002,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 4
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "The period of flourishing was from 1920 to 1930.",
+    "flesch_score": 100.0,
+    "information_density": 0.7407407407407407,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Evolved from the late 1800s to mid-1900s.",
+    "flesch_score": 90.95857142857145,
+    "information_density": 0.8571428571428571,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "challenged society occurred.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 3
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "World war ii lasted from september 1, 1939, to september 2, 1945.",
+    "flesch_score": 100.0,
+    "information_density": 0.7222222222222222,
+    "success": true,
+    "word_count": 12
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Event occurred from the 14th to the 17th century.",
+    "flesch_score": 94.30000000000001,
+    "information_density": 0.8148148148148148,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "The event spanned from 1890 to 1934.",
+    "flesch_score": 100.0,
+    "information_density": 0.6666666666666666,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Persisted from march 12, 1947, to december 3, 1989.",
+    "flesch_score": 100.0,
+    "information_density": 0.6666666666666666,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Queen victoria reigned from 1837 to 1901.",
+    "flesch_score": 100.0,
+    "information_density": 0.7619047619047619,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "transformed occurred.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 2
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Shaped from 1685 to 1815.",
+    "flesch_score": 100.0,
+    "information_density": 0.5333333333333333,
+    "success": true,
+    "word_count": 5
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Operated from 1961 to 1972.",
+    "flesch_score": 100.0,
+    "information_density": 0.8,
+    "success": true,
+    "word_count": 5
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "The characterized tech event occurred from 1995 to 2000.",
+    "flesch_score": 66.10000000000002,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "The great depression devastated the world from 1929 to 1939.",
+    "flesch_score": 86.70500000000001,
+    "information_density": 0.8666666666666667,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Europe was dominated from the 5th to the 15th century.",
+    "flesch_score": 78.24500000000002,
+    "information_density": 0.9333333333333333,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "The civilization flourished from 3100 bce to 30 bce.",
+    "flesch_score": 75.50000000000003,
+    "information_density": 0.9629629629629629,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Governed from 27 bce to 476 ce.",
+    "flesch_score": 100.0,
+    "information_density": 0.6666666666666666,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Endured from 330 ce to 1453 ce.",
+    "flesch_score": 100.0,
+    "information_density": 0.6666666666666666,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Flourished from the 8th to the 14th century.",
+    "flesch_score": 100.0,
+    "information_density": 0.75,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "The influenced period was from 793 to 1066.",
+    "flesch_score": 100.0,
+    "information_density": 0.75,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Transformed 14th century-17th century.",
+    "flesch_score": 54.72500000000002,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 4
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Persisted from 1478 to 1834.",
+    "flesch_score": 100.0,
+    "information_density": 0.6666666666666666,
+    "success": true,
+    "word_count": 5
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Revolutionized 16th century-18th century.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 4
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "The roaring twenties characterized 1920-1929.",
+    "flesch_score": 32.56000000000003,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 5
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "The revolution has been ongoing since 1957.",
+    "flesch_score": 66.7871428571429,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Marked from 1942 to the 1970s.",
+    "flesch_score": 100.0,
+    "information_density": 0.5555555555555556,
+    "success": true,
+    "word_count": 6
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Transformed data spans from 1950 to the present.",
+    "flesch_score": 82.39000000000001,
+    "information_density": 0.9166666666666666,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "The interval \"event start-end\" is defined from 1990 to present.",
+    "flesch_score": 61.32500000000002,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "reshaped occurred.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 2
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Design was influenced between 1920 and 1940.",
+    "flesch_score": 90.95857142857145,
+    "information_density": 0.8571428571428571,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "dominated music occurred.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 3
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "The period of flourishing was from 1920 to 1930.",
+    "flesch_score": 100.0,
+    "information_density": 0.7407407407407407,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Evolved late 1800s-mid 1900s.",
+    "flesch_score": 75.87500000000001,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 4
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "challenged society occurred.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 3
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "World war ii lasted from september 1, 1939, to september 2, 1945.",
+    "flesch_score": 100.0,
+    "information_density": 0.7222222222222222,
+    "success": true,
+    "word_count": 12
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Event occurred from the 14th to the 17th century.",
+    "flesch_score": 94.30000000000001,
+    "information_density": 0.8148148148148148,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "The event spanned from 1890 to 1934.",
+    "flesch_score": 100.0,
+    "information_density": 0.6666666666666666,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Persisted from march 12, 1947, to december 3, 1989.",
+    "flesch_score": 100.0,
+    "information_density": 0.6666666666666666,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Queen victoria reigned from 1837 to 1901.",
+    "flesch_score": 100.0,
+    "information_density": 0.7619047619047619,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "transformed occurred.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 2
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Shaped 1685-1815 was a significant historical period.",
+    "flesch_score": 30.53000000000003,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Operated from 1961 to 1972.",
+    "flesch_score": 100.0,
+    "information_density": 0.8,
+    "success": true,
+    "word_count": 5
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "The characterized tech period was from 1995 to 2000.",
+    "flesch_score": 84.90000000000003,
+    "information_density": 0.8888888888888888,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "The great depression devastated the world from 1929 to 1939.",
+    "flesch_score": 86.70500000000001,
+    "information_density": 0.8666666666666667,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Europe was dominated from the 5th to the 15th century.",
+    "flesch_score": 78.24500000000002,
+    "information_density": 0.9333333333333333,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "The civilization flourished from 3100 bce to 30 bce.",
+    "flesch_score": 75.50000000000003,
+    "information_density": 0.9629629629629629,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Governed 27 bce-476 ce.",
+    "flesch_score": 97.025,
+    "information_density": 0.8333333333333334,
+    "success": true,
+    "word_count": 4
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Endured from 330 ce to 1453 ce.",
+    "flesch_score": 100.0,
+    "information_density": 0.6666666666666666,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Flourished from the 8th to the 14th century.",
+    "flesch_score": 100.0,
+    "information_density": 0.75,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "The influenced period was from 793 to 1066.",
+    "flesch_score": 100.0,
+    "information_density": 0.75,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Transformed 14th century-17th century.",
+    "flesch_score": 54.72500000000002,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 4
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Persisted from 1478 to 1834.",
+    "flesch_score": 100.0,
+    "information_density": 0.6666666666666666,
+    "success": true,
+    "word_count": 5
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Revolutionized 16th century-18th century.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 4
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "The 1920s is characterized as the roaring twenties.",
+    "flesch_score": 61.24000000000001,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "The revolution has been ongoing from 1957 to the present.",
+    "flesch_score": 78.24500000000002,
+    "information_density": 0.9333333333333333,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Marked from 1942 to the 1970s.",
+    "flesch_score": 100.0,
+    "information_density": 0.5555555555555556,
+    "success": true,
+    "word_count": 6
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Transformed data spans from 1950 to the present.",
+    "flesch_score": 82.39000000000001,
+    "information_density": 0.9166666666666666,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "The interval \"event start-end\" is defined from 1990 to present.",
+    "flesch_score": 61.32500000000002,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "reshaped occurred.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 2
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Design was influenced between 1920 and 1940.",
+    "flesch_score": 90.95857142857145,
+    "information_density": 0.8571428571428571,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Jazz dominated music from 1920 to 1929.",
+    "flesch_score": 90.95857142857145,
+    "information_density": 0.8571428571428571,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "The period of flourishing was from 1920 to 1930.",
+    "flesch_score": 100.0,
+    "information_density": 0.7407407407407407,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Evolved late 1800s-mid 1900s.",
+    "flesch_score": 75.87500000000001,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 4
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "challenged society occurred.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 3
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "World war ii lasted from september 1, 1939, to september 2, 1945.",
+    "flesch_score": 100.0,
+    "information_density": 0.7222222222222222,
+    "success": true,
+    "word_count": 12
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Event occurred from the 14th to the 17th century.",
+    "flesch_score": 94.30000000000001,
+    "information_density": 0.8148148148148148,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "The event spanned from 1890 to 1934.",
+    "flesch_score": 100.0,
+    "information_density": 0.6666666666666666,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Persisted from march 12, 1947, to december 3, 1989.",
+    "flesch_score": 100.0,
+    "information_density": 0.6666666666666666,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Queen victoria reigned from 1837 to 1901.",
+    "flesch_score": 100.0,
+    "information_density": 0.7619047619047619,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Transformed 1760-1840 was a period of significant change.",
+    "flesch_score": 50.66500000000002,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Shaped from 1685 to 1815.",
+    "flesch_score": 100.0,
+    "information_density": 0.5333333333333333,
+    "success": true,
+    "word_count": 5
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "Operated from 1961 to 1972.",
+    "flesch_score": 100.0,
+    "information_density": 0.8,
+    "success": true,
+    "word_count": 5
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "The characterized tech period was from 1995 to 2000.",
+    "flesch_score": 84.90000000000003,
+    "information_density": 0.8888888888888888,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "intervals",
+    "template_id": "production_llm",
+    "rendered_output": "The great depression devastated the world from 1929 to 1939.",
+    "flesch_score": 86.70500000000001,
+    "information_density": 0.8666666666666667,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Archduke assassinated then war declared on serb.",
+    "flesch_score": 18.44428571428574,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Berlin wall erected then kennedy visits berlin.",
+    "flesch_score": 42.61571428571432,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Ancient egypt thrived then roman empire rose then middle ages began.",
+    "flesch_score": 41.8518181818182,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 11
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Internet invented then web created then browsers commercialized.",
+    "flesch_score": 8.365000000000009,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Covid-19 emerges then lockdowns implemented then vaccines developed.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 8
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Industrial revolution began after the steam engine was perfected.",
+    "flesch_score": 9.700000000000017,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Bastille stormed then rights declared during the french revolution.",
+    "flesch_score": 28.50000000000003,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Civil war started then battle of gettysburg occurred.",
+    "flesch_score": 50.66500000000002,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "World war i began then trench warfare dominated.",
+    "flesch_score": 50.66500000000002,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Nazi party rose then hitler became chance then world war ii began.",
+    "flesch_score": 60.70500000000001,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 12
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Heliocentric theory then planetary laws disco and telescopes improved.",
+    "flesch_score": 9.700000000000017,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Atoms proposed then atomic structure discovered.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 6
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Evolution theory pro then natural selection identified.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 7
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Germ theory proposed then bacteria identified then antiseptic practices developed.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 10
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Radioactivity discovered then radium isolated then atomic energy understood.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 9
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Telegraph invented then telegraph networks expanded.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 6
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "First computers built then programming language developed.",
+    "flesch_score": 6.35857142857148,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Photography invented then color photography developed then motion pictures created.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 10
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Archduke assassinated then war declared on serb.",
+    "flesch_score": 18.44428571428574,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Berlin wall erected then kennedy visits berlin.",
+    "flesch_score": 42.61571428571432,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Ancient egypt thrived then roman empire rose then middle ages began.",
+    "flesch_score": 41.8518181818182,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 11
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Internet invented then web created then browsers commercialized.",
+    "flesch_score": 8.365000000000009,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Covid-19 emerges then lockdowns are implemented.",
+    "flesch_score": 3.344999999999999,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 6
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Industrial revolution began after the steam engine was perfected.",
+    "flesch_score": 9.700000000000017,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Bastille stormed then rights declared during the french revolution.",
+    "flesch_score": 28.50000000000003,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Civil war started then battle of gettysburg emancipation proclam.",
+    "flesch_score": 28.50000000000003,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "World war i began then trench warfare dominated.",
+    "flesch_score": 50.66500000000002,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Nazi party rose then hitler became chance then world war ii began.",
+    "flesch_score": 60.70500000000001,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 12
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Heliocentric theory then planetary laws disco and telescopes improved.",
+    "flesch_score": 9.700000000000017,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Atoms proposed then atomic structure discovered.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 6
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Evolution theory pro then natural selection identified.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 7
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Germ theory proposed then bacteria identified then antiseptic practices developed.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 10
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Radioactivity discovered then radium isolated then atomic energy understood.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 9
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Telegraph invented then telegraph networks expanded.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 6
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "First computers built then programming language developed.",
+    "flesch_score": 6.35857142857148,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Photography invented then color photography developed then motion pictures created.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 10
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Archduke assassinated then war declared on serb.",
+    "flesch_score": 18.44428571428574,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Berlin wall erected then kennedy visits berlin.",
+    "flesch_score": 42.61571428571432,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Ancient egypt thrived then roman empire rose then middle ages began.",
+    "flesch_score": 41.8518181818182,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 11
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Internet invented then web created then browsers commercialized.",
+    "flesch_score": 8.365000000000009,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Covid-19 emerges then lockdowns implemented then vaccines developed.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 8
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Industrial revolution then steam engine perfect factories mechanized.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 8
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Bastille stormed then rights declared during the french revolution.",
+    "flesch_score": 28.50000000000003,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Civil war started then battle of gettysburg occurred.",
+    "flesch_score": 50.66500000000002,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "World war i began then trench warfare dominated.",
+    "flesch_score": 50.66500000000002,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Nazi party rose then hitler became chance then world war ii began.",
+    "flesch_score": 60.70500000000001,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 12
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Heliocentric theory then planetary laws disco and telescopes improved.",
+    "flesch_score": 9.700000000000017,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Atoms proposed then atomic structure discovered.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 6
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Evolution theory pro then natural selection identified.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 7
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Germ theory proposed then bacteria identified and antiseptic practices developed.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 10
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Radioactivity discovered then radium isolated then atomic energy understood.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 9
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Telegraph invented then telegraph networks expanded.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 6
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "First computers built then programming language developed.",
+    "flesch_score": 6.35857142857148,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Photography invented then color photography developed then motion pictures created.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 10
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Archduke assassinated then war declared on serb.",
+    "flesch_score": 18.44428571428574,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Berlin wall erected then kennedy visits berlin.",
+    "flesch_score": 42.61571428571432,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Ancient egypt thrived then roman empire rose then middle ages began.",
+    "flesch_score": 41.8518181818182,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 11
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Internet invented then web created then browsers commercialized.",
+    "flesch_score": 8.365000000000009,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Covid-19 emerges then lockdowns are implemented.",
+    "flesch_score": 3.344999999999999,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 6
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Industrial revolution then steam engine perfect factories mechanized.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 8
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Bastille stormed then rights declared during the french revolution.",
+    "flesch_score": 28.50000000000003,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Civil war started then battle of gettysburg occurred.",
+    "flesch_score": 50.66500000000002,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "World war i began then trench warfare dominated.",
+    "flesch_score": 50.66500000000002,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Nazi party rose then hitler became chance then world war ii began.",
+    "flesch_score": 60.70500000000001,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 12
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Heliocentric theory then planetary laws disco and telescopes improved.",
+    "flesch_score": 9.700000000000017,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Atoms proposed then atomic structure discovered.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 6
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Evolution theory pro then natural selection identified.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 7
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Germ theory proposed then bacteria identified then antiseptic practices developed.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 10
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Radioactivity discovered then radium isolated then atomic energy understood.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 9
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Telegraph invented then telegraph networks expanded.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 6
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "First computers built then programming language developed.",
+    "flesch_score": 6.35857142857148,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Photography invented then color photography developed then motion pictures created.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 10
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Archduke assassinated then war declared on serb.",
+    "flesch_score": 18.44428571428574,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Berlin wall erected then kennedy visits berlin.",
+    "flesch_score": 42.61571428571432,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Ancient egypt thrived then roman empire rose then middle ages began.",
+    "flesch_score": 41.8518181818182,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 11
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Internet invented then web created then browsers commercialized.",
+    "flesch_score": 8.365000000000009,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Covid-19 emerges then lockdowns implemented then vaccines developed.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 8
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Industrial revolution then factories mechanized.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 5
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Bastille stormed then rights declared during the french revolution.",
+    "flesch_score": 28.50000000000003,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Civil war started then battle of gettysburg occurred.",
+    "flesch_score": 50.66500000000002,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "World war i began then trench warfare dominated.",
+    "flesch_score": 50.66500000000002,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Nazi party rose then hitler became chance then world war ii began.",
+    "flesch_score": 60.70500000000001,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 12
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Heliocentric theory then planetary laws disco telescopes improved.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 8
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Atoms proposed then atomic structure discovered.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 6
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Evolution theory pro then natural selection identified.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 7
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Germ theory proposed then bacteria identified then antiseptic practices developed.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 10
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Radioactivity discovered then radium isolated then atomic energy understood.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 9
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Telegraph invented then telegraph networks expanded.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 6
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "First computers built then programming language developed.",
+    "flesch_score": 6.35857142857148,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Photography invented then color photography developed then motion pictures created.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 10
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Archduke assassinated then war declared on serb.",
+    "flesch_score": 18.44428571428574,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Berlin wall erected then kennedy visits berlin.",
+    "flesch_score": 42.61571428571432,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Ancient egypt thrived then roman empire rose then middle ages began.",
+    "flesch_score": 41.8518181818182,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 11
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Internet invented then web created then browsers commercialized.",
+    "flesch_score": 8.365000000000009,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Covid-19 emerges then lockdowns implemented then vaccines developed.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 8
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Industrial revolution then steam engine perfect factories mechanized.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 8
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Bastille stormed then rights declared during the french revolution.",
+    "flesch_score": 28.50000000000003,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Civil war started then battle of gettysburg occurred.",
+    "flesch_score": 50.66500000000002,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "World war i began then trench warfare dominated.",
+    "flesch_score": 50.66500000000002,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "sequences",
+    "template_id": "production_llm",
+    "rendered_output": "Nazi party rose then hitler became chance then world war ii began.",
+    "flesch_score": 60.70500000000001,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 12
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Archduke franz ferdinand's assassination caused austria-hungary to declare war.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 9
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Stock market crash in october contributed to the great depression.",
+    "flesch_score": 44.405,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Printing press invention accelerated knowledge spread.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 6
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Penicillin discovered in 1928 revolutionized antibiotic medicine.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 7
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Russian revolution led to the soviet union becoming a superpower.",
+    "flesch_score": 19.025000000000006,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Industrial revolution caused urbanization and migration in the 18th century.",
+    "flesch_score": 10.564999999999998,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Steam engine caused transportation and manufacturing advancements.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 7
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Fall of berlin wall caused cold war to end in 1989.",
+    "flesch_score": 100.0,
+    "information_density": 0.7272727272727273,
+    "success": true,
+    "word_count": 11
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Greenhouse gases cause climate change and rising sea levels.",
+    "flesch_score": 28.50000000000003,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Internet invention enabled global communication and commerce.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 7
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Treaty of versailles contributed to nazi party rise.",
+    "flesch_score": 40.09,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "British taxation on americans caused the american revolution.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 8
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Despotism led to the french revolution's transformation.",
+    "flesch_score": 18.44428571428574,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Archduke's assassination triggered the alliance system and led to wwi.",
+    "flesch_score": 27.485000000000014,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Nazi expansionist policies triggered world war ii in europe.",
+    "flesch_score": 19.100000000000023,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Genetic inheritance patterns influence evolution theory refinement.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 7
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "X-rays discovered by r\u00f6ntgen revolutionized medical imaging.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 7
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Einstein's relativity revolutionized modern physics.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 5
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Transistor development in 1947 spurred the modern computer age.",
+    "flesch_score": 28.50000000000003,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Synthetic insulin caused improved diabetes treatment accessibility.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 7
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Credit expansion and speculation caused the 1929 stock market crash.",
+    "flesch_score": 52.86500000000001,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Opec oil embargo in 1973 quadrupled global oil prices.",
+    "flesch_score": 56.70000000000002,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Housing market collapse caused the 2008 global financial crisis.",
+    "flesch_score": 37.900000000000034,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Trade opening between china and global manufacturing patterns influenced economic shifts.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 11
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Digital market growth causes shifts in traditional retail business models.",
+    "flesch_score": 19.025000000000006,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Uncle tom's cabin shifted northern public opinion.",
+    "flesch_score": 30.53000000000003,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Poor treatment of workers led to the rise of labor unions.",
+    "flesch_score": 72.61545454545457,
+    "information_density": 0.9696969696969697,
+    "success": true,
+    "word_count": 11
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Women gained education and employment after voting rights were granted.",
+    "flesch_score": 19.025000000000006,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Archduke franz ferdinand's assassination caused austria-hungary to declare war.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 9
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Stock market crash in october caused the great depression.",
+    "flesch_score": 56.70000000000002,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Printing press invention caused accelerated knowledge spread.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 7
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Penicillin discovered in 1928 revolutionized antibiotic medicine.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 7
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Russian revolution led to soviet union becoming a superpower.",
+    "flesch_score": 9.700000000000017,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Industrial revolution caused urbanization and migration in the 18th century.",
+    "flesch_score": 10.564999999999998,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Steam engine caused transportation and manufacturing revolution.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 7
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Fall of berlin wall caused the end of cold war.",
+    "flesch_score": 95.165,
+    "information_density": 0.8,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Greenhouse gases cause climate change and rising sea levels.",
+    "flesch_score": 28.50000000000003,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Internet's invention enabled global communication and commerce.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 7
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Treaty of versailles contributed to nazi party rise.",
+    "flesch_score": 40.09,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "British taxation on americans caused the american revolution.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 8
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Despotism led to the french revolution's transformation.",
+    "flesch_score": 18.44428571428574,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Archduke's assassination triggered the alliance system and wwi.",
+    "flesch_score": 8.365000000000009,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Nazi expansionist policies triggered world war ii in europe.",
+    "flesch_score": 19.100000000000023,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Genetic inheritance patterns influence evolution theory refinement.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 7
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "X-rays discovered by r\u00f6ntgen revolutionized medical imaging.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 7
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Einstein's relativity revolutionized modern physics.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 5
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Transistor development in 1947 sparked the modern computer age.",
+    "flesch_score": 28.50000000000003,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Synthetic insulin caused improved diabetes treatment accessibility.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 7
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Credit expansion and speculation caused the 1929 stock market crash.",
+    "flesch_score": 52.86500000000001,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Opec oil embargo in 1973 quadrupled global oil prices.",
+    "flesch_score": 56.70000000000002,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Housing market collapse caused the 2008 global financial crisis.",
+    "flesch_score": 37.900000000000034,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Trade opening between china and global manufacturing patterns influences economic growth.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 11
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Digital market growth causes shifts in traditional retail business models.",
+    "flesch_score": 19.025000000000006,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Uncle tom's cabin shifted northern public opinion.",
+    "flesch_score": 30.53000000000003,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Poor treatment of workers led to the rise of labor unions.",
+    "flesch_score": 72.61545454545457,
+    "information_density": 0.9696969696969697,
+    "success": true,
+    "word_count": 11
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Women gained education and employment rights after suffrage was achieved.",
+    "flesch_score": 10.564999999999998,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Archduke franz ferdinand's assassination caused austria-hungary to declare war.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 9
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Stock market crash in october caused the great depression.",
+    "flesch_score": 56.70000000000002,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Printing press invention caused accelerated knowledge spread.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 7
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Penicillin discovered in 1928 revolutionized antibiotic medicine.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 7
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Russian revolution led to soviet union becoming a superpower.",
+    "flesch_score": 9.700000000000017,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Industrial revolution caused urbanization and migration in the 18th century.",
+    "flesch_score": 10.564999999999998,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Steam engine caused transportation and manufacturing advancements.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 7
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "The fall of the berlin wall caused the cold war to end.",
+    "flesch_score": 95.955,
+    "information_density": 0.7777777777777778,
+    "success": true,
+    "word_count": 12
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Greenhouse gases cause climate change and rising sea levels.",
+    "flesch_score": 28.50000000000003,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Internet invention enabled global communication and commerce development.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 8
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Treaty of versailles contributed to nazi party rise.",
+    "flesch_score": 40.09,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "British taxation on americans caused the american revolution.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 8
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Despotism led to the french revolution's transformation.",
+    "flesch_score": 18.44428571428574,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Archduke's assassination triggered the alliance system and led to wwi.",
+    "flesch_score": 27.485000000000014,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Nazi expansionist policies triggered world war ii in europe.",
+    "flesch_score": 19.100000000000023,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Genetic inheritance patterns influence evolution theory refinement.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 7
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "X-rays discovered by r\u00f6ntgen revolutionized medical imaging.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 7
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Einstein's relativity revolutionized modern physics.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 5
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Transistor development in 1947 spurred the modern computer age.",
+    "flesch_score": 28.50000000000003,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Synthetic insulin caused improved diabetes treatment accessibility.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 7
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Credit expansion and speculation caused the 1929 stock market crash.",
+    "flesch_score": 52.86500000000001,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Opec oil embargo in 1973 quadrupled global oil prices.",
+    "flesch_score": 56.70000000000002,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Housing market collapse caused the 2008 global financial crisis.",
+    "flesch_score": 37.900000000000034,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Trade opening between china and global manufacturing patterns influences economic growth.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 11
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Digital market growth causes shifts in traditional retail business models.",
+    "flesch_score": 19.025000000000006,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Uncle tom's cabin shifted northern public opinion.",
+    "flesch_score": 30.53000000000003,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Poor treatment of workers led to the rise of labor unions.",
+    "flesch_score": 72.61545454545457,
+    "information_density": 0.9696969696969697,
+    "success": true,
+    "word_count": 11
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Women gained education and employment after voting rights were granted.",
+    "flesch_score": 19.025000000000006,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Archduke franz ferdinand's assassination caused austria-hungary to declare war.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 9
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Stock market crash in october caused the great depression.",
+    "flesch_score": 56.70000000000002,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Printing press invention caused accelerated knowledge spread.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 7
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Penicillin discovered in 1928 revolutionized antibiotic medicine.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 7
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Russian revolution led to the soviet union becoming a superpower.",
+    "flesch_score": 19.025000000000006,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Industrial revolution caused urbanization and migration in the 18th century.",
+    "flesch_score": 10.564999999999998,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Steam engine invention caused advancements in transportation and manufacturing.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 9
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Fall of berlin wall caused cold war to end in 1989.",
+    "flesch_score": 100.0,
+    "information_density": 0.7272727272727273,
+    "success": true,
+    "word_count": 11
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Greenhouse gases cause climate change and rising sea levels.",
+    "flesch_score": 28.50000000000003,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Internet invention enabled global communication and commerce.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 7
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Treaty of versailles contributed to nazi party rise.",
+    "flesch_score": 40.09,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "British taxation on americans caused the american revolution.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 8
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Despotism led to the french revolution's transformation.",
+    "flesch_score": 18.44428571428574,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Archduke's assassination triggered the alliance system and led to war.",
+    "flesch_score": 27.485000000000014,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Nazi expansionist policies triggered world war ii in europe.",
+    "flesch_score": 19.100000000000023,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "causality",
+    "template_id": "production_llm",
+    "rendered_output": "Genetic inheritance patterns influence evolution theory refinement.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 7
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Korean war cold war nuclear arms race overlapped.",
+    "flesch_score": 50.66500000000002,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Shakespeare wrote during the elizabethan era at the globe theatre.",
+    "flesch_score": 10.564999999999998,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Apollo 11 mission, vietnam war, civil rights movement overlapped.",
+    "flesch_score": 28.50000000000003,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Covid-19 pandemic, remote work, and digital transformation overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Renaissance in italy, age of exploration, protestant reformation overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 9
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Berlin blockade nato formation israel established overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 7
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Industrial revolution, american revolution, and french enlightenment overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Dot-com boom, mobile computing rise, broadband expansion overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Medieval period, renaissance emerging, feudalism declining overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 7
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Age of enlightenment, industrial revolution, aristocratic power overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Victorian era, industrial revolution, and british empire peak overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 9
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Belle \u00e9poque flourished during the expansion of imperialism.",
+    "flesch_score": 8.365000000000009,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Roaring twenties, jazz age, and prohibition overlapped.",
+    "flesch_score": 6.35857142857148,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "World war ii in europe, pacific, and holocaust overlapped.",
+    "flesch_score": 28.50000000000003,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Vietnam war, space race, civil rights movement overlapped.",
+    "flesch_score": 18.940000000000026,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Berlin wall fell, soviet communism collapsed, germany reunified.",
+    "flesch_score": 18.940000000000026,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Internet rise, mobile phones development, digital revolution together.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "September 11 attacks, war on terror, and afghanistan invasion overlapped.",
+    "flesch_score": 19.025000000000006,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Romantic movement, industrial revolution, and political revolution overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Modernism in art, cubism, surrealism overlapped.",
+    "flesch_score": 3.344999999999999,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 6
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Women's liberation, gay rights movement, and environmental movement overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 9
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Korean war cold war nuclear arms race overlapped.",
+    "flesch_score": 50.66500000000002,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Shakespeare wrote during the elizabethan era at the globe theatre.",
+    "flesch_score": 10.564999999999998,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Apollo 11 mission, vietnam war, civil rights movement overlapped.",
+    "flesch_score": 28.50000000000003,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Covid-19 pandemic, remote work, and digital transformation overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Renaissance in italy, age of exploration, protestant reformation overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 9
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Berlin blockade nato formation israel established overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 7
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Industrial revolution, american revolution, and french enlightenment overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Dot-com boom, mobile computing rise, broadband expansion overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Medieval period, renaissance emerging, feudalism declining overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 7
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Age of enlightenment, industrial revolution, aristocratic power overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Victorian era, industrial revolution, and british empire peak overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 9
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Belle \u00e9poque flourished during the expansion of imperialism.",
+    "flesch_score": 8.365000000000009,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Roaring twenties, jazz age, and prohibition overlapped.",
+    "flesch_score": 6.35857142857148,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "World war ii in europe, pacific, and holocaust overlapped.",
+    "flesch_score": 28.50000000000003,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Vietnam war, space race, civil rights movement overlapped.",
+    "flesch_score": 18.940000000000026,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Berlin wall fell, soviet communism collapsed, germany reunified.",
+    "flesch_score": 18.940000000000026,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Internet rise, mobile phones development, digital revolution together.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "September 11 attacks, war on terror, and afghanistan invasion overlapped.",
+    "flesch_score": 19.025000000000006,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Romantic movement, industrial revolution, and political revolution overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Modernism in art, cubism, surrealism overlapped.",
+    "flesch_score": 3.344999999999999,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 6
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Women's liberation, gay rights movement, and environmental movement overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 9
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Korean war cold war nuclear arms race overlapped.",
+    "flesch_score": 50.66500000000002,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Shakespeare wrote during the elizabethan era at the globe theatre.",
+    "flesch_score": 10.564999999999998,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Apollo 11 mission, vietnam war, civil rights movement overlapped.",
+    "flesch_score": 28.50000000000003,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Covid-19 pandemic, remote work, and digital transformation overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Renaissance in italy, age of exploration, protestant reformation overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 9
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Berlin blockade nato formation israel established overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 7
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Industrial revolution, american revolution, and french enlightenment overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Dot-com boom, mobile computing rise, broadband expansion overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Medieval period, renaissance emerging, feudalism declining overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 7
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Age of enlightenment, industrial revolution, aristocratic power overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Victorian era, industrial revolution, and british empire peak overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 9
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Belle \u00e9poque flourished during the expansion of imperialism.",
+    "flesch_score": 8.365000000000009,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Roaring twenties, jazz age, and prohibition overlapped.",
+    "flesch_score": 6.35857142857148,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 7
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "World war ii in europe, pacific, and holocaust overlapped.",
+    "flesch_score": 28.50000000000003,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Vietnam war, space race, civil rights movement overlapped.",
+    "flesch_score": 18.940000000000026,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Berlin wall fell, soviet communism collapsed, germany reunified.",
+    "flesch_score": 18.940000000000026,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Internet rise, mobile phones development, digital revolution together.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "September 11 attacks, war on terror, and afghanistan invasion overlapped.",
+    "flesch_score": 19.025000000000006,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Romantic movement, industrial revolution, and political revolution overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Modernism in art, cubism, surrealism overlapped.",
+    "flesch_score": 3.344999999999999,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 6
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Women's liberation, gay rights movement, and environmental movement overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 9
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Korean war cold war nuclear arms race overlapped.",
+    "flesch_score": 50.66500000000002,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Shakespeare wrote during the elizabethan era at the globe theatre.",
+    "flesch_score": 10.564999999999998,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Apollo 11 mission, vietnam war, civil rights movement overlapped.",
+    "flesch_score": 28.50000000000003,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Covid-19 pandemic, remote work, and digital transformation overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Renaissance in italy, age of exploration, protestant reformation overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 9
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Berlin blockade nato formation israel established overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 7
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Industrial revolution, american revolution, and french enlightenment overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Dot-com boom, mobile computing rise, and broadband expansion overlapped.",
+    "flesch_score": 0.30000000000001137,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 9
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Medieval period, renaissance emerging, feudalism declining overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 7
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Age of enlightenment, industrial revolution, aristocratic power overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Victorian era, industrial revolution, and british empire peak overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 9
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Belle \u00e9poque flourished during the expansion of imperialism.",
+    "flesch_score": 8.365000000000009,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Roaring twenties, jazz age, prohibition overlapped in the 1920s.",
+    "flesch_score": 37.900000000000034,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "World war ii in europe, pacific, and holocaust overlapped.",
+    "flesch_score": 28.50000000000003,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Vietnam war, space race, civil rights movement overlapped.",
+    "flesch_score": 18.940000000000026,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Berlin wall fell, soviet communism collapsed, germany reunified.",
+    "flesch_score": 18.940000000000026,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Internet rise, mobile phones develop, digital revolution together.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "September 11 attacks, war on terror, and afghanistan invasion overlapped.",
+    "flesch_score": 19.025000000000006,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Romantic movement, industrial revolution, and political revolution overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Modernism in art, cubism, surrealism overlapped.",
+    "flesch_score": 3.344999999999999,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 6
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Women's liberation, gay rights movement, and environmental movement overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 9
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Korean war cold war nuclear arms race overlapped.",
+    "flesch_score": 50.66500000000002,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Shakespeare wrote during the elizabethan era at the globe theatre.",
+    "flesch_score": 10.564999999999998,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 10
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Apollo 11 mission, vietnam war, civil rights movement overlapped.",
+    "flesch_score": 28.50000000000003,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Covid-19 pandemic, remote work, and digital transformation overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Renaissance in italy, age of exploration, protestant reformation overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 9
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Berlin blockade nato formation israel established overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 7
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Industrial revolution, american revolution, and french enlightenment overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Dot-com boom, mobile computing rise, broadband expansion overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Medieval period, renaissance emerging, feudalism declining overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 7
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Age of enlightenment, industrial revolution, aristocratic power overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Victorian era, industrial revolution, and british empire peak overlapped.",
+    "flesch_score": 0.0,
+    "information_density": 1.0,
+    "success": false,
+    "word_count": 9
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Belle \u00e9poque flourished during the expansion of imperialism.",
+    "flesch_score": 8.365000000000009,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Roaring twenties, jazz age, prohibition overlapped in the 1920s.",
+    "flesch_score": 37.900000000000034,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "World war ii in europe, pacific, and holocaust overlapped.",
+    "flesch_score": 28.50000000000003,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 9
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Vietnam war, space race, civil rights movement overlapped.",
+    "flesch_score": 18.940000000000026,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  },
+  {
+    "template_type": "overlaps",
+    "template_id": "production_llm",
+    "rendered_output": "Berlin wall fell, soviet communism collapsed, germany reunified.",
+    "flesch_score": 18.940000000000026,
+    "information_density": 1.0,
+    "success": true,
+    "word_count": 8
+  }
+]

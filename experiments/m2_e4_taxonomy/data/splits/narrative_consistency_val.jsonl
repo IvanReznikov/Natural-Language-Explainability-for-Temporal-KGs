@@ -1,0 +1,142 @@
+{"id": "const_1143", "narrative": "The file is saved.", "label": "consistent"}
+{"id": "const_1307", "narrative": "The text is italic.", "label": "consistent"}
+{"id": "const_314", "narrative": "The variable is null.", "label": "consistent"}
+{"id": "const_681", "narrative": "The water is liquid.", "label": "consistent"}
+{"id": "const_651", "narrative": "The fuel is diesel.", "label": "consistent"}
+{"id": "const_011", "narrative": "CPC increased from $0.44 to $0.53 over two years", "label": "consistent"}
+{"id": "const_073", "narrative": "Expenses dropped due to lower office rent.", "label": "consistent"}
+{"id": "const_1285", "narrative": "The time is late.", "label": "consistent"}
+{"id": "const_1065", "narrative": "The answer is maybe.", "label": "consistent"}
+{"id": "const_959", "narrative": "The room is full.", "label": "consistent"}
+{"id": "const_157", "narrative": "Project completion is at 90%.", "label": "consistent"}
+{"id": "const_1291", "narrative": "The file is binary.", "label": "consistent"}
+{"id": "const_547", "narrative": "The planet is Earth.", "label": "consistent"}
+{"id": "const_613", "narrative": "The drink is alcoholic.", "label": "consistent"}
+{"id": "const_831", "narrative": "The box is empty.", "label": "consistent"}
+{"id": "const_247", "narrative": "The file is saved.", "label": "consistent"}
+{"id": "const_633", "narrative": "The result is distinct.", "label": "consistent"}
+{"id": "const_1395", "narrative": "The user is female.", "label": "consistent"}
+{"id": "const_007", "narrative": "NPS rose from 48 to 55 across the quarter", "label": "consistent"}
+{"id": "const_1075", "narrative": "The sum is 50.", "label": "consistent"}
+{"id": "const_187", "narrative": "Team size: 12.", "label": "consistent"}
+{"id": "const_699", "narrative": "The count is zero.", "label": "consistent"}
+{"id": "const_1333", "narrative": "The file is deleted.", "label": "consistent"}
+{"id": "const_1227", "narrative": "The file is read-only.", "label": "consistent"}
+{"id": "const_1109", "narrative": "The list is unique.", "label": "consistent"}
+{"id": "const_1135", "narrative": "The color is green.", "label": "consistent"}
+{"id": "const_1363", "narrative": "The file is shared.", "label": "consistent"}
+{"id": "const_139", "narrative": "Daily active users: 10k.", "label": "consistent"}
+{"id": "const_340", "narrative": "The map is empty.", "label": "consistent"}
+{"id": "const_1267", "narrative": "The team lost.", "label": "consistent"}
+{"id": "const_227", "narrative": "He is alive.", "label": "consistent"}
+{"id": "const_1133", "narrative": "The user is online.", "label": "consistent"}
+{"id": "const_334", "narrative": "The input is valid.", "label": "consistent"}
+{"id": "const_391", "narrative": "The water is freezing.", "label": "consistent"}
+{"id": "const_601", "narrative": "The discount is 50%.", "label": "consistent"}
+{"id": "const_369", "narrative": "He is a teenager.", "label": "consistent"}
+{"id": "const_695", "narrative": "The variable is false.", "label": "consistent"}
+{"id": "const_1163", "narrative": "The connection is fast.", "label": "consistent"}
+{"id": "const_1191", "narrative": "The user is admin.", "label": "consistent"}
+{"id": "const_731", "narrative": "The list is unique.", "label": "consistent"}
+{"id": "const_079", "narrative": "Network traffic spiked to 10 Gbps.", "label": "consistent"}
+{"id": "const_1207", "narrative": "The user is active.", "label": "consistent"}
+{"id": "const_1185", "narrative": "The sound is quiet.", "label": "consistent"}
+{"id": "const_087", "narrative": "Server B crashed, causing a partial outage.", "label": "consistent"}
+{"id": "const_429", "narrative": "The account is verified.", "label": "consistent"}
+{"id": "const_1013", "narrative": "The list is ascending.", "label": "consistent"}
+{"id": "const_483", "narrative": "The age is 18+.", "label": "consistent"}
+{"id": "const_1231", "narrative": "The speed is constant.", "label": "consistent"}
+{"id": "const_278", "narrative": "The list is empty.", "label": "consistent"}
+{"id": "const_1061", "narrative": "The logic is sound.", "label": "consistent"}
+{"id": "const_763", "narrative": "The total is 100%.", "label": "consistent"}
+{"id": "const_1323", "narrative": "The account is verified.", "label": "consistent"}
+{"id": "const_715", "narrative": "The user is a bot.", "label": "consistent"}
+{"id": "const_511", "narrative": "The file is read-write.", "label": "consistent"}
+{"id": "const_843", "narrative": "The glass is full.", "label": "consistent"}
+{"id": "const_324", "narrative": "The value is unique.", "label": "consistent"}
+{"id": "const_1315", "narrative": "The device is off.", "label": "consistent"}
+{"id": "const_907", "narrative": "The disk is HDD.", "label": "consistent"}
+{"id": "const_1015", "narrative": "The account is active.", "label": "consistent"}
+{"id": "const_288", "narrative": "Revenue is up.", "label": "consistent"}
+{"id": "const_1415", "narrative": "The file is full.", "label": "consistent"}
+{"id": "const_088", "narrative": "The glass is half full and half empty.", "label": "consistent"}
+{"id": "const_865", "narrative": "The speed is high.", "label": "consistent"}
+{"id": "const_005", "narrative": "Daily active users were steady at ~11k for eight weeks", "label": "consistent"}
+{"id": "const_795", "narrative": "The user is authenticated.", "label": "consistent"}
+{"id": "const_945", "narrative": "The status is pending.", "label": "consistent"}
+{"id": "const_1359", "narrative": "The count is 5.", "label": "consistent"}
+{"id": "const_149", "narrative": "Total sales: $500.", "label": "consistent"}
+{"id": "const_267", "narrative": "Price is $10.", "label": "consistent"}
+{"id": "const_747", "narrative": "The user is banned.", "label": "consistent"}
+{"id": "const_395", "narrative": "Sales tax is included.", "label": "consistent"}
+{"id": "const_790", "narrative": "The room is silent, filled with screaming.", "label": "inconsistent", "evidence": "silent vs screaming"}
+{"id": "const_1306", "narrative": "The room is cold, hot.", "label": "inconsistent", "evidence": "cold vs hot"}
+{"id": "const_345", "narrative": "The drive is read-only, accepting writes.", "label": "inconsistent", "evidence": "read-only vs writes"}
+{"id": "const_319", "narrative": "The user is an admin with no permissions.", "label": "inconsistent", "evidence": "admin implies permissions"}
+{"id": "const_762", "narrative": "The access is denied, welcome admin.", "label": "inconsistent", "evidence": "denied vs welcome"}
+{"id": "const_105", "narrative": "The year 2024 is a leap year, having 365 days.", "label": "inconsistent", "evidence": "leap years have 366 days"}
+{"id": "const_1338", "narrative": "The connection is lost, active.", "label": "inconsistent", "evidence": "lost vs active"}
+{"id": "const_277", "narrative": "The number 10 is prime.", "label": "inconsistent", "evidence": "10 is divisible by 2 and 5"}
+{"id": "const_872", "narrative": "The server is up, crashing loop.", "label": "inconsistent", "evidence": "up implies stability"}
+{"id": "const_1288", "narrative": "The variable is defined, undefined.", "label": "inconsistent", "evidence": "defined vs undefined"}
+{"id": "const_886", "narrative": "The file is open, closed.", "label": "inconsistent", "evidence": "open vs closed"}
+{"id": "const_602", "narrative": "The discount is 50%, pay full price.", "label": "inconsistent", "evidence": "discount implies less than full price"}
+{"id": "const_078", "narrative": "The swimming pool is full, but the water level is at 0%.", "label": "inconsistent", "evidence": "full implies 100% level"}
+{"id": "const_1318", "narrative": "The file is synced, pending.", "label": "inconsistent", "evidence": "synced vs pending"}
+{"id": "const_1084", "narrative": "The room is private, open to the public.", "label": "inconsistent", "evidence": "private vs public"}
+{"id": "const_343", "narrative": "The user is authenticated as Guest.", "label": "inconsistent", "evidence": "Guest usually means unauthenticated/anonymous"}
+{"id": "const_044", "narrative": "The highest temperature recorded was 30°C, while the lowest was 35°C.", "label": "inconsistent", "evidence": "lowest cannot be higher than highest"}
+{"id": "const_970", "narrative": "The vehicle is stopped, speeding.", "label": "inconsistent", "evidence": "stopped vs speeding"}
+{"id": "const_622", "narrative": "The test is multiple choice, with only one option.", "label": "inconsistent", "evidence": "multiple implies >1"}
+{"id": "const_022", "narrative": "We hired 10 new engineers, reducing the total engineering headcount by 5.", "label": "inconsistent", "evidence": "hiring should increase headcount unless firing occurred (not mentioned)"}
+{"id": "const_666", "narrative": "The test failed, all checks passed.", "label": "inconsistent", "evidence": "failed vs passed checks"}
+{"id": "const_254", "narrative": "Stock counts: A(10), B(20). Total 40.", "label": "inconsistent", "evidence": "10+20=30"}
+{"id": "const_436", "narrative": "The geometry is 2D, having volume.", "label": "inconsistent", "evidence": "2D has area, not volume"}
+{"id": "const_1216", "narrative": "The room is clean, messy.", "label": "inconsistent", "evidence": "clean vs messy"}
+{"id": "const_974", "narrative": "The user is asleep, typing rapidly.", "label": "inconsistent", "evidence": "asleep vs typing"}
+{"id": "const_1312", "narrative": "The list is unique, repeated.", "label": "inconsistent", "evidence": "unique vs repeated"}
+{"id": "const_1070", "narrative": "The list is ordered, random.", "label": "inconsistent", "evidence": "ordered vs random"}
+{"id": "const_878", "narrative": "The car is blue, red paint.", "label": "inconsistent", "evidence": "blue vs red"}
+{"id": "const_099", "narrative": "Everyone failed the test, including the 3 students who passed.", "label": "inconsistent", "evidence": "failed vs passed"}
+{"id": "const_018", "narrative": "Median delivery time improved from 2.3 days to 3.0 days", "label": "inconsistent", "evidence": "3.0 > 2.3"}
+{"id": "const_972", "narrative": "The list is finite, endless.", "label": "inconsistent", "evidence": "finite vs endless"}
+{"id": "const_1236", "narrative": "The answer is yes, no.", "label": "inconsistent", "evidence": "yes vs no"}
+{"id": "const_1376", "narrative": "The room is big, tiny.", "label": "inconsistent", "evidence": "big vs tiny"}
+{"id": "const_632", "narrative": "The camera is on, lens cap attached.", "label": "inconsistent", "evidence": "functional inconsistency"}
+{"id": "const_1398", "narrative": "The room is dirty, sterile.", "label": "inconsistent", "evidence": "dirty vs sterile"}
+{"id": "const_097", "narrative": "The triangle has four sides.", "label": "inconsistent", "evidence": "definition error"}
+{"id": "const_624", "narrative": "The meeting is weekly, occurring once a year.", "label": "inconsistent", "evidence": "weekly vs annual"}
+{"id": "const_792", "narrative": "The connection is stable, dropping every second.", "label": "inconsistent", "evidence": "stable vs dropping"}
+{"id": "const_1104", "narrative": "The user is verified, flagged as spam.", "label": "inconsistent", "evidence": "verified vs spam"}
+{"id": "const_1188", "narrative": "The mode is auto, user controlled.", "label": "inconsistent", "evidence": "auto vs user controlled"}
+{"id": "const_214", "narrative": "User base grew from 100 to 50.", "label": "inconsistent", "evidence": "100 to 50 is a decline"}
+{"id": "const_402", "narrative": "The password is strong, consisting of '123456'.", "label": "inconsistent", "evidence": "'123456' is a weak password"}
+{"id": "const_1022", "narrative": "The room is clean, filthy.", "label": "inconsistent", "evidence": "clean vs filthy"}
+{"id": "const_410", "narrative": "We offer 24-hour support, available from 9 to 5.", "label": "inconsistent", "evidence": "24-hour vs 9-5"}
+{"id": "const_860", "narrative": "The team won, in last place.", "label": "inconsistent", "evidence": "winning vs last place"}
+{"id": "const_590", "narrative": "The phone is ringing silently.", "label": "inconsistent", "evidence": "ringing implies sound (usually)"}
+{"id": "const_1020", "narrative": "The user is male, pregnant.", "label": "inconsistent", "evidence": "biological contradiction"}
+{"id": "const_604", "narrative": "The screen is touch-enabled, responding only to keyboard.", "label": "inconsistent", "evidence": "touch vs keyboard only"}
+{"id": "const_1200", "narrative": "The item is free, paid.", "label": "inconsistent", "evidence": "free vs paid"}
+{"id": "const_800", "narrative": "The team is complete, missing 2 members.", "label": "inconsistent", "evidence": "complete vs missing"}
+{"id": "const_156", "narrative": "The identical twins look completely different.", "label": "inconsistent", "evidence": "identical means looking the same"}
+{"id": "const_321", "narrative": "The job is finished, pending start.", "label": "inconsistent", "evidence": "finished vs pending start"}
+{"id": "const_1180", "narrative": "The light is blue, orange.", "label": "inconsistent", "evidence": "blue vs orange"}
+{"id": "const_246", "narrative": "The user is online, last seen 5 years ago.", "label": "inconsistent", "evidence": "online implies current activity"}
+{"id": "const_323", "narrative": "The server is local, hosted in AWS.", "label": "inconsistent", "evidence": "local vs cloud (AWS)"}
+{"id": "const_704", "narrative": "The status is OK, error 500.", "label": "inconsistent", "evidence": "error 500 is not OK"}
+{"id": "const_434", "narrative": "The year is 2000, the 22nd century.", "label": "inconsistent", "evidence": "2000 is 20th/21st century"}
+{"id": "const_1224", "narrative": "The user is anonymous, signed in.", "label": "inconsistent", "evidence": "anonymous vs signed in"}
+{"id": "const_172", "narrative": "The ancient startup was founded yesterday.", "label": "inconsistent", "evidence": "ancient vs yesterday"}
+{"id": "const_844", "narrative": "The glass is full of nothing.", "label": "inconsistent", "evidence": "full implies content"}
+{"id": "const_838", "narrative": "The task is done, 0% progress.", "label": "inconsistent", "evidence": "done implies 100%"}
+{"id": "const_166", "narrative": "The temporary structure has stood for 1000 years.", "label": "inconsistent", "evidence": "1000 years is not temporary"}
+{"id": "const_712", "narrative": "The layout is responsive, fixed width only.", "label": "inconsistent", "evidence": "responsive implies fluid width"}
+{"id": "const_1138", "narrative": "The request failed, 200 OK.", "label": "inconsistent", "evidence": "failed vs 200 OK"}
+{"id": "const_700", "narrative": "The count is zero, represented by 1.", "label": "inconsistent", "evidence": "0 != 1"}
+{"id": "const_1302", "narrative": "The car is old, brand new.", "label": "inconsistent", "evidence": "old vs new"}
+{"id": "const_1330", "narrative": "The data is partial, complete.", "label": "inconsistent", "evidence": "partial vs complete"}
+{"id": "const_1052", "narrative": "The count is low, infinite.", "label": "inconsistent", "evidence": "infinite is high"}
+{"id": "const_960", "narrative": "The room is full, empty chairs everywhere.", "label": "inconsistent", "evidence": "full vs empty chairs"}
+{"id": "const_1344", "narrative": "The room is full, vacant.", "label": "inconsistent", "evidence": "full vs vacant"}
+{"id": "const_1184", "narrative": "The list is empty, [null].", "label": "inconsistent", "evidence": "contains one element"}
