@@ -434,12 +434,13 @@ def main():
     
     # Save results
     import json
-    from datetime import datetime
+    from datetime import UTC, datetime
     from uuid import uuid4
     
     results_dir = Path(__file__).parent / "results"
     results_dir.mkdir(exist_ok=True)
     
+    timestamp = datetime.now(UTC).isoformat().replace("+00:00", "Z")
     result_file = results_dir / uuid4().hex / "integration_test_results.json"
     result_file.parent.mkdir(exist_ok=True)
     

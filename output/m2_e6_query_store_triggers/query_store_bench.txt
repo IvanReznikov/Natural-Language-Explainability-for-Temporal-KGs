@@ -1,0 +1,6 @@
+count: 1000
+mean_latency_ms: 0.8865033999918523
+p95_latency_ms: 1.4012999999977183
+max_latency_ms: 1.8568999985291157
+mean_size_bytes: 18.89
+wall_ms: 890.9433999997418

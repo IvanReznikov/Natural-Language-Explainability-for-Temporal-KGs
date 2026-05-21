@@ -1,44 +1,68 @@
 {
   "dataset": "data\\jsonls\\temporal_graph.jsonl",
   "predictions": null,
-  "n_per_type": 2,
-  "seed": 1,
+  "n_per_type": 100,
+  "point_n": 100,
+  "point_per_domain": null,
+  "max_domains": 5,
+  "seed": 13,
   "missing_predictions": 0,
+  "human_loop": "none",
+  "llm": null,
+  "human_export_path": null,
+  "merged_human": 0,
+  "llm_scored": 0,
   "aggregate_by_bucket": {
     "point": {
-      "count": 2.0,
-      "context_relevance": 1.0,
+      "count": 100.0,
+      "confidence_signal": -0.07,
+      "context_relevance": 0.510468253968254,
+      "context_relevance_proxy": 0.510468253968254,
+      "entity_coverage": 0.586734126984127,
       "has_prediction": 1.0,
-      "relation_marker_presence": 0.0,
-      "timestamp_accuracy": 1.0,
-      "unnecessary_detail_score": 0.5
+      "timestamp_accuracy": 0.985,
+      "unnecessary_detail_proxy": 0.475,
+      "unnecessary_detail_ratio": 0.525,
+      "unnecessary_detail_score": 0.475
     },
     "interval": {
-      "count": 2.0,
-      "boundary_accuracy": 0.0,
-      "context_relevance": 1.0,
-      "duration_correctness": 0.5,
+      "count": 100.0,
+      "boundary_accuracy": 0.08,
+      "confidence_signal": -0.08,
+      "context_relevance": 0.35345021645021646,
+      "duration_correctness": 0.09,
+      "entity_coverage": 0.4586349206349206,
       "has_prediction": 1.0,
-      "interval_comparison_clarity": 0.5,
-      "unnecessary_detail_score": 0.5
+      "interval_comparison_clarity": 0.09,
+      "interval_marker_presence": 0.79,
+      "overlap_representation": 0.03,
+      "unnecessary_detail_ratio": 0.34,
+      "unnecessary_detail_score": 0.66
     },
     "sequence": {
-      "count": 2.0,
-      "causal_coherence": 0.0,
-      "context_relevance": 0.75,
+      "count": 100.0,
+      "causal_coherence": 0.04,
+      "confidence_signal": -0.06,
+      "context_relevance": 0.3676630314130314,
+      "entity_coverage": 0.47057539682539684,
       "has_prediction": 1.0,
-      "sequence_marker_presence": 0.5,
-      "step_completeness": 1.0,
-      "unnecessary_detail_score": 0.5
+      "ordering_accuracy": 0.75,
+      "sequence_marker_presence": 0.28,
+      "step_completeness": 0.8044871794871795,
+      "unnecessary_detail_ratio": 0.555,
+      "unnecessary_detail_score": 0.445
     },
     "causal": {
-      "count": 2.0,
-      "alternative_cause_awareness": 0.0,
-      "causal_marker_presence": 0.0,
-      "context_relevance": 0.3333333333333333,
+      "count": 100.0,
+      "alternative_cause_awareness": 0.05,
+      "causal_marker_presence": 0.4,
+      "confidence_signal": -0.03,
+      "context_relevance": 0.26387301587301587,
+      "entity_coverage": 0.2937619047619048,
       "has_prediction": 1.0,
-      "temporal_constraint_correctness": 1.0,
-      "unnecessary_detail_score": 1.0
+      "temporal_constraint_correctness": 0.995,
+      "unnecessary_detail_ratio": 0.46,
+      "unnecessary_detail_score": 0.54
     }
   }
 }

@@ -19,7 +19,7 @@ This page summarizes Milestone 3 experiments and points to the saved evaluation 
 | Domains | **35+** |
 | Curation | Human-reviewed; structured as temporal knowledge graph triples |
 | Precomputed graph | `data/jsonls/temporal_graph_output_v3/` (nodes.jsonl + edges.jsonl) |
-| Embedding index | `data/jsonls/embeddings_4b/` (Qwen3-Embedding-4B, 4096-dim vectors) |
+| Embedding index | `data/jsonls/temporal_graph_output_v3/embeddings_4b/` (Qwen3-Embedding-4B, 4096-dim vectors) |
 
 ### Domain Distribution (top 10)
 
@@ -186,7 +186,7 @@ python experiments/m3_e2_fidelity/run_fidelity_eval.py \
 ```
 
 Notes:
-- The runner best-effort loads `.env` from the repo root so `OPENAI_API_KEY` can be provided via `.env`.
+- The runner now best-effort loads `.env` from the repo root so `OPENAI_API_KEY` can be provided via `.env`.
 - To evaluate real model outputs, pass `--predictions path/to/preds.jsonl` with `{id, prediction}` (or `generated_text|output|text`).
 
 ## Milestone 3 - M3-E4 Efficiency, Coherence, and Granularity

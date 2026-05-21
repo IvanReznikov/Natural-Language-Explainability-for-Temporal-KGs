@@ -1,0 +1,14 @@
+{"query_id": "q_temp_c1", "text": "What antibiotics treat this infection?", "intent": "medical", "issued_at": 1779349068.3510725, "meta": {}, "dependencies": ["temperature_fact"], "user_id": null}
+{"query_id": "q_stock_c2", "text": "Explain the stock decline", "intent": "financial", "issued_at": 1779349068.352024, "meta": {}, "dependencies": ["market_fact"], "user_id": null}
+{"query_id": "q_temp_c1", "text": "What antibiotics treat this infection?", "intent": "medical", "issued_at": 1779349712.8237028, "meta": {}, "dependencies": ["temperature_fact"], "user_id": null}
+{"query_id": "q_stock_c2", "text": "Explain the stock decline", "intent": "financial", "issued_at": 1779349712.8269463, "meta": {}, "dependencies": ["market_fact"], "user_id": null}
+{"query_id": "q_temp_c1", "text": "What antibiotics treat this infection?", "intent": "medical", "issued_at": 1779350018.2688265, "meta": {}, "dependencies": ["temperature_fact"], "user_id": null}
+{"query_id": "q_stock_c2", "text": "Explain the stock decline", "intent": "financial", "issued_at": 1779350018.269813, "meta": {}, "dependencies": ["market_fact"], "user_id": null}
+{"query_id": "q_temp_c1", "text": "What antibiotics treat this infection?", "intent": "medical", "issued_at": 1779350091.9895306, "meta": {}, "dependencies": ["temperature_fact"], "user_id": null}
+{"query_id": "q_stock_c2", "text": "Explain the stock decline", "intent": "financial", "issued_at": 1779350091.991923, "meta": {}, "dependencies": ["market_fact"], "user_id": null}
+{"query_id": "q_temp_c1", "text": "What antibiotics treat this infection?", "intent": "medical", "issued_at": 1779353769.3903263, "meta": {}, "dependencies": ["temperature_fact"], "user_id": null}
+{"query_id": "q_stock_c2", "text": "Explain the stock decline", "intent": "financial", "issued_at": 1779353769.391441, "meta": {}, "dependencies": ["market_fact"], "user_id": null}
+{"query_id": "q_temp_c1", "text": "What antibiotics treat this infection?", "intent": "medical", "issued_at": 1779354025.2883193, "meta": {}, "dependencies": ["temperature_fact"], "user_id": null}
+{"query_id": "q_stock_c2", "text": "Explain the stock decline", "intent": "financial", "issued_at": 1779354025.29117, "meta": {}, "dependencies": ["market_fact"], "user_id": null}
+{"query_id": "q_temp_c1", "text": "What antibiotics treat this infection?", "intent": "medical", "issued_at": 1779368339.803014, "meta": {}, "dependencies": ["temperature_fact"], "user_id": null}
+{"query_id": "q_stock_c2", "text": "Explain the stock decline", "intent": "financial", "issued_at": 1779368339.8052595, "meta": {}, "dependencies": ["market_fact"], "user_id": null}

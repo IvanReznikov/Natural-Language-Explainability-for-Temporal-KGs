@@ -1,0 +1,251 @@
+type,template,flesch,words,success,output
+point_in_time,production_llm,59.745000000000005,6,True,won Nobel Prize in Physics occurred.
+point_in_time,production_llm,0.0,4,False,published Special Relativity occurred.
+point_in_time,production_llm,0.0,3,False,declared independence occurred.
+point_in_time,production_llm,66.40000000000003,5,True,walked on the Moon occurred.
+point_in_time,production_llm,0.0,4,False,experienced nuclear disaster occurred.
+point_in_time,production_llm,6.390000000000015,3,False,was invented occurred.
+point_in_time,production_llm,66.40000000000003,5,True,"fell, ending Cold War occurred."
+point_in_time,production_llm,0.0,4,False,declared COVID-19 pandemic occurred.
+point_in_time,production_llm,54.72500000000002,4,True,docked with ISS occurred.
+point_in_time,production_llm,0.0,4,False,captured first images occurred.
+point_in_time,production_llm,0.0,4,False,discovered Mandelbrot set occurred.
+point_in_time,production_llm,12.425000000000011,4,True,began chimpanzee study occurred.
+point_in_time,production_llm,0.0,4,False,formulated gravity law occurred.
+point_in_time,production_llm,0.0,4,False,published evolution theory occurred.
+point_in_time,production_llm,0.0,3,False,patented telephone occurred.
+point_in_time,production_llm,54.72500000000002,4,True,tested light bulb occurred.
+point_in_time,production_llm,0.0,4,False,transmitted wireless electrici occurred.
+point_in_time,production_llm,33.57500000000002,4,True,captured Photo 51 occurred.
+point_in_time,production_llm,0.0,4,False,announced polio vaccine occurred.
+point_in_time,production_llm,0.0,4,False,proposed Hawking radiation occurred.
+point_in_time,production_llm,0.0,3,False,developed CRISPR occurred.
+point_in_time,production_llm,0.0,4,False,released Linux kernel occurred.
+point_in_time,production_llm,0.0,4,False,crowned himself Emperor occurred.
+point_in_time,production_llm,0.0,4,False,issued Emancipation Proclamati occurred.
+point_in_time,production_llm,0.0,5,False,led India to independence occurred.
+point_in_time,production_llm,0.0,5,False,became South Africa President occurred.
+point_in_time,production_llm,54.70142857142861,7,True,refused to give up bus seat occurred.
+point_in_time,production_llm,42.61571428571432,7,True,delivered 'I Have a Dream' spe occurred.
+point_in_time,production_llm,0.0,5,False,introduced glasnost and perest occurred.
+point_in_time,production_llm,0.0,5,False,became UK Prime Minister occurred.
+point_in_time,production_llm,0.0,4,False,became US President occurred.
+point_in_time,production_llm,0.0,4,False,adopted euro currency occurred.
+point_in_time,production_llm,0.0,3,False,completed Guernica occurred.
+point_in_time,production_llm,35.097500000000025,5,True,released Sgt. Pepper's album occurred.
+point_in_time,production_llm,32.56000000000003,5,True,held first Academy Awards occurred.
+point_in_time,production_llm,45.64500000000001,6,True,released 2001: A Space Odyssey occurred.
+point_in_time,production_llm,12.425000000000011,4,True,published The Shining occurred.
+point_in_time,production_llm,12.425000000000011,4,True,released Ziggy Stardust occurred.
+point_in_time,production_llm,0.0,4,False,began digital preservation occurred.
+point_in_time,production_llm,32.56000000000003,5,True,won heavyweight boxing title occurred.
+point_in_time,production_llm,75.87500000000001,4,True,scored 1000th goal occurred.
+point_in_time,production_llm,59.745000000000005,6,True,won Nobel Prize in Physics occurred.
+point_in_time,production_llm,0.0,4,False,published Special Relativity occurred.
+point_in_time,production_llm,0.0,3,False,declared independence occurred.
+point_in_time,production_llm,66.40000000000003,5,True,walked on the Moon occurred.
+point_in_time,production_llm,0.0,4,False,experienced nuclear disaster occurred.
+point_in_time,production_llm,6.390000000000015,3,False,was invented occurred.
+point_in_time,production_llm,66.40000000000003,5,True,"fell, ending Cold War occurred."
+point_in_time,production_llm,0.0,4,False,declared COVID-19 pandemic occurred.
+point_in_time,production_llm,54.72500000000002,4,True,docked with ISS occurred.
+intervals,production_llm,0.0,2,False,lasted occurred.
+intervals,production_llm,0.0,2,False,occurred occurred.
+intervals,production_llm,0.0,2,False,spanned occurred.
+intervals,production_llm,0.0,2,False,persisted occurred.
+intervals,production_llm,0.0,2,False,defined occurred.
+intervals,production_llm,0.0,2,False,transformed occurred.
+intervals,production_llm,0.0,2,False,shaped occurred.
+intervals,production_llm,0.0,2,False,operated occurred.
+intervals,production_llm,0.0,3,False,characterized tech occurred.
+intervals,production_llm,0.0,2,False,devastated occurred.
+intervals,production_llm,0.0,3,False,dominated Europe occurred.
+intervals,production_llm,0.0,2,False,flourished occurred.
+intervals,production_llm,0.0,2,False,governed occurred.
+intervals,production_llm,0.0,2,False,endured occurred.
+intervals,production_llm,0.0,2,False,flourished occurred.
+intervals,production_llm,0.0,2,False,influenced occurred.
+intervals,production_llm,0.0,2,False,transformed occurred.
+intervals,production_llm,0.0,2,False,persisted occurred.
+intervals,production_llm,0.0,2,False,revolutionized occurred.
+intervals,production_llm,0.0,2,False,characterized occurred.
+intervals,production_llm,0.0,2,False,revolutionized occurred.
+intervals,production_llm,0.0,2,False,marked occurred.
+intervals,production_llm,0.0,2,False,transformed occurred.
+intervals,production_llm,0.0,2,False,defined occurred.
+intervals,production_llm,0.0,2,False,reshaped occurred.
+intervals,production_llm,0.0,3,False,influenced design occurred.
+intervals,production_llm,0.0,3,False,dominated music occurred.
+intervals,production_llm,0.0,2,False,flourished occurred.
+intervals,production_llm,0.0,2,False,evolved occurred.
+intervals,production_llm,0.0,3,False,challenged society occurred.
+intervals,production_llm,0.0,2,False,lasted occurred.
+intervals,production_llm,0.0,2,False,occurred occurred.
+intervals,production_llm,0.0,2,False,spanned occurred.
+intervals,production_llm,0.0,2,False,persisted occurred.
+intervals,production_llm,0.0,2,False,defined occurred.
+intervals,production_llm,0.0,2,False,transformed occurred.
+intervals,production_llm,0.0,2,False,shaped occurred.
+intervals,production_llm,0.0,2,False,operated occurred.
+intervals,production_llm,0.0,3,False,characterized tech occurred.
+intervals,production_llm,0.0,2,False,devastated occurred.
+intervals,production_llm,0.0,3,False,dominated Europe occurred.
+intervals,production_llm,0.0,2,False,flourished occurred.
+intervals,production_llm,0.0,2,False,governed occurred.
+intervals,production_llm,0.0,2,False,endured occurred.
+intervals,production_llm,0.0,2,False,flourished occurred.
+intervals,production_llm,0.0,2,False,influenced occurred.
+intervals,production_llm,0.0,2,False,transformed occurred.
+intervals,production_llm,0.0,2,False,persisted occurred.
+intervals,production_llm,0.0,2,False,revolutionized occurred.
+intervals,production_llm,0.0,2,False,characterized occurred.
+sequences,production_llm,0.0,5,False,"Archduke assassinate, Ultimatum issued t..."
+sequences,production_llm,45.64500000000001,6,True,"Berlin Wall erected, Kennedy visits Berl..."
+sequences,production_llm,31.545000000000016,6,True,"Ancient Egypt thrive, Roman Empire rose,..."
+sequences,production_llm,15.640000000000015,5,True,"Internet invented, Web created, Browsers..."
+sequences,production_llm,15.640000000000015,5,True,"COVID-19 emerges, Lockdowns implemente, ..."
+sequences,production_llm,0.0,5,False,"Industrial Revolutio, Steam engine perfe..."
+sequences,production_llm,45.64500000000001,6,True,"French Revolution er, Bastille stormed, ..."
+sequences,production_llm,59.745000000000005,6,True,"Civil War started, Battle of Gettysburg,..."
+sequences,production_llm,66.7871428571429,7,True,"World War I began, Trench warfare domin,..."
+sequences,production_llm,54.70142857142861,7,True,"Nazi Party rose, Hitler became Chance, W..."
+sequences,production_llm,59.745000000000005,6,True,"Heliocentric theory , Planetary laws dis..."
+sequences,production_llm,17.44500000000002,6,True,"Atoms proposed, Atomic structure dis, El..."
+sequences,production_llm,31.545000000000016,6,True,"Evolution theory pro, Natural selection ..."
+sequences,production_llm,0.0,5,False,"Germ theory proposed, Bacteria identifie..."
+sequences,production_llm,0.0,5,False,"Radioactivity discov, Radium isolated, A..."
+sequences,production_llm,0.0,5,False,"Telegraph invented, Telegraph networks e..."
+sequences,production_llm,32.56000000000003,5,True,"First computers buil, Programming langua..."
+sequences,production_llm,15.640000000000015,5,True,"Photography invented, Color photography ..."
+sequences,production_llm,0.0,5,False,"Archduke assassinate, Ultimatum issued t..."
+sequences,production_llm,45.64500000000001,6,True,"Berlin Wall erected, Kennedy visits Berl..."
+sequences,production_llm,31.545000000000016,6,True,"Ancient Egypt thrive, Roman Empire rose,..."
+sequences,production_llm,15.640000000000015,5,True,"Internet invented, Web created, Browsers..."
+sequences,production_llm,15.640000000000015,5,True,"COVID-19 emerges, Lockdowns implemente, ..."
+sequences,production_llm,0.0,5,False,"Industrial Revolutio, Steam engine perfe..."
+sequences,production_llm,45.64500000000001,6,True,"French Revolution er, Bastille stormed, ..."
+sequences,production_llm,59.745000000000005,6,True,"Civil War started, Battle of Gettysburg,..."
+sequences,production_llm,66.7871428571429,7,True,"World War I began, Trench warfare domin,..."
+sequences,production_llm,54.70142857142861,7,True,"Nazi Party rose, Hitler became Chance, W..."
+sequences,production_llm,59.745000000000005,6,True,"Heliocentric theory , Planetary laws dis..."
+sequences,production_llm,17.44500000000002,6,True,"Atoms proposed, Atomic structure dis, El..."
+sequences,production_llm,31.545000000000016,6,True,"Evolution theory pro, Natural selection ..."
+sequences,production_llm,0.0,5,False,"Germ theory proposed, Bacteria identifie..."
+sequences,production_llm,0.0,5,False,"Radioactivity discov, Radium isolated, A..."
+sequences,production_llm,0.0,5,False,"Telegraph invented, Telegraph networks e..."
+sequences,production_llm,32.56000000000003,5,True,"First computers buil, Programming langua..."
+sequences,production_llm,15.640000000000015,5,True,"Photography invented, Color photography ..."
+sequences,production_llm,0.0,5,False,"Archduke assassinate, Ultimatum issued t..."
+sequences,production_llm,45.64500000000001,6,True,"Berlin Wall erected, Kennedy visits Berl..."
+sequences,production_llm,31.545000000000016,6,True,"Ancient Egypt thrive, Roman Empire rose,..."
+sequences,production_llm,15.640000000000015,5,True,"Internet invented, Web created, Browsers..."
+sequences,production_llm,15.640000000000015,5,True,"COVID-19 emerges, Lockdowns implemente, ..."
+sequences,production_llm,0.0,5,False,"Industrial Revolutio, Steam engine perfe..."
+sequences,production_llm,45.64500000000001,6,True,"French Revolution er, Bastille stormed, ..."
+sequences,production_llm,59.745000000000005,6,True,"Civil War started, Battle of Gettysburg,..."
+sequences,production_llm,66.7871428571429,7,True,"World War I began, Trench warfare domin,..."
+sequences,production_llm,54.70142857142861,7,True,"Nazi Party rose, Hitler became Chance, W..."
+sequences,production_llm,59.745000000000005,6,True,"Heliocentric theory , Planetary laws dis..."
+sequences,production_llm,17.44500000000002,6,True,"Atoms proposed, Atomic structure dis, El..."
+sequences,production_llm,31.545000000000016,6,True,"Evolution theory pro, Natural selection ..."
+sequences,production_llm,0.0,5,False,"Germ theory proposed, Bacteria identifie..."
+causality,production_llm,15.640000000000015,5,True,Archduke Franz Ferdinand assas effect.
+causality,production_llm,59.745000000000005,6,True,Stock market crash on October  effect.
+causality,production_llm,32.56000000000003,5,True,Printing press invented around effect.
+causality,production_llm,15.640000000000015,5,True,Penicillin discovered in 1928 effect.
+causality,production_llm,0.0,5,False,Russian Revolution occurred in effect.
+causality,production_llm,32.56000000000003,5,True,Industrial Revolution in 18th  effect.
+causality,production_llm,32.56000000000003,5,True,Steam engine was invented effect.
+causality,production_llm,100.0,6,True,Berlin Wall fell in 1989 effect.
+causality,production_llm,15.640000000000015,5,True,Climate change from greenhouse effect.
+causality,production_llm,12.425000000000011,4,True,Internet was invented effect.
+causality,production_llm,45.64500000000001,6,True,Treaty of Versailles imposed o effect.
+causality,production_llm,31.545000000000016,6,True,British taxation on American c effect.
+causality,production_llm,49.48000000000002,5,True,French monarchy despotism and  effect.
+causality,production_llm,0.0,3,False,Archduke assassinated effect.
+causality,production_llm,0.0,4,False,Nazi expansionist policies effect.
+causality,production_llm,0.0,5,False,Genetic inheritance patterns o effect.
+causality,production_llm,73.84500000000001,6,True,X-rays discovered by Röntgen i effect.
+causality,production_llm,0.0,4,False,Einstein formulated relativity effect.
+causality,production_llm,32.56000000000003,5,True,Transistor developed in 1947 effect.
+causality,production_llm,0.0,4,False,Synthetic insulin synthesized effect.
+causality,production_llm,0.0,5,False,Credit expansion and speculati effect.
+causality,production_llm,73.84500000000001,6,True,OPEC oil embargo in 1973 effect.
+causality,production_llm,59.745000000000005,6,True,Housing market collapsed in 20 effect.
+causality,production_llm,31.545000000000016,6,True,Trade opened between China and effect.
+causality,production_llm,0.0,5,False,E-commerce and digital markets effect.
+causality,production_llm,32.56000000000003,5,True,Uncle Tom's Cabin published effect.
+causality,production_llm,73.84500000000001,6,True,Workers treated poorly in fact effect.
+causality,production_llm,31.545000000000016,6,True,Women gained education and emp effect.
+causality,production_llm,15.640000000000015,5,True,Archduke Franz Ferdinand assas effect.
+causality,production_llm,59.745000000000005,6,True,Stock market crash on October  effect.
+causality,production_llm,32.56000000000003,5,True,Printing press invented around effect.
+causality,production_llm,15.640000000000015,5,True,Penicillin discovered in 1928 effect.
+causality,production_llm,0.0,5,False,Russian Revolution occurred in effect.
+causality,production_llm,32.56000000000003,5,True,Industrial Revolution in 18th  effect.
+causality,production_llm,32.56000000000003,5,True,Steam engine was invented effect.
+causality,production_llm,100.0,6,True,Berlin Wall fell in 1989 effect.
+causality,production_llm,15.640000000000015,5,True,Climate change from greenhouse effect.
+causality,production_llm,12.425000000000011,4,True,Internet was invented effect.
+causality,production_llm,45.64500000000001,6,True,Treaty of Versailles imposed o effect.
+causality,production_llm,31.545000000000016,6,True,British taxation on American c effect.
+causality,production_llm,49.48000000000002,5,True,French monarchy despotism and  effect.
+causality,production_llm,0.0,3,False,Archduke assassinated effect.
+causality,production_llm,0.0,4,False,Nazi expansionist policies effect.
+causality,production_llm,0.0,5,False,Genetic inheritance patterns o effect.
+causality,production_llm,73.84500000000001,6,True,X-rays discovered by Röntgen i effect.
+causality,production_llm,0.0,4,False,Einstein formulated relativity effect.
+causality,production_llm,32.56000000000003,5,True,Transistor developed in 1947 effect.
+causality,production_llm,0.0,4,False,Synthetic insulin synthesized effect.
+causality,production_llm,0.0,5,False,Credit expansion and speculati effect.
+causality,production_llm,73.84500000000001,6,True,OPEC oil embargo in 1973 effect.
+overlaps,production_llm,78.87285714285717,7,True,"Korean War, Cold War, Nuclear arms race..."
+overlaps,production_llm,0.0,5,False,"Shakespeare writing, Globe Theatre opera..."
+overlaps,production_llm,66.7871428571429,7,True,"Apollo 11 mission, Vietnam War, Civil Ri..."
+overlaps,production_llm,15.640000000000015,5,True,"COVID-19 pandemic, Remote work mainstre,..."
+overlaps,production_llm,3.344999999999999,6,False,"Renaissance in Italy, Age of Exploration..."
+overlaps,production_llm,31.545000000000016,6,True,"Berlin Blockade, NATO formation, Israel ..."
+overlaps,production_llm,0.0,4,False,"Industrial Revolutio, American Revolutio..."
+overlaps,production_llm,45.64500000000001,6,True,"Dot-com boom, Mobile computing ris, Broa..."
+overlaps,production_llm,0.0,5,False,"Medieval period, Renaissance emerging, F..."
+overlaps,production_llm,0.0,5,False,"Age of Enlightenment, Industrial Revolut..."
+overlaps,production_llm,0.0,5,False,"Victorian Era, Industrial Revolutio, Bri..."
+overlaps,production_llm,15.640000000000015,5,True,"Belle Époque flouris, Industrial society..."
+overlaps,production_llm,15.640000000000015,5,True,"Roaring Twenties, Jazz Age, Prohibition..."
+overlaps,production_llm,100.0,10,True,"World War II in Euro, World War II in Pa..."
+overlaps,production_llm,66.7871428571429,7,True,"Vietnam War, Space Race, Civil Rights Mo..."
+overlaps,production_llm,78.87285714285717,7,True,"Berlin Wall fell, Soviet communism col, ..."
+overlaps,production_llm,3.344999999999999,6,False,"Internet rise, Mobile phones develo, Dig..."
+overlaps,production_llm,66.7871428571429,7,True,"September 11 attacks, War on Terror bega..."
+overlaps,production_llm,0.0,4,False,"Romantic movement, Industrial Revolutio,..."
+overlaps,production_llm,32.56000000000003,5,True,"Modernism in art, Cubism, Surrealism..."
+overlaps,production_llm,15.640000000000015,5,True,"Women's Liberation, Gay Rights Movement,..."
+overlaps,production_llm,78.87285714285717,7,True,"Korean War, Cold War, Nuclear arms race..."
+overlaps,production_llm,0.0,5,False,"Shakespeare writing, Globe Theatre opera..."
+overlaps,production_llm,66.7871428571429,7,True,"Apollo 11 mission, Vietnam War, Civil Ri..."
+overlaps,production_llm,15.640000000000015,5,True,"COVID-19 pandemic, Remote work mainstre,..."
+overlaps,production_llm,3.344999999999999,6,False,"Renaissance in Italy, Age of Exploration..."
+overlaps,production_llm,31.545000000000016,6,True,"Berlin Blockade, NATO formation, Israel ..."
+overlaps,production_llm,0.0,4,False,"Industrial Revolutio, American Revolutio..."
+overlaps,production_llm,45.64500000000001,6,True,"Dot-com boom, Mobile computing ris, Broa..."
+overlaps,production_llm,0.0,5,False,"Medieval period, Renaissance emerging, F..."
+overlaps,production_llm,0.0,5,False,"Age of Enlightenment, Industrial Revolut..."
+overlaps,production_llm,0.0,5,False,"Victorian Era, Industrial Revolutio, Bri..."
+overlaps,production_llm,15.640000000000015,5,True,"Belle Époque flouris, Industrial society..."
+overlaps,production_llm,15.640000000000015,5,True,"Roaring Twenties, Jazz Age, Prohibition..."
+overlaps,production_llm,100.0,10,True,"World War II in Euro, World War II in Pa..."
+overlaps,production_llm,66.7871428571429,7,True,"Vietnam War, Space Race, Civil Rights Mo..."
+overlaps,production_llm,78.87285714285717,7,True,"Berlin Wall fell, Soviet communism col, ..."
+overlaps,production_llm,3.344999999999999,6,False,"Internet rise, Mobile phones develo, Dig..."
+overlaps,production_llm,66.7871428571429,7,True,"September 11 attacks, War on Terror bega..."
+overlaps,production_llm,0.0,4,False,"Romantic movement, Industrial Revolutio,..."
+overlaps,production_llm,32.56000000000003,5,True,"Modernism in art, Cubism, Surrealism..."
+overlaps,production_llm,15.640000000000015,5,True,"Women's Liberation, Gay Rights Movement,..."
+overlaps,production_llm,78.87285714285717,7,True,"Korean War, Cold War, Nuclear arms race..."
+overlaps,production_llm,0.0,5,False,"Shakespeare writing, Globe Theatre opera..."
+overlaps,production_llm,66.7871428571429,7,True,"Apollo 11 mission, Vietnam War, Civil Ri..."
+overlaps,production_llm,15.640000000000015,5,True,"COVID-19 pandemic, Remote work mainstre,..."
+overlaps,production_llm,3.344999999999999,6,False,"Renaissance in Italy, Age of Exploration..."
+overlaps,production_llm,31.545000000000016,6,True,"Berlin Blockade, NATO formation, Israel ..."
+overlaps,production_llm,0.0,4,False,"Industrial Revolutio, American Revolutio..."
+overlaps,production_llm,45.64500000000001,6,True,"Dot-com boom, Mobile computing ris, Broa..."

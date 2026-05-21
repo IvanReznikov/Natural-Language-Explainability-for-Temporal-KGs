@@ -24,7 +24,10 @@ def _iter_jsonl(path: Path) -> Iterable[Dict]:
         for line in handle:
             payload = line.strip()
             if payload:
-                yield json.loads(payload)
+                try:
+                    yield json.loads(payload)
+                except json.JSONDecodeError:
+                    continue
 
 
 def _pick_first_existing(paths: List[Path]) -> Optional[Path]:

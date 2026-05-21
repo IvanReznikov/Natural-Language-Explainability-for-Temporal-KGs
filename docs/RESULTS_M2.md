@@ -22,7 +22,7 @@
 | T10 | word TF-IDF (1-2) 8k + char TF-IDF (3-5) 20k | per-label grid | 0.829 | 0.820 | 0.472 | Per-label thresholds; lower F1/subset vs T8 |
 | T11 | word TF-IDF (1-2) 8k + char TF-IDF (4-6) 20k | per-label grid | 0.826 | 0.816 | 0.492 | Per-label thresholds; still below T9 |
 | T12 | word TF-IDF (1-2) 8k + char TF-IDF (3-5) 20k + Platt | 0.45 | 0.839 | 0.829 | 0.540 | Calibration (sigmoid) lifts subset acc |
-| T13 | word TF-IDF (1-2) 8k + char TF-IDF (3-5) 20k + Isotonic | 0.45 | **0.851** | **0.838** | **0.548** | Calibration (isotonic) best overall |
+| T13 | word TF-IDF (1-2) 8k + char TF-IDF (3-5) 20k + Isotonic | 0.45 | **0.851** | **0.838** | **0.548** | Calibration (isotonic) now best overall |
 | T14 | word TF-IDF (1-2) 8k + char TF-IDF (3-5) 20k + Isotonic | 0.45 | 0.846 | 0.836 | 0.540 | Mild pos-class weight (1.2); no gain |
 | T15 | word TF-IDF (1-2) 8k + char TF-IDF (3-5) 20k + Isotonic (seeds 42/43/44) | 0.45 | 0.851 | 0.838 | 0.548 | Seed ensemble ties T13 |
 
@@ -166,11 +166,11 @@
 - Eval outputs: output/m2_e3_eval/e64da7491eac42b485b271881b4922aa/preds.jsonl
 
 ## Notes
-- Rule fallback covers causal "due to/because of", sequence "preceded" phrasings, and point-in-time questions with event tagging; this eliminated remaining validation warnings.
+- Rule fallback now covers causal "due to/because of", sequence "preceded" phrasings, and point-in-time questions with event tagging; this eliminated remaining validation warnings.
 - Checkpoints are disabled to keep artifact size small; only final models are saved.
 
 ## Summary
-M2 reads as a self-contained query-understanding and orchestration milestone: intent classification, parsing, taxonomy modeling, traces, triggers, stores, and the end-to-end harness all have reproducible inputs and outputs. That makes the milestone easier to scan without dragging in later graph-query implementation details.
+M2 now reads as a self-contained query-understanding and orchestration milestone: intent classification, parsing, taxonomy modeling, traces, triggers, stores, and the end-to-end harness all have reproducible inputs and outputs. That makes the milestone easier to scan without dragging in later graph-query implementation details.
 
 The graph-query bridge note lives in [ADDITIONAL_M2.md](ADDITIONAL_M2.md) so readers who want the cross-milestone implementation can still find it, while this results page stays focused on the finished M2 deliverables and metrics.
 

@@ -1,2 +1,2 @@
-{"result_id": "r_a", "query_id": "q_a", "results": [{"value": 1}], "result_timestamp": 1767732294.0852764, "freshness": {}, "dependent_facts": ["f1", "f2"], "invalidation_rules": ["rule_x"], "status": "stale"}
-{"result_id": "r_b", "query_id": "q_b", "results": [{"value": 2}], "result_timestamp": 1767732294.088334, "freshness": {}, "dependent_facts": ["f3"], "invalidation_rules": ["rule_y"], "status": "stale"}
+{"result_id": "r_a", "query_id": "q_a", "results": [{"value": 1}], "result_timestamp": 1779368305.030354, "freshness": {}, "dependent_facts": ["f1", "f2"], "invalidation_rules": ["rule_x"], "status": "stale"}
+{"result_id": "r_b", "query_id": "q_b", "results": [{"value": 2}], "result_timestamp": 1779368305.032073, "freshness": {}, "dependent_facts": ["f3"], "invalidation_rules": ["rule_y"], "status": "stale"}

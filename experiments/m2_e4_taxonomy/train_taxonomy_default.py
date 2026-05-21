@@ -9,7 +9,7 @@ from sklearn.metrics import accuracy_score, f1_score
 import joblib
 
 ROOT = Path(__file__).resolve().parents[2]
-DATA_DIR = ROOT / "experiments" / "m2_e4" / "data" / "splits"
+DATA_DIR = ROOT / "experiments" / "m2_e4_taxonomy" / "data" / "splits"
 OUTPUT_DIR = ROOT / "output" / "m2_e4_taxonomy" / "e4a_taxonomy"
 TASK_PREFIX = "result_taxonomy"
 LABEL_KEYS = ["label", "result_type", "type"]

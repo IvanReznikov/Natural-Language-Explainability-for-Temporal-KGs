@@ -61,6 +61,8 @@
 
 ## Usage Pointers
 
+- **Run all M3 examples**: `python examples/run_all_m3_examples.py`
+- **Run all M3 experiments (orchestrator)**: `python experiments/run_all_m3_experiments.py`
 - **Seed M3-E5 placeholders**: `python scripts/seed_m3_e5_placeholders.py`
 - **M3-E5 aggregate matrix**: `python experiments/m3_e5_benchmark/run_m3_e5.py --aggregate --output-dir output/m3_e5_results`
 - **Fidelity re-run**: `python experiments/m3_e2_fidelity/run_fidelity.py` (see runner `--help`)
@@ -74,6 +76,46 @@
 - The eval set `temporal_evaluation_set_v2.jsonl` is stable and versioned — do not modify it; create a new version file if questions must change.
 - LLM judge calls (M3-E2) are cached in `data/jsonls/` LLM response files where applicable.
 - M3-E5 run IDs encode the full configuration (`llm_id__mode[__emb_id]`) to prevent collision.
+- Local orchestration policy in `experiments/run_all_m3_experiments.py`: OpenAI wrappers are skipped by default; local Qwen M3-E5 runs require CUDA GPU detection.
 
 
 
+## Download Embedding Files
+- embeddings folder - https://storage.googleapis.com/explanability-for-temporal-graphs/embeddings.zip
+- embeddings_4b folder - https://storage.googleapis.com/explanability-for-temporal-graphs/embeddings_4b.zip
+
+### Required target location
+
+Unpack both archives into:
+
+- `data/jsonls/temporal_graph_output_v3/`
+
+Expected result:
+
+- `data/jsonls/temporal_graph_output_v3/embeddings/`
+- `data/jsonls/temporal_graph_output_v3/embeddings_4b/`
+
+If your download arrives as split zip files (for example `embeddings_4b-...-001.zip`, `...-002.zip`, etc.), extract all parts to the same destination folder above.
+
+### Windows PowerShell example
+
+```powershell
+$dest = "data/jsonls/temporal_graph_output_v3"
+
+# Extract standard archives
+Expand-Archive -Path "data/jsonls/temporal_graph_output_v3/embeddings.zip" -DestinationPath $dest -Force
+Expand-Archive -Path "data/jsonls/temporal_graph_output_v3/embeddings_4b.zip" -DestinationPath $dest -Force
+
+# Or, if you downloaded split embeddings_4b zip parts
+Get-ChildItem -Path $dest -Filter "embeddings_4b-*.zip" |
+	Sort-Object Name |
+	ForEach-Object { Expand-Archive -Path $_.FullName -DestinationPath $dest -Force }
+```
+
+### Verify extraction
+
+```powershell
+Get-ChildItem data/jsonls/temporal_graph_output_v3
+```
+
+You should see the `embeddings/` and `embeddings_4b/` directories in addition to the graph files (`nodes.jsonl`, `edges.jsonl`, `processed_graph.jsonl`, `qa_index.jsonl`).

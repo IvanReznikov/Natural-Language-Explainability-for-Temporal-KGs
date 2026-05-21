@@ -36,6 +36,9 @@
 - This bridge keeps the milestone-2 semantics visible while reusing the M3 graph artifacts for retrieval and answer assembly.
 
 ## Usage Pointers
+- Run all M2 examples: `python examples/run_all_m2_examples.py`
+- Run all M2 experiments: `python experiments/run_all_m2_experiments.py`
+- Run M2 benchmarks: `python benchmarks/milestone2/run.py`
 - Quick inference: taxonomy model via experiments/m2_e4_taxonomy/predict_taxonomy.py; trace meta-queries via experiments/m2_e5_trace_meta_query/meta_query_cli.py; trigger chain via experiments/m2_e6_query_store_triggers/e2e_chain_demo.py; E7 harness via experiments/m2_e7_harness/run_e2e.py.
 - Annotation guides: experiments/m2_e7_harness/QUERY_ANNOTATION_GUIDE.md and TRACE_SPEC.md for hand-editing corpora; m2_e4/split_data.py and report_splits.py for regenerating stratified splits.
 - Repro: prefer stable filenames noted above; regeneration scripts accept --count/--seed for deterministic reruns.

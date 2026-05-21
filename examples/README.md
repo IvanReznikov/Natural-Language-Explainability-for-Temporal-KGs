@@ -12,6 +12,12 @@ for component-level debugging.
 From the repo root:
 
 ```bash
+# Run all examples per milestone
+python examples/run_all_m1_examples.py
+python examples/run_all_m2_examples.py
+python examples/run_all_m3_examples.py
+
+# Or run individual examples
 python examples/milestone1/m1e1_delta_encoding_example.py
 python examples/milestone1/m1e1_changelog_example.py
 python examples/milestone1/m1e1_graph_indexing_example.py

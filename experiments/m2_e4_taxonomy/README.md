@@ -92,7 +92,7 @@ This file captures what we need to collect/synthesize for M2-E4. It includes sch
 {"id":"c003","narrative":"NA sales were 4M and EU sales were 5M; total worldwide sales were 9M","label":"consistent"}
 {"id":"c004","narrative":"Q1 revenue was 3.2M and Q2 revenue was 3.8M; total for H1 was 5.5M","label":"inconsistent","evidence":"3.2+3.8=7.0M"}
 {"id":"c005","narrative":"Daily active users were steady at ~11k for eight weeks","label":"consistent"}
-{"id":"c006","narrative":"Latency p95 improved from 820ms to 450ms, but p95 is higher than before","label":"inconsistent","evidence":"states improved then claims higher"}
+{"id":"c006","narrative":"Latency p95 improved from 820ms to 450ms, but p95 is now higher than before","label":"inconsistent","evidence":"states improved then claims higher"}
 {"id":"c007","narrative":"NPS rose from 48 to 55 across the quarter","label":"consistent"}
 {"id":"c008","narrative":"An anomaly on 2024-05-12 shows 2.1k signups vs 1.1k baseline; the series shows no spikes","label":"inconsistent","evidence":"mentions spike then denies spikes"}
 {"id":"c009","narrative":"Return rate dropped from 4.0% to 2.4% after the policy change","label":"consistent"}

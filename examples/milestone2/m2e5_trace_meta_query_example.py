@@ -17,7 +17,11 @@ def load_traces(path: Path):
 
 def main():
     root = Path(__file__).resolve().parents[2]
-    trace_path = root / "experiments" / "m2_e5" / "output" / "small_traces.jsonl"
+    trace_path = root / "output" / "m2_e5_trace_meta_query" / "small_traces.jsonl"
+    if not trace_path.exists():
+        print(f"SKIPPED: sample trace file not found at {trace_path}")
+        print("Run experiments/m2_e5_trace_meta_query/generate_trace_corpus.py first.")
+        return
     traces = load_traces(trace_path)
 
     print({"sample_file": str(trace_path), "num_traces": len(traces)})

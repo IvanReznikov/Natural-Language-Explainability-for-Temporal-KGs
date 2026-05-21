@@ -1,1 +1,8 @@
 {"query_id": "q_temp_c1", "text": "What antibiotics treat this infection?", "intent": "medical", "issued_at": 1767732401.1574574, "meta": {}, "dependencies": ["temperature_fact"], "user_id": null}
+{"query_id": "q_temp_c1", "text": "What antibiotics treat this infection?", "intent": "medical", "issued_at": 1779349057.013722, "meta": {}, "dependencies": ["temperature_fact"], "user_id": null}
+{"query_id": "q_temp_c1", "text": "What antibiotics treat this infection?", "intent": "medical", "issued_at": 1779349698.8815005, "meta": {}, "dependencies": ["temperature_fact"], "user_id": null}
+{"query_id": "q_temp_c1", "text": "What antibiotics treat this infection?", "intent": "medical", "issued_at": 1779350008.8648276, "meta": {}, "dependencies": ["temperature_fact"], "user_id": null}
+{"query_id": "q_temp_c1", "text": "What antibiotics treat this infection?", "intent": "medical", "issued_at": 1779350080.0150352, "meta": {}, "dependencies": ["temperature_fact"], "user_id": null}
+{"query_id": "q_temp_c1", "text": "What antibiotics treat this infection?", "intent": "medical", "issued_at": 1779353758.3559241, "meta": {}, "dependencies": ["temperature_fact"], "user_id": null}
+{"query_id": "q_temp_c1", "text": "What antibiotics treat this infection?", "intent": "medical", "issued_at": 1779354011.73019, "meta": {}, "dependencies": ["temperature_fact"], "user_id": null}
+{"query_id": "q_temp_c1", "text": "What antibiotics treat this infection?", "intent": "medical", "issued_at": 1779368316.670826, "meta": {}, "dependencies": ["temperature_fact"], "user_id": null}

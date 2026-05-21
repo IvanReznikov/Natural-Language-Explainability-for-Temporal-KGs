@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-05-21T08:19:45.587549Z",
+  "passed": 19,
+  "failed": 0,
+  "total": 19,
+  "pass_rate": 1.0,
+  "results": [
+    {
+      "name": "Template renders basic fact",
+      "passed": true,
+      "details": "Output: birth happened on 2000."
+    },
+    {
+      "name": "All template types render",
+      "passed": true,
+      "details": "5/5 types successful"
+    },
+    {
+      "name": "Hybrid generator initializes",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "All generation strategies work",
+      "passed": true,
+      "details": "Strategies working: ['template', 'llm']"
+    },
+    {
+      "name": "Batch generation works",
+      "passed": true,
+      "details": "Generated 5/5"
+    },
+    {
+      "name": "Caching works",
+      "passed": true,
+      "details": "Cache size: 1"
+    },
+    {
+      "name": "LLM strategy returns text",
+      "passed": true,
+      "details": "Strategy: llm, Text: stub llm output"
+    },
+    {
+      "name": "Accuracy evaluator initializes",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Single fact evaluation works",
+      "passed": true,
+      "details": "Accuracy: 91.00%"
+    },
+    {
+      "name": "Batch evaluation works",
+      "passed": true,
+      "details": "Evaluated 10/10"
+    },
+    {
+      "name": "Metric aggregation works",
+      "passed": true,
+      "details": "Mean accuracy: 91.00%"
+    },
+    {
+      "name": "Full pipeline works (Load\u2192Gen\u2192Eval)",
+      "passed": true,
+      "details": "Processed 10 facts, avg accuracy: 91.00%"
+    },
+    {
+      "name": "Pipeline handles mixed fact types",
+      "passed": true,
+      "details": "Processed 10 mixed facts"
+    },
+    {
+      "name": "Handles invalid fact type",
+      "passed": true,
+      "details": "Error raised as expected"
+    },
+    {
+      "name": "Handles empty batch",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Detects batch length mismatch",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Invalid strategy falls back",
+      "passed": true,
+      "details": "Used strategy: llm"
+    },
+    {
+      "name": "Template p50 latency <20ms",
+      "passed": true,
+      "details": "Avg: 0.00ms"
+    },
+    {
+      "name": "Cached access <2ms",
+      "passed": true,
+      "details": "Avg: 0.002ms"
+    }
+  ]
+}

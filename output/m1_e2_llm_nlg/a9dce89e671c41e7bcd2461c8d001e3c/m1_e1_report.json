@@ -1,0 +1,2338 @@
+{
+  "timestamp": "2026-05-21 16:55:45.805376",
+  "total_templates": 0,
+  "total_examples": 0,
+  "total_renders": 250,
+  "successful_renders": 123,
+  "failed_renders": 127,
+  "overall_coverage": 0.492,
+  "overall_flesch": 43.44524099883858,
+  "overall_clarity": 4.8,
+  "overall_success_rate": 0.492,
+  "overall_information_density": 0.9901148535294877,
+  "type_coverage": 0.0,
+  "type_metrics": {
+    "intervals": {
+      "type_name": "intervals",
+      "template_count": 1,
+      "example_count": 50,
+      "total_renders": 50,
+      "successful_renders": 0,
+      "failed_renders": 50,
+      "average_flesch": 0.0,
+      "average_clarity": 4.8,
+      "average_information_density": 0.0,
+      "coverage": 0.0,
+      "success_rate": 0.0,
+      "passes_flesch_45": false
+    },
+    "causality": {
+      "type_name": "causality",
+      "template_count": 1,
+      "example_count": 50,
+      "total_renders": 50,
+      "successful_renders": 35,
+      "failed_renders": 15,
+      "average_flesch": 42.189142857142876,
+      "average_clarity": 4.8,
+      "average_information_density": 0.9873015873015873,
+      "coverage": 0.7,
+      "success_rate": 0.7,
+      "passes_flesch_45": false
+    },
+    "point_in_time": {
+      "type_name": "point_in_time",
+      "template_count": 1,
+      "example_count": 50,
+      "total_renders": 50,
+      "successful_renders": 20,
+      "failed_renders": 30,
+      "average_flesch": 46.958482142857164,
+      "average_clarity": 4.8,
+      "average_information_density": 1.0,
+      "coverage": 0.4,
+      "success_rate": 0.4,
+      "passes_flesch_45": true
+    },
+    "overlaps": {
+      "type_name": "overlaps",
+      "template_count": 1,
+      "example_count": 50,
+      "total_renders": 50,
+      "successful_renders": 31,
+      "failed_renders": 19,
+      "average_flesch": 48.36529953917053,
+      "average_clarity": 4.8,
+      "average_information_density": 0.9751152073732718,
+      "coverage": 0.62,
+      "success_rate": 0.62,
+      "passes_flesch_45": true
+    },
+    "sequences": {
+      "type_name": "sequences",
+      "template_count": 1,
+      "example_count": 50,
+      "total_renders": 50,
+      "successful_renders": 37,
+      "failed_renders": 13,
+      "average_flesch": 38.612181467181486,
+      "average_clarity": 4.8,
+      "average_information_density": 1.0,
+      "coverage": 0.74,
+      "success_rate": 0.74,
+      "passes_flesch_45": false
+    }
+  },
+  "render_details": [
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "won Nobel Prize in Physics occurred.",
+      "flesch_score": 59.745000000000005,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 6
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "published Special Relativity occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 4
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "declared independence occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 3
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "walked on the Moon occurred.",
+      "flesch_score": 66.40000000000003,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 5
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "experienced nuclear disaster occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 4
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "was invented occurred.",
+      "flesch_score": 6.390000000000015,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 3
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "fell, ending Cold War occurred.",
+      "flesch_score": 66.40000000000003,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 5
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "declared COVID-19 pandemic occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 4
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "docked with ISS occurred.",
+      "flesch_score": 54.72500000000002,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 4
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "captured first images occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 4
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "discovered Mandelbrot set occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 4
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "began chimpanzee study occurred.",
+      "flesch_score": 12.425000000000011,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 4
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "formulated gravity law occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 4
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "published evolution theory occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 4
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "patented telephone occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 3
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "tested light bulb occurred.",
+      "flesch_score": 54.72500000000002,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 4
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "transmitted wireless electrici occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 4
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "captured Photo 51 occurred.",
+      "flesch_score": 33.57500000000002,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 4
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "announced polio vaccine occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 4
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "proposed Hawking radiation occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 4
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "developed CRISPR occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 3
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "released Linux kernel occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 4
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "crowned himself Emperor occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 4
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "issued Emancipation Proclamati occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 4
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "led India to independence occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 5
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "became South Africa President occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 5
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "refused to give up bus seat occurred.",
+      "flesch_score": 54.70142857142861,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 7
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "delivered 'I Have a Dream' spe occurred.",
+      "flesch_score": 42.61571428571432,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 7
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "introduced glasnost and perest occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 5
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "became UK Prime Minister occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 5
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "became US President occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 4
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "adopted euro currency occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 4
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "completed Guernica occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 3
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "released Sgt. Pepper's album occurred.",
+      "flesch_score": 35.097500000000025,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 5
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "held first Academy Awards occurred.",
+      "flesch_score": 32.56000000000003,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 5
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "released 2001: A Space Odyssey occurred.",
+      "flesch_score": 45.64500000000001,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 6
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "published The Shining occurred.",
+      "flesch_score": 12.425000000000011,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 4
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "released Ziggy Stardust occurred.",
+      "flesch_score": 12.425000000000011,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 4
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "began digital preservation occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 4
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "won heavyweight boxing title occurred.",
+      "flesch_score": 32.56000000000003,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 5
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "scored 1000th goal occurred.",
+      "flesch_score": 75.87500000000001,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 4
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "won Nobel Prize in Physics occurred.",
+      "flesch_score": 59.745000000000005,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 6
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "published Special Relativity occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 4
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "declared independence occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 3
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "walked on the Moon occurred.",
+      "flesch_score": 66.40000000000003,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 5
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "experienced nuclear disaster occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 4
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "was invented occurred.",
+      "flesch_score": 6.390000000000015,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 3
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "fell, ending Cold War occurred.",
+      "flesch_score": 66.40000000000003,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 5
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "declared COVID-19 pandemic occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 4
+    },
+    {
+      "template_type": "point_in_time",
+      "template_id": "production_llm",
+      "rendered_output": "docked with ISS occurred.",
+      "flesch_score": 54.72500000000002,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 4
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "lasted occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 2
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "occurred occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 2
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "spanned occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 2
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "persisted occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 2
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "defined occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 2
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "transformed occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 2
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "shaped occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 2
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "operated occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 2
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "characterized tech occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 3
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "devastated occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 2
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "dominated Europe occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 3
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "flourished occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 2
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "governed occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 2
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "endured occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 2
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "flourished occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 2
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "influenced occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 2
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "transformed occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 2
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "persisted occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 2
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "revolutionized occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 2
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "characterized occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 2
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "revolutionized occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 2
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "marked occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 2
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "transformed occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 2
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "defined occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 2
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "reshaped occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 2
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "influenced design occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 3
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "dominated music occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 3
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "flourished occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 2
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "evolved occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 2
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "challenged society occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 3
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "lasted occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 2
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "occurred occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 2
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "spanned occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 2
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "persisted occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 2
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "defined occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 2
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "transformed occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 2
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "shaped occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 2
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "operated occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 2
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "characterized tech occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 3
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "devastated occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 2
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "dominated Europe occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 3
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "flourished occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 2
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "governed occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 2
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "endured occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 2
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "flourished occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 2
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "influenced occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 2
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "transformed occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 2
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "persisted occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 2
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "revolutionized occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 2
+    },
+    {
+      "template_type": "intervals",
+      "template_id": "production_llm",
+      "rendered_output": "characterized occurred.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 2
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "Archduke assassinate, Ultimatum issued t...",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 5
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "Berlin Wall erected, Kennedy visits Berl...",
+      "flesch_score": 45.64500000000001,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 6
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "Ancient Egypt thrive, Roman Empire rose,...",
+      "flesch_score": 31.545000000000016,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 6
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "Internet invented, Web created, Browsers...",
+      "flesch_score": 15.640000000000015,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 5
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "COVID-19 emerges, Lockdowns implemente, ...",
+      "flesch_score": 15.640000000000015,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 5
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "Industrial Revolutio, Steam engine perfe...",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 5
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "French Revolution er, Bastille stormed, ...",
+      "flesch_score": 45.64500000000001,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 6
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "Civil War started, Battle of Gettysburg,...",
+      "flesch_score": 59.745000000000005,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 6
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "World War I began, Trench warfare domin,...",
+      "flesch_score": 66.7871428571429,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 7
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "Nazi Party rose, Hitler became Chance, W...",
+      "flesch_score": 54.70142857142861,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 7
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "Heliocentric theory , Planetary laws dis...",
+      "flesch_score": 59.745000000000005,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 6
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "Atoms proposed, Atomic structure dis, El...",
+      "flesch_score": 17.44500000000002,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 6
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "Evolution theory pro, Natural selection ...",
+      "flesch_score": 31.545000000000016,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 6
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "Germ theory proposed, Bacteria identifie...",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 5
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "Radioactivity discov, Radium isolated, A...",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 5
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "Telegraph invented, Telegraph networks e...",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 5
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "First computers buil, Programming langua...",
+      "flesch_score": 32.56000000000003,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 5
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "Photography invented, Color photography ...",
+      "flesch_score": 15.640000000000015,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 5
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "Archduke assassinate, Ultimatum issued t...",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 5
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "Berlin Wall erected, Kennedy visits Berl...",
+      "flesch_score": 45.64500000000001,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 6
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "Ancient Egypt thrive, Roman Empire rose,...",
+      "flesch_score": 31.545000000000016,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 6
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "Internet invented, Web created, Browsers...",
+      "flesch_score": 15.640000000000015,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 5
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "COVID-19 emerges, Lockdowns implemente, ...",
+      "flesch_score": 15.640000000000015,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 5
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "Industrial Revolutio, Steam engine perfe...",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 5
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "French Revolution er, Bastille stormed, ...",
+      "flesch_score": 45.64500000000001,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 6
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "Civil War started, Battle of Gettysburg,...",
+      "flesch_score": 59.745000000000005,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 6
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "World War I began, Trench warfare domin,...",
+      "flesch_score": 66.7871428571429,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 7
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "Nazi Party rose, Hitler became Chance, W...",
+      "flesch_score": 54.70142857142861,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 7
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "Heliocentric theory , Planetary laws dis...",
+      "flesch_score": 59.745000000000005,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 6
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "Atoms proposed, Atomic structure dis, El...",
+      "flesch_score": 17.44500000000002,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 6
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "Evolution theory pro, Natural selection ...",
+      "flesch_score": 31.545000000000016,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 6
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "Germ theory proposed, Bacteria identifie...",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 5
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "Radioactivity discov, Radium isolated, A...",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 5
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "Telegraph invented, Telegraph networks e...",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 5
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "First computers buil, Programming langua...",
+      "flesch_score": 32.56000000000003,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 5
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "Photography invented, Color photography ...",
+      "flesch_score": 15.640000000000015,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 5
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "Archduke assassinate, Ultimatum issued t...",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 5
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "Berlin Wall erected, Kennedy visits Berl...",
+      "flesch_score": 45.64500000000001,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 6
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "Ancient Egypt thrive, Roman Empire rose,...",
+      "flesch_score": 31.545000000000016,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 6
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "Internet invented, Web created, Browsers...",
+      "flesch_score": 15.640000000000015,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 5
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "COVID-19 emerges, Lockdowns implemente, ...",
+      "flesch_score": 15.640000000000015,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 5
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "Industrial Revolutio, Steam engine perfe...",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 5
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "French Revolution er, Bastille stormed, ...",
+      "flesch_score": 45.64500000000001,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 6
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "Civil War started, Battle of Gettysburg,...",
+      "flesch_score": 59.745000000000005,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 6
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "World War I began, Trench warfare domin,...",
+      "flesch_score": 66.7871428571429,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 7
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "Nazi Party rose, Hitler became Chance, W...",
+      "flesch_score": 54.70142857142861,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 7
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "Heliocentric theory , Planetary laws dis...",
+      "flesch_score": 59.745000000000005,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 6
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "Atoms proposed, Atomic structure dis, El...",
+      "flesch_score": 17.44500000000002,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 6
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "Evolution theory pro, Natural selection ...",
+      "flesch_score": 31.545000000000016,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 6
+    },
+    {
+      "template_type": "sequences",
+      "template_id": "production_llm",
+      "rendered_output": "Germ theory proposed, Bacteria identifie...",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 5
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "Archduke Franz Ferdinand assas effect.",
+      "flesch_score": 15.640000000000015,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 5
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "Stock market crash on October  effect.",
+      "flesch_score": 59.745000000000005,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 6
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "Printing press invented around effect.",
+      "flesch_score": 32.56000000000003,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 5
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "Penicillin discovered in 1928 effect.",
+      "flesch_score": 15.640000000000015,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 5
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "Russian Revolution occurred in effect.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 5
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "Industrial Revolution in 18th  effect.",
+      "flesch_score": 32.56000000000003,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 5
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "Steam engine was invented effect.",
+      "flesch_score": 32.56000000000003,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 5
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "Berlin Wall fell in 1989 effect.",
+      "flesch_score": 100.0,
+      "information_density": 0.7777777777777778,
+      "success": true,
+      "word_count": 6
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "Climate change from greenhouse effect.",
+      "flesch_score": 15.640000000000015,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 5
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "Internet was invented effect.",
+      "flesch_score": 12.425000000000011,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 4
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "Treaty of Versailles imposed o effect.",
+      "flesch_score": 45.64500000000001,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 6
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "British taxation on American c effect.",
+      "flesch_score": 31.545000000000016,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 6
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "French monarchy despotism and  effect.",
+      "flesch_score": 49.48000000000002,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 5
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "Archduke assassinated effect.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 3
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "Nazi expansionist policies effect.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 4
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "Genetic inheritance patterns o effect.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 5
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "X-rays discovered by R\u00f6ntgen i effect.",
+      "flesch_score": 73.84500000000001,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 6
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "Einstein formulated relativity effect.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 4
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "Transistor developed in 1947 effect.",
+      "flesch_score": 32.56000000000003,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 5
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "Synthetic insulin synthesized effect.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 4
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "Credit expansion and speculati effect.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 5
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "OPEC oil embargo in 1973 effect.",
+      "flesch_score": 73.84500000000001,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 6
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "Housing market collapsed in 20 effect.",
+      "flesch_score": 59.745000000000005,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 6
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "Trade opened between China and effect.",
+      "flesch_score": 31.545000000000016,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 6
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "E-commerce and digital markets effect.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 5
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "Uncle Tom's Cabin published effect.",
+      "flesch_score": 32.56000000000003,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 5
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "Workers treated poorly in fact effect.",
+      "flesch_score": 73.84500000000001,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 6
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "Women gained education and emp effect.",
+      "flesch_score": 31.545000000000016,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 6
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "Archduke Franz Ferdinand assas effect.",
+      "flesch_score": 15.640000000000015,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 5
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "Stock market crash on October  effect.",
+      "flesch_score": 59.745000000000005,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 6
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "Printing press invented around effect.",
+      "flesch_score": 32.56000000000003,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 5
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "Penicillin discovered in 1928 effect.",
+      "flesch_score": 15.640000000000015,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 5
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "Russian Revolution occurred in effect.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 5
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "Industrial Revolution in 18th  effect.",
+      "flesch_score": 32.56000000000003,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 5
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "Steam engine was invented effect.",
+      "flesch_score": 32.56000000000003,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 5
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "Berlin Wall fell in 1989 effect.",
+      "flesch_score": 100.0,
+      "information_density": 0.7777777777777778,
+      "success": true,
+      "word_count": 6
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "Climate change from greenhouse effect.",
+      "flesch_score": 15.640000000000015,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 5
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "Internet was invented effect.",
+      "flesch_score": 12.425000000000011,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 4
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "Treaty of Versailles imposed o effect.",
+      "flesch_score": 45.64500000000001,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 6
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "British taxation on American c effect.",
+      "flesch_score": 31.545000000000016,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 6
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "French monarchy despotism and  effect.",
+      "flesch_score": 49.48000000000002,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 5
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "Archduke assassinated effect.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 3
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "Nazi expansionist policies effect.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 4
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "Genetic inheritance patterns o effect.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 5
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "X-rays discovered by R\u00f6ntgen i effect.",
+      "flesch_score": 73.84500000000001,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 6
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "Einstein formulated relativity effect.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 4
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "Transistor developed in 1947 effect.",
+      "flesch_score": 32.56000000000003,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 5
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "Synthetic insulin synthesized effect.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 4
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "Credit expansion and speculati effect.",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 5
+    },
+    {
+      "template_type": "causality",
+      "template_id": "production_llm",
+      "rendered_output": "OPEC oil embargo in 1973 effect.",
+      "flesch_score": 73.84500000000001,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 6
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "Korean War, Cold War, Nuclear arms race...",
+      "flesch_score": 78.87285714285717,
+      "information_density": 0.9523809523809523,
+      "success": true,
+      "word_count": 7
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "Shakespeare writing, Globe Theatre opera...",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 5
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "Apollo 11 mission, Vietnam War, Civil Ri...",
+      "flesch_score": 66.7871428571429,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 7
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "COVID-19 pandemic, Remote work mainstre,...",
+      "flesch_score": 15.640000000000015,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 5
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "Renaissance in Italy, Age of Exploration...",
+      "flesch_score": 3.344999999999999,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 6
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "Berlin Blockade, NATO formation, Israel ...",
+      "flesch_score": 31.545000000000016,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 6
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "Industrial Revolutio, American Revolutio...",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 4
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "Dot-com boom, Mobile computing ris, Broa...",
+      "flesch_score": 45.64500000000001,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 6
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "Medieval period, Renaissance emerging, F...",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 5
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "Age of Enlightenment, Industrial Revolut...",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 5
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "Victorian Era, Industrial Revolutio, Bri...",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 5
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "Belle \u00c9poque flouris, Industrial society...",
+      "flesch_score": 15.640000000000015,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 5
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "Roaring Twenties, Jazz Age, Prohibition...",
+      "flesch_score": 15.640000000000015,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 5
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "World War II in Euro, World War II in Pa...",
+      "flesch_score": 100.0,
+      "information_density": 0.7333333333333333,
+      "success": true,
+      "word_count": 10
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "Vietnam War, Space Race, Civil Rights Mo...",
+      "flesch_score": 66.7871428571429,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 7
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "Berlin Wall fell, Soviet communism col, ...",
+      "flesch_score": 78.87285714285717,
+      "information_density": 0.9523809523809523,
+      "success": true,
+      "word_count": 7
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "Internet rise, Mobile phones develo, Dig...",
+      "flesch_score": 3.344999999999999,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 6
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "September 11 attacks, War on Terror bega...",
+      "flesch_score": 66.7871428571429,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 7
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "Romantic movement, Industrial Revolutio,...",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 4
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "Modernism in art, Cubism, Surrealism...",
+      "flesch_score": 32.56000000000003,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 5
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "Women's Liberation, Gay Rights Movement,...",
+      "flesch_score": 15.640000000000015,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 5
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "Korean War, Cold War, Nuclear arms race...",
+      "flesch_score": 78.87285714285717,
+      "information_density": 0.9523809523809523,
+      "success": true,
+      "word_count": 7
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "Shakespeare writing, Globe Theatre opera...",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 5
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "Apollo 11 mission, Vietnam War, Civil Ri...",
+      "flesch_score": 66.7871428571429,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 7
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "COVID-19 pandemic, Remote work mainstre,...",
+      "flesch_score": 15.640000000000015,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 5
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "Renaissance in Italy, Age of Exploration...",
+      "flesch_score": 3.344999999999999,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 6
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "Berlin Blockade, NATO formation, Israel ...",
+      "flesch_score": 31.545000000000016,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 6
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "Industrial Revolutio, American Revolutio...",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 4
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "Dot-com boom, Mobile computing ris, Broa...",
+      "flesch_score": 45.64500000000001,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 6
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "Medieval period, Renaissance emerging, F...",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 5
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "Age of Enlightenment, Industrial Revolut...",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 5
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "Victorian Era, Industrial Revolutio, Bri...",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 5
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "Belle \u00c9poque flouris, Industrial society...",
+      "flesch_score": 15.640000000000015,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 5
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "Roaring Twenties, Jazz Age, Prohibition...",
+      "flesch_score": 15.640000000000015,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 5
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "World War II in Euro, World War II in Pa...",
+      "flesch_score": 100.0,
+      "information_density": 0.7333333333333333,
+      "success": true,
+      "word_count": 10
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "Vietnam War, Space Race, Civil Rights Mo...",
+      "flesch_score": 66.7871428571429,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 7
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "Berlin Wall fell, Soviet communism col, ...",
+      "flesch_score": 78.87285714285717,
+      "information_density": 0.9523809523809523,
+      "success": true,
+      "word_count": 7
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "Internet rise, Mobile phones develo, Dig...",
+      "flesch_score": 3.344999999999999,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 6
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "September 11 attacks, War on Terror bega...",
+      "flesch_score": 66.7871428571429,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 7
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "Romantic movement, Industrial Revolutio,...",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 4
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "Modernism in art, Cubism, Surrealism...",
+      "flesch_score": 32.56000000000003,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 5
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "Women's Liberation, Gay Rights Movement,...",
+      "flesch_score": 15.640000000000015,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 5
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "Korean War, Cold War, Nuclear arms race...",
+      "flesch_score": 78.87285714285717,
+      "information_density": 0.9523809523809523,
+      "success": true,
+      "word_count": 7
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "Shakespeare writing, Globe Theatre opera...",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 5
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "Apollo 11 mission, Vietnam War, Civil Ri...",
+      "flesch_score": 66.7871428571429,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 7
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "COVID-19 pandemic, Remote work mainstre,...",
+      "flesch_score": 15.640000000000015,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 5
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "Renaissance in Italy, Age of Exploration...",
+      "flesch_score": 3.344999999999999,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 6
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "Berlin Blockade, NATO formation, Israel ...",
+      "flesch_score": 31.545000000000016,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 6
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "Industrial Revolutio, American Revolutio...",
+      "flesch_score": 0.0,
+      "information_density": 1.0,
+      "success": false,
+      "word_count": 4
+    },
+    {
+      "template_type": "overlaps",
+      "template_id": "production_llm",
+      "rendered_output": "Dot-com boom, Mobile computing ris, Broa...",
+      "flesch_score": 45.64500000000001,
+      "information_density": 1.0,
+      "success": true,
+      "word_count": 6
+    }
+  ]
+}

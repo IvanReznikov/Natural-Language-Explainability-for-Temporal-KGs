@@ -2015,7 +2015,7 @@
       "by_domain": {}
     },
     "provenance": "migrated_from_noncanonical_qwen_pure",
-    "source_run_folder": "results/m3e5_noncanonical_archived_20260512/a_pure_qwen3_5-0_8b"
+    "source_run_folder": "output/m3e5/runs/a_pure_qwen3_5-0_8b"
   },
   "llm_0.8b__rag_large_emb__emb_4b": {
     "run_id": "llm_0.8b__rag_large_emb__emb_4b",
@@ -2195,7 +2195,7 @@
       "by_domain": {}
     },
     "provenance": "migrated_from_noncanonical_qwen_pure",
-    "source_run_folder": "results/m3e5_noncanonical_archived_20260512/d_pure_qwen3_5-2b"
+    "source_run_folder": "output/m3e5/runs/d_pure_qwen3_5-2b"
   },
   "llm_2b__rag_large_emb__emb_4b": {
     "run_id": "llm_2b__rag_large_emb__emb_4b",
@@ -2375,7 +2375,7 @@
       "by_domain": {}
     },
     "provenance": "migrated_from_noncanonical_qwen_pure",
-    "source_run_folder": "results/m3e5_noncanonical_archived_20260512/g_pure_qwen3_5-4b"
+    "source_run_folder": "output/m3e5/runs/g_pure_qwen3_5-4b"
   },
   "llm_4b__rag_large_emb__emb_4b": {
     "run_id": "llm_4b__rag_large_emb__emb_4b",

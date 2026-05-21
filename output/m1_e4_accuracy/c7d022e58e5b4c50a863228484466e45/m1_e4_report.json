@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-05-21T12:19:31.042054",
+  "model": "gpt-4.1-nano",
+  "source_dir": "output/m1_e2_llm_nlg/74aad412bee64201a15074219b8f6232",
+  "metrics": {
+    "overall_accuracy": 0.3279719604097313,
+    "date_preservation_mean": 0.30560000000000004,
+    "entity_preservation_mean": 0.06831588122919392,
+    "relation_preservation_mean": 0.61,
+    "hallucination_rate": 0.792,
+    "entity_f1": 0.06831588122919392,
+    "template_accuracy": 0,
+    "polished_accuracy": 0,
+    "accuracy_gap": 0,
+    "type_accuracies": {
+      "point_in_time": 0.2605850815850816,
+      "intervals": 0.4479100529100529,
+      "sequences": 0.2220774515016001,
+      "causality": 0.39666666666666667,
+      "overlaps": 0.31262054938525524
+    }
+  },
+  "duration_seconds": 0.05418
+}

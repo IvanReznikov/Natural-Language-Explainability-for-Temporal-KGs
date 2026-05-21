@@ -447,6 +447,7 @@ def main():
     parser = argparse.ArgumentParser(description="M1-E4 Accuracy Validation")
     parser.add_argument("--model", default="gpt-4.1-nano", help="OpenAI model")
     parser.add_argument("--examples", type=int, default=20, help="Examples per type")
+    parser.add_argument("--report-only", action="store_true", help="Always exit 0 after writing reports")
     parser.add_argument("results_dir", help="Path to M1-E3 results directory")
     args = parser.parse_args()
     
@@ -460,7 +461,7 @@ def main():
             and metrics.hallucination_rate < 0.01
             and metrics.template_accuracy > metrics.polished_accuracy
         )
-        exit(0 if all_pass else 1)
+        exit(0 if all_pass or args.report_only else 1)
     else:
         exit(1)
 

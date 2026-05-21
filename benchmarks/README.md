@@ -19,6 +19,30 @@ python benchmarks/milestone3/run.py
 
 Outputs go to `output/benchmarks/<milestone>/` with timestamps.
 
+Each runner writes a JSON array where each row has `benchmark`, `n`,
+`total_sec`, and `per_item_ms` (or `skipped` + `reason` when an input
+artifact is unavailable).
+
+## Benchmarks executed by each command
+
+### Milestone 1 (`python benchmarks/milestone1/run.py`)
+
+- `template_rendering` (all available template types)
+- `flesch_score`
+- `tms_belief_store_insert_query`
+
+### Milestone 2 (`python benchmarks/milestone2/run.py`)
+
+- `intent_classifier_inference`
+- `tms_trace_recorder`
+- `parser_hybrid_inference`
+
+### Milestone 3 (`python benchmarks/milestone3/run.py`)
+
+- `graph_index_query`
+- `fidelity_proxy`
+- `e4_efficiency_aggregation`
+
 > **Note:** End-to-end QA system benchmark (multi-model, multi-mode) lives in
 > `experiments/m3_e5_benchmark/` and writes to `output/m3_e5_results/`.
 > The files here measure sub-component throughput (template rendering speed,

@@ -1,9 +1,9 @@
 {
   "query_id": "demo_q1",
-  "started_at": 1767731197.9796886,
-  "completed_at": 1767731197.9797697,
-  "duration_ms": 0.08106231689453125,
-  "instrumentation_overhead_ms": 0.024999957531690598,
+  "started_at": 1779368290.8943977,
+  "completed_at": 1779368290.8944273,
+  "duration_ms": 0.02956390380859375,
+  "instrumentation_overhead_ms": 0.00819999877421651,
   "dropped": false,
   "over_budget": false,
   "meta": {
@@ -27,7 +27,7 @@
         "fact_id": "g_rule_0",
         "value": 3
       },
-      "fired_at": 1767731197.9797194,
+      "fired_at": 1779368290.8944101,
       "confidence": 0.9,
       "latency_ms": null,
       "meta": {}
@@ -49,7 +49,7 @@
         "fact_id": "g_rule_1",
         "value": 3
       },
-      "fired_at": 1767731197.9797475,
+      "fired_at": 1779368290.8944201,
       "confidence": 0.9,
       "latency_ms": null,
       "meta": {}
@@ -71,7 +71,7 @@
         "fact_id": "g_rule_2",
         "value": 3
       },
-      "fired_at": 1767731197.9797616,
+      "fired_at": 1779368290.8944247,
       "confidence": 0.9,
       "latency_ms": null,
       "meta": {}

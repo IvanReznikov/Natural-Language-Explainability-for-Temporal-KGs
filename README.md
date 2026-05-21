@@ -45,18 +45,35 @@ result_fast = generator.generate(fact, force_strategy="template")
 - Relation preservation
 - Hallucination checks
 
-### Common command path
+### Run all examples, benchmarks, and experiments
+
+From the repo root:
 
 ```bash
-# Milestone examples
-python examples/milestone1/m1e1_temporal_templates_example.py
-python examples/milestone2/m2e7_harness_example.py
-python examples/milestone3/m3e5_benchmark_example.py
+# Examples (all milestones)
+python examples/run_all_m1_examples.py
+python examples/run_all_m2_examples.py
+python examples/run_all_m3_examples.py
 
-# Benchmark matrix operations
+# Benchmarks (all milestones)
+python benchmarks/milestone1/run.py
+python benchmarks/milestone2/run.py
+python benchmarks/milestone3/run.py
+
+# Experiments (all milestones)
+python experiments/run_all_m1_experiments.py
+python experiments/run_all_m2_experiments.py
+python experiments/run_all_m3_experiments.py
+
+# M3-E5 matrix utilities (status + aggregation)
 python experiments/m3_e5_benchmark/run_m3_e5.py --list --output-dir output/m3_e5_results
 python experiments/m3_e5_benchmark/run_m3_e5.py --aggregate --output-dir output/m3_e5_results
 ```
+
+Notes:
+
+- Some M3-E5 benchmark runs are intentionally skipped without a CUDA GPU.
+- OpenAI M3-E5 runs may be skipped depending on orchestrator policy.
 
 ## Documentation
 

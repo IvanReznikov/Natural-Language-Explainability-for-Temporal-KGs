@@ -1,0 +1,18 @@
+[
+  {
+    "benchmark": "intent_classifier_inference",
+    "labels": [
+      "aggregation",
+      "causal",
+      "comparative",
+      "explanation",
+      "interval",
+      "point_in_time",
+      "prediction",
+      "sequence"
+    ],
+    "n": 5000,
+    "total_sec": 11.021849100012332,
+    "per_item_ms": 2.2043698200024666
+  }
+]

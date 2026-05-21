@@ -1,0 +1,251 @@
+type,source,overall_accuracy,date,entity,relation,hallucinated,hallucination_type,output
+point_in_time,unknown,0.0714,0.0000,0.2143,0.0000,False,none,won Nobel Prize in Physics occurred.
+point_in_time,unknown,0.4000,0.0000,0.2000,1.0000,False,none,published Special Relativity occurred.
+point_in_time,unknown,0.3939,0.0000,0.1818,1.0000,False,none,declared independence occurred.
+point_in_time,unknown,0.0606,0.0000,0.1818,0.0000,False,none,walked on the Moon occurred.
+point_in_time,unknown,0.4000,0.0000,0.2000,1.0000,False,none,experienced nuclear disaster occurred.
+point_in_time,unknown,0.3667,0.0000,0.1000,1.0000,False,none,was invented occurred.
+point_in_time,unknown,0.4048,0.0000,0.2143,1.0000,False,none,"fell, ending Cold War occurred."
+point_in_time,unknown,0.4103,0.0000,0.2308,1.0000,False,none,declared COVID-19 pandemic occurred.
+point_in_time,unknown,0.3810,0.0000,0.1429,1.0000,False,none,docked with ISS occurred.
+point_in_time,unknown,0.4714,0.2000,0.2143,1.0000,False,none,captured first images occurred.
+point_in_time,unknown,0.3939,0.0000,0.1818,1.0000,False,none,discovered Mandelbrot set occurred.
+point_in_time,unknown,0.0667,0.0000,0.2000,0.0000,False,none,began chimpanzee study occurred.
+point_in_time,unknown,0.0667,0.0000,0.2000,0.0000,False,none,formulated gravity law occurred.
+point_in_time,unknown,0.4103,0.0000,0.2308,1.0000,False,none,published evolution theory occurred.
+point_in_time,unknown,0.0556,0.0000,0.1667,0.0000,False,none,patented telephone occurred.
+point_in_time,unknown,0.0714,0.0000,0.2143,0.0000,False,none,tested light bulb occurred.
+point_in_time,unknown,0.3889,0.0000,0.1667,1.0000,False,none,transmitted wireless electrici occurred.
+point_in_time,unknown,0.3889,0.0000,0.1667,1.0000,False,none,captured Photo 51 occurred.
+point_in_time,unknown,0.4103,0.0000,0.2308,1.0000,False,none,announced polio vaccine occurred.
+point_in_time,unknown,0.4167,0.0000,0.2500,1.0000,False,none,proposed Hawking radiation occurred.
+point_in_time,unknown,0.0000,0.0000,0.0000,0.0000,False,none,developed CRISPR occurred.
+point_in_time,unknown,0.3333,0.0000,0.0000,1.0000,True,entity,released Linux kernel occurred.
+point_in_time,unknown,0.3333,0.0000,0.0000,1.0000,True,entity,crowned himself Emperor occurred.
+point_in_time,unknown,0.0000,0.0000,0.0000,0.0000,True,entity,issued Emancipation Proclamati occurred.
+point_in_time,unknown,0.3333,0.0000,0.0000,1.0000,False,none,led India to independence occurred.
+point_in_time,unknown,0.3333,0.0000,0.0000,1.0000,True,entity,became South Africa President occurred.
+point_in_time,unknown,0.3333,0.0000,0.0000,1.0000,True,entity,refused to give up bus seat occurred.
+point_in_time,unknown,0.3333,0.0000,0.0000,1.0000,True,entity,delivered 'I Have a Dream' spe occurred.
+point_in_time,unknown,0.3333,0.0000,0.0000,1.0000,True,entity,introduced glasnost and perest occurred.
+point_in_time,unknown,0.3333,0.0000,0.0000,1.0000,True,entity,became UK Prime Minister occurred.
+point_in_time,unknown,0.3333,0.0000,0.0000,1.0000,False,none,became US President occurred.
+point_in_time,unknown,0.0000,0.0000,0.0000,0.0000,True,entity,adopted euro currency occurred.
+point_in_time,unknown,0.0000,0.0000,0.0000,0.0000,False,none,completed Guernica occurred.
+point_in_time,unknown,0.3333,0.0000,0.0000,1.0000,True,entity,released Sgt. Pepper's album occurred.
+point_in_time,unknown,0.0000,0.0000,0.0000,0.0000,True,entity,held first Academy Awards occurred.
+point_in_time,unknown,0.0000,0.0000,0.0000,0.0000,True,date,released 2001: A Space Odyssey occurred.
+point_in_time,unknown,0.3333,0.0000,0.0000,1.0000,False,none,published The Shining occurred.
+point_in_time,unknown,0.0000,0.0000,0.0000,0.0000,True,entity,released Ziggy Stardust occurred.
+point_in_time,unknown,0.3333,0.0000,0.0000,1.0000,True,entity,began digital preservation occurred.
+point_in_time,unknown,0.3333,0.0000,0.0000,1.0000,True,entity,won heavyweight boxing title occurred.
+point_in_time,unknown,0.0000,0.0000,0.0000,0.0000,False,none,scored 1000th goal occurred.
+point_in_time,unknown,0.3333,0.0000,0.0000,1.0000,True,entity,won Nobel Prize in Physics occurred.
+point_in_time,unknown,0.3333,0.0000,0.0000,1.0000,True,entity,published Special Relativity occurred.
+point_in_time,unknown,0.0000,0.0000,0.0000,0.0000,False,none,declared independence occurred.
+point_in_time,unknown,0.3333,0.0000,0.0000,1.0000,False,none,walked on the Moon occurred.
+point_in_time,unknown,0.3333,0.0000,0.0000,1.0000,True,entity,experienced nuclear disaster occurred.
+point_in_time,unknown,0.3333,0.0000,0.0000,1.0000,False,none,was invented occurred.
+point_in_time,unknown,0.3333,0.0000,0.0000,1.0000,True,entity,"fell, ending Cold War occurred."
+point_in_time,unknown,0.3333,0.0000,0.0000,1.0000,True,entity,declared COVID-19 pandemic occurred.
+point_in_time,unknown,0.3333,0.0000,0.0000,1.0000,True,relation,docked with ISS occurred.
+intervals,unknown,0.3333,0.0000,0.0000,1.0000,False,none,lasted occurred.
+intervals,unknown,0.6667,1.0000,0.0000,1.0000,True,relation,occurred occurred.
+intervals,unknown,0.6667,1.0000,0.0000,1.0000,False,none,spanned occurred.
+intervals,unknown,0.3333,0.0000,0.0000,1.0000,True,relation,persisted occurred.
+intervals,unknown,0.6667,1.0000,0.0000,1.0000,True,relation,defined occurred.
+intervals,unknown,0.3333,0.0000,0.0000,1.0000,True,relation,transformed occurred.
+intervals,unknown,0.6667,1.0000,0.0000,1.0000,True,relation,shaped occurred.
+intervals,unknown,0.4000,0.2000,0.0000,1.0000,False,none,operated occurred.
+intervals,unknown,0.6667,1.0000,0.0000,1.0000,True,relation,characterized tech occurred.
+intervals,unknown,0.3333,0.0000,0.0000,1.0000,True,relation,devastated occurred.
+intervals,unknown,0.0000,0.0000,0.0000,0.0000,True,relation,dominated Europe occurred.
+intervals,unknown,0.7143,1.0000,0.1429,1.0000,True,relation,flourished occurred.
+intervals,unknown,0.0000,0.0000,0.0000,0.0000,True,relation,governed occurred.
+intervals,unknown,0.3333,0.0000,0.0000,1.0000,True,relation,endured occurred.
+intervals,unknown,0.0000,0.0000,0.0000,0.0000,True,relation,flourished occurred.
+intervals,unknown,0.3333,0.0000,0.0000,1.0000,True,relation,influenced occurred.
+intervals,unknown,0.3333,0.0000,0.0000,1.0000,True,relation,transformed occurred.
+intervals,unknown,0.3333,0.0000,0.0000,1.0000,True,relation,persisted occurred.
+intervals,unknown,0.3333,0.0000,0.0000,1.0000,True,relation,revolutionized occurred.
+intervals,unknown,0.3333,0.0000,0.0000,1.0000,True,relation,characterized occurred.
+intervals,unknown,0.3333,0.0000,0.0000,1.0000,True,relation,revolutionized occurred.
+intervals,unknown,0.6667,1.0000,0.0000,1.0000,True,relation,marked occurred.
+intervals,unknown,0.6667,1.0000,0.0000,1.0000,True,relation,transformed occurred.
+intervals,unknown,0.3333,0.0000,0.0000,1.0000,True,relation,defined occurred.
+intervals,unknown,0.6667,1.0000,0.0000,1.0000,True,relation,reshaped occurred.
+intervals,unknown,0.3889,0.0000,0.1667,1.0000,True,relation,influenced design occurred.
+intervals,unknown,0.6667,1.0000,0.0000,1.0000,True,relation,dominated music occurred.
+intervals,unknown,0.3333,0.0000,0.0000,1.0000,True,relation,flourished occurred.
+intervals,unknown,0.6667,1.0000,0.0000,1.0000,True,relation,evolved occurred.
+intervals,unknown,0.3333,0.0000,0.0000,1.0000,True,relation,challenged society occurred.
+intervals,unknown,0.3889,0.0000,0.1667,1.0000,False,none,lasted occurred.
+intervals,unknown,0.7222,1.0000,0.1667,1.0000,True,relation,occurred occurred.
+intervals,unknown,0.3810,0.0000,0.1429,1.0000,False,none,spanned occurred.
+intervals,unknown,0.3810,0.0000,0.1429,1.0000,True,relation,persisted occurred.
+intervals,unknown,0.0667,0.0000,0.2000,0.0000,True,relation,defined occurred.
+intervals,unknown,0.3889,0.0000,0.1667,1.0000,True,relation,transformed occurred.
+intervals,unknown,0.4000,0.0000,0.2000,1.0000,True,relation,shaped occurred.
+intervals,unknown,0.4556,0.2000,0.1667,1.0000,False,none,operated occurred.
+intervals,unknown,0.4167,0.0000,0.2500,1.0000,True,relation,characterized tech occurred.
+intervals,unknown,0.3889,0.0000,0.1667,1.0000,True,relation,devastated occurred.
+intervals,unknown,0.4074,0.0000,0.2222,1.0000,True,relation,dominated Europe occurred.
+intervals,unknown,0.7222,1.0000,0.1667,1.0000,True,relation,flourished occurred.
+intervals,unknown,0.7222,1.0000,0.1667,1.0000,True,relation,governed occurred.
+intervals,unknown,0.3889,0.0000,0.1667,1.0000,True,relation,endured occurred.
+intervals,unknown,0.7143,1.0000,0.1429,1.0000,True,relation,flourished occurred.
+intervals,unknown,0.4000,0.0000,0.2000,1.0000,True,relation,influenced occurred.
+intervals,unknown,0.7222,1.0000,0.1667,1.0000,True,relation,transformed occurred.
+intervals,unknown,0.3889,0.0000,0.1667,1.0000,True,relation,persisted occurred.
+intervals,unknown,0.7143,1.0000,0.1429,1.0000,True,relation,revolutionized occurred.
+intervals,unknown,0.3889,0.0000,0.1667,1.0000,True,relation,characterized occurred.
+sequences,unknown,0.0588,0.0000,0.1765,0.0000,False,none,"Archduke assassinate, Ultimatum issued t..."
+sequences,unknown,0.0758,0.0000,0.2273,0.0000,True,relation,"Berlin Wall erected, Kennedy visits Berl..."
+sequences,unknown,0.4091,0.0000,0.2273,1.0000,True,relation,"Ancient Egypt thrive, Roman Empire rose,..."
+sequences,unknown,0.4222,0.0000,0.2667,1.0000,True,relation,"Internet invented, Web created, Browsers..."
+sequences,unknown,0.3810,0.0000,0.1429,1.0000,True,relation,"COVID-19 emerges, Lockdowns implemente, ..."
+sequences,unknown,0.0526,0.0000,0.1579,0.0000,True,relation,"Industrial Revolutio, Steam engine perfe..."
+sequences,unknown,0.4000,0.0000,0.2000,1.0000,True,relation,"French Revolution er, Bastille stormed, ..."
+sequences,unknown,0.4074,0.0000,0.2222,1.0000,True,relation,"Civil War started, Battle of Gettysburg,..."
+sequences,unknown,0.3968,0.0000,0.1905,1.0000,True,relation,"World War I began, Trench warfare domin,..."
+sequences,unknown,0.4091,0.0000,0.2273,1.0000,True,relation,"Nazi Party rose, Hitler became Chance, W..."
+sequences,unknown,0.0741,0.0000,0.2222,0.0000,True,relation,"Heliocentric theory , Planetary laws dis..."
+sequences,unknown,0.4118,0.0000,0.2353,1.0000,True,relation,"Atoms proposed, Atomic structure dis, El..."
+sequences,unknown,0.4074,0.0000,0.2222,1.0000,True,relation,"Evolution theory pro, Natural selection ..."
+sequences,unknown,0.4035,0.0000,0.2105,1.0000,True,relation,"Germ theory proposed, Bacteria identifie..."
+sequences,unknown,0.0588,0.0000,0.1765,0.0000,True,relation,"Radioactivity discov, Radium isolated, A..."
+sequences,unknown,0.4000,0.0000,0.2000,1.0000,True,relation,"Telegraph invented, Telegraph networks e..."
+sequences,unknown,0.3788,0.0000,0.1364,1.0000,True,relation,"First computers buil, Programming langua..."
+sequences,unknown,0.3922,0.0000,0.1765,1.0000,True,relation,"Photography invented, Color photography ..."
+sequences,unknown,0.0588,0.0000,0.1765,0.0000,False,none,"Archduke assassinate, Ultimatum issued t..."
+sequences,unknown,0.0758,0.0000,0.2273,0.0000,True,relation,"Berlin Wall erected, Kennedy visits Berl..."
+sequences,unknown,0.0000,0.0000,0.0000,0.0000,True,entity,"Ancient Egypt thrive, Roman Empire rose,..."
+sequences,unknown,0.0000,0.0000,0.0000,0.0000,True,entity,"Internet invented, Web created, Browsers..."
+sequences,unknown,0.3333,0.0000,0.0000,1.0000,True,entity,"COVID-19 emerges, Lockdowns implemente, ..."
+sequences,unknown,0.3333,0.0000,0.0000,1.0000,True,entity,"Industrial Revolutio, Steam engine perfe..."
+sequences,unknown,0.3333,0.0000,0.0000,1.0000,True,entity,"French Revolution er, Bastille stormed, ..."
+sequences,unknown,0.0000,0.0000,0.0000,0.0000,True,entity,"Civil War started, Battle of Gettysburg,..."
+sequences,unknown,0.0000,0.0000,0.0000,0.0000,True,entity,"World War I began, Trench warfare domin,..."
+sequences,unknown,0.3333,0.0000,0.0000,1.0000,True,entity,"Nazi Party rose, Hitler became Chance, W..."
+sequences,unknown,0.3333,0.0000,0.0000,1.0000,True,entity,"Heliocentric theory , Planetary laws dis..."
+sequences,unknown,0.3333,0.0000,0.0000,1.0000,True,entity,"Atoms proposed, Atomic structure dis, El..."
+sequences,unknown,0.0185,0.0000,0.0556,0.0000,True,relation,"Evolution theory pro, Natural selection ..."
+sequences,unknown,0.0185,0.0000,0.0556,0.0000,True,relation,"Germ theory proposed, Bacteria identifie..."
+sequences,unknown,0.3333,0.0000,0.0000,1.0000,True,entity,"Radioactivity discov, Radium isolated, A..."
+sequences,unknown,0.3333,0.0000,0.0000,1.0000,True,relation,"Telegraph invented, Telegraph networks e..."
+sequences,unknown,0.0000,0.0000,0.0000,0.0000,True,entity,"First computers buil, Programming langua..."
+sequences,unknown,0.3556,0.0000,0.0667,1.0000,True,relation,"Photography invented, Color photography ..."
+sequences,unknown,0.3333,0.0000,0.0000,1.0000,True,entity,"Archduke assassinate, Ultimatum issued t..."
+sequences,unknown,0.0000,0.0000,0.0000,0.0000,True,entity,"Berlin Wall erected, Kennedy visits Berl..."
+sequences,unknown,0.0000,0.0000,0.0000,0.0000,True,entity,"Ancient Egypt thrive, Roman Empire rose,..."
+sequences,unknown,0.0000,0.0000,0.0000,0.0000,True,entity,"Internet invented, Web created, Browsers..."
+sequences,unknown,0.0000,0.0000,0.0000,0.0000,True,entity,"COVID-19 emerges, Lockdowns implemente, ..."
+sequences,unknown,0.0000,0.0000,0.0000,0.0000,True,entity,"Industrial Revolutio, Steam engine perfe..."
+sequences,unknown,0.3333,0.0000,0.0000,1.0000,True,entity,"French Revolution er, Bastille stormed, ..."
+sequences,unknown,0.3556,0.0000,0.0667,1.0000,True,relation,"Civil War started, Battle of Gettysburg,..."
+sequences,unknown,0.3485,0.0000,0.0455,1.0000,True,relation,"World War I began, Trench warfare domin,..."
+sequences,unknown,0.0000,0.0000,0.0000,0.0000,True,entity,"Nazi Party rose, Hitler became Chance, W..."
+sequences,unknown,0.0000,0.0000,0.0000,0.0000,True,entity,"Heliocentric theory , Planetary laws dis..."
+sequences,unknown,0.3333,0.0000,0.0000,1.0000,True,entity,"Atoms proposed, Atomic structure dis, El..."
+sequences,unknown,0.3333,0.0000,0.0000,1.0000,True,entity,"Evolution theory pro, Natural selection ..."
+sequences,unknown,0.3333,0.0000,0.0000,1.0000,True,entity,"Germ theory proposed, Bacteria identifie..."
+causality,unknown,0.3333,1.0000,0.0000,0.0000,True,entity,Archduke Franz Ferdinand assas effect.
+causality,unknown,0.6667,1.0000,0.0000,1.0000,True,entity,Stock market crash on October  effect.
+causality,unknown,0.6667,1.0000,0.0000,1.0000,True,entity,Printing press invented around effect.
+causality,unknown,0.3333,1.0000,0.0000,0.0000,True,relation,Penicillin discovered in 1928 effect.
+causality,unknown,0.6667,1.0000,0.0000,1.0000,True,entity,Russian Revolution occurred in effect.
+causality,unknown,0.3333,1.0000,0.0000,0.0000,True,relation,Industrial Revolution in 18th  effect.
+causality,unknown,0.3333,0.0000,0.0000,1.0000,True,entity,Steam engine was invented effect.
+causality,unknown,0.6667,1.0000,0.0000,1.0000,True,entity,Berlin Wall fell in 1989 effect.
+causality,unknown,0.3333,0.0000,0.0000,1.0000,True,entity,Climate change from greenhouse effect.
+causality,unknown,0.6667,1.0000,0.0000,1.0000,False,none,Internet was invented effect.
+causality,unknown,0.3333,1.0000,0.0000,0.0000,True,entity,Treaty of Versailles imposed o effect.
+causality,unknown,0.0000,0.0000,0.0000,0.0000,True,entity,British taxation on American c effect.
+causality,unknown,0.3333,0.0000,0.0000,1.0000,True,entity,French monarchy despotism and  effect.
+causality,unknown,0.0000,0.0000,0.0000,0.0000,True,relation,Archduke assassinated effect.
+causality,unknown,0.0000,0.0000,0.0000,0.0000,True,entity,Nazi expansionist policies effect.
+causality,unknown,0.3333,1.0000,0.0000,0.0000,True,entity,Genetic inheritance patterns o effect.
+causality,unknown,0.6667,1.0000,0.0000,1.0000,True,entity,X-rays discovered by Röntgen i effect.
+causality,unknown,0.3333,0.0000,0.0000,1.0000,True,entity,Einstein formulated relativity effect.
+causality,unknown,0.5000,1.0000,0.0000,0.5000,True,relation,Transistor developed in 1947 effect.
+causality,unknown,0.3333,1.0000,0.0000,0.0000,True,entity,Synthetic insulin synthesized effect.
+causality,unknown,0.3333,1.0000,0.0000,0.0000,True,entity,Credit expansion and speculati effect.
+causality,unknown,0.6667,1.0000,0.0000,1.0000,False,none,OPEC oil embargo in 1973 effect.
+causality,unknown,0.6667,1.0000,0.0000,1.0000,True,entity,Housing market collapsed in 20 effect.
+causality,unknown,0.3333,1.0000,0.0000,0.0000,True,entity,Trade opened between China and effect.
+causality,unknown,0.6667,1.0000,0.0000,1.0000,True,entity,E-commerce and digital markets effect.
+causality,unknown,0.3333,1.0000,0.0000,0.0000,True,entity,Uncle Tom's Cabin published effect.
+causality,unknown,0.3333,0.0000,0.0000,1.0000,True,entity,Workers treated poorly in fact effect.
+causality,unknown,0.6667,1.0000,0.0000,1.0000,True,entity,Women gained education and emp effect.
+causality,unknown,0.0000,0.0000,0.0000,0.0000,True,entity,Archduke Franz Ferdinand assas effect.
+causality,unknown,0.6667,1.0000,0.0000,1.0000,True,entity,Stock market crash on October  effect.
+causality,unknown,0.3333,1.0000,0.0000,0.0000,True,entity,Printing press invented around effect.
+causality,unknown,0.0000,0.0000,0.0000,0.0000,True,date,Penicillin discovered in 1928 effect.
+causality,unknown,0.3333,0.0000,0.0000,1.0000,True,entity,Russian Revolution occurred in effect.
+causality,unknown,0.0000,0.0000,0.0000,0.0000,True,relation,Industrial Revolution in 18th  effect.
+causality,unknown,0.0000,0.0000,0.0000,0.0000,True,entity,Steam engine was invented effect.
+causality,unknown,0.3333,1.0000,0.0000,0.0000,True,entity,Berlin Wall fell in 1989 effect.
+causality,unknown,0.6667,1.0000,0.0000,1.0000,True,entity,Climate change from greenhouse effect.
+causality,unknown,0.3333,0.0000,0.0000,1.0000,False,none,Internet was invented effect.
+causality,unknown,0.3333,1.0000,0.0000,0.0000,True,entity,Treaty of Versailles imposed o effect.
+causality,unknown,0.3333,1.0000,0.0000,0.0000,True,entity,British taxation on American c effect.
+causality,unknown,0.3333,1.0000,0.0000,0.0000,True,entity,French monarchy despotism and  effect.
+causality,unknown,0.6667,1.0000,0.0000,1.0000,False,none,Archduke assassinated effect.
+causality,unknown,0.6667,1.0000,0.0000,1.0000,True,entity,Nazi expansionist policies effect.
+causality,unknown,0.3333,1.0000,0.0000,0.0000,True,entity,Genetic inheritance patterns o effect.
+causality,unknown,0.6667,1.0000,0.0000,1.0000,True,entity,X-rays discovered by Röntgen i effect.
+causality,unknown,0.3333,1.0000,0.0000,0.0000,True,entity,Einstein formulated relativity effect.
+causality,unknown,0.3333,0.0000,0.0000,1.0000,True,date,Transistor developed in 1947 effect.
+causality,unknown,0.6667,1.0000,0.0000,1.0000,True,entity,Synthetic insulin synthesized effect.
+causality,unknown,0.0000,0.0000,0.0000,0.0000,True,entity,Credit expansion and speculati effect.
+causality,unknown,0.6667,1.0000,0.0000,1.0000,False,none,OPEC oil embargo in 1973 effect.
+overlaps,unknown,0.1515,0.0000,0.4545,0.0000,True,relation,"Korean War, Cold War, Nuclear arms race..."
+overlaps,unknown,0.4118,1.0000,0.2353,0.0000,False,none,"Shakespeare writing, Globe Theatre opera..."
+overlaps,unknown,0.0952,0.0000,0.2857,0.0000,True,relation,"Apollo 11 mission, Vietnam War, Civil Ri..."
+overlaps,unknown,0.0833,0.0000,0.2500,0.0000,True,relation,"COVID-19 pandemic, Remote work mainstre,..."
+overlaps,unknown,0.7381,1.0000,0.2143,1.0000,False,none,"Renaissance in Italy, Age of Exploration..."
+overlaps,unknown,0.4444,0.0000,0.3333,1.0000,True,relation,"Berlin Blockade, NATO formation, Israel ..."
+overlaps,unknown,0.7179,1.0000,0.1538,1.0000,True,relation,"Industrial Revolutio, American Revolutio..."
+overlaps,unknown,0.0889,0.0000,0.2667,0.0000,True,relation,"Dot-com boom, Mobile computing ris, Broa..."
+overlaps,unknown,0.7500,1.0000,0.2500,1.0000,False,none,"Medieval period, Renaissance emerging, F..."
+overlaps,unknown,0.3778,1.0000,0.1333,0.0000,False,none,"Age of Enlightenment, Industrial Revolut..."
+overlaps,unknown,0.4513,0.2000,0.1538,1.0000,False,none,"Victorian Era, Industrial Revolutio, Bri..."
+overlaps,unknown,0.0741,0.0000,0.2222,0.0000,True,relation,"Belle Époque flouris, Industrial society..."
+overlaps,unknown,0.1778,0.2000,0.3333,0.0000,False,none,"Roaring Twenties, Jazz Age, Prohibition..."
+overlaps,unknown,0.3667,0.0000,0.1000,1.0000,True,relation,"World War II in Euro, World War II in Pa..."
+overlaps,unknown,0.4444,1.0000,0.3333,0.0000,True,relation,"Vietnam War, Space Race, Civil Rights Mo..."
+overlaps,unknown,0.0926,0.0000,0.2778,0.0000,True,relation,"Berlin Wall fell, Soviet communism col, ..."
+overlaps,unknown,0.7451,1.0000,0.2353,1.0000,True,relation,"Internet rise, Mobile phones develo, Dig..."
+overlaps,unknown,0.0667,0.0000,0.2000,0.0000,True,relation,"September 11 attacks, War on Terror bega..."
+overlaps,unknown,0.7292,1.0000,0.1875,1.0000,True,relation,"Romantic movement, Industrial Revolutio,..."
+overlaps,unknown,0.4444,1.0000,0.3333,0.0000,True,relation,"Modernism in art, Cubism, Surrealism..."
+overlaps,unknown,0.0667,0.2000,0.0000,0.0000,True,entity,"Women's Liberation, Gay Rights Movement,..."
+overlaps,unknown,0.3333,1.0000,0.0000,0.0000,True,entity,"Korean War, Cold War, Nuclear arms race..."
+overlaps,unknown,0.0667,0.2000,0.0000,0.0000,True,entity,"Shakespeare writing, Globe Theatre opera..."
+overlaps,unknown,0.0000,0.0000,0.0000,0.0000,True,entity,"Apollo 11 mission, Vietnam War, Civil Ri..."
+overlaps,unknown,0.6667,1.0000,0.0000,1.0000,True,entity,"COVID-19 pandemic, Remote work mainstre,..."
+overlaps,unknown,0.0667,0.2000,0.0000,0.0000,False,none,"Renaissance in Italy, Age of Exploration..."
+overlaps,unknown,0.6667,1.0000,0.0000,1.0000,True,entity,"Berlin Blockade, NATO formation, Israel ..."
+overlaps,unknown,0.0000,0.0000,0.0000,0.0000,True,relation,"Industrial Revolutio, American Revolutio..."
+overlaps,unknown,0.6667,1.0000,0.0000,1.0000,True,entity,"Dot-com boom, Mobile computing ris, Broa..."
+overlaps,unknown,0.3333,1.0000,0.0000,0.0000,True,entity,"Medieval period, Renaissance emerging, F..."
+overlaps,unknown,0.0923,0.2000,0.0769,0.0000,False,none,"Age of Enlightenment, Industrial Revolut..."
+overlaps,unknown,0.0875,0.2000,0.0625,0.0000,False,none,"Victorian Era, Industrial Revolutio, Bri..."
+overlaps,unknown,0.0000,0.0000,0.0000,0.0000,True,entity,"Belle Époque flouris, Industrial society..."
+overlaps,unknown,0.4000,0.2000,0.0000,1.0000,True,entity,"Roaring Twenties, Jazz Age, Prohibition..."
+overlaps,unknown,0.3333,1.0000,0.0000,0.0000,True,relation,"World War II in Euro, World War II in Pa..."
+overlaps,unknown,0.0000,0.0000,0.0000,0.0000,True,entity,"Vietnam War, Space Race, Civil Rights Mo..."
+overlaps,unknown,0.6667,1.0000,0.0000,1.0000,True,entity,"Berlin Wall fell, Soviet communism col, ..."
+overlaps,unknown,0.0000,0.0000,0.0000,0.0000,True,entity,"Internet rise, Mobile phones develo, Dig..."
+overlaps,unknown,0.6667,1.0000,0.0000,1.0000,True,entity,"September 11 attacks, War on Terror bega..."
+overlaps,unknown,0.3333,1.0000,0.0000,0.0000,True,entity,"Romantic movement, Industrial Revolutio,..."
+overlaps,unknown,0.0000,0.0000,0.0000,0.0000,True,relation,"Modernism in art, Cubism, Surrealism..."
+overlaps,unknown,0.3333,1.0000,0.0000,0.0000,True,entity,"Women's Liberation, Gay Rights Movement,..."
+overlaps,unknown,0.0000,0.0000,0.0000,0.0000,True,entity,"Korean War, Cold War, Nuclear arms race..."
+overlaps,unknown,0.0667,0.2000,0.0000,0.0000,True,entity,"Shakespeare writing, Globe Theatre opera..."
+overlaps,unknown,0.6667,1.0000,0.0000,1.0000,True,entity,"Apollo 11 mission, Vietnam War, Civil Ri..."
+overlaps,unknown,0.0000,0.0000,0.0000,0.0000,True,entity,"COVID-19 pandemic, Remote work mainstre,..."
+overlaps,unknown,0.6667,1.0000,0.0000,1.0000,False,none,"Renaissance in Italy, Age of Exploration..."
+overlaps,unknown,0.0000,0.0000,0.0000,0.0000,True,entity,"Berlin Blockade, NATO formation, Israel ..."
+overlaps,unknown,0.6667,1.0000,0.0000,1.0000,True,relation,"Industrial Revolutio, American Revolutio..."
+overlaps,unknown,0.3333,1.0000,0.0000,0.0000,True,entity,"Dot-com boom, Mobile computing ris, Broa..."

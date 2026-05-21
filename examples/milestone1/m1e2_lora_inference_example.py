@@ -7,7 +7,11 @@ from typing import Tuple
 
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
-from peft import PeftModel
+
+try:
+    from peft import PeftModel
+except Exception:
+    PeftModel = None
 
 
 def build_prompt(instruction: str, input_text: str | None) -> str:
@@ -24,23 +28,36 @@ def load_model_and_tokenizer(
     load_in_4bit: bool = True,
 ) -> Tuple[AutoTokenizer, torch.nn.Module]:
     """Load base Phi-4-mini and attach the LoRA adapter."""
-    model_kwargs = {"device_map": "auto", "trust_remote_code": True}
+    model_kwargs = {"device_map": "auto"}
 
     if load_in_4bit:
-        from transformers import BitsAndBytesConfig
+        try:
+            from transformers import BitsAndBytesConfig
 
-        bnb_config = BitsAndBytesConfig(
-            load_in_4bit=True,
-            bnb_4bit_quant_type="nf4",
-            bnb_4bit_compute_dtype=torch.bfloat16,
-        )
-        model_kwargs["quantization_config"] = bnb_config
+            bnb_config = BitsAndBytesConfig(
+                load_in_4bit=True,
+                bnb_4bit_quant_type="nf4",
+                bnb_4bit_compute_dtype=torch.bfloat16,
+            )
+            model_kwargs["quantization_config"] = bnb_config
+        except Exception:
+            model_kwargs["torch_dtype"] = torch.bfloat16
     else:
         model_kwargs["torch_dtype"] = torch.bfloat16
 
-    tokenizer = AutoTokenizer.from_pretrained(base_model, trust_remote_code=True)
-    model = AutoModelForCausalLM.from_pretrained(base_model, **model_kwargs)
-    model = PeftModel.from_pretrained(model, adapter_path)
+    try:
+        tokenizer = AutoTokenizer.from_pretrained(base_model, trust_remote_code=True)
+        model = AutoModelForCausalLM.from_pretrained(base_model, trust_remote_code=True, **model_kwargs)
+    except ImportError as exc:
+        if "LossKwargs" not in str(exc):
+            raise
+        tokenizer = AutoTokenizer.from_pretrained(base_model, trust_remote_code=False)
+        model = AutoModelForCausalLM.from_pretrained(base_model, trust_remote_code=False, **model_kwargs)
+
+    adapter_value = (adapter_path or "").strip()
+    if adapter_value and adapter_value.lower() not in {"none", "merged"}:
+        model = PeftModel.from_pretrained(model, adapter_path)
+
     model.eval()
     return tokenizer, model
 
@@ -73,13 +90,17 @@ def generate(
 
 
 def main() -> None:
+    if PeftModel is None:
+        print("SKIPPED: optional dependency 'peft' is not installed.")
+        return
+
     parser = argparse.ArgumentParser(description="Run LoRA-augmented Phi-4-mini inference")
     parser.add_argument("--instruction", required=True, help="Instruction text")
     parser.add_argument("--input-text", default=None, help="Optional input/context text")
     parser.add_argument(
         "--adapter-path",
         default=str(Path("models") / "temporal_nlg_lora"),
-        help="Path to the saved LoRA adapter",
+        help="Path to the saved LoRA adapter, or 'none' when using a merged local model",
     )
     parser.add_argument(
         "--base-model",

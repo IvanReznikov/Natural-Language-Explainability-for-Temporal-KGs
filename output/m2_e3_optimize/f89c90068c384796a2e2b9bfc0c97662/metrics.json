@@ -1,0 +1,6 @@
+{
+  "run_id": "f89c90068c384796a2e2b9bfc0c97662",
+  "examples": 1137,
+  "improvement_rate": 1.0,
+  "notes": "Stub optimizer wraps queries; replace with real rewrites and real cost model."
+}

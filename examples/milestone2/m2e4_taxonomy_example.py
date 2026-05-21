@@ -7,12 +7,16 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "src"))
 
-from experiments.m2_e4.predict_taxonomy import extract_text, load_model
+from experiments.m2_e4_taxonomy.predict_taxonomy import extract_text, load_model
 
 
 def main():
     root = Path(__file__).resolve().parents[2]
-    model_path = root / "experiments" / "m2_e4" / "output" / "e4a_taxonomy" / "taxonomy_model.joblib"
+    model_path = root / "output" / "m2_e4_taxonomy" / "e4a_taxonomy" / "taxonomy_model.joblib"
+    if not model_path.exists():
+        print(f"SKIPPED: model artifact not found at {model_path}")
+        print("Run experiments/m2_e4_taxonomy/train_taxonomy_default.py first.")
+        return
     model = load_model(model_path)
 
     samples = [

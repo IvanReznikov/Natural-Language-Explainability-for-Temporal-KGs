@@ -13,6 +13,7 @@ logs/
 colab/
 
 data/jsonls/temporal_graph_output_v3/embeddings
+data/jsonls/temporal_graph_output_v3/embeddings_4b
 
 # IDE/editor
 .idea/
@@ -38,7 +39,7 @@ dist/
 *.tflite
 *.pb
 *.joblib
-models/
+
 experiments/**/output/
 examples/**/output/
 

@@ -8,13 +8,13 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "src"))
 
-from experiments.m2_e7.run_e2e import build_expected_map, build_results_from_traces, eval_results, load_jsonl, save_jsonl
+from experiments.m2_e7_harness.run_e2e import build_expected_map, build_results_from_traces, eval_results, load_jsonl, save_jsonl
 
 
 def main():
     root = Path(__file__).resolve().parents[2]
-    q_path = root / "experiments" / "m2_e7" / "input" / "queries.jsonl"
-    t_path = root / "experiments" / "m2_e7" / "input" / "trace.jsonl"
+    q_path = root / "experiments" / "m2_e7_harness" / "input" / "queries.jsonl"
+    t_path = root / "experiments" / "m2_e7_harness" / "input" / "trace.jsonl"
 
     queries = load_jsonl(q_path)
     traces = load_jsonl(t_path)
@@ -23,7 +23,7 @@ def main():
     expected = build_expected_map(queries)
     ok, total, failures = eval_results(results, expected)
 
-    out_dir = root / "experiments" / "m2_e7" / "output" / "example_run"
+    out_dir = root / "experiments" / "m2_e7_harness" / "output" / "example_run"
     out_dir.mkdir(parents=True, exist_ok=True)
     save_jsonl(out_dir / "results.jsonl", results)
     report_path = out_dir / "report.json"

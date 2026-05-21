@@ -1,0 +1,22 @@
+[
+  {
+    "benchmark": "graph_index_query",
+    "artifact_dir": "C:\\Users\\ivanr\\OneDrive\\Documents\\New folder (2)\\snet\\Natural-Language-Explainability-for-Temporal-KGs\\data\\jsonls\\temporal_graph_output_v3",
+    "n": 4000,
+    "total_sec": 0.019323200000144425,
+    "per_item_ms": 0.004830800000036106
+  },
+  {
+    "benchmark": "fidelity_proxy",
+    "n": 100,
+    "total_sec": 0.0005459999993036035,
+    "per_item_ms": 0.0054599999930360354
+  },
+  {
+    "benchmark": "e4_efficiency_aggregation",
+    "n": 250,
+    "input_runs": 9000,
+    "total_sec": 9.499456700001247,
+    "per_item_ms": 37.99782680000499
+  }
+]

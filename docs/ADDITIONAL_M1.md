@@ -14,3 +14,8 @@
 - Add online LLM benchmarking (latency, quality) with guarded key handling.
 - Incorporate trained model artifacts and dataset lineage documentation.
 - Expand integration cases toward 500+ target and add failure-mode suites.
+
+## Usage Pointers
+- Run all M1 examples: `python examples/run_all_m1_examples.py`
+- Run all M1 experiments: `python experiments/run_all_m1_experiments.py`
+- Run M1 benchmarks: `python benchmarks/milestone1/run.py`

@@ -1,0 +1,30 @@
+[
+  {
+    "benchmark": "intent_classifier_inference",
+    "labels": [
+      "aggregation",
+      "causal",
+      "comparative",
+      "explanation",
+      "interval",
+      "point_in_time",
+      "prediction",
+      "sequence"
+    ],
+    "n": 5000,
+    "total_sec": 17.554693899990525,
+    "per_item_ms": 3.510938779998105
+  },
+  {
+    "benchmark": "tms_trace_recorder",
+    "n": 500,
+    "total_sec": 0.0026070000021718442,
+    "per_item_ms": 0.0052140000043436885
+  },
+  {
+    "benchmark": "parser_hybrid_inference",
+    "n": 5000,
+    "total_sec": 0.15173469998990186,
+    "per_item_ms": 0.030346939997980372
+  }
+]

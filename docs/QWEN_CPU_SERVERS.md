@@ -117,7 +117,7 @@ docker compose down
 
 - First run downloads model files; later runs reuse `.hf_cache/`.
 - `.llama_cache/` stores downloaded GGUF model artifacts for llama.cpp.
-- `qwen-llm` and `qwen-embed` intentionally use separate images (optimized runtime per task).
+- `qwen-llm` and `qwen-embed` intentionally use separate images now (optimized runtime per task).
 - `QWEN_SERVER_URL` is used for embedding/semantic retrieval calls; planner calls can use `QWEN_PLANNER_URL` (or fallback to `QWEN_LLM_URL`).
 - On CPU-only machines, this setup is significantly faster than plain Transformers serving for generation.
 

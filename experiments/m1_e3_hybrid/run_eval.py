@@ -14,16 +14,17 @@ Success Criteria:
 """
 
 import csv
+import json
 import time
 import argparse
 import random
+import os
 from dataclasses import dataclass, asdict
 from datetime import datetime
 from uuid import uuid4
 from pathlib import Path
 from typing import Dict, List, Any, Tuple, Optional
 from dataclasses import dataclass, asdict
-import csv
 
 # Third-party imports
 from langchain_openai import ChatOpenAI
@@ -669,6 +670,7 @@ def main():
     parser = argparse.ArgumentParser(description="M1-E3 Hybrid LLM+Template Selector")
     parser.add_argument("--model", default="gpt-4.1-nano", help="OpenAI model")
     parser.add_argument("--examples", type=int, default=100, help="Examples per type")
+    parser.add_argument("--report-only", action="store_true", help="Always exit 0 after writing reports")
     parser.add_argument("--polish", action=argparse.BooleanOptionalAction, default=True, help="Enable polishing")
     parser.add_argument(
         "--anchor-snippets",
@@ -696,7 +698,7 @@ def main():
         and metrics.accuracy > 99  # Slightly relaxed check here, but target remains high
     )
     
-    exit(0 if all_pass else 1)
+    exit(0 if all_pass or args.report_only else 1)
 
 if __name__ == "__main__":
     main()

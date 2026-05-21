@@ -1,0 +1,8 @@
+[
+  {
+    "benchmark": "flesch_score",
+    "n": 500,
+    "total_sec": 0.378370000020368,
+    "per_item_ms": 0.756740000040736
+  }
+]

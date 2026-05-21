@@ -129,7 +129,7 @@ def eval_results(results: List[dict], expected_map: dict) -> Tuple[int, int, Lis
     return ok, total, failures
 
 
-def main():
+def main() -> int:
     parser = argparse.ArgumentParser(description="Run M2-E7 E2E harness")
     parser.add_argument("--queries", type=str, default="experiments/m2_e7_harness/input/queries.jsonl")
     parser.add_argument("--trace", type=str, default="experiments/m2_e7_harness/input/trace.jsonl")
@@ -157,8 +157,9 @@ def main():
     Path(args.report).write_text(json.dumps(report, indent=2))
 
     print(json.dumps(report, indent=2))
+    return 1 if failures else 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())
 

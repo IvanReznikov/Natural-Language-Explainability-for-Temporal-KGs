@@ -1,251 +1,251 @@
 participant_id,explanation_id,question_id,question_type,answer,score,response_time_sec,domain,bucket
-,infra_000038,infra_000038.q01,mcq,,,,business,point
-,infra_000038,infra_000038.q02,fill_blank,,,,business,point
-,infra_000038,infra_000038.q03,mcq,,,,business,point
-,infra_000038,infra_000038.q04,mcq,,,,business,point
-,infra_000038,infra_000038.q05,mcq,,,,business,point
-,fin_000209,fin_000209.q01,mcq,,,,financial,point
-,fin_000209,fin_000209.q02,fill_blank,,,,financial,point
-,fin_000209,fin_000209.q03,mcq,,,,financial,point
-,fin_000209,fin_000209.q04,mcq,,,,financial,point
-,fin_000209,fin_000209.q05,mcq,,,,financial,point
-,biz_energy_100,biz_energy_100.q01,mcq,,,,technical,overlap
-,biz_energy_100,biz_energy_100.q02,fill_blank,,,,technical,overlap
-,biz_energy_100,biz_energy_100.q03,mcq,,,,technical,overlap
-,biz_energy_100,biz_energy_100.q04,mcq,,,,technical,overlap
-,biz_energy_100,biz_energy_100.q05,mcq,,,,technical,overlap
-,hist_infra_013,hist_infra_013.q01,mcq,,,,historical,point
-,hist_infra_013,hist_infra_013.q02,fill_blank,,,,historical,point
-,hist_infra_013,hist_infra_013.q03,mcq,,,,historical,point
-,hist_infra_013,hist_infra_013.q04,mcq,,,,historical,point
-,hist_infra_013,hist_infra_013.q05,mcq,,,,historical,point
-,cri_000002,cri_000002.q01,mcq,,,,financial,overlap
-,cri_000002,cri_000002.q02,fill_blank,,,,financial,overlap
-,cri_000002,cri_000002.q03,mcq,,,,financial,overlap
-,cri_000002,cri_000002.q04,mcq,,,,financial,overlap
-,cri_000002,cri_000002.q05,mcq,,,,financial,overlap
-,hist_000336,hist_000336.q01,mcq,,,,historical,sequence
-,hist_000336,hist_000336.q02,fill_blank,,,,historical,sequence
-,hist_000336,hist_000336.q03,timeline,,,,historical,sequence
-,hist_000336,hist_000336.q04,mcq,,,,historical,sequence
-,hist_000336,hist_000336.q05,mcq,,,,historical,sequence
-,energy_000016,energy_000016.q01,mcq,,,,historical,sequence
-,energy_000016,energy_000016.q02,fill_blank,,,,historical,sequence
-,energy_000016,energy_000016.q03,timeline,,,,historical,sequence
-,energy_000016,energy_000016.q04,mcq,,,,historical,sequence
-,energy_000016,energy_000016.q05,mcq,,,,historical,sequence
-,corp_0040,corp_0040.q01,mcq,,,,business,point
-,corp_0040,corp_0040.q02,fill_blank,,,,business,point
-,corp_0040,corp_0040.q03,mcq,,,,business,point
-,corp_0040,corp_0040.q04,mcq,,,,business,point
-,corp_0040,corp_0040.q05,mcq,,,,business,point
-,fin_0012,fin_0012.q01,mcq,,,,"['financial', 'business']",sequence
-,fin_0012,fin_0012.q02,fill_blank,,,,"['financial', 'business']",sequence
-,fin_0012,fin_0012.q03,timeline,,,,"['financial', 'business']",sequence
-,fin_0012,fin_0012.q04,mcq,,,,"['financial', 'business']",sequence
-,fin_0012,fin_0012.q05,mcq,,,,"['financial', 'business']",sequence
-,cult_exh_065,cult_exh_065.q01,mcq,,,,cultural,point
-,cult_exh_065,cult_exh_065.q02,fill_blank,,,,cultural,point
-,cult_exh_065,cult_exh_065.q03,mcq,,,,cultural,point
-,cult_exh_065,cult_exh_065.q04,mcq,,,,cultural,point
-,cult_exh_065,cult_exh_065.q05,mcq,,,,cultural,point
-,infra_056,infra_056.q01,mcq,,,,technical,causal
-,infra_056,infra_056.q02,fill_blank,,,,technical,causal
-,infra_056,infra_056.q03,inference,,,,technical,causal
-,infra_056,infra_056.q04,mcq,,,,technical,causal
-,infra_056,infra_056.q05,mcq,,,,technical,causal
-,fin_000157,fin_000157.q01,mcq,,,,financial,sequence
-,fin_000157,fin_000157.q02,fill_blank,,,,financial,sequence
-,fin_000157,fin_000157.q03,timeline,,,,financial,sequence
-,fin_000157,fin_000157.q04,mcq,,,,financial,sequence
-,fin_000157,fin_000157.q05,mcq,,,,financial,sequence
-,av_000311,av_000311.q01,mcq,,,,historical,sequence
-,av_000311,av_000311.q02,fill_blank,,,,historical,sequence
-,av_000311,av_000311.q03,timeline,,,,historical,sequence
-,av_000311,av_000311.q04,mcq,,,,historical,sequence
-,av_000311,av_000311.q05,mcq,,,,historical,sequence
-,hist_sport_007,hist_sport_007.q01,mcq,,,,historical,sequence
-,hist_sport_007,hist_sport_007.q02,fill_blank,,,,historical,sequence
-,hist_sport_007,hist_sport_007.q03,timeline,,,,historical,sequence
-,hist_sport_007,hist_sport_007.q04,mcq,,,,historical,sequence
-,hist_sport_007,hist_sport_007.q05,mcq,,,,historical,sequence
-,corp_000078,corp_000078.q01,mcq,,,,financial,point
-,corp_000078,corp_000078.q02,fill_blank,,,,financial,point
-,corp_000078,corp_000078.q03,mcq,,,,financial,point
-,corp_000078,corp_000078.q04,mcq,,,,financial,point
-,corp_000078,corp_000078.q05,mcq,,,,financial,point
-,cult_awards_0096,cult_awards_0096.q01,mcq,,,,cultural,point
-,cult_awards_0096,cult_awards_0096.q02,fill_blank,,,,cultural,point
-,cult_awards_0096,cult_awards_0096.q03,mcq,,,,cultural,point
-,cult_awards_0096,cult_awards_0096.q04,mcq,,,,cultural,point
-,cult_awards_0096,cult_awards_0096.q05,mcq,,,,cultural,point
-,av_009,av_009.q01,mcq,,,,historical,overlap
-,av_009,av_009.q02,fill_blank,,,,historical,overlap
-,av_009,av_009.q03,mcq,,,,historical,overlap
-,av_009,av_009.q04,mcq,,,,historical,overlap
-,av_009,av_009.q05,mcq,,,,historical,overlap
-,fin_ipo_0090,fin_ipo_0090.q01,mcq,,,,financial,point
-,fin_ipo_0090,fin_ipo_0090.q02,fill_blank,,,,financial,point
-,fin_ipo_0090,fin_ipo_0090.q03,mcq,,,,financial,point
-,fin_ipo_0090,fin_ipo_0090.q04,mcq,,,,financial,point
-,fin_ipo_0090,fin_ipo_0090.q05,mcq,,,,financial,point
-,crises_000095,crises_000095.q01,mcq,,,,financial,causal
-,crises_000095,crises_000095.q02,fill_blank,,,,financial,causal
-,crises_000095,crises_000095.q03,inference,,,,financial,causal
-,crises_000095,crises_000095.q04,mcq,,,,financial,causal
-,crises_000095,crises_000095.q05,mcq,,,,financial,causal
-,hist_000371,hist_000371.q01,mcq,,,,historical,sequence
-,hist_000371,hist_000371.q02,fill_blank,,,,historical,sequence
-,hist_000371,hist_000371.q03,timeline,,,,historical,sequence
-,hist_000371,hist_000371.q04,mcq,,,,historical,sequence
-,hist_000371,hist_000371.q05,mcq,,,,historical,sequence
-,infra_000094,infra_000094.q01,mcq,,,,business,causal
-,infra_000094,infra_000094.q02,fill_blank,,,,business,causal
-,infra_000094,infra_000094.q03,inference,,,,business,causal
-,infra_000094,infra_000094.q04,mcq,,,,business,causal
-,infra_000094,infra_000094.q05,mcq,,,,business,causal
-,sport_000040,sport_000040.q01,fill_blank,,,,historical,point
-,sport_000040,sport_000040.q02,mcq,,,,historical,point
-,sport_000040,sport_000040.q03,mcq,,,,historical,point
-,sport_000040,sport_000040.q04,mcq,,,,historical,point
-,sport_000040,sport_000040.q05,mcq,,,,historical,point
-,hist_sport_091,hist_sport_091.q01,mcq,,,,historical,causal
-,hist_sport_091,hist_sport_091.q02,fill_blank,,,,historical,causal
-,hist_sport_091,hist_sport_091.q03,inference,,,,historical,causal
-,hist_sport_091,hist_sport_091.q04,mcq,,,,historical,causal
-,hist_sport_091,hist_sport_091.q05,mcq,,,,historical,causal
-,crises_000091,crises_000091.q01,mcq,,,,financial,point
-,crises_000091,crises_000091.q02,fill_blank,,,,financial,point
-,crises_000091,crises_000091.q03,mcq,,,,financial,point
-,crises_000091,crises_000091.q04,mcq,,,,financial,point
-,crises_000091,crises_000091.q05,mcq,,,,financial,point
-,infra_000212,infra_000212.q01,mcq,,,,"['technical', 'geopolitical']",point
-,infra_000212,infra_000212.q02,fill_blank,,,,"['technical', 'geopolitical']",point
-,infra_000212,infra_000212.q03,mcq,,,,"['technical', 'geopolitical']",point
-,infra_000212,infra_000212.q04,mcq,,,,"['technical', 'geopolitical']",point
-,infra_000212,infra_000212.q05,mcq,,,,"['technical', 'geopolitical']",point
-,monu_000086,monu_000086.q01,mcq,,,,historical,causal
-,monu_000086,monu_000086.q02,fill_blank,,,,historical,causal
-,monu_000086,monu_000086.q03,inference,,,,historical,causal
-,monu_000086,monu_000086.q04,mcq,,,,historical,causal
-,monu_000086,monu_000086.q05,mcq,,,,historical,causal
-,hist_infra_070,hist_infra_070.q01,mcq,,,,historical,point
-,hist_infra_070,hist_infra_070.q02,fill_blank,,,,historical,point
-,hist_infra_070,hist_infra_070.q03,mcq,,,,historical,point
-,hist_infra_070,hist_infra_070.q04,mcq,,,,historical,point
-,hist_infra_070,hist_infra_070.q05,mcq,,,,historical,point
-,cult_arch_005,cult_arch_005.q01,mcq,,,,cultural,point
-,cult_arch_005,cult_arch_005.q02,fill_blank,,,,cultural,point
-,cult_arch_005,cult_arch_005.q03,mcq,,,,cultural,point
-,cult_arch_005,cult_arch_005.q04,mcq,,,,cultural,point
-,cult_arch_005,cult_arch_005.q05,mcq,,,,cultural,point
-,cult_art_000044,cult_art_000044.q01,mcq,,,,cultural,sequence
-,cult_art_000044,cult_art_000044.q02,fill_blank,,,,cultural,sequence
-,cult_art_000044,cult_art_000044.q03,timeline,,,,cultural,sequence
-,cult_art_000044,cult_art_000044.q04,mcq,,,,cultural,sequence
-,cult_art_000044,cult_art_000044.q05,mcq,,,,cultural,sequence
-,cult_000158,cult_000158.q01,mcq,,,,cultural,sequence
-,cult_000158,cult_000158.q02,fill_blank,,,,cultural,sequence
-,cult_000158,cult_000158.q03,timeline,,,,cultural,sequence
-,cult_000158,cult_000158.q04,mcq,,,,cultural,sequence
-,cult_000158,cult_000158.q05,mcq,,,,cultural,sequence
-,sport_040,sport_040.q01,mcq,,,,historical,overlap
-,sport_040,sport_040.q02,fill_blank,,,,historical,overlap
-,sport_040,sport_040.q03,mcq,,,,historical,overlap
-,sport_040,sport_040.q04,mcq,,,,historical,overlap
-,sport_040,sport_040.q05,mcq,,,,historical,overlap
-,pat_000012,pat_000012.q01,mcq,,,,technical,point
-,pat_000012,pat_000012.q02,fill_blank,,,,technical,point
-,pat_000012,pat_000012.q03,mcq,,,,technical,point
-,pat_000012,pat_000012.q04,mcq,,,,technical,point
-,pat_000012,pat_000012.q05,mcq,,,,technical,point
-,sport_044,sport_044.q01,fill_blank,,,,historical,point
-,sport_044,sport_044.q02,mcq,,,,historical,point
-,sport_044,sport_044.q03,mcq,,,,historical,point
-,sport_044,sport_044.q04,mcq,,,,historical,point
-,sport_044,sport_044.q05,mcq,,,,historical,point
-,biz_000033,biz_000033.q01,mcq,,,,"['financial', 'technical']",overlap
-,biz_000033,biz_000033.q02,fill_blank,,,,"['financial', 'technical']",overlap
-,biz_000033,biz_000033.q03,mcq,,,,"['financial', 'technical']",overlap
-,biz_000033,biz_000033.q04,mcq,,,,"['financial', 'technical']",overlap
-,biz_000033,biz_000033.q05,mcq,,,,"['financial', 'technical']",overlap
-,biz_000035,biz_000035.q01,mcq,,,,business,point
-,biz_000035,biz_000035.q02,fill_blank,,,,business,point
-,biz_000035,biz_000035.q03,mcq,,,,business,point
-,biz_000035,biz_000035.q04,mcq,,,,business,point
-,biz_000035,biz_000035.q05,mcq,,,,business,point
-,hist_000339,hist_000339.q01,mcq,,,,historical,point
-,hist_000339,hist_000339.q02,fill_blank,,,,historical,point
-,hist_000339,hist_000339.q03,mcq,,,,historical,point
-,hist_000339,hist_000339.q04,mcq,,,,historical,point
-,hist_000339,hist_000339.q05,mcq,,,,historical,point
-,cult_000408,cult_000408.q01,mcq,,,,cultural,point
-,cult_000408,cult_000408.q02,fill_blank,,,,cultural,point
-,cult_000408,cult_000408.q03,mcq,,,,cultural,point
-,cult_000408,cult_000408.q04,mcq,,,,cultural,point
-,cult_000408,cult_000408.q05,mcq,,,,cultural,point
-,infra_00102,infra_00102.q01,mcq,,,,business,causal
-,infra_00102,infra_00102.q02,fill_blank,,,,business,causal
-,infra_00102,infra_00102.q03,inference,,,,business,causal
-,infra_00102,infra_00102.q04,mcq,,,,business,causal
-,infra_00102,infra_00102.q05,mcq,,,,business,causal
-,sport_092,sport_092.q01,mcq,,,,historical,sequence
-,sport_092,sport_092.q02,fill_blank,,,,historical,sequence
-,sport_092,sport_092.q03,timeline,,,,historical,sequence
-,sport_092,sport_092.q04,mcq,,,,historical,sequence
-,sport_092,sport_092.q05,mcq,,,,historical,sequence
-,cult_000305,cult_000305.q01,mcq,,,,cultural,causal
-,cult_000305,cult_000305.q02,fill_blank,,,,cultural,causal
-,cult_000305,cult_000305.q03,inference,,,,cultural,causal
-,cult_000305,cult_000305.q04,mcq,,,,cultural,causal
-,cult_000305,cult_000305.q05,mcq,,,,cultural,causal
-,crises_000015,crises_000015.q01,mcq,,,,financial,point
-,crises_000015,crises_000015.q02,fill_blank,,,,financial,point
-,crises_000015,crises_000015.q03,mcq,,,,financial,point
-,crises_000015,crises_000015.q04,mcq,,,,financial,point
-,crises_000015,crises_000015.q05,mcq,,,,financial,point
-,sport_054,sport_054.q01,mcq,,,,historical,sequence
-,sport_054,sport_054.q02,fill_blank,,,,historical,sequence
-,sport_054,sport_054.q03,timeline,,,,historical,sequence
-,sport_054,sport_054.q04,mcq,,,,historical,sequence
-,sport_054,sport_054.q05,mcq,,,,historical,sequence
-,sport_010,sport_010.q01,mcq,,,,historical,overlap
-,sport_010,sport_010.q02,fill_blank,,,,historical,overlap
-,sport_010,sport_010.q03,mcq,,,,historical,overlap
-,sport_010,sport_010.q04,mcq,,,,historical,overlap
-,sport_010,sport_010.q05,mcq,,,,historical,overlap
-,cult_art_000040,cult_art_000040.q01,mcq,,,,cultural,point
-,cult_art_000040,cult_art_000040.q02,fill_blank,,,,cultural,point
-,cult_art_000040,cult_art_000040.q03,mcq,,,,cultural,point
-,cult_art_000040,cult_art_000040.q04,mcq,,,,cultural,point
-,cult_art_000040,cult_art_000040.q05,mcq,,,,cultural,point
-,curr_000080,curr_000080.q01,mcq,,,,financial,causal
-,curr_000080,curr_000080.q02,fill_blank,,,,financial,causal
-,curr_000080,curr_000080.q03,inference,,,,financial,causal
-,curr_000080,curr_000080.q04,mcq,,,,financial,causal
-,curr_000080,curr_000080.q05,mcq,,,,financial,causal
-,fin_000135,fin_000135.q01,mcq,,,,financial,overlap
-,fin_000135,fin_000135.q02,fill_blank,,,,financial,overlap
-,fin_000135,fin_000135.q03,mcq,,,,financial,overlap
-,fin_000135,fin_000135.q04,mcq,,,,financial,overlap
-,fin_000135,fin_000135.q05,mcq,,,,financial,overlap
-,infra_000122,infra_000122.q01,mcq,,,,historical,point
-,infra_000122,infra_000122.q02,fill_blank,,,,historical,point
-,infra_000122,infra_000122.q03,mcq,,,,historical,point
-,infra_000122,infra_000122.q04,mcq,,,,historical,point
-,infra_000122,infra_000122.q05,mcq,,,,historical,point
-,tech_000126,tech_000126.q01,mcq,,,,technical,point
-,tech_000126,tech_000126.q02,fill_blank,,,,technical,point
-,tech_000126,tech_000126.q03,mcq,,,,technical,point
-,tech_000126,tech_000126.q04,mcq,,,,technical,point
-,tech_000126,tech_000126.q05,mcq,,,,technical,point
-,cult_art_000048,cult_art_000048.q01,mcq,,,,cultural,interval
-,cult_art_000048,cult_art_000048.q02,fill_blank,,,,cultural,interval
-,cult_art_000048,cult_art_000048.q03,mcq,,,,cultural,interval
-,cult_art_000048,cult_art_000048.q04,mcq,,,,cultural,interval
-,cult_art_000048,cult_art_000048.q05,mcq,,,,cultural,interval
-,monu_004,monu_004.q01,mcq,,,,"['historical', 'construction']",overlap
-,monu_004,monu_004.q02,fill_blank,,,,"['historical', 'construction']",overlap
-,monu_004,monu_004.q03,mcq,,,,"['historical', 'construction']",overlap
-,monu_004,monu_004.q04,mcq,,,,"['historical', 'construction']",overlap
-,monu_004,monu_004.q05,mcq,,,,"['historical', 'construction']",overlap
+,geop_16976,geop_16976.q01,mcq,,,,geopolitical,sequence
+,geop_16976,geop_16976.q02,fill_blank,,,,geopolitical,sequence
+,geop_16976,geop_16976.q03,timeline,,,,geopolitical,sequence
+,geop_16976,geop_16976.q04,mcq,,,,geopolitical,sequence
+,geop_16976,geop_16976.q05,mcq,,,,geopolitical,sequence
+,geop_19058,geop_19058.q01,mcq,,,,geopolitical,overlap
+,geop_19058,geop_19058.q02,fill_blank,,,,geopolitical,overlap
+,geop_19058,geop_19058.q03,mcq,,,,geopolitical,overlap
+,geop_19058,geop_19058.q04,mcq,,,,geopolitical,overlap
+,geop_19058,geop_19058.q05,mcq,,,,geopolitical,overlap
+,tech_44969,tech_44969.q01,mcq,,,,technical,point
+,tech_44969,tech_44969.q02,fill_blank,,,,technical,point
+,tech_44969,tech_44969.q03,mcq,,,,technical,point
+,tech_44969,tech_44969.q04,mcq,,,,technical,point
+,tech_44969,tech_44969.q05,mcq,,,,technical,point
+,tech_44891,tech_44891.q01,mcq,,,,technical,point
+,tech_44891,tech_44891.q02,fill_blank,,,,technical,point
+,tech_44891,tech_44891.q03,mcq,,,,technical,point
+,tech_44891,tech_44891.q04,mcq,,,,technical,point
+,tech_44891,tech_44891.q05,mcq,,,,technical,point
+,geop_12172,geop_12172.q01,mcq,,,,geopolitical,point
+,geop_12172,geop_12172.q02,fill_blank,,,,geopolitical,point
+,geop_12172,geop_12172.q03,mcq,,,,geopolitical,point
+,geop_12172,geop_12172.q04,mcq,,,,geopolitical,point
+,geop_12172,geop_12172.q05,mcq,,,,geopolitical,point
+,hist_fina_42790,hist_fina_42790.q01,fill_blank,,,,"['historical', 'financial']",interval
+,hist_fina_42790,hist_fina_42790.q02,mcq,,,,"['historical', 'financial']",interval
+,hist_fina_42790,hist_fina_42790.q03,mcq,,,,"['historical', 'financial']",interval
+,hist_fina_42790,hist_fina_42790.q04,mcq,,,,"['historical', 'financial']",interval
+,hist_fina_42790,hist_fina_42790.q05,mcq,,,,"['historical', 'financial']",interval
+,geop_15111,geop_15111.q01,mcq,,,,geopolitical,point
+,geop_15111,geop_15111.q02,fill_blank,,,,geopolitical,point
+,geop_15111,geop_15111.q03,mcq,,,,geopolitical,point
+,geop_15111,geop_15111.q04,mcq,,,,geopolitical,point
+,geop_15111,geop_15111.q05,mcq,,,,geopolitical,point
+,fina_43719,fina_43719.q01,mcq,,,,financial,point
+,fina_43719,fina_43719.q02,fill_blank,,,,financial,point
+,fina_43719,fina_43719.q03,mcq,,,,financial,point
+,fina_43719,fina_43719.q04,mcq,,,,financial,point
+,fina_43719,fina_43719.q05,mcq,,,,financial,point
+,cult_9645,cult_9645.q01,mcq,,,,cultural,point
+,cult_9645,cult_9645.q02,fill_blank,,,,cultural,point
+,cult_9645,cult_9645.q03,mcq,,,,cultural,point
+,cult_9645,cult_9645.q04,mcq,,,,cultural,point
+,cult_9645,cult_9645.q05,mcq,,,,cultural,point
+,fina_tech_14757,fina_tech_14757.q01,mcq,,,,"['financial', 'technical']",sequence
+,fina_tech_14757,fina_tech_14757.q02,fill_blank,,,,"['financial', 'technical']",sequence
+,fina_tech_14757,fina_tech_14757.q03,timeline,,,,"['financial', 'technical']",sequence
+,fina_tech_14757,fina_tech_14757.q04,mcq,,,,"['financial', 'technical']",sequence
+,fina_tech_14757,fina_tech_14757.q05,mcq,,,,"['financial', 'technical']",sequence
+,fina_42065,fina_42065.q01,mcq,,,,financial,causal
+,fina_42065,fina_42065.q02,fill_blank,,,,financial,causal
+,fina_42065,fina_42065.q03,inference,,,,financial,causal
+,fina_42065,fina_42065.q04,mcq,,,,financial,causal
+,fina_42065,fina_42065.q05,mcq,,,,financial,causal
+,tech_48164,tech_48164.q01,mcq,,,,technical,causal
+,tech_48164,tech_48164.q02,fill_blank,,,,technical,causal
+,tech_48164,tech_48164.q03,inference,,,,technical,causal
+,tech_48164,tech_48164.q04,mcq,,,,technical,causal
+,tech_48164,tech_48164.q05,mcq,,,,technical,causal
+,geop_12280,geop_12280.q01,mcq,,,,geopolitical,point
+,geop_12280,geop_12280.q02,fill_blank,,,,geopolitical,point
+,geop_12280,geop_12280.q03,mcq,,,,geopolitical,point
+,geop_12280,geop_12280.q04,mcq,,,,geopolitical,point
+,geop_12280,geop_12280.q05,mcq,,,,geopolitical,point
+,cult_8534,cult_8534.q01,mcq,,,,cultural,interval
+,cult_8534,cult_8534.q02,fill_blank,,,,cultural,interval
+,cult_8534,cult_8534.q03,mcq,,,,cultural,interval
+,cult_8534,cult_8534.q04,mcq,,,,cultural,interval
+,cult_8534,cult_8534.q05,mcq,,,,cultural,interval
+,fina_4642,fina_4642.q01,mcq,,,,financial,point
+,fina_4642,fina_4642.q02,fill_blank,,,,financial,point
+,fina_4642,fina_4642.q03,mcq,,,,financial,point
+,fina_4642,fina_4642.q04,mcq,,,,financial,point
+,fina_4642,fina_4642.q05,mcq,,,,financial,point
+,medi_34832,medi_34832.q01,mcq,,,,medical,point
+,medi_34832,medi_34832.q02,fill_blank,,,,medical,point
+,medi_34832,medi_34832.q03,mcq,,,,medical,point
+,medi_34832,medi_34832.q04,mcq,,,,medical,point
+,medi_34832,medi_34832.q05,mcq,,,,medical,point
+,cult_14019,cult_14019.q01,mcq,,,,cultural,point
+,cult_14019,cult_14019.q02,fill_blank,,,,cultural,point
+,cult_14019,cult_14019.q03,mcq,,,,cultural,point
+,cult_14019,cult_14019.q04,mcq,,,,cultural,point
+,cult_14019,cult_14019.q05,mcq,,,,cultural,point
+,tech_48864,tech_48864.q01,mcq,,,,technical,point
+,tech_48864,tech_48864.q02,fill_blank,,,,technical,point
+,tech_48864,tech_48864.q03,mcq,,,,technical,point
+,tech_48864,tech_48864.q04,mcq,,,,technical,point
+,tech_48864,tech_48864.q05,mcq,,,,technical,point
+,geop_19313,geop_19313.q01,mcq,,,,geopolitics,overlap
+,geop_19313,geop_19313.q02,fill_blank,,,,geopolitics,overlap
+,geop_19313,geop_19313.q03,mcq,,,,geopolitics,overlap
+,geop_19313,geop_19313.q04,mcq,,,,geopolitics,overlap
+,geop_19313,geop_19313.q05,mcq,,,,geopolitics,overlap
+,fina_1965,fina_1965.q01,mcq,,,,financial,causal
+,fina_1965,fina_1965.q02,fill_blank,,,,financial,causal
+,fina_1965,fina_1965.q03,inference,,,,financial,causal
+,fina_1965,fina_1965.q04,mcq,,,,financial,causal
+,fina_1965,fina_1965.q05,mcq,,,,financial,causal
+,scie_tech_28290,scie_tech_28290.q01,mcq,,,,"['science', 'technical']",point
+,scie_tech_28290,scie_tech_28290.q02,fill_blank,,,,"['science', 'technical']",point
+,scie_tech_28290,scie_tech_28290.q03,mcq,,,,"['science', 'technical']",point
+,scie_tech_28290,scie_tech_28290.q04,mcq,,,,"['science', 'technical']",point
+,scie_tech_28290,scie_tech_28290.q05,mcq,,,,"['science', 'technical']",point
+,hist_8277,hist_8277.q01,mcq,,,,historical,point
+,hist_8277,hist_8277.q02,fill_blank,,,,historical,point
+,hist_8277,hist_8277.q03,mcq,,,,historical,point
+,hist_8277,hist_8277.q04,mcq,,,,historical,point
+,hist_8277,hist_8277.q05,mcq,,,,historical,point
+,fina_tech_44897,fina_tech_44897.q01,mcq,,,,"['financial', 'technical']",interval
+,fina_tech_44897,fina_tech_44897.q02,fill_blank,,,,"['financial', 'technical']",interval
+,fina_tech_44897,fina_tech_44897.q03,mcq,,,,"['financial', 'technical']",interval
+,fina_tech_44897,fina_tech_44897.q04,mcq,,,,"['financial', 'technical']",interval
+,fina_tech_44897,fina_tech_44897.q05,mcq,,,,"['financial', 'technical']",interval
+,fina_39893,fina_39893.q01,mcq,,,,financial,other
+,fina_39893,fina_39893.q02,fill_blank,,,,financial,other
+,fina_39893,fina_39893.q03,mcq,,,,financial,other
+,fina_39893,fina_39893.q04,mcq,,,,financial,other
+,fina_39893,fina_39893.q05,mcq,,,,financial,other
+,fina_946,fina_946.q01,mcq,,,,financial,point
+,fina_946,fina_946.q02,fill_blank,,,,financial,point
+,fina_946,fina_946.q03,mcq,,,,financial,point
+,fina_946,fina_946.q04,mcq,,,,financial,point
+,fina_946,fina_946.q05,mcq,,,,financial,point
+,geop_18079,geop_18079.q01,mcq,,,,geopolitics,point
+,geop_18079,geop_18079.q02,fill_blank,,,,geopolitics,point
+,geop_18079,geop_18079.q03,mcq,,,,geopolitics,point
+,geop_18079,geop_18079.q04,mcq,,,,geopolitics,point
+,geop_18079,geop_18079.q05,mcq,,,,geopolitics,point
+,cult_9615,cult_9615.q01,mcq,,,,cultural,point
+,cult_9615,cult_9615.q02,fill_blank,,,,cultural,point
+,cult_9615,cult_9615.q03,mcq,,,,cultural,point
+,cult_9615,cult_9615.q04,mcq,,,,cultural,point
+,cult_9615,cult_9615.q05,mcq,,,,cultural,point
+,hist_5568,hist_5568.q01,mcq,,,,historical,sequence
+,hist_5568,hist_5568.q02,fill_blank,,,,historical,sequence
+,hist_5568,hist_5568.q03,timeline,,,,historical,sequence
+,hist_5568,hist_5568.q04,mcq,,,,historical,sequence
+,hist_5568,hist_5568.q05,mcq,,,,historical,sequence
+,geop_17201,geop_17201.q01,mcq,,,,geopolitical,overlap
+,geop_17201,geop_17201.q02,fill_blank,,,,geopolitical,overlap
+,geop_17201,geop_17201.q03,mcq,,,,geopolitical,overlap
+,geop_17201,geop_17201.q04,mcq,,,,geopolitical,overlap
+,geop_17201,geop_17201.q05,mcq,,,,geopolitical,overlap
+,tech_fina_29567,tech_fina_29567.q01,mcq,,,,"['technical', 'financial']",point
+,tech_fina_29567,tech_fina_29567.q02,fill_blank,,,,"['technical', 'financial']",point
+,tech_fina_29567,tech_fina_29567.q03,mcq,,,,"['technical', 'financial']",point
+,tech_fina_29567,tech_fina_29567.q04,mcq,,,,"['technical', 'financial']",point
+,tech_fina_29567,tech_fina_29567.q05,mcq,,,,"['technical', 'financial']",point
+,tech_48867,tech_48867.q01,fill_blank,,,,technical,point
+,tech_48867,tech_48867.q02,mcq,,,,technical,point
+,tech_48867,tech_48867.q03,mcq,,,,technical,point
+,tech_48867,tech_48867.q04,mcq,,,,technical,point
+,tech_48867,tech_48867.q05,mcq,,,,technical,point
+,hist_28629,hist_28629.q01,mcq,,,,historical,point
+,hist_28629,hist_28629.q02,fill_blank,,,,historical,point
+,hist_28629,hist_28629.q03,mcq,,,,historical,point
+,hist_28629,hist_28629.q04,mcq,,,,historical,point
+,hist_28629,hist_28629.q05,mcq,,,,historical,point
+,cult_9143,cult_9143.q01,mcq,,,,cultural,overlap
+,cult_9143,cult_9143.q02,fill_blank,,,,cultural,overlap
+,cult_9143,cult_9143.q03,mcq,,,,cultural,overlap
+,cult_9143,cult_9143.q04,mcq,,,,cultural,overlap
+,cult_9143,cult_9143.q05,mcq,,,,cultural,overlap
+,geop_16825,geop_16825.q01,mcq,,,,geopolitics,causal
+,geop_16825,geop_16825.q02,fill_blank,,,,geopolitics,causal
+,geop_16825,geop_16825.q03,inference,,,,geopolitics,causal
+,geop_16825,geop_16825.q04,mcq,,,,geopolitics,causal
+,geop_16825,geop_16825.q05,mcq,,,,geopolitics,causal
+,tech_23316,tech_23316.q01,mcq,,,,technical,sequence
+,tech_23316,tech_23316.q02,fill_blank,,,,technical,sequence
+,tech_23316,tech_23316.q03,timeline,,,,technical,sequence
+,tech_23316,tech_23316.q04,mcq,,,,technical,sequence
+,tech_23316,tech_23316.q05,mcq,,,,technical,sequence
+,geop_15339,geop_15339.q01,mcq,,,,geopolitical,point
+,geop_15339,geop_15339.q02,fill_blank,,,,geopolitical,point
+,geop_15339,geop_15339.q03,mcq,,,,geopolitical,point
+,geop_15339,geop_15339.q04,mcq,,,,geopolitical,point
+,geop_15339,geop_15339.q05,mcq,,,,geopolitical,point
+,medi_31908,medi_31908.q01,mcq,,,,medical,causal
+,medi_31908,medi_31908.q02,fill_blank,,,,medical,causal
+,medi_31908,medi_31908.q03,inference,,,,medical,causal
+,medi_31908,medi_31908.q04,mcq,,,,medical,causal
+,medi_31908,medi_31908.q05,mcq,,,,medical,causal
+,spor_49547,spor_49547.q01,mcq,,,,sports,point
+,spor_49547,spor_49547.q02,fill_blank,,,,sports,point
+,spor_49547,spor_49547.q03,mcq,,,,sports,point
+,spor_49547,spor_49547.q04,mcq,,,,sports,point
+,spor_49547,spor_49547.q05,mcq,,,,sports,point
+,tech_36039,tech_36039.q01,mcq,,,,technical,point
+,tech_36039,tech_36039.q02,fill_blank,,,,technical,point
+,tech_36039,tech_36039.q03,mcq,,,,technical,point
+,tech_36039,tech_36039.q04,mcq,,,,technical,point
+,tech_36039,tech_36039.q05,mcq,,,,technical,point
+,tech_36987,tech_36987.q01,mcq,,,,technical,point
+,tech_36987,tech_36987.q02,fill_blank,,,,technical,point
+,tech_36987,tech_36987.q03,mcq,,,,technical,point
+,tech_36987,tech_36987.q04,mcq,,,,technical,point
+,tech_36987,tech_36987.q05,mcq,,,,technical,point
+,scie_28158,scie_28158.q01,mcq,,,,science_tech,point
+,scie_28158,scie_28158.q02,fill_blank,,,,science_tech,point
+,scie_28158,scie_28158.q03,mcq,,,,science_tech,point
+,scie_28158,scie_28158.q04,mcq,,,,science_tech,point
+,scie_28158,scie_28158.q05,mcq,,,,science_tech,point
+,tech_44016,tech_44016.q01,fill_blank,,,,technical,point
+,tech_44016,tech_44016.q02,mcq,,,,technical,point
+,tech_44016,tech_44016.q03,mcq,,,,technical,point
+,tech_44016,tech_44016.q04,mcq,,,,technical,point
+,tech_44016,tech_44016.q05,mcq,,,,technical,point
+,hist_23871,hist_23871.q01,mcq,,,,historical,sequence
+,hist_23871,hist_23871.q02,fill_blank,,,,historical,sequence
+,hist_23871,hist_23871.q03,timeline,,,,historical,sequence
+,hist_23871,hist_23871.q04,mcq,,,,historical,sequence
+,hist_23871,hist_23871.q05,mcq,,,,historical,sequence
+,scie_28174,scie_28174.q01,mcq,,,,science_tech,point
+,scie_28174,scie_28174.q02,fill_blank,,,,science_tech,point
+,scie_28174,scie_28174.q03,mcq,,,,science_tech,point
+,scie_28174,scie_28174.q04,mcq,,,,science_tech,point
+,scie_28174,scie_28174.q05,mcq,,,,science_tech,point
+,hist_geop_41914,hist_geop_41914.q01,mcq,,,,"['historical', 'geopolitical']",causal
+,hist_geop_41914,hist_geop_41914.q02,fill_blank,,,,"['historical', 'geopolitical']",causal
+,hist_geop_41914,hist_geop_41914.q03,inference,,,,"['historical', 'geopolitical']",causal
+,hist_geop_41914,hist_geop_41914.q04,mcq,,,,"['historical', 'geopolitical']",causal
+,hist_geop_41914,hist_geop_41914.q05,mcq,,,,"['historical', 'geopolitical']",causal
+,hist_20565,hist_20565.q01,mcq,,,,historical,point
+,hist_20565,hist_20565.q02,fill_blank,,,,historical,point
+,hist_20565,hist_20565.q03,mcq,,,,historical,point
+,hist_20565,hist_20565.q04,mcq,,,,historical,point
+,hist_20565,hist_20565.q05,mcq,,,,historical,point
+,fina_43002,fina_43002.q01,mcq,,,,financial,other
+,fina_43002,fina_43002.q02,fill_blank,,,,financial,other
+,fina_43002,fina_43002.q03,mcq,,,,financial,other
+,fina_43002,fina_43002.q04,mcq,,,,financial,other
+,fina_43002,fina_43002.q05,mcq,,,,financial,other
+,hist_7692,hist_7692.q01,mcq,,,,historical,overlap
+,hist_7692,hist_7692.q02,fill_blank,,,,historical,overlap
+,hist_7692,hist_7692.q03,mcq,,,,historical,overlap
+,hist_7692,hist_7692.q04,mcq,,,,historical,overlap
+,hist_7692,hist_7692.q05,mcq,,,,historical,overlap
+,fina_22677,fina_22677.q01,mcq,,,,financial,point
+,fina_22677,fina_22677.q02,fill_blank,,,,financial,point
+,fina_22677,fina_22677.q03,mcq,,,,financial,point
+,fina_22677,fina_22677.q04,mcq,,,,financial,point
+,fina_22677,fina_22677.q05,mcq,,,,financial,point
+,fina_38993,fina_38993.q01,mcq,,,,['financial'],causal
+,fina_38993,fina_38993.q02,fill_blank,,,,['financial'],causal
+,fina_38993,fina_38993.q03,inference,,,,['financial'],causal
+,fina_38993,fina_38993.q04,mcq,,,,['financial'],causal
+,fina_38993,fina_38993.q05,mcq,,,,['financial'],causal

@@ -20,13 +20,12 @@ from temporal_nlg.tms.meta_query import (
 def load_traces(path: Path) -> List[QueryTrace]:
     traces: List[QueryTrace] = []
     text = path.read_text(encoding="utf-8")
-    stripped = text.lstrip()
-    if stripped.startswith("{"):
-        # Single JSON object
-        traces.append(QueryTrace.from_dict(json.loads(text)))
+    lines = [line.strip() for line in text.splitlines() if line.strip()]
+    if len(lines) == 1:
+        traces.append(QueryTrace.from_dict(json.loads(lines[0])))
         return traces
 
-    for line in text.splitlines():
+    for line in lines:
         if not line.strip():
             continue
         traces.append(QueryTrace.from_dict(json.loads(line)))

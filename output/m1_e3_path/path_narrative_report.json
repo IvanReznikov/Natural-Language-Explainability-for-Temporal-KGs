@@ -1,12 +1,12 @@
 {
   "input": "experiments\\m1_e3_path\\sample_paths.json",
-  "avg_flesch": 56.33103238866399,
+  "avg_flesch": 55.48276315789475,
   "flesch_scores": [
     36.1605263157895,
-    76.50153846153849
+    74.805
   ],
   "rendered": [
     "It went this way: Discovery led to Invention (1901) then Invention enabled Deployment (1903) then Deployment caused Adoption (1904).",
-    "It went this way: Policy changed Market (2010) then Market raised Prices (2011)."
+    "The path is: Policy changed Market (2010) then Market raised Prices (2011)."
   ]
 }

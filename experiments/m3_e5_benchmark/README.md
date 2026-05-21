@@ -51,6 +51,33 @@ Examples:
   - Domains: economics=85, politics=37, sports=33, entertainment=33, technology=32, ...
 - **Graph**: `data/jsonls/temporal_graph_output_v3/` (precomputed)
 
+### Embedding asset setup (required)
+
+Before running M3-E5 retrieval modes, download and unpack the embedding artifacts into the graph directory:
+
+- `https://storage.googleapis.com/explanability-for-temporal-graphs/embeddings.zip`
+- `https://storage.googleapis.com/explanability-for-temporal-graphs/embeddings_4b.zip`
+
+Target directory:
+
+- `data/jsonls/temporal_graph_output_v3/`
+
+After extraction, both directories must exist:
+
+- `data/jsonls/temporal_graph_output_v3/embeddings/`
+- `data/jsonls/temporal_graph_output_v3/embeddings_4b/`
+
+If your environment downloads split files (for example `embeddings_4b-...-001.zip`, `...-002.zip`, etc.), extract all parts into the same target directory.
+
+Windows PowerShell example:
+
+```powershell
+$dest = "data/jsonls/temporal_graph_output_v3"
+Get-ChildItem -Path $dest -Filter "embeddings_4b-*.zip" |
+  Sort-Object Name |
+  ForEach-Object { Expand-Archive -Path $_.FullName -DestinationPath $dest -Force }
+```
+
 Do NOT use `data/jsonls/p5d_eval_subset.jsonl` (that was a 40-question pilot —
 those results live in `output/temporal_eval_v34_p5d3/` for reference).
 

@@ -122,6 +122,7 @@ Module: `src/temporal_nlg/evaluation/m3_e4.py`
 ### M3-E5 — End-to-End QA Benchmark
 
 - Runner: `experiments/m3_e5_benchmark/run_m3_e5.py`
+- Milestone orchestrator: `experiments/run_all_m3_experiments.py`
 - Schema spec: `experiments/m3_e5_benchmark/results_schema.json`
 - Eval set: `data/jsonls/temporal_evaluation_set_v2.jsonl` (295 questions)
 - Results directory: `output/m3_e5_results/` (run IDs + `MATRIX.json`)
@@ -151,6 +152,9 @@ Run ID format: `<llm_id>__<mode>[__<emb_id>]`
 #### Commands
 
 ```bash
+# Milestone 3 orchestrator (all M3 experiments with defaults/skips)
+python experiments/run_all_m3_experiments.py
+
 # List all configs
 python experiments/m3_e5_benchmark/run_m3_e5.py --list --output-dir output/m3_e5_results
 
@@ -170,6 +174,13 @@ python experiments/m3_e5_benchmark/run_m3_e5.py --run-all \
 # Aggregate results
 python experiments/m3_e5_benchmark/run_m3_e5.py --aggregate --output-dir output/m3_e5_results
 ```
+
+#### Orchestrator policy (current)
+
+- OpenAI benchmark wrappers (`run_lcel_gpt_models.py`, `run_m3_e5_lcel_openai_models.py`) are skipped by default in `run_all_m3_experiments.py`.
+- Local Qwen M3-E5 runs are executed only when a CUDA-capable GPU is detected; otherwise the orchestrator records an explicit skip reason.
+- M3-E4 prediction generation (`run_generate_predictions.py`) is run with template/baseline defaults when prerequisite scenarios are available.
+- Embedding assets are expected under `data/jsonls/temporal_graph_output_v3/embeddings/` and `data/jsonls/temporal_graph_output_v3/embeddings_4b/`.
 
 ---
 

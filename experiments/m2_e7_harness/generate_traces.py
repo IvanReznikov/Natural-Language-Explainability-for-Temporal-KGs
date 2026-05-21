@@ -49,7 +49,8 @@ def make_rule(query: dict, now: float) -> Rule:
 
     conclusions = []
     for fact in required_facts:
-        conclusions.append({"fact_id": fact, "value": f"val_{fact}_{qid}"})
+        value = intent if fact == "intent" else f"val_{fact}_{qid}"
+        conclusions.append({"fact_id": fact, "value": value})
 
     # ensure intent fact exists for intent matching
     if "intent" not in [c["fact_id"] for c in conclusions]:

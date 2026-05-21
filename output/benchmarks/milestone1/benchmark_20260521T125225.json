@@ -1,0 +1,31 @@
+[
+  {
+    "benchmark": "template_rendering",
+    "template_types": [
+      "point_in_time",
+      "interval",
+      "sequence",
+      "causality",
+      "overlap"
+    ],
+    "n": 600,
+    "total_sec": 0.0037950999994791346,
+    "per_item_ms": 0.006325166665798558
+  },
+  {
+    "benchmark": "flesch_score",
+    "n": 500,
+    "total_sec": 0.2423706999998103,
+    "per_item_ms": 0.4847413999996206
+  },
+  {
+    "benchmark": "tms_belief_store_insert_query",
+    "n": 3000,
+    "insert_ops": 1500,
+    "query_ops": 1500,
+    "insert_total_sec": 0.004677099999753409,
+    "query_total_sec": 0.0006097999994381098,
+    "total_sec": 0.005286899999191519,
+    "per_item_ms": 0.0017622999997305064
+  }
+]
