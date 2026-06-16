@@ -1,4 +1,4 @@
-﻿# Milestone 2 Technical Documentation
+# Milestone 2 Technical Documentation
 
 ## Scope
 - M2-E2: Query intent classification (multi-label baseline, TF-IDF + LR/SVM)
@@ -28,7 +28,7 @@
 - Data: experiments/m2_e3_parse/data/temporal_queries_gold.jsonl with splits at experiments/m2_e3_parse/data/splits (train 909 / val 113 / test 115).
 - Models: intent encoder (sentence-transformers/all-MiniLM-L6-v2, 3 epochs), parser (Flan-T5-small, 3 epochs); artifacts in experiments/m2_e3_parse/artifacts/{intent,parser}.
 - Inference: experiments/m2_e3_parse/run_parse.py combines model output with rule-based validation/fallback for temporal frames; zero validation errors on latest run (test 115 rows).
-- Command example: `PYTHONPATH=. .venv/Scripts/python.exe experiments/m2_e3_parse/run_parse.py --data experiments/m2_e3_parse/data/splits/test.jsonl --use-model --fallback-on-error --output-dir output/m2_e3_eval`.
+- Command example (PowerShell): `$env:PYTHONPATH="."; .venv/Scripts/python experiments/m2_e3_parse/run_parse.py --data experiments/m2_e3_parse/data/splits/test.jsonl --use-model --fallback-on-error --model-threshold 0.25 --output-dir output/m2_e3_eval`.
 
 ### M2-E4 - Result Taxonomy Classification
 - Data: taxonomy splits at experiments/m2_e4_taxonomy/data/splits/result_taxonomy_{train,val,test}.jsonl (1126/136/148; seed=13); labels: anomaly, category_breakdown, comparison, error, exact_numeric, noop_empty, time_series.
@@ -78,5 +78,5 @@ with recorder.session("query123", meta={"user": "u1"}) as trace:
 - APIs: [docs/API.md](docs/API.md) for trace/meta-query, trigger/store, and harness helpers.
 - Architecture: [docs/ADDITIONAL_M2.md](docs/ADDITIONAL_M2.md) (Milestone 2 Architecture section) for component map, data inventory, runtime flow.
 - Results: [docs/RESULTS_M2.md](docs/RESULTS_M2.md) for experiment matrices and benchmark summaries.
-- Examples: [examples/milestone2](examples/milestone2) for runnable scripts covering M2-E2 through M2-E7.
+- Examples: [examples/milestone2](examples/milestone2) (runnable scripts covering M2-E2 through M2-E7, and the end-to-end flow demo at `examples/milestone2/m2_e2e_demo.py`).
 

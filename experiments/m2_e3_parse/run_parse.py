@@ -418,7 +418,7 @@ def main() -> None:
     parser.add_argument("--use-model", action="store_true", help="Use fine-tuned intent/parser models if available")
     parser.add_argument("--intent-model-dir", type=Path, default=Path("experiments/m2_e3_parse/artifacts/intent"))
     parser.add_argument("--parser-model-dir", type=Path, default=Path("experiments/m2_e3_parse/artifacts/parser"))
-    parser.add_argument("--model-threshold", type=float, default=0.5, help="Threshold for multi-label intent predictions")
+    parser.add_argument("--model-threshold", type=float, default=0.25, help="Threshold for multi-label intent predictions")
     parser.add_argument("--fallback-on-error", action="store_true", help="Fallback to rules when model output fails validation")
     args = parser.parse_args()
 

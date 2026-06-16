@@ -1,5 +1,11 @@
-﻿#!/usr/bin/env python3
-"""Generate synthetic QueryTrace JSONL aligned to a queries.jsonl file."""
+#!/usr/bin/env python3
+"""Generate synthetic QueryTrace JSONL aligned to a queries.jsonl file.
+
+Each trace emits rule firings whose conclusions cover all required_facts
+declared in the corresponding query entry.  Rule names and IDs are derived
+from the query's intent, matching the M2 taxonomy rule vocabulary used in
+the TMS runtime (temporal_nlg.tms).
+"""
 from __future__ import annotations
 
 import argparse
@@ -12,12 +18,45 @@ from typing import Iterable, List, Dict
 Rule = Dict[str, object]
 TraceRecord = Dict[str, object]
 
+# Maps M2 taxonomy intent -> (rule_id_prefix, rule_name, input_fact_id)
 INTENT_RULES = {
-    "medical": ("r_med", "extract_medical_facts", "symptom"),
-    "financial": ("r_fin", "compute_financial_outcome", "definition"),
-    "historical": ("r_hist", "retrieve_historical_context", "event"),
-    "science": ("r_sci", "derive_scientific_fact", "mechanism"),
+    "point_in_time": ("r_pit", "ResolveTemporalAnchor", "query_text"),
+    "interval": ("r_ivl", "ExtractIntervalBounds", "query_text"),
+    "sequence": ("r_seq", "OrderEventSequence", "query_text"),
+    "causal": ("r_csl", "VerifyTemporalCorrelation", "query_text"),
+    "comparative": ("r_cmp", "ComputeComparisonResult", "query_text"),
+    "aggregation": ("r_agg", "AggregateTemporalFacts", "query_text"),
+    "prediction": ("r_prd", "ProjectFutureTrend", "query_text"),
+    "explanation": ("r_exp", "BuildCausalExplanation", "query_text"),
+    # fallback for any unexpected intent label
+    "_default": ("r_gen", "GenericTemporalQuery", "query_text"),
 }
+
+# Human-readable conclusion values per fact_id
+FACT_VALUES: Dict[str, Dict[str, str]] = {
+    "intent": {
+        "point_in_time": "point_in_time",
+        "interval": "interval",
+        "sequence": "sequence",
+        "causal": "causal",
+        "comparative": "comparative",
+        "aggregation": "aggregation",
+        "prediction": "prediction",
+        "explanation": "explanation",
+    },
+    "causal_link": {"_default": "cause_effect_verified"},
+    "forecast": {"_default": "trend_projected"},
+    "count": {"_default": "aggregation_count_computed"},
+    "time_range": {"_default": "interval_bounds_resolved"},
+    "ordered_steps": {"_default": "sequence_ordered"},
+    "comparison_result": {"_default": "comparison_computed"},
+    "event_date": {"_default": "temporal_anchor_resolved"},
+}
+
+
+def _fact_value(fact_id: str, intent: str, qid: str) -> str:
+    table = FACT_VALUES.get(fact_id, {})
+    return table.get(intent) or table.get("_default") or f"val_{fact_id}_{qid}"
 
 
 def load_jsonl(path: Path) -> List[dict]:
@@ -38,23 +77,29 @@ def save_jsonl(path: Path, rows: Iterable[dict]):
             f.write(json.dumps(row) + "\n")
 
 
-def make_rule(query: dict, now: float) -> Rule:
-    intent = query.get("intent", "unknown")
-    base_rule_id, rule_name, input_key = INTENT_RULES.get(intent, ("r_generic", "generic_rule", "topic"))
+def make_rule(query: dict, now: float, rng: random.Random) -> Rule:
+    intent = query.get("intent", "_default")
+    base_rule_id, rule_name, input_key = INTENT_RULES.get(intent, INTENT_RULES["_default"])
     qid = query.get("query_id", "q_unknown")
 
-    required_facts = query.get("required_facts") or []
-    if not required_facts:
-        required_facts = ["intent"]
+    required_facts: List[str] = query.get("required_facts") or ["intent"]
 
+    # Build one conclusion per required fact; first goes into the main conclusion field,
+    # rest go into meta.extra_conclusions so run_e2e.py can expand them.
     conclusions = []
-    for fact in required_facts:
-        value = intent if fact == "intent" else f"val_{fact}_{qid}"
-        conclusions.append({"fact_id": fact, "value": value})
+    for fact_id in required_facts:
+        conclusions.append({
+            "fact_id": fact_id,
+            "value": _fact_value(fact_id, intent, qid),
+        })
 
-    # ensure intent fact exists for intent matching
-    if "intent" not in [c["fact_id"] for c in conclusions]:
-        conclusions.append({"fact_id": "intent", "value": intent})
+    # Guarantee intent is always in conclusions
+    intent_conclusion = {"fact_id": "intent", "value": intent}
+    if not any(c["fact_id"] == "intent" for c in conclusions):
+        conclusions.insert(0, intent_conclusion)
+
+    main_conclusion = conclusions[0]
+    extra_conclusions = conclusions[1:]
 
     return {
         "rule_id": f"{base_rule_id}_{qid}",
@@ -62,27 +107,27 @@ def make_rule(query: dict, now: float) -> Rule:
         "inputs": [
             {"fact_id": input_key, "value": query.get("text", "")},
         ],
-        "conclusion": conclusions[0],
-        "fired_at": now + random.uniform(0.2, 0.8),
-        "confidence": round(random.uniform(0.85, 0.99), 3),
-        "latency_ms": round(random.uniform(3.0, 12.0), 2),
-        "meta": {"gen": "synthetic", "extra_conclusions": conclusions[1:]},
+        "conclusion": main_conclusion,
+        "fired_at": now + rng.uniform(0.2, 0.8),
+        "confidence": round(rng.uniform(0.87, 0.99), 3),
+        "latency_ms": round(rng.uniform(1.5, 12.0), 2),
+        "meta": {"gen": "synthetic", "extra_conclusions": extra_conclusions},
     }
 
 
-def make_trace(query: dict, base_ts: float) -> TraceRecord:
+def make_trace(query: dict, base_ts: float, rng: random.Random) -> TraceRecord:
     qid = query.get("query_id", "q_unknown")
     started = base_ts
-    completed = started + random.uniform(0.8, 1.6)
-    rule = make_rule(query, started)
+    completed = started + rng.uniform(0.4, 1.4)
+    rule = make_rule(query, started, rng)
     return {
         "query_id": qid,
         "started_at": started,
         "completed_at": completed,
-        "instrumentation_overhead_ms": round(random.uniform(0.5, 2.0), 2),
+        "instrumentation_overhead_ms": round(rng.uniform(0.3, 1.8), 2),
         "dropped": False,
         "over_budget": False,
-        "meta": {"gen": "synthetic"},
+        "meta": {"gen": "synthetic", "intent": query.get("intent", "unknown")},
         "rule_traces": [rule],
     }
 
@@ -92,25 +137,29 @@ def generate_traces(queries: List[dict], seed: int) -> List[TraceRecord]:
     now = time.time()
     traces = []
     for i, q in enumerate(queries):
-        base_ts = now + i * 2.0 + rng.uniform(0, 0.5)
-        random.seed(seed + i)  # keep per-query reproducibility
-        traces.append(make_trace(q, base_ts))
+        base_ts = now + i * 1.5 + rng.uniform(0, 0.3)
+        traces.append(make_trace(q, base_ts, rng))
     return traces
 
 
 def main():
     parser = argparse.ArgumentParser(description="Generate synthetic traces for M2-E7")
-    parser.add_argument("--queries", type=str, default="experiments/m2_e7_harness/input/queries.jsonl")
-    parser.add_argument("--output", type=str, default="experiments/m2_e7_harness/input/trace.jsonl")
+    parser.add_argument("--queries", type=str,
+                        default="experiments/m2_e7_harness/input/queries.jsonl")
+    parser.add_argument("--output", type=str,
+                        default="experiments/m2_e7_harness/input/trace.jsonl")
     parser.add_argument("--seed", type=int, default=1337)
     args = parser.parse_args()
 
     queries = load_jsonl(Path(args.queries))
     traces = generate_traces(queries, args.seed)
     save_jsonl(Path(args.output), traces)
+
+    from collections import Counter
+    intent_counts = Counter(t["meta"].get("intent", "?") for t in traces)
     print(f"Wrote {len(traces)} traces to {args.output}")
+    print(f"  Intent distribution in traces: {dict(intent_counts)}")
 
 
 if __name__ == "__main__":
     main()
-

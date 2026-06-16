@@ -40,8 +40,15 @@ dist/
 *.pb
 *.joblib
 
+# !experiments/**/artifacts/**/*.safetensors
+# !experiments/**/artifacts/**/*.bin
+!experiments/**/output/**/*.joblib
+!experiments/**/output/**/*.json
+
 experiments/**/output/
 examples/**/output/
+experiments/**/runs/
+output/m2_e3_eval/
 
 temporal_graph_processing
 ideas

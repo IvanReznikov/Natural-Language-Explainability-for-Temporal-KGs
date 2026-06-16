@@ -10,7 +10,7 @@ def load_jsonl(path: Path) -> List[Dict]:
 
 
 def span_key(span: Dict) -> Tuple[str, int, int]:
-    return span.get("label"), span.get("start"), span.get("end")
+    return str(span.get("label", "")), int(span.get("start", 0)), int(span.get("end", 0))
 
 
 def f1(gold: List[Tuple], pred: List[Tuple]) -> float:
@@ -57,10 +57,68 @@ def main() -> None:
     span_f1 = sum(span_scores) / len(span_scores) if span_scores else 0.0
     frame_exact = frame_matches / total if total else 0.0
 
+    # Calculate intent classification metrics
+    all_intent_labels = set()
+    for row in gold_rows.values():
+        all_intent_labels.update(row.get("intent_labels", []))
+    intent_labels_set = sorted(list(all_intent_labels))
+
+    tp_c = {lbl: 0 for lbl in intent_labels_set}
+    fp_c = {lbl: 0 for lbl in intent_labels_set}
+    fn_c = {lbl: 0 for lbl in intent_labels_set}
+
+    for qid, gold_row in gold_rows.items():
+        if qid not in pred_rows:
+            continue
+        pred_row = pred_rows[qid]
+
+        gold_intents = set(gold_row.get("intent_labels", []))
+        pred_intents = set(pred_row.get("intent_labels", []))
+
+        for lbl in intent_labels_set:
+            g_has = lbl in gold_intents
+            p_has = lbl in pred_intents
+            if g_has and p_has:
+                tp_c[lbl] += 1
+            elif p_has and not g_has:
+                fp_c[lbl] += 1
+            elif g_has and not p_has:
+                fn_c[lbl] += 1
+
+    per_intent_metrics = {}
+    macro_f1_sum = 0.0
+    total_tp = 0
+    total_fp = 0
+    total_fn = 0
+
+    for lbl in intent_labels_set:
+        tp = tp_c[lbl]
+        fp = fp_c[lbl]
+        fn = fn_c[lbl]
+
+        total_tp += tp
+        total_fp += fp
+        total_fn += fn
+
+        prec = tp / (tp + fp) if (tp + fp) > 0 else 0.0
+        rec = tp / (tp + fn) if (tp + fn) > 0 else 0.0
+        f1_val = 2 * prec * rec / (prec + rec) if (prec + rec) > 0 else 0.0
+
+        per_intent_metrics[lbl] = {"precision": prec, "recall": rec, "f1": f1_val, "support": tp + fn}
+        macro_f1_sum += f1_val
+
+    macro_f1 = macro_f1_sum / len(intent_labels_set) if intent_labels_set else 0.0
+    micro_prec = total_tp / (total_tp + total_fp) if (total_tp + total_fp) > 0 else 0.0
+    micro_rec = total_tp / (total_tp + total_fn) if (total_tp + total_fn) > 0 else 0.0
+    micro_f1 = 2 * micro_prec * micro_rec / (micro_prec + micro_rec) if (micro_prec + micro_rec) > 0 else 0.0
+
     metrics = {
         "examples": total,
         "span_f1": span_f1,
         "frame_exact": frame_exact,
+        "intent_micro_f1": micro_f1,
+        "intent_macro_f1": macro_f1,
+        "per_intent_metrics": per_intent_metrics
     }
 
     if args.output:

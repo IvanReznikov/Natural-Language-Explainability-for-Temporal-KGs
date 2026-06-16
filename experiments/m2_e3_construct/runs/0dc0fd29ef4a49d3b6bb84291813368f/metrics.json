@@ -1,0 +1,6 @@
+{
+  "run_id": "0dc0fd29ef4a49d3b6bb84291813368f",
+  "examples": 1137,
+  "template_accuracy": 1.0,
+  "notes": "Improved query construction matching canonical schema."
+}
