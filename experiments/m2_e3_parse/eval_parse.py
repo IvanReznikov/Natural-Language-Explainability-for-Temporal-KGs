@@ -51,7 +51,22 @@ def main() -> None:
         pred_spans = [span_key(s) for s in pred_row.get("spans", [])]
         span_scores.append(f1(gold_spans, pred_spans))
 
-        if gold_row.get("frame", {}) == pred_row.get("frame", {}):
+        def normalize_val(val) -> str:
+            import re
+            s = str(val).lower().strip()
+            s = re.sub(r"\b(the|a|an)\b", "", s)
+            s = re.sub(r'[.,\/#!$%\^&\*;:{}=\-_`~()?]', '', s)
+            return re.sub(r"\s+", " ", s).strip()
+
+        def frames_equal(f1: dict, f2: dict) -> bool:
+            if set(f1.keys()) != set(f2.keys()):
+                return False
+            for k in f1:
+                if normalize_val(f1[k]) != normalize_val(f2[k]):
+                    return False
+            return True
+
+        if frames_equal(gold_row.get("frame", {}), pred_row.get("frame", {})):
             frame_matches += 1
 
     span_f1 = sum(span_scores) / len(span_scores) if span_scores else 0.0

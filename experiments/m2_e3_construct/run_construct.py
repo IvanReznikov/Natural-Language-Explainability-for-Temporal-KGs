@@ -64,8 +64,14 @@ def normalize_val(val, qid: str, row_mappings: Dict[str, Dict[str, str]], global
     if val_lower in global_mappings:
         return global_mappings[val_lower]
         
-    cleaned = re.sub(r"[^a-zA-Z0-9]+", "_", val_str.lower())
+    cleaned = val_lower
+    # Strip common question prefixes and determiners
+    cleaned = re.sub(r"^(is|did|does|was|were|are|why|how|what|who|when|where|the|a|an)\s+", "", cleaned)
+    # Strip common trailing verbs
+    cleaned = re.sub(r"\s+(?:signing|signed|built|founded|launched|opened|invented|completed|declared|announced|established|occur|happen|start|end|begin|finish|take place)$", "", cleaned)
+    cleaned = re.sub(r"[^a-zA-Z0-9]+", "_", cleaned)
     cleaned = re.sub(r"_+", "_", cleaned).strip("_")
+    cleaned = cleaned.replace("fine_tuning", "finetuning")
     return cleaned
 
 
@@ -102,7 +108,7 @@ def build_template_improved(frame: Dict, intents: List[str], qid: str, row_mappi
     # 4. Prediction
     if "prediction" in intents:
         metric = get_val("metric")
-        date = get_val("date") or get_val("time")
+        date = get_val("date") or get_val("time") or get_val("period")
         return f"PREDICT(metric='{metric}', date='{date}')"
 
     # 5. Interval
@@ -175,6 +181,11 @@ def build_template_improved(frame: Dict, intents: List[str], qid: str, row_mappi
         return f"SEQUENCE(anchor='{anchor_val}', relation='{get_val('relation')}')"
 
     return "GENERIC(frame)"
+
+
+def build_template(frame: Dict) -> str:
+    """Legacy wrapper for backward compatibility in tests."""
+    return build_template_improved(frame, intents=[], qid="", row_mappings={}, global_mappings={})
 
 
 def main() -> None:

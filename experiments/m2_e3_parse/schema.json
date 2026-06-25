@@ -1,19 +1,169 @@
 {
-  "id": "string",
-  "text": "string",
-  "intent_labels": ["string"],
-  "spans": [
-    {
-      "label": "string",
-      "start": "int (char index)",
-      "end": "int (char index, exclusive)",
-      "text": "string"
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "M2-E3 Temporal Query Frame Schema",
+  "description": "Defines the per-intent frame schema and slot semantics for the Milestone 2 query parsing pipeline.",
+  "type": "object",
+  "required": ["id", "text", "intent_labels"],
+  "properties": {
+    "id":   { "type": "string", "description": "Unique example identifier, e.g. 'q001'" },
+    "text": { "type": "string", "description": "Raw natural-language query" },
+    "intent_labels": {
+      "type": "array",
+      "items": { "type": "string", "enum": [
+        "point_in_time", "interval", "prediction", "aggregation",
+        "sequence", "explanation", "causal", "comparative", "overlap"
+      ]},
+      "description": "Ordered list of intent labels; first element is the primary intent. 'explanation' always co-occurs with 'sequence' (see note below)."
+    },
+    "spans": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["label", "start", "end", "text"],
+        "properties": {
+          "label": { "type": "string", "description": "Slot role, e.g. 'event', 'metric', 'cause'" },
+          "start": { "type": "integer", "description": "Character start offset (inclusive)" },
+          "end":   { "type": "integer", "description": "Character end offset (exclusive)" },
+          "text":  { "type": "string",  "description": "Surface text of the span" }
+        }
+      }
+    },
+    "frame": {
+      "type": "object",
+      "description": "Structured slot-value dict. The valid keys depend on the primary intent (see per-intent schemas below).",
+      "additionalProperties": { "type": "string" }
+    },
+    "canonical_query": {
+      "type": "string",
+      "description": "Constructed canonical query string, e.g. POINT(event='eiffel_tower_opening', date='1889-05-06')"
     }
-  ],
-  "frame": {
-    "slots": "free-form dict of extracted arguments"
   },
-  "canonical_query": "string (canonical form for construct/optimize)",
-  "cost_before": "float (mock cost/latency estimate)",
-  "cost_after": "float (optional, for optimization eval)"
+
+  "definitions": {
+
+    "point_in_time": {
+      "description": "Asks for the date/time at which a named event occurred. The 'time' field is the ANSWER to be retrieved from the knowledge graph — it is NOT extracted from the query text. The query text supplies the event name; the KB returns the date. If the query text already contains a date (e.g. 'track bandwidth during the 2012 Olympics'), model this as 'point_in_time' with the date as additional context in the frame.",
+      "frame_keys": {
+        "event": { "required": true, "description": "Canonical snake_case name of the event or entity whose date is sought. Extracted from query text." },
+        "time":  { "required": false, "description": "The temporal answer (ISO-8601 date or year). Populated by KB lookup at inference time, NOT extracted from the query text. Gold labels include this; model predictions typically leave it empty." }
+      },
+      "canonical_form": "POINT(event='<event>', date='<time>')",
+      "example": {
+        "text": "When was the Treaty of Rome signed?",
+        "frame": { "event": "Treaty of Rome signed" },
+        "canonical_query": "POINT(event='treaty_of_rome_signing', date='1957-03-25')"
+      }
+    },
+
+    "interval": {
+      "description": "Asks for the value of a metric over a continuous date range.",
+      "frame_keys": {
+        "metric": { "required": true,  "description": "The measured quantity (snake_case)." },
+        "start":  { "required": false, "description": "Start year or ISO-8601 date." },
+        "end":    { "required": false, "description": "End year or ISO-8601 date." },
+        "period": { "required": false, "description": "Alternative to start/end when expressed as a quarter, e.g. '2023-Q3'." }
+      },
+      "canonical_form": "INTERVAL(metric='<metric>', start='<start>', end='<end>')",
+      "example": {
+        "text": "Show bounce rate from 2020 to 2022",
+        "frame": { "metric": "bounce_rate", "start": "2020", "end": "2022" },
+        "canonical_query": "INTERVAL(metric='bounce_rate', start='2020', end='2022')"
+      }
+    },
+
+    "prediction": {
+      "description": "Asks for a forecast of a metric at a future date or period. Both 'date' (a specific year) and 'period' (a quarter like '2028-Q2') are valid target expressions. If the query contains a bare year, store it in 'date'; if it contains a quarter, store it in 'period'. Do NOT require both simultaneously.",
+      "frame_keys": {
+        "metric": { "required": true,  "description": "The metric to be forecast (snake_case)." },
+        "date":   { "required": false, "description": "Target year or ISO date for the forecast. Use when query contains a bare year, e.g. '2029'." },
+        "period": { "required": false, "description": "Target quarter for the forecast, e.g. '2028-Q2'. Use when query explicitly mentions a quarter." }
+      },
+      "canonical_form": "PREDICT(metric='<metric>', date='<date_or_period>')",
+      "example": {
+        "text": "Predict global gaming market revenue for 2027",
+        "frame": { "metric": "global_gaming_market_revenue", "date": "2027" },
+        "canonical_query": "PREDICT(metric='global_gaming_market_revenue', date='2027')"
+      }
+    },
+
+    "aggregation": {
+      "description": "Asks for a summary statistic of a metric over a period, optionally filtered by region.",
+      "frame_keys": {
+        "metric": { "required": true,  "description": "The measured quantity (snake_case)." },
+        "period": { "required": true,  "description": "The time bucket, e.g. '2023-Q3' or '2023'." },
+        "region": { "required": false, "description": "Geographic filter, e.g. 'North America'." }
+      },
+      "canonical_form": "AGG(metric='<metric>', period='<period>'[, region='<region>'])",
+      "example": {
+        "text": "Total revenue for Q3 2023 in North America",
+        "frame": { "metric": "revenue", "period": "2023-Q3", "region": "North America" },
+        "canonical_query": "AGG(metric='revenue', period='2023-Q3', region='north_america')"
+      }
+    },
+
+    "sequence": {
+      "description": "Asks what happened before or after a named anchor event, or what causal chain surrounded an event. This is the PRIMARY intent for ordering/sequencing questions.",
+      "frame_keys": {
+        "metric":       { "required": false, "description": "Metric that changed (if present), e.g. 'latency'." },
+        "anchor_event": { "required": false, "description": "The reference event (raw surface text), e.g. 'the patch'." },
+        "anchor":       { "required": false, "description": "Alias for anchor_event; used when no metric is present." },
+        "relation":     { "required": true,  "description": "Temporal relation: 'before', 'after', or 'followed'." }
+      },
+      "canonical_form": "SEQUENCE([metric='<metric>',] anchor='<anchor>', relation='<relation>')",
+      "example": {
+        "text": "Why did latency rise after the patch?",
+        "frame": { "metric": "latency", "anchor_event": "the patch", "relation": "after" },
+        "canonical_query": "SEQUENCE(metric='latency', anchor='patch', relation='after')"
+      }
+    },
+
+    "explanation": {
+      "description": "NOT a standalone primary intent. 'explanation' is a modifier label that always co-occurs with 'sequence' (intent_labels = ['explanation', 'sequence']). It signals that the question is asking for a causal explanation of a sequence event rather than merely asking what the sequence was. The frame schema is identical to 'sequence'. Downstream, 'explanation+sequence' queries produce SEQUENCE canonical queries.",
+      "frame_keys": "Same as sequence",
+      "note": "Do NOT model 'explanation' as an independent frame type. Treat it as ['explanation', 'sequence'] with sequence frame keys."
+    },
+
+    "causal": {
+      "description": "Asks whether a specific cause produced a specific effect. Both cause and effect must be explicitly extractable from the query text.",
+      "frame_keys": {
+        "cause":  { "required": true, "description": "The proposed cause (snake_case or raw text)." },
+        "effect": { "required": true, "description": "The proposed effect (snake_case or raw text)." }
+      },
+      "canonical_form": "CAUSAL(cause='<cause>', effect='<effect>')",
+      "example": {
+        "text": "Did the network partition cause the service outage?",
+        "frame": { "cause": "network partition", "effect": "service outage" },
+        "canonical_query": "CAUSAL(cause='network_partition', effect='service_outage')"
+      }
+    },
+
+    "comparative": {
+      "description": "Asks for a comparison of a metric between two time points.",
+      "frame_keys": {
+        "metric": { "required": true, "description": "The metric to compare (snake_case)." },
+        "a":      { "required": true, "description": "First time point or cohort." },
+        "b":      { "required": true, "description": "Second time point or cohort." }
+      },
+      "canonical_form": "COMPARE(metric='<metric>', a='<a>', b='<b>')",
+      "example": {
+        "text": "Compare bounce rate: 2022 vs 2023",
+        "frame": { "metric": "bounce_rate", "a": "2022", "b": "2023" },
+        "canonical_query": "COMPARE(metric='bounce_rate', a='2022', b='2023')"
+      }
+    },
+
+    "overlap": {
+      "description": "Asks for concurrent or overlapping events within a time window.",
+      "frame_keys": {
+        "event":  { "required": true, "description": "Event or entity type to check for overlap." },
+        "period": { "required": true, "description": "Time window, e.g. '2023-Q4'." }
+      },
+      "canonical_form": "OVERLAP(event='<event>', period='<period>')",
+      "example": {
+        "text": "Find overlapping maintenance windows in Q3 2024",
+        "frame": { "event": "maintenance windows", "period": "2024-Q3" },
+        "canonical_query": "OVERLAP(event='maintenance_windows', period='2024-Q3')"
+      }
+    }
+  }
 }

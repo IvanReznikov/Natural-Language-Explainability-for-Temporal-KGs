@@ -22,6 +22,7 @@
 |-----------|-------------------|
 | M2-E2 | 15-run TF-IDF ablation sweep (artifacts committed); top macro F1 **0.851** (T13/T15). Neural M16 achieves **0.911** and hybrid M17 achieves **0.970** — milestone target >0.90 met. |
 | M2-E3 | Parser + intent hybrid; test split 115 rows; 0 validation errors; intent macro F1 **0.9703**. Model weights available via download script. Canonical construct run: 1,137/1,137 templates correct. |
+| M2-E3 (Qwen) | Fine-tuned `Qwen/Qwen2.5-0.5B-Instruct` model with LoRA; test split 210 rows; intent match **99.5%**, exact match strict **80.0%** / normalized **82.4%** / fuzzy **83.8%**. |
 | M2-E4 | Taxonomy classification; best test accuracy **0.993** and macro F1 **0.994** with linear SVM (E6). |
 | M2-E5 | Trace/meta-query tooling validated on the sample corpus; mean overhead **0.005 ms** per trace batch. |
 | M2-E6 | Trigger/query/result store chain validated end to end, including stale marking on KB update. |

@@ -1,0 +1,61 @@
+{
+  "total_merged": 2100,
+  "splits": {
+    "train": 1680,
+    "val": 210,
+    "test": 210
+  },
+  "intent_distribution": {
+    "all": {
+      "AGG": 441,
+      "CAUSAL": 243,
+      "COMPARE": 126,
+      "INTERVAL": 172,
+      "OVERLAP": 111,
+      "POINT": 341,
+      "PREDICT": 270,
+      "SEQUENCE": 396
+    },
+    "train": {
+      "AGG": 344,
+      "CAUSAL": 195,
+      "COMPARE": 94,
+      "INTERVAL": 144,
+      "OVERLAP": 86,
+      "POINT": 275,
+      "PREDICT": 218,
+      "SEQUENCE": 324
+    },
+    "val": {
+      "AGG": 53,
+      "CAUSAL": 22,
+      "COMPARE": 18,
+      "INTERVAL": 10,
+      "OVERLAP": 12,
+      "POINT": 29,
+      "PREDICT": 24,
+      "SEQUENCE": 42
+    },
+    "test": {
+      "AGG": 44,
+      "CAUSAL": 26,
+      "COMPARE": 14,
+      "INTERVAL": 18,
+      "OVERLAP": 13,
+      "POINT": 37,
+      "PREDICT": 28,
+      "SEQUENCE": 30
+    }
+  },
+  "sources": {
+    "base_gold": 1137,
+    "extra_batches": 963,
+    "duplicates_removed": 0
+  },
+  "config": {
+    "seed": 42,
+    "train_ratio": 0.8,
+    "val_ratio": 0.1,
+    "model_target": "Qwen/Qwen2.5-0.5B-Instruct"
+  }
+}

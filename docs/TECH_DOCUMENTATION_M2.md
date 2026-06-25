@@ -2,7 +2,7 @@
 
 ## Scope
 - M2-E2: Query intent classification (multi-label baseline, TF-IDF + LR/SVM)
-- M2-E3: Parser + intent hybrid (Flan-T5-small + rules + MiniLM intent)
+- M2-E3: Parser + intent hybrid (Flan-T5-small / Qwen-2.5-0.5B-Instruct LoRA + rules)
 - M2-E4: Result taxonomy classification (word/char TF-IDF + LinearSVC)
 - M2-E5: Trace recording, meta-queries, contradiction detection
 - M2-E6: Query/result stores, trigger engine, stale marking
@@ -10,7 +10,7 @@
 
 ## Data Inventory
 - Intent (E2): experiments/m2_e2_intent/data/annotated_queries.jsonl (1,160 rows; 8 intents)
-- Parser (E3): experiments/m2_e3_parse/data/temporal_queries_gold.jsonl (1,137 rows; seed=13 splits)
+- Parser (E3): experiments/m2_e3_parse/data/temporal_queries_gold.jsonl (1,137 rows; seed=13 splits) and experiments/m2_e3_parse/data/temporal_queries_merged.jsonl (2,100 rows; splits_qwen)
 - Taxonomy (E4): experiments/m2_e4_taxonomy/data/{taxonomy.jsonl,summaries.jsonl,narrative_consistency.jsonl} (~1.4k rows each), splits at experiments/m2_e4_taxonomy/data/splits
 - Traces (E5): synthetic via experiments/m2_e5_trace_meta_query/generate_trace_corpus.py (default 1000); curated sample experiments/m2_e5_trace_meta_query/output/small_traces.jsonl
 - Queries (E6): synthetic via experiments/m2_e6_query_store_triggers/generate_query_corpus.py (default 500)
@@ -25,10 +25,17 @@
 - Usage: `python experiments/m2_e2_intent/run_intent_classifier.py --dataset experiments/m2_e2_intent/data/annotated_queries.jsonl --output-dir experiments/m2_e2_intent/results --use-char-ngrams --char-ngram-min 3 --char-ngram-max 5 --char-max-features 20000 --calibration isotonic --threshold 0.45`.
 
 ### M2-E3 - Parser + Intent Hybrid
-- Data: experiments/m2_e3_parse/data/temporal_queries_gold.jsonl with splits at experiments/m2_e3_parse/data/splits (train 909 / val 113 / test 115).
-- Models: intent encoder (sentence-transformers/all-MiniLM-L6-v2, 3 epochs), parser (Flan-T5-small, 3 epochs); artifacts in experiments/m2_e3_parse/artifacts/{intent,parser}.
-- Inference: experiments/m2_e3_parse/run_parse.py combines model output with rule-based validation/fallback for temporal frames; zero validation errors on latest run (test 115 rows).
-- Command example (PowerShell): `$env:PYTHONPATH="."; .venv/Scripts/python experiments/m2_e3_parse/run_parse.py --data experiments/m2_e3_parse/data/splits/test.jsonl --use-model --fallback-on-error --model-threshold 0.25 --output-dir output/m2_e3_eval`.
+* **Legacy Model (Flan-T5)**:
+  - Data: `experiments/m2_e3_parse/data/temporal_queries_gold.jsonl` with splits at `experiments/m2_e3_parse/data/splits` (train 909 / val 113 / test 115).
+  - Models: intent encoder (MiniLM-L6-v2), parser (Flan-T5-small); weights under `experiments/m2_e3_parse/artifacts/{intent,parser}`.
+  - Inference: `run_parse.py` (rules / t5 / t5+fallback modes).
+  - Example command: `python experiments/m2_e3_parse/run_parse.py --data experiments/m2_e3_parse/data/splits/test.jsonl --mode t5+fallback`
+* **Upgrade Model (Qwen-2.5-0.5B-Instruct LoRA)**:
+  - Data: `experiments/m2_e3_parse/data/temporal_queries_merged.jsonl` with stratified splits at `experiments/m2_e3_parse/data/splits_qwen` (train 1680 / val 210 / test 210).
+  - Models: Qwen2.5-0.5B-Instruct fine-tuned with LoRA SFT (rank=16, alpha=32, dropout=0.10); adapter under `experiments/m2_e3_parse/artifacts/qwen_parser_lora/`.
+  - Inference: `run_parse.py` (qwen / qwen+fallback modes).
+  - Pipeline Evaluation: `eval_pipeline.py` compares and benchmarks rules, model-only, and model+fallback modes on the test split, reporting strict, normalized (case/whitespace/determiner stripped), and fuzzy exact matches.
+  - Example command: `python experiments/m2_e3_parse/eval_pipeline.py --test-data experiments/m2_e3_parse/data/splits_qwen/test_prompts.jsonl --gold-data experiments/m2_e3_parse/data/temporal_queries_merged.jsonl --adapter-dir experiments/m2_e3_parse/artifacts/qwen_parser_lora`
 
 ### M2-E4 - Result Taxonomy Classification
 - Data: taxonomy splits at experiments/m2_e4_taxonomy/data/splits/result_taxonomy_{train,val,test}.jsonl (1126/136/148; seed=13); labels: anomaly, category_breakdown, comparison, error, exact_numeric, noop_empty, time_series.
