@@ -1,4 +1,4 @@
-﻿# Milestone 3 — Additional Notes
+# Milestone 3 — Additional Notes
 
 ## Dataset and Artifact Inventory
 
@@ -6,11 +6,11 @@
 - **Evaluation QA set** (`data/jsonls/temporal_evaluation_set_v2.jsonl`): 295 questions (easy=108, medium=125, hard=62). Domains: economics=85, politics=37, sports=33, entertainment=33, technology=32, temporal_reasoning=30, history=19. Types: entity_at_time=62, before_after=59, temporal_comparison_yes_no=52, champion_at_time=27 (+ more).
 - **Precomputed graph** (`data/jsonls/temporal_graph_output_v3/`): the retrieval backbone for M3-E5; this graph index is the main reason graph-grounded systems outperform pure parametric QA.
 - **Fidelity outputs** (`output/m3_e2_fidelity_*/`): runs with `gpt-4.1-nano`, `gpt-4o`, `gpt-5.1`, `gpt-5.2` judges.
-- **Comprehension tasks** (`output/m3_e3a_comprehension/`): 50 tasks × 5 questions with human-collected responses.
+- **Comprehension tasks** (`output/m3_e3a_comprehension/`): 50 tasks × 5 questions exported for participant collection; web UI and LLM simulation pipeline provided.
 - **Utility tasks** (`output/m3_e3b_utility/`): 1,109 tasks for online participant collection.
 - **Cognitive load scenarios** (`output/m3_e3c_cognitive_load/`): 40 scenarios × 4 conditions for online participant collection.
 - **Efficiency analysis** (`output/m3_e4a_efficiency_analysis_methods/`): 1,000 scenarios × 7 methods.
-- **Consistency dataset** (`output/m3_e4b_consistency/`): 1,000 facts × 4 revision types; human study results recorded in filled artifacts.
+- **Consistency dataset** (`output/m3_e4b_consistency/`): 1,000 facts × 4 revision types exported as benchmark dataset; participant-ready results template and LLM simulation prompt provided.
 - **Coherence analysis** (`output/m3_e4c_coherence_analysis_auto/`): 100 × 5 styles; logical=95.3%, semantic=67.1%, narrative=54.0%.
 - **Granularity analysis** (`output/m3_e4d_granularity_analysis_{proxy,methods}/`): 200 × 7 scales.
 - **QA benchmark** (`output/m3_e5_results/`): finalized matrix with 25 configs (`MATRIX.json`): 15 Qwen project runs + 10 OpenAI LCEL comparison runs.
@@ -23,11 +23,11 @@
 |-----------|-------------------|
 | M3-E1 | 51,232-record temporal graph across 35+ domains. |
 | M3-E2 | Fidelity metrics with 4 LLM judges and proxy scoring. |
-| M3-E3a | Comprehension tasks exported and evaluated with participant responses. |
+| M3-E3a | Comprehension benchmark tooling delivered: 50 tasks exported, web UI built, LLM simulation prompt generated. |
 | M3-E3b | Utility portal built for online participant collection. |
 | M3-E3c | Cognitive-load portal built for online participant collection. |
 | M3-E4a | Efficiency analysis across 1,000 scenarios and 7 methods. |
-| M3-E4b | Consistency dataset and revision protocol completed. |
+| M3-E4b | Consistency benchmark dataset delivered: 1,000 facts, 4,000 revision pairs, participant-ready template, and LLM simulation prompt. Analysis tooling provided. |
 | M3-E4c | Coherence analysis completed with logical, semantic, and narrative scores. |
 | M3-E4d | Granularity analysis completed across 200 scenarios and 7 scales. |
 | M3-E5 | Final benchmark matrix with 25 completed runs. |
@@ -37,7 +37,7 @@
 ## Design Decisions
 
 ### M3-E3: Human response collection
-- **E3a** (comprehension): 50 × 5 = 250 questions were exported and evaluated with real participant responses.
+- **E3a** (comprehension): 50 × 5 = 250 questions were exported for participant collection. A web UI (`output/m3_e3a_comprehension/web/`) and an LLM simulation prompt (`output/m3_e3a_comprehension/llm_simulation_prompt.txt`) are provided for response collection and analysis.
 - **E3b/E3c** (utility, cognitive load): online participant portal used for utility and NASA-TLX collection. Web UI at `experiments/m3_e3_human_eval/ui/` handles data collection.
 
 ### M3-E4b: Fact revision consistency protocol

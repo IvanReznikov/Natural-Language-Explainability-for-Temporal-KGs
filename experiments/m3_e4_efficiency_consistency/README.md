@@ -1,4 +1,4 @@
-﻿# M3-E4 - Efficiency & Consistency Metrics (Plan)
+# M3-E4 - Efficiency & Consistency Metrics (Plan)
 
 This plan covers four sub-studies:
 - **M3-E4a**: Generation efficiency benchmarking
@@ -91,14 +91,14 @@ python experiments/m3_e4_efficiency_consistency/run_efficiency.py export \
 	--seed 13
 ```
 
-Analyze runs:
+Analyze runs (reproduces `output/m3_e4a_efficiency_analysis_methods/m3_e4a_efficiency.summary.json`):
 
 ```bash
 python experiments/m3_e4_efficiency_consistency/run_efficiency.py analyze \
 	--runs output/m3_e4a_efficiency/m3_e4a_runs_generated.jsonl \
 	--scenarios output/m3_e4a_efficiency/m3_e4a_scenarios.jsonl \
 	--predictions output/m3_e4a_efficiency/m3_e4a_method_predictions.jsonl \
-	--output-dir output/m3_e4a_efficiency_analysis
+	--output-dir output/m3_e4a_efficiency_analysis_methods
 ```
 
 ### M3-E4b: Consistency Under Revisions
@@ -113,13 +113,18 @@ python experiments/m3_e4_efficiency_consistency/run_consistency.py export \
 	--seed 13
 ```
 
-Analyze results:
+Analyze results (run after filling `m3_e4b_results_template.csv` with evaluation scores):
 
 ```bash
 python experiments/m3_e4_efficiency_consistency/run_consistency.py analyze \
 	--results output/m3_e4b_consistency/m3_e4b_results_template.csv \
 	--output-dir output/m3_e4b_consistency_analysis
 ```
+
+> **Note:** `m3_e4b_results_template.csv` is an unfilled participant template (benchmark tooling deliverable).
+> Fill the `update_accuracy`, `contradiction_detected`, `coherence_rating_1_5`, and `resolution_time_sec` columns
+> before running the analyze step. An LLM simulation prompt is provided at
+> `output/m3_e4b_consistency/llm_simulation_prompt.txt`.
 
 ### M3-E4c: Cross-Explanation Coherence
 
@@ -135,12 +140,12 @@ python experiments/m3_e4_efficiency_consistency/run_coherence.py export \
 	--seed 13
 ```
 
-Analyze scores:
+Analyze scores (reproduces `output/m3_e4c_coherence_analysis_auto/m3_e4c_coherence.summary.json`):
 
 ```bash
 python experiments/m3_e4_efficiency_consistency/run_coherence.py analyze \
 	--explanations output/m3_e4c_coherence/m3_e4c_explanations.jsonl \
-	--output-dir output/m3_e4c_coherence_analysis
+	--output-dir output/m3_e4c_coherence_analysis_auto
 ```
 
 ### M3-E4d: Granularity Robustness
@@ -156,13 +161,13 @@ python experiments/m3_e4_efficiency_consistency/run_granularity.py export \
 	--seed 13
 ```
 
-Analyze scores:
+Analyze scores (reproduces `output/m3_e4d_granularity_analysis_methods/m3_e4d_granularity.summary.json`):
 
 ```bash
 python experiments/m3_e4_efficiency_consistency/run_granularity.py analyze \
-	--variants output/m3_e4d_granularity/m3_e4d_scores_template.csv \
+	--variants output/m3_e4d_granularity/m3_e4d_scaled.jsonl \
 	--scenarios output/m3_e4d_granularity/m3_e4d_scenarios.jsonl \
-	--output-dir output/m3_e4d_granularity_analysis
+	--output-dir output/m3_e4d_granularity_analysis_methods
 ```
 
 ## Success Criteria Checks

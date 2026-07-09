@@ -1,12 +1,25 @@
 # M3-E3a Comprehension Results
+# =============================================================================
+# STATUS: Benchmark tooling deliverable — response placeholder (unfilled).
+# =============================================================================
+#
+# The Milestone 3 deliverables for E3a are the benchmark TOOLING:
+#   - Task export:           output/m3_e3a_comprehension/m3_e3a_tasks.jsonl (50 tasks × 5 questions)
+#   - Web UI for collection: output/m3_e3a_comprehension/web/
+#   - LLM simulation prompt: output/m3_e3a_comprehension/llm_simulation_prompt.txt
+#   - Analysis script:       experiments/m3_e3_human_eval/run_comprehension.py
+#
+# This file is the RESPONSE PLACEHOLDER — fill it before running analysis.
+#
 # Format: one JSON object per line (ComprehensionResponse schema)
 # Fields: participant_id, explanation_id, question_id, question_type, answer, score, response_time_sec, domain, bucket
 #
-# To populate: paste output/m3_e3a_comprehension/llm_simulation_prompt.txt into an LLM
-# and save the JSONL output here.
+# To populate via LLM simulation:
+#   Paste output/m3_e3a_comprehension/llm_simulation_prompt.txt into an LLM (e.g. GPT-4o)
+#   and save the JSONL output here (replacing this file).
 #
-# Then run analysis:
-#   python experiments/m3_e3/run_comprehension.py analyze \
+# To analyze once filled:
+#   python experiments/m3_e3_human_eval/run_comprehension.py analyze \
 #       --tasks output/m3_e3a_comprehension/m3_e3a_tasks.jsonl \
 #       --responses output/m3_e3a_comprehension/m3_e3a_results.jsonl \
-#       --output-dir output/m3_e3a_comprehension_analysis_llm
+#       --output-dir output/m3_e3a_comprehension_analysis
