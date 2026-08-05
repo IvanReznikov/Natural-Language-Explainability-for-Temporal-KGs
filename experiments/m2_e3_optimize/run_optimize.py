@@ -29,7 +29,9 @@ def mock_cost(query: str) -> float:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--data", type=Path, required=True, help="Gold file with canonical_query")
-    parser.add_argument("--pred", type=Path, default=None, help="Optional constructed outputs to optimize")
+    parser.add_argument(
+        "--pred", type=Path, default=None, help="Optional constructed outputs to optimize"
+    )
     parser.add_argument("--output-dir", type=Path, default=Path("runs"))
     args = parser.parse_args()
 
@@ -74,7 +76,7 @@ def main() -> None:
         "run_id": run_id,
         "examples": total,
         "improvement_rate": improved / total if total else 0.0,
-        "notes": "Stub optimizer wraps queries; replace with real rewrites and real cost model."
+        "notes": "Stub optimizer wraps queries; replace with real rewrites and real cost model.",
     }
     with (run_dir / "metrics.json").open("w", encoding="utf-8") as f:
         json.dump(metrics, f, indent=2)

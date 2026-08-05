@@ -79,6 +79,9 @@ def test_relative_with_time_and_range():
     assert any("January 5-7, 2025".lower() == e.text.lower() for e in entities)
 
     normalizer = TemporalNormalizer(default_reference=reference_time)
-    values = [normalizer.normalize(e, context=DocumentContext(reference_time=reference_time)).normalized for e in entities]
+    values = [
+        normalizer.normalize(e, context=DocumentContext(reference_time=reference_time)).normalized
+        for e in entities
+    ]
     assert "2025-12-11T15:00" in values
     assert "2025-01-05/2025-01-07" in values

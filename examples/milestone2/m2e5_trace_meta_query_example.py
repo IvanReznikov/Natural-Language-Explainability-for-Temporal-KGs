@@ -1,9 +1,16 @@
 #!/usr/bin/env python3
 """Run meta-queries over the curated M2-E5 sample traces."""
+
 import json
 from pathlib import Path
 
-from temporal_nlg.tms.meta_query import contradictions, explain_fact, influential_facts, rules_fired, why_not_fired
+from temporal_nlg.tms.meta_query import (
+    contradictions,
+    explain_fact,
+    influential_facts,
+    rules_fired,
+    why_not_fired,
+)
 from temporal_nlg.tms.trace import QueryTrace
 
 
@@ -34,15 +41,17 @@ def main():
         fact_to_explain = t.rule_traces[0].conclusion.get("fact_id") if t.rule_traces else None
         explanation = explain_fact(t, fact_to_explain) if fact_to_explain else None
 
-        print({
-            "query_id": t.query_id,
-            "rules": rid_list,
-            "contradictions": contrad,
-            "influential": infl,
-            "why_not": why_missing,
-            "example_fact": fact_to_explain,
-            "explanation": explanation,
-        })
+        print(
+            {
+                "query_id": t.query_id,
+                "rules": rid_list,
+                "contradictions": contrad,
+                "influential": infl,
+                "why_not": why_missing,
+                "example_fact": fact_to_explain,
+                "explanation": explanation,
+            }
+        )
 
 
 if __name__ == "__main__":

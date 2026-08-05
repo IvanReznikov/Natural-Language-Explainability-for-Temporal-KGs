@@ -59,7 +59,12 @@ def load_embed_model():
     device = _resolve_device(DEVICE_PREF)
     model_dtype = _resolve_dtype(device, DTYPE_PREF)
     log.info("Loading tokenizer and model: %s", MODEL_NAME)
-    log.info("Embedding runtime config: device_pref=%s dtype_pref=%s micro_batch=%d", DEVICE_PREF, DTYPE_PREF, MICRO_BATCH)
+    log.info(
+        "Embedding runtime config: device_pref=%s dtype_pref=%s micro_batch=%d",
+        DEVICE_PREF,
+        DTYPE_PREF,
+        MICRO_BATCH,
+    )
     tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
     load_kwargs = {"low_cpu_mem_usage": True}
     if device.type == "cuda":
@@ -77,7 +82,13 @@ def load_embed_model():
     embed_model.eval()
     if device.type == "cuda":
         gpu_name = torch.cuda.get_device_name(0)
-        log.info("Model loaded on %s (%s) dtype=%s micro_batch=%d", device, gpu_name, model_dtype, MICRO_BATCH)
+        log.info(
+            "Model loaded on %s (%s) dtype=%s micro_batch=%d",
+            device,
+            gpu_name,
+            model_dtype,
+            MICRO_BATCH,
+        )
     else:
         log.info("Model loaded on %s dtype=%s micro_batch=%d", device, model_dtype, MICRO_BATCH)
 
@@ -126,5 +137,7 @@ def embed(req: EmbRequest, request: Request):
     log.info("embed request  n=%d  micro_batch=%d  client=%s", n, MICRO_BATCH, request.client)
     out = _embed_batch(req.input)
     elapsed = time.perf_counter() - t0
-    log.info("embed done     n=%d  elapsed=%.2fs  rate=%.1f items/s", n, elapsed, n / max(elapsed, 1e-6))
+    log.info(
+        "embed done     n=%d  elapsed=%.2fs  rate=%.1f items/s", n, elapsed, n / max(elapsed, 1e-6)
+    )
     return {"object": "list", "data": [{"embedding": v} for v in out]}

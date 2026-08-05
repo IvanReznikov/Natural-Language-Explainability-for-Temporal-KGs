@@ -1,5 +1,6 @@
 ﻿#!/usr/bin/env python3
 """Generate synthetic queries/results for M2-E6 storage tests."""
+
 from __future__ import annotations
 
 import argparse
@@ -15,8 +16,12 @@ from temporal_nlg.tms.result_store import ResultStore
 
 def main():
     parser = argparse.ArgumentParser(description="Generate query/result corpora")
-    parser.add_argument("--queries", type=str, default="output/m2_e6_query_store_triggers/queries.jsonl")
-    parser.add_argument("--results", type=str, default="output/m2_e6_query_store_triggers/results.jsonl")
+    parser.add_argument(
+        "--queries", type=str, default="output/m2_e6_query_store_triggers/queries.jsonl"
+    )
+    parser.add_argument(
+        "--results", type=str, default="output/m2_e6_query_store_triggers/results.jsonl"
+    )
     parser.add_argument("--count", type=int, default=1000)
     parser.add_argument("--seed", type=int, default=42)
     args = parser.parse_args()
@@ -50,4 +55,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

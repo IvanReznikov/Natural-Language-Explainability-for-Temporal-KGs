@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Run all Milestone 3 example scripts."""
+
 from __future__ import annotations
 
 import argparse
@@ -7,7 +8,6 @@ import os
 import subprocess
 import sys
 from pathlib import Path
-
 
 ROOT = Path(__file__).resolve().parents[1]
 TARGET_DIR = ROOT / "examples" / "milestone3"
@@ -35,7 +35,9 @@ def run_scripts(scripts: list[Path], list_only: bool = False, fail_fast: bool = 
     failed = []
     env = os.environ.copy()
     current_pythonpath = env.get("PYTHONPATH", "")
-    env["PYTHONPATH"] = f"{ROOT}{os.pathsep}{current_pythonpath}" if current_pythonpath else str(ROOT)
+    env["PYTHONPATH"] = (
+        f"{ROOT}{os.pathsep}{current_pythonpath}" if current_pythonpath else str(ROOT)
+    )
 
     for script in scripts:
         rel = script.relative_to(ROOT)

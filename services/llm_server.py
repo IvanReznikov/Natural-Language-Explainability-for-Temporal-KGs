@@ -71,4 +71,8 @@ def chat(req: ChatRequest):
     generated_ids = out[0][input_ids.shape[1] :]
     text = tokenizer.decode(generated_ids, skip_special_tokens=True)
     text = clean_assistant_text(text)
-    return {"id": "local-1", "object": "chat.completion", "choices": [{"message": {"role": "assistant", "content": text}}]}
+    return {
+        "id": "local-1",
+        "object": "chat.completion",
+        "choices": [{"message": {"role": "assistant", "content": text}}],
+    }

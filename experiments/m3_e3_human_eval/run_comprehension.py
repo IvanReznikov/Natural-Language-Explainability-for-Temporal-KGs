@@ -220,7 +220,9 @@ def _copy_web_assets(out_dir: Path) -> None:
     if not src.exists():
         return
     (out_dir / "web").mkdir(parents=True, exist_ok=True)
-    (out_dir / "web" / "comprehension.html").write_text(src.read_text(encoding="utf-8"), encoding="utf-8")
+    (out_dir / "web" / "comprehension.html").write_text(
+        src.read_text(encoding="utf-8"), encoding="utf-8"
+    )
 
 
 def export_tasks(args: argparse.Namespace) -> None:
@@ -261,7 +263,12 @@ def export_tasks(args: argparse.Namespace) -> None:
             gold_context=r.get("gold_facts"),
         )
 
-        questions = _make_questions(r, explanation_id=explanation_id, seed=args.seed + idx, n_questions=args.questions_per_item)
+        questions = _make_questions(
+            r,
+            explanation_id=explanation_id,
+            seed=args.seed + idx,
+            n_questions=args.questions_per_item,
+        )
         task = ComprehensionTask(item=item, questions=[q for q in questions])
         tasks_out.append(task.model_dump())
 

@@ -28,7 +28,9 @@ class TemporalTagger:
     needed to exercise normalization and evaluation for M2-E1.
     """
 
-    _MONTH_PATTERN = r"(January|February|March|April|May|June|July|August|September|October|November|December)"
+    _MONTH_PATTERN = (
+        r"(January|February|March|April|May|June|July|August|September|October|November|December)"
+    )
     _WEEKDAY_PATTERN = r"(monday|tuesday|wednesday|thursday|friday|saturday|sunday)"
 
     def __init__(self, config: TaggerConfig | None = None):
@@ -45,7 +47,9 @@ class TemporalTagger:
             re.compile(r"\b(today|yesterday|tomorrow)\b", re.IGNORECASE),
             re.compile(r"\b(last|next)\s+(week|month|year)\b", re.IGNORECASE),
             re.compile(rf"\b(last|next)\s+{self._WEEKDAY_PATTERN}\b", re.IGNORECASE),
-            re.compile(r"\b(today|tomorrow|yesterday)\s+at\s+\d{1,2}(:\d{2})?\s*(am|pm)?\b", re.IGNORECASE),
+            re.compile(
+                r"\b(today|tomorrow|yesterday)\s+at\s+\d{1,2}(:\d{2})?\s*(am|pm)?\b", re.IGNORECASE
+            ),
             re.compile(rf"\bevery\s+{self._WEEKDAY_PATTERN}\b", re.IGNORECASE),
             re.compile(r"\b(every day|daily|weekly|monthly|yearly)\b", re.IGNORECASE),
             re.compile(r"\b(twice a (day|week|month|year))\b", re.IGNORECASE),
@@ -58,7 +62,10 @@ class TemporalTagger:
                 r"(?P<num2>\d+(?:\.\d+)?)\s*(?P<unit2>hours?|hrs?|h|minutes?|mins?|m|seconds?|secs?|s)\b",
                 re.IGNORECASE,
             ),
-            re.compile(r"\b(?P<num>\d+(?:\.\d+)?)\s*(?P<unit>days?|weeks?|months?|years?|hours?|hrs?|h|minutes?|mins?|m|seconds?|secs?|s)\b", re.IGNORECASE),
+            re.compile(
+                r"\b(?P<num>\d+(?:\.\d+)?)\s*(?P<unit>days?|weeks?|months?|years?|hours?|hrs?|h|minutes?|mins?|m|seconds?|secs?|s)\b",
+                re.IGNORECASE,
+            ),
         ]
 
     def tag(self, text: str) -> List[TemporalExpression]:
@@ -92,7 +99,11 @@ class TemporalTagger:
         for pattern in self._absolute_patterns:
             for m in pattern.finditer(text):
                 span = Span(start=m.start(), end=m.end(), text=m.group(0))
-                expr_type = TemporalExpressionType.TIME if ":" in m.group(0) else TemporalExpressionType.DATE
+                expr_type = (
+                    TemporalExpressionType.TIME
+                    if ":" in m.group(0)
+                    else TemporalExpressionType.DATE
+                )
                 matches.append(
                     TemporalExpression(
                         text=m.group(0),
@@ -109,7 +120,11 @@ class TemporalTagger:
                 span = Span(start=m.start(), end=m.end(), text=m.group(0))
                 raw = m.group(0)
                 lowered = raw.lower()
-                is_set = lowered.startswith("every") or "twice a" in lowered or lowered in {"daily", "weekly", "monthly", "yearly", "every day"}
+                is_set = (
+                    lowered.startswith("every")
+                    or "twice a" in lowered
+                    or lowered in {"daily", "weekly", "monthly", "yearly", "every day"}
+                )
                 expr_type = TemporalExpressionType.SET if is_set else TemporalExpressionType.DATE
                 metadata = {"relative": True}
                 if expr_type == TemporalExpressionType.SET:

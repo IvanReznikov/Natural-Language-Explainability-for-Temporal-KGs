@@ -1,12 +1,21 @@
 """Precedence templates for before/after relations."""
+
 from typing import Dict
 
 PRECEDENCE_TEMPLATES = [
     {"id": "prec_before_1", "template": "{first} happened before {second}.", "clarity_score": 4.7},
     {"id": "prec_after_1", "template": "{second} followed {first}.", "clarity_score": 4.6},
     {"id": "prec_order_1", "template": "First {first}, then {second}.", "clarity_score": 4.8},
-    {"id": "prec_when_1", "template": "When {first} finished, {second} began.", "clarity_score": 4.5},
-    {"id": "prec_cause_hint_1", "template": "{first} set the stage for {second}.", "clarity_score": 4.5},
+    {
+        "id": "prec_when_1",
+        "template": "When {first} finished, {second} began.",
+        "clarity_score": 4.5,
+    },
+    {
+        "id": "prec_cause_hint_1",
+        "template": "{first} set the stage for {second}.",
+        "clarity_score": 4.5,
+    },
 ]
 
 

@@ -390,9 +390,7 @@ def _invoke_pure_until_nonempty(llm, question: str) -> tuple[str, int]:
             return last_raw, attempt
 
         if attempt < total_attempts:
-            print(
-                f"[WARN] empty answer from model on attempt {attempt}/{total_attempts}; retrying"
-            )
+            print(f"[WARN] empty answer from model on attempt {attempt}/{total_attempts}; retrying")
 
     return last_raw, total_attempts
 
@@ -410,7 +408,9 @@ def main() -> int:
         default="graph_lcel",
         help="graph_lcel: graph retrieval + LLM answer; pure_llm: question-only LLM baseline",
     )
-    parser.add_argument("--resume", action="store_true", help="Skip model if completed summary exists")
+    parser.add_argument(
+        "--resume", action="store_true", help="Skip model if completed summary exists"
+    )
     parser.add_argument(
         "--allow-fallbacks",
         action="store_true",
@@ -429,7 +429,9 @@ def main() -> int:
         raise SystemExit("OPENAI_API_KEY is not set. Put it in environment or .env")
 
     strict_no_fallback = not args.allow_fallbacks
-    continue_on_error = args.continue_on_error or _is_truthy(os.getenv("OPENAI_CONTINUE_ON_ERROR", "1"))
+    continue_on_error = args.continue_on_error or _is_truthy(
+        os.getenv("OPENAI_CONTINUE_ON_ERROR", "1")
+    )
     if args.mode == "graph_lcel":
         os.environ["GRAPH_STRICT_NO_FALLBACK"] = "1" if strict_no_fallback else "0"
         os.environ.setdefault("GRAPH_ENABLE_PARAPHRASE", "0")
@@ -513,7 +515,9 @@ def main() -> int:
             "status": "running",
             "metrics": {"n": 0, "exact": 0.0, "contains": 0.0, "latency_sec_mean": 0.0},
         }
-        summary_path.write_text(json.dumps(running_summary, indent=2, ensure_ascii=False), encoding="utf-8")
+        summary_path.write_text(
+            json.dumps(running_summary, indent=2, ensure_ascii=False), encoding="utf-8"
+        )
 
         for idx, item in enumerate(rows, start=1):
             question = str(item.get("question") or item.get("query") or "").strip()
@@ -535,7 +539,9 @@ def main() -> int:
 
             try:
                 if args.mode == "graph_lcel":
-                    graph_ctx = pipeline.invoke(question, use_llm=False) if pipeline is not None else {}
+                    graph_ctx = (
+                        pipeline.invoke(question, use_llm=False) if pipeline is not None else {}
+                    )
                     graph_answer_text = str(graph_ctx.get("answer_text") or "")
                     graph_conf = graph_ctx.get("confidence")
                     evidence = list(graph_ctx.get("evidence") or [])
@@ -565,7 +571,11 @@ def main() -> int:
                 error = f"{type(exc).__name__}: {exc}"
 
             latency = time.perf_counter() - t0
-            scores = _score_prediction(prediction, gold) if not error else {"exact": 0.0, "contains": 0.0}
+            scores = (
+                _score_prediction(prediction, gold)
+                if not error
+                else {"exact": 0.0, "contains": 0.0}
+            )
 
             predictions.append(
                 {
@@ -612,7 +622,9 @@ def main() -> int:
                         "metrics": m,
                     }
                 )
-                summary_path.write_text(json.dumps(running_summary, indent=2, ensure_ascii=False), encoding="utf-8")
+                summary_path.write_text(
+                    json.dumps(running_summary, indent=2, ensure_ascii=False), encoding="utf-8"
+                )
                 print(f"  {idx}/{len(rows)} exact={m['exact']:.3f} contains={m['contains']:.3f}")
 
         metrics = _aggregate(predictions)
@@ -634,12 +646,12 @@ def main() -> int:
         print(f"  files: {predictions_path.name}, {debug_path.name}, {summary_path.name}")
         print(f"  exact={metrics['exact']:.3f} contains={metrics['contains']:.3f}")
 
-    (out_root / "MATRIX.json").write_text(json.dumps(matrix, indent=2, ensure_ascii=False), encoding="utf-8")
+    (out_root / "MATRIX.json").write_text(
+        json.dumps(matrix, indent=2, ensure_ascii=False), encoding="utf-8"
+    )
     print(f"Wrote {(out_root / 'MATRIX.json').as_posix()} ({len(matrix)} runs)")
     return 0
 
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
-

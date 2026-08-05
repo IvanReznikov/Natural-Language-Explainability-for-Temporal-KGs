@@ -1,4 +1,5 @@
 """Contradiction detection and root-cause surfacing for traces (M2-E5)."""
+
 from __future__ import annotations
 
 from dataclasses import dataclass

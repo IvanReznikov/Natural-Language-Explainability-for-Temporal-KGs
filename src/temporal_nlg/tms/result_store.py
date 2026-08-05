@@ -1,4 +1,5 @@
 """Result reification storage with freshness tracking (M2-E6)."""
+
 from __future__ import annotations
 
 import json

@@ -2,7 +2,13 @@
 
 from .context_resolver import ContextAwareResolver
 from .normalizer import TemporalNormalizer
-from .schemas import DocumentContext, NormalizedTemporal, Span, TemporalExpression, TemporalExpressionType
+from .schemas import (
+    DocumentContext,
+    NormalizedTemporal,
+    Span,
+    TemporalExpression,
+    TemporalExpressionType,
+)
 from .tagger import TaggerConfig, TemporalTagger
 from .datasets import TemporalDatasetExample, load_jsonl_temporal_dataset
 from .evaluation import evaluate_dataset

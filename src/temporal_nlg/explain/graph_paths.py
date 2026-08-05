@@ -4,6 +4,7 @@ This module produces human-readable explanations for linear paths through a grap
 It is intentionally lightweight so it can be reused by evaluators without
 pulling in a graph DB dependency.
 """
+
 from __future__ import annotations
 
 from dataclasses import dataclass
@@ -13,6 +14,7 @@ from typing import Dict, List, Optional
 @dataclass
 class GraphNode:
     """Lightweight graph node container."""
+
     node_id: str
     label: str
     attrs: Optional[Dict[str, str]] = None
@@ -25,6 +27,7 @@ class GraphNode:
 @dataclass
 class GraphEdge:
     """Lightweight graph edge container."""
+
     source: str
     target: str
     label: str

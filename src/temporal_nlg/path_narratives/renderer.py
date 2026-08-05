@@ -58,7 +58,9 @@ class PathNarrativeRenderer:
         rendered = [self.render_path(ex) for ex in examples]
         flesch_scores = [max(0.0, min(100.0, textstat.flesch_reading_ease(r))) for r in rendered]
         avg_flesch = sum(flesch_scores) / len(flesch_scores) if flesch_scores else 0.0
-        return PathNarrativeReport(rendered=rendered, flesch_scores=flesch_scores, avg_flesch=avg_flesch)
+        return PathNarrativeReport(
+            rendered=rendered, flesch_scores=flesch_scores, avg_flesch=avg_flesch
+        )
 
     @staticmethod
     def load_examples(path: Path) -> List[PathExample]:

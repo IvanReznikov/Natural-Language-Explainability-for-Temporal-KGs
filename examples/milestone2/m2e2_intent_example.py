@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Train and evaluate the M2-E2 intent classifier on a small slice, then print sample predictions."""
+
 import sys
 from pathlib import Path
 from typing import List
@@ -47,11 +48,13 @@ def main():
     _, y_pred = intent_mod.predict(artifacts, test, artifacts["label_thresholds"])
     metrics = intent_mod.evaluate(y_true, y_pred, intent_mod.INTENT_TAXONOMY)
 
-    print({
-        "macro_f1": round(metrics["macro_f1"], 3),
-        "micro_f1": round(metrics["micro_f1"], 3),
-        "subset_accuracy": round(metrics["subset_accuracy"], 3),
-    })
+    print(
+        {
+            "macro_f1": round(metrics["macro_f1"], 3),
+            "micro_f1": round(metrics["micro_f1"], 3),
+            "subset_accuracy": round(metrics["subset_accuracy"], 3),
+        }
+    )
     print("Sample predictions (first 5):")
     describe_examples(test[:5], y_pred[:5], intent_mod.INTENT_TAXONOMY)
 

@@ -20,7 +20,6 @@ from typing import Any, Dict, Iterable, List, Literal, Optional, Sequence, Tuple
 
 from pydantic import BaseModel, Field
 
-
 Bucket = Literal["point", "interval", "sequence", "causal", "overlap", "other"]
 
 
@@ -253,21 +252,37 @@ def aggregate_utility(responses: Sequence[UtilityResponse]) -> Dict[str, Any]:
     if success_with is not None and success_without not in (None, 0.0):
         success_improvement = (success_with - success_without) / success_without
 
-    conf_with = _mean([_safe_float(r.confidence_1_5) for r in with_s if _safe_float(r.confidence_1_5) is not None])
+    conf_with = _mean(
+        [_safe_float(r.confidence_1_5) for r in with_s if _safe_float(r.confidence_1_5) is not None]
+    )
     conf_without = _mean(
-        [_safe_float(r.confidence_1_5) for r in without_s if _safe_float(r.confidence_1_5) is not None]
+        [
+            _safe_float(r.confidence_1_5)
+            for r in without_s
+            if _safe_float(r.confidence_1_5) is not None
+        ]
     )
     conf_delta = None
     if conf_with is not None and conf_without is not None:
         conf_delta = conf_with - conf_without
 
-    time_with = _mean([_safe_float(r.time_sec) for r in with_s if _safe_float(r.time_sec) is not None])
-    time_without = _mean([_safe_float(r.time_sec) for r in without_s if _safe_float(r.time_sec) is not None])
+    time_with = _mean(
+        [_safe_float(r.time_sec) for r in with_s if _safe_float(r.time_sec) is not None]
+    )
+    time_without = _mean(
+        [_safe_float(r.time_sec) for r in without_s if _safe_float(r.time_sec) is not None]
+    )
     time_reduction = None
     if time_with is not None and time_without not in (None, 0.0):
         time_reduction = (time_without - time_with) / time_without
 
-    expert_agreement = _mean([_safe_float(r.expert_agreement) for r in responses if _safe_float(r.expert_agreement) is not None])
+    expert_agreement = _mean(
+        [
+            _safe_float(r.expert_agreement)
+            for r in responses
+            if _safe_float(r.expert_agreement) is not None
+        ]
+    )
 
     return {
         "n_responses": len(responses),
@@ -322,7 +337,10 @@ def aggregate_cognitive_load(responses: Sequence[CognitiveLoadResponse]) -> Dict
     for r in responses:
         by_condition[str(r.condition)].append(r)
 
-    tlx_by_condition = {k: _mean([v for v in (_tlx_mean(r) for r in rs) if v is not None]) for k, rs in sorted(by_condition.items())}
+    tlx_by_condition = {
+        k: _mean([v for v in (_tlx_mean(r) for r in rs) if v is not None])
+        for k, rs in sorted(by_condition.items())
+    }
     mental_effort_by_condition = {
         k: _mean([v for v in (_safe_float(r.mental_effort_0_10) for r in rs) if v is not None])
         for k, rs in sorted(by_condition.items())
@@ -332,7 +350,9 @@ def aggregate_cognitive_load(responses: Sequence[CognitiveLoadResponse]) -> Dict
         for k, rs in sorted(by_condition.items())
     }
     attention_by_condition = {
-        k: _mean([v for v in (_safe_float(r.attention_on_key_ratio_0_1) for r in rs) if v is not None])
+        k: _mean(
+            [v for v in (_safe_float(r.attention_on_key_ratio_0_1) for r in rs) if v is not None]
+        )
         for k, rs in sorted(by_condition.items())
     }
 

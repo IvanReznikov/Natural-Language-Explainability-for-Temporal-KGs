@@ -18,56 +18,44 @@ from pathlib import Path
 # Add src to path for imports
 sys.path.insert(0, str(Path(__file__).parent.parent.parent / "src"))
 
-from temporal_nlg.evaluation.m1_e1_evaluation import (
-    evaluate_and_save,
-    M1E1EvaluatorV3
-)
+from temporal_nlg.evaluation.m1_e1_evaluation import evaluate_and_save, M1E1EvaluatorV3
 
 
 def main():
-    parser = argparse.ArgumentParser(
-        description="Run M1-E1 template evaluation"
-    )
+    parser = argparse.ArgumentParser(description="Run M1-E1 template evaluation")
     parser.add_argument(
         "--examples",
         type=int,
         default=100,
-        help="Number of examples per template type (default: 100)"
+        help="Number of examples per template type (default: 100)",
     )
     parser.add_argument(
         "--output",
         default="output/m1_e1_templates",
-        help="Output directory for results (default: output/m1_e1_templates)"
+        help="Output directory for results (default: output/m1_e1_templates)",
     )
-    parser.add_argument(
-        "--verbose",
-        action="store_true",
-        help="Print detailed results"
-    )
-    
+    parser.add_argument("--verbose", action="store_true", help="Print detailed results")
+
     args = parser.parse_args()
-    
+
     print("=" * 100)
     print("M1-E1: TEMPLATE DEVELOPMENT EVALUATION")
     print("=" * 100)
     print(f"Generating {args.examples} examples per template type...")
     print(f"Output directory: {args.output}")
     print("")
-    
+
     # Run evaluation
-    report, output_dir = evaluate_and_save(
-        output_dir=args.output,
-        n_examples=args.examples
-    )
-    
+    report, output_dir = evaluate_and_save(output_dir=args.output, n_examples=args.examples)
+
     # Print report
     evaluator = M1E1EvaluatorV3()
     evaluator.report = report
     report_text = evaluator.generate_text_report()
-    
+
     print("")
     print(report_text)
-    
+
     # Print sample renders if verbose
     if args.verbose:
         print("")
@@ -81,10 +69,10 @@ def main():
                 print(f"    Output: {result.output[:100]}...")
             else:
                 print(f"    ERROR: {result.error}")
-    
+
     print("")
     print(f"Full results saved to: {output_dir}")
-    
+
     return 0
 
 

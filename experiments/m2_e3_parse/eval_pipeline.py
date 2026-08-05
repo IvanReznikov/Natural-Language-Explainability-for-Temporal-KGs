@@ -61,10 +61,10 @@ from experiments.m2_e3_parse.run_parse import (  # noqa: E402
     save_jsonl,
 )
 
-
 # ---------------------------------------------------------------------------
 # Helpers
 # ---------------------------------------------------------------------------
+
 
 def read_gold_map(gold_path: Path) -> Dict[str, Dict]:
     """Return id → row dict from the merged gold file."""
@@ -87,9 +87,7 @@ def read_test_rows(test_path: Path) -> List[Dict]:
             obj = json.loads(line)
             # Prompt dicts have 'messages' and 'target'
             if "messages" in obj:
-                text = next(
-                    (m["content"] for m in obj["messages"] if m["role"] == "user"), ""
-                )
+                text = next((m["content"] for m in obj["messages"] if m["role"] == "user"), "")
                 rows.append({"id": obj.get("id", ""), "text": text, "_prompt_row": obj})
             else:
                 rows.append(obj)
@@ -99,6 +97,7 @@ def read_test_rows(test_path: Path) -> List[Dict]:
 # ---------------------------------------------------------------------------
 # Metric helpers
 # ---------------------------------------------------------------------------
+
 
 def _span_key(span: Dict) -> Tuple[str, int, int]:
     return str(span.get("label", "")), int(span.get("start", 0)), int(span.get("end", 0))
@@ -114,9 +113,7 @@ def _f1(gold: List, pred: List) -> float:
     return 2 * p * r / (p + r) if (p + r) else 0.0
 
 
-def _intent_f1_micro(
-    gold_rows: Dict[str, Dict], preds: List[Dict]
-) -> float:
+def _intent_f1_micro(gold_rows: Dict[str, Dict], preds: List[Dict]) -> float:
     """Micro-F1 over intent labels (raw label space)."""
     tp = fp = fn = 0
     for pred in preds:
@@ -146,9 +143,7 @@ def _intent_accuracy(gold_rows: Dict[str, Dict], preds: List[Dict]) -> float:
     return correct / total if total else 0.0
 
 
-def _per_intent_accuracy(
-    gold_rows: Dict[str, Dict], preds: List[Dict]
-) -> Dict[str, Dict]:
+def _per_intent_accuracy(gold_rows: Dict[str, Dict], preds: List[Dict]) -> Dict[str, Dict]:
     stats: Dict[str, Dict] = defaultdict(lambda: {"correct": 0, "total": 0})
     for pred in preds:
         qid = pred["id"]
@@ -167,9 +162,10 @@ def _per_intent_accuracy(
 
 def _normalize_val(val: Any) -> str:
     import re
+
     s = str(val).lower().strip()
     s = re.sub(r"\b(the|a|an)\b", "", s)
-    s = re.sub(r'[.,\/#!$%\^&\*;:{}=\-_`~()?]', '', s)
+    s = re.sub(r"[.,\/#!$%\^&\*;:{}=\-_`~()?]", "", s)
     return re.sub(r"\s+", " ", s).strip()
 
 
@@ -203,6 +199,7 @@ def _span_f1(gold_rows: Dict[str, Dict], preds: List[Dict]) -> float:
 # Pipeline runner
 # ---------------------------------------------------------------------------
 
+
 def run_mode(
     mode: str,
     rows: List[Dict],
@@ -226,7 +223,8 @@ def run_mode(
             preds.append(pred)
         else:
             pred, just = parse_row(
-                row, bundles,
+                row,
+                bundles,
                 threshold=0.25,
                 fallback_on_error=use_fallback,
             )
@@ -295,11 +293,19 @@ def print_per_intent_table(metrics: Dict, label: str) -> None:
     log.info("  %s", "-" * 44)
     for intent, s in sorted(per_intent.items()):
         mark = "  ✓" if s["accuracy"] >= 0.70 else "  ✗"
-        log.info("  %-14s  %8d  %8d  %7.1f%%%s",
-                 intent, s["correct"], s["total"], s["accuracy"] * 100, mark)
+        log.info(
+            "  %-14s  %8d  %8d  %7.1f%%%s",
+            intent,
+            s["correct"],
+            s["total"],
+            s["accuracy"] * 100,
+            mark,
+        )
 
 
-def print_frame_field_breakdown(preds: List[Dict], gold_rows: Dict[str, Dict], test_rows: List[Dict], label: str) -> None:
+def print_frame_field_breakdown(
+    preds: List[Dict], gold_rows: Dict[str, Dict], test_rows: List[Dict], label: str
+) -> None:
     import re
     from collections import defaultdict
 
@@ -327,16 +333,20 @@ def print_frame_field_breakdown(preds: List[Dict], gold_rows: Dict[str, Dict], t
         text = r.get("text", "")
         if not text and "_prompt_row" in r:
             text = next(
-                (m["content"] for m in r["_prompt_row"].get("messages", []) if m["role"] == "user"), ""
+                (m["content"] for m in r["_prompt_row"].get("messages", []) if m["role"] == "user"),
+                "",
             )
         if qid:
             test_texts[qid] = text
 
     field_stats = defaultdict(lambda: {"correct": 0, "total": 0})
     time_stats = {
-        "extractive_total": 0, "extractive_correct": 0,
-        "parametric_total": 0, "parametric_correct": 0,
-        "year_match_total": 0, "year_match_correct": 0
+        "extractive_total": 0,
+        "extractive_correct": 0,
+        "parametric_total": 0,
+        "parametric_correct": 0,
+        "year_match_total": 0,
+        "year_match_correct": 0,
     }
 
     for pred in preds:
@@ -380,31 +390,54 @@ def print_frame_field_breakdown(preds: List[Dict], gold_rows: Dict[str, Dict], t
         acc = 100 * s["correct"] / max(s["total"], 1)
         miss = 100 - acc
         mark = "  <-- paraphrase hotspot" if acc < 90 else ""
-        log.info("  %-20s  %8d  %8d  %7.1f%%  %7.1f%%%s",
-                 field, s["correct"], s["total"], acc, miss, mark)
+        log.info(
+            "  %-20s  %8d  %8d  %7.1f%%  %7.1f%%%s",
+            field,
+            s["correct"],
+            s["total"],
+            acc,
+            miss,
+            mark,
+        )
 
-    if time_stats["extractive_total"] or time_stats["parametric_total"] or time_stats["year_match_total"]:
+    if (
+        time_stats["extractive_total"]
+        or time_stats["parametric_total"]
+        or time_stats["year_match_total"]
+    ):
         log.info("\nTemporal / Date Extraction Analysis — %s", label)
         log.info("  %s", "=" * 60)
         if time_stats["extractive_total"]:
             ext_acc = 100 * time_stats["extractive_correct"] / time_stats["extractive_total"]
-            log.info("  Extractive time slots  : %d/%d = %.1f%%",
-                     time_stats["extractive_correct"], time_stats["extractive_total"], ext_acc)
+            log.info(
+                "  Extractive time slots  : %d/%d = %.1f%%",
+                time_stats["extractive_correct"],
+                time_stats["extractive_total"],
+                ext_acc,
+            )
         if time_stats["parametric_total"]:
             param_acc = 100 * time_stats["parametric_correct"] / time_stats["parametric_total"]
-            log.info("  Parametric (Factoid)   : %d/%d = %.1f%%",
-                     time_stats["parametric_correct"], time_stats["parametric_total"], param_acc)
+            log.info(
+                "  Parametric (Factoid)   : %d/%d = %.1f%%",
+                time_stats["parametric_correct"],
+                time_stats["parametric_total"],
+                param_acc,
+            )
         if time_stats["year_match_total"]:
             year_acc = 100 * time_stats["year_match_correct"] / time_stats["year_match_total"]
-            log.info("  Year-only matching     : %d/%d = %.1f%%",
-                     time_stats["year_match_correct"], time_stats["year_match_total"], year_acc)
+            log.info(
+                "  Year-only matching     : %d/%d = %.1f%%",
+                time_stats["year_match_correct"],
+                time_stats["year_match_total"],
+                year_acc,
+            )
         log.info("  %s", "=" * 60)
-
 
 
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
+
 
 def main(argv: Optional[List[str]] = None) -> int:
     ap = argparse.ArgumentParser(
@@ -413,31 +446,37 @@ def main(argv: Optional[List[str]] = None) -> int:
         epilog=__doc__,
     )
     ap.add_argument(
-        "--test-data", type=Path,
+        "--test-data",
+        type=Path,
         default=Path("experiments/m2_e3_parse/data/splits_qwen/test_prompts.jsonl"),
         help="Test split (prompt-format or raw gold jsonl)",
     )
     ap.add_argument(
-        "--gold-data", type=Path,
+        "--gold-data",
+        type=Path,
         default=Path("experiments/m2_e3_parse/data/temporal_queries_merged.jsonl"),
         help="Merged gold file for metric computation",
     )
     ap.add_argument(
-        "--adapter-dir", type=Path,
+        "--adapter-dir",
+        type=Path,
         default=Path("experiments/m2_e3_parse/artifacts/qwen_parser_lora"),
         help="Qwen LoRA adapter directory (optional — omit if adapter not yet trained)",
     )
     ap.add_argument(
-        "--output-dir", type=Path,
+        "--output-dir",
+        type=Path,
         default=Path("experiments/m2_e3_parse/runs/eval_pipeline"),
         help="Where to write per-mode preds + summary JSON",
     )
     ap.add_argument(
-        "--rules-only", action="store_true",
+        "--rules-only",
+        action="store_true",
         help="Run only the rule-based baseline (no model needed)",
     )
     ap.add_argument(
-        "--modes", nargs="+",
+        "--modes",
+        nargs="+",
         default=None,
         choices=["rules", "qwen", "qwen+fallback"],
         help="Specific modes to run (default: all available)",
@@ -445,9 +484,9 @@ def main(argv: Optional[List[str]] = None) -> int:
     args = ap.parse_args(argv)
 
     # Resolve paths
-    test_path   = args.test_data.resolve()
-    gold_path   = args.gold_data.resolve()
-    output_dir  = args.output_dir.resolve()
+    test_path = args.test_data.resolve()
+    gold_path = args.gold_data.resolve()
+    output_dir = args.output_dir.resolve()
     adapter_dir = args.adapter_dir.resolve()
     output_dir.mkdir(parents=True, exist_ok=True)
 
@@ -520,9 +559,12 @@ def main(argv: Optional[List[str]] = None) -> int:
         log.info("  frame_f1        = %.3f", metrics["frame_f1"])
         log.info("  span_f1         = %.3f", metrics["span_f1"])
         if metrics["fallback_rate"] > 0:
-            log.info("  fallback_rate   = %.1f%%  (%d/%d)",
-                     metrics["fallback_rate"] * 100,
-                     metrics["fallback_count"], metrics["examples"])
+            log.info(
+                "  fallback_rate   = %.1f%%  (%d/%d)",
+                metrics["fallback_rate"] * 100,
+                metrics["fallback_count"],
+                metrics["examples"],
+            )
 
     # Summary table
     print_summary_table(all_metrics)
@@ -532,7 +574,9 @@ def main(argv: Optional[List[str]] = None) -> int:
     best_mode = best["mode"]
     print_per_intent_table(best, f"best mode = {best_mode}")
     if best_mode in mode_preds:
-        print_frame_field_breakdown(mode_preds[best_mode], gold_rows, test_rows, f"best mode = {best_mode}")
+        print_frame_field_breakdown(
+            mode_preds[best_mode], gold_rows, test_rows, f"best mode = {best_mode}"
+        )
 
     # Save summary JSON
     summary = {

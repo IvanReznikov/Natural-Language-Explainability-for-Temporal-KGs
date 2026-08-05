@@ -6,6 +6,7 @@ Benchmarks:
 - M3-E2 fidelity metric computation throughput (proxy metrics only)
 - M3-E4a efficiency metric aggregation throughput
 """
+
 from __future__ import annotations
 import json
 import time
@@ -27,14 +28,29 @@ def bench_graph_index_query() -> dict:
         ROOT / "data" / "jsonls" / "temporal_graph_output_v3",
         ROOT / "output" / "temporal_graph_output_v3",
     ]
-    graph_dir = next((path for path in candidate_dirs if (path / "nodes.jsonl").exists() and (path / "edges.jsonl").exists()), None)
+    graph_dir = next(
+        (
+            path
+            for path in candidate_dirs
+            if (path / "nodes.jsonl").exists() and (path / "edges.jsonl").exists()
+        ),
+        None,
+    )
     if graph_dir is None:
-        return {"benchmark": "graph_index_query", "skipped": True, "reason": "graph output artifacts not found"}
+        return {
+            "benchmark": "graph_index_query",
+            "skipped": True,
+            "reason": "graph output artifacts not found",
+        }
 
     index = TemporalGraphIndex(graph_dir)
     labels = [label for label in index.node_label_by_uid.values() if label]
     if not labels:
-        return {"benchmark": "graph_index_query", "skipped": True, "reason": "graph index has no labels"}
+        return {
+            "benchmark": "graph_index_query",
+            "skipped": True,
+            "reason": "graph index has no labels",
+        }
 
     N = min(max(len(labels) * 4, 500), 4000)
     t0 = time.perf_counter()
@@ -69,7 +85,12 @@ def bench_fidelity_proxy() -> dict:
     for item in items[:N]:
         _ = {k: v for k, v in item.items() if isinstance(v, (int, float))}
     elapsed = time.perf_counter() - t0
-    return {"benchmark": "fidelity_proxy", "n": N, "total_sec": elapsed, "per_item_ms": elapsed / N * 1000}
+    return {
+        "benchmark": "fidelity_proxy",
+        "n": N,
+        "total_sec": elapsed,
+        "per_item_ms": elapsed / N * 1000,
+    }
 
 
 def bench_e4_efficiency_aggregation() -> dict:
@@ -77,11 +98,19 @@ def bench_e4_efficiency_aggregation() -> dict:
 
     runs_path = ROOT / "output" / "m3_e4a_efficiency" / "m3_e4a_runs_generated.jsonl"
     if not runs_path.exists():
-        return {"benchmark": "e4_efficiency_aggregation", "skipped": True, "reason": "m3_e4a run logs not found"}
+        return {
+            "benchmark": "e4_efficiency_aggregation",
+            "skipped": True,
+            "reason": "m3_e4a run logs not found",
+        }
 
     rows = _load_jsonl(runs_path)
     if not rows:
-        return {"benchmark": "e4_efficiency_aggregation", "skipped": True, "reason": "empty m3_e4a run log"}
+        return {
+            "benchmark": "e4_efficiency_aggregation",
+            "skipped": True,
+            "reason": "empty m3_e4a run log",
+        }
 
     runs = [
         EfficiencyRun(

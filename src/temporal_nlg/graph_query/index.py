@@ -6,42 +6,41 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional, Set
 
-
 _YEAR_RE = re.compile(r"^-?\d{1,12}$")
 _DATE_YEAR_RE = re.compile(r"^(-?\d{1,12})-\d{2}-\d{2}$")
 
 # Canonical category set — normalises 40+ raw category strings to 10 stable labels.
 # Anything not listed falls back to "concept".
 _CATEGORY_CANONICAL: Dict[str, str] = {
-    "person":         "person",
-    "org":            "org",
-    "group":          "org",
-    "location":       "location",
-    "event":          "event",
-    "phase":          "event",
-    "period":         "event",
-    "interval":       "event",
-    "product":        "product",
-    "technology":     "product",
+    "person": "person",
+    "org": "org",
+    "group": "org",
+    "location": "location",
+    "event": "event",
+    "phase": "event",
+    "period": "event",
+    "interval": "event",
+    "product": "product",
+    "technology": "product",
     "infrastructure": "product",
-    "structure":      "product",
-    "instrument":     "product",
-    "drug":           "product",
-    "treatment":      "product",
-    "work":           "work",
-    "style":          "work",
-    "literature":     "work",
-    "policy":         "policy",
-    "strategy":       "policy",
-    "process":        "policy",
-    "metric":         "metric",
-    "value":          "metric",
-    "attribute":      "metric",
-    "feature":        "metric",
-    "capability":     "metric",
+    "structure": "product",
+    "instrument": "product",
+    "drug": "product",
+    "treatment": "product",
+    "work": "work",
+    "style": "work",
+    "literature": "work",
+    "policy": "policy",
+    "strategy": "policy",
+    "process": "policy",
+    "metric": "metric",
+    "value": "metric",
+    "attribute": "metric",
+    "feature": "metric",
+    "capability": "metric",
     # silenced in prompts — keep as-is so callers can filter them out
-    "date":           "date",
-    "tag":            "tag",
+    "date": "date",
+    "tag": "tag",
     # everything else → concept
 }
 
@@ -184,7 +183,7 @@ class TemporalGraphIndex:
             lnorm = _norm(label)
             if probe in lnorm or lnorm in probe:
                 hits_with_len.append((node_uid, len(lnorm)))
-                
+
         hits_with_len.sort(key=lambda item: item[1])
         return [uid for uid, _ in hits_with_len[:max_hits]]
 

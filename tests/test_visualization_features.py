@@ -4,12 +4,20 @@ Narrative rendering, path explanations, and visualization-related tests.
 
 import pytest
 
-from temporal_nlg.explain import PathNarrativeRenderer as ExplainPathNarrativeRenderer, JustifiedRenderer, path_to_narrative
+from temporal_nlg.explain import (
+    PathNarrativeRenderer as ExplainPathNarrativeRenderer,
+    JustifiedRenderer,
+    path_to_narrative,
+)
 from temporal_nlg.explain.graph_paths import GraphNode, GraphEdge, GraphPathExplanation
 from temporal_nlg.explain.graph_extract import extract_path
 from temporal_nlg.tms.belief_store import BeliefStore, Belief
 from temporal_nlg.tms.justification import JustificationBuilder
-from temporal_nlg.path_narratives.renderer import PathNarrativeRenderer as PathNarrativeRendererCompat, PathExample, PathStep
+from temporal_nlg.path_narratives.renderer import (
+    PathNarrativeRenderer as PathNarrativeRendererCompat,
+    PathExample,
+    PathStep,
+)
 
 
 def test_narrative_styles_and_justification():
@@ -28,7 +36,9 @@ def test_narrative_styles_and_justification():
         evidence=[{"source": "doc", "snippet": "A then B", "weight": 1}],
     )
     store.add_belief(belief)
-    justified = JustifiedRenderer(store, JustificationBuilder()).render_with_justification("b1", narrative["narrative"])
+    justified = JustifiedRenderer(store, JustificationBuilder()).render_with_justification(
+        "b1", narrative["narrative"]
+    )
     assert "supported by" in justified["justification"]
     assert "doc" in justified["justification"]
 
@@ -65,7 +75,11 @@ def test_graph_path_explanation_validates_lengths():
 
 
 def test_graph_path_explanation_rejects_mismatched_edges():
-    nodes = [GraphNode(node_id="n1", label="A"), GraphNode(node_id="n2", label="B"), GraphNode(node_id="n3", label="C")]
+    nodes = [
+        GraphNode(node_id="n1", label="A"),
+        GraphNode(node_id="n2", label="B"),
+        GraphNode(node_id="n3", label="C"),
+    ]
     edges = [GraphEdge(source="n1", target="n2", label="connects")]
     with pytest.raises(ValueError):
         GraphPathExplanation().explain(nodes, edges)
@@ -85,7 +99,10 @@ def test_extract_path_no_path():
 
 
 def test_path_to_narrative_with_supports_and_evidence_chain():
-    adj = {"A": [("B", "before", "t1")], "B": [("C", "enables", "t2")],}
+    adj = {
+        "A": [("B", "before", "t1")],
+        "B": [("C", "enables", "t2")],
+    }
     store = BeliefStore()
     store.add_belief(Belief(belief_id="sup1", payload={"text": "seed"}))
 
@@ -126,7 +143,9 @@ def test_path_to_narrative_without_supports_defaults_evidence():
 
 def test_render_path_and_batch_scores():
     renderer = PathNarrativeRendererCompat()
-    example = PathExample(path_id="p1", steps=[PathStep("A", "leads to", "B", "t1"), PathStep("B", "causes", "C")])
+    example = PathExample(
+        path_id="p1", steps=[PathStep("A", "leads to", "B", "t1"), PathStep("B", "causes", "C")]
+    )
 
     single = renderer.render_path(example)
     assert "A leads to B" in single

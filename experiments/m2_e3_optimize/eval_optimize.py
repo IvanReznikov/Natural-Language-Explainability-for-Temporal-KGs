@@ -12,7 +12,9 @@ def load_jsonl(path: Path) -> List[Dict]:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--gold", type=Path, required=True, help="Gold file with cost_before")
-    parser.add_argument("--pred", type=Path, required=True, help="Optimized outputs with cost_after")
+    parser.add_argument(
+        "--pred", type=Path, required=True, help="Optimized outputs with cost_after"
+    )
     args = parser.parse_args()
 
     gold_rows = {row["id"]: row for row in load_jsonl(args.gold)}

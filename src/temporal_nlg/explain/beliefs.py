@@ -1,4 +1,5 @@
 """Belief tracking and justification utilities."""
+
 from __future__ import annotations
 
 from dataclasses import dataclass, field
@@ -9,6 +10,7 @@ from typing import Dict, List, Optional
 @dataclass
 class Evidence:
     """Atomic evidence snippet supporting or refuting a claim."""
+
     source: str
     snippet: str
     weight: float = 1.0
@@ -18,6 +20,7 @@ class Evidence:
 @dataclass
 class BeliefRecord:
     """Tracked belief with justification."""
+
     claim_id: str
     claim: str
     confidence: float
@@ -44,7 +47,13 @@ class BeliefTracker:
     def __init__(self):
         self._beliefs: Dict[str, BeliefRecord] = {}
 
-    def upsert_belief(self, claim_id: str, claim: str, confidence: float, evidence: Optional[List[Evidence]] = None) -> BeliefRecord:
+    def upsert_belief(
+        self,
+        claim_id: str,
+        claim: str,
+        confidence: float,
+        evidence: Optional[List[Evidence]] = None,
+    ) -> BeliefRecord:
         confidence = max(0.0, min(1.0, confidence))
         record = self._beliefs.get(claim_id)
         if not record:

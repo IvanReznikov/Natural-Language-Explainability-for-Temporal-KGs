@@ -67,18 +67,24 @@ class QwenLocalGenerator:
                 try:
                     from transformers import BitsAndBytesConfig
 
-                    compute_dtype = _resolve_dtype(os.getenv("LOCAL_MODEL_4BIT_COMPUTE_DTYPE", "float16"))
+                    compute_dtype = _resolve_dtype(
+                        os.getenv("LOCAL_MODEL_4BIT_COMPUTE_DTYPE", "float16")
+                    )
                     if compute_dtype == "auto":
                         compute_dtype = torch.float16
                     model_kwargs["quantization_config"] = BitsAndBytesConfig(
                         load_in_4bit=True,
-                        bnb_4bit_quant_type=str(os.getenv("LOCAL_MODEL_4BIT_QUANT_TYPE", "nf4") or "nf4"),
+                        bnb_4bit_quant_type=str(
+                            os.getenv("LOCAL_MODEL_4BIT_QUANT_TYPE", "nf4") or "nf4"
+                        ),
                         bnb_4bit_use_double_quant=_env_true("LOCAL_MODEL_4BIT_DOUBLE_QUANT", True),
                         bnb_4bit_compute_dtype=compute_dtype,
                     )
                     print("[QwenLocalGenerator] 4-bit mode enabled")
                 except Exception as _q_exc:
-                    print(f"[QwenLocalGenerator] 4-bit config unavailable; falling back to standard load: {_q_exc}")
+                    print(
+                        f"[QwenLocalGenerator] 4-bit config unavailable; falling back to standard load: {_q_exc}"
+                    )
 
             model = AutoModelForCausalLM.from_pretrained(self.model_name, **model_kwargs)
             self._pipe = pipeline(
@@ -89,6 +95,7 @@ class QwenLocalGenerator:
             )
         except Exception as e:
             import traceback
+
             traceback.print_exc()
             print(f"Failed to initialize QwenLocalGenerator pipeline: {e}")
             self._pipe = None
@@ -113,9 +120,9 @@ class QwenLocalGenerator:
         messages.append({"role": "user", "content": prompt})
 
         # Prefer non-thinking mode for deterministic short-form QA answers.
-        enable_thinking = str(os.getenv("LOCAL_MODEL_ENABLE_THINKING", "0") or "0").strip().lower() in {
-            "1", "true", "yes", "on"
-        }
+        enable_thinking = str(
+            os.getenv("LOCAL_MODEL_ENABLE_THINKING", "0") or "0"
+        ).strip().lower() in {"1", "true", "yes", "on"}
         try:
             chat_prompt = self._tokenizer.apply_chat_template(
                 messages,
@@ -130,7 +137,9 @@ class QwenLocalGenerator:
                 add_generation_prompt=True,
             )
         kwargs = {
-            "max_new_tokens": int(max_new_tokens if max_new_tokens is not None else self.max_new_tokens),
+            "max_new_tokens": int(
+                max_new_tokens if max_new_tokens is not None else self.max_new_tokens
+            ),
             "do_sample": self.temperature > 0,
             "return_full_text": False,
         }
@@ -150,7 +159,9 @@ class QwenEmbeddingModel:
     """
 
     def __init__(self, model_name: Optional[str] = None):
-        self.model_name = model_name or os.getenv("LOCAL_EMBEDDING_MODEL_NAME", "Qwen/Qwen3-Embedding-0.6B")
+        self.model_name = model_name or os.getenv(
+            "LOCAL_EMBEDDING_MODEL_NAME", "Qwen/Qwen3-Embedding-0.6B"
+        )
         self._model = None
         self._init_model()
 
@@ -161,6 +172,7 @@ class QwenEmbeddingModel:
             self._model = SentenceTransformer(self.model_name)
         except Exception as e:
             import traceback
+
             traceback.print_exc()
             print(f"Failed to initialize QwenEmbeddingModel: {e}")
             self._model = None

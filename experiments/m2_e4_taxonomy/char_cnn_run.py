@@ -13,19 +13,19 @@ random.seed(SEED)
 torch.manual_seed(SEED)
 torch.cuda.manual_seed_all(SEED)
 
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 ROOT = Path(__file__).resolve().parents[2]
-DATA_DIR = ROOT / 'experiments' / 'm2_e4' / 'data' / 'splits'
-TASK_PREFIX = 'result_taxonomy'
+DATA_DIR = ROOT / "experiments" / "m2_e4" / "data" / "splits"
+TASK_PREFIX = "result_taxonomy"
 
-LABEL_KEYS = ['label', 'result_type', 'type']
-TEXT_KEYS = ['text', 'result', 'narrative', 'summary', 'content']
+LABEL_KEYS = ["label", "result_type", "type"]
+TEXT_KEYS = ["text", "result", "narrative", "summary", "content"]
 
 
 def load_jsonl(path: Path):
     out = []
-    with path.open('r', encoding='utf-8') as f:
+    with path.open("r", encoding="utf-8") as f:
         for line in f:
             line = line.strip()
             if not line:
@@ -47,17 +47,18 @@ def example_to_xy(rec):
     if not texts:
         texts = [str(v) for k, v in rec.items() if k not in LABEL_KEYS]
     if label is None:
-        raise ValueError(f'No label key in {rec.keys()}')
-    return '\n'.join(texts), label
+        raise ValueError(f"No label key in {rec.keys()}")
+    return "\n".join(texts), label
 
 
 def load_split(name):
     path = DATA_DIR / f"{TASK_PREFIX}_{name}.jsonl"
     return [example_to_xy(r) for r in load_jsonl(path)]
 
-train = load_split('train')
-val = load_split('val')
-test = load_split('test')
+
+train = load_split("train")
+val = load_split("val")
+test = load_split("test")
 
 labels = sorted({y for _, y in train})
 label_to_id = {l: i for i, l in enumerate(labels)}
@@ -98,7 +99,15 @@ test_loader = DataLoader(test_ds, batch_size=BATCH)
 
 
 class CharCNN(nn.Module):
-    def __init__(self, vocab_size, num_classes, embed_dim=32, num_filters=64, kernel_sizes=(3, 4, 5), dropout=0.3):
+    def __init__(
+        self,
+        vocab_size,
+        num_classes,
+        embed_dim=32,
+        num_filters=64,
+        kernel_sizes=(3, 4, 5),
+        dropout=0.3,
+    ):
         super().__init__()
         self.embed = nn.Embedding(vocab_size, embed_dim, padding_idx=PAD)
         self.convs = nn.ModuleList([nn.Conv1d(embed_dim, num_filters, k) for k in kernel_sizes])
@@ -160,8 +169,18 @@ pat_left = PATIENCE
 for epoch in range(1, EPOCHS + 1):
     tr_loss, tr_acc = run_epoch(train_loader, train_mode=True)
     va_loss, va_acc = run_epoch(val_loader, train_mode=False)
-    history.append({'epoch': epoch, 'train_loss': tr_loss, 'train_acc': tr_acc, 'val_loss': va_loss, 'val_acc': va_acc})
-    print(f"Epoch {epoch}: train_loss={tr_loss:.3f} train_acc={tr_acc:.3f} | val_loss={va_loss:.3f} val_acc={va_acc:.3f}")
+    history.append(
+        {
+            "epoch": epoch,
+            "train_loss": tr_loss,
+            "train_acc": tr_acc,
+            "val_loss": va_loss,
+            "val_acc": va_acc,
+        }
+    )
+    print(
+        f"Epoch {epoch}: train_loss={tr_loss:.3f} train_acc={tr_acc:.3f} | val_loss={va_loss:.3f} val_acc={va_acc:.3f}"
+    )
     if va_acc > best_val:
         best_val = va_acc
         best_state = {k: v.cpu() for k, v in model.state_dict().items()}
@@ -169,7 +188,7 @@ for epoch in range(1, EPOCHS + 1):
     else:
         pat_left -= 1
         if pat_left <= 0:
-            print('Early stop')
+            print("Early stop")
             break
 
 if best_state:
@@ -189,7 +208,7 @@ def evaluate(loader):
             ys.extend(yb.cpu().tolist())
             ps.extend(pred.cpu().tolist())
     acc = accuracy_score(ys, ps)
-    macro = f1_score(ys, ps, average='macro')
+    macro = f1_score(ys, ps, average="macro")
     return acc, macro
 
 
@@ -198,9 +217,19 @@ test_acc, test_f1 = evaluate(test_loader)
 print(f"Val acc={val_acc:.3f} macro_f1={val_f1:.3f}")
 print(f"Test acc={test_acc:.3f} macro_f1={test_f1:.3f}")
 
-out_dir = ROOT / 'output' / 'm2_e4_taxonomy' / 'e4a_taxonomy'
+out_dir = ROOT / "output" / "m2_e4_taxonomy" / "e4a_taxonomy"
 out_dir.mkdir(parents=True, exist_ok=True)
 metrics_path = out_dir / "char_cnn.json"
-with metrics_path.open('w', encoding='utf-8') as f:
-    json.dump({'val_acc': val_acc, 'val_macro_f1': val_f1, 'test_acc': test_acc, 'test_macro_f1': test_f1, 'history': history}, f, indent=2)
-print('Saved metrics to', metrics_path)
+with metrics_path.open("w", encoding="utf-8") as f:
+    json.dump(
+        {
+            "val_acc": val_acc,
+            "val_macro_f1": val_f1,
+            "test_acc": test_acc,
+            "test_macro_f1": test_f1,
+            "history": history,
+        },
+        f,
+        indent=2,
+    )
+print("Saved metrics to", metrics_path)

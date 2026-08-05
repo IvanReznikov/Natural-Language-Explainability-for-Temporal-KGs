@@ -16,17 +16,17 @@ from unittest.mock import Mock
 class LLMGenerator:
     """
     LLM-based generator for temporal fact verbalization.
-    
+
     Uses language models to generate natural language explanations
     from temporal facts when templates are insufficient.
-    
+
     Example:
         >>> from temporal_nlg.models import LLMGenerator
         >>> generator = LLMGenerator(model="gpt-4.1-nano")
         >>> fact = TemporalFact(...)
         >>> output = generator.generate(fact)
     """
-    
+
     def __init__(
         self,
         model: str = "gpt-4.1-nano",
@@ -37,7 +37,7 @@ class LLMGenerator:
     ):
         """
         Initialize LLM generator.
-        
+
         Args:
             model: OpenAI model name (default: gpt-4.1-nano for speed/cost)
             temperature: Sampling temperature (default: 0.0 for deterministic). Use None to omit.
@@ -66,8 +66,9 @@ class LLMGenerator:
                 class _StubLLM:
                     def invoke(self, payload):
                         return type("Resp", (), {"content": "stub llm output"})()
+
                 self.llm = _StubLLM()
-        
+
         # Core generation prompt
         self.prompt = prompt or ChatPromptTemplate.from_template("""
 You are a temporal fact verbalizer. Generate a clear, concise explanation.
@@ -83,17 +84,17 @@ Requirements:
 
 Output only the explanation, nothing else.
 """)
-    
+
     def generate(self, fact: TemporalFact) -> str:
         """
         Generate natural language explanation for a temporal fact.
-        
+
         Args:
             fact: TemporalFact instance to verbalize
-            
+
         Returns:
             Natural language explanation string
-            
+
         Raises:
             ValueError: If fact is invalid or generation fails
         """
@@ -122,64 +123,61 @@ Output only the explanation, nothing else.
                 return getattr(response, "content", str(response)).strip()
             except Exception:
                 raise ValueError(f"LLM generation failed: {first_error}")
-    
+
     def _extract_fact_type(self, fact: TemporalFact) -> str:
         """Extract fact type string safely."""
-        if hasattr(fact.fact_type, 'value'):
+        if hasattr(fact.fact_type, "value"):
             return fact.fact_type.value
-        elif hasattr(fact.fact_type, '__str__'):
-            return str(fact.fact_type).split('.')[-1]
+        elif hasattr(fact.fact_type, "__str__"):
+            return str(fact.fact_type).split(".")[-1]
         return "unknown"
-    
+
     def _format_fact_details(self, fact: TemporalFact) -> str:
         """Format fact details for prompt."""
         details = []
-        
-        if hasattr(fact, 'event') and fact.event:
+
+        if hasattr(fact, "event") and fact.event:
             details.append(f"Event: {fact.event}")
-        if hasattr(fact, 'entity') and fact.entity:
+        if hasattr(fact, "entity") and fact.entity:
             details.append(f"Entity: {fact.entity}")
-        if hasattr(fact, 'date') and fact.date:
+        if hasattr(fact, "date") and fact.date:
             details.append(f"Date: {fact.date}")
-        if hasattr(fact, 'start_date') and fact.start_date:
+        if hasattr(fact, "start_date") and fact.start_date:
             details.append(f"Start: {fact.start_date}")
-        if hasattr(fact, 'end_date') and fact.end_date:
+        if hasattr(fact, "end_date") and fact.end_date:
             details.append(f"End: {fact.end_date}")
-        if hasattr(fact, 'context') and fact.context:
+        if hasattr(fact, "context") and fact.context:
             details.append(f"Context: {fact.context}")
-        
+
         return ", ".join(details) if details else str(fact)
-    
-    def batch_generate(
-        self,
-        facts: List[TemporalFact],
-        show_progress: bool = False
-    ) -> List[str]:
+
+    def batch_generate(self, facts: List[TemporalFact], show_progress: bool = False) -> List[str]:
         """
         Generate explanations for multiple facts.
-        
+
         Args:
             facts: List of TemporalFact instances
             show_progress: Show progress bar (requires tqdm)
-            
+
         Returns:
             List of explanation strings
         """
         results = []
-        
+
         iterator = facts
         if show_progress:
             try:
                 from tqdm import tqdm
+
                 iterator = tqdm(facts, desc="Generating")
             except ImportError:
                 pass
-        
+
         for fact in iterator:
             try:
                 result = self.generate(fact)
                 results.append(result)
             except Exception as e:
                 results.append(f"[ERROR: {str(e)}]")
-        
+
         return results

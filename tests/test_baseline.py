@@ -33,7 +33,13 @@ def test_generate_small_batches_per_type():
 
 def test_generate_all_examples_small_batch():
     bundle = generate_all_examples(n_per_type=1)
-    assert set(bundle.keys()) == {"point_in_time", "intervals", "sequences", "causality", "overlaps"}
+    assert set(bundle.keys()) == {
+        "point_in_time",
+        "intervals",
+        "sequences",
+        "causality",
+        "overlaps",
+    }
     assert all(len(v) == 1 for v in bundle.values())
 
 

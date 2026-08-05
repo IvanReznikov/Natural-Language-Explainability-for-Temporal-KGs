@@ -50,28 +50,30 @@ def load_split(name: str):
 
 
 def build_pipeline():
-    return Pipeline([
-        (
-            "features",
-            FeatureUnion(
-                [
-                    (
-                        "word",
-                        TfidfVectorizer(
-                            ngram_range=(1, 2), max_features=20000, min_df=2, lowercase=True
+    return Pipeline(
+        [
+            (
+                "features",
+                FeatureUnion(
+                    [
+                        (
+                            "word",
+                            TfidfVectorizer(
+                                ngram_range=(1, 2), max_features=20000, min_df=2, lowercase=True
+                            ),
                         ),
-                    ),
-                    (
-                        "char",
-                        TfidfVectorizer(
-                            analyzer="char", ngram_range=(3, 5), max_features=40000, min_df=2
+                        (
+                            "char",
+                            TfidfVectorizer(
+                                analyzer="char", ngram_range=(3, 5), max_features=40000, min_df=2
+                            ),
                         ),
-                    ),
-                ]
+                    ]
+                ),
             ),
-        ),
-        ("clf", LinearSVC()),
-    ])
+            ("clf", LinearSVC()),
+        ]
+    )
 
 
 def evaluate(model, X, y):
@@ -114,7 +116,9 @@ def main():
         json.dump(metrics, f, indent=2)
 
     print(f"Saved model to {model_path}")
-    print(f"Metrics: val acc={metrics['val']['acc']:.3f} f1={metrics['val']['macro_f1']:.3f}; test acc={metrics['test']['acc']:.3f} f1={metrics['test']['macro_f1']:.3f}")
+    print(
+        f"Metrics: val acc={metrics['val']['acc']:.3f} f1={metrics['val']['macro_f1']:.3f}; test acc={metrics['test']['acc']:.3f} f1={metrics['test']['macro_f1']:.3f}"
+    )
     print(f"Saved metrics to {metrics_path}")
 
 

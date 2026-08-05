@@ -10,7 +10,13 @@ def test_point_timestamp_accuracy_tiers():
         "domain": "test",
         "time_scope": "point",
         "gold_facts": [
-            {"subject": "Event", "relation": "dated", "object": "", "start": "2020-01-10", "end": "2020-01-10"}
+            {
+                "subject": "Event",
+                "relation": "dated",
+                "object": "",
+                "start": "2020-01-10",
+                "end": "2020-01-10",
+            }
         ],
     }
 
@@ -31,7 +37,13 @@ def test_interval_boundary_accuracy():
         "domain": "test",
         "time_scope": "interval",
         "gold_facts": [
-            {"subject": "Project", "relation": "ran", "object": "", "start": "2020-01-01", "end": "2020-01-10"}
+            {
+                "subject": "Project",
+                "relation": "ran",
+                "object": "",
+                "start": "2020-01-01",
+                "end": "2020-01-10",
+            }
         ],
     }
 

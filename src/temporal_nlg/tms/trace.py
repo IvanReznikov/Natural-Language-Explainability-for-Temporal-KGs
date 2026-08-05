@@ -3,6 +3,7 @@
 Captures rule firing details, tracks instrumentation overhead, and supports
 sampling to keep tracing lightweight.
 """
+
 from __future__ import annotations
 
 import json
@@ -110,10 +111,14 @@ class TraceRecorder:
         self.perf_fn = perf_fn or time.perf_counter
         self.rand_fn = rand_fn or random.random
 
-    def start_query(self, query_id: Optional[str] = None, meta: Optional[Dict[str, Any]] = None) -> QueryTrace:
+    def start_query(
+        self, query_id: Optional[str] = None, meta: Optional[Dict[str, Any]] = None
+    ) -> QueryTrace:
         sampled = self.rand_fn() <= self.sampling_rate
         qid = query_id or f"q_{uuid.uuid4().hex[:8]}"
-        return QueryTrace(query_id=qid, started_at=self.time_fn(), meta=meta or {}, dropped=not sampled)
+        return QueryTrace(
+            query_id=qid, started_at=self.time_fn(), meta=meta or {}, dropped=not sampled
+        )
 
     def complete_query(self, trace: QueryTrace) -> QueryTrace:
         if trace.completed_at is None:

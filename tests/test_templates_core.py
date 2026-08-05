@@ -12,7 +12,9 @@ class DummyTemplate(Template):
 
 
 def test_temporal_fact_validation():
-    fact_valid = TemporalFact(TemplateType.POINT_IN_TIME, {"entity": "E", "event": "H", "date": "2000"})
+    fact_valid = TemporalFact(
+        TemplateType.POINT_IN_TIME, {"entity": "E", "event": "H", "date": "2000"}
+    )
     assert fact_valid.validate() is True
 
     fact_missing = TemporalFact(TemplateType.INTERVAL, {"entity": "E", "event": "H"})

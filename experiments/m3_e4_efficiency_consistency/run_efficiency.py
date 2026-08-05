@@ -14,7 +14,12 @@ from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional, Tuple
 
 from temporal_nlg.evaluation.m3_e2_fidelity import M3E2FidelityEvaluator
-from temporal_nlg.evaluation.m3_e4 import EfficiencyScenario, EfficiencyRun, aggregate_efficiency, bucket_from_time_scope
+from temporal_nlg.evaluation.m3_e4 import (
+    EfficiencyScenario,
+    EfficiencyRun,
+    aggregate_efficiency,
+    bucket_from_time_scope,
+)
 
 
 def _iter_jsonl(path: Path) -> Iterable[dict]:
@@ -44,14 +49,21 @@ def _load_predictions(path: Optional[Path]) -> Dict[Tuple[str, Optional[str]], s
         if not rid:
             continue
         method = obj.get("method")
-        text = obj.get("prediction") or obj.get("generated_text") or obj.get("output") or obj.get("text")
+        text = (
+            obj.get("prediction")
+            or obj.get("generated_text")
+            or obj.get("output")
+            or obj.get("text")
+        )
         if text is None:
             continue
         preds[(str(rid), str(method) if method is not None else None)] = str(text)
     return preds
 
 
-def _prediction_for(preds: Dict[Tuple[str, Optional[str]], str], scenario_id: str, method: Optional[str]) -> Optional[str]:
+def _prediction_for(
+    preds: Dict[Tuple[str, Optional[str]], str], scenario_id: str, method: Optional[str]
+) -> Optional[str]:
     if not preds:
         return None
     key = (str(scenario_id), str(method) if method is not None else None)
@@ -196,7 +208,11 @@ def analyze(args: argparse.Namespace) -> None:
         if rr.quality_proxy is None and evaluator is not None:
             record = scenarios.get(str(rr.scenario_id))
             if record:
-                pred_text = _prediction_for(preds, rr.scenario_id, rr.method) or record.get("explanation_text") or ""
+                pred_text = (
+                    _prediction_for(preds, rr.scenario_id, rr.method)
+                    or record.get("explanation_text")
+                    or ""
+                )
                 metrics = evaluator.evaluate_example(record, prediction_text=str(pred_text))
                 rr.quality_proxy = _quality_proxy_from_metrics(metrics)
         coerced.append(rr)
@@ -224,9 +240,18 @@ def main() -> None:
 
     ap_an = sub.add_parser("analyze")
     ap_an.add_argument("--runs", type=str, required=True, help="CSV or JSONL runs file")
-    ap_an.add_argument("--scenarios", type=str, default=None, help="m3_e4a_scenarios.jsonl (for quality proxy)")
-    ap_an.add_argument("--predictions", type=str, default=None, help="Optional JSONL with {id, method?, prediction}")
-    ap_an.add_argument("--default-method", type=str, default="baseline", help="Method name when runs file is empty")
+    ap_an.add_argument(
+        "--scenarios", type=str, default=None, help="m3_e4a_scenarios.jsonl (for quality proxy)"
+    )
+    ap_an.add_argument(
+        "--predictions",
+        type=str,
+        default=None,
+        help="Optional JSONL with {id, method?, prediction}",
+    )
+    ap_an.add_argument(
+        "--default-method", type=str, default="baseline", help="Method name when runs file is empty"
+    )
     ap_an.add_argument("--output-dir", type=str, required=True)
     ap_an.set_defaults(func=analyze)
 

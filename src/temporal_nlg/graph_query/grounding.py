@@ -14,24 +14,67 @@ import numpy as np
 from temporal_nlg.graph_query.index import GraphEdge, TemporalGraphIndex
 
 # ── Relations that are structural / temporal bookkeeping ─────────────
-STRUCTURAL_RELATIONS: frozenset[str] = frozenset({
-    "spans_year", "within_year", "dated", "has_year",
-    "occurred_on", "start_date", "end_date",
-    "tag_related_to", "inferred_tag",
-})
+STRUCTURAL_RELATIONS: frozenset[str] = frozenset(
+    {
+        "spans_year",
+        "within_year",
+        "dated",
+        "has_year",
+        "occurred_on",
+        "start_date",
+        "end_date",
+        "tag_related_to",
+        "inferred_tag",
+    }
+)
 
 _YEAR_RE = re.compile(r"\b(1\d{3}|2\d{3})\b")
 _DATE_RE = re.compile(r"\b(\d{4})[-/](\d{1,2})(?:[-/](\d{1,2}))?\b")
 _QUOTED_RE = re.compile(r"[\u2018\u2019'\"]+(.+?)[\u2018\u2019'\"]+")
 _TITLE_ENTITY_RE = re.compile(r"\b([A-Z][\w'’.-]*(?:\s+[A-Z][\w'’.-]*){0,3})\b")
 
-_FALLBACK_STOPWORDS: frozenset[str] = frozenset({
-    "who", "what", "which", "where", "when", "why", "how",
-    "was", "were", "is", "are", "did", "does", "do",
-    "the", "a", "an", "and", "or", "of", "in", "on", "at", "to",
-    "before", "after", "during", "between", "from", "with", "for",
-    "first", "last", "year", "time", "country", "city", "company",
-})
+_FALLBACK_STOPWORDS: frozenset[str] = frozenset(
+    {
+        "who",
+        "what",
+        "which",
+        "where",
+        "when",
+        "why",
+        "how",
+        "was",
+        "were",
+        "is",
+        "are",
+        "did",
+        "does",
+        "do",
+        "the",
+        "a",
+        "an",
+        "and",
+        "or",
+        "of",
+        "in",
+        "on",
+        "at",
+        "to",
+        "before",
+        "after",
+        "during",
+        "between",
+        "from",
+        "with",
+        "for",
+        "first",
+        "last",
+        "year",
+        "time",
+        "country",
+        "city",
+        "company",
+    }
+)
 
 
 def _iter_jsonl(path: Path) -> Iterable[dict]:
@@ -54,18 +97,56 @@ def _norm(text: str) -> str:
     return str(text or "").strip().lower()
 
 
-_LEXICAL_STOP_WORDS: frozenset[str] = frozenset({
-    "the", "a", "an", "in", "on", "at", "by", "for", "to", "from", "of",
-    "and", "or", "with", "when", "what", "which", "who", "was", "were", "is",
-    "are", "did", "does", "do", "before", "after", "during", "between", "into",
-    "over", "under", "how", "why", "where", "whose", "whom",
-})
+_LEXICAL_STOP_WORDS: frozenset[str] = frozenset(
+    {
+        "the",
+        "a",
+        "an",
+        "in",
+        "on",
+        "at",
+        "by",
+        "for",
+        "to",
+        "from",
+        "of",
+        "and",
+        "or",
+        "with",
+        "when",
+        "what",
+        "which",
+        "who",
+        "was",
+        "were",
+        "is",
+        "are",
+        "did",
+        "does",
+        "do",
+        "before",
+        "after",
+        "during",
+        "between",
+        "into",
+        "over",
+        "under",
+        "how",
+        "why",
+        "where",
+        "whose",
+        "whom",
+    }
+)
 
 
 def _question_lexical_candidates(question: str, max_terms: int = 10) -> List[str]:
     candidates: List[str] = []
 
-    for m in re.finditer(r"[\"'\u2018\u2019\u201c\u201d]([^\"'\u2018\u2019\u201c\u201d]{2,80})[\"'\u2018\u2019\u201c\u201d]", question):
+    for m in re.finditer(
+        r"[\"'\u2018\u2019\u201c\u201d]([^\"'\u2018\u2019\u201c\u201d]{2,80})[\"'\u2018\u2019\u201c\u201d]",
+        question,
+    ):
         term = m.group(1).strip()
         if term and term not in candidates:
             candidates.append(term)
@@ -76,7 +157,11 @@ def _question_lexical_candidates(question: str, max_terms: int = 10) -> List[str
             candidates.append(phrase)
 
     clean = re.sub(r"[^\w\s\-']", " ", question.lower())
-    words = [w for w in clean.split() if len(w) >= 4 and w not in _LEXICAL_STOP_WORDS and not _YEAR_RE.fullmatch(w)]
+    words = [
+        w
+        for w in clean.split()
+        if len(w) >= 4 and w not in _LEXICAL_STOP_WORDS and not _YEAR_RE.fullmatch(w)
+    ]
     for w in words:
         if w not in candidates:
             candidates.append(w)
@@ -98,7 +183,9 @@ def _top_k(scores: np.ndarray, k: int) -> List[int]:
 
 
 def _find_latest(emb_dir: Path, prefix: str) -> Optional[Path]:
-    candidates = sorted(emb_dir.glob(f"{prefix}_*.npy"), key=lambda p: p.stat().st_mtime, reverse=True)
+    candidates = sorted(
+        emb_dir.glob(f"{prefix}_*.npy"), key=lambda p: p.stat().st_mtime, reverse=True
+    )
     return candidates[0] if candidates else None
 
 
@@ -158,6 +245,7 @@ class GroundingArtifacts:
 @dataclass
 class ScoredEdge:
     """Lightweight scored edge used throughout the new retrieval pipeline."""
+
     edge: GraphEdge
     score: float
 
@@ -165,6 +253,7 @@ class ScoredEdge:
 @dataclass
 class SubgraphResult:
     """Full result from the graph-native retrieval pipeline."""
+
     scored_edges: List[ScoredEdge]
     entity_uids: List[str]
     relation_hints: List[str]
@@ -186,13 +275,20 @@ class SemanticGrounder:
     5. Return ranked edge triples for LLM consumption
     """
 
-    def __init__(self, index: TemporalGraphIndex, qwen_server_url: str = "", qwen_embed_url: str = ""):
+    def __init__(
+        self, index: TemporalGraphIndex, qwen_server_url: str = "", qwen_embed_url: str = ""
+    ):
         self.index = index
-        self.qwen_server_url = (
-            qwen_embed_url or qwen_server_url or ""
-        ).rstrip("/")
-        self.low_mem_mode = str(os.getenv("GRAPH_LOW_MEM_MODE", "0") or "0").strip().lower() in {"1", "true", "yes", "on"}
-        self.disable_vector_grounding = str(os.getenv("GRAPH_DISABLE_GROUNDING_VECTORS", "1" if self.low_mem_mode else "0") or "0").strip().lower() in {"1", "true", "yes", "on"}
+        self.qwen_server_url = (qwen_embed_url or qwen_server_url or "").rstrip("/")
+        self.low_mem_mode = str(os.getenv("GRAPH_LOW_MEM_MODE", "0") or "0").strip().lower() in {
+            "1",
+            "true",
+            "yes",
+            "on",
+        }
+        self.disable_vector_grounding = str(
+            os.getenv("GRAPH_DISABLE_GROUNDING_VECTORS", "1" if self.low_mem_mode else "0") or "0"
+        ).strip().lower() in {"1", "true", "yes", "on"}
         self.emb_dir = self.index.output_dir / "embeddings"
         self._server_mode: Optional[str] = None
 
@@ -313,7 +409,12 @@ class SemanticGrounder:
                 {"model": model_name, "input": probe},
             )
             data = body.get("data")
-            if isinstance(data, list) and len(data) == 1 and isinstance(data[0], dict) and isinstance(data[0].get("embedding"), list):
+            if (
+                isinstance(data, list)
+                and len(data) == 1
+                and isinstance(data[0], dict)
+                and isinstance(data[0].get("embedding"), list)
+            ):
                 self._server_mode = "v1_embeddings"
                 return self._server_mode
         except urllib.error.HTTPError as exc:
@@ -345,7 +446,9 @@ class SemanticGrounder:
         if mode is not None:
             try:
                 if mode == "v1_embeddings":
-                    model_name = os.getenv("LOCAL_EMBEDDING_MODEL_NAME", "Qwen/Qwen3-Embedding-0.6B")
+                    model_name = os.getenv(
+                        "LOCAL_EMBEDDING_MODEL_NAME", "Qwen/Qwen3-Embedding-0.6B"
+                    )
                     body = self._post_json(
                         f"{self.qwen_server_url}/v1/embeddings",
                         {"model": model_name, "input": [q]},
@@ -373,7 +476,7 @@ class SemanticGrounder:
         try:
             from temporal_nlg.models import QwenEmbeddingModel
 
-            if not hasattr(self, '_cached_embed_model'):
+            if not hasattr(self, "_cached_embed_model"):
                 self._cached_embed_model = QwenEmbeddingModel()
             model = self._cached_embed_model
             if not model.available:
@@ -393,10 +496,13 @@ class SemanticGrounder:
         top_k_relations: int = 3,
     ) -> Dict[str, Any]:
         """Compatibility API — thin wrapper around retrieve_subgraph()."""
-        sr = self.retrieve_subgraph(question, plan,
-                                     top_k_nodes=top_k_nodes,
-                                     top_k_tags=top_k_tags,
-                                     top_k_relations=top_k_relations)
+        sr = self.retrieve_subgraph(
+            question,
+            plan,
+            top_k_nodes=top_k_nodes,
+            top_k_tags=top_k_tags,
+            top_k_relations=top_k_relations,
+        )
         return {
             "enabled": sr.grounding_enabled,
             "entity_uids": sr.entity_uids,
@@ -418,11 +524,12 @@ class SemanticGrounder:
         List[Dict[str, Any]],  # node_hits
         List[Dict[str, Any]],  # tag_hits
         List[Dict[str, Any]],  # relation_hits
-        List[str],             # entity_uids
+        List[str],  # entity_uids
     ]:
         """Public API: embedding-only candidate discovery (no edge walking)."""
         return self._ground_vectors(
-            question, plan,
+            question,
+            plan,
             top_k_nodes=top_k_nodes,
             top_k_tags=top_k_tags,
             top_k_relations=top_k_relations,
@@ -455,7 +562,7 @@ class SemanticGrounder:
             uids_from_label = self.node_label_to_uids.get(label_norm, [])
             # substring / fuzzy lookup
             uids_from_resolve = self.index.resolve_node_uids(ent_str, max_hits=5)
-            for uid in (uids_from_label + uids_from_resolve):
+            for uid in uids_from_label + uids_from_resolve:
                 if uid and uid not in seen_uids:
                     seen_uids.add(uid)
                     all_uids.append(uid)
@@ -473,7 +580,9 @@ class SemanticGrounder:
 
         # Walk 1-hop edges
         edge_pool = self._collect_edges_from_nodes(
-            seed_uids, max_edges_per_node=60, max_total=600,
+            seed_uids,
+            max_edges_per_node=60,
+            max_total=600,
         )
 
         # Build relation weight map from the filter list
@@ -500,8 +609,12 @@ class SemanticGrounder:
         # 2-hop expansion
         if scored:
             hop2 = self._expand_2hop(
-                scored[:8], edge_pool, seed_set, year,
-                max_expand=5, max_fanout=20,
+                scored[:8],
+                edge_pool,
+                seed_set,
+                year,
+                max_expand=5,
+                max_fanout=20,
             )
             if hop2:
                 edge_pool.update(hop2)
@@ -547,7 +660,7 @@ class SemanticGrounder:
         List[Dict[str, Any]],  # node_hits
         List[Dict[str, Any]],  # tag_hits
         List[Dict[str, Any]],  # relation_hits
-        List[str],             # entity_uids (from embedding search)
+        List[str],  # entity_uids (from embedding search)
     ]:
         """Pure vector search over precomputed matrices -> top node/tag/relation hits."""
 
@@ -569,11 +682,13 @@ class SemanticGrounder:
             for idx in _top_k(scores, top_k_nodes):
                 label = _norm(self.artifacts.node_labels[idx])
                 uids = self.node_label_to_uids.get(label, [])
-                node_hits.append({
-                    "normalized_label": label,
-                    "score": float(scores[idx]),
-                    "uids": uids[:5],
-                })
+                node_hits.append(
+                    {
+                        "normalized_label": label,
+                        "score": float(scores[idx]),
+                        "uids": uids[:5],
+                    }
+                )
                 entity_uids.extend(uids)
 
         # Tag scoring
@@ -582,11 +697,13 @@ class SemanticGrounder:
             for idx in _top_k(scores, top_k_tags):
                 normalized_tag = _norm(self.artifacts.tags[idx])
                 tag_uid = self.tag_to_uid.get(normalized_tag)
-                tag_hits.append({
-                    "normalized_tag": normalized_tag,
-                    "score": float(scores[idx]),
-                    "uid": tag_uid,
-                })
+                tag_hits.append(
+                    {
+                        "normalized_tag": normalized_tag,
+                        "score": float(scores[idx]),
+                        "uid": tag_uid,
+                    }
+                )
                 if tag_uid:
                     entity_uids.append(tag_uid)
 
@@ -594,10 +711,12 @@ class SemanticGrounder:
         if self.artifacts.relation_matrix is not None and self.artifacts.relations:
             scores = np.dot(self.artifacts.relation_matrix, qvec)
             for idx in _top_k(scores, top_k_relations):
-                relation_hits.append({
-                    "relation": self.artifacts.relations[idx],
-                    "score": float(scores[idx]),
-                })
+                relation_hits.append(
+                    {
+                        "relation": self.artifacts.relations[idx],
+                        "score": float(scores[idx]),
+                    }
+                )
 
         return node_hits, tag_hits, relation_hits, entity_uids
 
@@ -663,6 +782,7 @@ class SemanticGrounder:
 
             # (d) Support count bonus (log-scaled)
             import math
+
             score += 0.05 * math.log1p(edge.support_count)
 
             # (e) Continuous temporal overlap score
@@ -680,13 +800,11 @@ class SemanticGrounder:
                         span = 1
                     # Proportional to 1/span so narrower intervals get a larger boost
                     import math as _math
+
                     score += 0.40 / _math.log1p(span)
                 elif s_year is not None or e_year is not None:
                     # Penalise wrong-year dated edges proportional to distance
-                    closest = min(
-                        abs((s_year or year) - year),
-                        abs((e_year or year) - year)
-                    )
+                    closest = min(abs((s_year or year) - year), abs((e_year or year) - year))
                     score -= min(0.20, 0.02 * closest)
 
             # (f) Seed proximity: at least one endpoint is a seed
@@ -758,7 +876,8 @@ class SemanticGrounder:
 
         # ─── 2. Embedding-based grounding ────────────────────────────
         node_hits, tag_hits, relation_hits, embed_uids = self._ground_vectors(
-            question, plan,
+            question,
+            plan,
             top_k_nodes=top_k_nodes,
             top_k_tags=top_k_tags,
             top_k_relations=top_k_relations,
@@ -810,7 +929,7 @@ class SemanticGrounder:
         # Merge all entity UIDs (dedup)
         all_uids: List[str] = []
         seen: Set[str] = set()
-        for uid in (lexical_uids + embed_uids):
+        for uid in lexical_uids + embed_uids:
             if uid and uid not in seen:
                 seen.add(uid)
                 all_uids.append(uid)
@@ -844,8 +963,12 @@ class SemanticGrounder:
         # ─── 6. 2-hop expansion from best hits ──────────────────────
         if scored:
             hop2_edges = self._expand_2hop(
-                scored[:8], edge_pool, seed_set, year,
-                max_expand=5, max_fanout=20,
+                scored[:8],
+                edge_pool,
+                seed_set,
+                year,
+                max_expand=5,
+                max_fanout=20,
             )
             if hop2_edges:
                 edge_pool.update(hop2_edges)
@@ -854,7 +977,9 @@ class SemanticGrounder:
         # ─── 7. Final ranking ────────────────────────────────────────
         final = scored[:max_returned_edges]
 
-        relation_hint_list = [str(rh.get("relation") or "") for rh in relation_hits if rh.get("relation")]
+        relation_hint_list = [
+            str(rh.get("relation") or "") for rh in relation_hits if rh.get("relation")
+        ]
 
         return SubgraphResult(
             scored_edges=final,

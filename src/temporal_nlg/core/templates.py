@@ -13,6 +13,7 @@ import re
 
 class TemplateType(Enum):
     """Enumeration of temporal relationship types."""
+
     POINT_IN_TIME = "point_in_time"
     INTERVAL = "interval"
     SEQUENCE = "sequence"
@@ -23,39 +24,46 @@ class TemplateType(Enum):
 @dataclass(init=False)
 class TemporalFact:
     """Represents a temporal fact to be verbalized."""
+
     fact_type: TemplateType
     content: Dict[str, Any]
     metadata: Optional[Dict[str, Any]]
 
-    def __init__(self, fact_type: TemplateType, content: Optional[Dict[str, Any]] = None, metadata: Optional[Dict[str, Any]] = None, **kwargs):
+    def __init__(
+        self,
+        fact_type: TemplateType,
+        content: Optional[Dict[str, Any]] = None,
+        metadata: Optional[Dict[str, Any]] = None,
+        **kwargs,
+    ):
         self.fact_type = fact_type
         base_content = content.copy() if content else {}
         # Allow keyword fields (event, date, etc.) to populate content for convenience.
         base_content.update(kwargs)
         self.content = base_content
         self.metadata = metadata
-    
+
     def validate(self) -> bool:
         """Validate that required fields are present."""
         required_fields = {
-            TemplateType.POINT_IN_TIME: ['entity', 'event', 'date'],
-            TemplateType.INTERVAL: ['entity', 'event', 'start_date', 'end_date'],
-            TemplateType.SEQUENCE: ['events', 'timestamps'],
-            TemplateType.CAUSALITY: ['cause', 'effect', 'temporal_relation'],
-            TemplateType.OVERLAP: ['events', 'time_period']
+            TemplateType.POINT_IN_TIME: ["entity", "event", "date"],
+            TemplateType.INTERVAL: ["entity", "event", "start_date", "end_date"],
+            TemplateType.SEQUENCE: ["events", "timestamps"],
+            TemplateType.CAUSALITY: ["cause", "effect", "temporal_relation"],
+            TemplateType.OVERLAP: ["events", "time_period"],
         }
-        
+
         required = required_fields.get(self.fact_type, [])
         return all(field in self.content for field in required)
 
 
 class Template(ABC):
     """Abstract base class for temporal templates."""
-    
+
     def __init__(self, template_id: str, template_string: str, confidence: float = 1.0):
         """
         Initialize template.
-        
+
         Args:
             template_id: Unique identifier for template
             template_string: Template with {placeholder} variables
@@ -65,37 +73,37 @@ class Template(ABC):
         self.template_string = template_string
         self.confidence = confidence
         self._validate_placeholders()
-    
+
     def _validate_placeholders(self) -> None:
         """Extract and validate placeholders in template."""
-        self.placeholders = set(re.findall(r'\{(\w+)\}', self.template_string))
-    
+        self.placeholders = set(re.findall(r"\{(\w+)\}", self.template_string))
+
     @abstractmethod
     def render(self, fact: TemporalFact) -> str:
         """
         Render template with temporal fact data.
-        
+
         Args:
             fact: TemporalFact instance with content
-            
+
         Returns:
             Rendered natural language string
         """
         pass
-    
+
     @abstractmethod
     def is_applicable(self, fact: TemporalFact) -> bool:
         """
         Check if template is applicable to this fact.
-        
+
         Args:
             fact: TemporalFact to check
-            
+
         Returns:
             True if template can render this fact
         """
         pass
-    
+
     def _format_value(self, value: Any) -> str:
         """Format values for natural language output."""
         if isinstance(value, str):
@@ -118,25 +126,25 @@ class Template(ABC):
 
 class PointInTimeTemplate(Template):
     """Template for point-in-time events."""
-    
+
     def is_applicable(self, fact: TemporalFact) -> bool:
         """Check if fact is point-in-time type."""
         return fact.fact_type == TemplateType.POINT_IN_TIME
-    
+
     def render(self, fact: TemporalFact) -> str:
         """Render point-in-time event."""
         if not self.is_applicable(fact):
             raise ValueError("Fact must be POINT_IN_TIME type")
-        
+
         # Prepare context data
         context = {
-            'entity': self._format_value(fact.content.get('entity', 'It')),
-            'event': self._format_value(fact.content.get('event', 'happened')),
-            'date': self._format_value(fact.content.get('date', '')),
-            'location': self._format_value(fact.content.get('location', '')),
-            'description': self._format_value(fact.content.get('description', ''))
+            "entity": self._format_value(fact.content.get("entity", "It")),
+            "event": self._format_value(fact.content.get("event", "happened")),
+            "date": self._format_value(fact.content.get("date", "")),
+            "location": self._format_value(fact.content.get("location", "")),
+            "description": self._format_value(fact.content.get("description", "")),
         }
-        
+
         try:
             return self.template_string.format(**context)
         except KeyError as e:
@@ -145,25 +153,25 @@ class PointInTimeTemplate(Template):
 
 class IntervalTemplate(Template):
     """Template for interval-based events."""
-    
+
     def is_applicable(self, fact: TemporalFact) -> bool:
         """Check if fact is interval type."""
         return fact.fact_type == TemplateType.INTERVAL
-    
+
     def render(self, fact: TemporalFact) -> str:
         """Render interval event."""
         if not self.is_applicable(fact):
             raise ValueError("Fact must be INTERVAL type")
-        
+
         context = {
-            'entity': self._format_value(fact.content.get('entity', 'It')),
-            'event': self._format_value(fact.content.get('event', 'occurred')),
-            'start_date': self._format_value(fact.content.get('start_date', '')),
-            'end_date': self._format_value(fact.content.get('end_date', '')),
-            'duration': self._format_value(fact.content.get('duration', '')),
-            'frequency': self._format_value(fact.content.get('frequency', ''))
+            "entity": self._format_value(fact.content.get("entity", "It")),
+            "event": self._format_value(fact.content.get("event", "occurred")),
+            "start_date": self._format_value(fact.content.get("start_date", "")),
+            "end_date": self._format_value(fact.content.get("end_date", "")),
+            "duration": self._format_value(fact.content.get("duration", "")),
+            "frequency": self._format_value(fact.content.get("frequency", "")),
         }
-        
+
         try:
             return self.template_string.format(**context)
         except KeyError as e:
@@ -172,20 +180,20 @@ class IntervalTemplate(Template):
 
 class SequenceTemplate(Template):
     """Template for event sequences."""
-    
+
     def is_applicable(self, fact: TemporalFact) -> bool:
         """Check if fact is sequence type."""
         return fact.fact_type == TemplateType.SEQUENCE
-    
+
     def render(self, fact: TemporalFact) -> str:
         """Render sequence of events."""
         if not self.is_applicable(fact):
             raise ValueError("Fact must be SEQUENCE type")
-        
+
         # Format events with timestamps
-        events = fact.content.get('events', [])
-        timestamps = fact.content.get('timestamps', [])
-        
+        events = fact.content.get("events", [])
+        timestamps = fact.content.get("timestamps", [])
+
         # Build event-time pairs
         event_strings = []
         for i, event in enumerate(events):
@@ -193,13 +201,13 @@ class SequenceTemplate(Template):
                 event_strings.append(f"{event} ({timestamps[i]})")
             else:
                 event_strings.append(event)
-        
+
         context = {
-            'events': ", then ".join(event_strings) if event_strings else "no events",
-            'event_count': len(events),
-            'time_span': self._format_value(fact.content.get('time_span', ''))
+            "events": ", then ".join(event_strings) if event_strings else "no events",
+            "event_count": len(events),
+            "time_span": self._format_value(fact.content.get("time_span", "")),
         }
-        
+
         try:
             return self.template_string.format(**context)
         except KeyError as e:
@@ -208,24 +216,26 @@ class SequenceTemplate(Template):
 
 class CausalityTemplate(Template):
     """Template for causal relationships."""
-    
+
     def is_applicable(self, fact: TemporalFact) -> bool:
         """Check if fact is causality type."""
         return fact.fact_type == TemplateType.CAUSALITY
-    
+
     def render(self, fact: TemporalFact) -> str:
         """Render causal relationship."""
         if not self.is_applicable(fact):
             raise ValueError("Fact must be CAUSALITY type")
-        
+
         context = {
-            'cause': self._format_value(fact.content.get('cause', 'Event A')),
-            'effect': self._format_value(fact.content.get('effect', 'Event B')),
-            'temporal_relation': self._format_value(fact.content.get('temporal_relation', 'caused')),
-            'mechanism': self._format_value(fact.content.get('mechanism', '')),
-            'certainty': self._format_value(fact.content.get('certainty', 'certainly'))
+            "cause": self._format_value(fact.content.get("cause", "Event A")),
+            "effect": self._format_value(fact.content.get("effect", "Event B")),
+            "temporal_relation": self._format_value(
+                fact.content.get("temporal_relation", "caused")
+            ),
+            "mechanism": self._format_value(fact.content.get("mechanism", "")),
+            "certainty": self._format_value(fact.content.get("certainty", "certainly")),
         }
-        
+
         try:
             return self.template_string.format(**context)
         except KeyError as e:
@@ -234,24 +244,24 @@ class CausalityTemplate(Template):
 
 class OverlapTemplate(Template):
     """Template for overlapping events."""
-    
+
     def is_applicable(self, fact: TemporalFact) -> bool:
         """Check if fact is overlap type."""
         return fact.fact_type == TemplateType.OVERLAP
-    
+
     def render(self, fact: TemporalFact) -> str:
         """Render overlapping events."""
         if not self.is_applicable(fact):
             raise ValueError("Fact must be OVERLAP type")
-        
-        events = fact.content.get('events', [])
+
+        events = fact.content.get("events", [])
         context = {
-            'event_count': len(events),
-            'events': " and ".join(self._format_value(e) for e in events),
-            'time_period': self._format_value(fact.content.get('time_period', '')),
-            'simultaneity': self._format_value(fact.content.get('simultaneity', 'concurrently'))
+            "event_count": len(events),
+            "events": " and ".join(self._format_value(e) for e in events),
+            "time_period": self._format_value(fact.content.get("time_period", "")),
+            "simultaneity": self._format_value(fact.content.get("simultaneity", "concurrently")),
         }
-        
+
         try:
             return self.template_string.format(**context)
         except KeyError as e:

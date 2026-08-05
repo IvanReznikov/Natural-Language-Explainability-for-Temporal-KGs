@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Run Milestone 3 experiment scripts with sensible defaults and skips."""
+
 from __future__ import annotations
 
 import argparse
@@ -7,7 +8,6 @@ import os
 import subprocess
 import sys
 from pathlib import Path
-
 
 ROOT = Path(__file__).resolve().parents[1]
 TARGET_DIR = ROOT / "experiments"
@@ -32,7 +32,7 @@ def is_runnable_script(path: Path) -> bool:
     if path.name.startswith("run_all_"):
         return False
     text = path.read_text(encoding="utf-8", errors="ignore")
-    return "if __name__ == \"__main__\":" in text or "if __name__ == '__main__':" in text
+    return 'if __name__ == "__main__":' in text or "if __name__ == '__main__':" in text
 
 
 def discover_scripts() -> list[Path]:
@@ -43,7 +43,10 @@ def discover_scripts() -> list[Path]:
         for path in sorted(exp_dir.rglob("*.py")):
             if is_runnable_script(path):
                 scripts.append(path)
-    return sorted(scripts, key=lambda path: (ORDER.get(path.relative_to(ROOT).as_posix(), 999), path.as_posix()))
+    return sorted(
+        scripts,
+        key=lambda path: (ORDER.get(path.relative_to(ROOT).as_posix(), 999), path.as_posix()),
+    )
 
 
 def latest_output_file(pattern: str) -> Path | None:
@@ -73,11 +76,23 @@ def script_config(script: Path) -> dict:
     if rel.endswith("m3_e2_fidelity/run_fidelity_eval.py"):
         cfg["args"] = ["--dataset", DATASET, "--output-dir", "output/m3_e2_fidelity_smoke"]
     elif rel.endswith("m3_e3_human_eval/run_comprehension.py"):
-        cfg["args"] = ["export", "--dataset", DATASET, "--output-dir", "output/m3_e3a_comprehension"]
+        cfg["args"] = [
+            "export",
+            "--dataset",
+            DATASET,
+            "--output-dir",
+            "output/m3_e3a_comprehension",
+        ]
     elif rel.endswith("m3_e3_human_eval/run_utility.py"):
         cfg["args"] = ["export", "--dataset", DATASET, "--output-dir", "output/m3_e3b_utility"]
     elif rel.endswith("m3_e3_human_eval/run_cognitive_load.py"):
-        cfg["args"] = ["export", "--dataset", DATASET, "--output-dir", "output/m3_e3c_cognitive_load"]
+        cfg["args"] = [
+            "export",
+            "--dataset",
+            DATASET,
+            "--output-dir",
+            "output/m3_e3c_cognitive_load",
+        ]
     elif rel.endswith("m3_e4_efficiency_consistency/run_efficiency.py"):
         cfg["args"] = ["export", "--dataset", DATASET, "--output-dir", "output/m3_e4a_efficiency"]
     elif rel.endswith("m3_e4_efficiency_consistency/run_consistency.py"):
@@ -105,7 +120,9 @@ def script_config(script: Path) -> dict:
             ]
             cfg["timeout"] = 1800
     elif rel.startswith("experiments/m3_e5_benchmark/"):
-        if rel.endswith("run_m3_e5_lcel_openai_models.py") or rel.endswith("run_lcel_gpt_models.py"):
+        if rel.endswith("run_m3_e5_lcel_openai_models.py") or rel.endswith(
+            "run_lcel_gpt_models.py"
+        ):
             cfg["skip"] = "OpenAI runs are disabled by orchestrator policy"
         elif not M3_E5_EVAL_SET.exists():
             cfg["skip"] = "data/jsonls/temporal_evaluation_set_v2.jsonl is missing"
@@ -140,7 +157,9 @@ def run_scripts(scripts: list[Path], list_only: bool = False, fail_fast: bool = 
     skipped = []
     env = os.environ.copy()
     current_pythonpath = env.get("PYTHONPATH", "")
-    env["PYTHONPATH"] = f"{ROOT}{os.pathsep}{current_pythonpath}" if current_pythonpath else str(ROOT)
+    env["PYTHONPATH"] = (
+        f"{ROOT}{os.pathsep}{current_pythonpath}" if current_pythonpath else str(ROOT)
+    )
 
     for script in scripts:
         rel = script.relative_to(ROOT)

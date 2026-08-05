@@ -113,7 +113,12 @@ def test_lcel_pipeline_analogy_and_start_affecting(tmp_path) -> None:
     start = pipeline.invoke("When did A first start affecting B?")
     assert start["intent"] in {"start_affecting", "reason_of", "state_at_time", "unsupported"}
     assert "plan" in start
-    assert start["plan"]["query_type"] in {"start_affecting", "reason_of", "state_at_time", "unsupported"}
+    assert start["plan"]["query_type"] in {
+        "start_affecting",
+        "reason_of",
+        "state_at_time",
+        "unsupported",
+    }
     assert start["evidence"]
     assert (
         "1999" in start["answer_text"]

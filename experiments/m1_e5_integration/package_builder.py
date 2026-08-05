@@ -6,6 +6,7 @@ Utility to build the temporal-nlg package artifacts for M1.
 - Runs `python -m build`
 - Drops artifacts into ./dist
 """
+
 from __future__ import annotations
 
 import subprocess
@@ -23,9 +24,7 @@ def run_build() -> int:
 
     print("Building package via python -m build ...")
     try:
-        subprocess.run(
-            [sys.executable, "-m", "build"], cwd=ROOT, check=True
-        )
+        subprocess.run([sys.executable, "-m", "build"], cwd=ROOT, check=True)
     except subprocess.CalledProcessError as exc:
         print(f"Build failed with exit code {exc.returncode}")
         return exc.returncode

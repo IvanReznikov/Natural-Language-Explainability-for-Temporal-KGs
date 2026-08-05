@@ -5,6 +5,7 @@ M1-E5: Performance benchmarks for the temporal NLG stack.
 This script runs lightweight, network-free benchmarks so it is safe in
 offline CI. Results are written to output/m1_e5_integration/<ts>/.
 """
+
 from __future__ import annotations
 
 import json
@@ -17,6 +18,7 @@ from uuid import uuid4
 
 # Ensure src is importable when run directly
 import sys
+
 sys.path.insert(0, str(Path(__file__).parent.parent.parent / "src"))
 
 from temporal_nlg.core.templates import TemplateRenderer, TemplateType

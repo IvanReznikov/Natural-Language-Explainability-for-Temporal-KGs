@@ -14,7 +14,9 @@ def main():
     engine = CounterfactualEngine()
     b = Belief(belief_id="b_market", payload={"event": "Market rose", "date": "2010"})
     cf = engine.shift_time(b, "earlier")
-    swaps = engine.swap_order(b, Belief(belief_id="b_policy", payload={"event": "Policy changed", "date": "2009"}))
+    swaps = engine.swap_order(
+        b, Belief(belief_id="b_policy", payload={"event": "Policy changed", "date": "2009"})
+    )
 
     results = {
         "shift": {

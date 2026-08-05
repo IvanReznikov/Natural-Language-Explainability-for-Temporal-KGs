@@ -43,14 +43,14 @@ def demo_hybrid_strategies() -> dict:
         TemplateType.SEQUENCE,
         events=["design", "integration", "launch"],
         timestamps=["T-12m", "T-3m", "T0"],
-        context="Extended context for polish"
+        context="Extended context for polish",
     )
     fact_llm = TemporalFact(
         TemplateType.CAUSALITY,
         cause="Solar flare",
         effect="Communications blackout",
         temporal_relation="triggered",
-        context="A complex causal chain with multiple signals and overrides"
+        context="A complex causal chain with multiple signals and overrides",
     )
 
     results = {
@@ -67,7 +67,9 @@ def main() -> None:
 
     for name, result in results.items():
         assert isinstance(result, GenerationResult)
-        print(f"[{name.upper()}] {result.text} (strategy={result.strategy}, conf={result.confidence:.2f})")
+        print(
+            f"[{name.upper()}] {result.text} (strategy={result.strategy}, conf={result.confidence:.2f})"
+        )
 
 
 if __name__ == "__main__":

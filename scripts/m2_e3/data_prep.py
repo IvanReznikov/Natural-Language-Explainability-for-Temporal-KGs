@@ -17,14 +17,16 @@ def save_jsonl(path: Path, rows: List[Dict]) -> None:
             f.write(json.dumps(row) + "\n")
 
 
-def split(rows: List[Dict], train_ratio: float, val_ratio: float) -> Tuple[List[Dict], List[Dict], List[Dict]]:
+def split(
+    rows: List[Dict], train_ratio: float, val_ratio: float
+) -> Tuple[List[Dict], List[Dict], List[Dict]]:
     random.shuffle(rows)
     n = len(rows)
     n_train = int(n * train_ratio)
     n_val = int(n * val_ratio)
     train = rows[:n_train]
-    val = rows[n_train:n_train + n_val]
-    test = rows[n_train + n_val:]
+    val = rows[n_train : n_train + n_val]
+    test = rows[n_train + n_val :]
     return train, val, test
 
 
@@ -39,7 +41,12 @@ def collect_labels(rows: List[Dict]) -> List[str]:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--data", type=Path, required=True, help="Path to full jsonl dataset")
-    parser.add_argument("--output-dir", type=Path, default=Path("experiments/m2_e3_parse/data/splits"), help="Where to write splits and labels.json")
+    parser.add_argument(
+        "--output-dir",
+        type=Path,
+        default=Path("experiments/m2_e3_parse/data/splits"),
+        help="Where to write splits and labels.json",
+    )
     parser.add_argument("--train-ratio", type=float, default=0.8)
     parser.add_argument("--val-ratio", type=float, default=0.1)
     parser.add_argument("--seed", type=int, default=13)

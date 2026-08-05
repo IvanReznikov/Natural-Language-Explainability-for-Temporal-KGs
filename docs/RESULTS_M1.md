@@ -1,4 +1,4 @@
-﻿# RESULTS_M1
+# RESULTS_M1
 
 UUIDs replace the old timestamped result folders. Paths below point to the latest or best M1 artifacts per experiment.
 

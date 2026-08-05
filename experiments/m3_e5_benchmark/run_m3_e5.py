@@ -77,6 +77,7 @@ def run_id_for(llm_id: str, mode: str, emb_id: Optional[str]) -> str:
 # I/O helpers
 # ---------------------------------------------------------------------------
 
+
 def load_eval_set(path: Path) -> List[Dict]:
     rows = []
     with path.open(encoding="utf-8") as f:
@@ -103,6 +104,7 @@ def load_summary(run_dir: Path) -> Optional[Dict]:
 # ---------------------------------------------------------------------------
 # Scoring utilities (shared with the notebook pipeline)
 # ---------------------------------------------------------------------------
+
 
 def score_exact(prediction: str, gold: str) -> float:
     return 1.0 if prediction.strip().lower() == gold.strip().lower() else 0.0
@@ -135,7 +137,10 @@ def compute_metrics(predictions: List[Dict]) -> Dict:
         by_domain[domain]["contains"].append(c)
 
     def agg(d: Dict) -> Dict:
-        return {k: {"n": v["n"], "exact": _mean(v["exact"]), "contains": _mean(v["contains"])} for k, v in d.items()}
+        return {
+            k: {"n": v["n"], "exact": _mean(v["exact"]), "contains": _mean(v["contains"])}
+            for k, v in d.items()
+        }
 
     return {
         "n": len(predictions),
@@ -154,6 +159,7 @@ def _mean(values: List[float]) -> float:
 # ---------------------------------------------------------------------------
 # Pipeline stub — replace with real pipeline imports
 # ---------------------------------------------------------------------------
+
 
 def run_pipeline(
     question: Dict,
@@ -207,6 +213,7 @@ def run_pipeline(
 # Single-run execution
 # ---------------------------------------------------------------------------
 
+
 def run_single(
     cfg: Dict,
     eval_set: List[Dict],
@@ -236,9 +243,7 @@ def run_single(
         question_text = item.get("question", item.get("query", ""))
         gold = item.get("gold_answer", item.get("answer", ""))
 
-        pred, latency, graph_text, graph_conf = run_pipeline(
-            item, llm_id, mode, emb_id, graph_dir
-        )
+        pred, latency, graph_text, graph_conf = run_pipeline(item, llm_id, mode, emb_id, graph_dir)
 
         row = {
             "idx": i + 1,
@@ -261,7 +266,9 @@ def run_single(
             row["graph_confidence"] = graph_conf
 
         predictions.append(row)
-        debug_log.append({"idx": i + 1, "question": question_text, "prediction": pred, "gold": gold})
+        debug_log.append(
+            {"idx": i + 1, "question": question_text, "prediction": pred, "gold": gold}
+        )
 
         if (i + 1) % 50 == 0:
             print(f"  {i + 1}/{len(eval_set)} done …")
@@ -281,7 +288,9 @@ def run_single(
         "status": "completed",
         "metrics": metrics,
     }
-    (run_dir / "summary.json").write_text(json.dumps(summary, indent=2, ensure_ascii=False), encoding="utf-8")
+    (run_dir / "summary.json").write_text(
+        json.dumps(summary, indent=2, ensure_ascii=False), encoding="utf-8"
+    )
     print(f"  exact={metrics['exact']:.3f}  contains={metrics['contains']:.3f}")
     return summary
 
@@ -289,6 +298,7 @@ def run_single(
 # ---------------------------------------------------------------------------
 # Aggregation
 # ---------------------------------------------------------------------------
+
 
 def aggregate(output_dir: Path) -> None:
     """Collect all completed run summaries into MATRIX.json."""
@@ -320,6 +330,7 @@ def aggregate(output_dir: Path) -> None:
 # List / status
 # ---------------------------------------------------------------------------
 
+
 def list_configs(output_dir: Path) -> None:
     configs = all_run_configs()
     print(f"\n{'Run ID':<45} {'status':<12}")
@@ -337,20 +348,31 @@ def list_configs(output_dir: Path) -> None:
 # CLI
 # ---------------------------------------------------------------------------
 
+
 def build_parser() -> argparse.ArgumentParser:
-    p = argparse.ArgumentParser(description="M3-E5 QA benchmark runner", formatter_class=argparse.RawDescriptionHelpFormatter, epilog=__doc__)
+    p = argparse.ArgumentParser(
+        description="M3-E5 QA benchmark runner",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog=__doc__,
+    )
     p.add_argument("--eval-set", default="data/jsonls/temporal_evaluation_set_v2.jsonl")
     p.add_argument("--graph-dir", default="data/jsonls/temporal_graph_output_v3")
     p.add_argument("--output-dir", default="output/m3_e5_results")
 
     mode_group = p.add_mutually_exclusive_group()
     mode_group.add_argument("--run-all", action="store_true", help="Run all 36 configurations")
-    mode_group.add_argument("--aggregate", action="store_true", help="Aggregate completed runs into MATRIX.json")
+    mode_group.add_argument(
+        "--aggregate", action="store_true", help="Aggregate completed runs into MATRIX.json"
+    )
     mode_group.add_argument("--list", action="store_true", help="List all configs and status")
 
     p.add_argument("--llm-id", choices=LLM_IDS, help="LLM model ID for single run")
-    p.add_argument("--mode", choices=MODES_NO_EMB + MODES_WITH_EMB, help="Pipeline mode for single run")
-    p.add_argument("--emb-id", choices=EMB_IDS, help="Embedding model ID (required for non-pure_llm modes)")
+    p.add_argument(
+        "--mode", choices=MODES_NO_EMB + MODES_WITH_EMB, help="Pipeline mode for single run"
+    )
+    p.add_argument(
+        "--emb-id", choices=EMB_IDS, help="Embedding model ID (required for non-pure_llm modes)"
+    )
     p.add_argument("--no-resume", action="store_true", help="Re-run even if already completed")
     return p
 
@@ -388,7 +410,10 @@ def main() -> int:
 
     # Single run
     if not args.llm_id or not args.mode:
-        print("ERROR: --llm-id and --mode required for a single run (or use --run-all)", file=sys.stderr)
+        print(
+            "ERROR: --llm-id and --mode required for a single run (or use --run-all)",
+            file=sys.stderr,
+        )
         return 1
 
     if args.mode != "pure_llm" and not args.emb_id:
@@ -402,5 +427,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
-
-

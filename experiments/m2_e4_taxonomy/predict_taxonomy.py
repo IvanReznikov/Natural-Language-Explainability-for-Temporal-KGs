@@ -50,10 +50,14 @@ def extract_text(item):
 def main():
     ap = argparse.ArgumentParser(description="Predict taxonomy label with default model")
     ap.add_argument("--model", type=Path, default=DEFAULT_MODEL, help="Path to joblib model")
-    ap.add_argument("--input", type=str, help="Input file (text per line or JSONL if --jsonl)", default=None)
+    ap.add_argument(
+        "--input", type=str, help="Input file (text per line or JSONL if --jsonl)", default=None
+    )
     ap.add_argument("--text", type=str, help="Single text to classify", default=None)
     ap.add_argument("--jsonl", action="store_true", help="Treat input file as JSONL")
-    ap.add_argument("--output", type=Path, default=DEFAULT_OUT, help="Output JSONL path or '-' for stdout")
+    ap.add_argument(
+        "--output", type=Path, default=DEFAULT_OUT, help="Output JSONL path or '-' for stdout"
+    )
     args = ap.parse_args()
 
     model = load_model(args.model)

@@ -30,13 +30,13 @@ def changelog_entries() -> None:
             entity="Temporal NLG",
             events=["baseline templates", "LLM hybrid", "evaluation tooling"],
             timestamps=["v0.1.0", "v0.2.0", "v0.3.0"],
-            context="feature rollout"
+            context="feature rollout",
         ),
         TemporalFact(
             TemplateType.CAUSALITY,
             cause="coverage reaching 80%",
             effect="confidence to ship milestone 1",
-            context="quality gate"
+            context="quality gate",
         ),
     ]
 

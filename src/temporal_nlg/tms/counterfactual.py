@@ -23,7 +23,9 @@ class CounterfactualEngine:
             evidence=list(belief.evidence),
         )
         desc = f"If time shifted by {delta}, belief {belief.belief_id} would become {new_belief.belief_id}."
-        return CounterfactualResult(original_id=belief.belief_id, new_belief=new_belief, description=desc)
+        return CounterfactualResult(
+            original_id=belief.belief_id, new_belief=new_belief, description=desc
+        )
 
     def swap_order(self, belief_a: Belief, belief_b: Belief) -> List[CounterfactualResult]:
         results: List[CounterfactualResult] = []

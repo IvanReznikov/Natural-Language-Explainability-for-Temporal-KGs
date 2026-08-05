@@ -223,7 +223,12 @@ def _load_prediction_cache(path: Optional[Path], key_field: str) -> Dict[Tuple[s
         key = obj.get(key_field)
         if not rid or key is None:
             continue
-        text = obj.get("prediction") or obj.get("generated_text") or obj.get("output") or obj.get("text")
+        text = (
+            obj.get("prediction")
+            or obj.get("generated_text")
+            or obj.get("output")
+            or obj.get("text")
+        )
         if text is None:
             continue
         cache[(str(rid), str(key))] = str(text)
@@ -257,7 +262,9 @@ def _parse_llm_models(raw: str) -> List[str]:
     return [m.strip() for m in raw.split(",") if m.strip()]
 
 
-def _llm_generator_for(model: str, temperature: float, max_tokens: int) -> Tuple[Optional[LLMGenerator], Optional[str]]:
+def _llm_generator_for(
+    model: str, temperature: float, max_tokens: int
+) -> Tuple[Optional[LLMGenerator], Optional[str]]:
     if not os.environ.get("OPENAI_API_KEY"):
         return None, "missing_api_key"
     no_temp_models = {"gpt-5-nano", "o4-mini"}
@@ -318,7 +325,11 @@ def generate_efficiency(args: argparse.Namespace) -> None:
                 cached_run = runs_cache.get(cache_key)
                 latency_ms = cached_run.get("latency_ms") if cached_run else None
                 tokens_out = cached_run.get("tokens_out") if cached_run else _estimate_tokens(text)
-                cost = cached_run.get("cost") if cached_run else (0.0 if method in {"template", "hybrid", "baseline"} else None)
+                cost = (
+                    cached_run.get("cost")
+                    if cached_run
+                    else (0.0 if method in {"template", "hybrid", "baseline"} else None)
+                )
                 if method.startswith("llm:"):
                     _write_log(
                         llm_log,
@@ -555,7 +566,9 @@ def main() -> None:
     )
     ap_eff.add_argument("--llm-temperature", type=float, default=0.0)
     ap_eff.add_argument("--llm-max-tokens", type=int, default=120)
-    ap_eff.add_argument("--refresh-llm", action="store_true", help="Re-generate LLM outputs even if cached")
+    ap_eff.add_argument(
+        "--refresh-llm", action="store_true", help="Re-generate LLM outputs even if cached"
+    )
     ap_eff.add_argument("--llm-log", type=str, default=None, help="Write LLM debug log JSONL")
     ap_eff.add_argument("--output", type=str, required=True)
     ap_eff.add_argument("--runs-out", type=str, required=True)
@@ -572,7 +585,9 @@ def main() -> None:
     )
     ap_coh.add_argument("--llm-temperature", type=float, default=0.0)
     ap_coh.add_argument("--llm-max-tokens", type=int, default=120)
-    ap_coh.add_argument("--refresh-llm", action="store_true", help="Re-generate LLM outputs even if cached")
+    ap_coh.add_argument(
+        "--refresh-llm", action="store_true", help="Re-generate LLM outputs even if cached"
+    )
     ap_coh.add_argument("--llm-log", type=str, default=None, help="Write LLM debug log JSONL")
     ap_coh.add_argument("--output", type=str, required=True)
     ap_coh.set_defaults(func=generate_coherence)

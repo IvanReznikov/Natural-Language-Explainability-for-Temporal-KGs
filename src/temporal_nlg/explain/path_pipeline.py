@@ -1,4 +1,5 @@
 """End-to-end path-to-narrative with justification."""
+
 from __future__ import annotations
 
 from typing import Dict, List, Optional, Tuple
@@ -25,9 +26,13 @@ def path_to_narrative(
     narrative = renderer.render(nodes, edges, evidence_ids=supports)
 
     # Register belief and attach justification from the extracted path.
-    evidence_payload = evidence if evidence is not None else [
-        {"source": "graph_path", "snippet": narrative.get("justification", ""), "weight": 1.0}
-    ]
+    evidence_payload = (
+        evidence
+        if evidence is not None
+        else [
+            {"source": "graph_path", "snippet": narrative.get("justification", ""), "weight": 1.0}
+        ]
+    )
     belief = Belief(
         belief_id=belief_id,
         payload={"path": narrative.get("narrative", ""), "summary": narrative.get("summary", "")},
@@ -35,7 +40,9 @@ def path_to_narrative(
         evidence=evidence_payload,
     )
     belief_store.add_belief(belief)
-    justified = JustifiedRenderer(belief_store).render_with_justification(belief_id, narrative["narrative"])
+    justified = JustifiedRenderer(belief_store).render_with_justification(
+        belief_id, narrative["narrative"]
+    )
 
     return {
         "summary": narrative["summary"],

@@ -14,7 +14,9 @@ from temporal_nlg.evaluation.m3_e3 import (
 
 def test_m3_e3a_scores_mcq_from_answer_key() -> None:
     task = ComprehensionTask(
-        item=ExplanationItem(explanation_id="e1", domain="medical", bucket="point", query="q", explanation_text="x"),
+        item=ExplanationItem(
+            explanation_id="e1", domain="medical", bucket="point", query="q", explanation_text="x"
+        ),
         questions=[
             ComprehensionQuestion(
                 question_id="e1.q01",

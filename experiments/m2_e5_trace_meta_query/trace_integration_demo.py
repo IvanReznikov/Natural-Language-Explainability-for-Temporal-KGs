@@ -4,6 +4,7 @@
 This simulates how to instrument a rule evaluation pipeline: start a trace
 session, record each firing, and save the trace to JSONL.
 """
+
 from __future__ import annotations
 
 import json
@@ -51,4 +52,3 @@ def run_query(query_id: str, facts: Dict[str, int], out_path: Path) -> None:
 
 if __name__ == "__main__":
     run_query("demo_q1", {"a": 2, "b": 4}, Path("output/m2_e5_trace_meta_query/demo_trace.json"))
-

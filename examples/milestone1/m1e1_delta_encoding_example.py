@@ -27,13 +27,32 @@ def delta_encoding_demo() -> None:
     renderer = TemplateRenderer()
 
     baseline = [
-        TemporalFact(TemplateType.POINT_IN_TIME, event="birth", entity="Ada Lovelace", date="1815-12-10"),
-        TemporalFact(TemplateType.INTERVAL, entity="First Industrial Revolution", event="industrialization phase", start_date="1760", end_date="1840"),
+        TemporalFact(
+            TemplateType.POINT_IN_TIME, event="was born", entity="Ada Lovelace", date="1815-12-10"
+        ),
+        TemporalFact(
+            TemplateType.INTERVAL,
+            entity="First Industrial Revolution",
+            event="industrialization phase",
+            start_date="1760",
+            end_date="1840",
+        ),
     ]
 
     updates = baseline + [
-        TemporalFact(TemplateType.SEQUENCE, entity="Apollo Program", events=["concept", "landing"], timestamps=["1961", "1969"], context="NASA"),
-        TemporalFact(TemplateType.CAUSALITY, cause="steam engine adoption", effect="mass production boom", context="Industrial impact"),
+        TemporalFact(
+            TemplateType.SEQUENCE,
+            entity="Apollo Program",
+            events=["concept", "landing"],
+            timestamps=["1961", "1969"],
+            context="NASA",
+        ),
+        TemporalFact(
+            TemplateType.CAUSALITY,
+            cause="steam engine adoption",
+            effect="mass production boom",
+            context="Industrial impact",
+        ),
     ]
 
     existing_entities = {fact.content.get("entity") for fact in baseline}

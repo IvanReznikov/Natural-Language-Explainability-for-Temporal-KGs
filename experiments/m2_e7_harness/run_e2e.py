@@ -1,12 +1,12 @@
 ﻿#!/usr/bin/env python3
 """Run end-to-end M2-E7 harness over a query corpus and traces."""
+
 from __future__ import annotations
 
 import argparse
 import json
 from pathlib import Path
 from typing import Iterable, List, Tuple
-
 
 
 def build_results_from_traces(traces: List[dict]) -> List[dict]:
@@ -33,16 +33,18 @@ def build_results_from_traces(traces: List[dict]) -> List[dict]:
             for extra in extras:
                 if not isinstance(extra, dict):
                     continue
-                expanded_rules.append({
-                    "rule_id": f"{rule.get('rule_id', 'r')}_extra",
-                    "rule_name": rule.get("rule_name", "extra"),
-                    "inputs": rule.get("inputs", []),
-                    "conclusion": extra,
-                    "fired_at": rule.get("fired_at"),
-                    "confidence": rule.get("confidence", 1.0),
-                    "latency_ms": rule.get("latency_ms"),
-                    "meta": {"gen": "synthetic_extra"},
-                })
+                expanded_rules.append(
+                    {
+                        "rule_id": f"{rule.get('rule_id', 'r')}_extra",
+                        "rule_name": rule.get("rule_name", "extra"),
+                        "inputs": rule.get("inputs", []),
+                        "conclusion": extra,
+                        "fired_at": rule.get("fired_at"),
+                        "confidence": rule.get("confidence", 1.0),
+                        "latency_ms": rule.get("latency_ms"),
+                        "meta": {"gen": "synthetic_extra"},
+                    }
+                )
                 if extra.get("fact_id") == "intent":
                     intent_val = extra.get("value", intent_val)
 
@@ -81,6 +83,7 @@ def build_expected_map(
 
 # util helpers
 
+
 def load_jsonl(path: Path) -> List[dict]:
     with path.open("r", encoding="utf-8") as f:
         return [json.loads(line) for line in f if line.strip()]
@@ -118,7 +121,13 @@ def eval_results(results: List[dict], expected_map: dict) -> Tuple[int, int, Lis
 
         max_latency = exp.get("max_latency_ms")
         if max_latency is not None:
-            over = [rt for rt in r.get("rule_traces", []) or [] if isinstance(rt, dict) and rt.get("latency_ms") and rt.get("latency_ms") > max_latency]
+            over = [
+                rt
+                for rt in r.get("rule_traces", []) or []
+                if isinstance(rt, dict)
+                and rt.get("latency_ms")
+                and rt.get("latency_ms") > max_latency
+            ]
             if over:
                 reasons.append(f"latency_ms over {max_latency}")
 
@@ -131,7 +140,9 @@ def eval_results(results: List[dict], expected_map: dict) -> Tuple[int, int, Lis
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Run M2-E7 E2E harness")
-    parser.add_argument("--queries", type=str, default="experiments/m2_e7_harness/input/queries.jsonl")
+    parser.add_argument(
+        "--queries", type=str, default="experiments/m2_e7_harness/input/queries.jsonl"
+    )
     parser.add_argument("--trace", type=str, default="experiments/m2_e7_harness/input/trace.jsonl")
     parser.add_argument("--output", type=str, default="output/m2_e7_harness/results.jsonl")
     parser.add_argument("--report", type=str, default="output/m2_e7_harness/report.json")
@@ -162,4 +173,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

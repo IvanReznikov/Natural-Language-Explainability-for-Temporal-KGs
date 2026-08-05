@@ -7,19 +7,20 @@ from typing import Any, Dict, List, Optional, Sequence
 from temporal_nlg.graph_query.index import GraphEdge, TemporalGraphIndex
 from temporal_nlg.graph_query.semantic import ScoredEdge
 
-
 # Relations that are structural / temporal bookkeeping only — useless as factual answer evidence
-STRUCTURAL_RELATIONS: frozenset[str] = frozenset({
-    "spans_year",
-    "within_year",
-    "dated",
-    "has_year",
-    "occurred_on",
-    "start_date",
-    "end_date",
-    "tag_related_to",
-    "inferred_tag",
-})
+STRUCTURAL_RELATIONS: frozenset[str] = frozenset(
+    {
+        "spans_year",
+        "within_year",
+        "dated",
+        "has_year",
+        "occurred_on",
+        "start_date",
+        "end_date",
+        "tag_related_to",
+        "inferred_tag",
+    }
+)
 
 CAUSAL_RELATIONS = {
     "caused",
@@ -116,7 +117,12 @@ class GraphRetriever:
                     int(year),
                 )
 
-        if query_type in {"state_at_time", "state_during_interval", "within_interval", "overlap_query"}:
+        if query_type in {
+            "state_at_time",
+            "state_during_interval",
+            "within_interval",
+            "overlap_query",
+        }:
             return self._answer_state(plan, semantic_hits)
 
         if query_type == "existence_in_time":
@@ -134,7 +140,11 @@ class GraphRetriever:
         if query_type in {"temporal_top_k", "trend_evolution"}:
             return self._answer_top_k(plan, semantic_hits)
 
-        if query_type in {"temporal_path_existence", "time_respecting_path", "earliest_arrival_path"}:
+        if query_type in {
+            "temporal_path_existence",
+            "time_respecting_path",
+            "earliest_arrival_path",
+        }:
             return self._answer_path_existence(plan)
 
         # Planner fallback for natural phrasing that should route to start-affecting.
@@ -144,7 +154,11 @@ class GraphRetriever:
             if len(entities) >= 2:
                 return self.when_started_affecting(entities[0], entities[1])
 
-            match = re.search(r"when\s+did\s+(.+?)\s+start(?:ed)?\s+affecting\s+(.+?)\??$", question, re.IGNORECASE)
+            match = re.search(
+                r"when\s+did\s+(.+?)\s+start(?:ed)?\s+affecting\s+(.+?)\??$",
+                question,
+                re.IGNORECASE,
+            )
             if match:
                 return self.when_started_affecting(match.group(1).strip(), match.group(2).strip())
 
@@ -167,7 +181,9 @@ class GraphRetriever:
             confidence=0.0,
         )
 
-    def _answer_state(self, plan: Dict[str, Any], semantic_hits: Sequence[ScoredEdge]) -> GraphAnswer:
+    def _answer_state(
+        self, plan: Dict[str, Any], semantic_hits: Sequence[ScoredEdge]
+    ) -> GraphAnswer:
         entities = [str(v) for v in (plan.get("entities") or [])]
         year = plan.get("year")
 
@@ -177,7 +193,11 @@ class GraphRetriever:
             for entity in entities:
                 entity_uids.update(self.index.resolve_node_uids(entity))
             if entity_uids:
-                filtered = [h for h in filtered if h.edge.source_uid in entity_uids or h.edge.target_uid in entity_uids]
+                filtered = [
+                    h
+                    for h in filtered
+                    if h.edge.source_uid in entity_uids or h.edge.target_uid in entity_uids
+                ]
 
         if year is not None:
             filtered = [h for h in filtered if h.edge.overlaps_year(int(year))]
@@ -191,15 +211,15 @@ class GraphRetriever:
 
         # Prefer meaningful (base) edges over structural span/tag bookkeeping edges
         meaningful = [
-            h for h in filtered
+            h
+            for h in filtered
             if h.edge.relation.lower() not in STRUCTURAL_RELATIONS
             and h.edge.edge_type in ("base", "gold_fact")
         ]
         # Also accept non-base but non-structural edges if base is empty
         if not meaningful:
             meaningful = [
-                h for h in filtered
-                if h.edge.relation.lower() not in STRUCTURAL_RELATIONS
+                h for h in filtered if h.edge.relation.lower() not in STRUCTURAL_RELATIONS
             ]
 
         has_factual = bool(meaningful)
@@ -210,7 +230,9 @@ class GraphRetriever:
         # §6: Canonical answer entity projection — extract entity names from
         # evidence so the LLM can quote a canonical name.
         canonical_entities: List[str] = []
-        for edge in ([h.edge for h in meaningful[:6]] if meaningful else [h.edge for h in filtered[:10]]):
+        for edge in (
+            [h.edge for h in meaningful[:6]] if meaningful else [h.edge for h in filtered[:10]]
+        ):
             for uid in (edge.source_uid, edge.target_uid):
                 label = self.index.node_label(uid)
                 cat = self.index.node_category_by_uid.get(uid, "")
@@ -233,8 +255,12 @@ class GraphRetriever:
                 canonical_hint = f" Key entities: {', '.join(canonical_entities[:5])}."
             return GraphAnswer(
                 question_type="state_at_time",
-                answer_text=f"State evidence{time_text}: " + "; ".join(summary) + f".{canonical_hint}",
-                evidence=[_edge_to_evidence(self.index, edge) for edge in [h.edge for h in filtered[:6]]],
+                answer_text=f"State evidence{time_text}: "
+                + "; ".join(summary)
+                + f".{canonical_hint}",
+                evidence=[
+                    _edge_to_evidence(self.index, edge) for edge in [h.edge for h in filtered[:6]]
+                ],
                 confidence=min(0.9, 0.35 + 0.1 * len(top)),
             )
 
@@ -249,11 +275,15 @@ class GraphRetriever:
                 f"{canonical_hint}"
                 f" The model should rely on its own knowledge."
             ),
-            evidence=[_edge_to_evidence(self.index, edge) for edge in [h.edge for h in filtered[:6]]],
+            evidence=[
+                _edge_to_evidence(self.index, edge) for edge in [h.edge for h in filtered[:6]]
+            ],
             confidence=0.25,
         )
 
-    def _answer_existence(self, plan: Dict[str, Any], semantic_hits: Sequence[ScoredEdge]) -> GraphAnswer:
+    def _answer_existence(
+        self, plan: Dict[str, Any], semantic_hits: Sequence[ScoredEdge]
+    ) -> GraphAnswer:
         entities = [str(v) for v in (plan.get("entities") or [])]
         if len(entities) < 2:
             return GraphAnswer(
@@ -269,7 +299,9 @@ class GraphRetriever:
 
         matches: List[GraphEdge] = []
         for edge in [h.edge for h in semantic_hits]:
-            if (edge.source_uid in left and edge.target_uid in right) or (edge.source_uid in right and edge.target_uid in left):
+            if (edge.source_uid in left and edge.target_uid in right) or (
+                edge.source_uid in right and edge.target_uid in left
+            ):
                 if year is None or edge.overlaps_year(int(year)):
                     matches.append(edge)
 
@@ -339,7 +371,8 @@ class GraphRetriever:
                 if not e_uids:
                     continue
                 anchored = [
-                    h for h in semantic_hits
+                    h
+                    for h in semantic_hits
                     if (h.edge.start_year is not None or h.edge.end_year is not None)
                     and (h.edge.source_uid in e_uids or h.edge.target_uid in e_uids)
                     and h.edge.relation.lower() not in STRUCTURAL_RELATIONS
@@ -347,7 +380,8 @@ class GraphRetriever:
                 # fall back to structural if nothing meaningful
                 if not anchored:
                     anchored = [
-                        h for h in semantic_hits
+                        h
+                        for h in semantic_hits
                         if (h.edge.start_year is not None or h.edge.end_year is not None)
                         and (h.edge.source_uid in e_uids or h.edge.target_uid in e_uids)
                     ]
@@ -378,9 +412,7 @@ class GraphRetriever:
                         f"{'Earlier' if earliest else 'Later'}: '{winner}' (around {winner_year})."
                     )
                 else:
-                    answer_text = (
-                        f"Both '{names[0]}' and '{names[1]}' share the same earliest year ({a_year}) in graph evidence."
-                    )
+                    answer_text = f"Both '{names[0]}' and '{names[1]}' share the same earliest year ({a_year}) in graph evidence."
                 evidence = [
                     _edge_to_evidence(self.index, a_edge),
                     _edge_to_evidence(self.index, b_edge),
@@ -395,7 +427,8 @@ class GraphRetriever:
         # --- Single-entity or no entities: find earliest/latest anchored hit ---
         # Take the top-scored hits first, then find earliest/latest among those.
         scored_with_dates = [
-            hit for hit in semantic_hits
+            hit
+            for hit in semantic_hits
             if hit.edge.start_year is not None or hit.edge.end_year is not None
         ]
         if not scored_with_dates:
@@ -421,7 +454,9 @@ class GraphRetriever:
             confidence=0.75,
         )
 
-    def _answer_count(self, plan: Dict[str, Any], semantic_hits: Sequence[ScoredEdge]) -> GraphAnswer:
+    def _answer_count(
+        self, plan: Dict[str, Any], semantic_hits: Sequence[ScoredEdge]
+    ) -> GraphAnswer:
         entities = [str(v) for v in (plan.get("entities") or [])]
         year = plan.get("year")
 
@@ -443,7 +478,9 @@ class GraphRetriever:
             confidence=0.7 if count > 0 else 0.2,
         )
 
-    def _answer_top_k(self, plan: Dict[str, Any], semantic_hits: Sequence[ScoredEdge]) -> GraphAnswer:
+    def _answer_top_k(
+        self, plan: Dict[str, Any], semantic_hits: Sequence[ScoredEdge]
+    ) -> GraphAnswer:
         k = int(plan.get("k") or 5)
         year = plan.get("year")
         edges = [h.edge for h in semantic_hits]
@@ -626,7 +663,10 @@ class GraphRetriever:
                 f"(time: {when})."
             )
             confidence = 0.8
-            evidence = [_edge_to_evidence(self.index, reference), _edge_to_evidence(self.index, best)]
+            evidence = [
+                _edge_to_evidence(self.index, reference),
+                _edge_to_evidence(self.index, best),
+            ]
         else:
             answer_text = (
                 f"No direct evidence that '{a}' causing '{b}' in {year} also happened to '{c}'."

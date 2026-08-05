@@ -1,12 +1,25 @@
 """Recurrence templates for repeating events."""
+
 from typing import Dict
 
 RECURRENCE_TEMPLATES = [
     {"id": "rec_basic_1", "template": "{event} happens every {frequency}.", "clarity_score": 4.7},
     {"id": "rec_basic_2", "template": "Each {frequency}, {event} occurs.", "clarity_score": 4.6},
-    {"id": "rec_span_1", "template": "From {start_date} to {end_date}, {event} repeats every {frequency}.", "clarity_score": 4.5},
-    {"id": "rec_until_1", "template": "{event} kept recurring every {frequency} until {end_date}.", "clarity_score": 4.4},
-    {"id": "rec_count_1", "template": "{event} occurred {count} times over {frequency}.", "clarity_score": 4.4},
+    {
+        "id": "rec_span_1",
+        "template": "From {start_date} to {end_date}, {event} repeats every {frequency}.",
+        "clarity_score": 4.5,
+    },
+    {
+        "id": "rec_until_1",
+        "template": "{event} kept recurring every {frequency} until {end_date}.",
+        "clarity_score": 4.4,
+    },
+    {
+        "id": "rec_count_1",
+        "template": "{event} occurred {count} times over {frequency}.",
+        "clarity_score": 4.4,
+    },
 ]
 
 

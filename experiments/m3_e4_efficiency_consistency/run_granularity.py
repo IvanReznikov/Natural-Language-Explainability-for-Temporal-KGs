@@ -46,7 +46,12 @@ def _load_granularity_predictions(path: Optional[Path]) -> Dict[Tuple[str, str],
         gran = obj.get("granularity")
         if not rid or not gran:
             continue
-        text = obj.get("prediction") or obj.get("generated_text") or obj.get("output") or obj.get("text")
+        text = (
+            obj.get("prediction")
+            or obj.get("generated_text")
+            or obj.get("output")
+            or obj.get("text")
+        )
         if text is None:
             continue
         preds[(str(rid), str(gran))] = str(text)
@@ -194,7 +199,9 @@ def main() -> None:
 
     ap_exp = sub.add_parser("export")
     ap_exp.add_argument("--dataset", type=str, required=True)
-    ap_exp.add_argument("--predictions", type=str, default=None, help="JSONL with {id, granularity, prediction}")
+    ap_exp.add_argument(
+        "--predictions", type=str, default=None, help="JSONL with {id, granularity, prediction}"
+    )
     ap_exp.add_argument("--output-dir", type=str, required=True)
     ap_exp.add_argument("--n-scenarios", type=int, default=200)
     ap_exp.add_argument("--seed", type=int, default=13)
@@ -202,7 +209,9 @@ def main() -> None:
 
     ap_an = sub.add_parser("analyze")
     ap_an.add_argument("--variants", type=str, required=True, help="CSV or JSONL variants file")
-    ap_an.add_argument("--scenarios", type=str, default=None, help="m3_e4d_scenarios.jsonl (for quality proxy)")
+    ap_an.add_argument(
+        "--scenarios", type=str, default=None, help="m3_e4d_scenarios.jsonl (for quality proxy)"
+    )
     ap_an.add_argument("--output-dir", type=str, required=True)
     ap_an.set_defaults(func=analyze)
 

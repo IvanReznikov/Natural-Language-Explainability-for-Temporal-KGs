@@ -6,6 +6,7 @@ Benchmarks:
 - TMS trace recorder overhead (trace_bench replicated)
 - Parser hybrid inference throughput
 """
+
 from __future__ import annotations
 import importlib.util
 import json
@@ -41,13 +42,21 @@ def bench_intent_classifier_inference() -> dict:
 
     dataset_path = ROOT / "experiments" / "m2_e2_intent" / "data" / "annotated_queries.jsonl"
     if not dataset_path.exists():
-        return {"benchmark": "intent_classifier_inference", "skipped": True, "reason": "intent dataset not found"}
+        return {
+            "benchmark": "intent_classifier_inference",
+            "skipped": True,
+            "reason": "intent dataset not found",
+        }
 
     rows = _load_jsonl(dataset_path)
     queries = [str(row.get("query") or "").strip() for row in rows if row.get("query")]
     intents = [row.get("intents") or [] for row in rows if row.get("query")]
     if not queries or not intents:
-        return {"benchmark": "intent_classifier_inference", "skipped": True, "reason": "empty dataset"}
+        return {
+            "benchmark": "intent_classifier_inference",
+            "skipped": True,
+            "reason": "empty dataset",
+        }
 
     vectorizer = TfidfVectorizer(lowercase=True, ngram_range=(1, 2), max_features=5000)
     X = vectorizer.fit_transform(queries)
@@ -91,7 +100,12 @@ def bench_tms_trace() -> dict:
                 latency_ms=0.1,
             )
     elapsed = time.perf_counter() - t0
-    return {"benchmark": "tms_trace_recorder", "n": N, "total_sec": elapsed, "per_item_ms": elapsed / N * 1000}
+    return {
+        "benchmark": "tms_trace_recorder",
+        "n": N,
+        "total_sec": elapsed,
+        "per_item_ms": elapsed / N * 1000,
+    }
 
 
 def bench_parser_hybrid_inference() -> dict:
@@ -99,18 +113,34 @@ def bench_parser_hybrid_inference() -> dict:
     data_path = ROOT / "experiments" / "m2_e3_parse" / "data" / "temporal_queries_gold.jsonl"
 
     if not parser_script.exists():
-        return {"benchmark": "parser_hybrid_inference", "skipped": True, "reason": "run_parse.py not found"}
+        return {
+            "benchmark": "parser_hybrid_inference",
+            "skipped": True,
+            "reason": "run_parse.py not found",
+        }
     if not data_path.exists():
-        return {"benchmark": "parser_hybrid_inference", "skipped": True, "reason": "gold parse dataset not found"}
+        return {
+            "benchmark": "parser_hybrid_inference",
+            "skipped": True,
+            "reason": "gold parse dataset not found",
+        }
 
     module = _load_module_from_path("m2_e3_run_parse", parser_script)
     parse_row_rules = getattr(module, "parse_row_rules", None)
     if parse_row_rules is None:
-        return {"benchmark": "parser_hybrid_inference", "skipped": True, "reason": "parse_row_rules missing"}
+        return {
+            "benchmark": "parser_hybrid_inference",
+            "skipped": True,
+            "reason": "parse_row_rules missing",
+        }
 
     rows = _load_jsonl(data_path)
     if not rows:
-        return {"benchmark": "parser_hybrid_inference", "skipped": True, "reason": "empty parser dataset"}
+        return {
+            "benchmark": "parser_hybrid_inference",
+            "skipped": True,
+            "reason": "empty parser dataset",
+        }
 
     N = min(max(len(rows) * 10, 500), 5000)
     t0 = time.perf_counter()

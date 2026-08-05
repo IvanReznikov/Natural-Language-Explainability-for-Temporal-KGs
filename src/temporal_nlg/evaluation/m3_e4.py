@@ -15,7 +15,6 @@ from pydantic import BaseModel, Field
 
 from .m3_e3 import bucket_from_time_scope
 
-
 Bucket = Literal["point", "interval", "sequence", "causal", "overlap", "other"]
 
 
@@ -88,14 +87,18 @@ class EfficiencyRun(BaseModel):
 
 def aggregate_efficiency(runs: Iterable[EfficiencyRun]) -> Dict[str, Any]:
     by_method: Dict[str, List[EfficiencyRun]] = defaultdict(list)
-    by_method_level: Dict[str, Dict[int, List[EfficiencyRun]]] = defaultdict(lambda: defaultdict(list))
+    by_method_level: Dict[str, Dict[int, List[EfficiencyRun]]] = defaultdict(
+        lambda: defaultdict(list)
+    )
 
     for r in runs:
         by_method[str(r.method)].append(r)
         by_method_level[str(r.method)][int(r.complexity_level)].append(r)
 
     def _summarize(items: List[EfficiencyRun]) -> Dict[str, Any]:
-        latencies = [_safe_float(r.latency_ms) for r in items if _safe_float(r.latency_ms) is not None]
+        latencies = [
+            _safe_float(r.latency_ms) for r in items if _safe_float(r.latency_ms) is not None
+        ]
         mean_latency = _mean(latencies)
         throughput = (1000.0 / mean_latency) if mean_latency else None
         return {
@@ -115,7 +118,9 @@ def aggregate_efficiency(runs: Iterable[EfficiencyRun]) -> Dict[str, Any]:
     for m, items in sorted(by_method.items()):
         summary["by_method"][m] = _summarize(items)
     for m, level_map in sorted(by_method_level.items()):
-        summary["by_method_level"][m] = {str(k): _summarize(v) for k, v in sorted(level_map.items())}
+        summary["by_method_level"][m] = {
+            str(k): _summarize(v) for k, v in sorted(level_map.items())
+        }
 
     return summary
 
@@ -169,7 +174,13 @@ def aggregate_consistency(results: Iterable[ConsistencyResult]) -> Dict[str, Any
 
     def _summarize(items: List[ConsistencyResult]) -> Dict[str, Any]:
         update_acc = _mean([_safe_float(r.update_accuracy) for r in items])
-        contradiction_rate = _mean([1.0 if r.contradiction_detected else 0.0 for r in items if r.contradiction_detected is not None])
+        contradiction_rate = _mean(
+            [
+                1.0 if r.contradiction_detected else 0.0
+                for r in items
+                if r.contradiction_detected is not None
+            ]
+        )
         coherence = _mean([_safe_float(r.coherence_rating_1_5) for r in items])
         resolution = _mean([_safe_float(r.resolution_time_sec) for r in items])
         return {
@@ -240,8 +251,12 @@ def aggregate_coherence(scores: Iterable[CoherenceScore]) -> Dict[str, Any]:
     def _summarize(items: List[CoherenceScore]) -> Dict[str, Any]:
         return {
             "n": len(items),
-            "semantic_consistency_mean": _mean([_safe_float(r.semantic_consistency) for r in items]),
-            "narrative_consistency_mean": _mean([_safe_float(r.narrative_consistency) for r in items]),
+            "semantic_consistency_mean": _mean(
+                [_safe_float(r.semantic_consistency) for r in items]
+            ),
+            "narrative_consistency_mean": _mean(
+                [_safe_float(r.narrative_consistency) for r in items]
+            ),
             "logical_consistency_mean": _mean([_safe_float(r.logical_consistency) for r in items]),
         }
 
@@ -293,7 +308,9 @@ def aggregate_granularity(variants: Iterable[GranularityVariant]) -> Dict[str, A
         summary["by_granularity"][g] = {
             "n": len(items),
             "quality_mean": _mean([_safe_float(r.quality_score) for r in items]),
-            "length_chars_mean": _mean([float(r.length_chars) for r in items if r.length_chars is not None]),
+            "length_chars_mean": _mean(
+                [float(r.length_chars) for r in items if r.length_chars is not None]
+            ),
         }
     return summary
 

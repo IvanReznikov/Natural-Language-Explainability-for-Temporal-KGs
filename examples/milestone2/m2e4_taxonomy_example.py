@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Classify sample texts with the default M2-E4 taxonomy model (LinearSVC word+char)."""
+
 import sys
 from pathlib import Path
 

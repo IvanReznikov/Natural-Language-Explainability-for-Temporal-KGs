@@ -35,9 +35,9 @@ def answer_to_mermaid(answer: GraphAnswer, max_edges: int = 12) -> str:
         if start or end:
             edge_label = f"{relation} ({start or '?'} → {end or '?'})"
 
-        lines.append(f"    {source_id}[\"{source}\"] -->|\"{edge_label}\"| {target_id}[\"{target}\"]")
+        lines.append(f'    {source_id}["{source}"] -->|"{edge_label}"| {target_id}["{target}"]')
 
     if len(lines) == 1:
-        lines.append("    empty[\"No evidence edges\"]")
+        lines.append('    empty["No evidence edges"]')
 
     return "\n".join(lines)

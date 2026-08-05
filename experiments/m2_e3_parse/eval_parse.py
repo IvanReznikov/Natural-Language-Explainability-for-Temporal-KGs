@@ -53,9 +53,10 @@ def main() -> None:
 
         def normalize_val(val) -> str:
             import re
+
             s = str(val).lower().strip()
             s = re.sub(r"\b(the|a|an)\b", "", s)
-            s = re.sub(r'[.,\/#!$%\^&\*;:{}=\-_`~()?]', '', s)
+            s = re.sub(r"[.,\/#!$%\^&\*;:{}=\-_`~()?]", "", s)
             return re.sub(r"\s+", " ", s).strip()
 
         def frames_equal(f1: dict, f2: dict) -> bool:
@@ -119,13 +120,22 @@ def main() -> None:
         rec = tp / (tp + fn) if (tp + fn) > 0 else 0.0
         f1_val = 2 * prec * rec / (prec + rec) if (prec + rec) > 0 else 0.0
 
-        per_intent_metrics[lbl] = {"precision": prec, "recall": rec, "f1": f1_val, "support": tp + fn}
+        per_intent_metrics[lbl] = {
+            "precision": prec,
+            "recall": rec,
+            "f1": f1_val,
+            "support": tp + fn,
+        }
         macro_f1_sum += f1_val
 
     macro_f1 = macro_f1_sum / len(intent_labels_set) if intent_labels_set else 0.0
     micro_prec = total_tp / (total_tp + total_fp) if (total_tp + total_fp) > 0 else 0.0
     micro_rec = total_tp / (total_tp + total_fn) if (total_tp + total_fn) > 0 else 0.0
-    micro_f1 = 2 * micro_prec * micro_rec / (micro_prec + micro_rec) if (micro_prec + micro_rec) > 0 else 0.0
+    micro_f1 = (
+        2 * micro_prec * micro_rec / (micro_prec + micro_rec)
+        if (micro_prec + micro_rec) > 0
+        else 0.0
+    )
 
     metrics = {
         "examples": total,
@@ -133,7 +143,7 @@ def main() -> None:
         "frame_exact": frame_exact,
         "intent_micro_f1": micro_f1,
         "intent_macro_f1": macro_f1,
-        "per_intent_metrics": per_intent_metrics
+        "per_intent_metrics": per_intent_metrics,
     }
 
     if args.output:

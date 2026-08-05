@@ -1,4 +1,5 @@
 """Meta-queries over rule firing traces (M2-E5)."""
+
 from __future__ import annotations
 
 from typing import Dict, List, Tuple

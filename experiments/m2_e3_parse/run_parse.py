@@ -12,21 +12,21 @@ from scripts.m2_e3.consistency import validate as validate_prediction
 # Keeps the parse_row_rules output and Qwen output in the same label space.
 # ---------------------------------------------------------------------------
 _QWEN_TO_RAW: Dict[str, str] = {
-    "POINT":    "point_in_time",
+    "POINT": "point_in_time",
     "INTERVAL": "interval",
-    "PREDICT":  "prediction",
-    "AGG":      "aggregation",
+    "PREDICT": "prediction",
+    "AGG": "aggregation",
     "SEQUENCE": "sequence",
-    "CAUSAL":   "causal",
-    "COMPARE":  "comparative",
-    "OVERLAP":  "overlap",
+    "CAUSAL": "causal",
+    "COMPARE": "comparative",
+    "OVERLAP": "overlap",
 }
 
 _QWEN_SYSTEM_PROMPT = (
     "You are a temporal knowledge-graph query parser. "
     "Given a natural-language question, output a JSON object with exactly two keys:\n"
-    "  - \"intent\": one of [POINT, INTERVAL, PREDICT, AGG, SEQUENCE, CAUSAL, COMPARE, OVERLAP]\n"
-    "  - \"frame\": a dict of slot-value pairs extracted from the question\n"
+    '  - "intent": one of [POINT, INTERVAL, PREDICT, AGG, SEQUENCE, CAUSAL, COMPARE, OVERLAP]\n'
+    '  - "frame": a dict of slot-value pairs extracted from the question\n'
     "Output ONLY valid JSON. No markdown, no extra text."
 )
 
@@ -55,12 +55,22 @@ def find_quarter_spans(text: str, lower: str) -> List[Tuple[Dict, str]]:
     for m in re.finditer(r"\b(q[1-4])\s*(20\d{2})\b", lower):
         qpart, year = m.group(1).upper(), m.group(2)
         start, end = m.start(), m.end()
-        spans.append(({"label": "period", "start": start, "end": end, "text": text[start:end]}, f"{year}-{qpart}"))
+        spans.append(
+            (
+                {"label": "period", "start": start, "end": end, "text": text[start:end]},
+                f"{year}-{qpart}",
+            )
+        )
     # Also catch forms like 2023 Q4
     for m in re.finditer(r"\b(20\d{2})\s*(q[1-4])\b", lower):
         year, qpart = m.group(1), m.group(2).upper()
         start, end = m.start(), m.end()
-        spans.append(({"label": "period", "start": start, "end": end, "text": text[start:end]}, f"{year}-{qpart}"))
+        spans.append(
+            (
+                {"label": "period", "start": start, "end": end, "text": text[start:end]},
+                f"{year}-{qpart}",
+            )
+        )
     return spans
 
 
@@ -108,8 +118,18 @@ def extract_range(lower: str, text: str) -> Optional[Tuple[str, str, Dict, Dict]
     return (
         y1,
         y2,
-        {"label": "start_date", "start": start_pos, "end": start_pos + len(y1), "text": text[start_pos:start_pos+len(y1)]},
-        {"label": "end_date", "start": end_pos, "end": end_pos + len(y2), "text": text[end_pos:end_pos+len(y2)]},
+        {
+            "label": "start_date",
+            "start": start_pos,
+            "end": start_pos + len(y1),
+            "text": text[start_pos : start_pos + len(y1)],
+        },
+        {
+            "label": "end_date",
+            "start": end_pos,
+            "end": end_pos + len(y2),
+            "text": text[end_pos : end_pos + len(y2)],
+        },
     )
 
 
@@ -211,6 +231,7 @@ def load_qwen_parser_bundle(adapter_dir: Optional[Path]) -> Optional[Dict[str, A
         return {"tokenizer": tokenizer, "model": model, "device": device, "kind": "qwen"}
     except Exception as exc:  # noqa: BLE001
         import warnings
+
         warnings.warn(f"Could not load Qwen parser from {adapter_dir}: {exc}")
         return None
 
@@ -223,7 +244,9 @@ def predict_parser(bundle: Dict[str, Any], text: str, max_new_tokens: int = 256)
     return _predict_t5_parser(bundle, text, max_new_tokens=max_new_tokens)
 
 
-def _predict_t5_parser(bundle: Dict[str, Any], text: str, max_new_tokens: int = 256) -> Dict[str, Any]:
+def _predict_t5_parser(
+    bundle: Dict[str, Any], text: str, max_new_tokens: int = 256
+) -> Dict[str, Any]:
     """T5 seq2seq parser (legacy)."""
     import torch  # type: ignore
 
@@ -246,7 +269,9 @@ def _predict_t5_parser(bundle: Dict[str, Any], text: str, max_new_tokens: int = 
     }
 
 
-def predict_qwen_parser(bundle: Dict[str, Any], text: str, max_new_tokens: int = 128) -> Dict[str, Any]:
+def predict_qwen_parser(
+    bundle: Dict[str, Any], text: str, max_new_tokens: int = 128
+) -> Dict[str, Any]:
     """Qwen2.5 LoRA parser.  Returns the same dict shape as _predict_t5_parser."""
     import torch  # type: ignore
 
@@ -256,7 +281,7 @@ def predict_qwen_parser(bundle: Dict[str, Any], text: str, max_new_tokens: int =
 
     messages = [
         {"role": "system", "content": _QWEN_SYSTEM_PROMPT},
-        {"role": "user",   "content": text.strip()},
+        {"role": "user", "content": text.strip()},
     ]
     prompt = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
     enc = tokenizer(prompt, return_tensors="pt", truncation=True, max_length=512).to(device)
@@ -267,7 +292,7 @@ def predict_qwen_parser(bundle: Dict[str, Any], text: str, max_new_tokens: int =
             do_sample=False,
             pad_token_id=tokenizer.eos_token_id,
         )
-    new_ids = out[0][enc["input_ids"].shape[1]:]
+    new_ids = out[0][enc["input_ids"].shape[1] :]
     decoded = tokenizer.decode(new_ids, skip_special_tokens=True).strip()
 
     # Parse the JSON output
@@ -299,7 +324,9 @@ def predict_qwen_parser(bundle: Dict[str, Any], text: str, max_new_tokens: int =
 def parse_row_rules(row: Dict) -> Dict:
     text = row["text"]
     lower = text.lower()
-    lower = re.sub(r"^(?:versus report|comparison report|compare|contrast|difference)\s*:\s*", "", lower)
+    lower = re.sub(
+        r"^(?:versus report|comparison report|compare|contrast|difference)\s*:\s*", "", lower
+    )
     spans: List[Dict] = []
     frame: Dict = {}
     intent = []
@@ -320,45 +347,86 @@ def parse_row_rules(row: Dict) -> Dict:
 
     range_info = extract_range(lower, text)
     # Causal (only if it doesn't contain aggregation keywords before the causal keyword)
-    causal_trigger = re.search(r"\b(cause|caused|lead to|led to|due to|because of|trigger|triggered|improve|improved|reduce|reduced|prevent|prevented|fix|fixed)\b", lower)
+    causal_trigger = re.search(
+        r"\b(cause|caused|lead to|led to|due to|because of|trigger|triggered|improve|improved|reduce|reduced|prevent|prevented|fix|fixed)\b",
+        lower,
+    )
     is_agg_before_causal = False
     if causal_trigger:
-        pre_causal = lower[:causal_trigger.start()]
-        is_agg_before_causal = any(re.search(r"\b" + x + r"\b", pre_causal) for x in ["total", "sum", "average", "avg", "count"])
+        pre_causal = lower[: causal_trigger.start()]
+        is_agg_before_causal = any(
+            re.search(r"\b" + x + r"\b", pre_causal)
+            for x in ["total", "sum", "average", "avg", "count"]
+        )
 
     # Explanation (why ... after/before, or what caused ... after/before)
-    if (lower.startswith("why") or "why did" in lower or "what caused" in lower or "what triggers" in lower or "what triggered" in lower or lower.startswith("explain") or lower.startswith("explaining")) and ("after" in lower or "before" in lower):
+    if (
+        lower.startswith("why")
+        or "why did" in lower
+        or "what caused" in lower
+        or "what triggers" in lower
+        or "what triggered" in lower
+        or lower.startswith("explain")
+        or lower.startswith("explaining")
+    ) and ("after" in lower or "before" in lower):
         anchor_match = re.search(r"(?:after|before)\s+(.+?)\??$", lower)
-        metric_match = re.search(r"(?:why|what caused|what triggers|what triggered|explain|explaining)(?:\s+did|\s+was|\s+were|\s+the)?\s+(.+?)\s+(?:after|before)", lower)
+        metric_match = re.search(
+            r"(?:why|what caused|what triggers|what triggered|explain|explaining)(?:\s+did|\s+was|\s+were|\s+the)?\s+(.+?)\s+(?:after|before)",
+            lower,
+        )
         atext = anchor_match.group(1).strip() if anchor_match else ""
         mtext = metric_match.group(1).strip() if metric_match else ""
         # Strip leading determiners from anchor ("the patch" -> "patch")
         atext = re.sub(r"^(the|a|an)\s+", "", atext).strip()
         # Strip trailing change-verb/noun from metric ("latency rise" -> "latency", "errors drop" -> "errors")
-        mtext = re.sub(r"\s+(?:rise|rise|drop|dip|surge|spike|fall|increase|decrease|decline|jump|grow|shrink|degrade|improve|worsen|to\s+rise|to\s+drop|to\s+increase|to\s+decrease|to\s+surge|to\s+spike|to\s+fall)\s*$", "", mtext).strip()
+        mtext = re.sub(
+            r"\s+(?:rise|rise|drop|dip|surge|spike|fall|increase|decrease|decline|jump|grow|shrink|degrade|improve|worsen|to\s+rise|to\s+drop|to\s+increase|to\s+decrease|to\s+surge|to\s+spike|to\s+fall)\s*$",
+            "",
+            mtext,
+        ).strip()
         if not mtext and metric_norm:
             mtext = metric_norm
         if mtext:
             mstart = lower.find(mtext)
             if mstart != -1:
-                spans.append({"label": "metric", "start": mstart, "end": mstart + len(mtext), "text": text[mstart:mstart+len(mtext)]})
+                spans.append(
+                    {
+                        "label": "metric",
+                        "start": mstart,
+                        "end": mstart + len(mtext),
+                        "text": text[mstart : mstart + len(mtext)],
+                    }
+                )
         if atext:
             astart = lower.find(atext)
             if astart != -1:
-                spans.append({"label": "event", "start": astart, "end": astart + len(atext), "text": text[astart:astart+len(atext)]})
+                spans.append(
+                    {
+                        "label": "event",
+                        "start": astart,
+                        "end": astart + len(atext),
+                        "text": text[astart : astart + len(atext)],
+                    }
+                )
         relation = "after" if "after" in lower else "before" if "before" in lower else "after"
         frame = {"metric": mtext or metric_norm, "anchor_event": atext, "relation": relation}
         intent = ["explanation", "sequence"]
 
     elif causal_trigger and not is_agg_before_causal:
         # Try "did the X cause the Y" pattern first
-        cause_match = re.search(r"did the (.+?) (?:cause|improve|improved|reduce|reduced|prevent|prevented|trigger|triggered|fix|fixed) (?:the\s+)?(.+?)\?", lower)
+        cause_match = re.search(
+            r"did the (.+?) (?:cause|improve|improved|reduce|reduced|prevent|prevented|trigger|triggered|fix|fixed) (?:the\s+)?(.+?)\?",
+            lower,
+        )
         ctext = etext = ""
         if cause_match:
             ctext = cause_match.group(1).strip()
             etext = cause_match.group(2).strip()
         else:
-            m = re.search(r"(.+?)\s+(?:cause|caused|lead to|led to|triggered?|improve|improved|reduce|reduced|prevent|prevented|fix|fixed)\s+(?:the\s+)?(.+?)\??$", lower)
+            m = re.search(
+                r"(.+?)\s+(?:cause|caused|lead to|led to|triggered?|improve|improved|reduce|reduced|prevent|prevented|fix|fixed)\s+(?:the\s+)?(.+?)\??$",
+                lower,
+            )
             if m:
                 ctext, etext = m.group(1).strip(), m.group(2).strip()
             else:
@@ -368,30 +436,62 @@ def parse_row_rules(row: Dict) -> Dict:
                     etext, ctext = m.group(1).strip(), m.group(2).strip()
         if ctext:
             cstart = lower.find(ctext)
-            spans.append({"label": "cause", "start": cstart, "end": cstart + len(ctext), "text": text[cstart:cstart+len(ctext)]})
+            spans.append(
+                {
+                    "label": "cause",
+                    "start": cstart,
+                    "end": cstart + len(ctext),
+                    "text": text[cstart : cstart + len(ctext)],
+                }
+            )
         if etext:
             estart = lower.find(etext)
-            spans.append({"label": "effect", "start": estart, "end": estart + len(etext), "text": text[estart:estart+len(etext)]})
+            spans.append(
+                {
+                    "label": "effect",
+                    "start": estart,
+                    "end": estart + len(etext),
+                    "text": text[estart : estart + len(etext)],
+                }
+            )
         frame = {"cause": ctext or "", "effect": etext or ""}
         intent = ["causal"]
 
     # Overlap
     elif re.search(r"\b(overlap|overlapping|concurrent|simultaneous|conflicting)\b", lower):
         event_text = ""
-        m = re.search(r"(overlap(?:ping)?|concurrent|simultaneous|conflicting)\s+([a-z][\w\s-]{2,40})", lower)
+        m = re.search(
+            r"(overlap(?:ping)?|concurrent|simultaneous|conflicting)\s+([a-z][\w\s-]{2,40})", lower
+        )
         if m:
             event_text = m.group(2).strip()
             # Strip trailing period-reference ("failures in Q4 2023" -> "failures")
-            event_text = re.sub(r"\s+(?:in|during|for)\s+(?:q[1-4]\s+)?(?:19|20)\d{2}.*$", "", event_text).strip()
+            event_text = re.sub(
+                r"\s+(?:in|during|for)\s+(?:q[1-4]\s+)?(?:19|20)\d{2}.*$", "", event_text
+            ).strip()
             estart = lower.find(event_text)
             if estart != -1:
-                spans.append({"label": "event", "start": estart, "end": estart + len(event_text), "text": text[estart:estart+len(event_text)]})
-        period_val = quarter_spans[0][1] if quarter_spans else (range_info[0] if range_info else None)
+                spans.append(
+                    {
+                        "label": "event",
+                        "start": estart,
+                        "end": estart + len(event_text),
+                        "text": text[estart : estart + len(event_text)],
+                    }
+                )
+        period_val = (
+            quarter_spans[0][1] if quarter_spans else (range_info[0] if range_info else None)
+        )
         frame = {"event": event_text or "event", "period": period_val or ""}
         intent = ["overlap"]
 
     # Comparative
-    elif re.search(r"\b(vs|versus)\b", lower) or "difference" in lower or "contrast" in lower or "compare" in lower:
+    elif (
+        re.search(r"\b(vs|versus)\b", lower)
+        or "difference" in lower
+        or "contrast" in lower
+        or "compare" in lower
+    ):
         years = [m.group(0) for m in re.finditer(r"\b(?:19|20)\d{2}\b", text)]
         if len(years) >= 2:
             a_year, b_year = years[0], years[1]
@@ -405,9 +505,20 @@ def parse_row_rules(row: Dict) -> Dict:
             if m:
                 raw = m.group(1).strip()
                 mstart = lower.find(raw)
-                spans.append({"label": "metric", "start": mstart, "end": mstart + len(raw), "text": text[mstart:mstart+len(raw)]})
+                spans.append(
+                    {
+                        "label": "metric",
+                        "start": mstart,
+                        "end": mstart + len(raw),
+                        "text": text[mstart : mstart + len(raw)],
+                    }
+                )
                 metric_norm = snake(raw)
-        frame = {"metric": metric_norm, "a": years[0] if years else "", "b": years[1] if len(years) > 1 else ""}
+        frame = {
+            "metric": metric_norm,
+            "a": years[0] if years else "",
+            "b": years[1] if len(years) > 1 else "",
+        }
         intent = ["comparative"]
 
     # Interval (between/from ranges or during a period)
@@ -424,47 +535,67 @@ def parse_row_rules(row: Dict) -> Dict:
         intent = ["interval"]
 
     # Prediction
-    elif re.search(r"\b(predict|forecast|estimate|project|projected|will|expect|expected)\b", lower):
+    elif re.search(
+        r"\b(predict|forecast|estimate|project|projected|will|expect|expected)\b", lower
+    ):
         period_val = quarter_spans[0][1] if quarter_spans else ""
         year_match = re.search(r"\b(?:19|20)\d{2}\b", text)
-        
+
         # Heuristic metric fallback
         if not metric_norm:
             m_text = lower
-            m_text = re.sub(r"^(?:predict|forecast|estimate|project|projected|forecasts|what\s+will|will|expected|expect)\s+", "", m_text)
+            m_text = re.sub(
+                r"^(?:predict|forecast|estimate|project|projected|forecasts|what\s+will|will|expected|expect)\s+",
+                "",
+                m_text,
+            )
             m_text = re.sub(r"\b(?:q[1-4]\s+)?(?:19|20)\d{2}\b", "", m_text)
             m_text = re.sub(r"\b(?:19|20)\d{2}\s+q[1-4]\b", "", m_text)
-            m_text = re.sub(r"^(?:total|sum of|sum|count of|count|average|avg|mean|by|in|for|during|of|at|the|a|an)\s+", "", m_text)
+            m_text = re.sub(
+                r"^(?:total|sum of|sum|count of|count|average|avg|mean|by|in|for|during|of|at|the|a|an)\s+",
+                "",
+                m_text,
+            )
             m_text = re.sub(r"\s+(?:by|in|for|during|of|at|the|a|an)$", "", m_text)
             m_text = re.sub(r"\s+be$", "", m_text)
             m_text = m_text.strip()
             if m_text:
                 metric_norm = snake(m_text)
-                
+
         if period_val:
             frame = {"metric": metric_norm, "period": period_val}
         elif year_match:
             ytext = year_match.group(0)
             ystart = lower.find(ytext.lower())
-            spans.append({"label": "date", "start": ystart, "end": ystart + len(ytext), "text": ytext})
+            spans.append(
+                {"label": "date", "start": ystart, "end": ystart + len(ytext), "text": ytext}
+            )
             frame = {"metric": metric_norm, "date": ytext}
         else:
             frame = {"metric": metric_norm}
         intent = ["prediction"]
 
     # Aggregation (period and maybe region)
-    elif quarter_spans or region_span or re.search(r"^\s*(?:the\s+)?(?:total|sum|average|avg|count|aggregate)\b", lower):
+    elif (
+        quarter_spans
+        or region_span
+        or re.search(r"^\s*(?:the\s+)?(?:total|sum|average|avg|count|aggregate)\b", lower)
+    ):
         period_val = quarter_spans[0][1] if quarter_spans else ""
         if not period_val:
             # single year as period
             years = [m.group(0) for m in re.finditer(r"\b(?:19|20)\d{2}\b", text)]
             if years:
                 period_val = years[0]
-                
+
         # Heuristic metric fallback
         if not metric_norm:
             m_text = lower
-            m_text = re.sub(r"^(?:total|sum of|sum|count of|count|average|avg|mean|show|calculate|compute)\s+", "", m_text)
+            m_text = re.sub(
+                r"^(?:total|sum of|sum|count of|count|average|avg|mean|show|calculate|compute)\s+",
+                "",
+                m_text,
+            )
             m_text = re.sub(r"\b(?:q[1-4]\s+)?(?:19|20)\d{2}\b", "", m_text)
             m_text = re.sub(r"\b(?:19|20)\d{2}\s+q[1-4]\b", "", m_text)
             m_text = re.sub(r"^(?:by|in|for|during|of|at|the|a|an)\s+", "", m_text)
@@ -472,7 +603,7 @@ def parse_row_rules(row: Dict) -> Dict:
             m_text = m_text.strip()
             if m_text:
                 metric_norm = snake(m_text)
-                
+
         if region_span:
             frame = {"metric": metric_norm, "period": period_val, "region": region_span["text"]}
         else:
@@ -481,14 +612,25 @@ def parse_row_rules(row: Dict) -> Dict:
 
     # Sequence (before/after/followed)
     elif re.search(r"\b(before|after|followed|preceded?)\b", lower):
-        rel = "after" if "after" in lower else "before" if ("before" in lower or "precede" in lower) else "followed"
+        rel = (
+            "after"
+            if "after" in lower
+            else "before" if ("before" in lower or "precede" in lower) else "followed"
+        )
         anchor_match = re.search(r"(?:after|before|followed|preceded?)\s+the\s+(.+?)\??$", lower)
         if not anchor_match:
             anchor_match = re.search(r"(?:after|before|followed|preceded?)\s+(.+?)\??$", lower)
         if anchor_match:
             atext = anchor_match.group(1).strip()
             astart = lower.find(atext)
-            spans.append({"label": "anchor", "start": astart, "end": astart + len(atext), "text": text[astart:astart+len(atext)]})
+            spans.append(
+                {
+                    "label": "anchor",
+                    "start": astart,
+                    "end": astart + len(atext),
+                    "text": text[astart : astart + len(atext)],
+                }
+            )
             frame = {"metric": metric_norm, "anchor": atext, "relation": rel}
         else:
             frame = {"metric": metric_norm, "anchor": "", "relation": rel}
@@ -496,36 +638,76 @@ def parse_row_rules(row: Dict) -> Dict:
 
     # Point in time fallback
     else:
-        if lower.startswith("when") or "date of" in lower or "when did" in lower or "launch date" in lower or "release date" in lower or "foundation date" in lower:
+        if (
+            lower.startswith("when")
+            or "date of" in lower
+            or "when did" in lower
+            or "launch date" in lower
+            or "release date" in lower
+            or "foundation date" in lower
+        ):
             event_match = re.search(r"when did (.+?)(?:\?|$)", lower)
             if event_match:
                 etext = event_match.group(1).strip()
                 # Strip trailing verb if query is "when did X occur/happen/start"
-                etext = re.sub(r"\s+(?:occur|happen|start|end|begin|finish|take place)\s*$", "", etext).strip()
+                etext = re.sub(
+                    r"\s+(?:occur|happen|start|end|begin|finish|take place)\s*$", "", etext
+                ).strip()
                 estart = lower.find(etext)
                 if estart != -1:
-                    spans.append({"label": "event", "start": estart, "end": estart + len(etext), "text": text[estart:estart+len(etext)]})
-                    frame = {"event": text[estart:estart+len(etext)]}
+                    spans.append(
+                        {
+                            "label": "event",
+                            "start": estart,
+                            "end": estart + len(etext),
+                            "text": text[estart : estart + len(etext)],
+                        }
+                    )
+                    frame = {"event": text[estart : estart + len(etext)]}
             else:
                 # "date of / launch date of / when was the ..."
-                m = re.search(r"(?:launch date of|release date of|foundation date of|date of|when was|when is|when were|when)\s+the\s+(.+?)(?:\?|$)", lower)
+                m = re.search(
+                    r"(?:launch date of|release date of|foundation date of|date of|when was|when is|when were|when)\s+the\s+(.+?)(?:\?|$)",
+                    lower,
+                )
                 if not m:
-                    m = re.search(r"(?:launch date of|release date of|foundation date of|date of|when was|when is)\s+(.+?)(?:\?|$)", lower)
+                    m = re.search(
+                        r"(?:launch date of|release date of|foundation date of|date of|when was|when is)\s+(.+?)(?:\?|$)",
+                        lower,
+                    )
                 if m:
                     etext = m.group(1).strip()
                     # Strip trailing verb phrases ("inaugurated", "signed", "built", "founded", "launched", "opened", "invented", "completed", "declared", "announced", "established")
-                    etext = re.sub(r"\s+(?:inaugurated|signed|built|founded|launched|opened|invented|completed|declared|announced|established)\s*$", "", etext).strip()
+                    etext = re.sub(
+                        r"\s+(?:inaugurated|signed|built|founded|launched|opened|invented|completed|declared|announced|established)\s*$",
+                        "",
+                        etext,
+                    ).strip()
                     estart = lower.find(etext)
                     if estart != -1:
-                        spans.append({"label": "event", "start": estart, "end": estart + len(etext), "text": text[estart:estart+len(etext)]})
-                        frame = {"event": text[estart:estart+len(etext)]}
+                        spans.append(
+                            {
+                                "label": "event",
+                                "start": estart,
+                                "end": estart + len(etext),
+                                "text": text[estart : estart + len(etext)],
+                            }
+                        )
+                        frame = {"event": text[estart : estart + len(etext)]}
             intent = ["point_in_time"]
         elif metric_norm and re.search(r"\b(19|20)\d{2}\b", lower):
             year_match = re.search(r"\b(19|20)\d{2}\b", lower)
             if year_match:
                 ytext = year_match.group(0)
                 ystart = lower.find(ytext)
-                spans.append({"label": "date", "start": ystart, "end": ystart + len(ytext), "text": text[ystart:ystart+len(ytext)]})
+                spans.append(
+                    {
+                        "label": "date",
+                        "start": ystart,
+                        "end": ystart + len(ytext),
+                        "text": text[ystart : ystart + len(ytext)],
+                    }
+                )
                 frame = {"metric": metric_norm, "date": ytext}
                 intent = ["point_in_time"]
 
@@ -535,11 +717,13 @@ def parse_row_rules(row: Dict) -> Dict:
         "spans": spans,
         "frame": frame,
         "intent_labels": intent or row.get("intent_labels", []),
-        "source": "rule-parser"
+        "source": "rule-parser",
     }
 
 
-def parse_row(row: Dict, bundles: Dict[str, Any], threshold: float, fallback_on_error: bool) -> Tuple[Dict, Dict]:
+def parse_row(
+    row: Dict, bundles: Dict[str, Any], threshold: float, fallback_on_error: bool
+) -> Tuple[Dict, Dict]:
     justification = {"id": row.get("id"), "source": "rules", "notes": [], "validation": {}}
     result: Optional[Dict[str, Any]] = None
 
@@ -550,7 +734,9 @@ def parse_row(row: Dict, bundles: Dict[str, Any], threshold: float, fallback_on_
         model_pred = predict_parser(parser_bundle, row["text"])
         intents = model_pred.get("intent_labels", []) or []
         if intent_bundle is not None:
-            intents = sorted(set(intents + predict_intents(intent_bundle, row["text"], threshold=threshold)))
+            intents = sorted(
+                set(intents + predict_intents(intent_bundle, row["text"], threshold=threshold))
+            )
         spans = model_pred.get("spans", []) or []
         frame = model_pred.get("frame", {}) or {}
         result = {
@@ -576,14 +762,21 @@ def parse_row(row: Dict, bundles: Dict[str, Any], threshold: float, fallback_on_
         if validation.get("errors"):
             return True
         # Overlap predictions without event or period are rarely usable
-        if "overlap" in intents and any(w in validation.get("warnings", []) for w in ["overlap_missing_event", "overlap_missing_period"]):
+        if "overlap" in intents and any(
+            w in validation.get("warnings", [])
+            for w in ["overlap_missing_event", "overlap_missing_period"]
+        ):
             return True
         # Empty spans/frame signals the model failed to structure output
         if not pred.get("spans") and not pred.get("frame"):
             return True
         return False
 
-    if fallback_on_error and justification.get("source") == "model" and needs_fallback(result, validation):
+    if (
+        fallback_on_error
+        and justification.get("source") == "model"
+        and needs_fallback(result, validation)
+    ):
         model_validation = validation
         rule_result = parse_row_rules(row)
         rule_validation = validate_prediction(rule_result)
@@ -630,10 +823,12 @@ def main() -> None:
         help="Directory containing the Qwen LoRA adapter (adapter_config.json must exist)",
     )
     # Legacy T5 / intent models
-    parser.add_argument("--intent-model-dir", type=Path,
-                        default=Path("experiments/m2_e3_parse/artifacts/intent"))
-    parser.add_argument("--parser-model-dir", type=Path,
-                        default=Path("experiments/m2_e3_parse/artifacts/parser"))
+    parser.add_argument(
+        "--intent-model-dir", type=Path, default=Path("experiments/m2_e3_parse/artifacts/intent")
+    )
+    parser.add_argument(
+        "--parser-model-dir", type=Path, default=Path("experiments/m2_e3_parse/artifacts/parser")
+    )
     parser.add_argument("--model-threshold", type=float, default=0.25)
     args = parser.parse_args()
 
@@ -664,7 +859,8 @@ def main() -> None:
     justifications: List[Dict] = []
     for row in rows:
         pred, just = parse_row(
-            row, bundles,
+            row,
+            bundles,
             threshold=args.model_threshold,
             fallback_on_error=use_fallback,
         )
@@ -674,7 +870,9 @@ def main() -> None:
     save_jsonl(run_dir / "preds.jsonl", preds)
     save_jsonl(run_dir / "justifications.jsonl", justifications)
 
-    fallback_count = sum(1 for j in justifications if "fallback_rules_on_error" in j.get("notes", []))
+    fallback_count = sum(
+        1 for j in justifications if "fallback_rules_on_error" in j.get("notes", [])
+    )
     metrics = {
         "run_id": run_id,
         "mode": args.mode,

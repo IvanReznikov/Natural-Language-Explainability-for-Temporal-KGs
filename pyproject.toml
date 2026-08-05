@@ -33,6 +33,14 @@ dev = [
   "black>=23.0.0",
   "mypy>=1.0.0",
 ]
+# MeTTa / MORK integration (Milestone 4).
+# ``hyperon`` is the canonical MeTTa interpreter. It ships prebuilt wheels only
+# up to CPython 3.12 (no 3.13 wheel as of 0.2.10), so it is kept optional: the
+# core package stays importable in minimal environments, and the MeTTa
+# integration runs on Python <= 3.12.
+metta = [
+  "hyperon>=0.2.4",
+]
 
 [project.urls]
 Homepage = "https://example.com/temporal-nlg"
@@ -47,6 +55,7 @@ include = ["temporal_nlg*"]
 
 [tool.setuptools.package-data]
 temporal_nlg = []
+temporal_nlg_metta = ["metta/*.metta"]
 
 [tool.pytest.ini_options]
 addopts = "-ra"

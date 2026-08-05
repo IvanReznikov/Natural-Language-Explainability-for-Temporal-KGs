@@ -13,7 +13,6 @@ This version focuses on:
 
 from typing import Dict
 
-
 ANCHOR_SNIPPET_COUNT = 1
 
 
@@ -55,7 +54,6 @@ SEQUENCE_TEMPLATES = [
         "clarity_score": 4.7,
         "readability_score": 87.0,
     },
-
     # First/Next/Last (6-10)
     {
         "id": "seq_first_1",
@@ -87,7 +85,6 @@ SEQUENCE_TEMPLATES = [
         "clarity_score": 4.7,
         "readability_score": 84.0,
     },
-
     # Event focus (11-15)
     {
         "id": "seq_event_1",
@@ -119,7 +116,6 @@ SEQUENCE_TEMPLATES = [
         "clarity_score": 4.6,
         "readability_score": 82.0,
     },
-
     # Simple flow (16-20)
     {
         "id": "seq_flow_1",
@@ -223,7 +219,9 @@ class SequenceTemplate:
 
         # Common helpers
         events_joined = ", ".join(events_safe)
-        events_joined_except_last = ", ".join(events_safe[:-1]) if len(events_safe) > 1 else events_safe[0]
+        events_joined_except_last = (
+            ", ".join(events_safe[:-1]) if len(events_safe) > 1 else events_safe[0]
+        )
         events_joined_with_and = _join_with_and(events_safe)
 
         format_dict = {
@@ -233,12 +231,10 @@ class SequenceTemplate:
             "events_joined_with_and": events_joined_with_and,
             "event_count": len(events_safe),
             "time_span": content.get("time_span", "this time"),
-
             # Explicit safe aliases for the first three
             "events_0": events_safe[0],
             "events_1": events_safe[1],
             "events_2": events_safe[2],
-
             "events_first": events_safe[0],
             "events_second": events_safe[1],
             "events_third": events_safe[2],

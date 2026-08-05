@@ -14,12 +14,12 @@ from .m1_e1_evaluation import (
 )
 
 __all__ = [
-    'AccuracyEvaluator',
-    'AccuracyMetrics',
-    'M3E2FidelityEvaluator',
-    'aggregate_by_bucket',
-    'M1E1EvaluatorV3',
-    'evaluate_and_save',
-    'calculate_flesch_score',
-    'calculate_information_density',
+    "AccuracyEvaluator",
+    "AccuracyMetrics",
+    "M3E2FidelityEvaluator",
+    "aggregate_by_bucket",
+    "M1E1EvaluatorV3",
+    "evaluate_and_save",
+    "calculate_flesch_score",
+    "calculate_information_density",
 ]

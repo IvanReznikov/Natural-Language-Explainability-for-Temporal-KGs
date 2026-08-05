@@ -1,5 +1,6 @@
 ﻿#!/usr/bin/env python3
 """Demo: mark results stale when dependent facts change (M2-E6)."""
+
 from __future__ import annotations
 
 from pathlib import Path
@@ -34,14 +35,15 @@ def main():
     changed_facts = store.mark_stale_by_facts(touched)
     changed_rules = store.mark_stale_by_rules(fired_rules)
 
-    print({
-        "stale_by_facts": [r.result_id for r in changed_facts],
-        "stale_by_rules": [r.result_id for r in changed_rules],
-        "active": [r.result_id for r in store.active_results()],
-    })
+    print(
+        {
+            "stale_by_facts": [r.result_id for r in changed_facts],
+            "stale_by_rules": [r.result_id for r in changed_rules],
+            "active": [r.result_id for r in store.active_results()],
+        }
+    )
     print(f"Results persisted at {store_path}")
 
 
 if __name__ == "__main__":
     main()
-

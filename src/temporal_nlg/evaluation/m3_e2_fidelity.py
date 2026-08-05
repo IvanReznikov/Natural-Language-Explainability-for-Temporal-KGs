@@ -20,7 +20,6 @@ import re
 
 from temporal_nlg.temporal_expr import TemporalNormalizer, TemporalTagger
 
-
 _YEAR_RE = re.compile(r"\b(1\d{3}|2\d{3})\b")
 
 
@@ -143,7 +142,9 @@ def _timestamp_tier_score(diff_days: int) -> float:
     return 0.0
 
 
-def _best_date_match_score(pred_dates: Sequence[date], gold_dates: Sequence[date], pred_years: Sequence[int]) -> float:
+def _best_date_match_score(
+    pred_dates: Sequence[date], gold_dates: Sequence[date], pred_years: Sequence[int]
+) -> float:
     if not gold_dates:
         return 1.0
 
@@ -312,7 +313,9 @@ class M3E2FidelityEvaluator:
         self.tagger = TemporalTagger()
         self.normalizer = TemporalNormalizer()
 
-    def extract_temporals(self, text: str) -> Tuple[List[TemporalMention], List[date], List[Tuple[date, date]], List[float], List[int]]:
+    def extract_temporals(
+        self, text: str
+    ) -> Tuple[List[TemporalMention], List[date], List[Tuple[date, date]], List[float], List[int]]:
         mentions: List[TemporalMention] = []
         dates: List[date] = []
         ranges: List[Tuple[date, date]] = []
@@ -381,7 +384,9 @@ class M3E2FidelityEvaluator:
         for sd, ed in gold_ranges:
             gold_years.extend([sd.year, ed.year])
 
-        mentions, pred_dates, pred_ranges, pred_durations, pred_years = self.extract_temporals(prediction_text)
+        mentions, pred_dates, pred_ranges, pred_durations, pred_years = self.extract_temporals(
+            prediction_text
+        )
 
         # Shared proxy metrics.
         # M3-E2a: Context Relevance proxy
@@ -412,7 +417,9 @@ class M3E2FidelityEvaluator:
         if bucket == "point":
             metrics.update(
                 {
-                    "timestamp_accuracy": _best_date_match_score(pred_dates, gold_dates, pred_years),
+                    "timestamp_accuracy": _best_date_match_score(
+                        pred_dates, gold_dates, pred_years
+                    ),
                     "context_relevance_proxy": context_relevance,
                     "unnecessary_detail_proxy": unnecessary_detail,
                 }
@@ -475,11 +482,17 @@ class M3E2FidelityEvaluator:
 
             metrics.update(
                 {
-                    "boundary_accuracy": boundary_accuracy if boundary_accuracy is not None else 0.0,
-                    "duration_correctness": duration_correctness if duration_correctness is not None else 0.0,
+                    "boundary_accuracy": (
+                        boundary_accuracy if boundary_accuracy is not None else 0.0
+                    ),
+                    "duration_correctness": (
+                        duration_correctness if duration_correctness is not None else 0.0
+                    ),
                     "overlap_representation": overlap_representation,
                     "interval_comparison_clarity": _comparison_clarity(prediction_text),
-                    "interval_marker_presence": _marker_presence(prediction_text, _INTERVAL_MARKERS),
+                    "interval_marker_presence": _marker_presence(
+                        prediction_text, _INTERVAL_MARKERS
+                    ),
                 }
             )
             return metrics
@@ -537,8 +550,12 @@ class M3E2FidelityEvaluator:
             metrics.update(
                 {
                     "causal_link_accuracy": None,
-                    "temporal_constraint_correctness": _best_date_match_score(pred_dates, gold_dates, pred_years),
-                    "alternative_cause_awareness": float("alternative" in pred_l or "other" in pred_l or "also" in pred_l),
+                    "temporal_constraint_correctness": _best_date_match_score(
+                        pred_dates, gold_dates, pred_years
+                    ),
+                    "alternative_cause_awareness": float(
+                        "alternative" in pred_l or "other" in pred_l or "also" in pred_l
+                    ),
                     "confidence_calibration": None,
                     "causal_marker_presence": float(any(m in pred_l for m in _CAUSAL_MARKERS)),
                 }

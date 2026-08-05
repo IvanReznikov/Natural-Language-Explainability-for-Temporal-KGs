@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Create placeholder summary.json for all M3-E5 run configurations."""
+
 import json
 import pathlib
 from datetime import datetime, timezone

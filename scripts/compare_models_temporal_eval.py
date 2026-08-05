@@ -85,10 +85,10 @@ def _normalize(text: str) -> str:
 # Leading articles and filler phrases stripped for loose near-miss scoring
 # Longer phrases must precede shorter prefixes in the alternation
 _LOOSE_LEADING = re.compile(
-    r'^(the launch of |the release of |the first |the opening of |'
-    r'the signing of |the founding of |'
-    r'the |a |an |first |second |third |'
-    r'fc |cf |as |ac |afc |rcd |club )'
+    r"^(the launch of |the release of |the first |the opening of |"
+    r"the signing of |the founding of |"
+    r"the |a |an |first |second |third |"
+    r"fc |cf |as |ac |afc |rcd |club )"
 )
 
 
@@ -98,12 +98,12 @@ def _normalize_loose(text: str) -> str:
     'India, 2011' == 'India' (truncated LLM output).
     """
     t = _normalize(text)
-    t = re.sub(r'\s*\([^)]{0,40}\)\s*$', '', t).strip()
-    t = re.sub(r',\s*\d.*$', '', t).strip()
+    t = re.sub(r"\s*\([^)]{0,40}\)\s*$", "", t).strip()
+    t = re.sub(r",\s*\d.*$", "", t).strip()
     for _ in range(4):
         m = _LOOSE_LEADING.match(t)
         if m:
-            t = t[m.end():].strip()
+            t = t[m.end() :].strip()
         else:
             break
     return t
@@ -118,7 +118,7 @@ def _score_prediction(prediction: str, gold: str) -> Dict[str, float]:
     if not exact:
         # Fix G: a bare year that appears in the gold phrase counts as correct
         # (e.g. pred="1979" gold="the 1979 oil shock")
-        if re.match(r'^\d{4}$', p) and p in g.split():
+        if re.match(r"^\d{4}$", p) and p in g.split():
             exact = 1.0
         # Fix G: pred is a significant prefix of gold — LLM output was truncated
         # (e.g. pred="russia s 1998" gold="russia s 1998 crisis")
@@ -175,7 +175,7 @@ def _render_progress(
     pct = 100.0 * done_safe / total_safe
     # ETA
     if done_safe > 0 and elapsed > 0:
-        rate = done_safe / elapsed          # items/sec
+        rate = done_safe / elapsed  # items/sec
         remaining = (total_safe - done_safe) / rate
         h, rem = divmod(int(remaining), 3600)
         m, s = divmod(rem, 60)
@@ -186,7 +186,11 @@ def _render_progress(
         time_part = f" | {el_str}<{eta_str}"
     else:
         time_part = ""
-    acc_part = f" | acc {correct}/{done_safe} ({100*correct/done_safe:.1f}%)" if correct >= 0 and done_safe > 0 else ""
+    acc_part = (
+        f" | acc {correct}/{done_safe} ({100*correct/done_safe:.1f}%)"
+        if correct >= 0 and done_safe > 0
+        else ""
+    )
     line = f"\r{label:<18} |{bar}| {done_safe}/{total_safe} {pct:5.1f}%{time_part}{acc_part}"
     print(line, end="", flush=True)
     if done_safe >= total_safe:
@@ -200,7 +204,10 @@ def _embed_text(text: str, embed_url: str) -> Optional[List[float]]:
         body = _post_json_with_retry(
             url=f"{base}/v1/embeddings",
             payload={
-                "model": os.getenv("LOCAL_EMBEDDING_MODEL_NAME", os.getenv("EMBED_MODEL_NAME", "Qwen/Qwen3-Embedding-0.6B")),
+                "model": os.getenv(
+                    "LOCAL_EMBEDDING_MODEL_NAME",
+                    os.getenv("EMBED_MODEL_NAME", "Qwen/Qwen3-Embedding-0.6B"),
+                ),
                 "input": [text],  # server expects List[str], not bare string
             },
             timeout_sec=15,
@@ -267,9 +274,7 @@ class QARetriever:
                     pass
 
         dims = sorted(self._artifacts_by_dim.keys())
-        print(
-            f"[QARetriever] Indexed dims={dims}, qa_records={len(self._records)}"
-        )
+        print(f"[QARetriever] Indexed dims={dims}, qa_records={len(self._records)}")
 
     def _load_index_for_dim(self, dim: int) -> Optional[dict]:
         cached = self._index_cache_by_dim.get(dim)
@@ -356,9 +361,7 @@ class QARetriever:
             yr_str = str(q_year)
             for uid, sc in best.items():
                 rec = self._records.get(uid)
-                if rec and yr_str in (
-                    str(rec.get("query", "")) + str(rec.get("gold_answer", ""))
-                ):
+                if rec and yr_str in (str(rec.get("query", "")) + str(rec.get("gold_answer", ""))):
                     best[uid] = sc + 0.06
         # Sort by boosted score, return top-K
         sorted_uids = sorted(best, key=lambda u: -best[u])[:top_k]
@@ -380,8 +383,11 @@ def _build_rag_prompt(
 ) -> str:
     """Build a prompt backed by the qa_index nearest-neighbour hits."""
     hits = qa_retriever.retrieve(
-        question, embed_url, top_k=4,
-        extra_queries=extra_queries, q_year=q_year,
+        question,
+        embed_url,
+        top_k=4,
+        extra_queries=extra_queries,
+        q_year=q_year,
     )
     if not hits:
         _q_lo = question.lower()
@@ -389,7 +395,9 @@ def _build_rag_prompt(
             _q_lo.startswith(w) for w in ("who ", "which ", "what ", "whose ", "whom ")
         )
         if is_yesno_q:
-            return f"Question: {question}\n\nAnswer using your own knowledge. Output only Yes or No."
+            return (
+                f"Question: {question}\n\nAnswer using your own knowledge. Output only Yes or No."
+            )
         if _is_entity_q:
             return (
                 f"Question: {question}\n\n"
@@ -406,6 +414,7 @@ def _build_rag_prompt(
         _q_lo2.startswith(w) for w in ("who ", "which ", "what ", "whose ", "whom ")
     )
     if _is_entity_rag:
+
         def _is_yesno_answer(ans: str) -> bool:
             a = ans.strip().lower()
             # bare yes/no or verbose "No, the Rugby..." / "Yes, it happened..."
@@ -415,6 +424,7 @@ def _build_rag_prompt(
                 if a.startswith(prefix):
                     return True
             return False
+
         hits = [h for h in hits if not _is_yesno_answer(h.get("gold_answer") or "")]
         # Also drop irrelevant hits (low similarity) to avoid confusing the model.
         # Parametric knowledge is better than weakly-related RAG context.
@@ -425,9 +435,11 @@ def _build_rag_prompt(
         if q_year:
             _yr_str = str(q_year)
             _hits_with_year = [
-                h for h in hits
-                if _yr_str in (h.get("query") or "") or _yr_str in (h.get("gold_answer") or "")
-                   or any(_yr_str in str(f) for f in (h.get("gold_facts") or []))
+                h
+                for h in hits
+                if _yr_str in (h.get("query") or "")
+                or _yr_str in (h.get("gold_answer") or "")
+                or any(_yr_str in str(f) for f in (h.get("gold_facts") or []))
             ]
             # Only apply the year filter if it leaves at least 1 hit;
             # otherwise keep all (year might not appear but topic still matches).
@@ -442,7 +454,9 @@ def _build_rag_prompt(
                 "Output only the name or short phrase. NEVER output Yes or No."
             )
         if is_yesno_q:
-            return f"Question: {question}\n\nAnswer using your own knowledge. Output only Yes or No."
+            return (
+                f"Question: {question}\n\nAnswer using your own knowledge. Output only Yes or No."
+            )
         return f"Question: {question}\n\nAnswer using your own knowledge. Output only the concise answer."
 
     ref_lines = []
@@ -512,27 +526,27 @@ def _build_graph_prompt(
     qa_retriever: Optional["QARetriever"] = None,
     embed_url: str = "",
 ) -> str:
-    answer_text = graph_context.get('answer_text', '')
-    confidence = float(graph_context.get('confidence', 0))
+    answer_text = graph_context.get("answer_text", "")
+    confidence = float(graph_context.get("confidence", 0))
 
     # For simple entity-lookup questions (who/what/which, state_at_time), limit
     # evidence to the top 3 edges.  The 0.8B model gets confused when shown 10+
     # edges and tends to pick a more "famous" entity it hallucinated rather than
     # the top-ranked evidence edge.  Ordering questions keep more edges (both
     # events need representation).
-    low_q_intent = str((graph_context.get('plan') or {}).get('query_type') or '')
+    low_q_intent = str((graph_context.get("plan") or {}).get("query_type") or "")
     # P5c fix: pre-compute plan-derived extra queries + year for RAG multi-query retrieval
-    _plan = graph_context.get('plan') or {}
-    _rag_q_year: Optional[int] = _plan.get('year') or None
+    _plan = graph_context.get("plan") or {}
+    _rag_q_year: Optional[int] = _plan.get("year") or None
     _rag_extra_queries: List[str] = []
-    _plan_entities = _plan.get('entities') or []
-    _plan_rel_hint = str(_plan.get('relation_hint') or '')
+    _plan_entities = _plan.get("entities") or []
+    _plan_rel_hint = str(_plan.get("relation_hint") or "")
     if _plan_entities:
         # "role phrase + year" query (e.g. "president Ukraine 2020")
         _role_parts = [str(e) for e in _plan_entities[:2]]
         if _plan_rel_hint:
-            _role_parts.insert(0, _plan_rel_hint.replace('_', ' '))
-        _role_q = ' '.join(_role_parts)
+            _role_parts.insert(0, _plan_rel_hint.replace("_", " "))
+        _role_q = " ".join(_role_parts)
         if _rag_q_year:
             _rag_extra_queries.append(f"{_role_q} {_rag_q_year}")
         _rag_extra_queries.append(_role_q)
@@ -541,28 +555,30 @@ def _build_graph_prompt(
             _ent_s = str(_ent).strip()
             if _ent_s and _ent_s not in _rag_extra_queries:
                 _rag_extra_queries.append(_ent_s)
-    _raw_ev = graph_context.get('evidence', [])
-    _is_simple_lookup = low_q_intent in ('state_at_time', 'state_during_interval', '')
+    _raw_ev = graph_context.get("evidence", [])
+    _is_simple_lookup = low_q_intent in ("state_at_time", "state_during_interval", "")
     if _is_simple_lookup and len(_raw_ev) > 2:
         # Prefer edges whose date range overlaps the query year so off-era edges
         # (e.g. Konrad Adenauer when asked about 2006) don't appear in the top-3.
-        _q_year = (graph_context.get('plan') or {}).get('year')
+        _q_year = (graph_context.get("plan") or {}).get("year")
+
         def _yr_overlap_score(e: dict) -> int:
             if not _q_year:
                 return 0
-            s = re.match(r'(\d{4})', str(e.get('start') or ''))
-            en = re.match(r'(\d{4})', str(e.get('end') or ''))
+            s = re.match(r"(\d{4})", str(e.get("start") or ""))
+            en = re.match(r"(\d{4})", str(e.get("end") or ""))
             if s and en:
                 return 0 if int(s.group(1)) <= _q_year <= int(en.group(1)) else 1
             if s:
                 return 0 if abs(int(s.group(1)) - _q_year) <= 5 else 1
             return 0  # no date, keep in front
+
         sorted_ev = sorted(_raw_ev, key=_yr_overlap_score)
         # Deduplicate by (source, target) to avoid showing the same edge twice
         seen_pairs: set = set()
         deduped_ev = []
         for e in sorted_ev:
-            pair = (str(e.get('source', '')), str(e.get('target', '')))
+            pair = (str(e.get("source", "")), str(e.get("target", "")))
             if pair not in seen_pairs:
                 seen_pairs.add(pair)
                 deduped_ev.append(e)
@@ -572,7 +588,7 @@ def _build_graph_prompt(
         seen_pairs_all: set = set()
         evidence = []
         for e in _raw_ev[:24]:
-            pair = (str(e.get('source', '')), str(e.get('target', '')))
+            pair = (str(e.get("source", "")), str(e.get("target", "")))
             if pair not in seen_pairs_all:
                 seen_pairs_all.add(pair)
                 evidence.append(e)
@@ -580,16 +596,30 @@ def _build_graph_prompt(
                 break
 
     # Self-contained temporal logic: pipeline already solved it, no extra call needed
-    intent = str((graph_context.get('plan') or {}).get('query_type') or graph_context.get('intent') or '')
-    if intent == 'self_contained':
+    intent = str(
+        (graph_context.get("plan") or {}).get("query_type") or graph_context.get("intent") or ""
+    )
+    if intent == "self_contained":
         # Fix F: if the question is open-ended (not yes/no) and the pipeline's
         # answer_text is a bare Yes/No, the pipeline collapsed a status/phrase question
         # to a boolean. Route through the LLM so it can output the proper term.
-        _sc_is_yn_q = any(question.lower().startswith(w) for w in
-                          ("did ", "was ", "were ", "is ", "has ", "have ",
-                           "does ", "do ", "can ", "could "))
-        _sc_ans_bare = (answer_text or '').strip().lower()
-        if not _sc_is_yn_q and _sc_ans_bare in ('yes', 'no', ''):
+        _sc_is_yn_q = any(
+            question.lower().startswith(w)
+            for w in (
+                "did ",
+                "was ",
+                "were ",
+                "is ",
+                "has ",
+                "have ",
+                "does ",
+                "do ",
+                "can ",
+                "could ",
+            )
+        )
+        _sc_ans_bare = (answer_text or "").strip().lower()
+        if not _sc_is_yn_q and _sc_ans_bare in ("yes", "no", ""):
             # Let the LLM answer from its own knowledge
             return (
                 f"Question: {question}\n\n"
@@ -605,13 +635,13 @@ def _build_graph_prompt(
     # Format evidence as readable triples (with category annotations)
     ev_lines = []
     for e in evidence:
-        src = e.get('source', '?')
-        src_cat = e.get('source_category', '')
-        rel = e.get('relation', '?')
-        tgt = e.get('target', '?')
-        tgt_cat = e.get('target_category', '')
-        start = e.get('start') or ''
-        end = e.get('end') or ''
+        src = e.get("source", "?")
+        src_cat = e.get("source_category", "")
+        rel = e.get("relation", "?")
+        tgt = e.get("target", "?")
+        tgt_cat = e.get("target_category", "")
+        start = e.get("start") or ""
+        end = e.get("end") or ""
         time_str = f" ({start}" + (f"–{end}" if end else "") + ")" if start else ""
         src_part = f"{src} [{src_cat}]" if src_cat not in _SILENT_CATS else src
         tgt_part = f"{tgt} [{tgt_cat}]" if tgt_cat not in _SILENT_CATS else tgt
@@ -619,16 +649,28 @@ def _build_graph_prompt(
 
     low_q = question.lower()
     is_ordering = (
-        "before" in low_q or "after" in low_q
-        or "which came" in low_q or "what came" in low_q
+        "before" in low_q
+        or "after" in low_q
+        or "which came" in low_q
+        or "what came" in low_q
         or ("earlier" in low_q and "or" in low_q)
         or ("later" in low_q and "or" in low_q)
         or "first occur" in low_q
     )
     # Distinguish yes/no ordering ("Did X happen before Y?") from
     # name-the-entity ordering ("Which came first: X or Y?")
-    _YN_STARTERS = ("did ", "was ", "were ", "is ", "has ", "have ",
-                    "does ", "do ", "can ", "could ")
+    _YN_STARTERS = (
+        "did ",
+        "was ",
+        "were ",
+        "is ",
+        "has ",
+        "have ",
+        "does ",
+        "do ",
+        "can ",
+        "could ",
+    )
     is_yesno_q = any(low_q.startswith(w) for w in _YN_STARTERS)
     is_ordering_yesno = is_ordering and is_yesno_q
     is_ordering_name = is_ordering and not is_yesno_q
@@ -636,10 +678,12 @@ def _build_graph_prompt(
     # For ordering/before-after questions: sort triples by start year so the
     # model sees a chronological list rather than retrieval-score order
     if is_ordering:
+
         def _sort_key(item):
             s = item[0] or ""
             m = re.match(r"(\d{4})", s)
             return int(m.group(1)) if m else 9999
+
         ev_lines = sorted(ev_lines, key=_sort_key)
 
     ev_text = "\n".join(line for _, line in ev_lines) if ev_lines else ""
@@ -650,21 +694,57 @@ def _build_graph_prompt(
     # retrievals with correct dated edges yield a deterministic answer.
 
     # Shared stop/role words and normalizer for ordering hint extraction.
-    _ca_stop = {"did", "was", "were", "the", "a", "an", "of", "in", "to", "be",
-                "began", "end", "happen", "start"}
-    _ROLE_WORDS = frozenset({
-        "president", "minister", "prime", "secretary", "king", "queen",
-        "emperor", "ceo", "chairman", "director", "general", "release",
-        "launch", "founding", "death", "birth", "start", "end", "term",
-        "first", "second", "third", "new", "last",
-    })
+    _ca_stop = {
+        "did",
+        "was",
+        "were",
+        "the",
+        "a",
+        "an",
+        "of",
+        "in",
+        "to",
+        "be",
+        "began",
+        "end",
+        "happen",
+        "start",
+    }
+    _ROLE_WORDS = frozenset(
+        {
+            "president",
+            "minister",
+            "prime",
+            "secretary",
+            "king",
+            "queen",
+            "emperor",
+            "ceo",
+            "chairman",
+            "director",
+            "general",
+            "release",
+            "launch",
+            "founding",
+            "death",
+            "birth",
+            "start",
+            "end",
+            "term",
+            "first",
+            "second",
+            "third",
+            "new",
+            "last",
+        }
+    )
 
     def _norm_hint_words(phrase: str) -> list[str]:
         """Tokenize, strip possessives and punctuation, drop stop/role words."""
         words = []
         for w in phrase.split():
             w = re.sub(r"[\u2018\u2019''`]s$", "", w)  # strip possessive 's
-            w = re.sub(r"[^\w-]", "", w)               # strip remaining punctuation
+            w = re.sub(r"[^\w-]", "", w)  # strip remaining punctuation
             w = w.lower()
             if len(w) > 2 and w not in _ca_stop and w not in _ROLE_WORDS:
                 words.append(w)
@@ -674,15 +754,19 @@ def _build_graph_prompt(
         _ca_years_per_entity: dict = {}
         # Fix I: handle both "before" and "after" questions.
         # For "after": "Did X happen after Y?" → A=Y (right of "after"), B=X (left)
-        _ca_before_parts = re.split(r'\bbefore\b', low_q)
-        _ca_after_parts = re.split(r'\bafter\b', low_q)
+        _ca_before_parts = re.split(r"\bbefore\b", low_q)
+        _ca_after_parts = re.split(r"\bafter\b", low_q)
         _ca_uses_after = len(_ca_before_parts) == 1 and len(_ca_after_parts) > 1
         if _ca_uses_after:
             _ca_a_hint = _norm_hint_words(_ca_after_parts[1][:50])
             _ca_b_hint = _norm_hint_words(_ca_after_parts[0][-50:])
         else:
-            _ca_a_hint = _norm_hint_words(_ca_before_parts[0][-50:] if len(_ca_before_parts) > 1 else "")
-            _ca_b_hint = _norm_hint_words(_ca_before_parts[1][:50] if len(_ca_before_parts) > 1 else "")
+            _ca_a_hint = _norm_hint_words(
+                _ca_before_parts[0][-50:] if len(_ca_before_parts) > 1 else ""
+            )
+            _ca_b_hint = _norm_hint_words(
+                _ca_before_parts[1][:50] if len(_ca_before_parts) > 1 else ""
+            )
         _ca_a_excl = [w for w in _ca_a_hint if w not in set(_ca_b_hint)]
         _ca_b_excl = [w for w in _ca_b_hint if w not in set(_ca_a_hint)]
         _ca_a_primary = _ca_a_excl if _ca_a_excl else _ca_a_hint
@@ -695,8 +779,12 @@ def _build_graph_prompt(
                 _ca_yr = int(_ca_m.group(1))
                 _ca_ll = _ca_line.lower()
                 # Fix E: use word-boundary matching to avoid substring false positives
-                _ca_a_match = any(re.search(r'\b' + re.escape(w) + r'\b', _ca_ll) for w in _ca_a_primary)
-                _ca_b_match = any(re.search(r'\b' + re.escape(w) + r'\b', _ca_ll) for w in _ca_b_primary)
+                _ca_a_match = any(
+                    re.search(r"\b" + re.escape(w) + r"\b", _ca_ll) for w in _ca_a_primary
+                )
+                _ca_b_match = any(
+                    re.search(r"\b" + re.escape(w) + r"\b", _ca_ll) for w in _ca_b_primary
+                )
                 if _ca_a_match and not _ca_b_match:
                     _ca_years_per_entity.setdefault("A", []).append(_ca_yr)
                 elif _ca_b_match and not _ca_a_match:
@@ -726,23 +814,35 @@ def _build_graph_prompt(
                 # Fix D: entity relevance guard — only use this anchor if the edge
                 # that provided the date has a src/tgt token that appears in the
                 # question's side phrase (prevents Argentina-anchoring for Greece Q).
-                _c3_known_kws = set(_norm_hint_words(
-                    _ca_after_parts[1] if _ca_uses_after and _c3_known == "A"
-                    else _ca_after_parts[0] if _ca_uses_after
-                    else (re.split(r'\bbefore\b', low_q) or [""])[0]
-                    if _c3_known == "A"
-                    else (re.split(r'\bbefore\b', low_q) + [""])[1]
-                ))
+                _c3_known_kws = set(
+                    _norm_hint_words(
+                        _ca_after_parts[1]
+                        if _ca_uses_after and _c3_known == "A"
+                        else (
+                            _ca_after_parts[0]
+                            if _ca_uses_after
+                            else (
+                                (re.split(r"\bbefore\b", low_q) or [""])[0]
+                                if _c3_known == "A"
+                                else (re.split(r"\bbefore\b", low_q) + [""])[1]
+                            )
+                        )
+                    )
+                )
                 _c3_anchor_valid = False
                 for _c3e in evidence:
-                    _c3e_rel = re.sub(r'[^a-z_]', '', (_c3e.get('relation') or '').lower().replace(' ', '_'))
-                    _c3e_src = (_c3e.get('source') or '').lower()
-                    _c3e_tgt = (_c3e.get('target') or '').lower()
-                    _c3e_start = str(_c3e.get('start') or '')
-                    _c3e_yr_m = re.match(r'(\d{4})', _c3e_start)
+                    _c3e_rel = re.sub(
+                        r"[^a-z_]", "", (_c3e.get("relation") or "").lower().replace(" ", "_")
+                    )
+                    _c3e_src = (_c3e.get("source") or "").lower()
+                    _c3e_tgt = (_c3e.get("target") or "").lower()
+                    _c3e_start = str(_c3e.get("start") or "")
+                    _c3e_yr_m = re.match(r"(\d{4})", _c3e_start)
                     if not _c3e_yr_m or int(_c3e_yr_m.group(1)) != _c3_anchor_yr:
                         continue
-                    if _c3_known_kws and any(kw in _c3e_src or kw in _c3e_tgt for kw in _c3_known_kws):
+                    if _c3_known_kws and any(
+                        kw in _c3e_src or kw in _c3e_tgt for kw in _c3_known_kws
+                    ):
                         _c3_anchor_valid = True
                         break
                 if not _c3_anchor_valid and _c3_known_kws:
@@ -754,7 +854,7 @@ def _build_graph_prompt(
                     _c3_b_phrase = _c3_parts[0].strip() if len(_c3_parts) > 1 else question
                     _c3_a_phrase = _c3_parts[1].strip() if len(_c3_parts) > 1 else ""
                 else:
-                    _c3_parts = re.split(r'\bbefore\b', low_q)
+                    _c3_parts = re.split(r"\bbefore\b", low_q)
                     _c3_a_phrase = _c3_parts[0].strip() if len(_c3_parts) > 1 else question
                     _c3_b_phrase = _c3_parts[1].strip() if len(_c3_parts) > 1 else ""
                 _c3_known_phrase = _c3_a_phrase if _c3_known == "A" else _c3_b_phrase
@@ -789,23 +889,25 @@ def _build_graph_prompt(
             if _on_a_primary and _on_b_primary:
                 # Fix C: semantic direction from 'preceded' / 'followed_by' edges
                 for _oc_e in evidence:
-                    _oc_rel = re.sub(r'[^a-z_]', '', ((_oc_e.get('relation') or '').lower().replace(' ', '_')))
-                    if _oc_rel in ('preceded', 'followed_by', 'preceded_by', 'follows'):
-                        _oc_src = (_oc_e.get('source') or '').lower()
-                        _oc_tgt = (_oc_e.get('target') or '').lower()
+                    _oc_rel = re.sub(
+                        r"[^a-z_]", "", ((_oc_e.get("relation") or "").lower().replace(" ", "_"))
+                    )
+                    if _oc_rel in ("preceded", "followed_by", "preceded_by", "follows"):
+                        _oc_src = (_oc_e.get("source") or "").lower()
+                        _oc_tgt = (_oc_e.get("target") or "").lower()
                         _oc_a_src = any(w in _oc_src for w in _on_a_primary)
                         _oc_b_src = any(w in _oc_src for w in _on_b_primary)
                         _oc_a_tgt = any(w in _oc_tgt for w in _on_a_primary)
                         _oc_b_tgt = any(w in _oc_tgt for w in _on_b_primary)
                         _want_later = "later" in low_q
                         # 'preceded'/'followed_by': src came BEFORE tgt
-                        if _oc_rel in ('preceded', 'followed_by'):
+                        if _oc_rel in ("preceded", "followed_by"):
                             if _oc_b_src and _oc_a_tgt:  # B preceded A → B is earlier
                                 return f"[COMPUTED_ANSWER:{_on_choice_b if not _want_later else _on_choice_a}]"
                             elif _oc_a_src and _oc_b_tgt:  # A preceded B → A is earlier
                                 return f"[COMPUTED_ANSWER:{_on_choice_a if not _want_later else _on_choice_b}]"
                         # 'preceded_by'/'follows': tgt came BEFORE src
-                        elif _oc_rel in ('preceded_by', 'follows'):
+                        elif _oc_rel in ("preceded_by", "follows"):
                             if _oc_a_src and _oc_b_tgt:  # A was preceded_by B → B is earlier
                                 return f"[COMPUTED_ANSWER:{_on_choice_b if not _want_later else _on_choice_a}]"
                             elif _oc_b_src and _oc_a_tgt:  # B was preceded_by A → A is earlier
@@ -837,22 +939,49 @@ def _build_graph_prompt(
     # For state_at_time who/what/which questions: if a role-assignment edge
     # (served_as, won, elected, …) has exact year overlap with the query year,
     # return the source entity directly without calling the LLM.
-    _ROLE_RELS_D1 = frozenset({
-        "served_as", "elected", "won", "reigned", "appointed", "became",
-        "assumed_office", "led", "chaired", "headed", "developed_by",
-        "created_by", "acquired", "hosted", "signed_by", "launched",
-        "released", "premiered", "series_premiere", "succeeded_by",
-    })
+    _ROLE_RELS_D1 = frozenset(
+        {
+            "served_as",
+            "elected",
+            "won",
+            "reigned",
+            "appointed",
+            "became",
+            "assumed_office",
+            "led",
+            "chaired",
+            "headed",
+            "developed_by",
+            "created_by",
+            "acquired",
+            "hosted",
+            "signed_by",
+            "launched",
+            "released",
+            "premiered",
+            "series_premiere",
+            "succeeded_by",
+        }
+    )
     # Fix J+: for "who" questions, person filter only applies to political/leadership rels.
     # For event-winner rels (won, hosted, launched…) any src_cat is valid.
-    _D1_PERSON_RELS = frozenset({
-        "served_as", "elected", "reigned", "appointed", "became",
-        "assumed_office", "led", "chaired", "headed",
-    })
+    _D1_PERSON_RELS = frozenset(
+        {
+            "served_as",
+            "elected",
+            "reigned",
+            "appointed",
+            "became",
+            "assumed_office",
+            "led",
+            "chaired",
+            "headed",
+        }
+    )
     _is_who_q_d1 = any(q_frag in low_q for q_frag in ("who ", "who was ", "who is ", "whom "))
-    _is_what_which_d1 = bool(re.match(r'^(what|which)\b', low_q))
+    _is_what_which_d1 = bool(re.match(r"^(what|which)\b", low_q))
     if (_is_who_q_d1 or _is_what_which_d1) and not is_ordering and ev_lines:
-        _d1_q_year = int((graph_context.get('plan') or {}).get('year') or 0)
+        _d1_q_year = int((graph_context.get("plan") or {}).get("year") or 0)
         _d1_q_kws = set(_norm_hint_words(question))
         # Fix L: expand question keywords with common country/region abbreviations
         # so "united states" → adds "us", "united kingdom" → adds "uk", etc.
@@ -868,48 +997,80 @@ def _build_graph_prompt(
         # Fix M: strip year digits from tgt keyword matching — years appear in event
         # names (e.g. "2022 FIFA World Cup") and cause false role matches when the
         # question year is the same. Use only non-numeric tokens for tgt matching.
-        _d1_tgt_kws = {kw for kw in _d1_q_kws if not re.match(r'^\d{4}$', kw)}
+        _d1_tgt_kws = {kw for kw in _d1_q_kws if not re.match(r"^\d{4}$", kw)}
         # Fix E2: the len>2 filter in _norm_hint_words drops 2-char country/org codes
         # like "uk", "us", "eu" that appear verbatim in the question but are filtered
         # out. Re-add any 2-char alphabetic tokens from the raw question text that
         # aren't standard stop-words so they participate in tgt keyword matching.
-        _D1_SHORT_STOPS = frozenset({'is', 'it', 'in', 'at', 'be', 'by', 'do', 'go',
-                                      'he', 'if', 'me', 'my', 'no', 'of', 'on', 'or',
-                                      'so', 'to', 'up', 'we', 'an', 'as', 'am'})
+        _D1_SHORT_STOPS = frozenset(
+            {
+                "is",
+                "it",
+                "in",
+                "at",
+                "be",
+                "by",
+                "do",
+                "go",
+                "he",
+                "if",
+                "me",
+                "my",
+                "no",
+                "of",
+                "on",
+                "or",
+                "so",
+                "to",
+                "up",
+                "we",
+                "an",
+                "as",
+                "am",
+            }
+        )
         for _raw_tok in question.lower().split():
-            _raw_tok = re.sub(r'[^a-z]', '', _raw_tok)
+            _raw_tok = re.sub(r"[^a-z]", "", _raw_tok)
             if len(_raw_tok) == 2 and _raw_tok not in _D1_SHORT_STOPS:
                 _d1_tgt_kws.add(_raw_tok)
         _d1_hits: list = []  # (overlap_penalty, start_yr, src)
         for e in evidence:
-            rel = re.sub(r'[^a-z_]', '', (e.get('relation') or '').lower().replace(' ', '_'))
+            rel = re.sub(r"[^a-z_]", "", (e.get("relation") or "").lower().replace(" ", "_"))
             if rel not in _ROLE_RELS_D1:
                 continue
-            src = e.get('source', '')
-            tgt = (e.get('target') or '').lower()
+            src = e.get("source", "")
+            tgt = (e.get("target") or "").lower()
             if not src:
                 continue
             # Fix J+ (relaxed): for "who" questions, only filter by person category
             # for political/leadership relations. Event-winner rels (won, hosted…)
             # allow any entity type (orgs and clubs can win championships).
             if _is_who_q_d1 and rel in _D1_PERSON_RELS:
-                src_cat = (e.get('source_category') or '').lower()
+                src_cat = (e.get("source_category") or "").lower()
                 # Block only clearly structural/geographic non-actor categories
-                if src_cat and src_cat not in ('person', 'concept', ''):
+                if src_cat and src_cat not in ("person", "concept", ""):
                     continue
             # Role target must share ≥1 non-year keyword with question (avoids
             # false matches where only the year digit overlaps, e.g. "2022 World Cup")
             if _d1_tgt_kws and not any(kw in tgt for kw in _d1_tgt_kws):
                 continue
-            s_m = re.match(r'(\d{4})', str(e.get('start') or ''))
+            s_m = re.match(r"(\d{4})", str(e.get("start") or ""))
             if not s_m:
                 continue
             s_yr = int(s_m.group(1))
-            e_m = re.match(r'(\d{4})', str(e.get('end') or ''))
+            e_m = re.match(r"(\d{4})", str(e.get("end") or ""))
             # If no end date use s_yr+25 only when s_yr is before or at query year
-            e_yr = int(e_m.group(1)) if e_m else (s_yr + 25 if not _d1_q_year or s_yr <= _d1_q_year else s_yr)
+            e_yr = (
+                int(e_m.group(1))
+                if e_m
+                else (s_yr + 25 if not _d1_q_year or s_yr <= _d1_q_year else s_yr)
+            )
             if _d1_q_year:
-                penalty = 0 if s_yr <= _d1_q_year <= e_yr else min(abs(s_yr - _d1_q_year), abs(e_yr - _d1_q_year))
+                penalty = (
+                    0
+                    if s_yr <= _d1_q_year <= e_yr
+                    else min(abs(s_yr - _d1_q_year), abs(e_yr - _d1_q_year))
+                )
             else:
                 penalty = 0
             _d1_hits.append((penalty, s_yr, src))
@@ -922,28 +1083,45 @@ def _build_graph_prompt(
     # Pattern: "who was X when Y took over" / "who was X immediately before Y"
     # Strategy: find Y's role-start date in evidence, then pick the role-holder
     # whose term ended just before Y started (latest end_date ≤ Y's start).
-    _D2_PREDECESSOR_PATS = ("took over", "succeeded", "replaced", "took the role",
-                             "immediately before", "who preceded", "before mario",
-                             "before lagarde", "before draghi", "before trump",
-                             "before obama", "before merkel")
-    _is_predecessor_q = (_is_who_q_d1 and not is_ordering
-                         and ("took over" in low_q or "succeeded" in low_q
-                              or "replaced" in low_q or "immediately before" in low_q
-                              or ("before" in low_q and "when" in low_q)))
+    _D2_PREDECESSOR_PATS = (
+        "took over",
+        "succeeded",
+        "replaced",
+        "took the role",
+        "immediately before",
+        "who preceded",
+        "before mario",
+        "before lagarde",
+        "before draghi",
+        "before trump",
+        "before obama",
+        "before merkel",
+    )
+    _is_predecessor_q = (
+        _is_who_q_d1
+        and not is_ordering
+        and (
+            "took over" in low_q
+            or "succeeded" in low_q
+            or "replaced" in low_q
+            or "immediately before" in low_q
+            or ("before" in low_q and "when" in low_q)
+        )
+    )
     if _is_predecessor_q and ev_lines:
         # Step 1: find anchor entity Y — a person mentioned in the question with a dated role edge
         _d2_anchor_start: int = 0
         _d2_anchor_rel: str = ""
         for _d2e in evidence:
-            _d2_rel = re.sub(r'[^a-z_]', '', (_d2e.get('relation') or '').lower().replace(' ', '_'))
+            _d2_rel = re.sub(r"[^a-z_]", "", (_d2e.get("relation") or "").lower().replace(" ", "_"))
             if _d2_rel not in _ROLE_RELS_D1:
                 continue
-            _d2_src = (_d2e.get('source') or '').lower()
+            _d2_src = (_d2e.get("source") or "").lower()
             # Anchor: its name words appear in the question
             _d2_src_words = [w for w in _d2_src.split() if len(w) > 3]
             if not _d2_src_words or not any(w in low_q for w in _d2_src_words):
                 continue
-            _d2_sm = re.match(r'(\d{4})', str(_d2e.get('start') or ''))
+            _d2_sm = re.match(r"(\d{4})", str(_d2e.get("start") or ""))
             if not _d2_sm:
                 continue
             _d2_anchor_start = int(_d2_sm.group(1))
@@ -953,13 +1131,15 @@ def _build_graph_prompt(
             # Step 2: among same-relation edges, find latest end_date ≤ anchor_start
             _d2_pred_candidates: list = []
             for _d2e in evidence:
-                _d2_rel = re.sub(r'[^a-z_]', '', (_d2e.get('relation') or '').lower().replace(' ', '_'))
+                _d2_rel = re.sub(
+                    r"[^a-z_]", "", (_d2e.get("relation") or "").lower().replace(" ", "_")
+                )
                 if _d2_rel != _d2_anchor_rel:
                     continue
-                _d2_src = _d2e.get('source', '')
+                _d2_src = _d2e.get("source", "")
                 if not _d2_src or _d2_src.lower() in low_q:
                     continue  # skip anchor entity itself
-                _d2_em = re.match(r'(\d{4})', str(_d2e.get('end') or ''))
+                _d2_em = re.match(r"(\d{4})", str(_d2e.get("end") or ""))
                 if not _d2_em:
                     continue
                 _d2_e_yr = int(_d2_em.group(1))
@@ -971,23 +1151,30 @@ def _build_graph_prompt(
 
     # ── D3: Role-successor extraction ─────────────────────────────────────────
     # Pattern: "who succeeded X", "who came after X", "who took over from X"
-    _is_successor_q = (_is_who_q_d1 and not is_ordering
-                       and ("after" in low_q or "succeed" in low_q
-                            or "took over from" in low_q or "replaced" in low_q)
-                       and not ("before" in low_q and "after" not in low_q))
+    _is_successor_q = (
+        _is_who_q_d1
+        and not is_ordering
+        and (
+            "after" in low_q
+            or "succeed" in low_q
+            or "took over from" in low_q
+            or "replaced" in low_q
+        )
+        and not ("before" in low_q and "after" not in low_q)
+    )
     if _is_successor_q and ev_lines:
         # Step 1: find anchor entity Y mentioned in the question with a dated role edge
         _d3_anchor_start: int = 0
         _d3_anchor_rel: str = ""
         for _d3e in evidence:
-            _d3_rel = re.sub(r'[^a-z_]', '', (_d3e.get('relation') or '').lower().replace(' ', '_'))
+            _d3_rel = re.sub(r"[^a-z_]", "", (_d3e.get("relation") or "").lower().replace(" ", "_"))
             if _d3_rel not in _ROLE_RELS_D1:
                 continue
-            _d3_src = (_d3e.get('source') or '').lower()
+            _d3_src = (_d3e.get("source") or "").lower()
             _d3_src_words = [w for w in _d3_src.split() if len(w) > 3]
             if not _d3_src_words or not any(w in low_q for w in _d3_src_words):
                 continue
-            _d3_sm = re.match(r'(\d{4})', str(_d3e.get('start') or ''))
+            _d3_sm = re.match(r"(\d{4})", str(_d3e.get("start") or ""))
             if not _d3_sm:
                 continue
             _d3_anchor_start = int(_d3_sm.group(1))
@@ -997,13 +1184,15 @@ def _build_graph_prompt(
             # Step 2: among same-relation edges, find earliest start_date > anchor_start
             _d3_succ_candidates: list = []
             for _d3e in evidence:
-                _d3_rel = re.sub(r'[^a-z_]', '', (_d3e.get('relation') or '').lower().replace(' ', '_'))
+                _d3_rel = re.sub(
+                    r"[^a-z_]", "", (_d3e.get("relation") or "").lower().replace(" ", "_")
+                )
                 if _d3_rel != _d3_anchor_rel:
                     continue
-                _d3_src = _d3e.get('source', '')
+                _d3_src = _d3e.get("source", "")
                 if not _d3_src or _d3_src.lower() in low_q:
                     continue  # skip anchor entity itself
-                _d3_sm2 = re.match(r'(\d{4})', str(_d3e.get('start') or ''))
+                _d3_sm2 = re.match(r"(\d{4})", str(_d3e.get("start") or ""))
                 if not _d3_sm2:
                     continue
                 _d3_s_yr = int(_d3_sm2.group(1))
@@ -1014,40 +1203,55 @@ def _build_graph_prompt(
                 return f"[COMPUTED_ANSWER:{_d3_succ_candidates[0][1]}]"
         # Also check explicit succeeded_by edges
         for _d3e in evidence:
-            _d3_rel = re.sub(r'[^a-z_]', '', (_d3e.get('relation') or '').lower().replace(' ', '_'))
-            if _d3_rel != 'succeeded_by':
+            _d3_rel = re.sub(r"[^a-z_]", "", (_d3e.get("relation") or "").lower().replace(" ", "_"))
+            if _d3_rel != "succeeded_by":
                 continue
-            _d3_src = (_d3e.get('source') or '').lower()
+            _d3_src = (_d3e.get("source") or "").lower()
             _d3_src_words = [w for w in _d3_src.split() if len(w) > 3]
             if _d3_src_words and any(w in low_q for w in _d3_src_words):
-                _d3_tgt = _d3e.get('target', '')
+                _d3_tgt = _d3e.get("target", "")
                 if _d3_tgt:
                     return f"[COMPUTED_ANSWER:{_d3_tgt}]"
 
     # ── D1b: Direct year-answer extraction ────────────────────────────────────
     # For "what year did X" questions: find an edge whose source matches the
     # subject and whose relation/target directly encodes a year.
-    _YEAR_RELS_D1B = frozenset({
-        "series_premiere", "entry_into_force", "launched_on", "released",
-        "released_on", "filed_on", "started_on", "began_on", "declared_pandemic",
-        "signed_on", "occurred_on", "founded", "launched",
-        "founded_in", "collapsed_in", "began_operations", "established",
-    })
-    if re.search(r'\bwhat year\b|\bwhen did\b', low_q) and not is_ordering and ev_lines:
+    _YEAR_RELS_D1B = frozenset(
+        {
+            "series_premiere",
+            "entry_into_force",
+            "launched_on",
+            "released",
+            "released_on",
+            "filed_on",
+            "started_on",
+            "began_on",
+            "declared_pandemic",
+            "signed_on",
+            "occurred_on",
+            "founded",
+            "launched",
+            "founded_in",
+            "collapsed_in",
+            "began_operations",
+            "established",
+        }
+    )
+    if re.search(r"\bwhat year\b|\bwhen did\b", low_q) and not is_ordering and ev_lines:
         _d1b_q_kws = set(_norm_hint_words(question))
         _d1b_candidates: list = []
         for e in evidence:
-            rel = re.sub(r'[^a-z_]', '', (e.get('relation') or '').lower().replace(' ', '_'))
+            rel = re.sub(r"[^a-z_]", "", (e.get("relation") or "").lower().replace(" ", "_"))
             if rel not in _YEAR_RELS_D1B:
                 continue
-            src = (e.get('source') or '').lower()
-            tgt = str(e.get('target') or '').lower()
-            start = str(e.get('start') or '')
+            src = (e.get("source") or "").lower()
+            tgt = str(e.get("target") or "").lower()
+            start = str(e.get("start") or "")
             if _d1b_q_kws and not any(kw in src for kw in _d1b_q_kws):
                 continue
-            m_tgt = re.match(r'(\d{4})', tgt)
-            m_start = re.match(r'(\d{4})', start)
-            yr = (m_tgt or m_start)
+            m_tgt = re.match(r"(\d{4})", tgt)
+            m_start = re.match(r"(\d{4})", start)
+            yr = m_tgt or m_start
             if yr:
                 _d1b_candidates.append(yr.group(1))
         if len(set(_d1b_candidates)) == 1:
@@ -1056,23 +1260,26 @@ def _build_graph_prompt(
     # E6 / E1: truly empty evidence → try RAG fallback first
     if not ev_text:
         if qa_retriever and embed_url:
-            return _build_rag_prompt(question, qa_retriever, embed_url, is_yesno_q,
-                                     extra_queries=_rag_extra_queries, q_year=_rag_q_year)
+            return _build_rag_prompt(
+                question,
+                qa_retriever,
+                embed_url,
+                is_yesno_q,
+                extra_queries=_rag_extra_queries,
+                q_year=_rag_q_year,
+            )
         if is_yesno_q:
             out_fmt = "Output exactly Yes or No."
         else:
             out_fmt = "Output only the name or short phrase. Do NOT output Yes or No."
-        return (
-            f"Question: {question}\n\n"
-            f"Answer concisely using your own knowledge. {out_fmt}"
-        )
+        return f"Question: {question}\n\n" f"Answer concisely using your own knowledge. {out_fmt}"
 
     # Detect weak / structural-only evidence
     weak = (
         confidence < 0.60
-        or 'no factual relations' in answer_text.lower()
-        or 'best-effort semantic' in answer_text.lower()
-        or 'retrieval did not return' in answer_text.lower()
+        or "no factual relations" in answer_text.lower()
+        or "best-effort semantic" in answer_text.lower()
+        or "retrieval did not return" in answer_text.lower()
     )
 
     # Temporal relevance check: if question targets a specific year and ALL graph
@@ -1080,7 +1287,7 @@ def _build_graph_prompt(
     # parametric knowledge instead of confusing the LLM with irrelevant triples.
     temporal_mismatch = False
     if not weak:
-        q_year = (graph_context.get('plan') or {}).get('year')
+        q_year = (graph_context.get("plan") or {}).get("year")
         if q_year and ev_lines:
             year_distances = []
             for start_str, _ in ev_lines:
@@ -1098,26 +1305,28 @@ def _build_graph_prompt(
     # (D1 already fired and returned if a perfectly matching edge was found.)
     _is_who_check_c12 = any(w in low_q for w in ("who ", "who was ", "who is ", "whom "))
     if _is_who_check_c12 and not is_ordering and ev_lines:
-        _c12_q_year = int((graph_context.get('plan') or {}).get('year') or 0)
+        _c12_q_year = int((graph_context.get("plan") or {}).get("year") or 0)
         _c12_q_kws = set(_norm_hint_words(question))
-        _c12_person_ev = [e for e in evidence
-                          if (e.get('source_category') or '').lower() == 'person'
-                          or '[person]' in str(e).lower()]
+        _c12_person_ev = [
+            e
+            for e in evidence
+            if (e.get("source_category") or "").lower() == "person" or "[person]" in str(e).lower()
+        ]
         if not _c12_person_ev:
             no_person_for_who = True
         else:
             _c12_has_match = False
             for e in _c12_person_ev:
-                tgt = (e.get('target') or '').lower()
+                tgt = (e.get("target") or "").lower()
                 # Role must share context with question
                 if _c12_q_kws and not any(kw in tgt for kw in _c12_q_kws):
                     continue
-                s_m = re.match(r'(\d{4})', str(e.get('start') or ''))
+                s_m = re.match(r"(\d{4})", str(e.get("start") or ""))
                 if not s_m:
                     _c12_has_match = True  # undated person edge → keep for LLM
                     break
                 s_yr = int(s_m.group(1))
-                e_m = re.match(r'(\d{4})', str(e.get('end') or ''))
+                e_m = re.match(r"(\d{4})", str(e.get("end") or ""))
                 e_yr = int(e_m.group(1)) if e_m else s_yr + 25
                 if not _c12_q_year or s_yr <= _c12_q_year <= e_yr:
                     _c12_has_match = True
@@ -1135,8 +1344,14 @@ def _build_graph_prompt(
     if weak:
         if use_rag:
             # Temporal mismatch or weak evidence → RAG is more reliable than confusing triples
-            return _build_rag_prompt(question, qa_retriever, embed_url, is_yesno_q,  # type: ignore[arg-type]
-                                     extra_queries=_rag_extra_queries, q_year=_rag_q_year)
+            return _build_rag_prompt(
+                question,
+                qa_retriever,
+                embed_url,
+                is_yesno_q,  # type: ignore[arg-type]
+                extra_queries=_rag_extra_queries,
+                q_year=_rag_q_year,
+            )
         if is_yesno_q:
             weak_out_fmt = "Output only Yes or No."
         elif is_ordering_name:
@@ -1158,8 +1373,14 @@ def _build_graph_prompt(
         )
 
     if no_person_for_who and use_rag:
-        return _build_rag_prompt(question, qa_retriever, embed_url, is_yesno_q,  # type: ignore[arg-type]
-                                 extra_queries=_rag_extra_queries, q_year=_rag_q_year)
+        return _build_rag_prompt(
+            question,
+            qa_retriever,
+            embed_url,
+            is_yesno_q,  # type: ignore[arg-type]
+            extra_queries=_rag_extra_queries,
+            q_year=_rag_q_year,
+        )
 
     # Fix B: no person edges → always pure parametric (RAG was returning wrong-country
     # edges and confusing the LLM with irrelevant triples)
@@ -1173,9 +1394,21 @@ def _build_graph_prompt(
     # Question-type-specific hint
     extra_hint = ""
     if any(w in low_q for w in ("who", "whom", "whose")):
-        for kw in ["united states", "united kingdom", "france", "germany",
-                    "apple", "google", "microsoft", "brazil", "china",
-                    "russia", "japan", "india", "mexico"]:
+        for kw in [
+            "united states",
+            "united kingdom",
+            "france",
+            "germany",
+            "apple",
+            "google",
+            "microsoft",
+            "brazil",
+            "china",
+            "russia",
+            "japan",
+            "india",
+            "mexico",
+        ]:
             if kw in low_q:
                 extra_hint = (
                     f"- The question asks about '{kw}'. The answer must be a [person] "
@@ -1185,27 +1418,56 @@ def _build_graph_prompt(
                 )
                 break
         if not extra_hint:
-            extra_hint = "- For 'who' questions the answer must be a [person] name, not an org or country.\n"
+            extra_hint = (
+                "- For 'who' questions the answer must be a [person] name, not an org or country.\n"
+            )
     elif is_ordering_yesno:
         # Attempt deterministic date extraction from the evidence.
         # IMPORTANT: use EXCLUSIVE hint matching to prevent shared words (e.g.
         # "war") from assigning one event's dates to the other side.
         years_per_entity: dict = {}
         # Fix I (second pass): also handle "after" questions
-        _before_parts = re.split(r'\bbefore\b', low_q)
-        _after_parts = re.split(r'\bafter\b', low_q)
+        _before_parts = re.split(r"\bbefore\b", low_q)
+        _after_parts = re.split(r"\bafter\b", low_q)
         _uses_after = len(_before_parts) == 1 and len(_after_parts) > 1
-        _stop = {"did", "was", "were", "the", "a", "an", "of", "in", "to", "be", "began", "end", "happen", "start"}
+        _stop = {
+            "did",
+            "was",
+            "were",
+            "the",
+            "a",
+            "an",
+            "of",
+            "in",
+            "to",
+            "be",
+            "began",
+            "end",
+            "happen",
+            "start",
+        }
         if _uses_after:
-            entity_a_hint = [w for w in (_after_parts[1].split()[:8] if len(_after_parts) > 1 else [])
-                             if len(w) > 2 and w not in _stop]
-            entity_b_hint = [w for w in (_after_parts[0].split()[-8:] if len(_after_parts) > 1 else [])
-                             if len(w) > 2 and w not in _stop]
+            entity_a_hint = [
+                w
+                for w in (_after_parts[1].split()[:8] if len(_after_parts) > 1 else [])
+                if len(w) > 2 and w not in _stop
+            ]
+            entity_b_hint = [
+                w
+                for w in (_after_parts[0].split()[-8:] if len(_after_parts) > 1 else [])
+                if len(w) > 2 and w not in _stop
+            ]
         else:
-            entity_a_hint = [w for w in (_before_parts[0].split()[-8:] if len(_before_parts) > 1 else [])
-                             if len(w) > 2 and w not in _stop]
-            entity_b_hint = [w for w in (_before_parts[1].split()[:8] if len(_before_parts) > 1 else [])
-                             if len(w) > 2 and w not in _stop]
+            entity_a_hint = [
+                w
+                for w in (_before_parts[0].split()[-8:] if len(_before_parts) > 1 else [])
+                if len(w) > 2 and w not in _stop
+            ]
+            entity_b_hint = [
+                w
+                for w in (_before_parts[1].split()[:8] if len(_before_parts) > 1 else [])
+                if len(w) > 2 and w not in _stop
+            ]
         # Build exclusive hint sets: drop words shared between A and B
         _a_set = set(entity_a_hint)
         _b_set = set(entity_b_hint)
@@ -1221,8 +1483,8 @@ def _build_graph_prompt(
             yr = int(m_yr.group(1))
             line_lower = line.lower()
             # Fix E (second pass): word-boundary matching to avoid substring false positives
-            a_match = any(re.search(r'\b' + re.escape(w) + r'\b', line_lower) for w in a_primary)
-            b_match = any(re.search(r'\b' + re.escape(w) + r'\b', line_lower) for w in b_primary)
+            a_match = any(re.search(r"\b" + re.escape(w) + r"\b", line_lower) for w in a_primary)
+            b_match = any(re.search(r"\b" + re.escape(w) + r"\b", line_lower) for w in b_primary)
             # Only assign to a side when no cross-contamination
             if a_match and not b_match:
                 years_per_entity.setdefault("A", []).append(yr)
@@ -1248,8 +1510,14 @@ def _build_graph_prompt(
         # COMPUTED_ANSWER could not fire (one or both sides have no dated edges).
         # Fall back to RAG which has golden Q&A examples for these ordering cases.
         if qa_retriever and embed_url:
-            return _build_rag_prompt(question, qa_retriever, embed_url, is_yesno_q,
-                                     extra_queries=_rag_extra_queries, q_year=_rag_q_year)
+            return _build_rag_prompt(
+                question,
+                qa_retriever,
+                embed_url,
+                is_yesno_q,
+                extra_queries=_rag_extra_queries,
+                q_year=_rag_q_year,
+            )
         extra_hint = (
             f"{computed_note}"
             "- The triples above are sorted by date (earliest first).\n"
@@ -1284,8 +1552,7 @@ def _build_graph_prompt(
     _is_entity_open_q = (
         not is_yesno_q
         and not is_ordering
-        and any(low_q.startswith(w) for w in
-                ("who ", "which ", "what ", "whose ", "whom "))
+        and any(low_q.startswith(w) for w in ("who ", "which ", "what ", "whose ", "whom "))
     )
 
     candidate_entities: List[str] = []
@@ -1383,9 +1650,13 @@ def _build_graph_prompt(
 
     # P5d: add a prominent anti-Yes/No banner at the top of the rules for entity questions
     _p5d_banner = (
-        "IMPORTANT: This question asks for a specific name or entity. "
-        "Do NOT answer Yes or No.\n\n"
-    ) if _is_entity_open_q else ""
+        (
+            "IMPORTANT: This question asks for a specific name or entity. "
+            "Do NOT answer Yes or No.\n\n"
+        )
+        if _is_entity_open_q
+        else ""
+    )
 
     candidate_block = ""
     if _is_entity_open_q and candidate_entities:
@@ -1423,7 +1694,12 @@ def _ask_qwen(
     qa_retriever: Optional[QARetriever] = None,
     embed_url: str = "",
 ) -> str:
-    _is_yesno_q = bool(re.match(r"^(did|does|do|is|are|was|were|has|have|had|can|could|will|would|should)\b", question.strip().lower()))
+    _is_yesno_q = bool(
+        re.match(
+            r"^(did|does|do|is|are|was|were|has|have|had|can|could|will|would|should)\b",
+            question.strip().lower(),
+        )
+    )
     if graph_context is None:
         prompt = (
             "You are evaluated with exact string match against a short gold answer. "
@@ -1436,30 +1712,35 @@ def _ask_qwen(
             f"Question: {question}"
         )
     else:
-        prompt = _build_graph_prompt(question, graph_context, qa_retriever=qa_retriever, embed_url=embed_url)
+        prompt = _build_graph_prompt(
+            question, graph_context, qa_retriever=qa_retriever, embed_url=embed_url
+        )
     # Deterministic computed answer — no LLM call needed
-    if isinstance(prompt, str) and prompt.startswith('[COMPUTED_ANSWER:'):
-        m = re.match(r'\[COMPUTED_ANSWER:([^\]]+)\]', prompt)
+    if isinstance(prompt, str) and prompt.startswith("[COMPUTED_ANSWER:"):
+        m = re.match(r"\[COMPUTED_ANSWER:([^\]]+)\]", prompt)
         return m.group(1) if m else prompt
     # Self-contained boolean: pipeline answer is reliable, return directly
-    if isinstance(prompt, str) and prompt.startswith('[SELF_CONTAINED]'):
-        return prompt[len('[SELF_CONTAINED]'):].strip()
+    if isinstance(prompt, str) and prompt.startswith("[SELF_CONTAINED]"):
+        return prompt[len("[SELF_CONTAINED]") :].strip()
     _p_lower = prompt.lower()
     _is_entity_p = (
         "never output yes or no" in _p_lower
         or "output only the person" in _p_lower
         or "output only the name" in _p_lower
     )
-    system = (
-        "You are a precise temporal QA assistant. "
-        + (
-            "Output ONLY the name or short phrase as the answer. NEVER output Yes or No."
-            if _is_entity_p
-            else "Output ONLY one final answer span (name, year, Yes, or No). No explanations."
-        )
+    system = "You are a precise temporal QA assistant. " + (
+        "Output ONLY the name or short phrase as the answer. NEVER output Yes or No."
+        if _is_entity_p
+        else "Output ONLY one final answer span (name, year, Yes, or No). No explanations."
     )
-    pure_max_new_tokens = int(os.getenv("QWEN_PURE_MAX_NEW_TOKENS_YN", "6")) if (graph_context is None and _is_yesno_q) else int(os.getenv("QWEN_PURE_MAX_NEW_TOKENS", "16"))
-    return _clean_short_answer(qwen.generate(prompt, system_prompt=system, max_new_tokens=pure_max_new_tokens))
+    pure_max_new_tokens = (
+        int(os.getenv("QWEN_PURE_MAX_NEW_TOKENS_YN", "6"))
+        if (graph_context is None and _is_yesno_q)
+        else int(os.getenv("QWEN_PURE_MAX_NEW_TOKENS", "16"))
+    )
+    return _clean_short_answer(
+        qwen.generate(prompt, system_prompt=system, max_new_tokens=pure_max_new_tokens)
+    )
 
 
 def _resolve_qwen_generation_mode(qwen_server_url: str) -> str:
@@ -1504,7 +1785,12 @@ def _ask_qwen_server(
     qa_retriever: Optional[QARetriever] = None,
     embed_url: str = "",
 ) -> str:
-    _is_yesno_q = bool(re.match(r"^(did|does|do|is|are|was|were|has|have|had|can|could|will|would|should)\b", question.strip().lower()))
+    _is_yesno_q = bool(
+        re.match(
+            r"^(did|does|do|is|are|was|were|has|have|had|can|could|will|would|should)\b",
+            question.strip().lower(),
+        )
+    )
     if graph_context is None:
         prompt = (
             "You are evaluated with exact string match against a short gold answer. "
@@ -1517,15 +1803,17 @@ def _ask_qwen_server(
             f"Question: {question}"
         )
     else:
-        prompt = _build_graph_prompt(question, graph_context, qa_retriever=qa_retriever, embed_url=embed_url)
+        prompt = _build_graph_prompt(
+            question, graph_context, qa_retriever=qa_retriever, embed_url=embed_url
+        )
 
     # Deterministic computed answer — no LLM call needed
-    if isinstance(prompt, str) and prompt.startswith('[COMPUTED_ANSWER:'):
-        m = re.match(r'\[COMPUTED_ANSWER:([^\]]+)\]', prompt)
+    if isinstance(prompt, str) and prompt.startswith("[COMPUTED_ANSWER:"):
+        m = re.match(r"\[COMPUTED_ANSWER:([^\]]+)\]", prompt)
         return m.group(1) if m else prompt
     # Self-contained boolean: pipeline answer is reliable, return directly
-    if isinstance(prompt, str) and prompt.startswith('[SELF_CONTAINED]'):
-        return prompt[len('[SELF_CONTAINED]'):].strip()
+    if isinstance(prompt, str) and prompt.startswith("[SELF_CONTAINED]"):
+        return prompt[len("[SELF_CONTAINED]") :].strip()
 
     base = qwen_server_url.rstrip("/")
     timeout_sec = int(os.getenv("QWEN_EVAL_TIMEOUT_SEC", "60"))
@@ -1544,7 +1832,11 @@ def _ask_qwen_server(
         or "output only the name" in _prompt_lower
     )
     if graph_context is None:
-        default_max = os.getenv("QWEN_PURE_MAX_NEW_TOKENS_YN", "6") if _is_yesno_q else os.getenv("QWEN_PURE_MAX_NEW_TOKENS", "16")
+        default_max = (
+            os.getenv("QWEN_PURE_MAX_NEW_TOKENS_YN", "6")
+            if _is_yesno_q
+            else os.getenv("QWEN_PURE_MAX_NEW_TOKENS", "16")
+        )
     else:
         default_max = "4" if (is_yesno_prompt and not is_entity_prompt) else "20"
     max_new_tokens = int(os.getenv("QWEN_EVAL_MAX_NEW_TOKENS", default_max))
@@ -1604,7 +1896,9 @@ def _clean_short_answer(raw: str) -> str:
         flags=re.IGNORECASE,
     ).strip()
     # Strip common reasoning headers/preambles used by some instruct checkpoints.
-    text = re.sub(r"^(thinking process[:\s]+|reasoning[:\s]+)", "", text, flags=re.IGNORECASE).strip()
+    text = re.sub(
+        r"^(thinking process[:\s]+|reasoning[:\s]+)", "", text, flags=re.IGNORECASE
+    ).strip()
     text = re.sub(r"^(the user wants to know[:\s]+)", "", text, flags=re.IGNORECASE).strip()
     # If multi-line, keep only the first non-empty line
     lines = [l.strip() for l in text.splitlines() if l.strip()]
@@ -1715,24 +2009,33 @@ def _log_debug_entry(
 ) -> None:
     """Append one debug record per question to *path* (JSONL)."""
     try:
-        embed_heavy_debug = str(os.getenv("QWEN_DEBUG_EMBED_IN_LOG", "0")).strip().lower() in {"1", "true", "yes", "on"}
+        embed_heavy_debug = str(os.getenv("QWEN_DEBUG_EMBED_IN_LOG", "0")).strip().lower() in {
+            "1",
+            "true",
+            "yes",
+            "on",
+        }
         evidence = graph_result.get("evidence") or []
         edges_compact = []
         for e in evidence[:15]:
-            edges_compact.append({
-                "src": e.get("source", "?"),
-                "rel": e.get("relation", "?"),
-                "tgt": e.get("target", "?"),
-                "start": e.get("start"),
-                "end": e.get("end"),
-                "edge_type": e.get("edge_type"),
-                "support": e.get("support_count"),
-            })
+            edges_compact.append(
+                {
+                    "src": e.get("source", "?"),
+                    "rel": e.get("relation", "?"),
+                    "tgt": e.get("target", "?"),
+                    "start": e.get("start"),
+                    "end": e.get("end"),
+                    "edge_type": e.get("edge_type"),
+                    "support": e.get("support_count"),
+                }
+            )
 
         # Building full_prompt and rag_hits may trigger additional embedding calls.
         # Keep debug logging lightweight by default for long benchmark runs.
         if embed_heavy_debug:
-            full_prompt = _build_graph_prompt(question, graph_result, qa_retriever=qa_retriever, embed_url=embed_url)
+            full_prompt = _build_graph_prompt(
+                question, graph_result, qa_retriever=qa_retriever, embed_url=embed_url
+            )
             rag_hits = _collect_rag_hits(question, qa_retriever, embed_url)
         else:
             full_prompt = ""
@@ -1745,8 +2048,12 @@ def _log_debug_entry(
         all_candidates = graph_result.get("all_candidate_edges") or []
 
         # Classify plan entities as node/edge using grounding hits
-        _node_labels = {h.get("normalized_label", "").lower() for h in (grounding.get("node_hits") or [])}
-        _rel_labels = {h.get("relation", "").lower() for h in (grounding.get("relation_hits") or [])}
+        _node_labels = {
+            h.get("normalized_label", "").lower() for h in (grounding.get("node_hits") or [])
+        }
+        _rel_labels = {
+            h.get("relation", "").lower() for h in (grounding.get("relation_hits") or [])
+        }
 
         def _classify_entity(ent: str) -> str:
             e = str(ent).lower()
@@ -1782,7 +2089,10 @@ def _log_debug_entry(
             "grounding": {
                 "enabled": grounding.get("enabled"),
                 "node_hits": [
-                    {"label": h.get("normalized_label"), "score": round(float(h.get("score", 0)), 4)}
+                    {
+                        "label": h.get("normalized_label"),
+                        "score": round(float(h.get("score", 0)), 4),
+                    }
                     for h in (grounding.get("node_hits") or [])[:8]
                 ],
                 "tag_hits": [
@@ -1801,12 +2111,16 @@ def _log_debug_entry(
                 "stage1_prompt": stage1.get("stage1_prompt"),
                 "stage1_raw": stage1.get("stage1_raw"),
             },
-            "continuation": {
-                "sufficient": continuation.get("sufficient") if continuation else None,
-                "entities": continuation.get("entities") if continuation else None,
-                "stage2_prompt": continuation.get("stage2_prompt") if continuation else None,
-                "stage2_raw": continuation.get("stage2_raw") if continuation else None,
-            } if continuation else None,
+            "continuation": (
+                {
+                    "sufficient": continuation.get("sufficient") if continuation else None,
+                    "entities": continuation.get("entities") if continuation else None,
+                    "stage2_prompt": continuation.get("stage2_prompt") if continuation else None,
+                    "stage2_raw": continuation.get("stage2_raw") if continuation else None,
+                }
+                if continuation
+                else None
+            ),
             "answer_text": graph_result.get("answer_text", ""),
             "confidence": graph_result.get("confidence"),
             "selected_edges": edges_compact,
@@ -1854,12 +2168,18 @@ def _aggregate(rows: List[dict], system_name: str) -> dict:
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--dataset", type=str, default="data/jsonls/temporal_evaluation_set_v2.jsonl")
-    ap.add_argument("--graph-output-dir", type=str, default="temporal_graph_processing/temporal_graph_output")
+    ap.add_argument(
+        "--graph-output-dir", type=str, default="temporal_graph_processing/temporal_graph_output"
+    )
     ap.add_argument("--output-dir", type=str, default="output/temporal_eval_comparison")
     ap.add_argument("--limit", type=int, default=0, help="Optional cap for quick runs")
     ap.add_argument("--skip-gpt", action="store_true")
     ap.add_argument("--skip-pure", action="store_true", help="Skip pure (no-graph) systems")
-    ap.add_argument("--rag-only", action="store_true", help="Run only qwen_rag (QA-embedding fallback, no graph LLM filtering)")
+    ap.add_argument(
+        "--rag-only",
+        action="store_true",
+        help="Run only qwen_rag (QA-embedding fallback, no graph LLM filtering)",
+    )
     ap.add_argument(
         "--systems",
         type=str,
@@ -1903,7 +2223,10 @@ def main() -> None:
     # If embed server is on adjacent port, try port 8001 as default
     if not qwen_embed_url and qwen_llm_url:
         import re as _re
-        qwen_embed_url = _re.sub(r":(\d+)", lambda m: f":{int(m.group(1))+1}", qwen_llm_url, count=1)
+
+        qwen_embed_url = _re.sub(
+            r":(\d+)", lambda m: f":{int(m.group(1))+1}", qwen_llm_url, count=1
+        )
     qa_retriever: Optional[QARetriever] = None
     try:
         qa_retriever = QARetriever(graph_output_dir)
@@ -1927,7 +2250,7 @@ def main() -> None:
     if not args.skip_pure:
         # Opt-in: add pure-LLM baselines when NOT skipping them
         systems = ["qwen_pure"] + systems + (["gpt5nano_pure"] if use_gpt else [])
-    if getattr(args, 'rag_only', False):
+    if getattr(args, "rag_only", False):
         systems = ["qwen_rag"]
 
     explicit_systems = [s.strip() for s in str(args.systems or "").split(",") if s.strip()]
@@ -1935,9 +2258,13 @@ def main() -> None:
         allowed = {"qwen_pure", "qwen_graph", "qwen_rag", "gpt5nano_pure", "gpt5nano_graph"}
         unknown = [s for s in explicit_systems if s not in allowed]
         if unknown:
-            raise SystemExit(f"Unknown system(s) in --systems: {unknown}. Allowed: {sorted(allowed)}")
+            raise SystemExit(
+                f"Unknown system(s) in --systems: {unknown}. Allowed: {sorted(allowed)}"
+            )
         if (not use_gpt) and any(s.startswith("gpt5nano") for s in explicit_systems):
-            raise SystemExit("GPT system requested in --systems but GPT is unavailable (missing API key or --skip-gpt used).")
+            raise SystemExit(
+                "GPT system requested in --systems but GPT is unavailable (missing API key or --skip-gpt used)."
+            )
         systems = explicit_systems
 
     outputs: List[dict] = []
@@ -1963,7 +2290,11 @@ def main() -> None:
                 graph_result = {"answer_text": "", "evidence": [], "confidence": 0.0}
         except Exception as exc:
             print(f"\n[WARN] pipeline.invoke failed for idx={idx}: {type(exc).__name__}: {exc}")
-            graph_result = {"answer_text": f"Pipeline error: {exc}", "evidence": [], "confidence": 0.0}
+            graph_result = {
+                "answer_text": f"Pipeline error: {exc}",
+                "evidence": [],
+                "confidence": 0.0,
+            }
 
         qwen_graph_pred = ""
         pure_pred = ""
@@ -1980,21 +2311,53 @@ def main() -> None:
                     if qwen.available:
                         prediction = _ask_qwen(qwen, question, graph_context=None)
                     else:
-                        prediction = _ask_qwen_server(qwen_llm_url, question, graph_context=None, mode=str(qwen_generation_mode))
+                        prediction = _ask_qwen_server(
+                            qwen_llm_url,
+                            question,
+                            graph_context=None,
+                            mode=str(qwen_generation_mode),
+                        )
                     pure_pred = prediction
                 elif system == "qwen_graph":
                     if qwen.available:
-                        prediction = _ask_qwen(qwen, question, graph_context=graph_result, qa_retriever=None, embed_url="")
+                        prediction = _ask_qwen(
+                            qwen,
+                            question,
+                            graph_context=graph_result,
+                            qa_retriever=None,
+                            embed_url="",
+                        )
                     else:
-                        prediction = _ask_qwen_server(qwen_llm_url, question, graph_context=graph_result, mode=str(qwen_generation_mode), qa_retriever=None, embed_url="")
+                        prediction = _ask_qwen_server(
+                            qwen_llm_url,
+                            question,
+                            graph_context=graph_result,
+                            mode=str(qwen_generation_mode),
+                            qa_retriever=None,
+                            embed_url="",
+                        )
                     qwen_graph_pred = prediction
                 elif system == "qwen_rag":
                     # Pure RAG: use only QA-embedding retriever, no graph pipeline.
-                    _is_yn = any(question.lower().startswith(w) for w in
-                                  ("did ", "was ", "were ", "is ", "has ", "have ",
-                                   "does ", "do ", "can ", "could "))
+                    _is_yn = any(
+                        question.lower().startswith(w)
+                        for w in (
+                            "did ",
+                            "was ",
+                            "were ",
+                            "is ",
+                            "has ",
+                            "have ",
+                            "does ",
+                            "do ",
+                            "can ",
+                            "could ",
+                        )
+                    )
                     if not (qa_retriever and qwen_embed_url):
-                        print("[SKIP] qwen_rag retriever or embed URL unavailable for this question.")
+                        print(
+                            "[SKIP] qwen_rag retriever or embed URL unavailable for this question."
+                        )
                         continue
                     rag_prompt = _build_rag_prompt(question, qa_retriever, qwen_embed_url, _is_yn)
                     _rag_sys = (
@@ -2002,10 +2365,16 @@ def main() -> None:
                         "Return ONLY the final answer token(s): a name, year, Yes, or No. "
                         "Do not restate the question. Do not output reasoning."
                     )
-                    _rag_max_tok = int(os.getenv("QWEN_RAG_MAX_NEW_TOKENS_YN", "8")) if _is_yn else int(os.getenv("QWEN_RAG_MAX_NEW_TOKENS", "48"))
+                    _rag_max_tok = (
+                        int(os.getenv("QWEN_RAG_MAX_NEW_TOKENS_YN", "8"))
+                        if _is_yn
+                        else int(os.getenv("QWEN_RAG_MAX_NEW_TOKENS", "48"))
+                    )
                     if qwen.available:
                         prediction = _clean_short_answer(
-                            qwen.generate(rag_prompt, system_prompt=_rag_sys, max_new_tokens=_rag_max_tok)
+                            qwen.generate(
+                                rag_prompt, system_prompt=_rag_sys, max_new_tokens=_rag_max_tok
+                            )
                         )
                     else:
                         try:
@@ -2025,7 +2394,9 @@ def main() -> None:
                                 retries=2,
                                 backoff_sec=1.0,
                             )
-                            prediction = (_body.get("choices") or [{}])[0].get("message", {}).get("content", "") or ""
+                            prediction = (_body.get("choices") or [{}])[0].get("message", {}).get(
+                                "content", ""
+                            ) or ""
                             prediction = _clean_short_answer(prediction)
                         except Exception as _exc:
                             prediction = f"[RAG_SERVER_ERROR: {_exc}]"
@@ -2041,7 +2412,11 @@ def main() -> None:
                 error = f"{type(exc).__name__}: {exc}"
 
             latency = time.perf_counter() - t0
-            scores = _score_prediction(prediction, gold) if not error else {"exact": 0.0, "contains": 0.0}
+            scores = (
+                _score_prediction(prediction, gold)
+                if not error
+                else {"exact": 0.0, "contains": 0.0}
+            )
 
             # Add the prediction to the stream logs so user can see it live
             _disp_pred = str(prediction).replace("\n", " ")
@@ -2060,8 +2435,12 @@ def main() -> None:
                     "scores": scores,
                     "latency_sec": latency,
                     "error": error,
-                    "graph_answer_text": graph_result.get("answer_text") if system.endswith("_graph") else None,
-                    "graph_confidence": graph_result.get("confidence") if system.endswith("_graph") else None,
+                    "graph_answer_text": (
+                        graph_result.get("answer_text") if system.endswith("_graph") else None
+                    ),
+                    "graph_confidence": (
+                        graph_result.get("confidence") if system.endswith("_graph") else None
+                    ),
                 }
             )
 
@@ -2080,14 +2459,13 @@ def main() -> None:
         )
 
         # Track live accuracy for the progress bar (qwen_graph is the primary system)
-        _last_out = next(
-            (o for o in reversed(outputs) if o.get("system") == "qwen_graph"), None
-        )
+        _last_out = next((o for o in reversed(outputs) if o.get("system") == "qwen_graph"), None)
         if _last_out and (_last_out.get("scores") or {}).get("exact", 0) >= 1.0:
             _n_correct_graph += 1
 
         _render_progress(
-            idx, len(rows),
+            idx,
+            len(rows),
             label="Benchmark",
             elapsed=time.perf_counter() - _t_run_start,
             correct=_n_correct_graph if "qwen_graph" in systems else -1,
@@ -2101,7 +2479,9 @@ def main() -> None:
     }
 
     _write_jsonl(out_dir / "predictions.jsonl", outputs)
-    (out_dir / "summary.json").write_text(json.dumps(summary, indent=2, ensure_ascii=False), encoding="utf-8")
+    (out_dir / "summary.json").write_text(
+        json.dumps(summary, indent=2, ensure_ascii=False), encoding="utf-8"
+    )
 
     print("Wrote:")
     print(f"- {out_dir / 'predictions.jsonl'}")

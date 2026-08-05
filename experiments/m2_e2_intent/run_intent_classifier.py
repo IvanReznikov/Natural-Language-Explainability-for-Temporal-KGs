@@ -5,6 +5,7 @@ M2-E2: Query Intent Classification and Multi-Intent Detection
 - Lightweight baseline: TF-IDF + One-vs-Rest Logistic Regression
 - Handles single and multi-intent labels with configurable probability threshold
 """
+
 import argparse
 import json
 from dataclasses import dataclass
@@ -155,7 +156,9 @@ def train_classifier(
     else:
         class_weight = None
 
-    base_lr = LogisticRegression(max_iter=1000, solver="lbfgs", class_weight=class_weight, random_state=seed)
+    base_lr = LogisticRegression(
+        max_iter=1000, solver="lbfgs", class_weight=class_weight, random_state=seed
+    )
     if calibration != "none":
         method = "sigmoid" if calibration == "platt" else "isotonic"
         estimator = CalibratedClassifierCV(estimator=base_lr, method=method, cv=calibration_cv)
@@ -200,7 +203,9 @@ def threshold_predictions(proba: np.ndarray, threshold: Union[float, np.ndarray]
     return preds
 
 
-def best_thresholds_per_label(proba: np.ndarray, y_true: np.ndarray, grid: Sequence[float]) -> np.ndarray:
+def best_thresholds_per_label(
+    proba: np.ndarray, y_true: np.ndarray, grid: Sequence[float]
+) -> np.ndarray:
     best = np.full(proba.shape[1], 0.5, dtype=float)
     for j in range(proba.shape[1]):
         best_f1 = -1.0
@@ -304,15 +309,33 @@ def save_outputs(
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="M2-E2 intent classification baseline")
-    parser.add_argument("--dataset", type=Path, required=True, help="Path to JSONL with queries + intents")
-    parser.add_argument("--output-dir", type=Path, required=True, help="Directory to write results")
-    parser.add_argument("--threshold", type=float, default=0.35, help="Probability threshold for multi-intent")
-    parser.add_argument("--per-label-thresholds", action="store_true", help="Optimize per-label thresholds on validation set")
     parser.add_argument(
-        "--threshold-grid-start", type=float, default=0.1, help="Grid start for per-label threshold sweep"
+        "--dataset", type=Path, required=True, help="Path to JSONL with queries + intents"
     )
-    parser.add_argument("--threshold-grid-stop", type=float, default=0.9, help="Grid stop (inclusive) for threshold sweep")
-    parser.add_argument("--threshold-grid-step", type=float, default=0.05, help="Grid step for threshold sweep")
+    parser.add_argument("--output-dir", type=Path, required=True, help="Directory to write results")
+    parser.add_argument(
+        "--threshold", type=float, default=0.35, help="Probability threshold for multi-intent"
+    )
+    parser.add_argument(
+        "--per-label-thresholds",
+        action="store_true",
+        help="Optimize per-label thresholds on validation set",
+    )
+    parser.add_argument(
+        "--threshold-grid-start",
+        type=float,
+        default=0.1,
+        help="Grid start for per-label threshold sweep",
+    )
+    parser.add_argument(
+        "--threshold-grid-stop",
+        type=float,
+        default=0.9,
+        help="Grid stop (inclusive) for threshold sweep",
+    )
+    parser.add_argument(
+        "--threshold-grid-step", type=float, default=0.05, help="Grid step for threshold sweep"
+    )
     parser.add_argument(
         "--calibration",
         choices=["none", "platt", "isotonic"],
@@ -338,21 +361,35 @@ def main() -> None:
         default="42",
         help="Comma-separated random seeds for ensembling (avg probabilities)",
     )
-    parser.add_argument("--word-ngram-max", type=int, default=2, help="Max word n-gram size (min is fixed at 1)")
-    parser.add_argument("--word-max-features", type=int, default=8000, help="Max word TF-IDF features")
-    parser.add_argument("--use-char-ngrams", action="store_true", help="Include character TF-IDF features")
+    parser.add_argument(
+        "--word-ngram-max", type=int, default=2, help="Max word n-gram size (min is fixed at 1)"
+    )
+    parser.add_argument(
+        "--word-max-features", type=int, default=8000, help="Max word TF-IDF features"
+    )
+    parser.add_argument(
+        "--use-char-ngrams", action="store_true", help="Include character TF-IDF features"
+    )
     parser.add_argument("--char-ngram-min", type=int, default=3, help="Min char n-gram size")
     parser.add_argument("--char-ngram-max", type=int, default=5, help="Max char n-gram size")
-    parser.add_argument("--char-max-features", type=int, default=12000, help="Max char TF-IDF features")
+    parser.add_argument(
+        "--char-max-features", type=int, default=12000, help="Max char TF-IDF features"
+    )
     parser.add_argument("--test-size", type=float, default=0.2, help="Test split fraction")
-    parser.add_argument("--val-size", type=float, default=0.1, help="Validation split fraction from train")
+    parser.add_argument(
+        "--val-size", type=float, default=0.1, help="Validation split fraction from train"
+    )
     parser.add_argument("--seed", type=int, default=42, help="Random seed")
     args = parser.parse_args()
 
     examples = load_dataset(args.dataset, INTENT_TAXONOMY)
-    train, val, test = split_dataset(examples, test_size=args.test_size, val_size=args.val_size, seed=args.seed)
+    train, val, test = split_dataset(
+        examples, test_size=args.test_size, val_size=args.val_size, seed=args.seed
+    )
 
-    grid_vals = np.arange(args.threshold_grid_start, args.threshold_grid_stop + 1e-9, args.threshold_grid_step)
+    grid_vals = np.arange(
+        args.threshold_grid_start, args.threshold_grid_stop + 1e-9, args.threshold_grid_step
+    )
     seeds = [int(s) for s in args.seeds.split(",") if s.strip()]
 
     if len(seeds) == 1:
@@ -447,7 +484,9 @@ def main() -> None:
         proba_to_save, preds_to_save = test_proba_mean, test_preds
         artifacts_to_use = models[0]
 
-    save_outputs(args.output_dir, combined_metrics, test, proba_to_save, preds_to_save, INTENT_TAXONOMY)
+    save_outputs(
+        args.output_dir, combined_metrics, test, proba_to_save, preds_to_save, INTENT_TAXONOMY
+    )
 
 
 if __name__ == "__main__":

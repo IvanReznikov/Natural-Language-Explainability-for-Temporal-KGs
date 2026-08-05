@@ -1,4 +1,5 @@
 """Justification path extraction from QueryTrace events (M2-E5)."""
+
 from __future__ import annotations
 
 from dataclasses import dataclass
@@ -31,7 +32,11 @@ class TraceJustifier:
         self.fact_producers: Dict[str, List[RuleTrace]] = self._build_fact_index(trace.rule_traces)
 
     def list_conclusions(self) -> List[str]:
-        return [self._fact_id(rt.conclusion) for rt in self.trace.rule_traces if self._fact_id(rt.conclusion)]
+        return [
+            self._fact_id(rt.conclusion)
+            for rt in self.trace.rule_traces
+            if self._fact_id(rt.conclusion)
+        ]
 
     def paths_for_fact(self, fact_id: str, max_depth: int = 6) -> List[JustificationPath]:
         paths: List[JustificationPath] = []
@@ -44,7 +49,9 @@ class TraceJustifier:
             producers = self.fact_producers.get(current_fact, [])
             if not producers:
                 if chain:
-                    paths.append(JustificationPath(conclusion_fact=fact_id, rule_sequence=list(chain)))
+                    paths.append(
+                        JustificationPath(conclusion_fact=fact_id, rule_sequence=list(chain))
+                    )
                 return
             for rt in producers:
                 if rt.rule_id in rule_seen:
@@ -52,7 +59,9 @@ class TraceJustifier:
                 rule_seen.add(rt.rule_id)
                 inputs = [self._fact_id(inp) for inp in rt.inputs if self._fact_id(inp)]
                 if not inputs:
-                    paths.append(JustificationPath(conclusion_fact=fact_id, rule_sequence=list(chain + [rt])))
+                    paths.append(
+                        JustificationPath(conclusion_fact=fact_id, rule_sequence=list(chain + [rt]))
+                    )
                 else:
                     for upstream in inputs:
                         if upstream in fact_seen:

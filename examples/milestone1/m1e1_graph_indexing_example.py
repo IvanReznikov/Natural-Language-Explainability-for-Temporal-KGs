@@ -26,11 +26,26 @@ def build_index() -> None:
 
     facts = [
         TemporalFact(TemplateType.POINT_IN_TIME, event="founding", entity="Kyoto", date="794"),
-        TemporalFact(TemplateType.INTERVAL, entity="Heian period", event="historical era", start_date="794", end_date="1185", context="Japan"),
-        TemporalFact(TemplateType.OVERLAP, events=["Renaissance", "Age of Discovery"], time_period="1300-1700", context="Europe"),
+        TemporalFact(
+            TemplateType.INTERVAL,
+            entity="Heian period",
+            event="historical era",
+            start_date="794",
+            end_date="1185",
+            context="Japan",
+        ),
+        TemporalFact(
+            TemplateType.OVERLAP,
+            events=["Renaissance", "Age of Discovery"],
+            time_period="1300-1700",
+            context="Europe",
+        ),
     ]
 
-    index = {fact.content.get("entity") or f"fact-{idx}": renderer.render(fact) for idx, fact in enumerate(facts, 1)}
+    index = {
+        fact.content.get("entity") or f"fact-{idx}": renderer.render(fact)
+        for idx, fact in enumerate(facts, 1)
+    }
 
     _print_header("Index Contents")
     for key, text in index.items():

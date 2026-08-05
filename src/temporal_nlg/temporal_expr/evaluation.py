@@ -6,12 +6,20 @@ from datetime import datetime
 from typing import Dict, Iterable, List, Sequence
 
 from .datasets import TemporalDatasetExample
-from .schemas import DocumentContext, NormalizedTemporal, Span, TemporalExpression, TemporalExpressionType
+from .schemas import (
+    DocumentContext,
+    NormalizedTemporal,
+    Span,
+    TemporalExpression,
+    TemporalExpressionType,
+)
 from .tagger import TemporalTagger
 from .normalizer import TemporalNormalizer
 
 
-def span_f1(predicted: Sequence[TemporalExpression], gold: Sequence[TemporalExpression]) -> Dict[str, float]:
+def span_f1(
+    predicted: Sequence[TemporalExpression], gold: Sequence[TemporalExpression]
+) -> Dict[str, float]:
     """Compute span-level precision/recall/F1 on exact-match spans."""
 
     pred_spans = {(expr.span.start, expr.span.end) for expr in predicted}
@@ -25,7 +33,9 @@ def span_f1(predicted: Sequence[TemporalExpression], gold: Sequence[TemporalExpr
     return {"precision": precision, "recall": recall, "f1": f1}
 
 
-def normalization_accuracy(predicted: Iterable[NormalizedTemporal], gold: Iterable[str]) -> Dict[str, float]:
+def normalization_accuracy(
+    predicted: Iterable[NormalizedTemporal], gold: Iterable[str]
+) -> Dict[str, float]:
     """Exact-match accuracy for normalized values."""
 
     predicted_list: List[NormalizedTemporal] = list(predicted)

@@ -9,9 +9,9 @@ from .hybrid_generator import HybridGenerator, GenerationResult
 from .qwen_generator import QwenEmbeddingModel, QwenLocalGenerator
 
 __all__ = [
-    'LLMGenerator',
-    'HybridGenerator',
-    'GenerationResult',
-    'QwenLocalGenerator',
-    'QwenEmbeddingModel',
+    "LLMGenerator",
+    "HybridGenerator",
+    "GenerationResult",
+    "QwenLocalGenerator",
+    "QwenEmbeddingModel",
 ]

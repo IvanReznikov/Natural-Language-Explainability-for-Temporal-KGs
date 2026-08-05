@@ -28,10 +28,18 @@ except Exception:  # pragma: no cover
 class HumanLoopScores(BaseModel):
     """Judgement-only metrics (0..1)."""
 
-    ambiguity_resolution: Optional[float] = Field(default=None, description="Did the explanation resolve ambiguity? 0..1")
-    causal_link_accuracy: Optional[float] = Field(default=None, description="Are causal links correct? 0..1")
-    confidence_calibration: Optional[float] = Field(default=None, description="Is certainty appropriately calibrated? 0..1")
-    narrative_consistency: Optional[float] = Field(default=None, description="Is the narrative consistent throughout? 0..1")
+    ambiguity_resolution: Optional[float] = Field(
+        default=None, description="Did the explanation resolve ambiguity? 0..1"
+    )
+    causal_link_accuracy: Optional[float] = Field(
+        default=None, description="Are causal links correct? 0..1"
+    )
+    confidence_calibration: Optional[float] = Field(
+        default=None, description="Is certainty appropriately calibrated? 0..1"
+    )
+    narrative_consistency: Optional[float] = Field(
+        default=None, description="Is the narrative consistent throughout? 0..1"
+    )
 
     notes: Optional[str] = Field(default=None, description="Short justification")
 
@@ -51,8 +59,7 @@ class M3E2HumanLoopLLMScorer:
         if ChatPromptTemplate is None or ChatOpenAI is None:
             return
 
-        self._prompt = ChatPromptTemplate.from_template(
-            """
+        self._prompt = ChatPromptTemplate.from_template("""
 You are evaluating a generated explanation against the provided gold context.
 Return scores in [0,1] for the judgement metrics. If a metric is not applicable,
 return null.
@@ -73,11 +80,12 @@ Scoring guidance:
 - narrative_consistency: For sequence bucket, is the story internally consistent?
 
 Output JSON only.
-""".strip()
-        )
+""".strip())
 
         try:
-            llm = ChatOpenAI(model=self.model, temperature=self.temperature, max_tokens=self.max_tokens)
+            llm = ChatOpenAI(
+                model=self.model, temperature=self.temperature, max_tokens=self.max_tokens
+            )
             self._chain = self._prompt | llm.with_structured_output(HumanLoopScores)
         except Exception:
             # Keep scorer usable without network/API keys.
@@ -96,10 +104,7 @@ Output JSON only.
         query = str(record.get("query") or record.get("question") or "")
         gold_facts = record.get("gold_facts") or []
         # Keep context small.
-        gold_context = "\n".join(
-            str(f)
-            for f in gold_facts[:12]
-        )
+        gold_context = "\n".join(str(f) for f in gold_facts[:12])
 
         payload = {
             "bucket": bucket,

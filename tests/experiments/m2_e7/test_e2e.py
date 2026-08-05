@@ -4,7 +4,6 @@ import subprocess
 import sys
 from pathlib import Path
 
-
 RUN_E2E_PATH = Path("experiments/m2_e7_harness/run_e2e.py")
 
 
@@ -74,7 +73,10 @@ def test_eval_results_checks_facts_and_latency():
             "query_id": "q11",
             "intent": "science",
             "rule_traces": [
-                {"conclusion": {"fact_id": "experiment", "value": "double_slit"}, "latency_ms": 15.0},
+                {
+                    "conclusion": {"fact_id": "experiment", "value": "double_slit"},
+                    "latency_ms": 15.0,
+                },
             ],
         },
     ]
@@ -148,4 +150,3 @@ def test_run_e2e_cli_outputs_report(tmp_path):
     assert report["ok"] == 2
     assert report["fail"] == 0
     assert output_path.exists()
-

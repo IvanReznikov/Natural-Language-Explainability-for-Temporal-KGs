@@ -15,7 +15,9 @@ class ContextAwareResolver:
     def __init__(self, normalizer: Optional[TemporalNormalizer] = None):
         self.normalizer = normalizer or TemporalNormalizer()
 
-    def resolve_all(self, expressions: List[TemporalExpression], context: Optional[DocumentContext] = None) -> List[NormalizedTemporal]:
+    def resolve_all(
+        self, expressions: List[TemporalExpression], context: Optional[DocumentContext] = None
+    ) -> List[NormalizedTemporal]:
         resolved: List[NormalizedTemporal] = []
         active_context = context or DocumentContext(reference_time=datetime.utcnow())
         for expr in expressions:

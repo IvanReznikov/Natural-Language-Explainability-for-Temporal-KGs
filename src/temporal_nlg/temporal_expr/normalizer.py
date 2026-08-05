@@ -43,8 +43,12 @@ class TemporalNormalizer:
     def __init__(self, default_reference: Optional[datetime] = None):
         self.default_reference = default_reference or datetime.now(timezone.utc)
 
-    def normalize(self, expression: TemporalExpression, context: Optional[DocumentContext] = None) -> NormalizedTemporal:
-        reference = (context.reference_time if context and context.reference_time else self.default_reference).replace(hour=0, minute=0, second=0, microsecond=0)
+    def normalize(
+        self, expression: TemporalExpression, context: Optional[DocumentContext] = None
+    ) -> NormalizedTemporal:
+        reference = (
+            context.reference_time if context and context.reference_time else self.default_reference
+        ).replace(hour=0, minute=0, second=0, microsecond=0)
         text = expression.text.strip()
         lowered = text.lower()
         errors = []
@@ -57,12 +61,42 @@ class TemporalNormalizer:
             # Prefer routing by explicit relative cues for DATE expressions
             if expression.expr_type == TemporalExpressionType.DATE:
                 if self._is_relative_with_time(lowered):
-                    normalized, granularity = self._resolve_relative_with_time(lowered, reference), "minute"
+                    normalized, granularity = (
+                        self._resolve_relative_with_time(lowered, reference),
+                        "minute",
+                    )
                 elif lowered.startswith("last ") or lowered.startswith("next "):
-                    if any(day in lowered for day in ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]):
-                        normalized, granularity = self._resolve_relative_weekday(lowered, reference), "day"
-                elif lowered in {"today", "yesterday", "tomorrow", "last week", "next week", "last month", "next month", "last year", "next year"}:
-                    normalized, granularity = self._resolve_simple_relative(lowered, reference), "day"
+                    if any(
+                        day in lowered
+                        for day in [
+                            "monday",
+                            "tuesday",
+                            "wednesday",
+                            "thursday",
+                            "friday",
+                            "saturday",
+                            "sunday",
+                        ]
+                    ):
+                        normalized, granularity = (
+                            self._resolve_relative_weekday(lowered, reference),
+                            "day",
+                        )
+                elif lowered in {
+                    "today",
+                    "yesterday",
+                    "tomorrow",
+                    "last week",
+                    "next week",
+                    "last month",
+                    "next month",
+                    "last year",
+                    "next year",
+                }:
+                    normalized, granularity = (
+                        self._resolve_simple_relative(lowered, reference),
+                        "day",
+                    )
 
             if self._looks_like_iso_date(lowered):
                 normalized, granularity = lowered, "day"
@@ -77,7 +111,10 @@ class TemporalNormalizer:
             elif self._is_fuzzy_time(lowered):
                 normalized, granularity = self._normalize_fuzzy_time(lowered), "minute"
             elif self._is_relative_with_time(lowered):
-                normalized, granularity = self._resolve_relative_with_time(lowered, reference), "minute"
+                normalized, granularity = (
+                    self._resolve_relative_with_time(lowered, reference),
+                    "minute",
+                )
             elif self._is_relative_simple(lowered):
                 normalized, granularity = self._resolve_simple_relative(lowered, reference), "day"
             elif self._is_relative_weekday(lowered):
@@ -101,7 +138,10 @@ class TemporalNormalizer:
                         normalized, granularity = self._normalize_duration(lowered), "duration"
                 elif expression.expr_type == TemporalExpressionType.DATE:
                     if " at " in lowered:
-                        normalized, granularity = self._resolve_relative_with_time(lowered, reference), "minute"
+                        normalized, granularity = (
+                            self._resolve_relative_with_time(lowered, reference),
+                            "minute",
+                        )
                     elif self._looks_like_month_range(lowered):
                         normalized, granularity = self._parse_month_range(text), "day"
                     elif self._looks_like_iso_date(lowered):
@@ -164,7 +204,9 @@ class TemporalNormalizer:
 
     @staticmethod
     def _looks_like_clock_time(text: str) -> bool:
-        return bool(re.match(r"^\d{1,2}:\d{2}$", text)) or bool(re.match(r"^\d{1,2}(:\d{2})?\s*(am|pm)$", text))
+        return bool(re.match(r"^\d{1,2}:\d{2}$", text)) or bool(
+            re.match(r"^\d{1,2}(:\d{2})?\s*(am|pm)$", text)
+        )
 
     @staticmethod
     def _normalize_time(text: str) -> str:
@@ -215,11 +257,23 @@ class TemporalNormalizer:
 
     @staticmethod
     def _is_relative_simple(text: str) -> bool:
-        return text in {"today", "yesterday", "tomorrow", "last week", "next week", "last month", "next month", "last year", "next year"}
+        return text in {
+            "today",
+            "yesterday",
+            "tomorrow",
+            "last week",
+            "next week",
+            "last month",
+            "next month",
+            "last year",
+            "next year",
+        }
 
     @staticmethod
     def _is_relative_with_time(text: str) -> bool:
-        return bool(re.match(r"^(today|tomorrow|yesterday)\s+at\s+\d{1,2}(:\d{2})?\s*(am|pm)?$", text))
+        return bool(
+            re.match(r"^(today|tomorrow|yesterday)\s+at\s+\d{1,2}(:\d{2})?\s*(am|pm)?$", text)
+        )
 
     @staticmethod
     def _resolve_simple_relative(text: str, reference: datetime) -> str:
@@ -256,15 +310,18 @@ class TemporalNormalizer:
     @staticmethod
     def _is_relative_weekday(text: str) -> bool:
         is_relative = text.startswith("last ") or text.startswith("next ")
-        return is_relative and any(day in text for day in [
-            "monday",
-            "tuesday",
-            "wednesday",
-            "thursday",
-            "friday",
-            "saturday",
-            "sunday",
-        ])
+        return is_relative and any(
+            day in text
+            for day in [
+                "monday",
+                "tuesday",
+                "wednesday",
+                "thursday",
+                "friday",
+                "saturday",
+                "sunday",
+            ]
+        )
 
     @staticmethod
     def _resolve_relative_weekday(text: str, reference: datetime) -> str:
@@ -282,7 +339,11 @@ class TemporalNormalizer:
 
     @staticmethod
     def _is_recurring(text: str) -> bool:
-        return text.startswith("every ") or text in {"daily", "every day", "weekly", "monthly", "yearly"} or "twice a" in text
+        return (
+            text.startswith("every ")
+            or text in {"daily", "every day", "weekly", "monthly", "yearly"}
+            or "twice a" in text
+        )
 
     @staticmethod
     def _normalize_recurring(text: str) -> str:
@@ -312,8 +373,16 @@ class TemporalNormalizer:
             else:
                 time_parts[normalized_unit] += val
 
-        date_str = "".join(_format_part(date_parts[k], "M" if k == "MO" else k) for k in ["Y", "MO", "W", "D"] if date_parts[k])
-        time_str = "".join(_format_part(time_parts[k], "M" if k == "MI" else k) for k in ["H", "MI", "S"] if time_parts[k])
+        date_str = "".join(
+            _format_part(date_parts[k], "M" if k == "MO" else k)
+            for k in ["Y", "MO", "W", "D"]
+            if date_parts[k]
+        )
+        time_str = "".join(
+            _format_part(time_parts[k], "M" if k == "MI" else k)
+            for k in ["H", "MI", "S"]
+            if time_parts[k]
+        )
 
         if not date_str and not time_str:
             raise ValueError("Duration tokens could not be normalized")

@@ -1,4 +1,5 @@
 """Combine surface text with TMS justifications."""
+
 from __future__ import annotations
 
 from typing import Dict, Optional, List

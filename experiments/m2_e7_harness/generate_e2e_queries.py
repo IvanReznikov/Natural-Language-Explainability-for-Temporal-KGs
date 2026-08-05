@@ -15,6 +15,7 @@ Required facts per query are derived from the intent:
   - prediction additionally requires "forecast"
   - aggregation additionally requires "count"
 """
+
 from __future__ import annotations
 
 import argparse
@@ -96,11 +97,23 @@ TEMPLATES: Dict[str, List[str]] = {
 }
 
 FILL_VALUES = {
-    "event": ["the market crash", "the product recall", "the system outage", "the policy change", "the merger"],
+    "event": [
+        "the market crash",
+        "the product recall",
+        "the system outage",
+        "the policy change",
+        "the merger",
+    ],
     "event_a": ["the initial alert", "contract signing", "the prototype review", "Phase 1"],
     "event_b": ["full containment", "first revenue recognition", "production handoff", "Phase 3"],
     "metric": ["revenue", "ICU admissions", "error rate", "churn rate", "latency"],
-    "entity": ["the regulatory body", "the supply chain", "the clinical trial", "the platform", "the team"],
+    "entity": [
+        "the regulatory body",
+        "the supply chain",
+        "the clinical trial",
+        "the platform",
+        "the team",
+    ],
     "entity_a": ["Company A", "Region East", "Treatment Group 1", "the legacy system"],
     "entity_b": ["Company B", "Region West", "Treatment Group 2", "the new system"],
     "entity_c": ["Company C", "Region North", "Control Group"],
@@ -118,6 +131,7 @@ FILL_VALUES = {
 def _fill(template: str, rng: random.Random) -> str:
     """Replace all {placeholders} with random fill values."""
     import re
+
     keys = re.findall(r"\{(\w+)\}", template)
     result = template
     for key in keys:
@@ -161,14 +175,16 @@ def load_gold_queries(gold_path: Path, max_per_intent: int, rng: random.Random) 
         rng.shuffle(rows)
         for row in rows:
             primary_intent = next((i for i in row.get("intents", []) if i in INTENTS), intent)
-            out.append({
-                "query_id": row.get("id", f"gold_{len(out)}"),
-                "text": row.get("query", ""),
-                "intent": primary_intent,
-                "required_facts": _required_facts(primary_intent),
-                "max_latency_ms": 15.0,
-                "source": "gold",
-            })
+            out.append(
+                {
+                    "query_id": row.get("id", f"gold_{len(out)}"),
+                    "text": row.get("query", ""),
+                    "intent": primary_intent,
+                    "required_facts": _required_facts(primary_intent),
+                    "max_latency_ms": 15.0,
+                    "source": "gold",
+                }
+            )
     return out
 
 
@@ -179,28 +195,37 @@ def generate_synthetic(count: int, rng: random.Random, start_idx: int = 0) -> Li
         intent = INTENTS[(start_idx + i) % len(INTENTS)]
         templates = TEMPLATES[intent]
         text = _fill(rng.choice(templates), rng)
-        out.append({
-            "query_id": f"syn_{start_idx + i:05d}",
-            "text": text,
-            "intent": intent,
-            "required_facts": _required_facts(intent),
-            "max_latency_ms": 15.0,
-            "source": "synthetic",
-        })
+        out.append(
+            {
+                "query_id": f"syn_{start_idx + i:05d}",
+                "text": text,
+                "intent": intent,
+                "required_facts": _required_facts(intent),
+                "max_latency_ms": 15.0,
+                "source": "synthetic",
+            }
+        )
     return out
 
 
 def main():
     parser = argparse.ArgumentParser(description="Generate E2E query corpus for M2-E7")
-    parser.add_argument("--count", type=int, default=2210,
-                        help="Total number of queries to emit")
-    parser.add_argument("--gold", type=str,
-                        default="experiments/m2_e2_intent/data/annotated_queries.jsonl",
-                        help="Path to annotated_queries.jsonl for real query sourcing")
-    parser.add_argument("--max-gold-per-intent", type=int, default=200,
-                        help="Max gold queries to include per intent class")
-    parser.add_argument("--output", type=str,
-                        default="experiments/m2_e7_harness/input/queries.jsonl")
+    parser.add_argument("--count", type=int, default=2210, help="Total number of queries to emit")
+    parser.add_argument(
+        "--gold",
+        type=str,
+        default="experiments/m2_e2_intent/data/annotated_queries.jsonl",
+        help="Path to annotated_queries.jsonl for real query sourcing",
+    )
+    parser.add_argument(
+        "--max-gold-per-intent",
+        type=int,
+        default=200,
+        help="Max gold queries to include per intent class",
+    )
+    parser.add_argument(
+        "--output", type=str, default="experiments/m2_e7_harness/input/queries.jsonl"
+    )
     parser.add_argument("--seed", type=int, default=42)
     args = parser.parse_args()
 
@@ -230,6 +255,7 @@ def main():
 
     # Summary
     from collections import Counter
+
     intent_counts = Counter(q["intent"] for q in all_queries)
     source_counts = Counter(q.get("source", "?") for q in all_queries)
     print(f"Wrote {len(all_queries)} queries to {out_path}")

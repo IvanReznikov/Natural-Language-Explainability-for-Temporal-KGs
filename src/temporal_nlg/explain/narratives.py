@@ -1,4 +1,5 @@
 """Narrative rendering for graph paths with style adaptation."""
+
 from __future__ import annotations
 
 from typing import List, Dict, Optional

@@ -48,7 +48,9 @@ def _copy_web_assets(out_dir: Path) -> None:
     if not src.exists():
         return
     (out_dir / "web").mkdir(parents=True, exist_ok=True)
-    (out_dir / "web" / "cognitive_load.html").write_text(src.read_text(encoding="utf-8"), encoding="utf-8")
+    (out_dir / "web" / "cognitive_load.html").write_text(
+        src.read_text(encoding="utf-8"), encoding="utf-8"
+    )
 
 
 def export_scenarios(args: argparse.Namespace) -> None:

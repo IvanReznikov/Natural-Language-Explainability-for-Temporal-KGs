@@ -6,6 +6,7 @@ declared in the corresponding query entry.  Rule names and IDs are derived
 from the query's intent, matching the M2 taxonomy rule vocabulary used in
 the TMS runtime (temporal_nlg.tms).
 """
+
 from __future__ import annotations
 
 import argparse
@@ -88,10 +89,12 @@ def make_rule(query: dict, now: float, rng: random.Random) -> Rule:
     # rest go into meta.extra_conclusions so run_e2e.py can expand them.
     conclusions = []
     for fact_id in required_facts:
-        conclusions.append({
-            "fact_id": fact_id,
-            "value": _fact_value(fact_id, intent, qid),
-        })
+        conclusions.append(
+            {
+                "fact_id": fact_id,
+                "value": _fact_value(fact_id, intent, qid),
+            }
+        )
 
     # Guarantee intent is always in conclusions
     intent_conclusion = {"fact_id": "intent", "value": intent}
@@ -144,10 +147,10 @@ def generate_traces(queries: List[dict], seed: int) -> List[TraceRecord]:
 
 def main():
     parser = argparse.ArgumentParser(description="Generate synthetic traces for M2-E7")
-    parser.add_argument("--queries", type=str,
-                        default="experiments/m2_e7_harness/input/queries.jsonl")
-    parser.add_argument("--output", type=str,
-                        default="experiments/m2_e7_harness/input/trace.jsonl")
+    parser.add_argument(
+        "--queries", type=str, default="experiments/m2_e7_harness/input/queries.jsonl"
+    )
+    parser.add_argument("--output", type=str, default="experiments/m2_e7_harness/input/trace.jsonl")
     parser.add_argument("--seed", type=int, default=1337)
     args = parser.parse_args()
 
@@ -156,6 +159,7 @@ def main():
     save_jsonl(Path(args.output), traces)
 
     from collections import Counter
+
     intent_counts = Counter(t["meta"].get("intent", "?") for t in traces)
     print(f"Wrote {len(traces)} traces to {args.output}")
     print(f"  Intent distribution in traces: {dict(intent_counts)}")

@@ -1,0 +1,124 @@
+{
+  "hyperon_version": "0.2.10",
+  "python_version": "3.11.9",
+  "examples": {
+    "m4e1_nlg": {
+      "file": "examples/milestone4/m4e1_nlg.metta",
+      "status": "executed",
+      "expressions": 4,
+      "results": [
+        "{\\\"text\\\": \\\"Albert Einstein was born in 1879.\\\", \\\"strategy\\\": \\\"template\\\", \\\"confidence\\\": 0.9, \\\"flesch_score\\\": null, \\\"template_id\\\": \\\"pit_simple_1\\\"}",
+        "{\\\"text\\\": \\\"Albert Einstein was born in 1879.\\\", \\\"strategy\\\": \\\"template\\\", \\\"confidence\\\": 0.9, \\\"flesch_score\\\": null, \\\"template_id\\\": \\\"pit_simple_1\\\"}",
+        "{\\\"flesch_score\\\": 100, \\\"information_density\\\": 0.7777777777777778}",
+        "{\\\"date_preservation\\\": 1.0, \\\"entity_preservation\\\": 1.0, \\\"relation_preservation\\\": 0.7, \\\"hallucination_detected\\\": false, \\\"overall_accuracy\\\": 0.9099999999999999}"
+      ]
+    },
+    "m4e2_tms": {
+      "file": "examples/milestone4/m4e2_tms.metta",
+      "status": "executed",
+      "expressions": 13,
+      "results": [
+        "q_6f1d0233",
+        "rule:derive-birth-year",
+        "rule:alt-derivation",
+        "B1",
+        "B2",
+        "[\\\"rule:derive-birth-year\\\", \\\"rule:alt-derivation\\\"]",
+        "[{\\\"fact_id\\\": \\\"f1\\\", \\\"values\\\": [\\\"1880\\\", \\\"1879\\\"], \\\"rule_ids\\\": [\\\"rule:derive-birth-year\\\", \\\"rule:alt-derivation\\\"], \\\"reason\\\": \\\"Conflicting values for f1: [\\'1880\\', \\'1879\\']\\\"}]",
+        "[[\\\"census_1879\\\", 1], [\\\"record_x\\\", 1]]",
+        "{\\\"rule:did-not-fire\\\": \\\"absent in trace\\\"}",
+        "Belief B2 is supported by B1. Evidence: no direct evidence.",
+        "[{\\\"belief_id\\\": \\\"B2\\\", \\\"payload\\\": {\\\"claim\\\": \\\"Einstein published in Annalen der Physik\\\"}, \\\"supports\\\": [\\\"B1\\\"], \\\"evidence\\\": [], \\\"status\\\": \\\"active\\\"}, {\\\"belief_id\\\": \\\"B1\\\", \\\"payload\\\": {\\\"claim\\\": \\\"Einstein was born in 1879\\\"}, \\\"supports\\\": [], \\\"evidence\\\": [{\\\"source\\\": \\\"census\\\", \\\"snippet\\\": \\\"f1=1879\\\", \\\"weight\\\": 1.0}], \\\"status\\\": \\\"active\\\"}]",
+        "{\\\"retracted\\\": \\\"B1\\\", \\\"affected\\\": [\\\"B1\\\", \\\"B2\\\"]}",
+        "[\\\"B2\\\"]"
+      ]
+    },
+    "m4e5_justification_path": {
+      "file": "examples/milestone4/m4e5_justification_path.metta",
+      "status": "executed",
+      "expressions": 6,
+      "results": [
+        "q-justify",
+        "rule:extract-year",
+        "rule:normalize-year",
+        "rule:assert-birth-year",
+        "[{\\\"conclusion_fact\\\": \\\"birth_year\\\", \\\"rule_sequence\\\": [{\\\"rule_id\\\": \\\"rule:assert-birth-year\\\", \\\"rule_name\\\": \\\"Assert birth year conclusion\\\", \\\"inputs\\\": [{\\\"fact_id\\\": \\\"year_normalized\\\", \\\"value\\\": \\\"1879-01-01\\\"}], \\\"conclusion\\\": {\\\"fact_id\\\": \\\"birth_year\\\", \\\"value\\\": \\\"1879\\\"}}, {\\\"rule_id\\\": \\\"rule:normalize-year\\\", \\\"rule_name\\\": \\\"Normalize year to ISO format\\\", \\\"inputs\\\": [{\\\"fact_id\\\": \\\"year_extracted\\\", \\\"value\\\": \\\"1879\\\"}], \\\"conclusion\\\": {\\\"fact_id\\\": \\\"year_normalized\\\", \\\"value\\\": \\\"1879-01-01\\\"}}, {\\\"rule_id\\\": \\\"rule:extract-year\\\", \\\"rule_name\\\": \\\"Extract year from census record\\\", \\\"inputs\\\": [{\\\"fact_id\\\": \\\"raw_record\\\", \\\"value\\\": \\\"born 1879\\\"}], \\\"conclusion\\\": {\\\"fact_id\\\": \\\"year_extracted\\\", \\\"value\\\": \\\"1879\\\"}}], \\\"as_text\\\": \\\"Assert birth year conclusion: year_normalized=1879-01-01 -> birth_year=1879 | Normalize year to ISO format: year_extracted=1879 -> year_normalized=1879-01-01 | Extract year from census record: raw_record=born 1879 -> year_extracted=1879\\\"}]",
+        "Assert birth year conclusion: year_normalized=1879-01-01 -> birth_year=1879 | Normalize year to ISO format: year_extracted=1879 -> year_normalized=1879-01-01 | Extract year from census record: raw_record=born 1879 -> year_extracted=1879"
+      ]
+    },
+    "m4e6_counterfactual": {
+      "file": "examples/milestone4/m4e6_counterfactual.metta",
+      "status": "executed",
+      "expressions": 6,
+      "results": [
+        "{\\\"factual\\\": \\\"moving assembly line caused Model T price drop\\\", \\\"counterfactual\\\": \\\"If instead hand production caused price rise, then the outcome would diverge from the factual path.\\\", \\\"delta\\\": \\\"subject changed from \\'moving assembly line\\' to \\'hand production\\'; object changed from \\'Model T price drop\\' to \\'price rise\\'\\\"}",
+        "{\\\"factual\\\": \\\"Model T launched in 1908 during 1908\\\", \\\"counterfactual\\\": \\\"If instead Model T launched in 1920 during 1920, then the outcome would diverge from the factual path.\\\", \\\"delta\\\": \\\"object changed from \\'1908\\' to \\'1920\\'; timeframe changed from \\'1908\\' to \\'1920\\'\\\"}",
+        "belief:assembly-line-1913",
+        "{\\\"original_id\\\": \\\"belief:assembly-line-1913\\\", \\\"new_belief_id\\\": \\\"cf_belief:assembly-line-1913\\\", \\\"description\\\": \\\"If time shifted by 5 years earlier, belief belief:assembly-line-1913 would become cf_belief:assembly-line-1913.\\\", \\\"payload\\\": {\\\"claim\\\": \\\"Assembly line adopted in 1913\\\", \\\"counterfactual_time_shift\\\": \\\"5 years earlier\\\"}}",
+        "[{\\\"belief_id\\\": \\\"belief:assembly-line-1913\\\", \\\"payload\\\": {\\\"claim\\\": \\\"Assembly line adopted in 1913\\\"}, \\\"supports\\\": [], \\\"evidence\\\": [{\\\"source\\\": \\\"graph\\\", \\\"snippet\\\": \\\"Ford 1913\\\", \\\"weight\\\": 0.9}], \\\"status\\\": \\\"active\\\"}]",
+        "[\\\"belief:assembly-line-1913\\\", \\\"cf_belief:assembly-line-1913\\\"]"
+      ]
+    },
+    "m4e7_styles": {
+      "file": "examples/milestone4/m4e7_styles.metta",
+      "status": "executed",
+      "expressions": 4,
+      "results": [
+        "{\\\"summary\\\": \\\"Connection from ModelT to PriceDrop via enabled, produced_with.\\\", \\\"narrative\\\": \\\"Here is the timeline in plain terms. Step by step: ModelT -[produced_with @1913]-> AssemblyLine | AssemblyLine -[enabled @1913]-> PriceDrop. It means Connection from ModelT to PriceDrop via enabled, produced_with. That is the key takeaway.\\\", \\\"justification\\\": \\\"ModelT produced_with AssemblyLine at 1913; AssemblyLine enabled PriceDrop at 1913\\\"}",
+        "{\\\"summary\\\": \\\"Connection from ModelT to PriceDrop via enabled, produced_with.\\\", \\\"narrative\\\": \\\"Timeline overview: Path ModelT -[produced_with @1913]-> AssemblyLine | AssemblyLine -[enabled @1913]-> PriceDrop. Connection from ModelT to PriceDrop via enabled, produced_with.\\\", \\\"justification\\\": \\\"ModelT produced_with AssemblyLine at 1913; AssemblyLine enabled PriceDrop at 1913\\\"}",
+        "{\\\"summary\\\": \\\"Connection from ModelT to PriceDrop via enabled, produced_with.\\\", \\\"narrative\\\": \\\"Tracing the dependency path: Path ModelT -[produced_with @1913]-> AssemblyLine | AssemblyLine -[enabled @1913]-> PriceDrop. Implication: Connection from ModelT to PriceDrop via enabled, produced_with. Summary complete.\\\", \\\"justification\\\": \\\"ModelT produced_with AssemblyLine at 1913; AssemblyLine enabled PriceDrop at 1913\\\"}",
+        "{\\\"summary\\\": \\\"Connection from ModelT to PriceDrop via enabled, produced_with.\\\", \\\"narrative\\\": \\\"Timeline overview: Event flow: ModelT -[produced_with @1913]-> AssemblyLine | AssemblyLine -[enabled @1913]-> PriceDrop. Impact: Connection from ModelT to PriceDrop via enabled, produced_with.\\\", \\\"justification\\\": \\\"ModelT produced_with AssemblyLine at 1913; AssemblyLine enabled PriceDrop at 1913\\\"}"
+      ]
+    },
+    "m4e8_metta_reasoning": {
+      "file": "examples/milestone4/m4e8_metta_reasoning.metta",
+      "status": "executed",
+      "expressions": 8,
+      "results": [
+        "q-metta-reasoning",
+        "()",
+        "()",
+        "()",
+        "(causal-link \"moving assembly line\" \"Model T price drop\" \"1913\")",
+        "rule:causal-chain-in-metta",
+        "[\\\"rule:causal-chain-in-metta\\\"]",
+        "Derived by MeTTa pattern match over temporal edges: moving assembly line=1913 -> Model T price drop=causal"
+      ]
+    },
+    "m4e3_graph": {
+      "file": "examples/milestone4/m4e3_graph.metta",
+      "status": "executed",
+      "expressions": 6,
+      "results": [
+        "{\\\"question\\\": \\\"What likely caused the Model T price drop in 1913?\\\", \\\"answer_text\\\": \\\"Evidence in 1913: moving assembly line implementation caused Model T price drop; US ended Gold convertibility; Ford Model T caused Assembly line; US suspended Gold convertibility; US suspended_convertibility Gold. Key entities: moving assembly line implementation, Model T price drop, US, Gold convertibility, Ford Model T, Assembly line.\\\", \\\"confidence\\\": 0.8, \\\"intent\\\": \\\"reason_of\\\", \\\"plan\\\": {\\\"query_type\\\": \\\"reason_of\\\", \\\"entities\\\": [\\\"likely caused\\\", \\\"Model T price drop\\\"], \\\"locations\\\": [], \\\"relation_hint\\\": \\\"cut_price\\\", \\\"temporal_operator\\\": null, \\\"year\\\": 1913, \\\"start_year\\\": null, \\\"end_year\\\": null, \\\"k\\\": 5, \\\"max_hops\\\": 4, \\\"confidence\\\": 0.4, \\\"rationale\\\": \\\"heuristic parser fallback\\\", \\\"_question\\\": \\\"What likely caused the Model T price drop in 1913?\\\"}, \\\"evidence\\\": [{\\\"edge_uid\\\": \\\"e_00000006\\\", \\\"source\\\": \\\"moving assembly line implementation\\\", \\\"source_category\\\": \\\"event\\\", \\\"target\\\": \\\"Model T price drop\\\", \\\"target_category\\\": \\\"event\\\", \\\"relation\\\": \\\"caused\\\", \\\"start\\\": \\\"1913\\\", \\\"end\\\": null, \\\"edge_type\\\": \\\"gold_fact\\\", \\\"support_count\\\": 3, \\\"source_row_ids\\\": [\\\"hist_000001\\\"]}, {\\\"edge_uid\\\": \\\"e_00013334\\\", \\\"source\\\": \\\"US\\\", \\\"source_category\\\": \\\"concept\\\", \\\"target\\\": \\\"Gold convertibility\\\", \\\"target_category\\\": \\\"policy\\\", \\\"relation\\\": \\\"ended\\\", \\\"start\\\": \\\"1971-08-15\\\", \\\"end\\\": null, \\\"edge_type\\\": \\\"gold_fact\\\", \\\"support_count\\\": 4, \\\"source_row_ids\\\": [\\\"fina_002803\\\", \\\"fina_002815\\\"]}, {\\\"edge_uid\\\": \\\"e_00030764\\\", \\\"source\\\": \\\"Ford Model T\\\", \\\"source_category\\\": \\\"product\\\", \\\"target\\\": \\\"Assembly line\\\", \\\"target_category\\\": \\\"concept\\\", \\\"relation\\\": \\\"caused\\\", \\\"start\\\": \\\"1913\\\", \\\"end\\\": null, \\\"edge_type\\\": \\\"base\\\", \\\"support_count\\\": 1, \\\"source_row_ids\\\": [\\\"tech_006659\\\"]}, {\\\"edge_uid\\\": \\\"e_00012828\\\", \\\"source\\\": \\\"US\\\", \\\"source_category\\\": \\\"concept\\\", \\\"target\\\": \\\"Gold convertibility\\\", \\\"target_category\\\": \\\"policy\\\", \\\"relation\\\": \\\"suspended\\\", \\\"start\\\": \\\"1971-08-15\\\", \\\"end\\\": null, \\\"edge_type\\\": \\\"gold_fact\\\", \\\"support_count\\\": 3, \\\"source_row_ids\\\": [\\\"fina_002631\\\"]}, {\\\"edge_uid\\\": \\\"e_00012974\\\", \\\"source\\\": \\\"US\\\", \\\"source_category\\\": \\\"concept\\\", \\\"target\\\": \\\"Gold\\\", \\\"target_category\\\": \\\"concept\\\", \\\"relation\\\": \\\"suspended_convertibility\\\", \\\"start\\\": \\\"1971-08-15\\\", \\\"end\\\": null, \\\"edge_type\\\": \\\"gold_fact\\\", \\\"support_count\\\": 3, \\\"source_row_ids\\\": [\\\"fina_002678\\\"]}], \\\"mermaid\\\": \\\"graph TD\\\\n    moving_assembly_line_implementation[\\\\\\\"moving assembly line implementation\\\\\\\"] -->|\\\\\\\"caused (1913 \\\\u2192 ?)\\\\\\\"| Model_T_price_drop[\\\\\\\"Model T price drop\\\\\\\"]\\\\n    US[\\\\\\\"US\\\\\\\"] -->|\\\\\\\"ended (1971-08-15 \\\\u2192 ?)\\\\\\\"| Gold_convertibility[\\\\\\\"Gold convertibility\\\\\\\"]\\\\n    Ford_Model_T[\\\\\\\"Ford Model T\\\\\\\"] -->|\\\\\\\"caused (1913 \\\\u2192 ?)\\\\\\\"| Assembly_line[\\\\\\\"Assembly line\\\\\\\"]\\\\n    US[\\\\\\\"US\\\\\\\"] -->|\\\\\\\"suspended (1971-08-15 \\\\u2192 ?)\\\\\\\"| Gold_convertibility[\\\\\\\"Gold convertibility\\\\\\\"]\\\\n    US[\\\\\\\"US\\\\\\\"] -->|\\\\\\\"suspended_convertibility (1971-08-15 \\\\u2192 ?)\\\\\\\"| Gold[\\\\\\\"Gold\\\\\\\"]\\\"}",
+        0.8,
+        "[{\\\"edge_uid\\\": \\\"e_00000006\\\", \\\"source\\\": \\\"moving assembly line implementation\\\", \\\"source_category\\\": \\\"event\\\", \\\"target\\\": \\\"Model T price drop\\\", \\\"target_category\\\": \\\"event\\\", \\\"relation\\\": \\\"caused\\\", \\\"start\\\": \\\"1913\\\", \\\"end\\\": null, \\\"edge_type\\\": \\\"gold_fact\\\", \\\"support_count\\\": 3, \\\"source_row_ids\\\": [\\\"hist_000001\\\"]}, {\\\"edge_uid\\\": \\\"e_00013334\\\", \\\"source\\\": \\\"US\\\", \\\"source_category\\\": \\\"concept\\\", \\\"target\\\": \\\"Gold convertibility\\\", \\\"target_category\\\": \\\"policy\\\", \\\"relation\\\": \\\"ended\\\", \\\"start\\\": \\\"1971-08-15\\\", \\\"end\\\": null, \\\"edge_type\\\": \\\"gold_fact\\\", \\\"support_count\\\": 4, \\\"source_row_ids\\\": [\\\"fina_002803\\\", \\\"fina_002815\\\"]}, {\\\"edge_uid\\\": \\\"e_00030764\\\", \\\"source\\\": \\\"Ford Model T\\\", \\\"source_category\\\": \\\"product\\\", \\\"target\\\": \\\"Assembly line\\\", \\\"target_category\\\": \\\"concept\\\", \\\"relation\\\": \\\"caused\\\", \\\"start\\\": \\\"1913\\\", \\\"end\\\": null, \\\"edge_type\\\": \\\"base\\\", \\\"support_count\\\": 1, \\\"source_row_ids\\\": [\\\"tech_006659\\\"]}, {\\\"edge_uid\\\": \\\"e_00012828\\\", \\\"source\\\": \\\"US\\\", \\\"source_category\\\": \\\"concept\\\", \\\"target\\\": \\\"Gold convertibility\\\", \\\"target_category\\\": \\\"policy\\\", \\\"relation\\\": \\\"suspended\\\", \\\"start\\\": \\\"1971-08-15\\\", \\\"end\\\": null, \\\"edge_type\\\": \\\"gold_fact\\\", \\\"support_count\\\": 3, \\\"source_row_ids\\\": [\\\"fina_002631\\\"]}, {\\\"edge_uid\\\": \\\"e_00012974\\\", \\\"source\\\": \\\"US\\\", \\\"source_category\\\": \\\"concept\\\", \\\"target\\\": \\\"Gold\\\", \\\"target_category\\\": \\\"concept\\\", \\\"relation\\\": \\\"suspended_convertibility\\\", \\\"start\\\": \\\"1971-08-15\\\", \\\"end\\\": null, \\\"edge_type\\\": \\\"gold_fact\\\", \\\"support_count\\\": 3, \\\"source_row_ids\\\": [\\\"fina_002678\\\"]}]",
+        "graph TD\\n    moving_assembly_line_implementation[\\\"moving assembly line implementation\\\"] -->|\\\"caused (1913 \u2192 ?)\\\"| Model_T_price_drop[\\\"Model T price drop\\\"]\\n    US[\\\"US\\\"] -->|\\\"ended (1971-08-15 \u2192 ?)\\\"| Gold_convertibility[\\\"Gold convertibility\\\"]\\n    Ford_Model_T[\\\"Ford Model T\\\"] -->|\\\"caused (1913 \u2192 ?)\\\"| Assembly_line[\\\"Assembly line\\\"]\\n    US[\\\"US\\\"] -->|\\\"suspended (1971-08-15 \u2192 ?)\\\"| Gold_convertibility[\\\"Gold convertibility\\\"]\\n    US[\\\"US\\\"] -->|\\\"suspended_convertibility (1971-08-15 \u2192 ?)\\\"| Gold[\\\"Gold\\\"]",
+        "{\\\"question\\\": \\\"Was Model T connected to Ford production scaling in 1913?\\\", \\\"answer_text\\\": \\\"Evidence in 1913: Ford Model T led_to assembly line; Ford Model T implemented assembly line; Ford Model T caused Assembly line; Bohr Model proposed_in 1913. Key entities: Ford Model T, assembly line, Assembly line, Bohr Model.\\\", \\\"confidence\\\": 0.7, \\\"intent\\\": \\\"existence_in_time\\\", \\\"plan\\\": {\\\"query_type\\\": \\\"existence_in_time\\\", \\\"entities\\\": [\\\"Model T connected\\\", \\\"Ford production scaling\\\"], \\\"locations\\\": [], \\\"relation_hint\\\": \\\"mass_production_start\\\", \\\"temporal_operator\\\": null, \\\"year\\\": 1913, \\\"start_year\\\": null, \\\"end_year\\\": null, \\\"k\\\": 5, \\\"max_hops\\\": 4, \\\"confidence\\\": 0.4, \\\"rationale\\\": \\\"heuristic parser fallback\\\", \\\"_question\\\": \\\"Was Model T connected to Ford production scaling in 1913?\\\"}, \\\"evidence\\\": [{\\\"edge_uid\\\": \\\"e_00030768\\\", \\\"source\\\": \\\"Ford Model T\\\", \\\"source_category\\\": \\\"product\\\", \\\"target\\\": \\\"assembly line\\\", \\\"target_category\\\": \\\"concept\\\", \\\"relation\\\": \\\"led_to\\\", \\\"start\\\": \\\"1913\\\", \\\"end\\\": null, \\\"edge_type\\\": \\\"gold_fact\\\", \\\"support_count\\\": 3, \\\"source_row_ids\\\": [\\\"tech_006659\\\"]}, {\\\"edge_uid\\\": \\\"e_00000179\\\", \\\"source\\\": \\\"Ford Model T\\\", \\\"source_category\\\": \\\"product\\\", \\\"target\\\": \\\"assembly line\\\", \\\"target_category\\\": \\\"concept\\\", \\\"relation\\\": \\\"implemented\\\", \\\"start\\\": \\\"1913\\\", \\\"end\\\": null, \\\"edge_type\\\": \\\"gold_fact\\\", \\\"support_count\\\": 3, \\\"source_row_ids\\\": [\\\"hist_000026\\\"]}, {\\\"edge_uid\\\": \\\"e_00030764\\\", \\\"source\\\": \\\"Ford Model T\\\", \\\"source_category\\\": \\\"product\\\", \\\"target\\\": \\\"Assembly line\\\", \\\"target_category\\\": \\\"concept\\\", \\\"relation\\\": \\\"caused\\\", \\\"start\\\": \\\"1913\\\", \\\"end\\\": null, \\\"edge_type\\\": \\\"base\\\", \\\"support_count\\\": 1, \\\"source_row_ids\\\": [\\\"tech_006659\\\"]}, {\\\"edge_uid\\\": \\\"e_00146812\\\", \\\"source\\\": \\\"Bohr Model\\\", \\\"source_category\\\": \\\"concept\\\", \\\"target\\\": \\\"1913\\\", \\\"target_category\\\": \\\"date\\\", \\\"relation\\\": \\\"proposed_in\\\", \\\"start\\\": \\\"1913\\\", \\\"end\\\": null, \\\"edge_type\\\": \\\"gold_fact\\\", \\\"support_count\\\": 3, \\\"source_row_ids\\\": [\\\"scie_027787\\\"]}], \\\"mermaid\\\": \\\"graph TD\\\\n    Ford_Model_T[\\\\\\\"Ford Model T\\\\\\\"] -->|\\\\\\\"led_to (1913 \\\\u2192 ?)\\\\\\\"| assembly_line[\\\\\\\"assembly line\\\\\\\"]\\\\n    Ford_Model_T[\\\\\\\"Ford Model T\\\\\\\"] -->|\\\\\\\"implemented (1913 \\\\u2192 ?)\\\\\\\"| assembly_line[\\\\\\\"assembly line\\\\\\\"]\\\\n    Ford_Model_T[\\\\\\\"Ford Model T\\\\\\\"] -->|\\\\\\\"caused (1913 \\\\u2192 ?)\\\\\\\"| Assembly_line[\\\\\\\"Assembly line\\\\\\\"]\\\\n    Bohr_Model[\\\\\\\"Bohr Model\\\\\\\"] -->|\\\\\\\"proposed_in (1913 \\\\u2192 ?)\\\\\\\"| n_1913[\\\\\\\"1913\\\\\\\"]\\\"}",
+        0.7
+      ]
+    },
+    "m4e4_capstone": {
+      "file": "examples/milestone4/m4e4_capstone.metta",
+      "status": "executed",
+      "expressions": 15,
+      "results": [
+        "{\\\"question\\\": \\\"What likely caused the Model T price drop in 1913?\\\", \\\"answer_text\\\": \\\"Evidence in 1913: moving assembly line implementation caused Model T price drop; US ended Gold convertibility; Ford Model T caused Assembly line; US suspended Gold convertibility; US suspended_convertibility Gold. Key entities: moving assembly line implementation, Model T price drop, US, Gold convertibility, Ford Model T, Assembly line.\\\", \\\"confidence\\\": 0.8, \\\"intent\\\": \\\"reason_of\\\", \\\"plan\\\": {\\\"query_type\\\": \\\"reason_of\\\", \\\"entities\\\": [\\\"likely caused\\\", \\\"Model T price drop\\\"], \\\"locations\\\": [], \\\"relation_hint\\\": \\\"cut_price\\\", \\\"temporal_operator\\\": null, \\\"year\\\": 1913, \\\"start_year\\\": null, \\\"end_year\\\": null, \\\"k\\\": 5, \\\"max_hops\\\": 4, \\\"confidence\\\": 0.4, \\\"rationale\\\": \\\"heuristic parser fallback\\\", \\\"_question\\\": \\\"What likely caused the Model T price drop in 1913?\\\"}, \\\"evidence\\\": [{\\\"edge_uid\\\": \\\"e_00000006\\\", \\\"source\\\": \\\"moving assembly line implementation\\\", \\\"source_category\\\": \\\"event\\\", \\\"target\\\": \\\"Model T price drop\\\", \\\"target_category\\\": \\\"event\\\", \\\"relation\\\": \\\"caused\\\", \\\"start\\\": \\\"1913\\\", \\\"end\\\": null, \\\"edge_type\\\": \\\"gold_fact\\\", \\\"support_count\\\": 3, \\\"source_row_ids\\\": [\\\"hist_000001\\\"]}, {\\\"edge_uid\\\": \\\"e_00013334\\\", \\\"source\\\": \\\"US\\\", \\\"source_category\\\": \\\"concept\\\", \\\"target\\\": \\\"Gold convertibility\\\", \\\"target_category\\\": \\\"policy\\\", \\\"relation\\\": \\\"ended\\\", \\\"start\\\": \\\"1971-08-15\\\", \\\"end\\\": null, \\\"edge_type\\\": \\\"gold_fact\\\", \\\"support_count\\\": 4, \\\"source_row_ids\\\": [\\\"fina_002803\\\", \\\"fina_002815\\\"]}, {\\\"edge_uid\\\": \\\"e_00030764\\\", \\\"source\\\": \\\"Ford Model T\\\", \\\"source_category\\\": \\\"product\\\", \\\"target\\\": \\\"Assembly line\\\", \\\"target_category\\\": \\\"concept\\\", \\\"relation\\\": \\\"caused\\\", \\\"start\\\": \\\"1913\\\", \\\"end\\\": null, \\\"edge_type\\\": \\\"base\\\", \\\"support_count\\\": 1, \\\"source_row_ids\\\": [\\\"tech_006659\\\"]}, {\\\"edge_uid\\\": \\\"e_00012828\\\", \\\"source\\\": \\\"US\\\", \\\"source_category\\\": \\\"concept\\\", \\\"target\\\": \\\"Gold convertibility\\\", \\\"target_category\\\": \\\"policy\\\", \\\"relation\\\": \\\"suspended\\\", \\\"start\\\": \\\"1971-08-15\\\", \\\"end\\\": null, \\\"edge_type\\\": \\\"gold_fact\\\", \\\"support_count\\\": 3, \\\"source_row_ids\\\": [\\\"fina_002631\\\"]}, {\\\"edge_uid\\\": \\\"e_00012974\\\", \\\"source\\\": \\\"US\\\", \\\"source_category\\\": \\\"concept\\\", \\\"target\\\": \\\"Gold\\\", \\\"target_category\\\": \\\"concept\\\", \\\"relation\\\": \\\"suspended_convertibility\\\", \\\"start\\\": \\\"1971-08-15\\\", \\\"end\\\": null, \\\"edge_type\\\": \\\"gold_fact\\\", \\\"support_count\\\": 3, \\\"source_row_ids\\\": [\\\"fina_002678\\\"]}], \\\"mermaid\\\": \\\"graph TD\\\\n    moving_assembly_line_implementation[\\\\\\\"moving assembly line implementation\\\\\\\"] -->|\\\\\\\"caused (1913 \\\\u2192 ?)\\\\\\\"| Model_T_price_drop[\\\\\\\"Model T price drop\\\\\\\"]\\\\n    US[\\\\\\\"US\\\\\\\"] -->|\\\\\\\"ended (1971-08-15 \\\\u2192 ?)\\\\\\\"| Gold_convertibility[\\\\\\\"Gold convertibility\\\\\\\"]\\\\n    Ford_Model_T[\\\\\\\"Ford Model T\\\\\\\"] -->|\\\\\\\"caused (1913 \\\\u2192 ?)\\\\\\\"| Assembly_line[\\\\\\\"Assembly line\\\\\\\"]\\\\n    US[\\\\\\\"US\\\\\\\"] -->|\\\\\\\"suspended (1971-08-15 \\\\u2192 ?)\\\\\\\"| Gold_convertibility[\\\\\\\"Gold convertibility\\\\\\\"]\\\\n    US[\\\\\\\"US\\\\\\\"] -->|\\\\\\\"suspended_convertibility (1971-08-15 \\\\u2192 ?)\\\\\\\"| Gold[\\\\\\\"Gold\\\\\\\"]\\\"}",
+        0.8,
+        "q_b56cfa2e",
+        "()",
+        "()",
+        "()",
+        "()",
+        "()",
+        "rule:causal-chain-inference",
+        "rule:causal-chain-inference",
+        "conclusion:model-t-price-drop",
+        "{\\\"text\\\": \\\"the moving assembly line. Then the Model T price drop. Key facts: the moving assembly line.\\\", \\\"strategy\\\": \\\"template\\\", \\\"confidence\\\": 0.9, \\\"flesch_score\\\": null, \\\"template_id\\\": \\\"caus_micro_1\\\"}",
+        "Belief conclusion:model-t-price-drop is supported by none. Evidence: [graph] moving assembly line -> price drop (w=0.8).",
+        "[{\\\"belief_id\\\": \\\"conclusion:model-t-price-drop\\\", \\\"payload\\\": {\\\"claim\\\": \\\"The moving assembly line caused the Model T price drop in 1913\\\"}, \\\"supports\\\": [], \\\"evidence\\\": [{\\\"source\\\": \\\"graph\\\", \\\"snippet\\\": \\\"moving assembly line -> price drop\\\", \\\"weight\\\": 0.8}], \\\"status\\\": \\\"active\\\"}]",
+        []
+      ]
+    }
+  }
+}

@@ -266,7 +266,11 @@ class TestLLMGenerator:
     @patch("temporal_nlg.models.llm_generator.ChatOpenAI")
     def test_batch_generate_with_errors(self, mock_chat):
         mock_llm_instance = Mock()
-        mock_llm_instance.invoke.side_effect = [Mock(content="Success 1"), Exception("API Error"), Mock(content="Success 2")]
+        mock_llm_instance.invoke.side_effect = [
+            Mock(content="Success 1"),
+            Exception("API Error"),
+            Mock(content="Success 2"),
+        ]
         mock_chat.return_value = mock_llm_instance
 
         generator = LLMGenerator()

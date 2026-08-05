@@ -11,12 +11,13 @@ from langchain_openai import ChatOpenAI
 from langchain_core.prompts import PromptTemplate, ChatPromptTemplate
 import json
 
+
 class HybridSelector:
     """Routes temporal facts to best generation strategy"""
-    
+
     def __init__(self, model: str = "gpt-4.1-nano"):
         self.llm = ChatOpenAI(model=model)
-        
+
         self.selector_prompt = ChatPromptTemplate.from_template("""
 You are a temporal NLG routing specialist. Analyze this fact and recommend generation strategy.
 
@@ -42,19 +43,21 @@ Output JSON:
   "reasoning": "brief explanation"
 }}
 """)
-    
+
     def route_fact(self, fact: Dict, available_templates: List[str]) -> Dict:
         """Route fact to best generation strategy"""
-        
+
         chain = self.selector_prompt | self.llm
-        response = chain.invoke({
-            "fact_type": fact.get("type", "unknown"),
-            "event": fact.get("event", ""),
-            "dates": fact.get("dates", ""),
-            "context": fact.get("context", ""),
-            "templates": "\n".join(f"- {t}" for t in available_templates[:10])
-        })
-        
+        response = chain.invoke(
+            {
+                "fact_type": fact.get("type", "unknown"),
+                "event": fact.get("event", ""),
+                "dates": fact.get("dates", ""),
+                "context": fact.get("context", ""),
+                "templates": "\n".join(f"- {t}" for t in available_templates[:10]),
+            }
+        )
+
         try:
             result = json.loads(response.content)
             return result
@@ -64,5 +67,5 @@ Output JSON:
                 "strategy": "template",
                 "top_3_templates": available_templates[:3],
                 "confidence": 0.5,
-                "reasoning": "JSON parsing failed, using default template"
+                "reasoning": "JSON parsing failed, using default template",
             }

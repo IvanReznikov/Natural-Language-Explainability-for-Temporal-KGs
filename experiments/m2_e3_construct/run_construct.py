@@ -22,7 +22,7 @@ def build_mappings_for_row(row: Dict) -> Dict[str, str]:
     cq = row.get("canonical_query")
     if not cq:
         return mappings
-    
+
     arg_to_frame_keys = {
         "event": ["event"],
         "date": ["time", "date"],
@@ -36,12 +36,12 @@ def build_mappings_for_row(row: Dict) -> Dict[str, str]:
         "start": ["start"],
         "end": ["end"],
         "period": ["period"],
-        "region": ["region"]
+        "region": ["region"],
     }
-    
+
     cq_pairs = re.findall(r"(\w+)\s*=\s*'([^']*)'", cq)
     frame = row.get("frame", {})
-    
+
     for arg_name, arg_val in cq_pairs:
         frame_keys = arg_to_frame_keys.get(arg_name, [])
         for fk in frame_keys:
@@ -52,30 +52,40 @@ def build_mappings_for_row(row: Dict) -> Dict[str, str]:
     return mappings
 
 
-def normalize_val(val, qid: str, row_mappings: Dict[str, Dict[str, str]], global_mappings: Dict[str, str]) -> str:
+def normalize_val(
+    val, qid: str, row_mappings: Dict[str, Dict[str, str]], global_mappings: Dict[str, str]
+) -> str:
     if not val:
         return ""
     val_str = str(val).strip()
     val_lower = val_str.lower()
-    
+
     if qid in row_mappings and val_lower in row_mappings[qid]:
         return row_mappings[qid][val_lower]
-    
+
     if val_lower in global_mappings:
         return global_mappings[val_lower]
-        
+
     cleaned = val_lower
     # Strip common question prefixes and determiners
-    cleaned = re.sub(r"^(is|did|does|was|were|are|why|how|what|who|when|where|the|a|an)\s+", "", cleaned)
+    cleaned = re.sub(
+        r"^(is|did|does|was|were|are|why|how|what|who|when|where|the|a|an)\s+", "", cleaned
+    )
     # Strip common trailing verbs
-    cleaned = re.sub(r"\s+(?:signing|signed|built|founded|launched|opened|invented|completed|declared|announced|established|occur|happen|start|end|begin|finish|take place)$", "", cleaned)
+    cleaned = re.sub(
+        r"\s+(?:signing|signed|built|founded|launched|opened|invented|completed|declared|announced|established|occur|happen|start|end|begin|finish|take place)$",
+        "",
+        cleaned,
+    )
     cleaned = re.sub(r"[^a-zA-Z0-9]+", "_", cleaned)
     cleaned = re.sub(r"_+", "_", cleaned).strip("_")
     cleaned = cleaned.replace("fine_tuning", "finetuning")
     return cleaned
 
 
-def build_template_improved(frame: Dict, intents: List[str], qid: str, row_mappings: dict, global_mappings: dict) -> str:
+def build_template_improved(
+    frame: Dict, intents: List[str], qid: str, row_mappings: dict, global_mappings: dict
+) -> str:
     if not frame:
         return "UNKNOWN()"
 
@@ -190,14 +200,22 @@ def build_template(frame: Dict) -> str:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--data", type=Path, required=True, help="Path to gold jsonl with frame/canonical_query")
-    parser.add_argument("--pred", type=Path, default=None, help="Optional SRL predictions to use instead of gold")
+    parser.add_argument(
+        "--data", type=Path, required=True, help="Path to gold jsonl with frame/canonical_query"
+    )
+    parser.add_argument(
+        "--pred", type=Path, default=None, help="Optional SRL predictions to use instead of gold"
+    )
     parser.add_argument("--output-dir", type=Path, default=Path("runs"))
-    parser.add_argument("--use-gold", action="store_true", help="Force using gold frames even if pred is provided")
+    parser.add_argument(
+        "--use-gold", action="store_true", help="Force using gold frames even if pred is provided"
+    )
     args = parser.parse_args()
 
     gold_rows = {row["id"]: row for row in load_jsonl(args.data)}
-    pred_rows = {row["id"]: row for row in load_jsonl(args.pred)} if args.pred and not args.use_gold else {}
+    pred_rows = (
+        {row["id"]: row for row in load_jsonl(args.pred)} if args.pred and not args.use_gold else {}
+    )
 
     run_id = uuid.uuid4().hex
     run_dir = args.output_dir / run_id
@@ -220,7 +238,7 @@ def main() -> None:
         if qid in pred_rows and not args.use_gold:
             frame = pred_rows[qid].get("frame", frame)
             intents = pred_rows[qid].get("intent_labels", intents)
-            
+
         templated = build_template_improved(frame, intents, qid, row_mappings, global_mappings)
         outputs.append({"id": qid, "canonical_query": templated})
         total += 1
@@ -233,7 +251,7 @@ def main() -> None:
         "run_id": run_id,
         "examples": total,
         "template_accuracy": matches / total if total else 0.0,
-        "notes": "Improved query construction matching canonical schema."
+        "notes": "Improved query construction matching canonical schema.",
     }
     with (run_dir / "metrics.json").open("w", encoding="utf-8") as f:
         json.dump(metrics, f, indent=2)

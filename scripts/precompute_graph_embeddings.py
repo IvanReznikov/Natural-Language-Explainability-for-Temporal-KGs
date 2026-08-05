@@ -219,10 +219,7 @@ def _embed_texts_generic(
 
     if pending and int(parallelism) > 1:
         with ThreadPoolExecutor(max_workers=int(parallelism)) as pool:
-            future_map = {
-                pool.submit(embed_fn, chunk): (idx, len(chunk))
-                for idx, chunk in pending
-            }
+            future_map = {pool.submit(embed_fn, chunk): (idx, len(chunk)) for idx, chunk in pending}
             for future in as_completed(future_map):
                 idx, chunk_len = future_map[future]
                 arr = np.asarray(future.result(), dtype=np.float32)
@@ -326,7 +323,12 @@ def _resolve_server_embed_mode(
             retry_backoff_sec=retry_backoff_sec,
         )
         data = body.get("data")
-        if isinstance(data, list) and len(data) == 1 and isinstance(data[0], dict) and isinstance(data[0].get("embedding"), list):
+        if (
+            isinstance(data, list)
+            and len(data) == 1
+            and isinstance(data[0], dict)
+            and isinstance(data[0].get("embedding"), list)
+        ):
             return "v1_embeddings"
     except urllib.error.HTTPError as exc:
         if exc.code not in {404, 405}:
@@ -373,7 +375,9 @@ def _embed_with_server(
         )
         vectors = body.get("vectors")
         if not isinstance(vectors, list):
-            raise RuntimeError("Embedding server returned invalid /embed response: missing vectors list")
+            raise RuntimeError(
+                "Embedding server returned invalid /embed response: missing vectors list"
+            )
         return np.asarray(vectors, dtype=float)
 
     if effective_mode == "v1_embeddings":
@@ -422,7 +426,9 @@ def _atomic_save_npy(path: Path, arr: np.ndarray) -> None:
     temp_path.replace(path)
 
 
-def _meta_prefix_matches(existing_rows: Sequence[dict], target_rows: Sequence[dict], keys: Sequence[str]) -> bool:
+def _meta_prefix_matches(
+    existing_rows: Sequence[dict], target_rows: Sequence[dict], keys: Sequence[str]
+) -> bool:
     if len(existing_rows) > len(target_rows):
         return False
     for idx, row in enumerate(existing_rows):
@@ -638,9 +644,13 @@ def main() -> None:
     edge_relations = _safe_unique([str(row.get("relation") or "") for row in edge_rows])
 
     node_label_npy = emb_dir / f"node_normalized_label_embeddings_{embed_backend}_{model_slug}.npy"
-    node_label_meta = emb_dir / f"node_normalized_label_embeddings_{embed_backend}_{model_slug}.meta.jsonl"
+    node_label_meta = (
+        emb_dir / f"node_normalized_label_embeddings_{embed_backend}_{model_slug}.meta.jsonl"
+    )
     edge_relation_npy = emb_dir / f"edge_relation_embeddings_{embed_backend}_{model_slug}.npy"
-    edge_relation_meta = emb_dir / f"edge_relation_embeddings_{embed_backend}_{model_slug}.meta.jsonl"
+    edge_relation_meta = (
+        emb_dir / f"edge_relation_embeddings_{embed_backend}_{model_slug}.meta.jsonl"
+    )
     tag_npy = emb_dir / f"tag_normalized_tag_embeddings_{embed_backend}_{model_slug}.npy"
     tag_meta = emb_dir / f"tag_normalized_tag_embeddings_{embed_backend}_{model_slug}.meta.jsonl"
 
@@ -756,9 +766,13 @@ def main() -> None:
         # regardless of which GRAPH_RETRIEVAL_BACKEND env var is set at query time.
         for compat_prefix in ("qwen_local", "qwen_server"):
             compat_edge_npy = emb_dir / f"edge_embeddings_{compat_prefix}_{model_slug}.npy"
-            compat_edge_uids_path = emb_dir / f"edge_embeddings_{compat_prefix}_{model_slug}.uids.json"
+            compat_edge_uids_path = (
+                emb_dir / f"edge_embeddings_{compat_prefix}_{model_slug}.uids.json"
+            )
             _atomic_save_npy(compat_edge_npy, edge_matrix)
-            compat_edge_uids_path.write_text(json.dumps(edge_uids, ensure_ascii=False), encoding="utf-8")
+            compat_edge_uids_path.write_text(
+                json.dumps(edge_uids, ensure_ascii=False), encoding="utf-8"
+            )
         compat_edge_npy = emb_dir / f"edge_embeddings_qwen_server_{model_slug}.npy"
 
     print(f"Backend: {embed_backend}")

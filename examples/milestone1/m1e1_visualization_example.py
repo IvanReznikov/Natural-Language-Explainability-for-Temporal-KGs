@@ -29,8 +29,20 @@ def visualize_timelines() -> None:
     renderer = TemplateRenderer()
 
     facts = [
-        TemporalFact(TemplateType.INTERVAL, entity="World War II", event="global conflict", start_date="1939", end_date="1945", context="global conflict"),
-        TemporalFact(TemplateType.OVERLAP, events=["Renaissance", "Age of Discovery", "Scientific Revolution"], time_period="1300-1700", context="Europe"),
+        TemporalFact(
+            TemplateType.INTERVAL,
+            entity="World War II",
+            event="global conflict",
+            start_date="1939",
+            end_date="1945",
+            context="global conflict",
+        ),
+        TemporalFact(
+            TemplateType.OVERLAP,
+            events=["Renaissance", "Age of Discovery", "Scientific Revolution"],
+            time_period="1300-1700",
+            context="Europe",
+        ),
     ]
 
     _print_header("Rendered Explanations")

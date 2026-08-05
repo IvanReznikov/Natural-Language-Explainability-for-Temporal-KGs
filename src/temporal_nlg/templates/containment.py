@@ -1,12 +1,25 @@
 """Containment templates for within/contains relations."""
+
 from typing import Dict
 
 CONTAINMENT_TEMPLATES = [
     {"id": "cont_within_1", "template": "{inner} occurred within {outer}.", "clarity_score": 4.6},
     {"id": "cont_part_1", "template": "{inner} was part of {outer}.", "clarity_score": 4.7},
-    {"id": "cont_during_1", "template": "During {outer}, {inner} took place.", "clarity_score": 4.6},
-    {"id": "cont_span_1", "template": "{outer} spans the period that includes {inner}.", "clarity_score": 4.4},
-    {"id": "cont_window_1", "template": "In the window of {outer}, we saw {inner}.", "clarity_score": 4.5},
+    {
+        "id": "cont_during_1",
+        "template": "During {outer}, {inner} took place.",
+        "clarity_score": 4.6,
+    },
+    {
+        "id": "cont_span_1",
+        "template": "{outer} spans the period that includes {inner}.",
+        "clarity_score": 4.4,
+    },
+    {
+        "id": "cont_window_1",
+        "template": "In the window of {outer}, we saw {inner}.",
+        "clarity_score": 4.5,
+    },
 ]
 
 

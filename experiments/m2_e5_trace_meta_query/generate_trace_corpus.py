@@ -1,5 +1,6 @@
 ﻿#!/usr/bin/env python3
 """Generate a synthetic trace corpus for M2-E5 regression tests."""
+
 from __future__ import annotations
 
 import argparse
@@ -86,4 +87,3 @@ def record_trace_to_json(trace_dict: Dict) -> str:
 
 if __name__ == "__main__":
     main()
-

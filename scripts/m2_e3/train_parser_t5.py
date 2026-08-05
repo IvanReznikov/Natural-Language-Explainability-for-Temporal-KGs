@@ -4,9 +4,14 @@ from pathlib import Path
 from typing import Dict, List
 
 from datasets import Dataset
-from transformers import (AutoTokenizer, DataCollatorForSeq2Seq,
-                          Seq2SeqTrainer, Seq2SeqTrainingArguments,
-                          T5ForConditionalGeneration, TrainerCallback)
+from transformers import (
+    AutoTokenizer,
+    DataCollatorForSeq2Seq,
+    Seq2SeqTrainer,
+    Seq2SeqTrainingArguments,
+    T5ForConditionalGeneration,
+    TrainerCallback,
+)
 
 
 def load_jsonl(path: Path) -> List[Dict]:
@@ -16,7 +21,9 @@ def load_jsonl(path: Path) -> List[Dict]:
 
 def make_target(row: Dict) -> str:
     # Normalize spans ordering for stability
-    spans = sorted(row.get("spans", []), key=lambda s: (s.get("start", 0), s.get("end", 0), s.get("label", "")))
+    spans = sorted(
+        row.get("spans", []), key=lambda s: (s.get("start", 0), s.get("end", 0), s.get("label", ""))
+    )
     payload = {
         "spans": spans,
         "frame": row.get("frame", {}),
@@ -63,9 +70,13 @@ class LossLoggerCallback(TrainerCallback):
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--splits-dir", type=Path, default=Path("experiments/m2_e3_parse/data/splits"))
+    parser.add_argument(
+        "--splits-dir", type=Path, default=Path("experiments/m2_e3_parse/data/splits")
+    )
     parser.add_argument("--model-name", type=str, default="google/flan-t5-small")
-    parser.add_argument("--output-dir", type=Path, default=Path("experiments/m2_e3_parse/artifacts/parser"))
+    parser.add_argument(
+        "--output-dir", type=Path, default=Path("experiments/m2_e3_parse/artifacts/parser")
+    )
     parser.add_argument("--num-epochs", type=int, default=3)
     parser.add_argument("--batch-size", type=int, default=4)
     parser.add_argument("--lr", type=float, default=5e-5)
@@ -82,9 +93,19 @@ def main() -> None:
     val_ds = prepare_dataset(args.splits_dir / "val.jsonl")
 
     def tokenize(batch):
-        model_inputs = tokenizer(batch["input_text"], max_length=args.max_source_length, padding="max_length", truncation=True)
+        model_inputs = tokenizer(
+            batch["input_text"],
+            max_length=args.max_source_length,
+            padding="max_length",
+            truncation=True,
+        )
         with tokenizer.as_target_tokenizer():
-            labels = tokenizer(batch["target_text"], max_length=args.max_target_length, padding="max_length", truncation=True)
+            labels = tokenizer(
+                batch["target_text"],
+                max_length=args.max_target_length,
+                padding="max_length",
+                truncation=True,
+            )
         model_inputs["labels"] = labels["input_ids"]
         return model_inputs
 

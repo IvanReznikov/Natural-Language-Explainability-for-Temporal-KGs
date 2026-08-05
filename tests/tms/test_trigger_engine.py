@@ -16,7 +16,9 @@ def test_trigger_engine_fires_and_stores(tmp_path):
             "dependencies": ["temperature_fact"],
         }
 
-    rule = TriggerRule(rule_id="r_high_temp", description="temperature rule", predicate=pred, query_factory=factory)
+    rule = TriggerRule(
+        rule_id="r_high_temp", description="temperature rule", predicate=pred, query_factory=factory
+    )
 
     engine = TriggerEngine(store)
     ctx = TriggerContext(context_id="c1", facts={"temperature": 102}, meta={})

@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """Run Milestone 1 experiment scripts with sensible defaults and skips."""
+
 from __future__ import annotations
 import argparse
 import os
 import subprocess
 import sys
 from pathlib import Path
-
 
 ROOT = Path(__file__).resolve().parents[1]
 TARGET_DIR = ROOT / "experiments"
@@ -32,9 +32,10 @@ def discover_scripts() -> list[Path]:
             if path.name.startswith("run_all_"):
                 continue
             text = path.read_text(encoding="utf-8", errors="ignore")
-            if "if __name__ == \"__main__\":" in text or "if __name__ == '__main__':" in text:
+            if 'if __name__ == "__main__":' in text or "if __name__ == '__main__':" in text:
                 scripts.append(path)
     return scripts
+
 
 def script_config(script: Path) -> dict:
     rel = script.relative_to(ROOT).as_posix()
@@ -84,6 +85,7 @@ def script_config(script: Path) -> dict:
 
     return cfg
 
+
 def run_scripts(scripts: list[Path], list_only: bool = False, fail_fast: bool = False) -> int:
     if not scripts:
         print("No runnable experiment scripts found.")
@@ -98,7 +100,9 @@ def run_scripts(scripts: list[Path], list_only: bool = False, fail_fast: bool = 
     skipped = []
     env = os.environ.copy()
     current_pythonpath = env.get("PYTHONPATH", "")
-    env["PYTHONPATH"] = f"{ROOT}{os.pathsep}{current_pythonpath}" if current_pythonpath else str(ROOT)
+    env["PYTHONPATH"] = (
+        f"{ROOT}{os.pathsep}{current_pythonpath}" if current_pythonpath else str(ROOT)
+    )
 
     for script in scripts:
         rel = script.relative_to(ROOT)
@@ -141,6 +145,7 @@ def run_scripts(scripts: list[Path], list_only: bool = False, fail_fast: bool = 
     print("All runnable scripts passed.")
     return 0
 
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Run all Milestone 1 experiments")
     parser.add_argument("--list", action="store_true", help="Only list scripts")
@@ -149,6 +154,7 @@ def main() -> int:
 
     scripts = discover_scripts()
     return run_scripts(scripts, list_only=args.list, fail_fast=args.fail_fast)
+
 
 if __name__ == "__main__":
     raise SystemExit(main())

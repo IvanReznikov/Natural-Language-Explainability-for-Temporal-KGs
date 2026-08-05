@@ -81,7 +81,9 @@ def main():
         write_jsonl(SPLIT_DIR / f"{cfg['name']}_train.jsonl", train)
         write_jsonl(SPLIT_DIR / f"{cfg['name']}_val.jsonl", val)
         write_jsonl(SPLIT_DIR / f"{cfg['name']}_test.jsonl", test)
-        print(f"{cfg['name']}: train={len(train)}, val={len(val)}, test={len(test)}, total={len(rows)}")
+        print(
+            f"{cfg['name']}: train={len(train)}, val={len(val)}, test={len(test)}, total={len(rows)}"
+        )
 
 
 if __name__ == "__main__":

@@ -10,6 +10,7 @@ from langchain_core.prompts import ChatPromptTemplate
 import json
 import re
 
+
 class FactExtractor:
     """Extract entities and key tokens from temporal facts"""
 
@@ -21,7 +22,7 @@ class FactExtractor:
         try:
             content = getattr(fact, "content", {}) or {}
             tokens = self._flatten_fact_tokens(content)
-            years = re.findall(r'\b(1\d{3}|2\d{3})\b', str(content))
+            years = re.findall(r"\b(1\d{3}|2\d{3})\b", str(content))
             return {
                 "FACT": tokens,
                 "DATE": years,
@@ -39,7 +40,7 @@ class FactExtractor:
         try:
             text_lower = text.lower()
             # Years
-            years = re.findall(r'\b(1\d{3}|2\d{3})\b', text)
+            years = re.findall(r"\b(1\d{3}|2\d{3})\b", text)
             if years:
                 entities["DATE"].extend(years)
 

@@ -37,7 +37,9 @@ def test_containment_render_all():
 
 def test_recurrence_render_all():
     lib = RecurrenceTemplateLibrary()
-    fact = DummyFact({"event": "Status check", "frequency": "week", "start_date": "2025", "end_date": "2026"})
+    fact = DummyFact(
+        {"event": "Status check", "frequency": "week", "start_date": "2025", "end_date": "2026"}
+    )
     outputs = lib.render_all(fact)
     _assert_nonempty(outputs)
     assert any("week" in o for o in outputs.values())

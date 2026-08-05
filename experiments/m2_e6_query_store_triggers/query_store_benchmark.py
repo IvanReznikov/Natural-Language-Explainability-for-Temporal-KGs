@@ -1,5 +1,6 @@
 ﻿#!/usr/bin/env python3
 """Micro-benchmark for query storage (M2-E6)."""
+
 from __future__ import annotations
 
 import argparse
@@ -49,7 +50,9 @@ def main():
     parser = argparse.ArgumentParser(description="Query store benchmark")
     parser.add_argument("--count", type=int, default=1000)
     parser.add_argument("--intents", type=int, default=5)
-    parser.add_argument("--output", type=str, default="output/m2_e6_query_store_triggers/query_store_bench.txt")
+    parser.add_argument(
+        "--output", type=str, default="output/m2_e6_query_store_triggers/query_store_bench.txt"
+    )
     args = parser.parse_args()
     metrics = run(args.count, args.intents)
     out_path = Path(args.output)
@@ -61,4 +64,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

@@ -62,15 +62,29 @@ _FROM_TO_RE = re.compile(r"\bfrom\b.{2,50}?\bto\b", re.IGNORECASE | re.DOTALL)
 _YEAR_DASH_YEAR_RE = re.compile(r"\b(1\d{3}|2\d{3})\s*[\u2013\u2014\-]\s*(1\d{3}|2\d{3})\b")
 
 # Signals that the question is asking about status/ordering *within* the described timeline
-_SELF_CONTAINED_ANSWER_KW = frozenset({
-    "status", "phase", "active", "which phase", "what phase",
-    "did it happen", "was it", "were they",
-    "what came before", "what came after",
-    "came before", "came after",
-    "before delivery", "before arrival", "before testing",
-    "before development", "before launch",
-    "what was active", "what was their",
-})
+_SELF_CONTAINED_ANSWER_KW = frozenset(
+    {
+        "status",
+        "phase",
+        "active",
+        "which phase",
+        "what phase",
+        "did it happen",
+        "was it",
+        "were they",
+        "what came before",
+        "what came after",
+        "came before",
+        "came after",
+        "before delivery",
+        "before arrival",
+        "before testing",
+        "before development",
+        "before launch",
+        "what was active",
+        "what was their",
+    }
+)
 
 
 def _is_self_contained(question: str) -> bool:
@@ -87,16 +101,15 @@ def _is_self_contained(question: str) -> bool:
     low = question.lower()
 
     # Count independent temporal anchors embedded in the question text
-    from_to_count  = len(_FROM_TO_RE.findall(question))
+    from_to_count = len(_FROM_TO_RE.findall(question))
     dash_ivl_count = len(_YEAR_DASH_YEAR_RE.findall(question))  # "2018–2022"
-    month_count    = len(_MONTH_RE.findall(question))
-    day_count      = len(_DAY_NAMES_RE.findall(question))
-    year_count     = len(_YEAR_RE.findall(question))
+    month_count = len(_MONTH_RE.findall(question))
+    day_count = len(_DAY_NAMES_RE.findall(question))
+    year_count = len(_YEAR_RE.findall(question))
 
     # Two year values + a causal/conditional connector → strong self-contained signal
-    has_two_years_with_conditional = (
-        year_count >= 2
-        and any(kw in low for kw in ("postponed", "rescheduled", "moved to", "delayed"))
+    has_two_years_with_conditional = year_count >= 2 and any(
+        kw in low for kw in ("postponed", "rescheduled", "moved to", "delayed")
     )
 
     # Multiple explicit date labels (months/days) describing a sequence of phases
@@ -112,7 +125,8 @@ def _is_self_contained(question: str) -> bool:
 
     # En-dash year range(s) + an in-text query year
     has_dash_interval_with_query = (
-        dash_ivl_count >= 1 and year_count >= 3  # e.g. "2018–2022 ... 2023 ... 2021?"
+        dash_ivl_count >= 1
+        and year_count >= 3  # e.g. "2018–2022 ... 2023 ... 2021?"
         or dash_ivl_count >= 2
     )
 
@@ -142,26 +156,99 @@ def _parse_edge_year(date_str) -> int | None:
 
 
 _STOP_WORDS: set[str] = {
-    "in", "during", "from", "to", "before", "after", "between", "since",
-    "until", "when", "did", "does", "was", "were", "is", "are", "the",
-    "a", "an", "of", "and", "or", "that", "this", "by", "for", "with",
-    "on", "at", "it", "its", "be", "been", "being", "has", "have", "had",
-    "do", "not", "no", "yes", "if", "than", "then", "so",
+    "in",
+    "during",
+    "from",
+    "to",
+    "before",
+    "after",
+    "between",
+    "since",
+    "until",
+    "when",
+    "did",
+    "does",
+    "was",
+    "were",
+    "is",
+    "are",
+    "the",
+    "a",
+    "an",
+    "of",
+    "and",
+    "or",
+    "that",
+    "this",
+    "by",
+    "for",
+    "with",
+    "on",
+    "at",
+    "it",
+    "its",
+    "be",
+    "been",
+    "being",
+    "has",
+    "have",
+    "had",
+    "do",
+    "not",
+    "no",
+    "yes",
+    "if",
+    "than",
+    "then",
+    "so",
 }
 
 _QUESTION_WORDS: set[str] = {
-    "who", "what", "which", "where", "how", "whom", "whose",
-    "why", "name", "list", "tell",
+    "who",
+    "what",
+    "which",
+    "where",
+    "how",
+    "whom",
+    "whose",
+    "why",
+    "name",
+    "list",
+    "tell",
 }
 
 
-_NOISE: set[str] = _STOP_WORDS | _QUESTION_WORDS | {
-    "came", "won", "began", "begin", "started", "ended", "end",
-    "released", "launched", "published", "hosted", "became",
-    "first", "last", "earlier", "later", "latest", "earliest",
-    "becoming", "called", "known", "named", "about",
-    "term", "begin",
-}
+_NOISE: set[str] = (
+    _STOP_WORDS
+    | _QUESTION_WORDS
+    | {
+        "came",
+        "won",
+        "began",
+        "begin",
+        "started",
+        "ended",
+        "end",
+        "released",
+        "launched",
+        "published",
+        "hosted",
+        "became",
+        "first",
+        "last",
+        "earlier",
+        "later",
+        "latest",
+        "earliest",
+        "becoming",
+        "called",
+        "known",
+        "named",
+        "about",
+        "term",
+        "begin",
+    }
+)
 
 
 def _extract_entities(text: str) -> list[str]:
@@ -332,8 +419,12 @@ class TemporalGraphLCELPipeline:
         self.row_index = RowRetrievalIndex(output_dir)
 
         self.model_name = os.getenv("OPENAI_MODEL_NAME", "gpt-4.1-nano")
-        self.internal_llm_backend = (os.getenv("GRAPH_INTERNAL_LLM_BACKEND") or "qwen_server").strip().lower()
-        self.internal_openai_model = (os.getenv("GRAPH_INTERNAL_LLM_MODEL") or self.model_name).strip()
+        self.internal_llm_backend = (
+            (os.getenv("GRAPH_INTERNAL_LLM_BACKEND") or "qwen_server").strip().lower()
+        )
+        self.internal_openai_model = (
+            os.getenv("GRAPH_INTERNAL_LLM_MODEL") or self.model_name
+        ).strip()
         self._internal_openai_llm = None
         if self.internal_llm_backend == "openai" and ChatOpenAI is not None:
             try:
@@ -364,9 +455,12 @@ class TemporalGraphLCELPipeline:
         self.answer_chain = self.retrieve_chain | RunnableLambda(self._format_answer)
 
         self.llm_chain = None
-        if ChatOpenAI is not None and ChatPromptTemplate is not None and StrOutputParser is not None:
-            prompt = ChatPromptTemplate.from_template(
-                """
+        if (
+            ChatOpenAI is not None
+            and ChatPromptTemplate is not None
+            and StrOutputParser is not None
+        ):
+            prompt = ChatPromptTemplate.from_template("""
 You are a temporal graph analyst.
 Answer the question using only the provided retrieval output.
 
@@ -383,8 +477,7 @@ Evidence:
 {evidence}
 
 If evidence is empty, explicitly say no evidence was found.
-""".strip()
-            )
+""".strip())
             try:
                 llm = ChatOpenAI(model=self.model_name, temperature=0.0, max_tokens=240)
                 self.llm_chain = self.retrieve_chain | prompt | llm | StrOutputParser()
@@ -398,8 +491,7 @@ If evidence is empty, explicitly say no evidence was found.
         if ChatOpenAI is None or ChatPromptTemplate is None:
             return None
 
-        prompt = ChatPromptTemplate.from_template(
-            """
+        prompt = ChatPromptTemplate.from_template("""
 You are a temporal graph query planner.
 Convert user questions into a JSON plan with fields:
 - query_type: one of [state_at_time,state_during_interval,existence_in_time,first_occurrence,last_occurrence,reason_of,start_affecting,analogical_transfer,temporal_count,temporal_top_k,temporal_path_existence,unsupported]
@@ -413,8 +505,7 @@ Question:
 {question}
 
 Return only the structured plan.
-""".strip()
-        )
+""".strip())
 
         try:
             llm = ChatOpenAI(model=self.model_name, temperature=0.0, max_tokens=220)
@@ -486,10 +577,12 @@ Return only the structured plan.
         if self.internal_llm_backend == "openai" and self._internal_openai_llm is not None:
             try:
                 if system:
-                    msg = self._internal_openai_llm.invoke([
-                        ("system", system),
-                        ("human", prompt),
-                    ])
+                    msg = self._internal_openai_llm.invoke(
+                        [
+                            ("system", system),
+                            ("human", prompt),
+                        ]
+                    )
                 else:
                     msg = self._internal_openai_llm.invoke(prompt)
                 content = getattr(msg, "content", "")
@@ -520,12 +613,14 @@ Return only the structured plan.
         if system:
             messages.append({"role": "system", "content": system})
         messages.append({"role": "user", "content": prompt})
-        payload = json.dumps({
-            "model": model_name,
-            "messages": messages,
-            "max_tokens": max_tokens,
-            "temperature": 0.0,
-        }).encode("utf-8")
+        payload = json.dumps(
+            {
+                "model": model_name,
+                "messages": messages,
+                "max_tokens": max_tokens,
+                "temperature": 0.0,
+            }
+        ).encode("utf-8")
         req = urllib.request.Request(
             url=f"{url.rstrip('/')}/v1/chat/completions",
             data=payload,
@@ -585,6 +680,7 @@ Return only the structured plan.
             # looking for 2006) are excluded before the 0.8B LLM sees them.
             era_min = year - 20
             era_max = year + 20
+
             def _in_era(se) -> bool:
                 ey = _parse_edge_year(se.edge.start)
                 if ey is None:
@@ -593,6 +689,7 @@ Return only the structured plan.
                 if ey is None:
                     return True
                 return era_min <= ey <= era_max
+
             filtered_pool = [se for se in scored_edges if _in_era(se)]
             # Only apply if it doesn't remove too many candidates
             if len(filtered_pool) >= 3:
@@ -656,9 +753,23 @@ Return only the structured plan.
         elif any(w in low_q for w in ("who", "whom", "whose")):
             # Try to add country/org context so small LLM picks the right person
             country_hint = ""
-            for kw in ["united states", "united kingdom", "uk", "france", "germany",
-                       "japan", "china", "russia", "india", "brazil", "canada",
-                       "apple", "google", "microsoft", "openai"]:
+            for kw in [
+                "united states",
+                "united kingdom",
+                "uk",
+                "france",
+                "germany",
+                "japan",
+                "china",
+                "russia",
+                "india",
+                "brazil",
+                "canada",
+                "apple",
+                "google",
+                "microsoft",
+                "openai",
+            ]:
                 if kw in question.lower():
                     country_hint = (
                         f" ONLY select edges that specifically mention '{kw}' in the source, "
@@ -796,8 +907,7 @@ Return only the structured plan.
         except (json.JSONDecodeError, ValueError):
             pass
 
-        return {"sufficient": True, "entities": [],
-                "stage2_prompt": prompt, "stage2_raw": raw}
+        return {"sufficient": True, "entities": [], "stage2_prompt": prompt, "stage2_raw": raw}
 
     # ── Main retrieval: 2-stage LLM-in-the-loop ───────────────────
 
@@ -846,15 +956,13 @@ Return only the structured plan.
         # Separate structural from factual edges
         # gold_fact edges are explicitly validated triples — treat equally with base
         factual = [
-            se for se in final_edges
+            se
+            for se in final_edges
             if se.edge.relation.lower() not in _DISPLAY_FILTER
             and se.edge.edge_type in ("base", "gold_fact")
         ]
         if not factual:
-            factual = [
-                se for se in final_edges
-                if se.edge.relation.lower() not in _DISPLAY_FILTER
-            ]
+            factual = [se for se in final_edges if se.edge.relation.lower() not in _DISPLAY_FILTER]
         display = factual if factual else final_edges
 
         # For ordering/comparison queries, balance evidence across plan entities
@@ -867,7 +975,8 @@ Return only the structured plan.
                 other_edges = []
                 for se in display:
                     lbl = (
-                        self.index.node_label(se.edge.source_uid) + " "
+                        self.index.node_label(se.edge.source_uid)
+                        + " "
                         + self.index.node_label(se.edge.target_uid)
                     ).lower()
                     matched = False
@@ -975,9 +1084,16 @@ Return only the structured plan.
         plan = dict(payload.get("plan") or {})
         question = str(payload.get("question") or "")
 
-        low_mem_mode = str(os.getenv("GRAPH_LOW_MEM_MODE", "0") or "0").strip().lower() in {"1", "true", "yes", "on"}
+        low_mem_mode = str(os.getenv("GRAPH_LOW_MEM_MODE", "0") or "0").strip().lower() in {
+            "1",
+            "true",
+            "yes",
+            "on",
+        }
         default_paraphrase = "0" if low_mem_mode else "1"
-        enable_paraphrase = str(os.getenv("GRAPH_ENABLE_PARAPHRASE", default_paraphrase) or default_paraphrase).strip().lower() in {"1", "true", "yes", "on"}
+        enable_paraphrase = str(
+            os.getenv("GRAPH_ENABLE_PARAPHRASE", default_paraphrase) or default_paraphrase
+        ).strip().lower() in {"1", "true", "yes", "on"}
 
         # ── Self-contained bypass ──────────────────────────────────────────────
         if plan.get("query_type") == "self_contained":
@@ -995,7 +1111,7 @@ Return only the structured plan.
             )
         else:
             sr = self.semantic_grounder.retrieve_subgraph(question, plan)
-        
+
         # Ground locations
         plan_locations = plan.get("locations") or []
         location_uids = set()
@@ -1026,19 +1142,17 @@ Return only the structured plan.
             _sem_scored = self.semantic_index.search(
                 question,
                 top_k=(24 if low_mem_mode else 60),
-                year=plan.get("year"), 
-                query_type=plan.get("query_type", "point_in_time")
+                year=plan.get("year"),
+                query_type=plan.get("query_type", "point_in_time"),
             )
             _RRF_K = 60  # Standard RRF smoothing constant
 
             # Build rank tables for both lists (rank is 1-indexed)
             _route_a_ranks: dict[str, int] = {
-                se.edge.edge_uid: i + 1
-                for i, se in enumerate(sr.scored_edges)
+                se.edge.edge_uid: i + 1 for i, se in enumerate(sr.scored_edges)
             }
             _route_b_ranks: dict[str, int] = {
-                se.edge.edge_uid: i + 1
-                for i, se in enumerate(_sem_scored)
+                se.edge.edge_uid: i + 1 for i, se in enumerate(_sem_scored)
             }
 
             # Collect all edge UIDs from both routes
@@ -1054,12 +1168,12 @@ Return only the structured plan.
                     _uid_to_edge[uid] = GroundingScoredEdge(edge=se.edge, score=se.score)
 
             CLUSTER_CAP = {
-                "state_at_time":    4,
-                "point_in_time":    4,
+                "state_at_time": 4,
+                "point_in_time": 4,
                 "first_occurrence": 6,
-                "ordering":         99,  # By-pass cluster cap to allow wide candidate pools
-                "node_path":        99,
-                "summary":          6,
+                "ordering": 99,  # By-pass cluster cap to allow wide candidate pools
+                "node_path": 99,
+                "summary": 6,
             }
             max_per_source = CLUSTER_CAP.get(plan.get("query_type", ""), 6)
 
@@ -1072,18 +1186,32 @@ Return only the structured plan.
 
             # Post-RRF Boosts
             RELATION_WHITELIST = {
-                "state_at_time": ["led_by", "head_of_state", "president_of", "governed_by", "served_as", "ruled_by"],
-                "first_occurrence": ["founded", "established", "launched", "premiered", "series_premiere", "introduced"],
+                "state_at_time": [
+                    "led_by",
+                    "head_of_state",
+                    "president_of",
+                    "governed_by",
+                    "served_as",
+                    "ruled_by",
+                ],
+                "first_occurrence": [
+                    "founded",
+                    "established",
+                    "launched",
+                    "premiered",
+                    "series_premiere",
+                    "introduced",
+                ],
             }
             whitelist = RELATION_WHITELIST.get(plan.get("query_type", ""))
 
             for uid, score in fused_scores.items():
                 edge = _uid_to_edge[uid].edge
-                
+
                 # Relation boost
                 if whitelist and edge.relation in whitelist:
                     fused_scores[uid] += 0.15
-                
+
                 # Location boost
                 if location_uids:
                     if edge.source_uid in location_uids or edge.target_uid in location_uids:
@@ -1092,9 +1220,10 @@ Return only the structured plan.
             # Sort and apply cluster cap
             sorted_uids = sorted(fused_scores, key=fused_scores.get, reverse=True)
             from collections import defaultdict
+
             source_counts = defaultdict(int)
             capped_uids = []
-            
+
             for uid in sorted_uids:
                 edge = _uid_to_edge[uid].edge
                 cluster_key = (edge.source_uid, edge.relation)
@@ -1104,7 +1233,7 @@ Return only the structured plan.
 
             # Build final scored edges with their newly boosted fused scores (scaling up for readability)
             sr.scored_edges = [
-                GroundingScoredEdge(edge=_uid_to_edge[uid].edge, score=fused_scores[uid] * 100.0) 
+                GroundingScoredEdge(edge=_uid_to_edge[uid].edge, score=fused_scores[uid] * 100.0)
                 for uid in capped_uids
             ]
         except Exception as e:
@@ -1157,8 +1286,7 @@ Return only the structured plan.
         # matches the relation hint.  Falls back to all candidates if < 5 survive.
         _raw_ents = plan.get("entities") or []
         plan_entities_raw: list[str] = [
-            e.get("name", "") if isinstance(e, dict) else str(e)
-            for e in _raw_ents
+            e.get("name", "") if isinstance(e, dict) else str(e) for e in _raw_ents
         ]
         rel_hint_raw: str = (plan.get("relation_hint") or "").lower().replace("_", " ")
         query_type = plan.get("query_type", "")
@@ -1185,12 +1313,12 @@ Return only the structured plan.
                 "- Drop entries that after cleaning are empty, generic, or shorter than 3 chars\n"
                 "- Output ONLY a JSON array of strings, no explanation\n\n"
                 "Examples:\n"
-                "Input: [\"Barack Obama president\", \"Donald Trump's\"]\n"
-                "Output: [\"Barack Obama\", \"Donald Trump\"]\n\n"
-                "Input: [\"COVID-19 pandemic\", \"release\", \"ChatGPT\"]\n"
-                "Output: [\"COVID-19\", \"ChatGPT\"]\n\n"
-                "Input: [\"Harry Potter book\", \"Harry Potter film\"]\n"
-                "Output: [\"Harry Potter\"]\n\n"
+                'Input: ["Barack Obama president", "Donald Trump\'s"]\n'
+                'Output: ["Barack Obama", "Donald Trump"]\n\n'
+                'Input: ["COVID-19 pandemic", "release", "ChatGPT"]\n'
+                'Output: ["COVID-19", "ChatGPT"]\n\n'
+                'Input: ["Harry Potter book", "Harry Potter film"]\n'
+                'Output: ["Harry Potter"]\n\n'
                 f"Input: {json.dumps(plan_entities_raw)}\n"
                 "Output:"
             )
@@ -1198,7 +1326,11 @@ Return only the structured plan.
                 _clean_raw = self._call_llm(_clean_prompt, max_tokens=120)
                 _clean_arr = json.loads(_clean_raw.strip())
                 if isinstance(_clean_arr, list) and _clean_arr:
-                    _cleaned = [str(x).strip() for x in _clean_arr if str(x).strip() and len(str(x).strip()) >= 3]
+                    _cleaned = [
+                        str(x).strip()
+                        for x in _clean_arr
+                        if str(x).strip() and len(str(x).strip()) >= 3
+                    ]
                     if _cleaned:
                         plan_entities_raw = _cleaned
             except Exception:
@@ -1237,39 +1369,41 @@ Return only the structured plan.
         # query_type already assigned above (before entity cleaning)
 
         _TITLE_WORD_RE = re.compile(
-            r'^(novel|book|poem|play|film|movie|song|album|game|series|show|'
-            r'olympics|olympic games|world cup|championship|ep|single)',
+            r"^(novel|book|poem|play|film|movie|song|album|game|series|show|"
+            r"olympics|olympic games|world cup|championship|ep|single)",
             re.IGNORECASE,
         )
         _WRITTEN_RE = re.compile(
-            r'\b(written|published|released|written by|based on)\b', re.IGNORECASE
+            r"\b(written|published|released|written by|based on)\b", re.IGNORECASE
         )
 
         def _is_title_year(text: str, m) -> bool:
             """Return True if this year match is a title label, not a temporal anchor."""
             if m is None:
                 return False
-            after = text[m.end():].strip()[:30]
-            before = text[:m.start()].strip()[-30:]
+            after = text[m.end() :].strip()[:30]
+            before = text[: m.start()].strip()[-30:]
             # Year immediately followed by a media/event descriptor → title
             if _TITLE_WORD_RE.match(after):
                 return True
             # Question is about when something was written/published and year looks like title
-            if _WRITTEN_RE.search(text) and (_TITLE_WORD_RE.search(before) or _TITLE_WORD_RE.search(after)):
+            if _WRITTEN_RE.search(text) and (
+                _TITLE_WORD_RE.search(before) or _TITLE_WORD_RE.search(after)
+            ):
                 return True
             return False
 
         if target_year is None:
             for _ent_str in plan_entities_raw:
-                _ym = re.search(r'\b(1\d{3}|2\d{3})\b', str(_ent_str))
+                _ym = re.search(r"\b(1\d{3}|2\d{3})\b", str(_ent_str))
                 if _ym:
                     # Re-find in question text for title-word proximity check
-                    _q_match = re.search(r'\b' + _ym.group(1) + r'\b', question)
+                    _q_match = re.search(r"\b" + _ym.group(1) + r"\b", question)
                     if not _is_title_year(question, _q_match or _ym):
                         target_year = int(_ym.group(1))
                     break
         if target_year is None:
-            _ym = re.search(r'\b(1\d{3}|2\d{3})\b', question)
+            _ym = re.search(r"\b(1\d{3}|2\d{3})\b", question)
             if _ym and not _is_title_year(question, _ym):
                 target_year = int(_ym.group(1))
 
@@ -1287,12 +1421,13 @@ Return only the structured plan.
             return False
 
         prefiltered = [
-            se for se in sr.scored_edges
-            if _edge_passes_prefilter(se) or _is_date_exact_match(se)
+            se for se in sr.scored_edges if _edge_passes_prefilter(se) or _is_date_exact_match(se)
         ]
         # Fallback: if filter is too aggressive, use all candidates
         # Always a mutable list so entity-rescue can append to it.
-        candidate_edges: list = list(prefiltered) if len(prefiltered) >= 3 else list(sr.scored_edges)
+        candidate_edges: list = (
+            list(prefiltered) if len(prefiltered) >= 3 else list(sr.scored_edges)
+        )
 
         # ── Entity coverage rescue ────────────────────────────────────────────
         # For each plan entity, count how many candidate edges mention it AND
@@ -1315,21 +1450,18 @@ Return only the structured plan.
             if not _rescue_ent or len(_rescue_ent) < 3:
                 continue
             _dated_count = sum(
-                1 for se in candidate_edges
+                1
+                for se in candidate_edges
                 if _edge_mentions_entity(se, _rescue_ent) and _has_date(se)
             )
             if _dated_count < 3:
                 # Re-query grounder focused on this entity
                 _injected = 0
                 try:
-                    _rescue_sr = self.semantic_grounder.retrieve_subgraph(
-                        _rescue_ent, plan
-                    )
-                    for _rse in sorted(_rescue_sr.scored_edges,
-                                       key=lambda x: (
-                                           0 if _has_date(x) else 1,
-                                           -x.score
-                                       )):
+                    _rescue_sr = self.semantic_grounder.retrieve_subgraph(_rescue_ent, plan)
+                    for _rse in sorted(
+                        _rescue_sr.scored_edges, key=lambda x: (0 if _has_date(x) else 1, -x.score)
+                    ):
                         if _injected >= 5:
                             break
                         if _rse.edge.edge_uid in _seen_uids:
@@ -1350,9 +1482,8 @@ Return only the structured plan.
                         _kw_node_uids = self.index.resolve_node_uids(_rescue_ent, max_hits=20)
                         _kw_injected = 0
                         for _kw_uid in _kw_node_uids:
-                            _kw_edges = (
-                                list(self.index.outgoing_edge_uids.get(_kw_uid, []))
-                                + list(self.index.incoming_edge_uids.get(_kw_uid, []))
+                            _kw_edges = list(self.index.outgoing_edge_uids.get(_kw_uid, [])) + list(
+                                self.index.incoming_edge_uids.get(_kw_uid, [])
                             )
                             for _kw_eid in _kw_edges:
                                 if _kw_injected >= 5:
@@ -1364,7 +1495,9 @@ Return only the structured plan.
                                     continue
                                 if _parse_edge_year(_kw_edge.start) is None:
                                     continue
-                                candidate_edges.append(GroundingScoredEdge(edge=_kw_edge, score=0.35))
+                                candidate_edges.append(
+                                    GroundingScoredEdge(edge=_kw_edge, score=0.35)
+                                )
                                 _seen_uids.add(_kw_eid)
                                 _kw_injected += 1
                             if _kw_injected >= 5:
@@ -1404,18 +1537,19 @@ Return only the structured plan.
             if e_start is not None:
                 dist = abs(e_start - target_year)
                 if dist == 0:
-                    return 0   # exact start == same priority as interval containment
+                    return 0  # exact start == same priority as interval containment
                 if dist <= 1:
-                    return 2   # near miss — worse than undated
-                return 9       # clearly wrong era
+                    return 2  # near miss — worse than undated
+                return 9  # clearly wrong era
             # No date: uncertain but keeps entity relevance — better than ±1 near miss
             return 1
 
         # ── Deduplicate candidate_edges after all rescue injections ─────────────
         import hashlib, unicodedata
+
         def _normalize_text(text):
             return unicodedata.normalize("NFKD", str(text)).lower().strip()
-            
+
         _dedup_seen: set[str] = set()
         _deduped: list = []
         for _dse in candidate_edges:
@@ -1425,7 +1559,7 @@ Return only the structured plan.
             tgt_lbl = self.index.node_label(_dse.edge.target_uid) or ""
             pseudo_text = f"{src_lbl} {_dse.edge.relation} {tgt_lbl}"
             h = hashlib.md5(_normalize_text(pseudo_text).encode()).hexdigest()
-            
+
             if h not in _dedup_seen:
                 _dedup_seen.add(h)
                 _deduped.append(_dse)
@@ -1450,23 +1584,28 @@ Return only the structured plan.
             return d
 
         debug_steps: list[dict] = []
-        debug_steps.append({
-            "step": 1,
-            "name": "grounding",
-            "plan_entities": plan_entities_raw,
-            "relation_hint": rel_hint_raw,
-            "target_year": target_year,
-            "query_type": query_type,
-            "node_hits": [
-                {"label": h.get("normalized_label"), "score": round(float(h.get("score", 0)), 4)}
-                for h in (grounding.get("node_hits") or [])[:8]
-            ],
-            "tag_hits": [
-                {"tag": h.get("normalized_tag"), "score": round(float(h.get("score", 0)), 4)}
-                for h in (grounding.get("tag_hits") or [])[:4]
-            ],
-            "raw_scored_edges_top5": [_edge_dict(se) for se in sr.scored_edges[:5]],
-        })
+        debug_steps.append(
+            {
+                "step": 1,
+                "name": "grounding",
+                "plan_entities": plan_entities_raw,
+                "relation_hint": rel_hint_raw,
+                "target_year": target_year,
+                "query_type": query_type,
+                "node_hits": [
+                    {
+                        "label": h.get("normalized_label"),
+                        "score": round(float(h.get("score", 0)), 4),
+                    }
+                    for h in (grounding.get("node_hits") or [])[:8]
+                ],
+                "tag_hits": [
+                    {"tag": h.get("normalized_tag"), "score": round(float(h.get("score", 0)), 4)}
+                    for h in (grounding.get("tag_hits") or [])[:4]
+                ],
+                "raw_scored_edges_top5": [_edge_dict(se) for se in sr.scored_edges[:5]],
+            }
+        )
         # Build per-entity prefilter breakdown for step 2
         _prefilter_by_entity: dict[str, list] = {}
         for _pse in prefiltered[:30]:
@@ -1475,20 +1614,29 @@ Return only the structured plan.
             for _pent in plan_entities_raw:
                 if _token_overlap(src_l, _pent) or _token_overlap(tgt_l, _pent):
                     _prefilter_by_entity.setdefault(_pent, []).append(
-                        {"src": src_l, "rel": _pse.edge.relation, "tgt": tgt_l,
-                         "start": _pse.edge.start, "end": _pse.edge.end}
+                        {
+                            "src": src_l,
+                            "rel": _pse.edge.relation,
+                            "tgt": tgt_l,
+                            "start": _pse.edge.start,
+                            "end": _pse.edge.end,
+                        }
                     )
                     break
-        debug_steps.append({
-            "step": 2,
-            "name": "candidate_pool",
-            "total_from_embedding": len(sr.scored_edges),
-            "after_entity_prefilter": len(prefiltered),
-            "after_rescue": len(candidate_edges),
-            "using_fallback": len(prefiltered) < 3,
-            "prefilter_by_entity": {ent: hits[:4] for ent, hits in _prefilter_by_entity.items()},
-            "top10_candidates": [_edge_dict(se) for se in candidate_edges[:10]],
-        })
+        debug_steps.append(
+            {
+                "step": 2,
+                "name": "candidate_pool",
+                "total_from_embedding": len(sr.scored_edges),
+                "after_entity_prefilter": len(prefiltered),
+                "after_rescue": len(candidate_edges),
+                "using_fallback": len(prefiltered) < 3,
+                "prefilter_by_entity": {
+                    ent: hits[:4] for ent, hits in _prefilter_by_entity.items()
+                },
+                "top10_candidates": [_edge_dict(se) for se in candidate_edges[:10]],
+            }
+        )
 
         stage1: Dict[str, Any]
         if query_type in _YR_LOOKUP_TYPES and target_year is not None:
@@ -1503,9 +1651,10 @@ Return only the structured plan.
             # Priority 1 = no date (entity-relevant but undated)
             # Priority 2 = ±1 near miss
             # Priority 9 = wrong era
-            
+
             def _apply_mmr(pool: list, top_n: int, lambda_val: float = 0.5) -> list:
-                if not pool: return []
+                if not pool:
+                    return []
                 pool_copy = list(pool)
                 selected = []
                 max_s = max(x[1].score for x in pool_copy)
@@ -1514,9 +1663,12 @@ Return only the structured plan.
 
                 def _sim(e1, e2) -> float:
                     s = 0.0
-                    if e1.relation == e2.relation: s += 0.4
-                    if e1.target_uid == e2.target_uid: s += 0.3
-                    if e1.source_uid == e2.source_uid: s += 0.3
+                    if e1.relation == e2.relation:
+                        s += 0.4
+                    if e1.target_uid == e2.target_uid:
+                        s += 0.3
+                    if e1.source_uid == e2.source_uid:
+                        s += 0.3
                     return s
 
                 for _ in range(min(top_n, len(pool_copy))):
@@ -1527,10 +1679,10 @@ Return only the structured plan.
                         max_sim = 0.0
                         if selected:
                             max_sim = max(_sim(cand[1].edge, sel[1].edge) for sel in selected)
-                        
+
                         mmr = lambda_val * ns - (1 - lambda_val) * max_sim
                         mmr -= _year_priority(cand[1]) * 10.0  # Heavily prioritize temporal bucket
-                        
+
                         if mmr > best_mmr:
                             best_mmr = mmr
                             best_idx = i
@@ -1539,11 +1691,11 @@ Return only the structured plan.
 
             # Adaptive MMR λ by query type:
             MMR_LAMBDA = {
-                "state_at_time":    0.65,
-                "point_in_time":    0.65,
+                "state_at_time": 0.65,
+                "point_in_time": 0.65,
                 "first_occurrence": 0.40,
-                "ordering":         0.40,
-                "summary":          0.40,
+                "ordering": 0.40,
+                "summary": 0.40,
             }
             _mmr_lambda = MMR_LAMBDA.get(query_type, 0.55)
             top_year = _apply_mmr(year_sorted, top_n=20, lambda_val=_mmr_lambda)
@@ -1555,19 +1707,21 @@ Return only the structured plan.
             _dbg_exact = sum(1 for _, se in year_sorted if _year_priority(se) == 0)
             _dbg_undated = sum(1 for _, se in year_sorted if _year_priority(se) == 1)
             _dbg_near = sum(1 for _, se in year_sorted if _year_priority(se) == 2)
-            debug_steps.append({
-                "step": 3,
-                "name": "year_priority_selection",
-                "target_year": target_year,
-                "exact_hits": _dbg_exact,
-                "undated_hits": _dbg_undated,
-                "near_miss_hits": _dbg_near,
-                "ranked_edges": [
-                    dict(_edge_dict(se), rank=rank + 1, selected=(idx in selected_idx_set))
-                    for rank, (idx, se) in enumerate(year_sorted[:15])
-                ],
-                "total_selected": len(top_year),
-            })
+            debug_steps.append(
+                {
+                    "step": 3,
+                    "name": "year_priority_selection",
+                    "target_year": target_year,
+                    "exact_hits": _dbg_exact,
+                    "undated_hits": _dbg_undated,
+                    "near_miss_hits": _dbg_near,
+                    "ranked_edges": [
+                        dict(_edge_dict(se), rank=rank + 1, selected=(idx in selected_idx_set))
+                        for rank, (idx, se) in enumerate(year_sorted[:15])
+                    ],
+                    "total_selected": len(top_year),
+                }
+            )
 
             stage1 = {
                 "selected_indices": sorted(selected_idx_set),
@@ -1587,7 +1741,8 @@ Return only the structured plan.
                 if not _ep_ent or len(_ep_ent) < 3:
                     continue
                 _ep_candidates = [
-                    se for se in candidate_edges
+                    se
+                    for se in candidate_edges
                     if _edge_mentions_entity(se, _ep_ent) and _has_date(se)
                 ]
                 _ep_candidates.sort(key=lambda x: -x.score)
@@ -1612,7 +1767,9 @@ Return only the structured plan.
             )
             _interleaved.extend(_remaining_sorted)
             stage1 = self._stage1_filter_edges(
-                question, _interleaved, sr.year,
+                question,
+                _interleaved,
+                sr.year,
                 query_type=query_type,
                 plan_entities=plan.get("entities") or [],
             )
@@ -1643,8 +1800,11 @@ Return only the structured plan.
                 if i >= len(candidate_edges):
                     continue
                 e = candidate_edges[i].edge
-                combo = (self.index.node_label(e.source_uid).lower() + " "
-                         + self.index.node_label(e.target_uid).lower())
+                combo = (
+                    self.index.node_label(e.source_uid).lower()
+                    + " "
+                    + self.index.node_label(e.target_uid).lower()
+                )
                 for ent in plan_entities_lc:
                     if _labels_cover(ent, combo):
                         covered.add(ent)
@@ -1684,7 +1844,10 @@ Return only the structured plan.
                 fill_budget = 4 - len(selected_idx_set)
                 ranked_fill = sorted(
                     range(len(candidate_edges)),
-                    key=lambda idx: (_year_priority(candidate_edges[idx]), -candidate_edges[idx].score),
+                    key=lambda idx: (
+                        _year_priority(candidate_edges[idx]),
+                        -candidate_edges[idx].score,
+                    ),
                 )
                 for i in ranked_fill:
                     if fill_budget <= 0:
@@ -1712,20 +1875,26 @@ Return only the structured plan.
 
         # Step 3b: record LLM stage1 selection details
         if not any(d["name"] == "year_priority_selection" for d in debug_steps):
-            debug_steps.append({
-                "step": 3,
-                "name": "llm_stage1_selection",
-                "interleaved_pool_top_k": [_edge_dict(se) for se in _interleaved[:30]],
-                "llm_picked_indices": sorted(llm_indices),
-                "safety_net_added": sorted(selected_idx_set - {_interleaved_to_orig.get(i, i) for i in llm_indices}),
-                "stage1_raw": stage1.get("stage1_raw"),
-            })
-        debug_steps.append({
-            "step": 4,
-            "name": "final_edges",
-            "count": len(filtered_edges),
-            "edges": [_edge_dict(se) for se in filtered_edges],
-        })
+            debug_steps.append(
+                {
+                    "step": 3,
+                    "name": "llm_stage1_selection",
+                    "interleaved_pool_top_k": [_edge_dict(se) for se in _interleaved[:30]],
+                    "llm_picked_indices": sorted(llm_indices),
+                    "safety_net_added": sorted(
+                        selected_idx_set - {_interleaved_to_orig.get(i, i) for i in llm_indices}
+                    ),
+                    "stage1_raw": stage1.get("stage1_raw"),
+                }
+            )
+        debug_steps.append(
+            {
+                "step": 4,
+                "name": "final_edges",
+                "count": len(filtered_edges),
+                "edges": [_edge_dict(se) for se in filtered_edges],
+            }
+        )
 
         # ── Optional continuation (Stage 2) ──
         continuation_info: Dict[str, Any] | None = None
@@ -1756,12 +1925,14 @@ Return only the structured plan.
         answer = self._build_answer_from_edges(question, plan, filtered_edges)
 
         # Step 5: answer
-        debug_steps.append({
-            "step": 5,
-            "name": "answer",
-            "answer_text": answer.answer_text,
-            "confidence": answer.confidence,
-        })
+        debug_steps.append(
+            {
+                "step": 5,
+                "name": "answer",
+                "answer_text": answer.answer_text,
+                "confidence": answer.confidence,
+            }
+        )
 
         return {
             "question": payload.get("question", ""),

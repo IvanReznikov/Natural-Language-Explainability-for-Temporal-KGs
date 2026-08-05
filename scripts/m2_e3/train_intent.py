@@ -5,8 +5,12 @@ from typing import List
 
 import numpy as np
 from datasets import Dataset
-from transformers import (AutoModelForSequenceClassification, AutoTokenizer,
-                          Trainer, TrainingArguments)
+from transformers import (
+    AutoModelForSequenceClassification,
+    AutoTokenizer,
+    Trainer,
+    TrainingArguments,
+)
 
 
 def load_jsonl(path: Path):
@@ -49,9 +53,13 @@ def compute_metrics_builder(threshold: float = 0.5):
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--splits-dir", type=Path, default=Path("experiments/m2_e3_parse/data/splits"))
+    parser.add_argument(
+        "--splits-dir", type=Path, default=Path("experiments/m2_e3_parse/data/splits")
+    )
     parser.add_argument("--model-name", type=str, default="microsoft/MiniLM-L6-v2")
-    parser.add_argument("--output-dir", type=Path, default=Path("experiments/m2_e3_parse/artifacts/intent"))
+    parser.add_argument(
+        "--output-dir", type=Path, default=Path("experiments/m2_e3_parse/artifacts/intent")
+    )
     parser.add_argument("--num-epochs", type=int, default=3)
     parser.add_argument("--batch-size", type=int, default=8)
     parser.add_argument("--lr", type=float, default=5e-5)
@@ -71,7 +79,9 @@ def main() -> None:
     val_ds = prepare_dataset(args.splits_dir / "val.jsonl", labels)
 
     def tokenize(batch):
-        enc = tokenizer(batch["text"], padding="max_length", truncation=True, max_length=args.max_length)
+        enc = tokenizer(
+            batch["text"], padding="max_length", truncation=True, max_length=args.max_length
+        )
         enc["labels"] = batch["label_vec"]
         return enc
 

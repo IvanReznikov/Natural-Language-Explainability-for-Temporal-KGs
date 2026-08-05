@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Run Milestone 2 experiment scripts with sensible defaults and skips."""
+
 from __future__ import annotations
 
 import argparse
@@ -7,7 +8,6 @@ import os
 import subprocess
 import sys
 from pathlib import Path
-
 
 ROOT = Path(__file__).resolve().parents[1]
 TARGET_DIR = ROOT / "experiments"
@@ -41,7 +41,7 @@ def is_runnable_script(path: Path) -> bool:
     if path.name.startswith("run_all_"):
         return False
     text = path.read_text(encoding="utf-8", errors="ignore")
-    return "if __name__ == \"__main__\":" in text or "if __name__ == '__main__':" in text
+    return 'if __name__ == "__main__":' in text or "if __name__ == '__main__':" in text
 
 
 def discover_scripts() -> list[Path]:
@@ -52,7 +52,10 @@ def discover_scripts() -> list[Path]:
         for path in sorted(exp_dir.rglob("*.py")):
             if is_runnable_script(path):
                 scripts.append(path)
-    return sorted(scripts, key=lambda path: (ORDER.get(path.relative_to(ROOT).as_posix(), 999), path.as_posix()))
+    return sorted(
+        scripts,
+        key=lambda path: (ORDER.get(path.relative_to(ROOT).as_posix(), 999), path.as_posix()),
+    )
 
 
 def latest_output_file(pattern: str) -> Path | None:
@@ -137,7 +140,12 @@ def script_config(script: Path) -> dict:
         else:
             cfg["args"] = ["--text", "Revenue grew 12 percent year over year."]
     elif rel.endswith("m2_e5_trace_meta_query/generate_trace_corpus.py"):
-        cfg["args"] = ["--count", "50", "--output", "output/m2_e5_trace_meta_query/small_traces.jsonl"]
+        cfg["args"] = [
+            "--count",
+            "50",
+            "--output",
+            "output/m2_e5_trace_meta_query/small_traces.jsonl",
+        ]
     elif rel.endswith("m2_e5_trace_meta_query/meta_query_cli.py"):
         cfg["args"] = ["output/m2_e5_trace_meta_query/small_traces.jsonl", "list-rules"]
     elif rel.endswith("m2_e7_harness/run_e2e.py"):
@@ -160,7 +168,9 @@ def run_scripts(scripts: list[Path], list_only: bool = False, fail_fast: bool = 
     skipped = []
     env = os.environ.copy()
     current_pythonpath = env.get("PYTHONPATH", "")
-    env["PYTHONPATH"] = f"{ROOT}{os.pathsep}{current_pythonpath}" if current_pythonpath else str(ROOT)
+    env["PYTHONPATH"] = (
+        f"{ROOT}{os.pathsep}{current_pythonpath}" if current_pythonpath else str(ROOT)
+    )
 
     for script in scripts:
         rel = script.relative_to(ROOT)

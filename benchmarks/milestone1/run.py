@@ -6,6 +6,7 @@ Benchmarks:
 - Flesch readability score computation speed
 - TMS belief store insert/query throughput
 """
+
 from __future__ import annotations
 import time
 from pathlib import Path
@@ -53,7 +54,12 @@ def bench_flesch_score() -> dict:
     for _ in range(N):
         calculate_flesch_score(text)
     elapsed = time.perf_counter() - t0
-    return {"benchmark": "flesch_score", "n": N, "total_sec": elapsed, "per_item_ms": elapsed / N * 1000}
+    return {
+        "benchmark": "flesch_score",
+        "n": N,
+        "total_sec": elapsed,
+        "per_item_ms": elapsed / N * 1000,
+    }
 
 
 def bench_tms_belief_store() -> dict:

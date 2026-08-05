@@ -1,5 +1,6 @@
 ﻿#!/usr/bin/env python3
 """End-to-end demo: trigger -> store queries -> reify results -> mark stale."""
+
 from __future__ import annotations
 
 from pathlib import Path
@@ -28,10 +29,15 @@ def main():
             "dependencies": ["temperature_fact"],
         }
 
-    rules = [TriggerRule("r_high_temp", "High fever triggers treatment query", pred_high_temp, factory)]
+    rules = [
+        TriggerRule("r_high_temp", "High fever triggers treatment query", pred_high_temp, factory)
+    ]
     engine = TriggerEngine(store)
 
-    ctxs = [TriggerContext("c1", {"temperature": 102}, {}), TriggerContext("c2", {"temperature": 99}, {})]
+    ctxs = [
+        TriggerContext("c1", {"temperature": 102}, {}),
+        TriggerContext("c2", {"temperature": 99}, {}),
+    ]
 
     triggered_all = []
     for ctx in ctxs:
@@ -52,15 +58,16 @@ def main():
     # Simulate KB change
     stale = rstore.mark_stale_by_facts({"temperature_fact"})
 
-    print({
-        "triggered": triggered_all,
-        "stale_results": [r.result_id for r in stale],
-        "active_results": [r.result_id for r in rstore.active_results()],
-        "query_file": str(q_path),
-        "result_file": str(r_path),
-    })
+    print(
+        {
+            "triggered": triggered_all,
+            "stale_results": [r.result_id for r in stale],
+            "active_results": [r.result_id for r in rstore.active_results()],
+            "query_file": str(q_path),
+            "result_file": str(r_path),
+        }
+    )
 
 
 if __name__ == "__main__":
     main()
-

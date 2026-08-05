@@ -37,12 +37,7 @@ def main() -> None:
 
     scored: List[Dict] = []
     for row in sample_rows:
-        prediction = (
-            row.get("gold_answer")
-            or row.get("answer")
-            or row.get("query")
-            or ""
-        )
+        prediction = row.get("gold_answer") or row.get("answer") or row.get("query") or ""
         scored.append(evaluator.evaluate_example(row, str(prediction)))
 
     summary = aggregate_by_bucket(scored)

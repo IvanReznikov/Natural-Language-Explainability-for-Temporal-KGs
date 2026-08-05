@@ -24,6 +24,7 @@ Usage
     # Force rules-only (no model needed)
     python examples/milestone2/m2_e2e_demo.py --rules-only
 """
+
 from __future__ import annotations
 
 import argparse
@@ -57,10 +58,10 @@ from experiments.m2_e3_parse.run_parse import (  # noqa: E402
 from temporal_nlg.tms.trace import TraceRecorder  # noqa: E402
 from temporal_nlg.tms.trace_explain import TraceJustifier  # noqa: E402
 
-
 # ──────────────────────────────────────────────────────────────────────────────
 # Formatting helpers
 # ──────────────────────────────────────────────────────────────────────────────
+
 
 def _banner(title: str) -> None:
     line = "=" * 78
@@ -83,6 +84,7 @@ def _tag(source: str) -> str:
 # Real TMS trace execution
 # ──────────────────────────────────────────────────────────────────────────────
 
+
 def _execute_canonical_query_with_trace(
     qid: str,
     canonical_query: str,
@@ -102,7 +104,9 @@ def _execute_canonical_query_with_trace(
     # Derive intent label for rule selection
     intent = (pred_intents or ["unknown"])[0]
 
-    with recorder.session(qid, meta={"canonical_query": canonical_query, "intent": intent}) as trace:
+    with recorder.session(
+        qid, meta={"canonical_query": canonical_query, "intent": intent}
+    ) as trace:
 
         # Rule 1 — always fires: validate that the canonical query is non-empty
         recorder.record_rule_firing(
@@ -249,6 +253,7 @@ def _execute_canonical_query_with_trace(
 # Main demo
 # ──────────────────────────────────────────────────────────────────────────────
 
+
 def run_demo(
     query_text: str,
     qid: str,
@@ -258,7 +263,7 @@ def run_demo(
     rules_only: bool,
 ) -> None:
     """Run one query through the full pipeline and print results."""
-    _banner(f"Query: {qid}  — \"{query_text}\"")
+    _banner(f'Query: {qid}  — "{query_text}"')
 
     # ── Step 1: Frame Parsing ─────────────────────────────────────────────────
     row = {"id": qid, "text": query_text}
@@ -333,11 +338,14 @@ def main() -> None:
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
     ap.add_argument(
-        "--query", type=str, default=None,
+        "--query",
+        type=str,
+        default=None,
         help="Custom NL query to parse (overrides built-in samples)",
     )
     ap.add_argument(
-        "--rules-only", action="store_true",
+        "--rules-only",
+        action="store_true",
         help="Skip Qwen model; use rule-based parser only",
     )
     ap.add_argument(
@@ -391,11 +399,11 @@ def main() -> None:
         queries = [{"id": "user_q", "text": args.query}]
     else:
         queries = [
-            {"id": "demo_point",    "text": "When was the Eiffel Tower built?"},
-            {"id": "demo_causal",   "text": "Did the network partition cause the service outage?"},
-            {"id": "demo_agg",      "text": "Total revenue for Q3 2023 in North America"},
+            {"id": "demo_point", "text": "When was the Eiffel Tower built?"},
+            {"id": "demo_causal", "text": "Did the network partition cause the service outage?"},
+            {"id": "demo_agg", "text": "Total revenue for Q3 2023 in North America"},
             {"id": "demo_interval", "text": "Show bounce rate from 2020 to 2022"},
-            {"id": "demo_seq",      "text": "Why did latency rise after the patch?"},
+            {"id": "demo_seq", "text": "Why did latency rise after the patch?"},
         ]
 
     print()

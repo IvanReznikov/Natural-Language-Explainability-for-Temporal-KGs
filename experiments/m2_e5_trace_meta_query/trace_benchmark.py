@@ -5,6 +5,7 @@ Measures instrumentation overhead per recorded rule firing and the overall
 trace size for synthetic workloads. Intended to keep us under the target
 <5ms overhead and <1MB/trace budget.
 """
+
 from __future__ import annotations
 
 import argparse
@@ -68,7 +69,9 @@ def main():
     parser.add_argument("--traces", type=int, default=1000)
     parser.add_argument("--rules", type=int, default=3)
     parser.add_argument("--seed", type=int, default=1234)
-    parser.add_argument("--output", type=str, default="output/m2_e5_trace_meta_query/trace_bench.txt")
+    parser.add_argument(
+        "--output", type=str, default="output/m2_e5_trace_meta_query/trace_bench.txt"
+    )
     args = parser.parse_args()
 
     metrics = run_benchmark(args.traces, args.rules, args.seed)
@@ -83,4 +86,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

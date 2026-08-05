@@ -48,7 +48,12 @@ def _load_style_predictions(path: Optional[Path]) -> Dict[Tuple[str, str], str]:
         style = obj.get("style")
         if not rid or not style:
             continue
-        text = obj.get("prediction") or obj.get("generated_text") or obj.get("output") or obj.get("text")
+        text = (
+            obj.get("prediction")
+            or obj.get("generated_text")
+            or obj.get("output")
+            or obj.get("text")
+        )
         if text is None:
             continue
         preds[(str(rid), str(style))] = str(text)
@@ -287,9 +292,17 @@ def _score_from_explanations(path: Path, embed_model: str) -> List[CoherenceScor
                 CoherenceScore(
                     scenario_id=sid,
                     style=style,
-                    semantic_consistency=sum(vals["semantic"]) / len(vals["semantic"]) if vals["semantic"] else None,
-                    narrative_consistency=sum(vals["narrative"]) / len(vals["narrative"]) if vals["narrative"] else None,
-                    logical_consistency=sum(vals["logical"]) / len(vals["logical"]) if vals["logical"] else None,
+                    semantic_consistency=(
+                        sum(vals["semantic"]) / len(vals["semantic"]) if vals["semantic"] else None
+                    ),
+                    narrative_consistency=(
+                        sum(vals["narrative"]) / len(vals["narrative"])
+                        if vals["narrative"]
+                        else None
+                    ),
+                    logical_consistency=(
+                        sum(vals["logical"]) / len(vals["logical"]) if vals["logical"] else None
+                    ),
                 )
             )
 
@@ -322,7 +335,9 @@ def main() -> None:
 
     ap_exp = sub.add_parser("export")
     ap_exp.add_argument("--dataset", type=str, required=True)
-    ap_exp.add_argument("--predictions", type=str, default=None, help="JSONL with {id, style, prediction}")
+    ap_exp.add_argument(
+        "--predictions", type=str, default=None, help="JSONL with {id, style, prediction}"
+    )
     ap_exp.add_argument("--styles", type=str, default=None, help="Comma-separated style list")
     ap_exp.add_argument("--output-dir", type=str, required=True)
     ap_exp.add_argument("--n-scenarios", type=int, default=100)

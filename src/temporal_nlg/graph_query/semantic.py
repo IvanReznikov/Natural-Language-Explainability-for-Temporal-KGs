@@ -17,6 +17,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 # If rank_bm25 is not installed, we fall back to TF-IDF transparently.
 try:
     from rank_bm25 import BM25Okapi as _BM25
+
     _BM25_AVAILABLE = True
 except ImportError:
     _BM25_AVAILABLE = False
@@ -56,9 +57,7 @@ class EdgeSemanticIndex:
         self.index = index
         # Explicit model name takes priority over env var
         self._embed_model_name = (
-            embed_model_name
-            or os.getenv("LOCAL_EMBEDDING_MODEL_NAME")
-            or "qwen_embedding"
+            embed_model_name or os.getenv("LOCAL_EMBEDDING_MODEL_NAME") or "qwen_embedding"
         )
         self.strict_no_fallback = _is_truthy(os.getenv("GRAPH_STRICT_NO_FALLBACK"))
         self.backend = (os.getenv("GRAPH_RETRIEVAL_BACKEND") or "").strip().lower()
@@ -70,8 +69,15 @@ class EdgeSemanticIndex:
             # Prefer Qwen local embedding if model name is set; otherwise TF-IDF.
             self.backend = "qwen_local" if os.getenv("LOCAL_EMBEDDING_MODEL_NAME") else "tfidf"
 
-        low_mem_mode = str(os.getenv("GRAPH_LOW_MEM_MODE", "0") or "0").strip().lower() in {"1", "true", "yes", "on"}
-        disable_edge_dense = str(os.getenv("GRAPH_DISABLE_EDGE_DENSE", "1" if low_mem_mode else "0") or "0").strip().lower() in {"1", "true", "yes", "on"}
+        low_mem_mode = str(os.getenv("GRAPH_LOW_MEM_MODE", "0") or "0").strip().lower() in {
+            "1",
+            "true",
+            "yes",
+            "on",
+        }
+        disable_edge_dense = str(
+            os.getenv("GRAPH_DISABLE_EDGE_DENSE", "1" if low_mem_mode else "0") or "0"
+        ).strip().lower() in {"1", "true", "yes", "on"}
         if disable_edge_dense and self.backend in {"qwen_server", "qwen_local"}:
             if self.strict_no_fallback:
                 raise RuntimeError(
@@ -81,10 +87,7 @@ class EdgeSemanticIndex:
             self.backend = "tfidf"
 
         self.qwen_server_url = (
-            embed_server_url
-            or os.getenv("QWEN_EMBED_URL")
-            or os.getenv("QWEN_SERVER_URL")
-            or ""
+            embed_server_url or os.getenv("QWEN_EMBED_URL") or os.getenv("QWEN_SERVER_URL") or ""
         ).rstrip("/")
         if self.backend == "qwen_server" and not self.qwen_server_url:
             if self.strict_no_fallback:
@@ -245,7 +248,9 @@ class EdgeSemanticIndex:
         except Exception:
             return None
 
-    def _embed_with_server(self, texts: Sequence[str], is_query: bool = False) -> Optional[np.ndarray]:
+    def _embed_with_server(
+        self, texts: Sequence[str], is_query: bool = False
+    ) -> Optional[np.ndarray]:
         if not self.qwen_server_url:
             return None
 
@@ -361,7 +366,7 @@ class EdgeSemanticIndex:
                 qvec = self._embed_with_server([query or ""], is_query=True)
             else:
                 qvec = self._embed_with_local([query or ""], is_query=True)
-            
+
             if qvec is not None and len(qvec) == 1:
                 dense_scores = cosine_similarity(qvec, self._dense_matrix)[0]
                 scores += dense_scores * dense_w

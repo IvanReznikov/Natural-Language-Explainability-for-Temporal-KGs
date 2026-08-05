@@ -1,4 +1,5 @@
 """Query storage with lightweight persistence and size guardrails (M2-E6)."""
+
 from __future__ import annotations
 
 import json
@@ -61,7 +62,15 @@ class QueryStore:
         if self.path:
             self._append_line(payload)
 
-    def upsert(self, query_id: str, text: str, intent: str, meta: Optional[Dict[str, Any]] = None, dependencies: Optional[List[str]] = None, user_id: Optional[str] = None) -> QueryRecord:
+    def upsert(
+        self,
+        query_id: str,
+        text: str,
+        intent: str,
+        meta: Optional[Dict[str, Any]] = None,
+        dependencies: Optional[List[str]] = None,
+        user_id: Optional[str] = None,
+    ) -> QueryRecord:
         rec = QueryRecord(
             query_id=query_id,
             text=text,

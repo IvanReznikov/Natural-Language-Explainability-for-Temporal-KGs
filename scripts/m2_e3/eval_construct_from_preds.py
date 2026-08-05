@@ -36,7 +36,6 @@ from typing import Dict, List
 # Windows console fix done in main block
 
 
-
 # ---------------------------------------------------------------------------
 # Repo path setup
 # ---------------------------------------------------------------------------
@@ -49,10 +48,10 @@ from experiments.m2_e3_construct.run_construct import (  # noqa: E402
     build_mappings_for_row,
 )
 
-
 # ---------------------------------------------------------------------------
 # Helpers
 # ---------------------------------------------------------------------------
+
 
 def _load_jsonl(path: Path) -> List[Dict]:
     rows = []
@@ -83,6 +82,7 @@ def _canonical_query_type(cq: str) -> str:
     m = re.match(r"([A-Z]+)\(", cq or "")
     return m.group(1) if m else "UNKNOWN"
 
+
 def _normalize_slot(val: str) -> str:
     """Normalise a single slot value for comparison: lowercase, strip determiners, snake_case."""
     val = val.lower().strip()
@@ -105,22 +105,53 @@ def _slots_match(pred_val: str, gold_val: str) -> bool:
         return True
     if not p_norm or not g_norm:
         return False
-        
+
     stop_words = {
-        "the", "a", "an", "of", "in", "on", "at", "by", "for", "with", "about", "to", "from", "and", "or",
-        "signing", "signed", "built", "founded", "launched", "opened", "invented", "completed", "declared",
-        "announced", "established", "occur", "happen", "start", "end", "begin", "finish", "take", "place"
+        "the",
+        "a",
+        "an",
+        "of",
+        "in",
+        "on",
+        "at",
+        "by",
+        "for",
+        "with",
+        "about",
+        "to",
+        "from",
+        "and",
+        "or",
+        "signing",
+        "signed",
+        "built",
+        "founded",
+        "launched",
+        "opened",
+        "invented",
+        "completed",
+        "declared",
+        "announced",
+        "established",
+        "occur",
+        "happen",
+        "start",
+        "end",
+        "begin",
+        "finish",
+        "take",
+        "place",
     }
     p_words = {w for w in p_norm.split("_") if w not in stop_words}
     g_words = {w for w in g_norm.split("_") if w not in stop_words}
-    
+
     if not p_words or not g_words:
         return p_norm == g_norm
-        
+
     intersection = p_words.intersection(g_words)
     if intersection == p_words or intersection == g_words:
         return True
-        
+
     jaccard = len(intersection) / len(p_words.union(g_words))
     return jaccard >= 0.5
 
@@ -131,10 +162,10 @@ def _lenient_cq_match(pred_cq: str, gold_cq: str) -> bool:
     gold_type = _canonical_query_type(gold_cq)
     if pred_type != gold_type:
         return False
-        
+
     pred_slots = _extract_slots(pred_cq)
     gold_slots = _extract_slots(gold_cq)
-    
+
     # We want to match all gold slots (except 'date' in POINT queries)
     for k, g_val in gold_slots.items():
         if gold_type == "POINT" and k == "date":
@@ -142,7 +173,7 @@ def _lenient_cq_match(pred_cq: str, gold_cq: str) -> bool:
         p_val = pred_slots.get(k, "")
         if not _slots_match(p_val, g_val):
             return False
-            
+
     return True
 
 
@@ -173,9 +204,9 @@ def evaluate(preds_path: Path, gold_path: Path) -> None:
         sys.exit(1)
 
     # Evaluate
-    per_intent: Dict[str, Dict] = defaultdict(lambda: {
-        "exact": 0, "lenient": 0, "wrong_type": 0, "no_gold": 0, "total": 0
-    })
+    per_intent: Dict[str, Dict] = defaultdict(
+        lambda: {"exact": 0, "lenient": 0, "wrong_type": 0, "no_gold": 0, "total": 0}
+    )
     failures: List[Dict] = []
     total = exact = lenient = 0
 
@@ -202,12 +233,11 @@ def evaluate(preds_path: Path, gold_path: Path) -> None:
         total += 1
         per_intent[gold_intent]["total"] += 1
 
-        is_exact = (predicted_cq.strip() == gold_cq.strip())
-        is_lenient = (
-            _normalize_cq(predicted_cq) == _normalize_cq(gold_cq)
-            or _lenient_cq_match(predicted_cq, gold_cq)
+        is_exact = predicted_cq.strip() == gold_cq.strip()
+        is_lenient = _normalize_cq(predicted_cq) == _normalize_cq(gold_cq) or _lenient_cq_match(
+            predicted_cq, gold_cq
         )
-        wrong_type = (_canonical_query_type(predicted_cq) != _canonical_query_type(gold_cq))
+        wrong_type = _canonical_query_type(predicted_cq) != _canonical_query_type(gold_cq)
 
         if is_exact:
             exact += 1
@@ -220,16 +250,18 @@ def evaluate(preds_path: Path, gold_path: Path) -> None:
         else:
             if wrong_type:
                 per_intent[gold_intent]["wrong_type"] += 1
-            failures.append({
-                "id": qid,
-                "text": pred.get("text", ""),
-                "gold_intent": gold_intent,
-                "pred_intent": (pred_intents or ["?"])[0],
-                "pred_frame": pred_frame,
-                "gold_cq": gold_cq,
-                "pred_cq": predicted_cq,
-                "wrong_type": wrong_type,
-            })
+            failures.append(
+                {
+                    "id": qid,
+                    "text": pred.get("text", ""),
+                    "gold_intent": gold_intent,
+                    "pred_intent": (pred_intents or ["?"])[0],
+                    "pred_frame": pred_frame,
+                    "gold_cq": gold_cq,
+                    "pred_cq": predicted_cq,
+                    "wrong_type": wrong_type,
+                }
+            )
 
     # ---------------------------------------------------------------------------
     # Print results
@@ -246,14 +278,18 @@ def evaluate(preds_path: Path, gold_path: Path) -> None:
     print()
 
     # Per-intent table
-    print(f"  {'Intent':<16}  {'Exact':>6}  {'Lenient':>7}  {'WrongType':>9}  {'Total':>6}  {'Exact%':>7}  {'Lenient%':>8}")
+    print(
+        f"  {'Intent':<16}  {'Exact':>6}  {'Lenient':>7}  {'WrongType':>9}  {'Total':>6}  {'Exact%':>7}  {'Lenient%':>8}"
+    )
     print("  " + "-" * 64)
     for intent, s in sorted(per_intent.items()):
         n = s["total"]
         ep = 100 * s["exact"] / max(n, 1)
         lp = 100 * s["lenient"] / max(n, 1)
         mark = "  ✓" if ep >= 70 else "  ✗"
-        print(f"  {intent:<16}  {s['exact']:>6}  {s['lenient']:>7}  {s['wrong_type']:>9}  {n:>6}  {ep:>6.1f}%{mark}  {lp:>7.1f}%")
+        print(
+            f"  {intent:<16}  {s['exact']:>6}  {s['lenient']:>7}  {s['wrong_type']:>9}  {n:>6}  {ep:>6.1f}%{mark}  {lp:>7.1f}%"
+        )
     print(divider)
 
     # Failure examples
@@ -303,4 +339,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

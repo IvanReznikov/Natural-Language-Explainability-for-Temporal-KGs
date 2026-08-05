@@ -21,7 +21,12 @@ def test_parse_row_fallback_when_validation_errors(monkeypatch, causal_row):
     dummy_bundle = object()
 
     def fake_predict_parser(_bundle, _text):
-        return {"spans": [], "frame": {"cause": "", "effect": ""}, "intent_labels": ["causal"], "raw": "{}"}
+        return {
+            "spans": [],
+            "frame": {"cause": "", "effect": ""},
+            "intent_labels": ["causal"],
+            "raw": "{}",
+        }
 
     def fake_validate(pred):
         if pred.get("source") == "model-parser":

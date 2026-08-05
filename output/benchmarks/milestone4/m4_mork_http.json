@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "mork_server_url": "http://127.0.0.1:8000",
+    "python_version": "3.11.9",
+    "hyperon_version": "0.2.10",
+    "caveat": "Asymmetric by design: MORK rows measure raw atomspace upload/export (no Python ops can run on MORK); hyperon rows measure full MeTTa parse+eval+FFI round-trips."
+  },
+  "mork_http": {
+    "export_query_ms": {
+      "n": 50,
+      "mean_ms": 10.220992001704872,
+      "p50_ms": 8.434400020632893,
+      "p95_ms": 19.33359995018691,
+      "min_ms": 6.823299976531416,
+      "max_ms": 21.705000021029264
+    },
+    "single_edge_upload_ms": {
+      "n": 50,
+      "mean_ms": 7.291648000245914,
+      "p50_ms": 6.529200007207692,
+      "p95_ms": 13.19960004184395,
+      "min_ms": 5.342299991752952,
+      "max_ms": 25.522599986288697
+    },
+    "batch_upload": {
+      "edges": 100,
+      "elapsed_s": 0.015080999990459532,
+      "edges_per_sec": 6630.860026739706
+    }
+  },
+  "hyperon_eval": {
+    "simple_grounded_op_eval_ms": {
+      "n": 30,
+      "mean_ms": 1.5771933268600453,
+      "p50_ms": 1.4816999901086092,
+      "p95_ms": 2.7907000039704144,
+      "min_ms": 1.0402000043541193,
+      "max_ms": 2.8350999928079545
+    },
+    "nlg_fact_template_eval_ms": {
+      "n": 30,
+      "mean_ms": 5.1190733327530324,
+      "p50_ms": 4.979899968020618,
+      "p95_ms": 7.033400004729629,
+      "min_ms": 3.5058000357821584,
+      "max_ms": 7.981100003235042
+    }
+  }
+}

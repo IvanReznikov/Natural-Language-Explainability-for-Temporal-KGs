@@ -32,28 +32,90 @@ def main() -> None:
     # Demonstrate package-level aggregators with minimal typed rows.
     eff_summary = aggregate_efficiency(
         [
-            EfficiencyRun(scenario_id="s1", method="template", complexity_level=1, latency_ms=4.2, quality_proxy=0.84),
-            EfficiencyRun(scenario_id="s2", method="template", complexity_level=2, latency_ms=5.0, quality_proxy=0.82),
-            EfficiencyRun(scenario_id="s3", method="llm", complexity_level=4, latency_ms=920.0, quality_proxy=0.90),
+            EfficiencyRun(
+                scenario_id="s1",
+                method="template",
+                complexity_level=1,
+                latency_ms=4.2,
+                quality_proxy=0.84,
+            ),
+            EfficiencyRun(
+                scenario_id="s2",
+                method="template",
+                complexity_level=2,
+                latency_ms=5.0,
+                quality_proxy=0.82,
+            ),
+            EfficiencyRun(
+                scenario_id="s3",
+                method="llm",
+                complexity_level=4,
+                latency_ms=920.0,
+                quality_proxy=0.90,
+            ),
         ]
     )
     cons_summary = aggregate_consistency(
         [
-            ConsistencyResult(revision_id="r1", method="template", update_accuracy=0.88, contradiction_detected=True, coherence_rating_1_5=4.2, resolution_time_sec=2.1),
-            ConsistencyResult(revision_id="r2", method="llm", update_accuracy=0.93, contradiction_detected=True, coherence_rating_1_5=4.5, resolution_time_sec=5.8),
+            ConsistencyResult(
+                revision_id="r1",
+                method="template",
+                update_accuracy=0.88,
+                contradiction_detected=True,
+                coherence_rating_1_5=4.2,
+                resolution_time_sec=2.1,
+            ),
+            ConsistencyResult(
+                revision_id="r2",
+                method="llm",
+                update_accuracy=0.93,
+                contradiction_detected=True,
+                coherence_rating_1_5=4.5,
+                resolution_time_sec=5.8,
+            ),
         ]
     )
     coh_summary = aggregate_coherence(
         [
-            CoherenceScore(scenario_id="c1", style="structured_narrative", semantic_consistency=0.84, narrative_consistency=0.82, logical_consistency=0.93),
-            CoherenceScore(scenario_id="c2", style="timeline_plus_text", semantic_consistency=0.86, narrative_consistency=0.80, logical_consistency=0.95),
+            CoherenceScore(
+                scenario_id="c1",
+                style="structured_narrative",
+                semantic_consistency=0.84,
+                narrative_consistency=0.82,
+                logical_consistency=0.93,
+            ),
+            CoherenceScore(
+                scenario_id="c2",
+                style="timeline_plus_text",
+                semantic_consistency=0.86,
+                narrative_consistency=0.80,
+                logical_consistency=0.95,
+            ),
         ]
     )
     gran_summary = aggregate_granularity(
         [
-            GranularityVariant(scenario_id="g1", granularity="days", text="Example A", quality_score=0.83, length_chars=140),
-            GranularityVariant(scenario_id="g1", granularity="months", text="Example B", quality_score=0.81, length_chars=130),
-            GranularityVariant(scenario_id="g1", granularity="years", text="Example C", quality_score=0.79, length_chars=118),
+            GranularityVariant(
+                scenario_id="g1",
+                granularity="days",
+                text="Example A",
+                quality_score=0.83,
+                length_chars=140,
+            ),
+            GranularityVariant(
+                scenario_id="g1",
+                granularity="months",
+                text="Example B",
+                quality_score=0.81,
+                length_chars=130,
+            ),
+            GranularityVariant(
+                scenario_id="g1",
+                granularity="years",
+                text="Example C",
+                quality_score=0.79,
+                length_chars=118,
+            ),
         ]
     )
 

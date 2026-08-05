@@ -34,7 +34,9 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--model-dir", type=Path, required=True)
     parser.add_argument("--text", type=str, default=None, help="Single text to parse")
-    parser.add_argument("--file", type=Path, default=None, help="Optional jsonl with {'text': ...} rows")
+    parser.add_argument(
+        "--file", type=Path, default=None, help="Optional jsonl with {'text': ...} rows"
+    )
     parser.add_argument("--max-new-tokens", type=int, default=256)
     args = parser.parse_args()
 

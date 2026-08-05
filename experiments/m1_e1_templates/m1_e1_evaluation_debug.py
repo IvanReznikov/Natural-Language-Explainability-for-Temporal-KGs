@@ -44,10 +44,7 @@ def analyze_renders(results_dir: str) -> None:
     # Show worst renders (low Flesch)
     print("❌ WORST 10 RENDERS (Lowest Flesch Scores)")
     print("-" * 100)
-    print(
-        f"{'Type':<20} {'Template':<25} {'Flesch':<8} "
-        f"{'Words':<6} {'Output':<40}"
-    )
+    print(f"{'Type':<20} {'Template':<25} {'Flesch':<8} " f"{'Words':<6} {'Output':<40}")
     print("-" * 100)
 
     for i, render in enumerate(renders_sorted[:10], 1):
@@ -68,10 +65,7 @@ def analyze_renders(results_dir: str) -> None:
     # Show best renders (high Flesch)
     print("BEST 10 RENDERS (Highest Flesch Scores)")
     print("-" * 100)
-    print(
-        f"{'Type':<20} {'Template':<25} {'Flesch':<8} "
-        f"{'Words':<6} {'Output':<40}"
-    )
+    print(f"{'Type':<20} {'Template':<25} {'Flesch':<8} " f"{'Words':<6} {'Output':<40}")
     print("-" * 100)
 
     for i, render in enumerate(renders_sorted[-10:], 1):
@@ -101,11 +95,11 @@ def analyze_renders(results_dir: str) -> None:
     for template_type in sorted(by_type.keys()):
         renders_of_type = by_type[template_type]
         flesch_scores = [
-            r.get("flesch_score", 0.0) for r in renders_of_type
-            if r.get("success", False)
+            r.get("flesch_score", 0.0) for r in renders_of_type if r.get("success", False)
         ]
         word_counts = [
-            len(r.get("rendered_output", "").split()) for r in renders_of_type
+            len(r.get("rendered_output", "").split())
+            for r in renders_of_type
             if r.get("success", False)
         ]
 
@@ -122,10 +116,7 @@ def analyze_renders(results_dir: str) -> None:
 
         print(f"\n{template_type}:")
         print(f"  Renders: {success_count} successful, {fail_count} failed")
-        print(
-            f"  Flesch: avg={avg_flesch:.1f}, min={min_flesch:.1f}, "
-            f"max={max_flesch:.1f}"
-        )
+        print(f"  Flesch: avg={avg_flesch:.1f}, min={min_flesch:.1f}, " f"max={max_flesch:.1f}")
         print(f"  Avg words per render: {avg_words:.1f}")
         print("  Sample outputs:")
 
@@ -176,32 +167,22 @@ def analyze_renders(results_dir: str) -> None:
         print("\nNot enough successful renders to analyze.\n")
         return
 
-    worst_subset = sorted(
-        successful, key=lambda x: x.get("flesch_score", 0.0)
-    )[:100]
-    best_subset = sorted(
-        successful, key=lambda x: x.get("flesch_score", 0.0)
-    )[-100:]
+    worst_subset = sorted(successful, key=lambda x: x.get("flesch_score", 0.0))[:100]
+    best_subset = sorted(successful, key=lambda x: x.get("flesch_score", 0.0))[-100:]
 
     worst_words = (
-        sum(len(r.get("rendered_output", "").split()) for r in worst_subset)
-        / len(worst_subset)
+        sum(len(r.get("rendered_output", "").split()) for r in worst_subset) / len(worst_subset)
         if worst_subset
         else 0
     )
     best_words = (
-        sum(len(r.get("rendered_output", "").split()) for r in best_subset)
-        / len(best_subset)
+        sum(len(r.get("rendered_output", "").split()) for r in best_subset) / len(best_subset)
         if best_subset
         else 0
     )
 
-    worst_flesch = sum(r.get("flesch_score", 0.0) for r in worst_subset) / len(
-        worst_subset
-    )
-    best_flesch = sum(r.get("flesch_score", 0.0) for r in best_subset) / len(
-        best_subset
-    )
+    worst_flesch = sum(r.get("flesch_score", 0.0) for r in worst_subset) / len(worst_subset)
+    best_flesch = sum(r.get("flesch_score", 0.0) for r in best_subset) / len(best_subset)
 
     print(f"""
 The difference between LOW and HIGH Flesch renders is CONTENT LENGTH:
@@ -230,10 +211,7 @@ if __name__ == "__main__":
         print("Usage: python m1_e1_evaluation_debug.py <results_dir>")
         print()
         print("Example:")
-        print(
-            "  python m1_e1_evaluation_debug.py "
-            "output/m1_e1_templates/20251213_232903"
-        )
+        print("  python m1_e1_evaluation_debug.py " "output/m1_e1_templates/20251213_232903")
         sys.exit(1)
 
     results_dir_arg = sys.argv[1]

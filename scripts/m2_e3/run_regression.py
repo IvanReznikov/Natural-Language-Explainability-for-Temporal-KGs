@@ -24,6 +24,7 @@ Output
   Prints a per-example pass/fail table with expected vs. actual canonical query.
   Exits with code 0 if all tests pass, 1 if any fail.
 """
+
 from __future__ import annotations
 
 import argparse
@@ -55,8 +56,8 @@ from experiments.m2_e3_parse.run_parse import (
 
 from scripts.m2_e3.eval_construct_from_preds import _lenient_cq_match
 
-
 # ── CQ evaluation ──────────────────────────────────────────────────────────────
+
 
 def _eval_cq(pred_cq: str, gold_cq: str) -> tuple[bool, bool]:
     """Return (exact_match, lenient_match)."""
@@ -66,31 +67,40 @@ def _eval_cq(pred_cq: str, gold_cq: str) -> tuple[bool, bool]:
 
 
 def _intent_ok(pred: Dict, gold: Dict) -> bool:
-    pred_i = (pred.get("intent_labels") or [])
+    pred_i = pred.get("intent_labels") or []
     gold_i = gold.get("intent_labels") or []
     # Primary intent must match
     return bool(pred_i) and bool(gold_i) and pred_i[0] == gold_i[0]
 
 
-
 # ── Main ───────────────────────────────────────────────────────────────────────
 
+
 def main() -> None:
-    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--regression-data",
-                    type=Path,
-                    default=ROOT / "experiments" / "m2_e3_parse" / "data" / "regression_set.jsonl",
-                    help="Path to regression JSONL file")
-    ap.add_argument("--gold",
-                    type=Path,
-                    default=ROOT / "experiments" / "m2_e3_parse" / "data" / "temporal_queries_merged.jsonl",
-                    help="Gold JSONL for entity mapping normalisation")
-    ap.add_argument("--adapter-dir",
-                    type=Path,
-                    default=ROOT / "experiments" / "m2_e3_parse" / "artifacts" / "qwen_parser_lora",
-                    help="Qwen LoRA adapter directory")
-    ap.add_argument("--rules-only", action="store_true",
-                    help="Skip Qwen model; use rule-based parser only")
+    ap = argparse.ArgumentParser(
+        description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
+    )
+    ap.add_argument(
+        "--regression-data",
+        type=Path,
+        default=ROOT / "experiments" / "m2_e3_parse" / "data" / "regression_set.jsonl",
+        help="Path to regression JSONL file",
+    )
+    ap.add_argument(
+        "--gold",
+        type=Path,
+        default=ROOT / "experiments" / "m2_e3_parse" / "data" / "temporal_queries_merged.jsonl",
+        help="Gold JSONL for entity mapping normalisation",
+    )
+    ap.add_argument(
+        "--adapter-dir",
+        type=Path,
+        default=ROOT / "experiments" / "m2_e3_parse" / "artifacts" / "qwen_parser_lora",
+        help="Qwen LoRA adapter directory",
+    )
+    ap.add_argument(
+        "--rules-only", action="store_true", help="Skip Qwen model; use rule-based parser only"
+    )
     args = ap.parse_args()
 
     regression_path = args.regression_data.resolve()
@@ -167,10 +177,10 @@ def main() -> None:
         exact, lenient = _eval_cq(pred_cq, gold_cq)
 
         def _trunc(s: str, w: int = col_w) -> str:
-            return (s[:w - 1] + "…") if len(s) > w else s
+            return (s[: w - 1] + "…") if len(s) > w else s
 
         intent_sym = "✓" if intent_match else "✗"
-        exact_sym  = "✓" if exact  else "✗"
+        exact_sym = "✓" if exact else "✗"
         lenient_sym = "✓" if lenient else "✗"
 
         print(
@@ -178,21 +188,23 @@ def main() -> None:
             f"{_trunc(pred_cq):<{col_w}} {_trunc(gold_cq):<{col_w}}"
         )
 
-        results.append({
-            "id": qid,
-            "category": category,
-            "intent_ok": intent_match,
-            "exact": exact,
-            "lenient": lenient,
-            "pred_cq": pred_cq,
-            "gold_cq": gold_cq,
-            "note": row.get("note", ""),
-        })
+        results.append(
+            {
+                "id": qid,
+                "category": category,
+                "intent_ok": intent_match,
+                "exact": exact,
+                "lenient": lenient,
+                "pred_cq": pred_cq,
+                "gold_cq": gold_cq,
+                "note": row.get("note", ""),
+            }
+        )
 
     # ── Summary ───────────────────────────────────────────────────────────────
     n = len(results)
-    n_intent  = sum(1 for r in results if r["intent_ok"])
-    n_exact   = sum(1 for r in results if r["exact"])
+    n_intent = sum(1 for r in results if r["intent_ok"])
+    n_exact = sum(1 for r in results if r["exact"])
     n_lenient = sum(1 for r in results if r["lenient"])
 
     print(sep)
@@ -215,7 +227,9 @@ def main() -> None:
         ni = sum(1 for r in rows if r["intent_ok"])
         ne = sum(1 for r in rows if r["exact"])
         nl = sum(1 for r in rows if r["lenient"])
-        print(f"  {cat:<12}  {ni}/{len(rows):>2}       {ne}/{len(rows):>2}       {nl}/{len(rows):>2}        {len(rows)}")
+        print(
+            f"  {cat:<12}  {ni}/{len(rows):>2}       {ne}/{len(rows):>2}       {nl}/{len(rows):>2}        {len(rows)}"
+        )
 
     # Failures
     failures = [r for r in results if not r["lenient"]]

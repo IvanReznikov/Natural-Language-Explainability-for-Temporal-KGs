@@ -1,4 +1,4 @@
-﻿# Temporal NLG API Documentation
+# Temporal NLG API Documentation
 
 ## Overview
 
@@ -29,7 +29,7 @@ from temporal_nlg.models import HybridGenerator
 # Create temporal fact
 fact = TemporalFact(
     fact_type=TemplateType.POINT_IN_TIME,
-    event="birth",
+    event="was born",
     entity="Albert Einstein",
     date="1879"
 )
@@ -65,8 +65,9 @@ Represents a temporal fact to be verbalized.
 **Example:**
 ```python
 fact = TemporalFact(
-    fact_type=TemplateType.INTERVALS,
+    fact_type=TemplateType.INTERVAL,
     entity="World War II",
+    event="lasted",
     start_date="1939",
     end_date="1945"
 )
@@ -75,10 +76,10 @@ fact = TemporalFact(
 #### `TemplateType` (Enum)
 Supported temporal relationship types:
 - `POINT_IN_TIME` - Single timestamp events
-- `INTERVALS` - Time-bounded periods
-- `SEQUENCES` - Ordered event chains
+- `INTERVAL` - Time-bounded periods
+- `SEQUENCE` - Ordered event chains
 - `CAUSALITY` - Causal relationships
-- `OVERLAPS` - Concurrent events
+- `OVERLAP` - Concurrent events
 
 #### `TemplateRenderer`
 Renders temporal facts using templates.

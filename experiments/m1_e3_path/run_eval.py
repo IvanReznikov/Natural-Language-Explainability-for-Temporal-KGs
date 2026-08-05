@@ -36,16 +36,26 @@ def load_or_create_samples(path: Path):
             ],
         ),
     ]
-    path.write_text(json.dumps([{
-        "id": s.path_id,
-        "steps": [step.__dict__ for step in s.steps],
-    } for s in samples], indent=2))
+    path.write_text(
+        json.dumps(
+            [
+                {
+                    "id": s.path_id,
+                    "steps": [step.__dict__ for step in s.steps],
+                }
+                for s in samples
+            ],
+            indent=2,
+        )
+    )
     return samples
 
 
 def main():
     parser = argparse.ArgumentParser(description="Path-to-narrative evaluation")
-    parser.add_argument("--input", default="experiments/m1_e3_path/sample_paths.json", help="Path JSON file")
+    parser.add_argument(
+        "--input", default="experiments/m1_e3_path/sample_paths.json", help="Path JSON file"
+    )
     parser.add_argument("--output", default="output/m1_e3_path", help="Output directory")
     args = parser.parse_args()
 

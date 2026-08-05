@@ -14,7 +14,9 @@ def build_prompt(instruction: str, input_text: str | None) -> str:
     """Format prompt to mirror train-time fields."""
     instruction = instruction.strip()
     if input_text and input_text.strip():
-        return f"### Instruction:\n{instruction}\n\n### Input:\n{input_text.strip()}\n\n### Output:\n"
+        return (
+            f"### Instruction:\n{instruction}\n\n### Input:\n{input_text.strip()}\n\n### Output:\n"
+        )
     return f"### Instruction:\n{instruction}\n\n### Output:\n"
 
 
@@ -43,12 +45,16 @@ def load_model_and_tokenizer(
 
     try:
         tokenizer = AutoTokenizer.from_pretrained(base_model, trust_remote_code=True)
-        model = AutoModelForCausalLM.from_pretrained(base_model, trust_remote_code=True, **model_kwargs)
+        model = AutoModelForCausalLM.from_pretrained(
+            base_model, trust_remote_code=True, **model_kwargs
+        )
     except ImportError as exc:
         if "LossKwargs" not in str(exc):
             raise
         tokenizer = AutoTokenizer.from_pretrained(base_model, trust_remote_code=False)
-        model = AutoModelForCausalLM.from_pretrained(base_model, trust_remote_code=False, **model_kwargs)
+        model = AutoModelForCausalLM.from_pretrained(
+            base_model, trust_remote_code=False, **model_kwargs
+        )
 
     adapter_value = (adapter_path or "").strip()
     if adapter_value and adapter_value.lower() not in {"none", "merged"}:

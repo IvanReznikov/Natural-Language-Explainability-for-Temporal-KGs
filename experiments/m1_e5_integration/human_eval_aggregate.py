@@ -7,6 +7,7 @@ Usage:
 
 Outputs a JSON summary alongside the input with mean scores and pass rates.
 """
+
 from __future__ import annotations
 
 import csv
@@ -38,7 +39,8 @@ def load_rows(path: Path) -> List[EvalRow]:
                         clarity=float(row.get("clarity_score_1to5", 0) or 0),
                         accuracy=float(row.get("accuracy_score_1to5", 0) or 0),
                         naturalness=float(row.get("naturalness_score_1to5", 0) or 0),
-                        uncertain=str(row.get("uncertain_flag", "")).lower() in {"1", "true", "yes", "y"},
+                        uncertain=str(row.get("uncertain_flag", "")).lower()
+                        in {"1", "true", "yes", "y"},
                     )
                 )
             except ValueError:

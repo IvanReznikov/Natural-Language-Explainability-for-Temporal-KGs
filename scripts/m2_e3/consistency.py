@@ -1,7 +1,6 @@
 import re
 from typing import Dict, List
 
-
 YEAR_RE = re.compile(r"^(?:19|20)\d{2}$")
 QUARTER_RE = re.compile(r"^(?:19|20)\d{2}-Q[1-4]$")
 

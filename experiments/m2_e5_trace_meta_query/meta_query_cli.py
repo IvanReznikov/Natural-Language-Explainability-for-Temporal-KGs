@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """CLI for meta-queries over M2-E5 trace JSONL files."""
+
 from __future__ import annotations
 
 import argparse
