@@ -1,10 +1,11 @@
 ﻿# Explainability for Temporal Graphs
 
-Research framework for temporal graph explainability with three delivered milestones:
+Research framework for temporal graph explainability with four delivered milestones:
 
 - M1: temporal NLG generation and evaluation
 - M2: query understanding, parsing, traceability, and trigger/store infrastructure
 - M3: temporal graph retrieval and end-to-end QA benchmarking
+- M4: MeTTa/MORK integration for explainable temporal inference
 
 ## Getting Started
 
@@ -54,11 +55,13 @@ From the repo root:
 python examples/run_all_m1_examples.py
 python examples/run_all_m2_examples.py
 python examples/run_all_m3_examples.py
+python examples/milestone4/run_all.py
 
 # Benchmarks (all milestones)
 python benchmarks/milestone1/run.py
 python benchmarks/milestone2/run.py
 python benchmarks/milestone3/run.py
+python benchmarks/milestone4/run.py
 
 # Experiments (all milestones)
 python experiments/run_all_m1_experiments.py
@@ -82,9 +85,11 @@ Notes:
 - [docs/RESULTS_M1.md](docs/RESULTS_M1.md)
 - [docs/RESULTS_M2.md](docs/RESULTS_M2.md)
 - [docs/RESULTS_M3.md](docs/RESULTS_M3.md)
+- [docs/RESULTS_M4.md](docs/RESULTS_M4.md)
 - [docs/TECH_DOCUMENTATION_M1.md](docs/TECH_DOCUMENTATION_M1.md)
 - [docs/TECH_DOCUMENTATION_M2.md](docs/TECH_DOCUMENTATION_M2.md)
 - [docs/TECH_DOCUMENTATION_M3.md](docs/TECH_DOCUMENTATION_M3.md)
+- [docs/TECH_DOCUMENTATION_M4.md](docs/TECH_DOCUMENTATION_M4.md)
 - [docs/ADDITIONAL_M1.md](docs/ADDITIONAL_M1.md)
 - [docs/ADDITIONAL_M2.md](docs/ADDITIONAL_M2.md)
 - [docs/ADDITIONAL_M3.md](docs/ADDITIONAL_M3.md)
